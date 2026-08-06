@@ -1,0 +1,77 @@
+"""Reviewed hard and helpful candidate relationship specifications."""
+
+
+REQUIRED_LINKS = [
+    (
+        "lesson_candidate.locate_names_places_and_times_in_slow_recordings",
+        "lesson_candidate.relay_predictable_person_time_or_place_details",
+        "Literal identification is necessary before the same predictable details can be relayed accurately.",
+    ),
+    (
+        "lesson_candidate.follow_slow_spoken_route_directions",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "Understanding a basic spoken route is necessary for a valid two-way wayfinding exchange.",
+    ),
+    (
+        "lesson_candidate.identify_a_price_in_slow_spoken_service_information",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "Recognising the stated price is necessary to complete the intended cost-and-quantity transaction.",
+    ),
+    (
+        "lesson_candidate.complete_a_simple_information_form",
+        "lesson_candidate.complete_a_very_simple_online_purchase_or_application",
+        "Basic form completion is necessary before the same information task adds an online transaction layer.",
+    ),
+    (
+        "lesson_candidate.understand_common_signs_notices_and_visual_instructions",
+        "lesson_candidate.convey_simple_information_from_a_sign_or_notice",
+        "The source sign or notice must first be understood before its practical detail can be mediated.",
+    ),
+]
+
+
+HELPFUL_LINKS = [
+    ("lesson_candidate.understand_spoken_personal_introductions", "lesson_candidate.give_short_self_introduction", "Noticing a short introduction provides a useful input model for independent production."),
+    ("lesson_candidate.give_short_self_introduction", "lesson_candidate.exchange_personal_details_orally", "A controlled self-introduction usefully reduces the production load in a later exchange."),
+    ("lesson_candidate.locate_written_personal_details", "lesson_candidate.complete_a_simple_information_form", "Locating personal details usefully prepares the transfer of those details into labelled fields."),
+    ("lesson_candidate.give_short_self_introduction", "lesson_candidate.write_short_personal_profile", "The familiar personal-content set can usefully transfer from short speech to writing."),
+    ("lesson_candidate.write_short_personal_profile", "lesson_candidate.exchange_personal_details_in_writing", "Short profile production usefully prepares the same details for a reciprocal written exchange."),
+    ("lesson_candidate.understand_a_short_simple_postcard_message", "lesson_candidate.write_a_short_message_to_a_friend", "A short correspondence input usefully precedes an independent friend-message response."),
+    ("lesson_candidate.use_basic_everyday_polite_forms", "lesson_candidate.open_and_close_a_basic_social_exchange", "Basic polite forms support the social purposes within a complete greeting-and-closing exchange."),
+    ("lesson_candidate.use_basic_everyday_polite_forms", "lesson_candidate.respond_politely_to_an_introduction", "The general polite-form repertoire supports the specific introduction response."),
+    ("lesson_candidate.open_and_close_a_basic_social_exchange", "lesson_candidate.introduce_another_person", "A bounded social opening usefully supplies the interaction frame for introducing someone."),
+    ("lesson_candidate.understand_talk_about_people_and_family", "lesson_candidate.describe_a_family_or_known_person", "Receptive family facts provide useful input before a short independent description."),
+    ("lesson_candidate.understand_talk_about_people_and_family", "lesson_candidate.exchange_information_about_family_and_friends", "Recognising basic family facts usefully reduces the listening load in the reciprocal exchange."),
+    ("lesson_candidate.write_short_personal_profile", "lesson_candidate.write_simple_people_profile_cards", "A personal profile usefully transfers to short factual profiles of other people."),
+    ("lesson_candidate.understand_a_short_everyday_activity_text", "lesson_candidate.describe_a_simple_everyday_routine", "Reading a bounded activity sequence provides useful preparation for producing a fresh routine."),
+    ("lesson_candidate.understand_talk_about_leisure_preferences_and_abilities", "lesson_candidate.give_a_simple_leisure_profile", "Recognising leisure preferences and abilities usefully precedes producing the same content."),
+    ("lesson_candidate.understand_talk_about_leisure_preferences_and_abilities", "lesson_candidate.exchange_routine_and_preference_information", "Receptive control of preference language usefully reduces the listening load in an exchange."),
+    ("lesson_candidate.identify_spoken_time_and_date_details", "lesson_candidate.give_an_event_date_and_time", "Accurate reception of dates and times usefully precedes producing them in scheduling."),
+    ("lesson_candidate.identify_spoken_time_and_date_details", "lesson_candidate.write_schedule_dates_and_times", "Accurate reception of dates and times supports their later written representation."),
+    ("lesson_candidate.describe_a_simple_everyday_routine", "lesson_candidate.write_simple_life_and_routine_sentences", "A short oral routine usefully prepares the same sequence for independent writing."),
+    ("lesson_candidate.give_a_simple_leisure_profile", "lesson_candidate.write_a_short_hobbies_and_likes_post", "A bounded leisure profile usefully prepares a short written post with similar content."),
+    ("lesson_candidate.understand_where_things_or_people_are", "lesson_candidate.describe_people_and_object_locations_orally", "Understanding basic positions usefully precedes producing fresh location statements."),
+    ("lesson_candidate.match_visual_descriptions_to_familiar_things", "lesson_candidate.describe_a_familiar_object_orally", "Matching visible features usefully precedes producing a fresh object description."),
+    ("lesson_candidate.describe_a_familiar_object_orally", "lesson_candidate.exchange_visible_object_information", "A short object description usefully reduces production load in a visual information gap."),
+    ("lesson_candidate.describe_a_familiar_object_orally", "lesson_candidate.write_a_simple_object_description", "The same visible-feature content can usefully transfer from speech to writing."),
+    ("lesson_candidate.understand_where_things_or_people_are", "lesson_candidate.write_a_simple_room_description", "Receptive position language usefully precedes a written room-and-location description."),
+    ("lesson_candidate.introduce_another_person", "lesson_candidate.deliver_a_rehearsed_formal_introduction", "An interpersonal introduction usefully precedes the more supported audience-delivery variant."),
+    ("lesson_candidate.follow_slow_spoken_route_directions", "lesson_candidate.follow_simple_directions_from_an_interlocutor", "Recorded route following usefully prepares the same comprehension under live-turn conditions."),
+    ("lesson_candidate.understand_simple_place_and_hotel_information", "lesson_candidate.check_in_at_a_hotel", "Recognising basic hotel details usefully prepares the predictable check-in exchange."),
+    ("lesson_candidate.follow_a_slow_everyday_service_exchange", "lesson_candidate.ask_for_basic_food_or_drink", "Understanding a model service need-and-response pattern usefully precedes requesting an item."),
+    ("lesson_candidate.follow_a_slow_everyday_service_exchange", "lesson_candidate.ask_for_and_give_an_everyday_item", "Receptive control of the service pattern usefully precedes a reciprocal item exchange."),
+    ("lesson_candidate.follow_a_slow_everyday_service_exchange", "lesson_candidate.exchange_information_about_an_immediate_need", "A familiar need-and-response pattern usefully prepares a new immediate-need exchange."),
+    ("lesson_candidate.follow_a_slow_everyday_service_exchange", "lesson_candidate.ask_for_basic_practical_help", "Recognising a basic service response usefully prepares a direct request for practical help."),
+    ("lesson_candidate.follow_a_slow_everyday_service_exchange", "lesson_candidate.describe_a_simple_problem_to_a_health_professional", "A bounded service exchange usefully prepares the turn pattern of a basic health interaction."),
+    ("lesson_candidate.understand_common_signs_notices_and_visual_instructions", "lesson_candidate.give_a_rough_oral_translation_of_everyday_sign_words", "Understanding the practical sign context usefully constrains a rough oral translation."),
+    ("lesson_candidate.open_and_close_a_basic_social_exchange", "lesson_candidate.react_politely_to_a_simple_online_post", "Basic social reaction language usefully transfers to a short online response."),
+    ("lesson_candidate.understand_spoken_contact_details", "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech", "Accurate name-and-number reception usefully prepares the corresponding written relay variant."),
+    ("lesson_candidate.identify_a_price_in_slow_spoken_service_information", "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech", "Accurate spoken-price reception usefully prepares the corresponding written relay variant."),
+    ("lesson_candidate.use_basic_everyday_polite_forms", "lesson_candidate.agree_to_a_simple_request", "The general polite-form repertoire supports a suitable fixed request response."),
+    ("lesson_candidate.use_basic_everyday_polite_forms", "lesson_candidate.accept_a_simple_offer", "The general polite-form repertoire supports a suitable fixed offer response."),
+    ("lesson_candidate.open_and_close_a_basic_social_exchange", "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement", "A basic social reaction repertoire usefully precedes a sympathetic response to a problem."),
+    ("lesson_candidate.follow_simple_game_or_activity_instructions", "lesson_candidate.invite_input_and_check_understanding_in_a_simple_task", "Experience following a bounded task usefully precedes facilitating understanding within one."),
+    ("lesson_candidate.open_and_close_a_basic_social_exchange", "lesson_candidate.show_interest_and_welcome_an_idea", "Basic reaction turns usefully prepare a short interest-and-welcome response."),
+    ("lesson_candidate.invite_input_and_check_understanding_in_a_simple_task", "lesson_candidate.share_an_idea_and_ask_what_others_think", "Inviting participation usefully prepares the reciprocal prompt in a simple discussion."),
+    ("lesson_candidate.show_interest_and_welcome_an_idea", "lesson_candidate.share_an_idea_and_ask_what_others_think", "Welcoming another idea usefully prepares a balanced idea-sharing exchange."),
+]

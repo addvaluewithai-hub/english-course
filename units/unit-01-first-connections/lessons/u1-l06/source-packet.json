@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "unit_id": "a1.unit01.first_connections.v0",
+  "lesson_id": "U1-L06",
+  "candidate_id": "lesson_candidate.complete_a_simple_information_form",
+  "source_map": "data/reviewed/a1-lesson-map.json",
+  "candidate_version": 4,
+  "candidate_status": "approved_candidate",
+  "outcome": {
+    "situation": "a simple unfamiliar registration, contact, or travel form",
+    "observable_action": "complete the required personal or travel-information fields",
+    "essential_content": "a bounded set of personal details, dates, numbers, and simple travel details",
+    "independence": "with clear field labels but without a completed example",
+    "success_condition": "the form contains usable information in the correct fields",
+    "statement": "In a fresh simple information form, the learner can enter required personal or travel details accurately without a completed model."
+  },
+  "evidence_refs": [
+    {
+      "record_id": "gse.adult.2022.p37.001",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "c0c77d07f2ddf94451392c9109d56833ce20e41f5ee5470ae98280d80c54ece5",
+      "role": "anchor",
+      "coverage": "full",
+      "interpretation_note": "The objective directly anchors completing a simple personal-details form."
+    },
+    {
+      "record_id": "cefr.cv2020.p084.notes_messages_and_forms.01",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 84,
+        "page_end": 84,
+        "printed_page": "84",
+        "section": "Notes, messages and forms"
+      },
+      "source_text_sha256": "5725feced6eb255a46ed4da20d297ead994311aa1128e3bfcff2733a3cf3c379",
+      "role": "supporting",
+      "coverage": "full",
+      "interpretation_note": "The merged candidate covers the descriptor's personal, date, arrival, and hotel-registration fields in one form-completion performance."
+    },
+    {
+      "record_id": "gse.adult.2022.p37.011",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "e5e467e53a89d7a71b6a14fd3f67fdf6536af585fb41a3d6363f54031e6a135c",
+      "role": "anchor",
+      "coverage": "full",
+      "interpretation_note": "The objective directly anchors completing a simple form requiring travel information."
+    }
+  ],
+  "skill_codes": [
+    "reading",
+    "writing"
+  ],
+  "mode_codes": [
+    "production"
+  ],
+  "relationships": {
+    "required_before": [],
+    "helpful_before": [
+      {
+        "candidate_id": "lesson_candidate.locate_written_personal_details",
+        "rationale": "Locating personal details usefully prepares the transfer of those details into labelled fields.",
+        "evidence_record_ids": [
+          "gse.adult.2022.p09.009",
+          "gse.adult.2022.p37.001"
+        ]
+      }
+    ],
+    "successors": [
+      {
+        "candidate_id": "lesson_candidate.complete_a_very_simple_online_purchase_or_application",
+        "rationale": "Basic form completion is necessary before the same information task adds an online transaction layer.",
+        "evidence_record_ids": [
+          "gse.adult.2022.p37.001",
+          "cefr.cv2020.p087.goal_oriented_online_transactions_and_collaboration.01"
+        ]
+      }
+    ],
+    "concurrent_support": [
+      {
+        "support_id": "support.basic_language_control",
+        "rationale": "Basic A1 language control accompanies the fresh performance.",
+        "evidence_record_ids": [
+          "cefr.cv2020.p131.general_linguistic_range.01",
+          "cefr.cv2020.p132.grammatical_accuracy.01",
+          "cefr.cv2020.p136.orthographic_control.02"
+        ]
+      },
+      {
+        "support_id": "support.receptive_processing",
+        "rationale": "Slow, supported reception and meaning inference accompanies this source-input or output channel.",
+        "evidence_record_ids": [
+          "gse.adult.2022.p09.007",
+          "gse.adult.2022.p09.011",
+          "gse.adult.2022.p09.014",
+          "cefr.cv2020.p054.overall_reading_comprehension.01",
+          "cefr.cv2020.p057.reading_for_information_and_argument.01",
+          "cefr.cv2020.p060.identifying_cues_and_inferring_spoken_signed_and.01",
+          "cefr.cv2020.p060.identifying_cues_and_inferring_spoken_signed_and.02"
+        ]
+      },
+      {
+        "support_id": "support.number_processing",
+        "rationale": "Recognition of common cardinal numbers accompanies this source-input or output channel.",
+        "evidence_record_ids": [
+          "gse.adult.2022.p09.001"
+        ]
+      },
+      {
+        "support_id": "support.written_form_control",
+        "rationale": "Basic written form, copying, punctuation, and connection accompanies this source-input or output channel.",
+        "evidence_record_ids": [
+          "gse.adult.2022.p37.003",
+          "gse.adult.2022.p37.006",
+          "gse.adult.2022.p37.009",
+          "cefr.cv2020.p066.overall_written_production.02",
+          "cefr.cv2020.p101.processing_text_in_writing.02",
+          "cefr.cv2020.p136.orthographic_control.03",
+          "cefr.cv2020.p141.coherence_and_cohesion.01"
+        ]
+      }
+    ]
+  },
+  "language_targets": {
+    "grammar": [],
+    "vocabulary": [
+      {
+        "target": "Common personal, date, address, nationality, and travel-form labels",
+        "purpose": "match each required field to the correct value",
+        "evidence_refs": [
+          {
+            "record_id": "gse.adult.2022.p37.001",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 37,
+              "page_end": 37,
+              "printed_page": "37",
+              "section": "GSE 22–29/A1: Writing"
+            },
+            "source_text_sha256": "c0c77d07f2ddf94451392c9109d56833ce20e41f5ee5470ae98280d80c54ece5",
+            "role": "anchor",
+            "coverage": "full",
+            "interpretation_note": "The objective directly anchors completing a simple personal-details form."
+          },
+          {
+            "record_id": "cefr.cv2020.p084.notes_messages_and_forms.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "source_id": "coe.cefr_companion_2020_en",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 84,
+              "page_end": 84,
+              "printed_page": "84",
+              "section": "Notes, messages and forms"
+            },
+            "source_text_sha256": "5725feced6eb255a46ed4da20d297ead994311aa1128e3bfcff2733a3cf3c379",
+            "role": "supporting",
+            "coverage": "full",
+            "interpretation_note": "The merged candidate covers the descriptor's personal, date, arrival, and hotel-registration fields in one form-completion performance."
+          },
+          {
+            "record_id": "gse.adult.2022.p37.011",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 37,
+              "page_end": 37,
+              "printed_page": "37",
+              "section": "GSE 22–29/A1: Writing"
+            },
+            "source_text_sha256": "e5e467e53a89d7a71b6a14fd3f67fdf6536af585fb41a3d6363f54031e6a135c",
+            "role": "anchor",
+            "coverage": "full",
+            "interpretation_note": "The objective directly anchors completing a simple form requiring travel information."
+          }
+        ]
+      }
+    ],
+    "phrases": [
+      {
+        "target": "Short form labels and label-value combinations",
+        "purpose": "enter the requested personal or travel information in the correct place",
+        "evidence_refs": [
+          {
+            "record_id": "gse.adult.2022.p37.001",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 37,
+              "page_end": 37,
+              "printed_page": "37",
+              "section": "GSE 22–29/A1: Writing"
+            },
+            "source_text_sha256": "c0c77d07f2ddf94451392c9109d56833ce20e41f5ee5470ae98280d80c54ece5",
+            "role": "anchor",
+            "coverage": "full",
+            "interpretation_note": "The objective directly anchors completing a simple personal-details form."
+          },
+          {
+            "record_id": "cefr.cv2020.p084.notes_messages_and_forms.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "source_id": "coe.cefr_companion_2020_en",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 84,
+              "page_end": 84,
+              "printed_page": "84",
+              "section": "Notes, messages and forms"
+            },
+            "source_text_sha256": "5725feced6eb255a46ed4da20d297ead994311aa1128e3bfcff2733a3cf3c379",
+            "role": "supporting",
+            "coverage": "full",
+            "interpretation_note": "The merged candidate covers the descriptor's personal, date, arrival, and hotel-registration fields in one form-completion performance."
+          },
+          {
+            "record_id": "gse.adult.2022.p37.011",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 37,
+              "page_end": 37,
+              "printed_page": "37",
+              "section": "GSE 22–29/A1: Writing"
+            },
+            "source_text_sha256": "e5e467e53a89d7a71b6a14fd3f67fdf6536af585fb41a3d6363f54031e6a135c",
+            "role": "anchor",
+            "coverage": "full",
+            "interpretation_note": "The objective directly anchors completing a simple form requiring travel information."
+          }
+        ]
+      }
+    ],
+    "pronunciation": []
+  },
+  "error_hypotheses": [
+    {
+      "error": "The learner enters a correct value under the wrong personal, date, or travel field.",
+      "impact": "The completed form communicates inaccurate information even though the value itself is familiar.",
+      "basis": "Candidate-specific hypothesis for Arabic-speaking A1 adults based on the label-to-value discrimination required by the form; it is not a source fact and requires expert review and learner observation.",
+      "validation_status": "hypothesis"
+    }
+  ],
+  "mastery": {
+    "fresh_task_family": "A fresh contact, registration, or travel form with changed layout and safe fictional details.",
+    "required_dimensions": [
+      "comprehension",
+      "outcome_performance",
+      "interaction_or_transfer",
+      "control_or_repair"
+    ],
+    "level_2_evidence": {
+      "comprehension": "Matches each field to the requested type of information.",
+      "outcome_performance": "Completes all required fields with usable, internally consistent details.",
+      "interaction_or_transfer": "Transfers the ability to a different simple form purpose and layout.",
+      "control_or_repair": "Checks and corrects a flagged spelling, number, or date field."
+    },
+    "critical_failures": [
+      "A required field is blank, in the wrong place, or changes the person's identity detail."
+    ],
+    "non_blocking_errors": [
+      "A harmless capitalization or spacing variation."
+    ],
+    "permitted_support": [
+      "Clear field labels; fictional details; neutral explanation of the task purpose."
+    ],
+    "disallowed_help": [
+      "A complete model answer or answer-revealing cue."
+    ],
+    "delayed_probe": "Use a different form type and layout after a delay."
+  },
+  "scope": {
+    "band": "standard",
+    "load_rationale": "One simple form with five or six familiar fields.",
+    "time_range_hypothesis": null,
+    "no_split_rationale": null
+  },
+  "risks": [
+    "Field labels must be A1-readable and culturally neutral.",
+    "Target-decision note: No separate grammar or pronunciation target is assigned because the cited performance is accurate written field completion, not sentence production or speech."
+  ],
+  "review": {
+    "status": "accepted",
+    "reviewer": "lesson_002_consolidated_approval",
+    "reviewed_at": "2026-07-19T01:13:48+03:00",
+    "issues": []
+  }
+}

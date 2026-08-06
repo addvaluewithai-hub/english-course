@@ -1,0 +1,4920 @@
+{
+  "schema_version": 1,
+  "map_id": "a1_candidate_unit_map_cur_005",
+  "status": "candidate_not_final",
+  "reviewed_at": "2026-07-16T04:54:11+03:00",
+  "evidence_dataset_ids": [
+    "gse_a1_objectives",
+    "cefr_a1_descriptors"
+  ],
+  "prior_proposal_test": {
+    "proposed_units": [
+      "Identity",
+      "People & Relationships",
+      "Everyday Life",
+      "Places & Movement",
+      "Needs & Transactions",
+      "Simple Communication",
+      "Reading, Signs & Forms"
+    ],
+    "verdict": "not_supported_as_an_exact_final_map",
+    "fit_counts": {
+      "forced": 67,
+      "natural": 91,
+      "not_applicable": 1,
+      "overlap": 60
+    },
+    "objective_fit_counts": {
+      "forced": 27,
+      "natural": 58,
+      "not_applicable": 1,
+      "overlap": 35
+    },
+    "descriptor_fit_counts": {
+      "forced": 40,
+      "natural": 33,
+      "overlap": 25
+    },
+    "findings": [
+      "Home, objects, and descriptions overlaps earlier topic boundaries.",
+      "Reading, Signs & Forms mixes a channel with several communicative purposes.",
+      "Simple Communication absorbs distinct social, repair, mediation, and language-control evidence.",
+      "Cross-cutting support should not be forced into standalone topical units."
+    ]
+  },
+  "coverage": {
+    "record_count": 219,
+    "included_count": 218,
+    "excluded_count": 1,
+    "mapping_fit_counts": {
+      "cross_cutting": 46,
+      "explicit_exclusion": 1,
+      "natural": 151,
+      "natural_with_support": 21
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": "identity_personal_information",
+      "title": "Identity and personal information",
+      "role": "candidate_unit",
+      "goal": "Exchange and record basic personal information.",
+      "prior_unit": "Identity",
+      "prior_fit": "natural",
+      "assignment_count": 24,
+      "objective_count": 14,
+      "descriptor_count": 10,
+      "record_ids": [
+        "gse.adult.2022.p09.009",
+        "gse.adult.2022.p14.001",
+        "gse.adult.2022.p14.005",
+        "gse.adult.2022.p15.011",
+        "gse.adult.2022.p15.014",
+        "gse.adult.2022.p22.006",
+        "gse.adult.2022.p22.009",
+        "gse.adult.2022.p22.023",
+        "gse.adult.2022.p22.027",
+        "gse.adult.2022.p23.004",
+        "gse.adult.2022.p23.008",
+        "gse.adult.2022.p37.001",
+        "gse.adult.2022.p37.004",
+        "gse.adult.2022.p37.010",
+        "cefr.cv2020.p063.sustained_monologue_describing_experience.01",
+        "cefr.cv2020.p067.creative_writing.01",
+        "cefr.cv2020.p079.information_exchange.03",
+        "cefr.cv2020.p080.interviewing_and_being_interviewed.01",
+        "cefr.cv2020.p082.overall_written_interaction.01",
+        "cefr.cv2020.p084.notes_messages_and_forms.01",
+        "cefr.cv2020.p116.acting_as_an_intermediary_in_informal_situations.01",
+        "cefr.cv2020.p131.general_linguistic_range.01",
+        "cefr.cv2020.p136.orthographic_control.02",
+        "cefr.cv2020.p142.propositional_precision.01"
+      ]
+    },
+    {
+      "cluster_id": "people_relationships",
+      "title": "People and relationships",
+      "role": "candidate_unit",
+      "goal": "Talk about family, friends, known people, jobs, and possessions.",
+      "prior_unit": "People & Relationships",
+      "prior_fit": "natural",
+      "assignment_count": 21,
+      "objective_count": 14,
+      "descriptor_count": 7,
+      "record_ids": [
+        "gse.adult.2022.p14.007",
+        "gse.adult.2022.p22.001",
+        "gse.adult.2022.p22.002",
+        "gse.adult.2022.p22.006",
+        "gse.adult.2022.p22.022",
+        "gse.adult.2022.p23.004",
+        "gse.adult.2022.p23.005",
+        "gse.adult.2022.p23.013",
+        "gse.adult.2022.p24.004",
+        "gse.adult.2022.p24.007",
+        "gse.adult.2022.p37.005",
+        "gse.adult.2022.p37.010",
+        "gse.adult.2022.p37.014",
+        "gse.adult.2022.p37.016",
+        "cefr.cv2020.p049.understanding_conversation_between_other_people.01",
+        "cefr.cv2020.p062.overall_oral_production.01",
+        "cefr.cv2020.p066.overall_written_production.01",
+        "cefr.cv2020.p074.conversation.02",
+        "cefr.cv2020.p079.information_exchange.03",
+        "cefr.cv2020.p083.correspondence.03",
+        "cefr.cv2020.p116.acting_as_an_intermediary_in_informal_situations.01"
+      ]
+    },
+    {
+      "cluster_id": "routines_time_leisure",
+      "title": "Routines, time, and leisure",
+      "role": "candidate_unit",
+      "goal": "Understand and express routines, schedules, interests, abilities, and weather.",
+      "prior_unit": "Everyday Life",
+      "prior_fit": "natural",
+      "assignment_count": 38,
+      "objective_count": 26,
+      "descriptor_count": 12,
+      "record_ids": [
+        "gse.adult.2022.p09.010",
+        "gse.adult.2022.p09.012",
+        "gse.adult.2022.p14.003",
+        "gse.adult.2022.p14.004",
+        "gse.adult.2022.p14.009",
+        "gse.adult.2022.p14.014",
+        "gse.adult.2022.p14.015",
+        "gse.adult.2022.p15.003",
+        "gse.adult.2022.p15.005",
+        "gse.adult.2022.p15.008",
+        "gse.adult.2022.p15.009",
+        "gse.adult.2022.p15.010",
+        "gse.adult.2022.p15.018",
+        "gse.adult.2022.p22.003",
+        "gse.adult.2022.p22.014",
+        "gse.adult.2022.p22.016",
+        "gse.adult.2022.p22.019",
+        "gse.adult.2022.p22.023",
+        "gse.adult.2022.p23.006",
+        "gse.adult.2022.p23.015",
+        "gse.adult.2022.p23.016",
+        "gse.adult.2022.p23.018",
+        "gse.adult.2022.p37.008",
+        "gse.adult.2022.p37.012",
+        "gse.adult.2022.p37.015",
+        "gse.adult.2022.p37.018",
+        "cefr.cv2020.p048.overall_oral_comprehension.02",
+        "cefr.cv2020.p049.understanding_conversation_between_other_people.01",
+        "cefr.cv2020.p055.reading_correspondence.02",
+        "cefr.cv2020.p059.reading_as_a_leisure_activity.01",
+        "cefr.cv2020.p063.sustained_monologue_describing_experience.02",
+        "cefr.cv2020.p066.overall_written_production.01",
+        "cefr.cv2020.p075.informal_discussion_with_friends.01",
+        "cefr.cv2020.p077.goal_oriented_co_operation.02",
+        "cefr.cv2020.p079.information_exchange.04",
+        "cefr.cv2020.p083.correspondence.01",
+        "cefr.cv2020.p086.online_conversation_and_discussion.01",
+        "cefr.cv2020.p095.relaying_specific_information_in_speech_or_sign.01"
+      ]
+    },
+    {
+      "cluster_id": "home_objects_descriptions",
+      "title": "Home, objects, and descriptions",
+      "role": "candidate_unit",
+      "goal": "Locate and describe familiar homes, objects, pictures, and surroundings.",
+      "prior_unit": null,
+      "prior_fit": "overlap",
+      "assignment_count": 29,
+      "objective_count": 20,
+      "descriptor_count": 9,
+      "record_ids": [
+        "gse.adult.2022.p09.002",
+        "gse.adult.2022.p09.003",
+        "gse.adult.2022.p14.008",
+        "gse.adult.2022.p14.011",
+        "gse.adult.2022.p15.013",
+        "gse.adult.2022.p22.004",
+        "gse.adult.2022.p22.006",
+        "gse.adult.2022.p22.008",
+        "gse.adult.2022.p22.015",
+        "gse.adult.2022.p22.017",
+        "gse.adult.2022.p22.026",
+        "gse.adult.2022.p22.027",
+        "gse.adult.2022.p23.003",
+        "gse.adult.2022.p23.004",
+        "gse.adult.2022.p23.008",
+        "gse.adult.2022.p24.001",
+        "gse.adult.2022.p37.007",
+        "gse.adult.2022.p37.010",
+        "gse.adult.2022.p37.017",
+        "gse.adult.2022.p37.019",
+        "cefr.cv2020.p049.understanding_conversation_between_other_people.01",
+        "cefr.cv2020.p063.sustained_monologue_describing_experience.01",
+        "cefr.cv2020.p063.sustained_monologue_giving_information.01",
+        "cefr.cv2020.p067.creative_writing.01",
+        "cefr.cv2020.p067.creative_writing.02",
+        "cefr.cv2020.p067.creative_writing.03",
+        "cefr.cv2020.p079.information_exchange.03",
+        "cefr.cv2020.p079.information_exchange.06",
+        "cefr.cv2020.p136.orthographic_control.01"
+      ]
+    },
+    {
+      "cluster_id": "places_directions_travel",
+      "title": "Places, directions, and travel",
+      "role": "candidate_unit",
+      "goal": "Understand and manage basic locations, routes, transport, and travel details.",
+      "prior_unit": "Places & Movement",
+      "prior_fit": "natural",
+      "assignment_count": 31,
+      "objective_count": 14,
+      "descriptor_count": 17,
+      "record_ids": [
+        "gse.adult.2022.p09.004",
+        "gse.adult.2022.p09.006",
+        "gse.adult.2022.p09.010",
+        "gse.adult.2022.p14.007",
+        "gse.adult.2022.p15.004",
+        "gse.adult.2022.p15.015",
+        "gse.adult.2022.p15.017",
+        "gse.adult.2022.p22.001",
+        "gse.adult.2022.p22.011",
+        "gse.adult.2022.p22.025",
+        "gse.adult.2022.p23.009",
+        "gse.adult.2022.p24.005",
+        "gse.adult.2022.p37.002",
+        "gse.adult.2022.p37.011",
+        "cefr.cv2020.p048.overall_oral_comprehension.02",
+        "cefr.cv2020.p051.understanding_as_a_member_of_a_live.01",
+        "cefr.cv2020.p051.understanding_announcements_and_instructions.01",
+        "cefr.cv2020.p051.understanding_announcements_and_instructions.02",
+        "cefr.cv2020.p051.understanding_announcements_and_instructions.03",
+        "cefr.cv2020.p052.understanding_audio_or_signed_media_and_recordings.01",
+        "cefr.cv2020.p055.reading_correspondence.02",
+        "cefr.cv2020.p056.reading_for_orientation.02",
+        "cefr.cv2020.p056.reading_for_orientation.03",
+        "cefr.cv2020.p057.reading_for_information_and_argument.02",
+        "cefr.cv2020.p058.reading_instructions.01",
+        "cefr.cv2020.p073.understanding_an_interlocutor.02",
+        "cefr.cv2020.p077.goal_oriented_co_operation.01",
+        "cefr.cv2020.p077.goal_oriented_co_operation.02",
+        "cefr.cv2020.p079.information_exchange.01",
+        "cefr.cv2020.p084.notes_messages_and_forms.01",
+        "cefr.cv2020.p095.relaying_specific_information_in_speech_or_sign.01"
+      ]
+    },
+    {
+      "cluster_id": "food_shopping_services",
+      "title": "Food, shopping, and services",
+      "role": "candidate_unit",
+      "goal": "Handle immediate needs, prices, purchases, food, and basic services.",
+      "prior_unit": "Needs & Transactions",
+      "prior_fit": "natural",
+      "assignment_count": 30,
+      "objective_count": 14,
+      "descriptor_count": 16,
+      "record_ids": [
+        "gse.adult.2022.p15.007",
+        "gse.adult.2022.p15.008",
+        "gse.adult.2022.p15.019",
+        "gse.adult.2022.p22.007",
+        "gse.adult.2022.p22.010",
+        "gse.adult.2022.p22.011",
+        "gse.adult.2022.p22.018",
+        "gse.adult.2022.p22.021",
+        "gse.adult.2022.p22.028",
+        "gse.adult.2022.p22.029",
+        "gse.adult.2022.p23.007",
+        "gse.adult.2022.p23.011",
+        "gse.adult.2022.p23.014",
+        "gse.adult.2022.p23.017",
+        "cefr.cv2020.p049.understanding_conversation_between_other_people.02",
+        "cefr.cv2020.p051.understanding_announcements_and_instructions.03",
+        "cefr.cv2020.p056.reading_for_orientation.04",
+        "cefr.cv2020.p072.overall_oral_interaction.01",
+        "cefr.cv2020.p073.understanding_an_interlocutor.01",
+        "cefr.cv2020.p074.conversation.01",
+        "cefr.cv2020.p077.goal_oriented_co_operation.03",
+        "cefr.cv2020.p078.obtaining_goods_and_services.01",
+        "cefr.cv2020.p078.obtaining_goods_and_services.02",
+        "cefr.cv2020.p078.obtaining_goods_and_services.03",
+        "cefr.cv2020.p079.information_exchange.02",
+        "cefr.cv2020.p079.information_exchange.05",
+        "cefr.cv2020.p080.interviewing_and_being_interviewed.02",
+        "cefr.cv2020.p084.notes_messages_and_forms.02",
+        "cefr.cv2020.p087.goal_oriented_online_transactions_and_collaboration.01",
+        "cefr.cv2020.p095.relaying_specific_information_in_writing.01"
+      ]
+    },
+    {
+      "cluster_id": "messages_signs_forms",
+      "title": "Messages, signs, and forms",
+      "role": "candidate_unit",
+      "goal": "Understand or produce practical notices, messages, correspondence, and forms.",
+      "prior_unit": "Reading, Signs & Forms",
+      "prior_fit": "overlap",
+      "assignment_count": 22,
+      "objective_count": 6,
+      "descriptor_count": 16,
+      "record_ids": [
+        "gse.adult.2022.p09.005",
+        "gse.adult.2022.p09.010",
+        "gse.adult.2022.p15.011",
+        "gse.adult.2022.p37.001",
+        "gse.adult.2022.p37.011",
+        "gse.adult.2022.p37.016",
+        "cefr.cv2020.p053.watching_tv_film_and_video.01",
+        "cefr.cv2020.p055.reading_correspondence.01",
+        "cefr.cv2020.p055.reading_correspondence.02",
+        "cefr.cv2020.p056.reading_for_orientation.01",
+        "cefr.cv2020.p056.reading_for_orientation.04",
+        "cefr.cv2020.p083.correspondence.01",
+        "cefr.cv2020.p083.correspondence.02",
+        "cefr.cv2020.p083.correspondence.03",
+        "cefr.cv2020.p084.notes_messages_and_forms.01",
+        "cefr.cv2020.p084.notes_messages_and_forms.02",
+        "cefr.cv2020.p086.online_conversation_and_discussion.01",
+        "cefr.cv2020.p086.online_conversation_and_discussion.02",
+        "cefr.cv2020.p087.goal_oriented_online_transactions_and_collaboration.01",
+        "cefr.cv2020.p092.overall_mediation.01",
+        "cefr.cv2020.p101.processing_text_in_speech_or_sign.01",
+        "cefr.cv2020.p104.translating_a_written_text_in_speech_or.01"
+      ]
+    },
+    {
+      "cluster_id": "social_contact_collaboration",
+      "title": "Social contact and collaboration",
+      "role": "candidate_unit",
+      "goal": "Use basic politeness, feelings, reactions, and collaborative exchanges.",
+      "prior_unit": "Simple Communication",
+      "prior_fit": "overlap",
+      "assignment_count": 22,
+      "objective_count": 10,
+      "descriptor_count": 12,
+      "record_ids": [
+        "gse.adult.2022.p15.014",
+        "gse.adult.2022.p22.012",
+        "gse.adult.2022.p22.013",
+        "gse.adult.2022.p22.022",
+        "gse.adult.2022.p23.001",
+        "gse.adult.2022.p23.002",
+        "gse.adult.2022.p23.010",
+        "gse.adult.2022.p23.012",
+        "gse.adult.2022.p24.003",
+        "gse.adult.2022.p37.013",
+        "cefr.cv2020.p066.addressing_audiences.01",
+        "cefr.cv2020.p074.conversation.03",
+        "cefr.cv2020.p074.conversation.04",
+        "cefr.cv2020.p086.online_conversation_and_discussion.02",
+        "cefr.cv2020.p092.overall_mediation.01",
+        "cefr.cv2020.p107.expressing_a_personal_response_to_creative_texts.01",
+        "cefr.cv2020.p111.facilitating_collaborative_interaction_with_peers.01",
+        "cefr.cv2020.p111.collaborating_to_construct_meaning.01",
+        "cefr.cv2020.p113.encouraging_conceptual_talk.01",
+        "cefr.cv2020.p115.facilitating_pluricultural_space.01",
+        "cefr.cv2020.p117.facilitating_communication_in_delicate_situations_and_disagreements.01",
+        "cefr.cv2020.p137.sociolinguistic_appropriateness.01"
+      ]
+    },
+    {
+      "cluster_id": "communication_strategies",
+      "title": "Communication strategies",
+      "role": "cross_cutting_support",
+      "goal": "Repair, relay, translate, and facilitate meaning across candidate units.",
+      "prior_unit": "Simple Communication",
+      "prior_fit": "forced",
+      "assignment_count": 21,
+      "objective_count": 3,
+      "descriptor_count": 18,
+      "record_ids": [
+        "gse.adult.2022.p22.005",
+        "gse.adult.2022.p23.007",
+        "gse.adult.2022.p24.002",
+        "cefr.cv2020.p069.compensating.01",
+        "cefr.cv2020.p072.overall_oral_interaction.01",
+        "cefr.cv2020.p089.asking_for_clarification.01",
+        "cefr.cv2020.p089.asking_for_clarification.02",
+        "cefr.cv2020.p092.overall_mediation.01",
+        "cefr.cv2020.p095.relaying_specific_information_in_speech_or_sign.01",
+        "cefr.cv2020.p095.relaying_specific_information_in_writing.01",
+        "cefr.cv2020.p101.processing_text_in_speech_or_sign.01",
+        "cefr.cv2020.p101.processing_text_in_writing.01",
+        "cefr.cv2020.p104.translating_a_written_text_in_speech_or.01",
+        "cefr.cv2020.p104.translating_a_written_text_in_writing.01",
+        "cefr.cv2020.p111.facilitating_collaborative_interaction_with_peers.01",
+        "cefr.cv2020.p111.collaborating_to_construct_meaning.01",
+        "cefr.cv2020.p113.encouraging_conceptual_talk.01",
+        "cefr.cv2020.p115.facilitating_pluricultural_space.01",
+        "cefr.cv2020.p116.acting_as_an_intermediary_in_informal_situations.01",
+        "cefr.cv2020.p117.facilitating_communication_in_delicate_situations_and_disagreements.01",
+        "cefr.cv2020.p142.fluency.01"
+      ]
+    },
+    {
+      "cluster_id": "language_foundations",
+      "title": "Language foundations",
+      "role": "cross_cutting_support",
+      "goal": "Support intelligible comprehension and control across candidate units.",
+      "prior_unit": "Simple Communication",
+      "prior_fit": "forced",
+      "assignment_count": 47,
+      "objective_count": 24,
+      "descriptor_count": 23,
+      "record_ids": [
+        "gse.adult.2022.p09.001",
+        "gse.adult.2022.p09.007",
+        "gse.adult.2022.p09.008",
+        "gse.adult.2022.p09.011",
+        "gse.adult.2022.p09.013",
+        "gse.adult.2022.p09.014",
+        "gse.adult.2022.p14.002",
+        "gse.adult.2022.p14.006",
+        "gse.adult.2022.p14.010",
+        "gse.adult.2022.p14.012",
+        "gse.adult.2022.p14.013",
+        "gse.adult.2022.p15.001",
+        "gse.adult.2022.p15.006",
+        "gse.adult.2022.p15.012",
+        "gse.adult.2022.p15.016",
+        "gse.adult.2022.p22.020",
+        "gse.adult.2022.p22.024",
+        "gse.adult.2022.p24.006",
+        "gse.adult.2022.p37.002",
+        "gse.adult.2022.p37.003",
+        "gse.adult.2022.p37.006",
+        "gse.adult.2022.p37.009",
+        "gse.adult.2022.p37.013",
+        "gse.adult.2022.p37.014",
+        "cefr.cv2020.p048.overall_oral_comprehension.01",
+        "cefr.cv2020.p054.overall_reading_comprehension.01",
+        "cefr.cv2020.p057.reading_for_information_and_argument.01",
+        "cefr.cv2020.p059.reading_as_a_leisure_activity.02",
+        "cefr.cv2020.p060.identifying_cues_and_inferring_spoken_signed_and.01",
+        "cefr.cv2020.p060.identifying_cues_and_inferring_spoken_signed_and.02",
+        "cefr.cv2020.p066.overall_written_production.02",
+        "cefr.cv2020.p101.processing_text_in_writing.02",
+        "cefr.cv2020.p131.general_linguistic_range.01",
+        "cefr.cv2020.p131.general_linguistic_range.02",
+        "cefr.cv2020.p131.vocabulary_range.01",
+        "cefr.cv2020.p132.grammatical_accuracy.01",
+        "cefr.cv2020.p135.overall_phonological_control.01",
+        "cefr.cv2020.p135.sound_articulation.01",
+        "cefr.cv2020.p135.sound_articulation.02",
+        "cefr.cv2020.p135.prosodic_features.01",
+        "cefr.cv2020.p136.orthographic_control.01",
+        "cefr.cv2020.p136.orthographic_control.02",
+        "cefr.cv2020.p136.orthographic_control.03",
+        "cefr.cv2020.p137.sociolinguistic_appropriateness.01",
+        "cefr.cv2020.p141.coherence_and_cohesion.01",
+        "cefr.cv2020.p142.propositional_precision.01",
+        "cefr.cv2020.p142.fluency.01"
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "record_id": "gse.adult.2022.p09.001",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "762c78024eb93da7e2fe705bd34e2845ff3a6e391f4243f04e5030b0f38472b9",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.002",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "1bf382b3591bedc38bc1f87bb44e9445dc7e9cc21d543450becc4de31a8bc34e",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.003",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "32db3e27352806774bd4d8f016144ad71e62b605186ad0eec5057a07d1acf240",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.004",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "1ddb296e579fae7483d45e839e388ada4709d31f9cd7d7c23a5d483bcd616f5f",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.005",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "3a9d9d63857ff23de0631b58f11cebc71897be5f93231112e32cf0396f05e55c",
+      "candidate_cluster_ids": [
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.006",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "75bd751486ed489cc3e142a2f03d911cb9ad4f3e11c532d6ba984946bb05b914",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.007",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "15b30bb08f3da79327bc0727a58a70388d279e0db3f0e8a2144d2dcfa82e8062",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.008",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "7f45dc9b53b7a9ca69c3a5602089a19fe4a98236b5b4309a8c575bdb04f715bc",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.009",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "f683de8a816cdbf9c9cddf8076ba870909e12beaf6c779978e0d69477886d0cb",
+      "candidate_cluster_ids": [
+        "identity_personal_information"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.010",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "e3c30c8646b235c07f09d8f8b11a43adfa1a58139d199317c472e2790affa4f7",
+      "candidate_cluster_ids": [
+        "routines_time_leisure",
+        "places_directions_travel",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.011",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "e8a6e6a1ff40ea2a1e35ac108a72c31be973a7a88ba28c43741c14578d417872",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.012",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "4ed3032ff68d2a31dff8cf6012f1c6b494882c4cc9ca7c600075ca15d964c746",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.013",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "276b42ee9cb06ea1ffc29a364aebfe9a2e3df9ffcbc1b29965964c6a90011902",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p09.014",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 9,
+        "page_end": 9,
+        "printed_page": "9",
+        "section": "GSE 22–29/A1: Reading"
+      },
+      "source_text_sha256": "9840dfc690a845415ba86e1f029621ad5e2c0f34be648dd60ea6d653dcd12aec",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.001",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "5d8fdb4184891570f6cb0fda0b80dac876d3ac208f36c9d8c3d05632fdcdbeb3",
+      "candidate_cluster_ids": [
+        "identity_personal_information"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.002",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "5338b8de22d808ce052e6d2d13c29d78db6246628b51e1784b802b27accb6a16",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.003",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "5918ca7bbcb187e377b95f39e60cbcbf0557462945eba82e97aa14830cd221e1",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.004",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "0a89fe163001e547c631274cd5b39b03d425ac170270fa5abca452bee96562cb",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.005",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "f52d2fb75d58a87ac578a823d32ed3faa05c8a7817cdcbac51e592391f5fb9f5",
+      "candidate_cluster_ids": [
+        "identity_personal_information"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.006",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "7c04ce19ce7bc961019756bc5a3880b7742be9acaf2e0d7144aabce4835fd7ad",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.007",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "49e86c09b8a10dfa070cb413c99f8bb48c2f29ef32c85ac79b8e45f638199212",
+      "candidate_cluster_ids": [
+        "people_relationships",
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.008",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "c8b790051ab8cf64abb3c7e9b01f35825dab45afa8ac6b57b557dbc98464449e",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.009",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "ac603cc5e4be4d298b72d96e12566e2ef3e7f09a9b92e7303ab7c2bd86271ba9",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.010",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "2363ab04660a85605bc9ad9987284485ce804f0541e81785c4a387e1b512dd9d",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.011",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "acbe1161dc2ccd4f497d6f0b2c5a8bded492ff239b9565eb66f702efd066dbd0",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.012",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "500c55e73aaf35a12106efac35625238f4e388902481813cbe478a11dd7de83a",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.013",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "f66476177223aff48044e588dab29f2841790490dc762a849db1758684e1681d",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.014",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "865cad300bb7d1c4cc62864109d6bedf54cf27c6dfd7f1c0c2ffa0d6f597ba30",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p14.015",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 14,
+        "page_end": 14,
+        "printed_page": "14",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "5ea8c8058f15e9bcc540977b9e4eeeb70b4c59d7d9e9a53daaca06e4eb62e8f9",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.001",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "e0e6f5837758502faef5f80283ef8ebf2f5a68c2feb947e9f233515bfe2f45ad",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.002",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "f52d2fb75d58a87ac578a823d32ed3faa05c8a7817cdcbac51e592391f5fb9f5",
+      "candidate_cluster_ids": [],
+      "mapping_fit": "explicit_exclusion",
+      "prior_seven_unit_fit": "not_applicable"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.003",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "e2d43e4f96b776bf813b990b9eb47a4f40f3ad4c67e3f7c42e7e624d1271d352",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.004",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "900711166f68cb8736358850ee2788f1af1fd44ade206506479985cf1f7533c3",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.005",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "9aaa5f83a9143eefab198748159ccc155f40fbbbe1d6fbc7e5675bd28c137904",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.006",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "4bc4f24d4970cbe4bd23275e165cacb72a9fcb5f3f71173928c2194e62729f2b",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.007",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "45d600071e737f51f0396fd5fdad86b30b7fa392548580eb3ccd2dd895362c1e",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.008",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "7fc35967ca83a7a716eaacd94f25f60724535e5307475cc6a5ded6904687c0b8",
+      "candidate_cluster_ids": [
+        "routines_time_leisure",
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.009",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "73f2cc8e439004433c03b768b045993a410108b6c2b59bd2e188e2226be02168",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.010",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "7d37eb00e451b9b282d5ee17e45e2cf08ba15768007c1e515a83976eb0fb125d",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.011",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "02a17b520315342a6ddb6aa0d8ca4781cb9fba80fd45216a07cbf362f53ecac2",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.012",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "31e2c30021c14783fd19d79faffe7ba33ca0759254fe897557c600250e070503",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.013",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "96e72916552b4f9e88f5771fab6f2b00e6990d2ffb19159208acde984ee0b6a2",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.014",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "d5dac06d740ae5771d4008a203f684435519369e3bc575292aad9ea49b22a58a",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.015",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "c64eb0c8be925dcaef3a9e2d5a2ea5e2c2905c81f44cf0e3a6642c1b2a67978d",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.016",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "2b51488d0598c721cb6e6fb7ffe803da9dba21a37180684806a16073e892267e",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.017",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "eca6a766cc8486ef61f0e91d4de7d7738b2afc276418c8c012d6652ed4d10b1f",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.018",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "42ef699ff37419cb69f8b9130f216f2f18edcd5ab731c9d84a416f096f9d0aaa",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p15.019",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "e48d85d6515d547a714e855f133b16c9d65afee4134e5514b2c31c06f8703767",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.001",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "2143c143110ca8b6757d1fb6b8782eae586fbca1e37752845eb3b99f33813008",
+      "candidate_cluster_ids": [
+        "people_relationships",
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.002",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "58a1c43779e1cd2dfd3aa0fd0681aa942849443a7d668222d5e557ef699f8f61",
+      "candidate_cluster_ids": [
+        "people_relationships"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.003",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "7e84c8fe126424f38f3442193fcfbbe27f2b83b1b1c43dc211cb1fd4165ab3e5",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.004",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "07d60c18c0654dacac0123f63a25cc07c6cc3f1bbd37026af16898718813af8b",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.005",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "0f346a3a7b0c2d1bed10d4e785e532bf3a3b23027e05e07b08bf56ad3ba2730d",
+      "candidate_cluster_ids": [
+        "communication_strategies"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.006",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "f6db449453fe75311a99b3053ca21712f473580e6cd34aa0a16ef456a4b95543",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "people_relationships",
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.007",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "451932076f39bd793604f8370963bbac6e699f2419d4e1b198d52541bf39b953",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.008",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "d9204ac44dd15fc94efd21272a1f4a36e3f91d43331a6c5157a857068d501e20",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.009",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "bcb33d8892ba16e08abc3f1631f081383ef9ad675a174c3ffd4ea8be5eff8265",
+      "candidate_cluster_ids": [
+        "identity_personal_information"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.010",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "0bd3b993ca5e46a6fcc1eb86935ac229d0a712230ea5f087908ab3528f5e33eb",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.011",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "a06489b189d750abbf0b65410abc62e85e9245675f05195e1e85aa1118a5bebb",
+      "candidate_cluster_ids": [
+        "places_directions_travel",
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.012",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "950b48b1143bebcb9f6e7b6ef5c6f904a36bbf58b347c445d02248200c6d0b67",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.013",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "377a23e5497827ab69217decf0e990463c56978d79d03104fcdf2648fae31a6c",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.014",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "2379ce6f8be8dcb877d6fb280d695b4c26189f5e44e55f797bcb6d6581923121",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.015",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "61e7841c6f735130686e4cb586818dbe2ecf30de9f398da84834c5c8087e0fbf",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.016",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "bb1ab1677443bd00e91102755bca27799c3fd6dfbd790690b0b6530390316886",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.017",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "c7453eb446d55a58782df382e3b0ea70e544afc5aa8203cad3bbbd68d19b62fd",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.018",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "f0852b19a230627703886021d11363b483fb9863bd9c813351a0efe9db08a9e0",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.019",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "f06cb565a888ac8c4e85b3f66678f2c7c5a8e0bb6576f0a157711687b2f8b79d",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.020",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "58199bd560b4f4ec710b36481b2b254ea932c999d4466dcd5f2ddb54557a5dcf",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.021",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "81da569246977c92a70e54fe7d00c0e83c068810d7ff610ea4a0cf62071a050c",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.022",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "360608aecc3ecde8d712c82bf54ffd1ec0b82b49ef26fafb34aa261ea1a05a0f",
+      "candidate_cluster_ids": [
+        "people_relationships",
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.023",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "db5321e8f5ef38daec3583fe67be30ec664e365cd3ae5b267f3dfb4bedfdf5b1",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.024",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "751308a4115f81e8acc760a3f8b268e2392abe969588465c2214cd8c2e8a0d82",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.025",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "b2f347bc56df5a46bca4289e5197e21604133f65a5bdcdb748d10a9c17a32be2",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.026",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "12436def0ce1af0401d385a09efc1fcb03f72658b47477dfe105d555580d8153",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.027",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "fe625545a4550d20fe152a5d9e34a8808ddd2236aee7ea072728931292412fbb",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.028",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "7051b44bc98daf645e2965c8cf47ea2b6e618c0795733bc08806a3a9c19a3e00",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p22.029",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 22,
+        "page_end": 22,
+        "printed_page": "22",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "12a41846141ec65120e42882594a2a172fffb390181e8dac85fcc532577435f0",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.001",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "1c1a280efe0a77d78254b3da67b2526304cc309a4366300d14d9b8a801399eb3",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.002",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "32f9f551267c84a1081cd8f75fcb4b3396ed6f3339e8272ebddf907ffd99e54e",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.003",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "a4725f0e6067858cd80dd7938d248de4c9dee69e79250dd09cd2acab515cb3e3",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.004",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "98f8152aef7fa41ff0483d5b3ef81e998f2ea37baff1e4d795f3cffecba55209",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "people_relationships",
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.005",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "8237f1dfa6df604bc577741da4ec075a3d9090abbbfa95ae94bac3de5f882986",
+      "candidate_cluster_ids": [
+        "people_relationships"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.006",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "bedbb270d3639bc11d49fe320e7cde89486257dd300586fcd6675d0bb7f7c11a",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.007",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "ece0181af74fcde6cf05c565af1b3cf067982e0a7d6ec101bfad99f7ca9af9a3",
+      "candidate_cluster_ids": [
+        "food_shopping_services",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.008",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "fa6c84f81e14c0902478e49c5a811d747ee13ce108bcd9140bd2e741ed3adf9b",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.009",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "967ed4c6f546fa765a05a5afa057359da04756d08d234157b3c52d5e91ed4011",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.010",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "029e1ddd0d21ec098a11c9011bea6003abff75643ec780062268c66178efd0bf",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.011",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "b97e7fdc186d7a5a9f37d98371c29b3ca58822fcd4d76e2dfbe809729a0b9283",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.012",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "e71a5f070a077118eb9e9c848e844bcfc553cef54d1f238b7a2ab3f9b23b82a7",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.013",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "edcafd7999213dd8e16fca48e625233d10d5d15de0d0b95a9d9d6a6ac0bccc41",
+      "candidate_cluster_ids": [
+        "people_relationships"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.014",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "4a8fe5a0439d273a1c783920b43b31d83455085598769a312670dc8377922c00",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.015",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "490aa0da03d758293c3895fd88c2b9da82e684187943025550f1164170355fa3",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.016",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "a69345661a06a5c7a688fe43b405e5d600cbcb007f80440e75719c47cb8bd89c",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.017",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "5eb0e4c3f49e289afe4596d77ef37ac087cfb581d52536fa833d7bb78bd53dba",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p23.018",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "29139c6ecddbda76fdbc77da487d6d303c749c81600421699d0b41a0b0d236c3",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p24.001",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 24,
+        "page_end": 24,
+        "printed_page": "24",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "6aa7838ba685d2b487b4fd71c69e84bf5cef9eae343656655af950ce60ce1a8b",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p24.002",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 24,
+        "page_end": 24,
+        "printed_page": "24",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "095620b962a72a5c68e32bf33dd036cae53809c2f705d1b27332ad2a44044415",
+      "candidate_cluster_ids": [
+        "communication_strategies"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p24.003",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 24,
+        "page_end": 24,
+        "printed_page": "24",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "ee92bd107f3d2e5ceaf1e31ef23ba913b68679be8b657db64931f4cd43e4fe37",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p24.004",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 24,
+        "page_end": 24,
+        "printed_page": "24",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "f5052643e0f0a57d743a6fb87204ea2ee1fc34a8d02df7b5701647011ff034ec",
+      "candidate_cluster_ids": [
+        "people_relationships"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p24.005",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 24,
+        "page_end": 24,
+        "printed_page": "24",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "ddeda03344e5562676a13e771f5226fcfa6c3e15560c473d222bc125490b588a",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p24.006",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 24,
+        "page_end": 24,
+        "printed_page": "24",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "4f8ab1efd4bb2cf73fc1f505ed13704489705b4c3f88906418390c24375e981c",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p24.007",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 24,
+        "page_end": 24,
+        "printed_page": "24",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "763765f3ada5a6b4cb80e1294bfe633d47cffc166cf2404030b2c4e5858b096f",
+      "candidate_cluster_ids": [
+        "people_relationships"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.001",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "c0c77d07f2ddf94451392c9109d56833ce20e41f5ee5470ae98280d80c54ece5",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.002",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "f5096176097602efe5da02585646c6afd0a18469bcc75d78e0d91e3fd2496918",
+      "candidate_cluster_ids": [
+        "places_directions_travel",
+        "language_foundations"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.003",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "071e8e3ac1686a5debf9bd6f4245ccd027cfe1435049dc9e98f932fac1b43165",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.004",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "fd7c72ebaabe233c169ed9f4ae76e8218abd259b0282d13a989f8b2e322cb806",
+      "candidate_cluster_ids": [
+        "identity_personal_information"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.005",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "1135bf075acba6919d9cc342cdb4170f1e9317cb780c661d647d9fd50042ff9e",
+      "candidate_cluster_ids": [
+        "people_relationships"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.006",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "6fcf684ebe0a316ccf72659cd083d524a1887d0dc2dda1a8c39c67944c470f5d",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.007",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "a46916d5dfd58fabd1213fdc8bd7ae4a6be1f5f1eb37f52f309990a0efcd3db9",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.008",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "25f1f9dd4929f605e809ad7898d0a64db55b3a2b17f5bff1940de4e5208b0a13",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.009",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "cdc4a59cc1693e5d6ac41c51576576a3fdf3dcfd923de50368abb7af3924d4fd",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.010",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "d6ac156a09b5f4ace1bdcbdced7061232d8442e07b6f34974868c174073e9896",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "people_relationships",
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.011",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "e5e467e53a89d7a71b6a14fd3f67fdf6536af585fb41a3d6363f54031e6a135c",
+      "candidate_cluster_ids": [
+        "places_directions_travel",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.012",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "cde53de818fa5ba6a4957918dbeffa09dd33ad37ec8d0d9d95a7603b9502f616",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.013",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "2e0cd5010547a73262074a0d84c5f70cb448a5462de4af14515ede7619e3e402",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration",
+        "language_foundations"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.014",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "e74c438f13fb3c1f487b3e5342fcfdfda8ad8a49a6b8ac069a0a908b34e59c15",
+      "candidate_cluster_ids": [
+        "people_relationships",
+        "language_foundations"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.015",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "56bed4ae5472c1a67952c14e8fdef52b3727a785db8104fe5f8a044d2e2d34d5",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.016",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "b5c70f5cd58b81b68f34542a0a77f8e6299eb84e4015e2ea0f503c072ac6f495",
+      "candidate_cluster_ids": [
+        "people_relationships",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.017",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "0960561c5e745d27525b001cc16793be19b4fb71b55f35d41402f068b17b2f91",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.018",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "a36faa3eb5ce7bedd40097fefb68aa9c26bb07ef225c6ae192e9c149e2850e84",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "gse.adult.2022.p37.019",
+      "record_kind": "objective",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "14df3e16ffff401fed3988c82a3b14ff27da938a3005f7583283b3746ba6119e",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p048.overall_oral_comprehension.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 48,
+        "page_end": 48,
+        "printed_page": "48",
+        "section": "Overall oral comprehension"
+      },
+      "source_text_sha256": "62ae5333162fc9fbf026ae7c415308c266f675a31458eb1f681253d06c08e9da",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p048.overall_oral_comprehension.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 48,
+        "page_end": 48,
+        "printed_page": "48",
+        "section": "Overall oral comprehension"
+      },
+      "source_text_sha256": "ab23160ace764d40d077b13f7f5bea2602689cf8556eb9fc16f66002da424b30",
+      "candidate_cluster_ids": [
+        "routines_time_leisure",
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p049.understanding_conversation_between_other_people.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 49,
+        "page_end": 49,
+        "printed_page": "49",
+        "section": "Understanding conversation between other people"
+      },
+      "source_text_sha256": "165a55e52623d8abca95448a6b5a3084e29100439ee61e5046fcd690a4e1999e",
+      "candidate_cluster_ids": [
+        "people_relationships",
+        "routines_time_leisure",
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p049.understanding_conversation_between_other_people.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 49,
+        "page_end": 49,
+        "printed_page": "49",
+        "section": "Understanding conversation between other people"
+      },
+      "source_text_sha256": "506c60c29aeff6785953acaa7cdbb733a12790c9720eb5ed3a6224dccebb008c",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p051.understanding_as_a_member_of_a_live.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 51,
+        "page_end": 51,
+        "printed_page": "51",
+        "section": "Understanding as a member of a live audience"
+      },
+      "source_text_sha256": "49ce49b6234bbc1169b4dd3078c6474c372d043aff25f09be302db8928a6b920",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p051.understanding_announcements_and_instructions.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 51,
+        "page_end": 51,
+        "printed_page": "51",
+        "section": "Understanding announcements and instructions"
+      },
+      "source_text_sha256": "9490740c2576a61dcd702184ca56a5af1ddec4ee8e38f6ca9cf86c8f790bba0d",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p051.understanding_announcements_and_instructions.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 51,
+        "page_end": 51,
+        "printed_page": "51",
+        "section": "Understanding announcements and instructions"
+      },
+      "source_text_sha256": "a47a452ffa118b3c9bfa34865868a3cb83e9a50f203de3510a72bceeb245e424",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p051.understanding_announcements_and_instructions.03",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 51,
+        "page_end": 51,
+        "printed_page": "51",
+        "section": "Understanding announcements and instructions"
+      },
+      "source_text_sha256": "91745a9e85cd59536fd16cba511578e9c8c4f7874b47e159efce70f51f0042fb",
+      "candidate_cluster_ids": [
+        "places_directions_travel",
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p052.understanding_audio_or_signed_media_and_recordings.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 52,
+        "page_end": 52,
+        "printed_page": "52",
+        "section": "Understanding audio (or signed) media and recordings"
+      },
+      "source_text_sha256": "92aef6442f0939214851c9cf3714aae44afd44bed68b7e191f3ca3b26ab1c038",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p053.watching_tv_film_and_video.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 53,
+        "page_end": 53,
+        "printed_page": "53",
+        "section": "Watching TV, film and video"
+      },
+      "source_text_sha256": "ded20fe67a1da8339ff1b93ff507b1b04af9e51572b60146ea27c2b520395b75",
+      "candidate_cluster_ids": [
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p054.overall_reading_comprehension.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 54,
+        "page_end": 54,
+        "printed_page": "54",
+        "section": "Overall reading comprehension"
+      },
+      "source_text_sha256": "c0de104097e2211ea3d64768f04bc37aecf3f62f010ccc2fc721013ad4d51e0c",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p055.reading_correspondence.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 55,
+        "page_end": 55,
+        "printed_page": "55",
+        "section": "Reading correspondence"
+      },
+      "source_text_sha256": "94706651ef6db00123c57675ab1951634af595b1d1df1787c854eff69547ef25",
+      "candidate_cluster_ids": [
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p055.reading_correspondence.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 55,
+        "page_end": 55,
+        "printed_page": "55",
+        "section": "Reading correspondence"
+      },
+      "source_text_sha256": "dc582ae85fa159e13228195ae2847cf65735a598ac0bda3cb3a93ee0ab4dcd5b",
+      "candidate_cluster_ids": [
+        "routines_time_leisure",
+        "places_directions_travel",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p056.reading_for_orientation.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 56,
+        "page_end": 56,
+        "printed_page": "56",
+        "section": "Reading for orientation"
+      },
+      "source_text_sha256": "51ccafa89bcfd466151c7fb1b89caf42acf09037262f6b4b66363d40303940ee",
+      "candidate_cluster_ids": [
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p056.reading_for_orientation.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 56,
+        "page_end": 56,
+        "printed_page": "56",
+        "section": "Reading for orientation"
+      },
+      "source_text_sha256": "bbf35ab99e0896022fed9b1b558245858aec56ce389e9586c903c4bfb347d470",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p056.reading_for_orientation.03",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 56,
+        "page_end": 56,
+        "printed_page": "56",
+        "section": "Reading for orientation"
+      },
+      "source_text_sha256": "2e9ec959ca9798406a43d10bfd1ed964fd940ac860e5ce68ed98e9f9bf6c6423",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p056.reading_for_orientation.04",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 56,
+        "page_end": 56,
+        "printed_page": "56",
+        "section": "Reading for orientation"
+      },
+      "source_text_sha256": "50818e15028b138127b029e8eda1923e5ba058de175d31db093e312aedf87f6b",
+      "candidate_cluster_ids": [
+        "food_shopping_services",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p057.reading_for_information_and_argument.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 57,
+        "page_end": 57,
+        "printed_page": "57",
+        "section": "Reading for information and argument"
+      },
+      "source_text_sha256": "ce925c97e6de027953527686004b88b5376d3073c5f230748eb3ec26ef70f53c",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p057.reading_for_information_and_argument.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 57,
+        "page_end": 57,
+        "printed_page": "57",
+        "section": "Reading for information and argument"
+      },
+      "source_text_sha256": "3ee52263d875fa85900929692c481761e4580325d476aa92dc5bf650c9052922",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p058.reading_instructions.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 58,
+        "page_end": 58,
+        "printed_page": "58",
+        "section": "Reading instructions"
+      },
+      "source_text_sha256": "034ac8ca07d9eb05c2f0c298f934918e47d40fdb15f7307afbd59be7a2d3a38a",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p059.reading_as_a_leisure_activity.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 59,
+        "page_end": 59,
+        "printed_page": "59",
+        "section": "Reading as a leisure activity"
+      },
+      "source_text_sha256": "f8f2ec3304cee70c665dbe9a3f89d78f39bfae3d0d52324932dc1b54a0f00a54",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p059.reading_as_a_leisure_activity.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 59,
+        "page_end": 59,
+        "printed_page": "59",
+        "section": "Reading as a leisure activity"
+      },
+      "source_text_sha256": "0b8727e3ca2e251bb4cd4494cb5c848f69a87767cd929ed22ef6474068f07f34",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p060.identifying_cues_and_inferring_spoken_signed_and.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 60,
+        "page_end": 60,
+        "printed_page": "60",
+        "section": "Identifying cues and inferring (spoken, signed and written)"
+      },
+      "source_text_sha256": "912c94179c050110e81809d9e6d38aa6c9f58175c01268a5afeb77b4ac7768bf",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p060.identifying_cues_and_inferring_spoken_signed_and.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 60,
+        "page_end": 60,
+        "printed_page": "60",
+        "section": "Identifying cues and inferring (spoken, signed and written)"
+      },
+      "source_text_sha256": "65f8a8de863cbc65a1dd5af810a2dfd0578539bb08e4da8181402209fbff795a",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p062.overall_oral_production.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 62,
+        "page_end": 62,
+        "printed_page": "62",
+        "section": "Overall oral production"
+      },
+      "source_text_sha256": "136fd3abc03799884c83042642ab8ac6d4e9dc5f1dfead97a28c54fc9dfaf5ae",
+      "candidate_cluster_ids": [
+        "people_relationships"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p063.sustained_monologue_describing_experience.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 63,
+        "page_end": 63,
+        "printed_page": "63",
+        "section": "Sustained monologue: describing experience"
+      },
+      "source_text_sha256": "37524a1f30b7722fa9094c3fb3530fdd7582512676921229f17799a3161d8844",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p063.sustained_monologue_describing_experience.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 63,
+        "page_end": 63,
+        "printed_page": "63",
+        "section": "Sustained monologue: describing experience"
+      },
+      "source_text_sha256": "d23196112cc415f7d74412663bb137c727a90cb944c03b3ac9feb0611c7bcfac",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p063.sustained_monologue_giving_information.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 63,
+        "page_end": 63,
+        "printed_page": "63",
+        "section": "Sustained monologue: giving information"
+      },
+      "source_text_sha256": "e7922550472be3b072b295b92310bd358e37b76f857c93b9c104df8cebd758fb",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p066.addressing_audiences.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 66,
+        "page_end": 66,
+        "printed_page": "66",
+        "section": "Addressing audiences"
+      },
+      "source_text_sha256": "11102319ad6bd8feabd279122ef277846f523ad0d0a4ccceefd1ac04276cbb36",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p066.overall_written_production.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 66,
+        "page_end": 66,
+        "printed_page": "66",
+        "section": "Overall written production"
+      },
+      "source_text_sha256": "7829cbfa53de14eb18ab7d522f1455bf46b9725d74841ff4354bba0161e48a81",
+      "candidate_cluster_ids": [
+        "people_relationships",
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p066.overall_written_production.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 66,
+        "page_end": 66,
+        "printed_page": "66",
+        "section": "Overall written production"
+      },
+      "source_text_sha256": "3cdf25ec988476e9818e33f72a55be07e5e330a133cbbf18e8a01e802648da0e",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p067.creative_writing.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 67,
+        "page_end": 67,
+        "printed_page": "67",
+        "section": "Creative writing"
+      },
+      "source_text_sha256": "8f207d1ed8084c4c9ce6ad9766289816d7a5e4d02fe528f89ebac7bc685f449b",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p067.creative_writing.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 67,
+        "page_end": 67,
+        "printed_page": "67",
+        "section": "Creative writing"
+      },
+      "source_text_sha256": "12997b73c4107a32b0c46b4116fcad43b3659b69fa66a7493918d392736e47fd",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p067.creative_writing.03",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 67,
+        "page_end": 67,
+        "printed_page": "67",
+        "section": "Creative writing"
+      },
+      "source_text_sha256": "c2fb873318e17f7cf0c04923a0e7b1bc2790f5c30c97a236d22b1ebdd45c8281",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p069.compensating.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 69,
+        "page_end": 69,
+        "printed_page": "69",
+        "section": "Compensating"
+      },
+      "source_text_sha256": "4261c30e0e2b79643d5a1b8e5aca8239aa0001c945fe04752b185022cb461c88",
+      "candidate_cluster_ids": [
+        "communication_strategies"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p072.overall_oral_interaction.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 72,
+        "page_end": 72,
+        "printed_page": "72",
+        "section": "Overall oral interaction"
+      },
+      "source_text_sha256": "2b570946c22238b573bc92d55c9dd56ba34345a45a2a2355304c453f2c019d47",
+      "candidate_cluster_ids": [
+        "food_shopping_services",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p073.understanding_an_interlocutor.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 73,
+        "page_end": 73,
+        "printed_page": "73",
+        "section": "Understanding an interlocutor"
+      },
+      "source_text_sha256": "528663071562d7b380a0617505ec579e7840ed2f06aca34fdfea2a07bd9d1d9d",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p073.understanding_an_interlocutor.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 73,
+        "page_end": 73,
+        "printed_page": "73",
+        "section": "Understanding an interlocutor"
+      },
+      "source_text_sha256": "548a00745437b87d5f955e85cd4de95d156541a3878dfd395ec35807e30c42e2",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p074.conversation.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 74,
+        "page_end": 74,
+        "printed_page": "74",
+        "section": "Conversation"
+      },
+      "source_text_sha256": "a3ee157792d80b2acb8f1361567226baa4e9dd341d08990c4f7631e4be1605cb",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p074.conversation.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 74,
+        "page_end": 74,
+        "printed_page": "74",
+        "section": "Conversation"
+      },
+      "source_text_sha256": "c0b274ac5ffcb96f53571569128d9c8254d4f08ef01ad40cba0a8f356a2b8aa7",
+      "candidate_cluster_ids": [
+        "people_relationships"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p074.conversation.03",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 74,
+        "page_end": 74,
+        "printed_page": "74",
+        "section": "Conversation"
+      },
+      "source_text_sha256": "3c35e42b6a5af26eba06b44a3839a85b5233daaefa35db644f70891ffe4b82f7",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p074.conversation.04",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 74,
+        "page_end": 74,
+        "printed_page": "74",
+        "section": "Conversation"
+      },
+      "source_text_sha256": "7544f0768562da616707bd964e758b9f1f541e549f21c330a6fe390699c0bc52",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p075.informal_discussion_with_friends.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 75,
+        "page_end": 75,
+        "printed_page": "75",
+        "section": "Informal discussion (with friends)"
+      },
+      "source_text_sha256": "f8b549b78df54ddea0db4fce0bee082545cd79b0b21d67d0cd23b52f797ec142",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p077.goal_oriented_co_operation.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 77,
+        "page_end": 77,
+        "printed_page": "77",
+        "section": "Goal-oriented co-operation"
+      },
+      "source_text_sha256": "548a00745437b87d5f955e85cd4de95d156541a3878dfd395ec35807e30c42e2",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p077.goal_oriented_co_operation.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 77,
+        "page_end": 77,
+        "printed_page": "77",
+        "section": "Goal-oriented co-operation"
+      },
+      "source_text_sha256": "496b19be87897a5257b97fb2d5857d45b3970fb31d9f34421d6d4a11f53aed58",
+      "candidate_cluster_ids": [
+        "routines_time_leisure",
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p077.goal_oriented_co_operation.03",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 77,
+        "page_end": 77,
+        "printed_page": "77",
+        "section": "Goal-oriented co-operation"
+      },
+      "source_text_sha256": "54cf7a17c1ee80d415b3b3f8b448029f39a23bb63a16e0548941208315080291",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p078.obtaining_goods_and_services.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 78,
+        "page_end": 78,
+        "printed_page": "78",
+        "section": "Obtaining goods and services"
+      },
+      "source_text_sha256": "bb3f6c0f1c3349c024d7d071ba30962ff17747d117ba64b694bb6aad80bbb105",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p078.obtaining_goods_and_services.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 78,
+        "page_end": 78,
+        "printed_page": "78",
+        "section": "Obtaining goods and services"
+      },
+      "source_text_sha256": "bec094760384bdfe46ca0e88d2c1ad0fe7a0116af682e1550e158a180f7c4f0b",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p078.obtaining_goods_and_services.03",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 78,
+        "page_end": 78,
+        "printed_page": "78",
+        "section": "Obtaining goods and services"
+      },
+      "source_text_sha256": "9df7795d706c17ad0090b92797179d6372c08f6fa3bc362aa9ad8ec8609d3f2b",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p079.information_exchange.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 79,
+        "page_end": 79,
+        "printed_page": "79",
+        "section": "Information exchange"
+      },
+      "source_text_sha256": "548a00745437b87d5f955e85cd4de95d156541a3878dfd395ec35807e30c42e2",
+      "candidate_cluster_ids": [
+        "places_directions_travel"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p079.information_exchange.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 79,
+        "page_end": 79,
+        "printed_page": "79",
+        "section": "Information exchange"
+      },
+      "source_text_sha256": "061481ece7557c497ca6eab40f3375eaaeba397748629a176b074308cde2076d",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p079.information_exchange.03",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 79,
+        "page_end": 79,
+        "printed_page": "79",
+        "section": "Information exchange"
+      },
+      "source_text_sha256": "074b6b596a1f1a108f7435b82240aad5bacdcb5ffaf89e4b50e7ee1bad1ee018",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "people_relationships",
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p079.information_exchange.04",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 79,
+        "page_end": 79,
+        "printed_page": "79",
+        "section": "Information exchange"
+      },
+      "source_text_sha256": "6e354bde03e8e80662b672d0cee607545a7e843a44bdd8527a94a5ebdc336e17",
+      "candidate_cluster_ids": [
+        "routines_time_leisure"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p079.information_exchange.05",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 79,
+        "page_end": 79,
+        "printed_page": "79",
+        "section": "Information exchange"
+      },
+      "source_text_sha256": "62903528ae30b35710e0e2bc26d3af9df45216859d69d0793b6b7fc80cac4545",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p079.information_exchange.06",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 79,
+        "page_end": 79,
+        "printed_page": "79",
+        "section": "Information exchange"
+      },
+      "source_text_sha256": "b7302a5270ef86750083ec33998d7d374ee515532f46a87c9f8637dfc411448c",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p080.interviewing_and_being_interviewed.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 80,
+        "page_end": 80,
+        "printed_page": "80",
+        "section": "Interviewing and being interviewed"
+      },
+      "source_text_sha256": "f4ce2210e1478732795c5e0868546466bca79350de0b4d3693f4b1fe119eb818",
+      "candidate_cluster_ids": [
+        "identity_personal_information"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p080.interviewing_and_being_interviewed.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 80,
+        "page_end": 80,
+        "printed_page": "80",
+        "section": "Interviewing and being interviewed"
+      },
+      "source_text_sha256": "7b34656e3dd9d2f41484df7b977a7c4250b93bc8b303ba79c3bcd99862df9ecb",
+      "candidate_cluster_ids": [
+        "food_shopping_services"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p082.overall_written_interaction.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 82,
+        "page_end": 82,
+        "printed_page": "82",
+        "section": "Overall written interaction"
+      },
+      "source_text_sha256": "c81f7f4a40ea0a343196ac659ddedfd5cb2902deba0602ca3c9a91e401a460f4",
+      "candidate_cluster_ids": [
+        "identity_personal_information"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "natural"
+    },
+    {
+      "record_id": "cefr.cv2020.p083.correspondence.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 83,
+        "page_end": 83,
+        "printed_page": "83",
+        "section": "Correspondence"
+      },
+      "source_text_sha256": "3e821a8eb12f544d186fe3399aeb7eeb4504d46bfb6d83662201be44b031a9fd",
+      "candidate_cluster_ids": [
+        "routines_time_leisure",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p083.correspondence.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 83,
+        "page_end": 83,
+        "printed_page": "83",
+        "section": "Correspondence"
+      },
+      "source_text_sha256": "bd61ba1a317c1f33a7b0c5c7060815b5e0068adf5f95668211e0b343e1ffea1f",
+      "candidate_cluster_ids": [
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p083.correspondence.03",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 83,
+        "page_end": 83,
+        "printed_page": "83",
+        "section": "Correspondence"
+      },
+      "source_text_sha256": "094da62a06b09699dd2ee781e9755b0d23f89d728f5b180c441b638fb0ee56ff",
+      "candidate_cluster_ids": [
+        "people_relationships",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p084.notes_messages_and_forms.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 84,
+        "page_end": 84,
+        "printed_page": "84",
+        "section": "Notes, messages and forms"
+      },
+      "source_text_sha256": "5725feced6eb255a46ed4da20d297ead994311aa1128e3bfcff2733a3cf3c379",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "places_directions_travel",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p084.notes_messages_and_forms.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 84,
+        "page_end": 84,
+        "printed_page": "84",
+        "section": "Notes, messages and forms"
+      },
+      "source_text_sha256": "d919e4bab291fcd6010a35eef760ea9f28482e25bbc8cd4ccacab5cecf0ec71c",
+      "candidate_cluster_ids": [
+        "food_shopping_services",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p086.online_conversation_and_discussion.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 86,
+        "page_end": 86,
+        "printed_page": "86",
+        "section": "Online conversation and discussion"
+      },
+      "source_text_sha256": "a7766282ee01b6f94f360c89e5e903081fd6bf72c6720a390d9d3c170e1f84d6",
+      "candidate_cluster_ids": [
+        "routines_time_leisure",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p086.online_conversation_and_discussion.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 86,
+        "page_end": 86,
+        "printed_page": "86",
+        "section": "Online conversation and discussion"
+      },
+      "source_text_sha256": "3f5557e8326ebdb5e193c958130c69a30b2fce4fdae00614a8f8dfd66bd0e5b5",
+      "candidate_cluster_ids": [
+        "messages_signs_forms",
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p087.goal_oriented_online_transactions_and_collaboration.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 87,
+        "page_end": 87,
+        "printed_page": "87",
+        "section": "Goal-oriented online transactions and collaboration"
+      },
+      "source_text_sha256": "3fe880a93b42833c29dc898bee0bfa9f4f354fe08eda18808d340a90acf44931",
+      "candidate_cluster_ids": [
+        "food_shopping_services",
+        "messages_signs_forms"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p089.asking_for_clarification.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 89,
+        "page_end": 89,
+        "printed_page": "89",
+        "section": "Asking for clarification"
+      },
+      "source_text_sha256": "da5c4099e1dbaa246a31e152fc7d0b20cf0d8dd822ef904ed5ced6ed7151484b",
+      "candidate_cluster_ids": [
+        "communication_strategies"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p089.asking_for_clarification.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 89,
+        "page_end": 89,
+        "printed_page": "89",
+        "section": "Asking for clarification"
+      },
+      "source_text_sha256": "d445f261aa7c92ca3fef6e94f35c2465a966ee3cdf75e9f85e9d6a6135ffa290",
+      "candidate_cluster_ids": [
+        "communication_strategies"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p092.overall_mediation.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 92,
+        "page_end": 92,
+        "printed_page": "92",
+        "section": "Overall mediation"
+      },
+      "source_text_sha256": "11cdd3ad71a2a6c0a297d41e0353fdc8bca8d60382ec3544a8c52a9c12754ff9",
+      "candidate_cluster_ids": [
+        "messages_signs_forms",
+        "social_contact_collaboration",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p095.relaying_specific_information_in_speech_or_sign.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 95,
+        "page_end": 95,
+        "printed_page": "95",
+        "section": "Relaying specific information in speech or sign"
+      },
+      "source_text_sha256": "ae6301fd4176f44af9e631fca9c5d0f936303ba922678bfa259c631267542846",
+      "candidate_cluster_ids": [
+        "routines_time_leisure",
+        "places_directions_travel",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p095.relaying_specific_information_in_writing.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 95,
+        "page_end": 95,
+        "printed_page": "95",
+        "section": "Relaying specific information in writing"
+      },
+      "source_text_sha256": "22e0db9be2fcd00e75bd321761e3c95ef1f92b16b7fd09a1ff5db31c0b960b81",
+      "candidate_cluster_ids": [
+        "food_shopping_services",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p101.processing_text_in_speech_or_sign.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 101,
+        "page_end": 101,
+        "printed_page": "101",
+        "section": "Processing text in speech or sign"
+      },
+      "source_text_sha256": "177022cecc840054cdf7d4c6036aae0f827cf088ba9b65fa33492e4c66b1dc57",
+      "candidate_cluster_ids": [
+        "messages_signs_forms",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p101.processing_text_in_writing.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 101,
+        "page_end": 101,
+        "printed_page": "101",
+        "section": "Processing text in writing"
+      },
+      "source_text_sha256": "8872027514bf7fb8fa76a8ce51ad257b3bbe9efd02b158cfa10fd27bc57b3bf6",
+      "candidate_cluster_ids": [
+        "communication_strategies"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p101.processing_text_in_writing.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 101,
+        "page_end": 101,
+        "printed_page": "101",
+        "section": "Processing text in writing"
+      },
+      "source_text_sha256": "7f16e0ad85cbcc6827accef708711c89c1033454e4fa0e031cdd4a8f29828eeb",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p104.translating_a_written_text_in_speech_or.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 104,
+        "page_end": 104,
+        "printed_page": "104",
+        "section": "Translating a written text in speech or sign"
+      },
+      "source_text_sha256": "ab24b91c15d6da5afbbbeaca95cd6b0b707f377be85429680453084f351672fe",
+      "candidate_cluster_ids": [
+        "messages_signs_forms",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p104.translating_a_written_text_in_writing.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 104,
+        "page_end": 104,
+        "printed_page": "104",
+        "section": "Translating a written text in writing"
+      },
+      "source_text_sha256": "f099c5083922f4749a24b0cbc83549172d01d9a72cd0845fbec419708e0eaf7f",
+      "candidate_cluster_ids": [
+        "communication_strategies"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p107.expressing_a_personal_response_to_creative_texts.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 107,
+        "page_end": 107,
+        "printed_page": "107",
+        "section": "Expressing a personal response to creative texts (including literature)"
+      },
+      "source_text_sha256": "39fbc51a33d0496f438f68437c79a3ee2c48d2856194c7fe8bfefed8984b94f6",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration"
+      ],
+      "mapping_fit": "natural",
+      "prior_seven_unit_fit": "overlap"
+    },
+    {
+      "record_id": "cefr.cv2020.p111.facilitating_collaborative_interaction_with_peers.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 111,
+        "page_end": 111,
+        "printed_page": "111",
+        "section": "Facilitating collaborative interaction with peers"
+      },
+      "source_text_sha256": "198113dee2337afec0bc581e0c809d9b42b4542a8fe5b71dd7bb243d118be5c8",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p111.collaborating_to_construct_meaning.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 111,
+        "page_end": 111,
+        "printed_page": "111",
+        "section": "Collaborating to construct meaning"
+      },
+      "source_text_sha256": "f9af2ae81e9dd0a7aa502f49009af9d50c70ced6832122307b6316e164f7825b",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p113.encouraging_conceptual_talk.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 113,
+        "page_end": 113,
+        "printed_page": "113",
+        "section": "Encouraging conceptual talk"
+      },
+      "source_text_sha256": "3df6815e10be4a87956ec1dae723a2a515086bd5f312da2c685d215d337c4cb8",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p115.facilitating_pluricultural_space.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 115,
+        "page_end": 115,
+        "printed_page": "115",
+        "section": "Facilitating pluricultural space"
+      },
+      "source_text_sha256": "3f61cc61d8d949335afdde1888dd40a9378b7ba639ced935ce3702921c854085",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p116.acting_as_an_intermediary_in_informal_situations.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 116,
+        "page_end": 116,
+        "printed_page": "116",
+        "section": "Acting as an intermediary in informal situations (with friends and colleagues)"
+      },
+      "source_text_sha256": "f1e7b37d38a10d00f6258b99a89135e4fac1d658fb31c4c8d10e66dadf62a6b4",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "people_relationships",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p117.facilitating_communication_in_delicate_situations_and_disagreements.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 117,
+        "page_end": 117,
+        "printed_page": "117",
+        "section": "Facilitating communication in delicate situations and disagreements"
+      },
+      "source_text_sha256": "d34e6a6ec1873826e7619f3b3149b117f691dc3ebb36492cccc1f2c8e74426a6",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration",
+        "communication_strategies"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p131.general_linguistic_range.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 131,
+        "page_end": 131,
+        "printed_page": "131",
+        "section": "General linguistic range"
+      },
+      "source_text_sha256": "cb239b9f8b5df6c8caf48f7a273e70c2b42fcaf207f81931a87b65ba15286438",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "language_foundations"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p131.general_linguistic_range.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 131,
+        "page_end": 131,
+        "printed_page": "131",
+        "section": "General linguistic range"
+      },
+      "source_text_sha256": "8133dd5b5e4442a4250ee1a08e77833ad1bcfae018b40f3380cd6b91f8245c29",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p131.vocabulary_range.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 131,
+        "page_end": 131,
+        "printed_page": "131",
+        "section": "Vocabulary range"
+      },
+      "source_text_sha256": "3d47b2c2a264c0ec982f9c5317517520407fec5cfcfb1ae3d378e0d5ac4232e3",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p132.grammatical_accuracy.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 132,
+        "page_end": 132,
+        "printed_page": "132",
+        "section": "Grammatical accuracy"
+      },
+      "source_text_sha256": "68939cf1f2655eedd927ef41d54b4b7f4983dd7097333e3fcab2d3dfd6d8daef",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p135.overall_phonological_control.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 135,
+        "page_end": 135,
+        "printed_page": "135",
+        "section": "Overall phonological control"
+      },
+      "source_text_sha256": "db86dd20156cbe58668fbba4207b2c54e1018e753884fc9a5604e02190801a4b",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p135.sound_articulation.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 135,
+        "page_end": 135,
+        "printed_page": "135",
+        "section": "Sound articulation"
+      },
+      "source_text_sha256": "7926bfef14da86fd67ddc5b37b9d31e2695cdde3d051b44c527d02cc224612f5",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p135.sound_articulation.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 135,
+        "page_end": 135,
+        "printed_page": "135",
+        "section": "Sound articulation"
+      },
+      "source_text_sha256": "4d8da803dde708a7ac98602bea81042dd976b39d58ab7f3bcc4a9e6c79e92f38",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p135.prosodic_features.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 135,
+        "page_end": 135,
+        "printed_page": "135",
+        "section": "Prosodic features"
+      },
+      "source_text_sha256": "0be3600f0286ae46524d48336a1f74015d97217e5775e9c9abf6da528429a79f",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p136.orthographic_control.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 136,
+        "page_end": 136,
+        "printed_page": "136",
+        "section": "Orthographic control"
+      },
+      "source_text_sha256": "a7629b0c450c0de399e0fafc63206d02f3c79df6992419245e9be16969efd45b",
+      "candidate_cluster_ids": [
+        "home_objects_descriptions",
+        "language_foundations"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p136.orthographic_control.02",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 136,
+        "page_end": 136,
+        "printed_page": "136",
+        "section": "Orthographic control"
+      },
+      "source_text_sha256": "bc8a1b8b063e2c70166f6307f7d3cc4b2a87f2ce299d9b5e0ede474ce2378604",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "language_foundations"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p136.orthographic_control.03",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 136,
+        "page_end": 136,
+        "printed_page": "136",
+        "section": "Orthographic control"
+      },
+      "source_text_sha256": "e3dd34d1e58fef47ae92788dab64fa31478c9889092486711236047f9f466ad2",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p137.sociolinguistic_appropriateness.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 137,
+        "page_end": 137,
+        "printed_page": "137",
+        "section": "Sociolinguistic appropriateness"
+      },
+      "source_text_sha256": "7115b8b0357886de451f56521699bb08de188a57409fdefea784d5cd55eb84f2",
+      "candidate_cluster_ids": [
+        "social_contact_collaboration",
+        "language_foundations"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p141.coherence_and_cohesion.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 141,
+        "page_end": 141,
+        "printed_page": "141",
+        "section": "Coherence and cohesion"
+      },
+      "source_text_sha256": "4ef83d77ee5381157941900689435d08c44cc7cbcb902b2472651df15f999059",
+      "candidate_cluster_ids": [
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p142.propositional_precision.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 142,
+        "page_end": 142,
+        "printed_page": "142",
+        "section": "Propositional precision"
+      },
+      "source_text_sha256": "e361828caee7af22e285b9afeb14d92cf7de9342452d3c603cc12931983bb56c",
+      "candidate_cluster_ids": [
+        "identity_personal_information",
+        "language_foundations"
+      ],
+      "mapping_fit": "natural_with_support",
+      "prior_seven_unit_fit": "forced"
+    },
+    {
+      "record_id": "cefr.cv2020.p142.fluency.01",
+      "record_kind": "descriptor",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 142,
+        "page_end": 142,
+        "printed_page": "142",
+        "section": "Fluency"
+      },
+      "source_text_sha256": "7dede05fffe9f19780767773ad0f2a019e3a376b956cec50823cd353bd181802",
+      "candidate_cluster_ids": [
+        "communication_strategies",
+        "language_foundations"
+      ],
+      "mapping_fit": "cross_cutting",
+      "prior_seven_unit_fit": "forced"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "delivery": {"placement": "after_video_explanation", "interaction_during_video": false, "sequence": "person_choice_then_sentence_build_then_profile_write"},
+  "activities": [
+    {"id": "same_person", "type": "single_choice", "prompt_ar": "أي مجموعة تتحدث عن Salma نفسها؟", "options": ["I'm Salma. I live in Doha. I like reading.", "I'm Salma. He lives in Doha. She likes reading."], "answer": 0},
+    {"id": "order_self_profile", "type": "order", "items": ["I like cooking.", "Hi, I'm Rami.", "I'm a teacher.", "I live in Amman."], "answer": ["Hi, I'm Rami.", "I live in Amman.", "I'm a teacher.", "I like cooking."]},
+    {"id": "repair_owner_shift", "type": "edit", "prompt_ar": "أصلح تغير صاحب المعلومات: This is Lina. I live in Cairo. She's a designer.", "answer": "This is Lina. She lives in Cairo. She's a designer."},
+    {"id": "profile_plan", "type": "fields", "fields": ["person", "residence", "role", "family_or_interest"], "fictional_allowed": true, "prompt_ar": "خطط بالكلمات ثم اكتب جملك من غير نسخ النموذج."}
+  ],
+  "feedback_policy": "Correct one unclear person reference or missing category, show one local revision, then require the learner to revise the profile."
+}

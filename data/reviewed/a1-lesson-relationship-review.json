@@ -1,0 +1,568 @@
+{
+  "schema_version": 1,
+  "review_id": "a1_lesson_relationship_sequence_review",
+  "reviewed_at": "2026-07-18T02:54:10+03:00",
+  "reviewer": "lesson_002_primary",
+  "status": "accepted",
+  "interpretation_boundary": {
+    "source_proven_strict_order": false,
+    "unit_boundaries_defined": false,
+    "statement": "The order is a reviewed pedagogical hypothesis. Source records support the abilities but do not prove a strict topical or unit sequence."
+  },
+  "sequence_bands": [
+    {
+      "band_id": "foundation_and_personal_exchange",
+      "rationale": "Begin with short supported reception, basic social language, and personal information tasks that provide reusable A1 task familiarity.",
+      "candidate_ids": [
+        "lesson_candidate.follow_short_written_everyday_instructions",
+        "lesson_candidate.understand_common_signs_notices_and_visual_instructions",
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues",
+        "lesson_candidate.locate_names_places_and_times_in_slow_recordings",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.locate_written_personal_details",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.understand_spoken_contact_details",
+        "lesson_candidate.use_basic_everyday_polite_forms",
+        "lesson_candidate.open_and_close_a_basic_social_exchange",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.complete_a_simple_information_form",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.exchange_personal_details_in_writing",
+        "lesson_candidate.understand_a_short_simple_postcard_message",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.respond_politely_to_an_introduction",
+        "lesson_candidate.introduce_another_person"
+      ]
+    },
+    {
+      "band_id": "familiar_people_routines_and_home",
+      "rationale": "Extend the same bounded reception and production patterns across familiar people, routines, time, objects, and home contexts.",
+      "candidate_ids": [
+        "lesson_candidate.understand_talk_about_people_and_family",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.write_simple_people_profile_cards",
+        "lesson_candidate.understand_a_short_everyday_activity_text",
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.understand_a_simple_meeting_arrangement",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.write_schedule_dates_and_times",
+        "lesson_candidate.write_simple_life_and_routine_sentences",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.write_a_simple_object_description",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.understand_outline_of_an_illustrated_short_story",
+        "lesson_candidate.deliver_a_rehearsed_formal_introduction",
+        "lesson_candidate.state_how_a_simple_work_made_them_feel"
+      ]
+    },
+    {
+      "band_id": "navigation_services_and_practical_messages",
+      "rationale": "Apply established literal-detail and exchange patterns to directions, travel, services, immediate needs, and practical form or message tasks.",
+      "candidate_ids": [
+        "lesson_candidate.follow_simple_written_wayfinding_directions",
+        "lesson_candidate.follow_slow_spoken_route_directions",
+        "lesson_candidate.follow_simple_directions_from_an_interlocutor",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.understand_simple_place_and_hotel_information",
+        "lesson_candidate.understand_outline_of_a_simple_guided_tour",
+        "lesson_candidate.identify_key_details_in_a_slow_station_announcement",
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.find_key_details_in_a_simple_advertisement_or_leaflet",
+        "lesson_candidate.identify_a_price_in_slow_spoken_service_information",
+        "lesson_candidate.follow_a_slow_everyday_service_exchange",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.ask_for_basic_practical_help",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
+        "lesson_candidate.complete_a_very_simple_online_purchase_or_application",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message"
+      ]
+    },
+    {
+      "band_id": "media_and_mediation",
+      "rationale": "Move to visually supported media and bounded mediation only after the map has offered the relevant literal-detail and everyday-context scaffolds.",
+      "candidate_ids": [
+        "lesson_candidate.identify_a_headline_news_topic_from_visual_media",
+        "lesson_candidate.identify_a_product_in_a_short_video_advertisement",
+        "lesson_candidate.react_politely_to_a_simple_online_post",
+        "lesson_candidate.relay_predictable_person_time_or_place_details",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+        "lesson_candidate.convey_simple_information_from_a_sign_or_notice",
+        "lesson_candidate.give_a_rough_oral_translation_of_everyday_sign_words",
+        "lesson_candidate.translate_simple_written_phrases_with_a_dictionary"
+      ]
+    },
+    {
+      "band_id": "bounded_social_collaboration",
+      "rationale": "Close with short interpersonal and collaborative moves that benefit from the earlier social, instruction-following, and repair experience.",
+      "candidate_ids": [
+        "lesson_candidate.agree_to_a_simple_request",
+        "lesson_candidate.accept_a_simple_offer",
+        "lesson_candidate.follow_simple_game_or_activity_instructions",
+        "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement",
+        "lesson_candidate.show_interest_and_welcome_an_idea",
+        "lesson_candidate.invite_input_and_check_understanding_in_a_simple_task",
+        "lesson_candidate.share_an_idea_and_ask_what_others_think"
+      ]
+    }
+  ],
+  "required_links": [
+    {
+      "prerequisite_id": "lesson_candidate.locate_names_places_and_times_in_slow_recordings",
+      "target_id": "lesson_candidate.relay_predictable_person_time_or_place_details",
+      "rationale": "Literal identification is necessary before the same predictable details can be relayed accurately.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p14.007",
+        "cefr.cv2020.p116.acting_as_an_intermediary_in_informal_situations.01"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.follow_slow_spoken_route_directions",
+      "target_id": "lesson_candidate.exchange_basic_wayfinding_information",
+      "rationale": "Understanding a basic spoken route is necessary for a valid two-way wayfinding exchange.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p15.004",
+        "gse.adult.2022.p23.009"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.identify_a_price_in_slow_spoken_service_information",
+      "target_id": "lesson_candidate.handle_basic_price_and_quantity_information",
+      "rationale": "Recognising the stated price is necessary to complete the intended cost-and-quantity transaction.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p15.007",
+        "gse.adult.2022.p22.007"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.complete_a_simple_information_form",
+      "target_id": "lesson_candidate.complete_a_very_simple_online_purchase_or_application",
+      "rationale": "Basic form completion is necessary before the same information task adds an online transaction layer.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p37.001",
+        "cefr.cv2020.p087.goal_oriented_online_transactions_and_collaboration.01"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_common_signs_notices_and_visual_instructions",
+      "target_id": "lesson_candidate.convey_simple_information_from_a_sign_or_notice",
+      "rationale": "The source sign or notice must first be understood before its practical detail can be mediated.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p09.005",
+        "cefr.cv2020.p101.processing_text_in_speech_or_sign.01"
+      ]
+    }
+  ],
+  "helpful_links": [
+    {
+      "prerequisite_id": "lesson_candidate.understand_spoken_personal_introductions",
+      "target_id": "lesson_candidate.give_short_self_introduction",
+      "rationale": "Noticing a short introduction provides a useful input model for independent production.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p14.001",
+        "gse.adult.2022.p22.009"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.give_short_self_introduction",
+      "target_id": "lesson_candidate.exchange_personal_details_orally",
+      "rationale": "A controlled self-introduction usefully reduces the production load in a later exchange.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p22.009",
+        "gse.adult.2022.p23.004"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.locate_written_personal_details",
+      "target_id": "lesson_candidate.complete_a_simple_information_form",
+      "rationale": "Locating personal details usefully prepares the transfer of those details into labelled fields.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p09.009",
+        "gse.adult.2022.p37.001"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.give_short_self_introduction",
+      "target_id": "lesson_candidate.write_short_personal_profile",
+      "rationale": "The familiar personal-content set can usefully transfer from short speech to writing.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p22.009",
+        "gse.adult.2022.p37.004"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.write_short_personal_profile",
+      "target_id": "lesson_candidate.exchange_personal_details_in_writing",
+      "rationale": "Short profile production usefully prepares the same details for a reciprocal written exchange.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p37.004",
+        "cefr.cv2020.p082.overall_written_interaction.01"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_a_short_simple_postcard_message",
+      "target_id": "lesson_candidate.write_a_short_message_to_a_friend",
+      "rationale": "A short correspondence input usefully precedes an independent friend-message response.",
+      "evidence_record_ids": [
+        "cefr.cv2020.p055.reading_correspondence.01",
+        "gse.adult.2022.p37.016"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.use_basic_everyday_polite_forms",
+      "target_id": "lesson_candidate.open_and_close_a_basic_social_exchange",
+      "rationale": "Basic polite forms support the social purposes within a complete greeting-and-closing exchange.",
+      "evidence_record_ids": [
+        "cefr.cv2020.p137.sociolinguistic_appropriateness.01",
+        "gse.adult.2022.p22.013"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.use_basic_everyday_polite_forms",
+      "target_id": "lesson_candidate.respond_politely_to_an_introduction",
+      "rationale": "The general polite-form repertoire supports the specific introduction response.",
+      "evidence_record_ids": [
+        "cefr.cv2020.p137.sociolinguistic_appropriateness.01",
+        "gse.adult.2022.p24.003"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.open_and_close_a_basic_social_exchange",
+      "target_id": "lesson_candidate.introduce_another_person",
+      "rationale": "A bounded social opening usefully supplies the interaction frame for introducing someone.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p22.013",
+        "gse.adult.2022.p22.022"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_talk_about_people_and_family",
+      "target_id": "lesson_candidate.describe_a_family_or_known_person",
+      "rationale": "Receptive family facts provide useful input before a short independent description.",
+      "evidence_record_ids": [
+        "cefr.cv2020.p049.understanding_conversation_between_other_people.01",
+        "gse.adult.2022.p24.004"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_talk_about_people_and_family",
+      "target_id": "lesson_candidate.exchange_information_about_family_and_friends",
+      "rationale": "Recognising basic family facts usefully reduces the listening load in the reciprocal exchange.",
+      "evidence_record_ids": [
+        "cefr.cv2020.p049.understanding_conversation_between_other_people.01",
+        "gse.adult.2022.p22.002"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.write_short_personal_profile",
+      "target_id": "lesson_candidate.write_simple_people_profile_cards",
+      "rationale": "A personal profile usefully transfers to short factual profiles of other people.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p37.004",
+        "gse.adult.2022.p37.005"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_a_short_everyday_activity_text",
+      "target_id": "lesson_candidate.describe_a_simple_everyday_routine",
+      "rationale": "Reading a bounded activity sequence provides useful preparation for producing a fresh routine.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p09.012",
+        "cefr.cv2020.p063.sustained_monologue_describing_experience.02"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+      "target_id": "lesson_candidate.give_a_simple_leisure_profile",
+      "rationale": "Recognising leisure preferences and abilities usefully precedes producing the same content.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p14.009",
+        "gse.adult.2022.p23.006"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+      "target_id": "lesson_candidate.exchange_routine_and_preference_information",
+      "rationale": "Receptive control of preference language usefully reduces the listening load in an exchange.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p14.009",
+        "gse.adult.2022.p23.016"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.identify_spoken_time_and_date_details",
+      "target_id": "lesson_candidate.give_an_event_date_and_time",
+      "rationale": "Accurate reception of dates and times usefully precedes producing them in scheduling.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p14.003",
+        "gse.adult.2022.p22.003"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.identify_spoken_time_and_date_details",
+      "target_id": "lesson_candidate.write_schedule_dates_and_times",
+      "rationale": "Accurate reception of dates and times supports their later written representation.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p14.003",
+        "gse.adult.2022.p37.012"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.describe_a_simple_everyday_routine",
+      "target_id": "lesson_candidate.write_simple_life_and_routine_sentences",
+      "rationale": "A short oral routine usefully prepares the same sequence for independent writing.",
+      "evidence_record_ids": [
+        "cefr.cv2020.p063.sustained_monologue_describing_experience.02",
+        "gse.adult.2022.p37.015"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.give_a_simple_leisure_profile",
+      "target_id": "lesson_candidate.write_a_short_hobbies_and_likes_post",
+      "rationale": "A bounded leisure profile usefully prepares a short written post with similar content.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p23.006",
+        "gse.adult.2022.p37.008"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_where_things_or_people_are",
+      "target_id": "lesson_candidate.describe_people_and_object_locations_orally",
+      "rationale": "Understanding basic positions usefully precedes producing fresh location statements.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p14.011",
+        "gse.adult.2022.p22.001"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.match_visual_descriptions_to_familiar_things",
+      "target_id": "lesson_candidate.describe_a_familiar_object_orally",
+      "rationale": "Matching visible features usefully precedes producing a fresh object description.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p09.002",
+        "gse.adult.2022.p22.015"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.describe_a_familiar_object_orally",
+      "target_id": "lesson_candidate.exchange_visible_object_information",
+      "rationale": "A short object description usefully reduces production load in a visual information gap.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p22.015",
+        "gse.adult.2022.p22.004"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.describe_a_familiar_object_orally",
+      "target_id": "lesson_candidate.write_a_simple_object_description",
+      "rationale": "The same visible-feature content can usefully transfer from speech to writing.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p22.015",
+        "gse.adult.2022.p37.007"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_where_things_or_people_are",
+      "target_id": "lesson_candidate.write_a_simple_room_description",
+      "rationale": "Receptive position language usefully precedes a written room-and-location description.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p14.011",
+        "gse.adult.2022.p37.017"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.introduce_another_person",
+      "target_id": "lesson_candidate.deliver_a_rehearsed_formal_introduction",
+      "rationale": "An interpersonal introduction usefully precedes the more supported audience-delivery variant.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p22.022",
+        "cefr.cv2020.p066.addressing_audiences.01"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.follow_slow_spoken_route_directions",
+      "target_id": "lesson_candidate.follow_simple_directions_from_an_interlocutor",
+      "rationale": "Recorded route following usefully prepares the same comprehension under live-turn conditions.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p15.004",
+        "cefr.cv2020.p073.understanding_an_interlocutor.02"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_simple_place_and_hotel_information",
+      "target_id": "lesson_candidate.check_in_at_a_hotel",
+      "rationale": "Recognising basic hotel details usefully prepares the predictable check-in exchange.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p09.006",
+        "gse.adult.2022.p22.025"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.follow_a_slow_everyday_service_exchange",
+      "target_id": "lesson_candidate.ask_for_basic_food_or_drink",
+      "rationale": "Understanding a model service need-and-response pattern usefully precedes requesting an item.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p15.019",
+        "gse.adult.2022.p22.010"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.follow_a_slow_everyday_service_exchange",
+      "target_id": "lesson_candidate.ask_for_and_give_an_everyday_item",
+      "rationale": "Receptive control of the service pattern usefully precedes a reciprocal item exchange.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p15.019",
+        "gse.adult.2022.p22.021"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.follow_a_slow_everyday_service_exchange",
+      "target_id": "lesson_candidate.exchange_information_about_an_immediate_need",
+      "rationale": "A familiar need-and-response pattern usefully prepares a new immediate-need exchange.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p15.019",
+        "gse.adult.2022.p22.018"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.follow_a_slow_everyday_service_exchange",
+      "target_id": "lesson_candidate.ask_for_basic_practical_help",
+      "rationale": "Recognising a basic service response usefully prepares a direct request for practical help.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p15.019",
+        "gse.adult.2022.p23.007"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.follow_a_slow_everyday_service_exchange",
+      "target_id": "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
+      "rationale": "A bounded service exchange usefully prepares the turn pattern of a basic health interaction.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p15.019",
+        "cefr.cv2020.p080.interviewing_and_being_interviewed.02"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_common_signs_notices_and_visual_instructions",
+      "target_id": "lesson_candidate.give_a_rough_oral_translation_of_everyday_sign_words",
+      "rationale": "Understanding the practical sign context usefully constrains a rough oral translation.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p09.005",
+        "cefr.cv2020.p104.translating_a_written_text_in_speech_or.01"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.open_and_close_a_basic_social_exchange",
+      "target_id": "lesson_candidate.react_politely_to_a_simple_online_post",
+      "rationale": "Basic social reaction language usefully transfers to a short online response.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p22.013",
+        "cefr.cv2020.p086.online_conversation_and_discussion.02"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.understand_spoken_contact_details",
+      "target_id": "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+      "rationale": "Accurate name-and-number reception usefully prepares the corresponding written relay variant.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p14.005",
+        "cefr.cv2020.p095.relaying_specific_information_in_writing.01"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.identify_a_price_in_slow_spoken_service_information",
+      "target_id": "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+      "rationale": "Accurate spoken-price reception usefully prepares the corresponding written relay variant.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p15.007",
+        "cefr.cv2020.p095.relaying_specific_information_in_writing.01"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.use_basic_everyday_polite_forms",
+      "target_id": "lesson_candidate.agree_to_a_simple_request",
+      "rationale": "The general polite-form repertoire supports a suitable fixed request response.",
+      "evidence_record_ids": [
+        "cefr.cv2020.p137.sociolinguistic_appropriateness.01",
+        "gse.adult.2022.p22.012"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.use_basic_everyday_polite_forms",
+      "target_id": "lesson_candidate.accept_a_simple_offer",
+      "rationale": "The general polite-form repertoire supports a suitable fixed offer response.",
+      "evidence_record_ids": [
+        "cefr.cv2020.p137.sociolinguistic_appropriateness.01",
+        "gse.adult.2022.p23.001"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.open_and_close_a_basic_social_exchange",
+      "target_id": "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement",
+      "rationale": "A basic social reaction repertoire usefully precedes a sympathetic response to a problem.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p22.013",
+        "cefr.cv2020.p117.facilitating_communication_in_delicate_situations_and_disagreements.01"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.follow_simple_game_or_activity_instructions",
+      "target_id": "lesson_candidate.invite_input_and_check_understanding_in_a_simple_task",
+      "rationale": "Experience following a bounded task usefully precedes facilitating understanding within one.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p15.003",
+        "cefr.cv2020.p111.facilitating_collaborative_interaction_with_peers.01"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.open_and_close_a_basic_social_exchange",
+      "target_id": "lesson_candidate.show_interest_and_welcome_an_idea",
+      "rationale": "Basic reaction turns usefully prepare a short interest-and-welcome response.",
+      "evidence_record_ids": [
+        "gse.adult.2022.p22.013",
+        "cefr.cv2020.p092.overall_mediation.01"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.invite_input_and_check_understanding_in_a_simple_task",
+      "target_id": "lesson_candidate.share_an_idea_and_ask_what_others_think",
+      "rationale": "Inviting participation usefully prepares the reciprocal prompt in a simple discussion.",
+      "evidence_record_ids": [
+        "cefr.cv2020.p111.facilitating_collaborative_interaction_with_peers.01",
+        "cefr.cv2020.p111.collaborating_to_construct_meaning.01"
+      ]
+    },
+    {
+      "prerequisite_id": "lesson_candidate.show_interest_and_welcome_an_idea",
+      "target_id": "lesson_candidate.share_an_idea_and_ask_what_others_think",
+      "rationale": "Welcoming another idea usefully prepares a balanced idea-sharing exchange.",
+      "evidence_record_ids": [
+        "cefr.cv2020.p092.overall_mediation.01",
+        "cefr.cv2020.p111.collaborating_to_construct_meaning.01"
+      ]
+    }
+  ],
+  "counts": {
+    "candidates": 81,
+    "sequence_bands": 5,
+    "required_before": 5,
+    "helpful_before": 43,
+    "successors": 5
+  }
+}

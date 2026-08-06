@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "delivery": {
+    "placement": "after_video_explanation",
+    "interaction_during_video": false,
+    "sequence": "digit_discrimination_then_chunk_capture_then_full_contact"
+  },
+  "activities": [
+    {
+      "id": "digit_discrimination",
+      "type": "audio_choice_set",
+      "prompt_ar": "استمع واختر الرقم الذي سمعته.",
+      "items": [
+        {"audio_text": "three", "options": [3, 8, 2], "answer": 0},
+        {"audio_text": "five", "options": [9, 5, 4], "answer": 1},
+        {"audio_text": "zero", "options": [0, 1, 7], "answer": 0}
+      ]
+    },
+    {
+      "id": "chunk_capture",
+      "type": "audio_digit_entry",
+      "audio_text_hidden": "five five five, zero one",
+      "prompt_ar": "اكتب المجموعة التي سمعتها.",
+      "answer": "555-01",
+      "replay_limit": 1
+    },
+    {
+      "id": "sara_contact_capture",
+      "type": "audio_contact_form",
+      "audio_ref": "model.sara_contact",
+      "fields": ["name", "phone"],
+      "answer": {"name": "Sara Khalil", "phone": "555-01-19"},
+      "replay_limit": 1
+    },
+    {
+      "id": "find_changed_digit",
+      "type": "comparison",
+      "prompt_ar": "استمع للرقمين وحدد الخانة المختلفة.",
+      "audio_a": "two zero six, four eight, seven three",
+      "audio_b": "two zero six, four nine, seven three",
+      "answer": {"group": 2, "digit": 2, "from": 8, "to": 9}
+    }
+  ],
+  "feedback_policy": "Point to the incorrect digit position without revealing the replacement, then replay the whole message once."
+}

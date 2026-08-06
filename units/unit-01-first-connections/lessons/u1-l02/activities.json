@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "delivery": {
+    "placement": "after_video_explanation",
+    "interaction_during_video": false,
+    "sequence": "gist_then_detail_then_transfer"
+  },
+  "activities": [
+    {
+      "id": "alex_gist",
+      "type": "single_choice",
+      "audio_ref": "model.alex_self",
+      "prompt_ar": "من الشخص الذي يتكلم؟",
+      "options": ["Alex", "Omar", "Maya"],
+      "answer": 0,
+      "replay_limit": 1
+    },
+    {
+      "id": "alex_details",
+      "type": "multi_select",
+      "prompt_ar": "اختر المعلومات التي قالها Alex.",
+      "options": ["from Canada", "lives in Cairo", "engineer", "student", "from Egypt"],
+      "answer": [0, 1, 2]
+    },
+    {
+      "id": "speaker_or_other",
+      "type": "classification",
+      "prompt_ar": "هل الجملة عن المتحدث أم عن شخص آخر؟",
+      "items": [
+        {"text": "I'm from Canada.", "answer": "speaker"},
+        {"text": "He's from Egypt.", "answer": "other_person"},
+        {"text": "She lives in Amman.", "answer": "other_person"}
+      ]
+    },
+    {
+      "id": "fresh_guided_listen",
+      "type": "audio_fact_capture",
+      "audio_text_hidden": "Hi, I'm Lina. I'm from Syria. I live in Amman. I'm a teacher.",
+      "prompt_ar": "اكتب الاسم واختر معلومتين صحيحتين.",
+      "answer": {"name": "Lina", "accepted_facts": ["Syria", "Amman", "teacher"]},
+      "replay_limit": 1
+    }
+  ],
+  "feedback_policy": "Identify one missed category without revealing every answer, then replay once."
+}

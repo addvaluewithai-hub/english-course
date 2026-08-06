@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "items": [
+    {"when": "next_day", "task": "Match four fresh personal questions to short answers."},
+    {"when": "three_days", "task": "Complete a new two-person information gap with three changed details."},
+    {"when": "seven_days", "task": "Hold a fresh first-meeting exchange and use a repeat request if needed."}
+  ]
+}

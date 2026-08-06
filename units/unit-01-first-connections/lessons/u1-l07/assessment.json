@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "mastery_task": {
+    "scenario_ar": "اكتب نبذة لمجموعة تعلم جديدة عن نفسك أو شخصية خيالية.",
+    "required": ["person_identity", "residence", "role", "family_or_interest"],
+    "topic_cues_only": true,
+    "complete_model_visible": false,
+    "replacement_scenario_ar": "اكتب بطاقة تعريف قصيرة لشخصية خيالية جديدة بتفاصيل مختلفة."
+  },
+  "decision": {"demonstrated": "A reader can identify the person and every required detail across a few connected sentences.", "needs_review": "The identity is absent, two categories are missing, or details shift to an unclear person.", "completion_is_mastery": false},
+  "non_blocking": "Minor spelling or article errors that leave every detail clear."
+}

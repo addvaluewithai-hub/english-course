@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "delivery": {"placement": "after_video_explanation", "interaction_during_video": false, "sequence": "label_recognition_then_lookup_then_layout_transfer"},
+  "activities": [
+    {"id": "label_meaning", "type": "matching", "pairs": [["Name", "الاسم"], ["Nationality", "الجنسية"], ["Occupation", "العمل"], ["Address", "العنوان"]]},
+    {"id": "model_lookup", "type": "field_lookup", "profile_ref": "content.model_card", "requests": ["Name", "Nationality", "Occupation"], "answers": ["Lina Haddad", "Syrian", "Teacher"]},
+    {"id": "nearby_value_trap", "type": "single_choice", "prompt_ar": "ما الجنسية؟", "text": "Age: 31 | Nationality: Jordanian | Occupation: Nurse", "options": ["31", "Jordanian", "Nurse"], "answer": 1},
+    {"id": "new_layout", "type": "profile_capture", "text": "Omar Saleh — Graphic designer — Egyptian — Lives at 8 Palm Road, Doha", "requests": ["name", "nationality", "address"], "answers": ["Omar Saleh", "Egyptian", "8 Palm Road, Doha"]}
+  ],
+  "feedback_policy": "Point back to the requested field label, not to the answer value, then require a new lookup."
+}

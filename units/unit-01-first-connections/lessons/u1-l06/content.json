@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "situation": {"ar": "لديك بطاقة بيانات خيالية ونموذج تسجيل. المطلوب نقل كل معلومة إلى خانتها الصحيحة.", "success_ar": "كل خانة مطلوبة مكتملة بقيمة مناسبة ومتسقة."},
+  "field_labels": ["Full name", "Nationality", "Date of birth", "Address", "Phone number", "Arrival date"],
+  "fictional_identity": {"Full name": "Maya Hassan", "Nationality": "Jordanian", "Date of birth": "14 March 1997", "Address": "10 Nile Road, Cairo", "Phone number": "555-04-21"},
+  "strategy": ["اعرف نوع المعلومة المطلوبة من اسم الخانة.", "انقل القيمة المناسبة من بطاقة البيانات.", "راجع الأرقام والتاريخ حرفًا حرفًا.", "افحص أن المعلومة لم تدخل في خانة مجاورة."],
+  "error_focus": "A correct value in the wrong field is still an unusable form."
+}

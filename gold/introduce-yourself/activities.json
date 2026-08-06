@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "delivery": {
+    "placement": "after_video_explanation",
+    "interaction_during_video": false,
+    "sequence": "comprehension_then_application_then_production"
+  },
+  "activities": [
+    {
+      "id": "gist_fields",
+      "type": "multi_select",
+      "prompt_ar": "اختر المعلومات التي قالتها Maya.",
+      "options": ["name", "age", "origin", "residence", "role", "interest"],
+      "answer": ["name", "origin", "residence", "role", "interest"],
+      "feedback_ar": "ركّز على المعنى العام أولًا، لا على كل كلمة."
+    },
+    {
+      "id": "from_or_live",
+      "type": "choice_set",
+      "prompt_ar": "اختر العبارة المناسبة لكل معنى.",
+      "items": [
+        {"meaning_ar": "أنا من مصر", "options": ["I'm from Egypt.", "I live in Egypt."], "answer": 0},
+        {"meaning_ar": "أعيش في الرياض", "options": ["I'm from Riyadh.", "I live in Riyadh."], "answer": 1}
+      ],
+      "feedback_ar": "from للأصل، وlive in للسكن الحالي."
+    },
+    {
+      "id": "build_intro",
+      "type": "order",
+      "prompt_ar": "رتّب الجمل لتكوين مقدمة طبيعية.",
+      "items": ["I like reading.", "Hi, I'm Omar.", "I live in Giza.", "I'm from Egypt."],
+      "answer": ["Hi, I'm Omar.", "I'm from Egypt.", "I live in Giza.", "I like reading."]
+    },
+    {
+      "id": "repair_origin_residence",
+      "type": "edit",
+      "prompt_ar": "Lina من سوريا وتعيش الآن في القاهرة. أصلح الجملة: I'm from Cairo. I live in Syria.",
+      "answer": "I'm from Syria. I live in Cairo.",
+      "accept": ["from Syria", "live in Cairo"]
+    },
+    {
+      "id": "personal_plan",
+      "type": "fields",
+      "prompt_ar": "اكتب كلماتك فقط، وليس فقرة كاملة.",
+      "fields": ["name", "origin", "residence_or_role", "family_or_interest"],
+      "allow_fictional": true
+    },
+    {
+      "id": "guided_attempt",
+      "type": "production",
+      "prompt_en": "Tell me about yourself.",
+      "prompt_ar": "استخدم كلماتك لتقديم نفسك. يمكنك النظر إلى أسماء الحقول فقط.",
+      "minimum_detail_categories": 4,
+      "model_hidden": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "items": [
+    {"when": "next_day", "task": "Match six common form labels to value types."},
+    {"when": "three_days", "task": "Complete a contact form with a changed field order."},
+    {"when": "seven_days", "task": "Transfer fictional details to a fresh registration or travel form layout."}
+  ]
+}

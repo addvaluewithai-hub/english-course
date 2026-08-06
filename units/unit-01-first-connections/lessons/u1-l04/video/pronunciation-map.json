@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "accent": "General American",
+  "entries": [
+    {"text": "zero", "ipa": "/ˈzɪroʊ/", "hint": "ZEER-oh"},
+    {"text": "oh", "ipa": "/oʊ/", "hint": "letter-name sound used for zero"},
+    {"text": "three", "ipa": "/θriː/", "hint": "unvoiced th"},
+    {"text": "five", "ipa": "/faɪv/", "hint": "final v"},
+    {"text": "eight", "ipa": "/eɪt/", "hint": "final t"},
+    {"text": "nine", "ipa": "/naɪn/", "hint": "final n"},
+    {"text": "phone number", "ipa": "/foʊn ˈnʌmbɚ/", "hint": "stress number"},
+    {"text": "Sara Khalil", "ipa": "/ˈsɑrə kəˈliːl/", "hint": "SAH-ruh kuh-LEEL"}
+  ]
+}

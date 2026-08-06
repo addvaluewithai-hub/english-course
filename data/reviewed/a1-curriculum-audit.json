@@ -1,0 +1,655 @@
+{
+  "schema_version": 1,
+  "audit_id": "a1_curriculum_audit_cur_006",
+  "status": "accepted_phase_2_gate",
+  "reviewed_at": "2026-07-16T23:10:21+03:00",
+  "evidence": {
+    "candidate_map_id": "a1_candidate_unit_map_cur_005",
+    "dataset_ids": [
+      "gse_a1_objectives",
+      "cefr_a1_descriptors"
+    ]
+  },
+  "coverage": {
+    "reviewed_record_count": 219,
+    "included_count": 218,
+    "excluded_count": 1,
+    "mapped_included_count": 218,
+    "traceable_assignment_count": 219,
+    "unmapped_included_ids": [],
+    "mapped_excluded_ids": [],
+    "assignment_orphan_ids": [],
+    "source_orphan_ids": [],
+    "empty_cluster_ids": [],
+    "candidate_clusters_without_objectives": [],
+    "candidate_clusters_without_descriptors": []
+  },
+  "exclusions": [
+    {
+      "record_id": "gse.adult.2022.p15.002",
+      "dataset_id": "gse_a1_objectives",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 15,
+        "page_end": 15,
+        "printed_page": "15",
+        "section": "GSE 22–29/A1: Listening"
+      },
+      "source_text_sha256": "f52d2fb75d58a87ac578a823d32ed3faa05c8a7817cdcbac51e592391f5fb9f5",
+      "reason": "Exact duplicate of gse.adult.2022.p14.005; evidence row retained for provenance."
+    }
+  ],
+  "duplicate_groups": [
+    {
+      "group_id": "duplicate_8b87eb2eaa2c",
+      "record_refs": [
+        {
+          "record_id": "cefr.cv2020.p077.goal_oriented_co_operation.03",
+          "dataset_id": "cefr_a1_descriptors",
+          "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+          "location": {
+            "kind": "pdf_page",
+            "page": 77,
+            "page_end": 77,
+            "printed_page": "77",
+            "section": "Goal-oriented co-operation"
+          },
+          "source_text_sha256": "54cf7a17c1ee80d415b3b3f8b448029f39a23bb63a16e0548941208315080291"
+        },
+        {
+          "record_id": "cefr.cv2020.p078.obtaining_goods_and_services.01",
+          "dataset_id": "cefr_a1_descriptors",
+          "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+          "location": {
+            "kind": "pdf_page",
+            "page": 78,
+            "page_end": 78,
+            "printed_page": "78",
+            "section": "Obtaining goods and services"
+          },
+          "source_text_sha256": "bb3f6c0f1c3349c024d7d071ba30962ff17747d117ba64b694bb6aad80bbb105"
+        }
+      ],
+      "resolution": "retain_distinct_scale_placements",
+      "canonical_record_id": null,
+      "rationale": "Identical published wording serves distinct CEFR scale contexts."
+    },
+    {
+      "group_id": "duplicate_94e4d5d35715",
+      "record_refs": [
+        {
+          "record_id": "gse.adult.2022.p14.005",
+          "dataset_id": "gse_a1_objectives",
+          "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+          "location": {
+            "kind": "pdf_page",
+            "page": 14,
+            "page_end": 14,
+            "printed_page": "14",
+            "section": "GSE 22–29/A1: Listening"
+          },
+          "source_text_sha256": "f52d2fb75d58a87ac578a823d32ed3faa05c8a7817cdcbac51e592391f5fb9f5"
+        },
+        {
+          "record_id": "gse.adult.2022.p15.002",
+          "dataset_id": "gse_a1_objectives",
+          "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+          "location": {
+            "kind": "pdf_page",
+            "page": 15,
+            "page_end": 15,
+            "printed_page": "15",
+            "section": "GSE 22–29/A1: Listening"
+          },
+          "source_text_sha256": "f52d2fb75d58a87ac578a823d32ed3faa05c8a7817cdcbac51e592391f5fb9f5"
+        }
+      ],
+      "resolution": "exclude_repeated_source_row",
+      "canonical_record_id": "gse.adult.2022.p14.005",
+      "rationale": "One canonical included record; repeated source row retained as evidence."
+    },
+    {
+      "group_id": "duplicate_10442c5ffaff",
+      "record_refs": [
+        {
+          "record_id": "cefr.cv2020.p073.understanding_an_interlocutor.02",
+          "dataset_id": "cefr_a1_descriptors",
+          "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+          "location": {
+            "kind": "pdf_page",
+            "page": 73,
+            "page_end": 73,
+            "printed_page": "73",
+            "section": "Understanding an interlocutor"
+          },
+          "source_text_sha256": "548a00745437b87d5f955e85cd4de95d156541a3878dfd395ec35807e30c42e2"
+        },
+        {
+          "record_id": "cefr.cv2020.p077.goal_oriented_co_operation.01",
+          "dataset_id": "cefr_a1_descriptors",
+          "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+          "location": {
+            "kind": "pdf_page",
+            "page": 77,
+            "page_end": 77,
+            "printed_page": "77",
+            "section": "Goal-oriented co-operation"
+          },
+          "source_text_sha256": "548a00745437b87d5f955e85cd4de95d156541a3878dfd395ec35807e30c42e2"
+        },
+        {
+          "record_id": "cefr.cv2020.p079.information_exchange.01",
+          "dataset_id": "cefr_a1_descriptors",
+          "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+          "location": {
+            "kind": "pdf_page",
+            "page": 79,
+            "page_end": 79,
+            "printed_page": "79",
+            "section": "Information exchange"
+          },
+          "source_text_sha256": "548a00745437b87d5f955e85cd4de95d156541a3878dfd395ec35807e30c42e2"
+        }
+      ],
+      "resolution": "retain_distinct_scale_placements",
+      "canonical_record_id": null,
+      "rationale": "Identical published wording serves distinct CEFR scale contexts."
+    }
+  ],
+  "prerequisite_audit": {
+    "strict_cluster_prerequisites": [],
+    "support_needs": [
+      {
+        "need_id": "basic_language_control",
+        "support_cluster_id": "language_foundations",
+        "summary": "Basic range, form, intelligibility, and orthographic control must be available alongside topical work; the evidence does not justify a standalone foundation unit or a strict topical-unit order.",
+        "target_cluster_ids": [
+          "identity_personal_information",
+          "people_relationships",
+          "routines_time_leisure",
+          "home_objects_descriptions",
+          "places_directions_travel",
+          "food_shopping_services",
+          "messages_signs_forms",
+          "social_contact_collaboration"
+        ],
+        "evidence_refs": [
+          {
+            "record_id": "cefr.cv2020.p131.general_linguistic_range.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 131,
+              "page_end": 131,
+              "printed_page": "131",
+              "section": "General linguistic range"
+            },
+            "source_text_sha256": "cb239b9f8b5df6c8caf48f7a273e70c2b42fcaf207f81931a87b65ba15286438"
+          },
+          {
+            "record_id": "cefr.cv2020.p132.grammatical_accuracy.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 132,
+              "page_end": 132,
+              "printed_page": "132",
+              "section": "Grammatical accuracy"
+            },
+            "source_text_sha256": "68939cf1f2655eedd927ef41d54b4b7f4983dd7097333e3fcab2d3dfd6d8daef"
+          },
+          {
+            "record_id": "cefr.cv2020.p135.overall_phonological_control.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 135,
+              "page_end": 135,
+              "printed_page": "135",
+              "section": "Overall phonological control"
+            },
+            "source_text_sha256": "db86dd20156cbe58668fbba4207b2c54e1018e753884fc9a5604e02190801a4b"
+          },
+          {
+            "record_id": "cefr.cv2020.p136.orthographic_control.02",
+            "dataset_id": "cefr_a1_descriptors",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 136,
+              "page_end": 136,
+              "printed_page": "136",
+              "section": "Orthographic control"
+            },
+            "source_text_sha256": "bc8a1b8b063e2c70166f6307f7d3cc4b2a87f2ce299d9b5e0ede474ce2378604"
+          }
+        ]
+      },
+      {
+        "need_id": "interaction_repair",
+        "support_cluster_id": "communication_strategies",
+        "summary": "Repair and clarification must be taught before or with interaction tasks; this is a support dependency, not evidence for a fixed unit sequence.",
+        "target_cluster_ids": [
+          "identity_personal_information",
+          "people_relationships",
+          "routines_time_leisure",
+          "home_objects_descriptions",
+          "places_directions_travel",
+          "food_shopping_services",
+          "messages_signs_forms",
+          "social_contact_collaboration"
+        ],
+        "evidence_refs": [
+          {
+            "record_id": "cefr.cv2020.p072.overall_oral_interaction.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 72,
+              "page_end": 72,
+              "printed_page": "72",
+              "section": "Overall oral interaction"
+            },
+            "source_text_sha256": "2b570946c22238b573bc92d55c9dd56ba34345a45a2a2355304c453f2c019d47"
+          },
+          {
+            "record_id": "cefr.cv2020.p089.asking_for_clarification.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 89,
+              "page_end": 89,
+              "printed_page": "89",
+              "section": "Asking for clarification"
+            },
+            "source_text_sha256": "da5c4099e1dbaa246a31e152fc7d0b20cf0d8dd822ef904ed5ced6ed7151484b"
+          },
+          {
+            "record_id": "cefr.cv2020.p089.asking_for_clarification.02",
+            "dataset_id": "cefr_a1_descriptors",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 89,
+              "page_end": 89,
+              "printed_page": "89",
+              "section": "Asking for clarification"
+            },
+            "source_text_sha256": "d445f261aa7c92ca3fef6e94f35c2465a966ee3cdf75e9f85e9d6a6135ffa290"
+          }
+        ]
+      }
+    ],
+    "sequencing_status": "deferred_to_phase_3_lesson_normalization",
+    "finding": "No strict order among topical clusters is source-proven; language-control and repair support dependencies must remain explicit during sequencing."
+  },
+  "balance": {
+    "core_skills": [
+      "listening",
+      "reading",
+      "speaking",
+      "writing"
+    ],
+    "overall": {
+      "objective": {
+        "record_count": 120,
+        "skill_counts": {
+          "listening": 33,
+          "reading": 14,
+          "speaking": 54,
+          "writing": 19
+        },
+        "mode_counts": {
+          "interaction": 29,
+          "production": 44,
+          "reception": 47
+        }
+      },
+      "descriptor": {
+        "record_count": 98,
+        "skill_counts": {
+          "language_system": 15,
+          "listening": 45,
+          "non_verbal": 6,
+          "reading": 29,
+          "speaking": 41,
+          "viewing": 3,
+          "writing": 19
+        },
+        "mode_counts": {
+          "communicative_competence": 15,
+          "interaction": 30,
+          "mediation": 15,
+          "online_interaction": 3,
+          "production": 11,
+          "reception": 24
+        }
+      }
+    },
+    "clusters": [
+      {
+        "cluster_id": "identity_personal_information",
+        "role": "candidate_unit",
+        "objective_count": 14,
+        "descriptor_count": 10,
+        "objective_skill_counts": {
+          "listening": 4,
+          "reading": 1,
+          "speaking": 6,
+          "writing": 3
+        },
+        "descriptor_skill_counts": {
+          "language_system": 3,
+          "listening": 3,
+          "reading": 2,
+          "speaking": 4,
+          "writing": 3
+        },
+        "combined_skill_counts": {
+          "language_system": 3,
+          "listening": 7,
+          "reading": 3,
+          "speaking": 10,
+          "writing": 6
+        },
+        "objective_skill_gaps": [],
+        "descriptor_skill_gaps": [],
+        "combined_skill_gaps": []
+      },
+      {
+        "cluster_id": "people_relationships",
+        "role": "candidate_unit",
+        "objective_count": 14,
+        "descriptor_count": 7,
+        "objective_skill_counts": {
+          "listening": 1,
+          "speaking": 9,
+          "writing": 4
+        },
+        "descriptor_skill_counts": {
+          "listening": 4,
+          "reading": 1,
+          "speaking": 4,
+          "writing": 2
+        },
+        "combined_skill_counts": {
+          "listening": 5,
+          "reading": 1,
+          "speaking": 13,
+          "writing": 6
+        },
+        "objective_skill_gaps": [
+          "reading"
+        ],
+        "descriptor_skill_gaps": [],
+        "combined_skill_gaps": []
+      },
+      {
+        "cluster_id": "routines_time_leisure",
+        "role": "candidate_unit",
+        "objective_count": 26,
+        "descriptor_count": 12,
+        "objective_skill_counts": {
+          "listening": 11,
+          "reading": 2,
+          "speaking": 9,
+          "writing": 4
+        },
+        "descriptor_skill_counts": {
+          "listening": 6,
+          "reading": 4,
+          "speaking": 5,
+          "writing": 3
+        },
+        "combined_skill_counts": {
+          "listening": 17,
+          "reading": 6,
+          "speaking": 14,
+          "writing": 7
+        },
+        "objective_skill_gaps": [],
+        "descriptor_skill_gaps": [],
+        "combined_skill_gaps": []
+      },
+      {
+        "cluster_id": "home_objects_descriptions",
+        "role": "candidate_unit",
+        "objective_count": 20,
+        "descriptor_count": 9,
+        "objective_skill_counts": {
+          "listening": 3,
+          "reading": 2,
+          "speaking": 11,
+          "writing": 4
+        },
+        "descriptor_skill_counts": {
+          "language_system": 1,
+          "listening": 3,
+          "speaking": 4,
+          "writing": 3
+        },
+        "combined_skill_counts": {
+          "language_system": 1,
+          "listening": 6,
+          "reading": 2,
+          "speaking": 15,
+          "writing": 7
+        },
+        "objective_skill_gaps": [],
+        "descriptor_skill_gaps": [
+          "reading"
+        ],
+        "combined_skill_gaps": []
+      },
+      {
+        "cluster_id": "places_directions_travel",
+        "role": "candidate_unit",
+        "objective_count": 14,
+        "descriptor_count": 17,
+        "objective_skill_counts": {
+          "listening": 4,
+          "reading": 3,
+          "speaking": 5,
+          "writing": 2
+        },
+        "descriptor_skill_counts": {
+          "listening": 11,
+          "reading": 6,
+          "speaking": 5,
+          "writing": 1
+        },
+        "combined_skill_counts": {
+          "listening": 15,
+          "reading": 9,
+          "speaking": 10,
+          "writing": 3
+        },
+        "objective_skill_gaps": [],
+        "descriptor_skill_gaps": [],
+        "combined_skill_gaps": []
+      },
+      {
+        "cluster_id": "food_shopping_services",
+        "role": "candidate_unit",
+        "objective_count": 14,
+        "descriptor_count": 16,
+        "objective_skill_counts": {
+          "listening": 3,
+          "speaking": 11
+        },
+        "descriptor_skill_counts": {
+          "listening": 13,
+          "non_verbal": 1,
+          "reading": 3,
+          "speaking": 10,
+          "writing": 3
+        },
+        "combined_skill_counts": {
+          "listening": 16,
+          "non_verbal": 1,
+          "reading": 3,
+          "speaking": 21,
+          "writing": 3
+        },
+        "objective_skill_gaps": [
+          "reading",
+          "writing"
+        ],
+        "descriptor_skill_gaps": [],
+        "combined_skill_gaps": []
+      },
+      {
+        "cluster_id": "messages_signs_forms",
+        "role": "candidate_unit",
+        "objective_count": 6,
+        "descriptor_count": 16,
+        "objective_skill_counts": {
+          "listening": 1,
+          "reading": 2,
+          "writing": 3
+        },
+        "descriptor_skill_counts": {
+          "listening": 2,
+          "non_verbal": 1,
+          "reading": 15,
+          "speaking": 3,
+          "viewing": 1,
+          "writing": 8
+        },
+        "combined_skill_counts": {
+          "listening": 3,
+          "non_verbal": 1,
+          "reading": 17,
+          "speaking": 3,
+          "viewing": 1,
+          "writing": 11
+        },
+        "objective_skill_gaps": [
+          "speaking"
+        ],
+        "descriptor_skill_gaps": [],
+        "combined_skill_gaps": []
+      },
+      {
+        "cluster_id": "social_contact_collaboration",
+        "role": "candidate_unit",
+        "objective_count": 10,
+        "descriptor_count": 12,
+        "objective_skill_counts": {
+          "listening": 1,
+          "speaking": 8,
+          "writing": 1
+        },
+        "descriptor_skill_counts": {
+          "language_system": 1,
+          "listening": 8,
+          "non_verbal": 3,
+          "reading": 2,
+          "speaking": 10,
+          "writing": 2
+        },
+        "combined_skill_counts": {
+          "language_system": 1,
+          "listening": 9,
+          "non_verbal": 3,
+          "reading": 2,
+          "speaking": 18,
+          "writing": 3
+        },
+        "objective_skill_gaps": [
+          "reading"
+        ],
+        "descriptor_skill_gaps": [],
+        "combined_skill_gaps": []
+      },
+      {
+        "cluster_id": "communication_strategies",
+        "role": "cross_cutting_support",
+        "objective_count": 3,
+        "descriptor_count": 18,
+        "objective_skill_counts": {
+          "speaking": 3
+        },
+        "descriptor_skill_counts": {
+          "language_system": 1,
+          "listening": 12,
+          "non_verbal": 5,
+          "reading": 5,
+          "speaking": 14,
+          "writing": 3
+        },
+        "combined_skill_counts": {
+          "language_system": 1,
+          "listening": 12,
+          "non_verbal": 5,
+          "reading": 5,
+          "speaking": 17,
+          "writing": 3
+        },
+        "objective_skill_gaps": [
+          "listening",
+          "reading",
+          "writing"
+        ],
+        "descriptor_skill_gaps": [],
+        "combined_skill_gaps": []
+      },
+      {
+        "cluster_id": "language_foundations",
+        "role": "cross_cutting_support",
+        "objective_count": 24,
+        "descriptor_count": 23,
+        "objective_skill_counts": {
+          "listening": 9,
+          "reading": 6,
+          "speaking": 3,
+          "writing": 6
+        },
+        "descriptor_skill_counts": {
+          "language_system": 15,
+          "listening": 3,
+          "reading": 6,
+          "viewing": 2,
+          "writing": 2
+        },
+        "combined_skill_counts": {
+          "language_system": 15,
+          "listening": 12,
+          "reading": 12,
+          "speaking": 3,
+          "viewing": 2,
+          "writing": 8
+        },
+        "objective_skill_gaps": [],
+        "descriptor_skill_gaps": [
+          "speaking"
+        ],
+        "combined_skill_gaps": []
+      }
+    ],
+    "findings": [
+      "GSE objective evidence is speaking-heavy and reading-light overall.",
+      "Granular GSE objective skill gaps remain in 4 candidate clusters: {'people_relationships': ['reading'], 'food_shopping_services': ['reading', 'writing'], 'messages_signs_forms': ['speaking'], 'social_contact_collaboration': ['reading']}.",
+      "Combined GSE and CEFR evidence covers all four core skills in every candidate unit.",
+      "Counts describe source evidence density; they are not equal-skill quotas or final unit sizes."
+    ]
+  },
+  "verdict": {
+    "coverage_complete": true,
+    "exclusions_justified": true,
+    "duplicates_reconciled": true,
+    "skill_gaps_documented": true,
+    "phase_2_gate": "passed",
+    "constraints": [
+      "Candidate clusters remain provisional and are not final units.",
+      "Objective-to-descriptor equivalence is not claimed.",
+      "Lesson outcomes and strict sequencing remain Phase 3 work."
+    ]
+  }
+}

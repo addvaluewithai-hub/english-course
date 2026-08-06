@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "audit_id": "a1_lesson_map_global_audit",
+  "reviewed_at": "2026-07-19T01:13:48+03:00",
+  "reviewer": "lesson_002_consolidated_approval",
+  "map_sha256": "B8B232A7941CCD0D58294BE9915312F6D775693F1F7AF0208159CDF47553E2F2",
+  "coverage": {
+    "included_records": 218,
+    "cited_included_records": 218,
+    "orphan_record_ids": [],
+    "candidate_references": 190,
+    "support_references": 44,
+    "shared_candidate_record_groups": 13
+  },
+  "overlap_review": [
+    {
+      "status": "resolved_merge",
+      "group_id": "identify_spoken_referents",
+      "candidate_ids": [
+        "lesson_candidate.identify_objects_from_slow_spoken_clues",
+        "lesson_candidate.identify_familiar_referents_from_spoken_descriptions"
+      ],
+      "rationale": "Merged as identify_familiar_referents_from_spoken_clues because one visual listening task and judgment cover every referent type."
+    },
+    {
+      "status": "resolved_merge",
+      "group_id": "complete_registration_forms",
+      "candidate_ids": [
+        "lesson_candidate.complete_personal_details_form",
+        "lesson_candidate.complete_a_simple_travel_information_form"
+      ],
+      "rationale": "Merged as complete_a_simple_information_form; the shared CEFR descriptor now has one full claim spanning its personal and travel-registration fields."
+    },
+    {
+      "status": "resolved_merge",
+      "group_id": "locate_spoken_names_places_times",
+      "candidate_ids": [
+        "lesson_candidate.locate_people_names_in_dialogue",
+        "lesson_candidate.locate_place_and_time_in_slow_recordings"
+      ],
+      "rationale": "Merged as locate_names_places_and_times_in_slow_recordings; the split GSE name/place objective now has one full claim."
+    },
+    {
+      "status": "resolved_merge",
+      "group_id": "describe_locations_orally",
+      "candidate_ids": [
+        "lesson_candidate.say_where_people_are",
+        "lesson_candidate.describe_an_objects_position_orally"
+      ],
+      "rationale": "Merged as describe_people_and_object_locations_orally because the same oral position task and mastery judgment apply."
+    },
+    {
+      "status": "resolved_merge",
+      "group_id": "relay_predictable_details",
+      "candidate_ids": [
+        "lesson_candidate.relay_personal_details_in_english",
+        "lesson_candidate.relay_a_family_or_role_fact",
+        "lesson_candidate.relay_a_time_or_place_detail"
+      ],
+      "rationale": "Merged as relay_predictable_person_time_or_place_details because only the predictable detail type changes within one relay performance."
+    },
+    {
+      "status": "retain_distinct",
+      "group_id": "object_description_channels",
+      "candidate_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.write_a_simple_object_description"
+      ],
+      "rationale": "Speaking and writing require different fresh performances and mastery judgments."
+    },
+    {
+      "status": "retain_distinct",
+      "group_id": "request_and_offer_responses",
+      "candidate_ids": [
+        "lesson_candidate.agree_to_a_simple_request",
+        "lesson_candidate.accept_a_simple_offer"
+      ],
+      "rationale": "The pragmatic prompts differ and one response can be mastered while the other still fails."
+    },
+    {
+      "status": "retain_distinct",
+      "group_id": "spontaneous_and_rehearsed_introductions",
+      "candidate_ids": [
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.deliver_a_rehearsed_formal_introduction"
+      ],
+      "rationale": "Interpersonal introduction and prepared audience delivery have different support conditions."
+    },
+    {
+      "status": "retain_distinct",
+      "group_id": "visual_media_purposes",
+      "candidate_ids": [
+        "lesson_candidate.identify_a_headline_news_topic_from_visual_media",
+        "lesson_candidate.identify_a_product_in_a_short_video_advertisement"
+      ],
+      "rationale": "News-topic recognition and advertisement-product recognition are separable purposes."
+    },
+    {
+      "status": "retain_distinct",
+      "group_id": "translation_channels",
+      "candidate_ids": [
+        "lesson_candidate.give_a_rough_oral_translation_of_everyday_sign_words",
+        "lesson_candidate.translate_simple_written_phrases_with_a_dictionary"
+      ],
+      "rationale": "Oral rough translation and dictionary-assisted written translation require different output evidence."
+    }
+  ],
+  "balance": {
+    "candidate_count": 81,
+    "skill_candidate_counts": {
+      "language_system": 1,
+      "listening": 35,
+      "non_verbal": 2,
+      "reading": 21,
+      "speaking": 39,
+      "viewing": 2,
+      "writing": 16
+    },
+    "mode_candidate_counts": {
+      "communicative_competence": 1,
+      "interaction": 25,
+      "mediation": 10,
+      "online_interaction": 3,
+      "production": 20,
+      "reception": 27
+    },
+    "scope_counts": {
+      "focused": 59,
+      "standard": 22
+    },
+    "finding": "All four core skills are present; counts are source-led and not equal quotas."
+  },
+  "relationships_and_sequence": {
+    "required_before": 5,
+    "helpful_before": 43,
+    "successors": 5,
+    "sequence_covers_every_candidate_once": true,
+    "sequence_bands": 5,
+    "review_id": "a1_lesson_relationship_sequence_review",
+    "status": "accepted",
+    "source_proven_strict_order": false,
+    "finding": "The complete order is an accepted pedagogical hypothesis with hard and helpful links separated; it is not a source-proven topical or unit order."
+  },
+  "mastery": {
+    "candidate_count": 81,
+    "alignment_issues": [],
+    "alignment_decisions": [
+      {
+        "candidate_id": "lesson_candidate.follow_a_slow_everyday_service_exchange",
+        "decision": "reception_only",
+        "rationale": "The fresh task assesses understanding an exchange, so listening/reception tags now match the performance and interaction repair is not applicable."
+      },
+      {
+        "candidate_id": "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "decision": "repair_required",
+        "rationale": "The written-interaction task now requires rereading and correcting a materially wrong whereabouts or return-time detail."
+      }
+    ],
+    "status": "pass"
+  },
+  "approval": {
+    "candidate_status_counts": {
+      "approved_candidate": 81
+    },
+    "candidate_review_counts": {
+      "accepted": 81
+    },
+    "empty_language_target_candidate_ids": [],
+    "empty_error_hypothesis_candidate_ids": [],
+    "map_status": "approved",
+    "map_review_status": "accepted"
+  },
+  "decision": {
+    "status": "passed",
+    "lesson_002_may_pass": true,
+    "open_overlap_groups": 0,
+    "next_partition": "Select the gold lesson and assemble its source packet."
+  }
+}

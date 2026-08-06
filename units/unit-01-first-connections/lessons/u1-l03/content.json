@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "situation": {
+    "ar": "تتعرف على عضو جديد في مجموعة صغيرة. المطلوب أن تتبادلوا ثلاث معلومات، لا أن تحفظ حوارًا ثابتًا.",
+    "success_ar": "تسأل أسئلة مناسبة وتجيب عن السؤال الذي سمعته فعلًا."
+  },
+  "question_answer_pairs": [
+    {"question": "What's your name?", "answer_frame": "I'm …", "category": "name"},
+    {"question": "Where are you from?", "answer_frame": "I'm from …", "category": "origin"},
+    {"question": "Where do you live?", "answer_frame": "I live in …", "category": "residence"},
+    {"question": "What do you do?", "answer_frame": "I'm a/an … / I work in …", "category": "role"}
+  ],
+  "conversation_principles": [
+    "اسأل سؤالًا واحدًا وانتظر الإجابة.",
+    "أجب عن نفس نوع المعلومة المطلوبة.",
+    "استخدم ردًا قصيرًا طبيعيًا بدل إعادة السؤال كاملًا.",
+    "لو لم تسمع، اطلب تكرارًا بسيطًا."
+  ],
+  "repair": {"prompt": "Sorry, can you repeat that?", "purpose_ar": "طلب تكرار السؤال من غير إنهاء المحادثة."}
+}

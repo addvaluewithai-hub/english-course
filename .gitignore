@@ -1,0 +1,36 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+
+# Python and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dependencies and local tooling
+node_modules/
+.tmp*/
+automation/test-temp/
+automation/RUNNING.json
+*.tmp
+*.log
+
+# Private or noisy project history
+logs/runs/
+references/legacy/
+
+# Third-party source copies are local-only; use sources/registry/SOURCES.md
+sources/raw/
+data/derived/source-text/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

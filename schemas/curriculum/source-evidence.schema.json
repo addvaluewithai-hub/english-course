@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/source-evidence.schema.json",
+  "title": "Source evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_id",
+    "source_version",
+    "raw_file",
+    "source_file_sha256",
+    "location",
+    "source_text",
+    "source_text_sha256",
+    "transcription_notes"
+  ],
+  "properties": {
+    "source_id": {"type": "string", "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"},
+    "source_version": {"type": "string", "minLength": 1},
+    "raw_file": {
+      "type": "string",
+      "pattern": "^sources/raw/[A-Za-z0-9._/-]+$"
+    },
+    "source_file_sha256": {"type": "string", "pattern": "^[A-Fa-f0-9]{64}$"},
+    "location": {"oneOf": [{"$ref": "#/$defs/pdfLocation"}, {"$ref": "#/$defs/rowLocation"}]},
+    "source_text": {"type": "string", "minLength": 1},
+    "source_text_sha256": {"type": "string", "pattern": "^[A-Fa-f0-9]{64}$"},
+    "transcription_notes": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    }
+  },
+  "$defs": {
+    "pdfLocation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "page", "page_end", "printed_page", "section"],
+      "properties": {
+        "kind": {"const": "pdf_page"},
+        "page": {"type": "integer", "minimum": 1},
+        "page_end": {"type": "integer", "minimum": 1},
+        "printed_page": {"type": ["string", "null"]},
+        "section": {"type": ["string", "null"]}
+      }
+    },
+    "rowLocation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "worksheet", "row", "row_end", "columns"],
+      "properties": {
+        "kind": {"const": "spreadsheet_row"},
+        "worksheet": {"type": "string", "minLength": 1},
+        "row": {"type": "integer", "minimum": 2},
+        "row_end": {"type": "integer", "minimum": 2},
+        "columns": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^[A-Z]+$"},
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}

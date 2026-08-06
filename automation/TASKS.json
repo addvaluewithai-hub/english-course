@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "FOUND-001",
+      "phase": "phase_0_foundation",
+      "title": "Prepare and verify authoritative source pack",
+      "status": "complete",
+      "dependencies": [],
+      "acceptance": "Raw sources are readable, hashed, registered, and mirrored for deterministic reads."
+    },
+    {
+      "id": "LEARN-001",
+      "phase": "phase_1_learning_model",
+      "title": "Audit and finalize the learner and language policy",
+      "status": "complete",
+      "dependencies": ["FOUND-001"],
+      "acceptance": "Learner scope, MSA policy, English/Arabic roles, and exclusions are explicit with contradictions resolved or logged."
+    },
+    {
+      "id": "LEARN-002",
+      "phase": "phase_1_learning_model",
+      "title": "Define observable mastery and progress states",
+      "status": "complete",
+      "dependencies": ["LEARN-001"],
+      "acceptance": "A reusable rubric distinguishes completion, demonstration, review need, and retention."
+    },
+    {
+      "id": "LEARN-003",
+      "phase": "phase_1_learning_model",
+      "title": "Define bounded AI teacher and teach-back behavior",
+      "status": "complete",
+      "dependencies": ["LEARN-002"],
+      "acceptance": "Turn flow, correction, retry, ending, safety, and teach-back hypotheses are testable and concise."
+    },
+    {
+      "id": "LEARN-004",
+      "phase": "phase_1_learning_model",
+      "title": "Review and pass the learning-model gate",
+      "status": "complete",
+      "dependencies": ["LEARN-003"],
+      "acceptance": "Independent critique finds no unresolved issue that would change the gold lesson's basic shape."
+    },
+    {
+      "id": "CUR-001",
+      "phase": "phase_2_curriculum_audit",
+      "title": "Define the source-record schema and validation rules",
+      "status": "complete",
+      "dependencies": ["LEARN-004"],
+      "acceptance": "Schema preserves verbatim text, source location, skill/mode, level, interpretation, and review state."
+    },
+    {
+      "id": "CUR-002",
+      "phase": "phase_2_curriculum_audit",
+      "title": "Extract A1-relevant GSE adult objectives",
+      "status": "complete",
+      "dependencies": ["CUR-001"],
+      "acceptance": "All included GSE A1 records are parsed, counted, deduplicated, page-cited, and validation-clean."
+    },
+    {
+      "id": "CUR-003",
+      "phase": "phase_2_curriculum_audit",
+      "title": "Extract supporting CEFR A1 descriptors",
+      "status": "complete",
+      "dependencies": ["CUR-001"],
+      "acceptance": "Relevant A1 descriptors across modes are captured verbatim with scale and page provenance."
+    },
+    {
+      "id": "CUR-004",
+      "phase": "phase_2_curriculum_audit",
+      "title": "Normalize skills, modes, and communicative functions",
+      "status": "complete",
+      "dependencies": ["CUR-002", "CUR-003"],
+      "acceptance": "Controlled tags are documented; source wording remains unchanged; ambiguous cases are flagged."
+    },
+    {
+      "id": "CUR-005",
+      "phase": "phase_2_curriculum_audit",
+      "title": "Create candidate objective clusters and unit map",
+      "status": "complete",
+      "dependencies": ["CUR-004"],
+      "acceptance": "Every included objective maps naturally or is explicitly flagged; seven earlier units are tested, not forced."
+    },
+    {
+      "id": "CUR-006",
+      "phase": "phase_2_curriculum_audit",
+      "title": "Run coverage, duplicate, prerequisite, and skill-balance audit",
+      "status": "complete",
+      "dependencies": ["CUR-005"],
+      "acceptance": "Coverage is complete, exclusions justified, duplicates reconciled, and skill gaps documented."
+    },
+    {
+      "id": "LESSON-001",
+      "phase": "phase_3_lesson_normalization",
+      "title": "Define lesson-sized ability rules",
+      "status": "complete",
+      "dependencies": ["CUR-006"],
+      "acceptance": "Merge/split criteria and a measurable-outcome template are approved."
+    },
+    {
+      "id": "LESSON-002",
+      "phase": "phase_3_lesson_normalization",
+      "title": "Create and audit the final A1 lesson map",
+      "status": "complete",
+      "dependencies": ["LESSON-001"],
+      "acceptance": "Lessons are coherent, source-linked, sequenced, balanced, and individually assessable.",
+      "notes": [
+        "2026-07-17 validation-contract partition complete: added the lesson-map envelope and deterministic provenance, coverage, relationship, support, mastery, approval, and core-skill checks with nine focused tests.",
+        "2026-07-17 identity partition complete: reconciled all 24 identity_personal_information assignments into nine reviewed draft candidates or passed cross-cutting support; three compound CEFR clauses remain explicitly partial.",
+        "2026-07-17 people-and-relationships partition complete: reconciled all 21 assignments into nine new reviewed drafts plus three identity-owned full claims; shared compound clauses remain named partial claims.",
+        "2026-07-17 routines/time/leisure partition complete: reconciled all 38 assignments into 14 new reviewed drafts plus one identity-owned full claim; added 37 refs and six named partial claims without duplicating full ownership.",
+        "2026-07-17 home/objects/descriptions partition complete: reconciled all 29 assignments through nine new reviewed drafts, seven retained prior claims, one cross-cutting orthographic support record, and two named shared partial claims.",
+        "2026-07-17 places/directions/travel partition complete: reconciled all 31 assignments through 12 new reviewed drafts, one existing home-candidate extension, one cross-cutting copying support record, and retained prior full owners.",
+        "2026-07-17 food/shopping/services partition complete: reconciled all 30 assignments through 13 new reviewed drafts, retained ticket and repair-support owners, and added 28 refs with two named price-only partial claims.",
+        "2026-07-17 messages/signs/forms partition complete: reconciled all 22 assignments through seven new reviewed drafts plus one postcard-format extension; nine previously uncited records are now explicit, compound media and mediation clauses remain named partials, and final independent review passed.",
+        "2026-07-17 social-contact/collaboration partition complete: reconciled all 22 assignments through 11 new reviewed drafts, one existing introduction extension, and one orthographic support record; all 18 previously uncited records are explicit and compound CEFR clauses remain named partials.",
+        "2026-07-18 language-foundations/communication-strategies partition complete: reconciled all 42 previously uncited included records through three new reviewed drafts, three source-exact candidate extensions, and 34 scoped support classifications; all 218 included records are now explicit.",
+        "2026-07-18 global-audit diagnosis partition complete: confirmed 218/218 coverage and valid provenance, retained five reviewed distinctions, and identified five overlap/claim groups, two mastery-alignment cases, an unreviewed relationship/sequence model, and 87 candidates missing explicit language-target and error decisions; LESSON-002 cannot pass yet.",
+        "2026-07-18 overlap/mastery remediation partition complete: merged five same-task groups into source-preserving broader candidates, reducing 87 drafts to 81; resolved both mastery-alignment cases while retaining 218/218 cited coverage and all five reviewed distinctness decisions.",
+        "2026-07-18 relationship/sequence partition complete: placed all 81 candidates exactly once across five reviewed pedagogical bands, added five acyclic required-before links with reciprocal successors and 43 earlier non-gating helpful-before links, and explicitly retained the order as a pedagogical hypothesis rather than a source-proven unit sequence.",
+        "2026-07-18 foundational-reception target/error partition complete: reviewed 24 source-linked target entries and nine labelled learner-error hypotheses across four reading and five listening candidates; 72 candidates remain and no candidate was approved.",
+        "2026-07-18 foundational-output/interaction target/error partition complete: reviewed 29 source-linked target entries and ten labelled learner-error hypotheses across four social-contact, two spoken personal-information, and four written personal-information/message candidates; 62 candidates remain and no candidate was approved.",
+        "2026-07-18 postcard/familiar-reception target/error partition complete: reviewed 18 source-linked target entries and seven labelled learner-error hypotheses across the remaining postcard task and all six reception candidates in the familiar-people/routines/home band; 55 candidates remain and no candidate was approved.",
+        "2026-07-18 familiar-people/routine output target/error partition complete: reviewed 23 source-linked target entries and six labelled learner-error hypotheses across two family/known-person, three routine/leisure, and one event date/time candidate; 49 candidates remain and no candidate was approved.",
+        "2026-07-18 familiar home/object/location speech target/error partition complete: reviewed 16 source-linked target entries and four labelled learner-error hypotheses across oral location, object-description, visible-object exchange, and home-information candidates; 45 candidates remain and no candidate was approved.",
+        "2026-07-18 familiar written people/routine/home target/error partition complete: reviewed 17 source-linked target entries and six labelled learner-error hypotheses across people-profile, hobbies/posting, schedule, life/routine, object-description, and room-description candidates; 39 candidates remain and no candidate was approved.",
+        "2026-07-18 remaining familiar output/mediation target/error partition complete: reviewed eight source-linked target entries and three labelled learner-error hypotheses across common weather, rehearsed formal introduction, and personal response to a simple work; 36 candidates remain and no candidate was approved.",
+        "2026-07-18 opening wayfinding target/error partition complete: reviewed 12 source-linked target entries and four labelled learner-error hypotheses across written directions, slow spoken route directions, interlocutor directions, and a basic wayfinding exchange; 32 candidates remain and no candidate was approved.",
+        "2026-07-18 remaining travel-reception target/error partition complete: reviewed eight source-linked target entries and three labelled learner-error hypotheses across simple place/hotel information, guided-tour outline, and slow station-announcement details; 29 candidates remain and no candidate was approved.",
+        "2026-07-18 navigation/travel action target/error partition complete: reviewed 12 source-linked target entries and four labelled learner-error hypotheses across predictable-detail relay, game/activity instructions, public-transport ticket purchase, and hotel check-in; 25 candidates remain and no candidate was approved.",
+        "2026-07-18 opening service-reception target/error partition complete: reviewed eight source-linked target entries and three labelled learner-error hypotheses across spoken price identification, slow everyday service-exchange comprehension, and advertisement or leaflet detail finding; 22 candidates remain and no candidate was approved.",
+        "Next partition: review source-linked language targets and labelled error decisions for the four opening service output/interaction candidates: stating a food or drink preference, asking for food or drink, asking for and giving an everyday item, and exchanging information about an immediate need; candidate approval remains later.",
+        "2026-07-18 opening service output/interaction target/error partition complete: reviewed 13 source-linked target entries and four labelled learner-error hypotheses across food/drink preference and request, everyday item exchange, and immediate-need information exchange; 18 candidates remain and no candidate was approved.",
+        "Next partition: review source-linked language targets and labelled error decisions for the four remaining food/shopping/services candidates: asking for basic practical help, handling price and quantity information, describing a simple problem to a health professional, and completing a very simple online purchase or application; candidate approval remains later.",
+        "2026-07-18 remaining food/shopping/services target/error partition complete: reviewed ten source-linked target entries and four labelled learner-error hypotheses across practical help, price and quantity exchange, a bounded health-professional exchange, and a simulated simple online transaction; 14 candidates remain and no candidate was approved.",
+        "Next partition: review source-linked language targets and labelled error decisions for the eight remaining messages/signs/forms candidates: whereabouts message, slow-speech name/number/price relay, headline-topic viewing, video-ad product identification, simple online-post reaction, sign/notice mediation, rough oral sign-word translation, and dictionary-assisted written phrase translation; candidate approval remains later.",
+        "2026-07-18 remaining messages/signs/forms target/error partition complete: reviewed 21 source-linked target entries and eight labelled learner-error hypotheses across direct messages, visual-media reception, online reaction, information relay, and oral/written mediation; six candidates remain and no candidate was approved.",
+        "Next partition: review source-linked language targets and labelled error decisions for the six remaining social-contact/collaboration candidates: agreeing to a request, accepting an offer, showing sympathy, inviting input and checking understanding, showing interest and welcoming an idea, and sharing an idea while asking what others think; candidate approval remains later.",
+        "2026-07-18 final social-contact/collaboration target/error partition complete: reviewed 19 source-linked target entries and six labelled learner-error hypotheses across the final six candidates; all 81 candidates now have explicit decisions and none is approved.",
+        "Next partition: begin the separate candidate-approval audit with the nine foundational reception candidates; keep LESSON-002 in progress and Phase 4 locked.",
+        "2026-07-19 consolidated approval complete: all 81 candidates passed the full mechanical and semantic acceptance contract in one fast-track audit; 218/218 source records remain covered, the global audit passed, and all 228 tests passed. Phase 4 opened."
+      ]
+    },
+    {
+      "id": "GOLD-001",
+      "phase": "phase_4_gold_lesson",
+      "title": "Select the gold lesson and assemble its source packet",
+      "status": "complete",
+      "dependencies": ["LESSON-002"],
+      "acceptance": "Selection is justified and its objectives, grammar, vocabulary, phrases, pronunciation, and errors are traceable."
+    },
+    {
+      "id": "GOLD-002",
+      "phase": "phase_4_gold_lesson",
+      "title": "Author the complete gold-lesson content specification",
+      "status": "complete",
+      "dependencies": ["GOLD-001"],
+      "acceptance": "The full learning loop, AI behavior, mastery task, review items, and asset briefs are present."
+    },
+    {
+      "id": "GOLD-003",
+      "phase": "phase_4_gold_lesson",
+      "title": "Run independent pedagogy, level, Arabic, and source QA",
+      "status": "ready",
+      "dependencies": ["GOLD-002"],
+      "acceptance": "No major defect remains and all medium findings have owners."
+    },
+    {
+      "id": "TEST-001",
+      "phase": "phase_5_learner_test",
+      "title": "Create prototype, protocol, consent, and success thresholds",
+      "status": "locked",
+      "dependencies": ["GOLD-003"],
+      "acceptance": "A clickable test and ethical observation protocol can evaluate the important hypotheses."
+    },
+    {
+      "id": "TEST-002",
+      "phase": "phase_5_learner_test",
+      "title": "Run learner tests and synthesize evidence",
+      "status": "locked",
+      "dependencies": ["TEST-001"],
+      "acceptance": "Observed results, failures, revisions, and go/no-go decision are documented."
+    },
+    {
+      "id": "SYSTEM-001",
+      "phase": "phase_6_lesson_system",
+      "title": "Lock versioned lesson, exercise, AI, mastery, and review contracts",
+      "status": "locked",
+      "dependencies": ["TEST-002"],
+      "acceptance": "The revised gold lesson fits reusable schemas without one-off exceptions."
+    },
+    {
+      "id": "ARCH-001",
+      "phase": "phase_7_architecture",
+      "title": "Design and spike the technical architecture",
+      "status": "locked",
+      "dependencies": ["SYSTEM-001"],
+      "acceptance": "Stack, PostgreSQL model if selected, privacy model, media pipeline, and thin vertical slice pass review."
+    },
+    {
+      "id": "UNIT1-001",
+      "phase": "phase_8_unit_1",
+      "title": "Build and pilot the complete first unit",
+      "status": "locked",
+      "dependencies": ["ARCH-001"],
+      "acceptance": "Multi-lesson progression, review, mastery, reliability, accessibility, and pilot criteria pass."
+    },
+    {
+      "id": "A1-001",
+      "phase": "phase_9_full_a1",
+      "title": "Scale the validated factory to full A1",
+      "status": "locked",
+      "dependencies": ["UNIT1-001"],
+      "acceptance": "Full A1 passes source, level, Arabic, pedagogy, media, technical, and release audits."
+    }
+  ]
+}

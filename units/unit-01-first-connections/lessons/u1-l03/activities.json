@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "delivery": {
+    "placement": "after_video_explanation",
+    "interaction_during_video": false,
+    "sequence": "meaning_match_then_turn_choice_then_exchange"
+  },
+  "activities": [
+    {
+      "id": "match_question_answer",
+      "type": "matching",
+      "prompt_ar": "صل كل سؤال بالإجابة المناسبة.",
+      "pairs": [
+        ["Where are you from?", "I'm from Egypt."],
+        ["Where do you live?", "I live in Riyadh."],
+        ["What do you do?", "I'm a designer."]
+      ]
+    },
+    {
+      "id": "answer_the_real_question",
+      "type": "choice_set",
+      "prompt_ar": "اختر الإجابة التي تجيب عن السؤال فعلًا.",
+      "items": [
+        {"question": "Where are you from?", "options": ["I'm from Jordan.", "I live in Amman."], "answer": 0},
+        {"question": "Where do you live?", "options": ["I'm from Syria.", "I live in Cairo."], "answer": 1}
+      ]
+    },
+    {
+      "id": "build_short_exchange",
+      "type": "turn_order",
+      "prompt_ar": "رتّب الأدوار لتكوين محادثة طبيعية.",
+      "turns": [
+        "What's your name?",
+        "I'm Noor.",
+        "Nice to meet you, Noor. Where are you from?",
+        "I'm from Egypt."
+      ]
+    },
+    {
+      "id": "personal_question_plan",
+      "type": "field_selection",
+      "prompt_ar": "اختر ثلاث معلومات آمنة ستسأل عنها، وجهّز إجاباتك الحقيقية أو الخيالية.",
+      "fields": ["name", "origin", "residence", "role"],
+      "required_count": 3,
+      "fictional_allowed": true
+    }
+  ],
+  "feedback_policy": "Correct one category mismatch at a time, show one natural answer, then require a retry."
+}

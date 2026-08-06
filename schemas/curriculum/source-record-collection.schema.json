@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/source-record-collection.schema.json",
+  "title": "Curriculum source record collection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "dataset_id", "records"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "dataset_id": {"type": "string", "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"},
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "https://english-course.local/schemas/curriculum/source-record.schema.json"
+      }
+    }
+  }
+}

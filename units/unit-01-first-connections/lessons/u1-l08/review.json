@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "items": [
+    {"when": "next_day", "task": "Classify four messages as requests or replies."},
+    {"when": "three_days", "task": "Reply to a new message asking for two changed details."},
+    {"when": "seven_days", "task": "Start a fresh written exchange with a different purpose and clarify one missing detail."}
+  ]
+}

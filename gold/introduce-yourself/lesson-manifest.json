@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "lesson_id": "gold.introduce_yourself.v1",
+  "status": "video_tts_test_ready",
+  "candidate_id": "lesson_candidate.give_short_self_introduction",
+  "source_packet": "source-packet.json",
+  "title": {"en": "Introduce Yourself", "ar": "قدّم نفسك"},
+  "goal": {
+    "en": "Give a short self-introduction in a new first-meeting situation.",
+    "ar": "أن تقدّم نفسك باختصار في موقف تعارف جديد دون حفظ فقرة ثابتة."
+  },
+  "learner": "Arabic-speaking adult beginner at A1",
+  "scope": {
+    "required_details": ["name", "origin", "residence_or_role", "family_or_interest"],
+    "performance": "four or five short connected statements",
+    "time_hypothesis_minutes": "25-35"
+  },
+  "section_order": [
+    "video_explanation", "applied_questions", "guided_practice",
+    "personal_plan", "ai_practice", "fresh_mastery", "teach_back_variant", "review"
+  ],
+  "video": {
+    "provider": "Gemini TTS",
+    "format": "bilingual_single_teacher_video",
+    "directory": "video",
+    "speaker_count": 1,
+    "arabic_voice": "Egyptian Arabic gold-lesson test variant",
+    "english_pronunciation": "General American with inline SSML IPA",
+    "interaction_during_video": false,
+    "interaction_starts_after_video": true
+  },
+  "variants": {
+    "teach_back": "One short post-performance contrast explanation.",
+    "omit": "Matched close without teach-back."
+  },
+  "non_goals": [
+    "A full personal-detail interview",
+    "Introducing another person",
+    "Writing a profile",
+    "Memorising one fixed paragraph"
+  ],
+  "privacy": [
+    "The learner may use a fictional safe identity.",
+    "The prototype stores no response after refresh.",
+    "No microphone permission is required."
+  ],
+  "accessibility": [
+    "Every spoken model has visible text.",
+    "All controls are keyboard reachable.",
+    "Colour is never the only feedback signal.",
+    "Arabic and English reading directions are explicit."
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "unit_id": "a1.unit01.first_connections.v0",
+  "lesson_id": "U1-L03",
+  "candidate_id": "lesson_candidate.exchange_personal_details_orally",
+  "source_map": "data/reviewed/a1-lesson-map.json",
+  "candidate_version": 3,
+  "candidate_status": "approved_candidate",
+  "outcome": {
+    "situation": "a short first-meeting or simple interview exchange",
+    "observable_action": "ask and answer direct questions about personal details",
+    "essential_content": "two or three details such as name, origin, residence, age, or role",
+    "independence": "with slow clear questions but without a dialogue model",
+    "success_condition": "both people obtain the required information through relevant turns",
+    "statement": "In a fresh short exchange, the learner can ask and answer direct personal-detail questions without a dialogue model."
+  },
+  "evidence_refs": [
+    {
+      "record_id": "gse.adult.2022.p23.004",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "98f8152aef7fa41ff0483d5b3ef81e998f2ea37baff1e4d795f3cffecba55209",
+      "role": "anchor",
+      "coverage": "full",
+      "interpretation_note": "The objective anchors asking simple questions about another person."
+    },
+    {
+      "record_id": "gse.adult.2022.p23.008",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 23,
+        "page_end": 23,
+        "printed_page": "23",
+        "section": "GSE 22–29/A1: Speaking"
+      },
+      "source_text_sha256": "fa6c84f81e14c0902478e49c5a811d747ee13ce108bcd9140bd2e741ed3adf9b",
+      "role": "supporting",
+      "coverage": "full",
+      "interpretation_note": "The same exchange elicits both giving and receiving personal details."
+    },
+    {
+      "record_id": "cefr.cv2020.p079.information_exchange.03",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 79,
+        "page_end": 79,
+        "printed_page": "79",
+        "section": "Information exchange"
+      },
+      "source_text_sha256": "074b6b596a1f1a108f7435b82240aad5bacdcb5ffaf89e4b50e7ee1bad1ee018",
+      "role": "supporting",
+      "coverage": "partial",
+      "interpretation_note": "Covers questions about self, another person, and residence; people-known and possession examples remain for adjacent partitions."
+    },
+    {
+      "record_id": "cefr.cv2020.p080.interviewing_and_being_interviewed.01",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 80,
+        "page_end": 80,
+        "printed_page": "80",
+        "section": "Interviewing and being interviewed"
+      },
+      "source_text_sha256": "f4ce2210e1478732795c5e0868546466bca79350de0b4d3693f4b1fe119eb818",
+      "role": "supporting",
+      "coverage": "full",
+      "interpretation_note": "Slow direct interview questions are an equivalent bounded exchange variant."
+    }
+  ],
+  "skill_codes": [
+    "listening",
+    "speaking"
+  ],
+  "mode_codes": [
+    "interaction"
+  ],
+  "relationships": {
+    "required_before": [],
+    "helpful_before": [
+      {
+        "candidate_id": "lesson_candidate.give_short_self_introduction",
+        "rationale": "A controlled self-introduction usefully reduces the production load in a later exchange.",
+        "evidence_record_ids": [
+          "gse.adult.2022.p22.009",
+          "gse.adult.2022.p23.004"
+        ]
+      }
+    ],
+    "successors": [],
+    "concurrent_support": [
+      {
+        "support_id": "support.basic_language_control",
+        "rationale": "Basic A1 language control accompanies the fresh performance.",
+        "evidence_record_ids": [
+          "cefr.cv2020.p131.general_linguistic_range.01",
+          "cefr.cv2020.p132.grammatical_accuracy.01",
+          "cefr.cv2020.p135.overall_phonological_control.01"
+        ]
+      },
+      {
+        "support_id": "support.interaction_repair",
+        "rationale": "Clarification and repair remain available within an interaction task.",
+        "evidence_record_ids": [
+          "cefr.cv2020.p072.overall_oral_interaction.01",
+          "cefr.cv2020.p089.asking_for_clarification.01",
+          "cefr.cv2020.p089.asking_for_clarification.02"
+        ]
+      },
+      {
+        "support_id": "support.receptive_processing",
+        "rationale": "Slow, supported reception and meaning inference accompanies this source-input or output channel.",
+        "evidence_record_ids": [
+          "gse.adult.2022.p14.002",
+          "gse.adult.2022.p14.012",
+          "gse.adult.2022.p15.001",
+          "gse.adult.2022.p15.006",
+          "gse.adult.2022.p15.012",
+          "gse.adult.2022.p15.016",
+          "cefr.cv2020.p048.overall_oral_comprehension.01",
+          "cefr.cv2020.p060.identifying_cues_and_inferring_spoken_signed_and.01",
+          "cefr.cv2020.p060.identifying_cues_and_inferring_spoken_signed_and.02"
+        ]
+      },
+      {
+        "support_id": "support.spoken_intelligibility",
+        "rationale": "Guided sound, stress, rhythm, and intelligible delivery accompanies this source-input or output channel.",
+        "evidence_record_ids": [
+          "gse.adult.2022.p22.020",
+          "gse.adult.2022.p22.024",
+          "cefr.cv2020.p135.sound_articulation.01",
+          "cefr.cv2020.p135.sound_articulation.02",
+          "cefr.cv2020.p135.prosodic_features.01"
+        ]
+      }
+    ]
+  },
+  "language_targets": {
+    "grammar": [
+      {
+        "target": "Direct personal-detail questions with short relevant answers",
+        "purpose": "ask for and supply each changed detail in the exchange",
+        "evidence_refs": [
+          {
+            "record_id": "gse.adult.2022.p23.004",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 23,
+              "page_end": 23,
+              "printed_page": "23",
+              "section": "GSE 22–29/A1: Speaking"
+            },
+            "source_text_sha256": "98f8152aef7fa41ff0483d5b3ef81e998f2ea37baff1e4d795f3cffecba55209",
+            "role": "anchor",
+            "coverage": "full",
+            "interpretation_note": "The objective anchors asking simple questions about another person."
+          },
+          {
+            "record_id": "gse.adult.2022.p23.008",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 23,
+              "page_end": 23,
+              "printed_page": "23",
+              "section": "GSE 22–29/A1: Speaking"
+            },
+            "source_text_sha256": "fa6c84f81e14c0902478e49c5a811d747ee13ce108bcd9140bd2e741ed3adf9b",
+            "role": "supporting",
+            "coverage": "full",
+            "interpretation_note": "The same exchange elicits both giving and receiving personal details."
+          },
+          {
+            "record_id": "cefr.cv2020.p079.information_exchange.03",
+            "dataset_id": "cefr_a1_descriptors",
+            "source_id": "coe.cefr_companion_2020_en",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 79,
+              "page_end": 79,
+              "printed_page": "79",
+              "section": "Information exchange"
+            },
+            "source_text_sha256": "074b6b596a1f1a108f7435b82240aad5bacdcb5ffaf89e4b50e7ee1bad1ee018",
+            "role": "supporting",
+            "coverage": "partial",
+            "interpretation_note": "Covers questions about self, another person, and residence; people-known and possession examples remain for adjacent partitions."
+          },
+          {
+            "record_id": "cefr.cv2020.p080.interviewing_and_being_interviewed.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "source_id": "coe.cefr_companion_2020_en",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 80,
+              "page_end": 80,
+              "printed_page": "80",
+              "section": "Interviewing and being interviewed"
+            },
+            "source_text_sha256": "f4ce2210e1478732795c5e0868546466bca79350de0b4d3693f4b1fe119eb818",
+            "role": "supporting",
+            "coverage": "full",
+            "interpretation_note": "Slow direct interview questions are an equivalent bounded exchange variant."
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "target": "Name, age, origin, residence, role, people-known, and possession language",
+        "purpose": "understand and answer the selected personal-detail questions",
+        "evidence_refs": [
+          {
+            "record_id": "gse.adult.2022.p23.004",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 23,
+              "page_end": 23,
+              "printed_page": "23",
+              "section": "GSE 22–29/A1: Speaking"
+            },
+            "source_text_sha256": "98f8152aef7fa41ff0483d5b3ef81e998f2ea37baff1e4d795f3cffecba55209",
+            "role": "anchor",
+            "coverage": "full",
+            "interpretation_note": "The objective anchors asking simple questions about another person."
+          },
+          {
+            "record_id": "gse.adult.2022.p23.008",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 23,
+              "page_end": 23,
+              "printed_page": "23",
+              "section": "GSE 22–29/A1: Speaking"
+            },
+            "source_text_sha256": "fa6c84f81e14c0902478e49c5a811d747ee13ce108bcd9140bd2e741ed3adf9b",
+            "role": "supporting",
+            "coverage": "full",
+            "interpretation_note": "The same exchange elicits both giving and receiving personal details."
+          },
+          {
+            "record_id": "cefr.cv2020.p079.information_exchange.03",
+            "dataset_id": "cefr_a1_descriptors",
+            "source_id": "coe.cefr_companion_2020_en",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 79,
+              "page_end": 79,
+              "printed_page": "79",
+              "section": "Information exchange"
+            },
+            "source_text_sha256": "074b6b596a1f1a108f7435b82240aad5bacdcb5ffaf89e4b50e7ee1bad1ee018",
+            "role": "supporting",
+            "coverage": "partial",
+            "interpretation_note": "Covers questions about self, another person, and residence; people-known and possession examples remain for adjacent partitions."
+          }
+        ]
+      }
+    ],
+    "phrases": [
+      {
+        "target": "Short ask-and-answer personal-information turns",
+        "purpose": "complete both sides of the bounded information exchange",
+        "evidence_refs": [
+          {
+            "record_id": "gse.adult.2022.p23.008",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 23,
+              "page_end": 23,
+              "printed_page": "23",
+              "section": "GSE 22–29/A1: Speaking"
+            },
+            "source_text_sha256": "fa6c84f81e14c0902478e49c5a811d747ee13ce108bcd9140bd2e741ed3adf9b",
+            "role": "supporting",
+            "coverage": "full",
+            "interpretation_note": "The same exchange elicits both giving and receiving personal details."
+          },
+          {
+            "record_id": "cefr.cv2020.p079.information_exchange.03",
+            "dataset_id": "cefr_a1_descriptors",
+            "source_id": "coe.cefr_companion_2020_en",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 79,
+              "page_end": 79,
+              "printed_page": "79",
+              "section": "Information exchange"
+            },
+            "source_text_sha256": "074b6b596a1f1a108f7435b82240aad5bacdcb5ffaf89e4b50e7ee1bad1ee018",
+            "role": "supporting",
+            "coverage": "partial",
+            "interpretation_note": "Covers questions about self, another person, and residence; people-known and possession examples remain for adjacent partitions."
+          },
+          {
+            "record_id": "cefr.cv2020.p080.interviewing_and_being_interviewed.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "source_id": "coe.cefr_companion_2020_en",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 80,
+              "page_end": 80,
+              "printed_page": "80",
+              "section": "Interviewing and being interviewed"
+            },
+            "source_text_sha256": "f4ce2210e1478732795c5e0868546466bca79350de0b4d3693f4b1fe119eb818",
+            "role": "supporting",
+            "coverage": "full",
+            "interpretation_note": "Slow direct interview questions are an equivalent bounded exchange variant."
+          }
+        ]
+      }
+    ],
+    "pronunciation": [
+      {
+        "target": "Recognition and intelligible delivery of question words and personal-detail values",
+        "purpose": "keep the requested category and answer clear in slow direct turns",
+        "evidence_refs": [
+          {
+            "record_id": "gse.adult.2022.p23.004",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 23,
+              "page_end": 23,
+              "printed_page": "23",
+              "section": "GSE 22–29/A1: Speaking"
+            },
+            "source_text_sha256": "98f8152aef7fa41ff0483d5b3ef81e998f2ea37baff1e4d795f3cffecba55209",
+            "role": "anchor",
+            "coverage": "full",
+            "interpretation_note": "The objective anchors asking simple questions about another person."
+          },
+          {
+            "record_id": "cefr.cv2020.p080.interviewing_and_being_interviewed.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "source_id": "coe.cefr_companion_2020_en",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 80,
+              "page_end": 80,
+              "printed_page": "80",
+              "section": "Interviewing and being interviewed"
+            },
+            "source_text_sha256": "f4ce2210e1478732795c5e0868546466bca79350de0b4d3693f4b1fe119eb818",
+            "role": "supporting",
+            "coverage": "full",
+            "interpretation_note": "Slow direct interview questions are an equivalent bounded exchange variant."
+          }
+        ]
+      }
+    ]
+  },
+  "error_hypotheses": [
+    {
+      "error": "The learner answers a different personal-detail category from the one asked, such as giving residence for an origin question.",
+      "impact": "The partner cannot obtain the required information despite receiving a plausible personal detail.",
+      "basis": "Candidate-specific hypothesis for Arabic-speaking A1 adults based on the question-category contrast; it is not a source fact and requires expert review and learner observation.",
+      "validation_status": "hypothesis"
+    }
+  ],
+  "mastery": {
+    "fresh_task_family": "A first meeting, check-in interview, or peer information-gap with a fresh partner profile.",
+    "required_dimensions": [
+      "comprehension",
+      "outcome_performance",
+      "interaction_or_transfer",
+      "control_or_repair"
+    ],
+    "level_2_evidence": {
+      "comprehension": "Understands slow direct questions about the required personal details.",
+      "outcome_performance": "Asks and answers enough relevant questions to exchange every required detail.",
+      "interaction_or_transfer": "Responds to the partner's actual turns rather than reciting a fixed script.",
+      "control_or_repair": "Maintains intelligible meaning and uses or responds to simple repair when needed."
+    },
+    "critical_failures": [
+      "The exchange fails because required information is neither asked for nor supplied."
+    ],
+    "non_blocking_errors": [
+      "Harmless hesitation or minor form errors when the partner can respond."
+    ],
+    "permitted_support": [
+      "Slow clear delivery; one neutral repetition; fictional details."
+    ],
+    "disallowed_help": [
+      "A complete model answer or answer-revealing cue."
+    ],
+    "delayed_probe": "Use a new partner profile and changed required details after a delay."
+  },
+  "scope": {
+    "band": "standard",
+    "load_rationale": "A bounded exchange of two or three question-answer pairs.",
+    "time_range_hypothesis": null,
+    "no_split_rationale": null
+  },
+  "risks": [
+    "Questions must remain direct and non-idiomatic as the CEFR condition requires.",
+    "Target-decision note: Targets cover only the two or three personal-detail categories selected for a fresh bounded exchange."
+  ],
+  "review": {
+    "status": "accepted",
+    "reviewer": "lesson_002_consolidated_approval",
+    "reviewed_at": "2026-07-19T01:13:48+03:00",
+    "issues": []
+  }
+}

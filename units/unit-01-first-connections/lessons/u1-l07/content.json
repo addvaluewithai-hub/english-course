@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "situation": {"ar": "تكتب نبذة قصيرة لمجموعة دراسة أو بطاقة تعريف. القارئ يحتاج أن يعرف الشخص وأربع معلومات واضحة.", "success_ar": "كل الجمل تخص الشخص نفسه وتغطي الاسم والسكن والعمل أو الدور وتفصيلة شخصية."},
+  "self_model": ["Hi, I'm Salma.", "I live in Doha.", "I'm a nurse.", "I like reading."],
+  "other_model": ["This is Omar.", "He lives in Giza.", "He's a student.", "He likes football."],
+  "writing_strategy": ["حدد من هو الشخص قبل الكتابة.", "استخدم I طوال بروفايل نفسك، أو he/she طوال بروفايل شخص آخر.", "اكتب معلومة واحدة واضحة في كل جملة.", "راجع أن كل التفاصيل لها صاحب واضح."],
+  "error_focus": "Do not shift from I to he or she unless the profile person actually changes."
+}

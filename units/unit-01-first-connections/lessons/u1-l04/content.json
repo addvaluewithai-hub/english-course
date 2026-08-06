@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "situation": {
+    "ar": "تسمع رسالة قصيرة وتحتاج أن تسجل اسم المتصل ورقم هاتفه بشكل يمكن استخدامه.",
+    "success_ar": "تكتب الاسم وكل الأرقام بالترتيب الصحيح."
+  },
+  "digit_words": ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"],
+  "listening_rules": [
+    "حدد الاسم أولًا ثم انتظر عبارة رقم الهاتف.",
+    "اكتب كل رقم منفصلًا بدل تحويل المجموعة إلى عدد كبير.",
+    "احتفظ بالتقسيمات الصوتية الصغيرة لتسهيل المراجعة.",
+    "في أرقام الهاتف قد تسمع zero أو oh للصفر."
+  ],
+  "models": [
+    {
+      "id": "sara_contact",
+      "text": "Hi, my name is Sara Khalil. My phone number is five five five, zero one, one nine.",
+      "answer": {"name": "Sara Khalil", "phone": "555-01-19"}
+    },
+    {
+      "id": "omar_contact",
+      "text": "This is Omar. You can call me on two zero six, four eight, seven three.",
+      "answer": {"name": "Omar", "phone": "206-48-73"}
+    }
+  ]
+}

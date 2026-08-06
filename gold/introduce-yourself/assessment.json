@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "mastery_task": {
+    "scenario_en": "It is your first day in an online study group.",
+    "scenario_ar": "هذا أول يوم لك في مجموعة دراسة عبر الإنترنت.",
+    "prompt_en": "Introduce yourself in four or five short sentences.",
+    "required": ["name", "origin", "residence_or_role", "family_or_interest"],
+    "support": "Field icons or labels only; no sentence frames or model.",
+    "freshness": "The scenario and field order differ from guided practice.",
+    "safe_identity": true
+  },
+  "rubric": [
+    {"dimension": "comprehension", "level_2": "Includes the four requested detail categories."},
+    {"dimension": "outcome_performance", "level_2": "A listener can identify the learner and essential details."},
+    {"dimension": "interaction_or_transfer", "level_2": "Adapts the introduction to the new study-group situation."},
+    {"dimension": "control_or_repair", "level_2": "Essential details stay intelligible and one breakdown can be repaired."}
+  ],
+  "decision": {
+    "demonstrated": "Level 2 or above on every required dimension.",
+    "needs_review": "Any required dimension below level 2; give targeted practice and a new task.",
+    "completion_rule": "Opening every section or finishing exercises never grants mastery."
+  },
+  "teach_back_variant": {
+    "position": "after the fresh performance",
+    "prompt_ar": "اشرح باختصار الفرق بين I'm from و I live in، ثم أعط مثالًا واحدًا.",
+    "scored_separately": true,
+    "cannot_rescue_failed_mastery": true
+  },
+  "omit_variant": {
+    "position": "after the fresh performance",
+    "content": "Proceed directly to the matched close and review card."
+  },
+  "delayed_review": [
+    {"when": "next day", "task": "New identity card; give a four-detail spoken introduction."},
+    {"when": "three days", "task": "Correct an origin/residence mix-up, then introduce yourself."},
+    {"when": "seven days", "task": "New first-meeting context with a different final detail."}
+  ]
+}

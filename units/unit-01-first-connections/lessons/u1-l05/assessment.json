@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "mastery_task": {
+    "text": "Member: Hana Nasser\nAge: 27\nCountry: Morocco\nJob: Pharmacist\nAddress: 6 River Lane, Muscat",
+    "requests": ["Member", "Country", "Address"],
+    "answers": ["Hana Nasser", "Morocco", "6 River Lane, Muscat"],
+    "highlighting": false,
+    "replacement_text": "Adam Kareem | Engineer | Lebanese | 42 Sun Street, Dubai"
+  },
+  "decision": {"demonstrated": "Every requested detail is selected accurately and attached to the correct field.", "needs_review": "A requested detail is missing, changed, or copied from a nearby field.", "completion_is_mastery": false}
+}

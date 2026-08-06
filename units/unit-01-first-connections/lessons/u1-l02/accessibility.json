@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "video_readable_equivalent": "video/transcript.txt",
+  "captions": {"required": true, "source": "video/transcript.txt", "timing": "apply_after_final_audio"},
+  "practice_audio": {
+    "replay_control_keyboard_accessible": true,
+    "visible_transcript_during_mastery": false,
+    "equivalent_accommodation": "A construct-preserving replay or adjusted clear delivery, not an answer transcript."
+  },
+  "feedback": {"color_only": false, "text_labels_required": true}
+}

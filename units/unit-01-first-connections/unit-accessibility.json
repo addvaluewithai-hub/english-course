@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "media": {
+    "every_video_has_readable_transcript": true,
+    "captions_required_when_final_audio_is_timed": true,
+    "no_audio_only_instruction": true
+  },
+  "interaction": {
+    "keyboard_complete": true,
+    "visible_focus": true,
+    "screen_reader_labels": true,
+    "color_only_feedback": false,
+    "text_entry_equivalent_for_spoken_practice": true
+  },
+  "construct_preservation": {
+    "listening_mastery_transcript_visible": false,
+    "permitted_listening_support": ["one replay where specified", "adjusted clear delivery"],
+    "writing_support_never_supplies_complete_answer": true
+  },
+  "privacy": {
+    "fictional_identity_allowed_everywhere": true,
+    "real_phone_or_address_required": false,
+    "prototype_persistence": false
+  }
+}

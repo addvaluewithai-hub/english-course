@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "video_readable_equivalent": "video/transcript.txt",
+  "captions": {"required": true, "source": "video/transcript.txt", "timing": "apply_after_final_audio"},
+  "writing": {"keyboard_entry": true, "speech_to_text_optional": true, "topic_cues_programmatically_grouped": true, "full_model_hidden_during_mastery": true},
+  "feedback": {"color_only": false, "quoted_fragment_and_text_explanation_required": true}
+}

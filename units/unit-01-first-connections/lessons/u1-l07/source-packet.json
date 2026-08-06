@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "unit_id": "a1.unit01.first_connections.v0",
+  "lesson_id": "U1-L07",
+  "candidate_id": "lesson_candidate.write_short_personal_profile",
+  "source_map": "data/reviewed/a1-lesson-map.json",
+  "candidate_version": 3,
+  "candidate_status": "approved_candidate",
+  "outcome": {
+    "situation": "a short profile request for oneself or a safe fictional person",
+    "observable_action": "write a few connected sentences introducing the person",
+    "essential_content": "name, residence, role, and one family or interest detail",
+    "independence": "with topic cues but without copying a complete model",
+    "success_condition": "a reader can identify the person and all required details",
+    "statement": "In a fresh profile context, the learner can write a few basic sentences introducing a person without copying a model."
+  },
+  "evidence_refs": [
+    {
+      "record_id": "gse.adult.2022.p37.004",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "fd7c72ebaabe233c169ed9f4ae76e8218abd259b0282d13a989f8b2e322cb806",
+      "role": "anchor",
+      "coverage": "full",
+      "interpretation_note": "The objective anchors a prompted written self-introduction."
+    },
+    {
+      "record_id": "gse.adult.2022.p37.010",
+      "dataset_id": "gse_a1_objectives",
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 37,
+        "page_end": 37,
+        "printed_page": "37",
+        "section": "GSE 22–29/A1: Writing"
+      },
+      "source_text_sha256": "d6ac156a09b5f4ace1bdcbdced7061232d8442e07b6f34974868c174073e9896",
+      "role": "supporting",
+      "coverage": "full",
+      "interpretation_note": "Family and residence statements fit the same short personal profile."
+    },
+    {
+      "record_id": "cefr.cv2020.p067.creative_writing.01",
+      "dataset_id": "cefr_a1_descriptors",
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "location": {
+        "kind": "pdf_page",
+        "page": 67,
+        "page_end": 67,
+        "printed_page": "67",
+        "section": "Creative writing"
+      },
+      "source_text_sha256": "8f207d1ed8084c4c9ce6ad9766289816d7a5e4d02fe528f89ebac7bc685f449b",
+      "role": "supporting",
+      "coverage": "partial",
+      "interpretation_note": "Covers simple phrases and sentences about self, residence, and role; broader imaginary-person coverage remains for an adjacent partition."
+    }
+  ],
+  "skill_codes": [
+    "writing"
+  ],
+  "mode_codes": [
+    "production"
+  ],
+  "relationships": {
+    "required_before": [],
+    "helpful_before": [
+      {
+        "candidate_id": "lesson_candidate.give_short_self_introduction",
+        "rationale": "The familiar personal-content set can usefully transfer from short speech to writing.",
+        "evidence_record_ids": [
+          "gse.adult.2022.p22.009",
+          "gse.adult.2022.p37.004"
+        ]
+      }
+    ],
+    "successors": [],
+    "concurrent_support": [
+      {
+        "support_id": "support.basic_language_control",
+        "rationale": "Basic A1 language control accompanies the fresh performance.",
+        "evidence_record_ids": [
+          "cefr.cv2020.p131.general_linguistic_range.01",
+          "cefr.cv2020.p132.grammatical_accuracy.01",
+          "cefr.cv2020.p136.orthographic_control.02"
+        ]
+      },
+      {
+        "support_id": "support.written_form_control",
+        "rationale": "Basic written form, copying, punctuation, and connection accompanies this source-input or output channel.",
+        "evidence_record_ids": [
+          "gse.adult.2022.p37.003",
+          "gse.adult.2022.p37.006",
+          "gse.adult.2022.p37.009",
+          "cefr.cv2020.p066.overall_written_production.02",
+          "cefr.cv2020.p101.processing_text_in_writing.02",
+          "cefr.cv2020.p136.orthographic_control.03",
+          "cefr.cv2020.p141.coherence_and_cohesion.01"
+        ]
+      }
+    ]
+  },
+  "language_targets": {
+    "grammar": [
+      {
+        "target": "Simple identity, residence, role, and family statements about self or one person",
+        "purpose": "write the required profile details as a few comprehensible sentences",
+        "evidence_refs": [
+          {
+            "record_id": "gse.adult.2022.p37.004",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 37,
+              "page_end": 37,
+              "printed_page": "37",
+              "section": "GSE 22–29/A1: Writing"
+            },
+            "source_text_sha256": "fd7c72ebaabe233c169ed9f4ae76e8218abd259b0282d13a989f8b2e322cb806",
+            "role": "anchor",
+            "coverage": "full",
+            "interpretation_note": "The objective anchors a prompted written self-introduction."
+          },
+          {
+            "record_id": "gse.adult.2022.p37.010",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 37,
+              "page_end": 37,
+              "printed_page": "37",
+              "section": "GSE 22–29/A1: Writing"
+            },
+            "source_text_sha256": "d6ac156a09b5f4ace1bdcbdced7061232d8442e07b6f34974868c174073e9896",
+            "role": "supporting",
+            "coverage": "full",
+            "interpretation_note": "Family and residence statements fit the same short personal profile."
+          },
+          {
+            "record_id": "cefr.cv2020.p067.creative_writing.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "source_id": "coe.cefr_companion_2020_en",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 67,
+              "page_end": 67,
+              "printed_page": "67",
+              "section": "Creative writing"
+            },
+            "source_text_sha256": "8f207d1ed8084c4c9ce6ad9766289816d7a5e4d02fe528f89ebac7bc685f449b",
+            "role": "supporting",
+            "coverage": "partial",
+            "interpretation_note": "Covers simple phrases and sentences about self, residence, and role; broader imaginary-person coverage remains for an adjacent partition."
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "target": "Name, age, origin, residence, role, and family language",
+        "purpose": "supply the prompt's changed personal-detail categories",
+        "evidence_refs": [
+          {
+            "record_id": "gse.adult.2022.p37.004",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 37,
+              "page_end": 37,
+              "printed_page": "37",
+              "section": "GSE 22–29/A1: Writing"
+            },
+            "source_text_sha256": "fd7c72ebaabe233c169ed9f4ae76e8218abd259b0282d13a989f8b2e322cb806",
+            "role": "anchor",
+            "coverage": "full",
+            "interpretation_note": "The objective anchors a prompted written self-introduction."
+          },
+          {
+            "record_id": "gse.adult.2022.p37.010",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 37,
+              "page_end": 37,
+              "printed_page": "37",
+              "section": "GSE 22–29/A1: Writing"
+            },
+            "source_text_sha256": "d6ac156a09b5f4ace1bdcbdced7061232d8442e07b6f34974868c174073e9896",
+            "role": "supporting",
+            "coverage": "full",
+            "interpretation_note": "Family and residence statements fit the same short personal profile."
+          },
+          {
+            "record_id": "cefr.cv2020.p067.creative_writing.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "source_id": "coe.cefr_companion_2020_en",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 67,
+              "page_end": 67,
+              "printed_page": "67",
+              "section": "Creative writing"
+            },
+            "source_text_sha256": "8f207d1ed8084c4c9ce6ad9766289816d7a5e4d02fe528f89ebac7bc685f449b",
+            "role": "supporting",
+            "coverage": "partial",
+            "interpretation_note": "Covers simple phrases and sentences about self, residence, and role; broader imaginary-person coverage remains for an adjacent partition."
+          }
+        ]
+      }
+    ],
+    "phrases": [
+      {
+        "target": "A short sequence of personal-profile sentences",
+        "purpose": "keep every detail attached to the same self or fictional person",
+        "evidence_refs": [
+          {
+            "record_id": "gse.adult.2022.p37.004",
+            "dataset_id": "gse_a1_objectives",
+            "source_id": "pearson.gse_adult_general_english_2022",
+            "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 37,
+              "page_end": 37,
+              "printed_page": "37",
+              "section": "GSE 22–29/A1: Writing"
+            },
+            "source_text_sha256": "fd7c72ebaabe233c169ed9f4ae76e8218abd259b0282d13a989f8b2e322cb806",
+            "role": "anchor",
+            "coverage": "full",
+            "interpretation_note": "The objective anchors a prompted written self-introduction."
+          },
+          {
+            "record_id": "cefr.cv2020.p067.creative_writing.01",
+            "dataset_id": "cefr_a1_descriptors",
+            "source_id": "coe.cefr_companion_2020_en",
+            "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+            "location": {
+              "kind": "pdf_page",
+              "page": 67,
+              "page_end": 67,
+              "printed_page": "67",
+              "section": "Creative writing"
+            },
+            "source_text_sha256": "8f207d1ed8084c4c9ce6ad9766289816d7a5e4d02fe528f89ebac7bc685f449b",
+            "role": "supporting",
+            "coverage": "partial",
+            "interpretation_note": "Covers simple phrases and sentences about self, residence, and role; broader imaginary-person coverage remains for an adjacent partition."
+          }
+        ]
+      }
+    ],
+    "pronunciation": []
+  },
+  "error_hypotheses": [
+    {
+      "error": "The learner shifts between self and another person so that a residence, role, or family detail has no clear owner.",
+      "impact": "The reader cannot build one accurate profile from the sentences.",
+      "basis": "Candidate-specific hypothesis for Arabic-speaking A1 adults based on the self-versus-imaginary-person contrast; it is not a source fact and requires expert review and learner observation.",
+      "validation_status": "hypothesis"
+    }
+  ],
+  "mastery": {
+    "fresh_task_family": "A new profile card, introduction post, or short application paragraph with changed cues.",
+    "required_dimensions": [
+      "comprehension",
+      "outcome_performance",
+      "interaction_or_transfer",
+      "control_or_repair"
+    ],
+    "level_2_evidence": {
+      "comprehension": "Understands the person and detail categories required by the prompt.",
+      "outcome_performance": "Writes a few linked sentences containing every required personal detail.",
+      "interaction_or_transfer": "Uses the ability for a fresh self or fictional profile.",
+      "control_or_repair": "Sentence and spelling control keep each detail clear; one important issue can be revised after a neutral signal."
+    },
+    "critical_failures": [
+      "The profile omits the person's identity or two required detail categories."
+    ],
+    "non_blocking_errors": [
+      "Minor punctuation or grammar errors that preserve every essential detail."
+    ],
+    "permitted_support": [
+      "Topic cues; a safe fictional identity; neutral instruction repetition."
+    ],
+    "disallowed_help": [
+      "A complete model answer or answer-revealing cue."
+    ],
+    "delayed_probe": "Use a different profile purpose and changed detail set after a delay."
+  },
+  "scope": {
+    "band": "standard",
+    "load_rationale": "Three to five short sentences about one person.",
+    "time_range_hypothesis": null,
+    "no_split_rationale": null
+  },
+  "risks": [
+    "Resolved: fictional-person practice is covered as a permitted variant without a separate mastery claim.",
+    "Target-decision note: No pronunciation target is assigned because the sources require a written profile; oral rehearsal cannot become mastery evidence."
+  ],
+  "review": {
+    "status": "accepted",
+    "reviewer": "lesson_002_consolidated_approval",
+    "reviewed_at": "2026-07-19T01:13:48+03:00",
+    "issues": []
+  }
+}

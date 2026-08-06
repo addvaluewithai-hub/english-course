@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "mastery_task": {
+    "incoming_message": "Hi! I'm Adam. What's your name, and what do you do?",
+    "prompt_ar": "اكتب ردًا قصيرًا يجيب عن المعلومتين المطلوبتين. يمكنك استخدام شخصية خيالية.",
+    "required": ["name", "role"],
+    "complete_model_visible": false,
+    "replacement": {"purpose_ar": "ابدأ رسالة قصيرة تطلب بلد الأصل ومكان السكن من عضو جديد.", "required": ["origin_question", "residence_question"]}
+  },
+  "decision": {"demonstrated": "The brief message performs the required request or reply and makes both details clear.", "needs_review": "The reader cannot tell what is requested or supplied, or a required detail is absent.", "completion_is_mastery": false},
+  "repair_evidence": "The learner clarifies one neutrally flagged missing or unclear detail in a follow-up."
+}

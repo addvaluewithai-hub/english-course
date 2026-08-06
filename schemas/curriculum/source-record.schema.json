@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/source-record.schema.json",
+  "title": "Curriculum source record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record_id", "record_kind", "source", "source_facts", "interpretation", "review"],
+  "properties": {
+    "record_id": {"type": "string", "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"},
+    "record_kind": {
+      "enum": ["objective", "descriptor", "grammar_feature", "vocabulary_item"]
+    },
+    "source": {
+      "$ref": "https://english-course.local/schemas/curriculum/source-evidence.schema.json"
+    },
+    "source_facts": {"$ref": "#/$defs/sourceFacts"},
+    "interpretation": {"$ref": "#/$defs/interpretation"},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "nullableText": {"type": ["string", "null"], "minLength": 1},
+    "codeArray": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"},
+      "uniqueItems": true
+    },
+    "skillCodeArray": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "listening",
+          "reading",
+          "speaking",
+          "writing",
+          "viewing",
+          "non_verbal",
+          "language_system"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "modeCodeArray": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "reception",
+          "production",
+          "interaction",
+          "online_interaction",
+          "mediation",
+          "communicative_competence"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "candidateClusterCodeArray": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "identity_personal_information",
+          "people_relationships",
+          "routines_time_leisure",
+          "home_objects_descriptions",
+          "places_directions_travel",
+          "food_shopping_services",
+          "messages_signs_forms",
+          "social_contact_collaboration",
+          "communication_strategies",
+          "language_foundations"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "functionCodeArray": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "comprehend_information",
+          "follow_instructions",
+          "locate_information",
+          "describe",
+          "give_information",
+          "ask_for_information",
+          "exchange_information",
+          "introduce",
+          "socialize",
+          "express_preference",
+          "express_feeling",
+          "express_ability",
+          "request",
+          "respond_to_request_or_offer",
+          "transact",
+          "correspond",
+          "complete_form",
+          "clarify_or_repair",
+          "infer_meaning",
+          "mediate_information",
+          "translate",
+          "facilitate_interaction",
+          "reproduce_language",
+          "control_language_form"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "textArray": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "sourceFacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_record_id",
+        "level_text",
+        "gse_score_or_range",
+        "skill_text",
+        "mode_text",
+        "function_text",
+        "scale_text",
+        "other_verbatim"
+      ],
+      "properties": {
+        "source_record_id": {"$ref": "#/$defs/nullableText"},
+        "level_text": {"$ref": "#/$defs/nullableText"},
+        "gse_score_or_range": {"$ref": "#/$defs/nullableText"},
+        "skill_text": {"$ref": "#/$defs/nullableText"},
+        "mode_text": {"$ref": "#/$defs/nullableText"},
+        "function_text": {"$ref": "#/$defs/nullableText"},
+        "scale_text": {"$ref": "#/$defs/nullableText"},
+        "other_verbatim": {
+          "type": "object",
+          "additionalProperties": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "interpretation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "inclusion_status",
+        "exclusion_reason",
+        "cefr_codes",
+        "skill_codes",
+        "mode_codes",
+        "function_codes",
+        "candidate_cluster_ids",
+        "notes",
+        "ambiguities"
+      ],
+      "properties": {
+        "inclusion_status": {"enum": ["undecided", "included", "excluded"]},
+        "exclusion_reason": {"$ref": "#/$defs/nullableText"},
+        "cefr_codes": {
+          "type": "array",
+          "items": {"enum": ["pre_a1", "a1", "a2", "b1", "b2", "c1", "c2"]},
+          "uniqueItems": true
+        },
+        "skill_codes": {"$ref": "#/$defs/skillCodeArray"},
+        "mode_codes": {"$ref": "#/$defs/modeCodeArray"},
+        "function_codes": {"$ref": "#/$defs/functionCodeArray"},
+        "candidate_cluster_ids": {"$ref": "#/$defs/candidateClusterCodeArray"},
+        "notes": {"$ref": "#/$defs/textArray"},
+        "ambiguities": {"$ref": "#/$defs/textArray"}
+      }
+    },
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "severity", "message"],
+      "properties": {
+        "code": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"},
+        "severity": {"enum": ["info", "warning", "error"]},
+        "message": {"type": "string", "minLength": 1}
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "reviewer", "reviewed_at", "issues"],
+      "properties": {
+        "status": {"enum": ["unreviewed", "needs_review", "accepted", "rejected"]},
+        "reviewer": {"$ref": "#/$defs/nullableText"},
+        "reviewed_at": {"type": ["string", "null"], "format": "date-time"},
+        "issues": {"type": "array", "items": {"$ref": "#/$defs/issue"}}
+      }
+    }
+  }
+}

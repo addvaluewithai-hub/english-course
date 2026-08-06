@@ -1,0 +1,137 @@
+Speaker 1: [WARM] أهلًا بيك في أول درس.
+
+Speaker 1: تخيّل إنك قابلت شخص جديد، وبعد السلام سألك:
+
+Speaker 1: [FRIENDLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="tɛl mi əˈbaʊt jɚˈsɛlf">Tell me about yourself.</phoneme></lang>
+
+Speaker 1: وفجأة حسّيت إنك مطالب تحكي قصة حياتك من أول يوم في الحضانة لحد النهاردة.
+
+Speaker 1: [AMUSED] اطمن. هو مش طالب فيلم وثائقي عن حياتك.
+
+Speaker 1: كل اللي محتاجه أربع أو خمس جمل قصيرة تساعده يعرفك، وتفتح بينكم محادثة.
+
+Speaker 1: اسمع النموذج ده أولًا.
+
+Speaker 1: [CLEAR, SLIGHTLY SLOWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="haɪ | aɪm ˈmaɪə | aɪm frəm ˈdʒɔɹdən | aɪ lɪv ɪn əˈmɑːn | aɪm ə dɪˈzaɪnɚ | aɪ laɪk fəˈtɑɡrəfi">Hi, I'm Maya. I'm from Jordan. I live in Amman. I'm a designer. I like photography.</phoneme></lang>
+
+Speaker 1: بس كده.
+
+Speaker 1: مايا قالت اسمها، بلدها، مكان سكنها، شغلها، وحاجة بتحبها.
+
+Speaker 1: تعال نفهم كل جزء.
+
+Speaker 1: أول حاجة، التحية والاسم.
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="haɪ | aɪm ˈmaɪə">Hi, I'm Maya.</phoneme></lang>
+
+Speaker 1: كلمة <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm">I'm</phoneme></lang> هي الصورة المختصرة والطبيعية من:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ æm">I am.</phoneme></lang>
+
+Speaker 1: لكن في المحادثات العادية، الأغلب إنك هتسمع وتستخدم:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm">I'm.</phoneme></lang>
+
+Speaker 1: قولها كوحدة واحدة خفيفة. ما تفصلش الكلمتين عن بعض.
+
+Speaker 1: بعد الاسم، مايا قالت بلدها.
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm frəm ˈdʒɔɹdən">I'm from Jordan.</phoneme></lang>
+
+Speaker 1: التعبير <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm frəm">I'm from</phoneme></lang> معناه "أنا من". استخدمه عشان تقول بلدك أو المكان اللي أنت أصلك منه.
+
+Speaker 1: مثلًا:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm frəm ˈiːdʒɪpt">I'm from Egypt.</phoneme></lang>
+
+Speaker 1: أو:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm frəm səˈuːdi əˈreɪbiə">I'm from Saudi Arabia.</phoneme></lang>
+
+Speaker 1: بعد كده، مايا قالت هي عايشة فين دلوقتي.
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ lɪv ɪn əˈmɑːn">I live in Amman.</phoneme></lang>
+
+Speaker 1: وهنا عندنا فرق مهم جدًا.
+
+Speaker 1: <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm frəm">I'm from</phoneme></lang> بتقول لنا أنت أصلك منين.
+
+Speaker 1: لكن <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ lɪv ɪn">I live in</phoneme></lang> بتقول لنا أنت عايش فين دلوقتي.
+
+Speaker 1: وممكن المكانين يكونوا مختلفين.
+
+Speaker 1: مثلًا، ممكن شخص يقول:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm frəm ˈiːdʒɪpt | bət aɪ lɪv ɪn duːˈbaɪ">I'm from Egypt, but I live in Dubai.</phoneme></lang>
+
+Speaker 1: يعني هو من مصر، لكنه عايش دلوقتي في دبي.
+
+Speaker 1: وخلي بالك من نطق كلمة <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="lɪv">live</phoneme></lang> هنا.
+
+Speaker 1: لأنها فعل بمعنى "أعيش"، فنطقها قصير:
+
+Speaker 1: [SLOWLY AND CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="lɪv">live.</phoneme></lang>
+
+Speaker 1: مش:
+
+Speaker 1: [CONTRASTING] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="laɪv">live.</phoneme></lang>
+
+Speaker 1: النطق الثاني بنستخدمه في تعبيرات زي البث المباشر. لكن في جملتنا نقول:
+
+Speaker 1: [CLEAR, NATURAL PACE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ lɪv ɪn əˈmɑːn">I live in Amman.</phoneme></lang>
+
+Speaker 1: بعد كده، تقدر تقول شغلك أو دورك.
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ə dɪˈzaɪnɚ">I'm a designer.</phoneme></lang>
+
+Speaker 1: وممكن تغيّر الوظيفة حسب معلوماتك.
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ə ˈtiːtʃɚ">I'm a teacher.</phoneme></lang>
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ən ˌɛndʒəˈnɪr">I'm an engineer.</phoneme></lang>
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ə ˈstuːdənt">I'm a student.</phoneme></lang>
+
+Speaker 1: ولو مش عايز تتكلم عن شغلك، مفيش مشكلة. الجملة دي اختيارية.
+
+Speaker 1: آخر حاجة، أضف تفصيلة صغيرة عنك.
+
+Speaker 1: مايا قالت:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ laɪk fəˈtɑɡrəfi">I like photography.</phoneme></lang>
+
+Speaker 1: التفصيلة دي مهمة؛ لأنها بتدي الشخص اللي قدامك موضوع يقدر يسألك عنه.
+
+Speaker 1: ممكن تقول:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ laɪk ˈriːdɪŋ">I like reading.</phoneme></lang>
+
+Speaker 1: أو:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ laɪk ˈfʊtˌbɔl">I like football.</phoneme></lang>
+
+Speaker 1: أو:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ laɪk ˈkuːkɪŋ">I like cooking.</phoneme></lang>
+
+Speaker 1: [PLAYFUL] حتى لو النتيجة النهائية في المطبخ مش مضمونة.
+
+Speaker 1: دلوقتي اسمع نموذج تاني، بمعلومات مختلفة.
+
+Speaker 1: [FRIENDLY, NATURAL PACE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="haɪ | aɪm ˈoʊmɑɹ | aɪm frəm ˈiːdʒɪpt | aɪ lɪv ɪn ˈɡiːzə | aɪm ə ˈstuːdənt | aɪ laɪk ˈfʊtˌbɔl | naɪs tə miːt juː">Hi, I'm Omar. I'm from Egypt. I live in Giza. I'm a student. I like football. Nice to meet you.</phoneme></lang>
+
+Speaker 1: لاحظ إن عمر استخدم نفس البناء، لكن غيّر المعلومات.
+
+Speaker 1: أنت كمان مش مطلوب منك تحفظ كلام مايا أو عمر.
+
+Speaker 1: المطلوب إنك تتذكر أربع خانات بس: اسمك، بلدك، مكان سكنك أو شغلك، وحاجة واحدة بتحبها.
+
+Speaker 1: بعد الفيديو هتبدأ الأسئلة التطبيقية، وهتستخدم الخانات دي عشان تبني مقدمتك بنفسك.
+
+Speaker 1: [ENCOURAGING] مش مطلوب منك كلام مثالي، ولا نطق مثالي من أول محاولة.
+
+Speaker 1: المطلوب أربع أو خمس جمل قصيرة، واضحة، وشخصية.
+
+Speaker 1: [WARM] جاهز؟ نشوفك في التطبيق.
+
+Speaker 1: [FRIENDLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="siː juː ðɛr">See you there!</phoneme></lang>

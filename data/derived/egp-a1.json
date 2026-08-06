@@ -1,0 +1,1095 @@
+{
+  "count": 109,
+  "records": [
+    {
+      "id": "1741163706316x926291459998112000",
+      "SuperCategory": "ADJECTIVES",
+      "SubCategory": "combining",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: COMBINING TWO ADJECTIVES WITH 'AND'",
+      "Can-do statement": "Can use 'and' to join a limited range of common adjectives. ",
+      "Example": "The teachers are very nice and friendly . (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nI like my house because it is big and comfortable . (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nYou can buy Turkish and English products as well. (A1 BREAKTHROUGH; Polish)"
+    },
+    {
+      "id": "1741163706326x912859360099482800",
+      "SuperCategory": "ADJECTIVES",
+      "SubCategory": "modifying",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: WITH 'VERY' ",
+      "Can-do statement": "Can use 'very' with a limited range of common gradable adjectives. ",
+      "Example": "I like Croydon because it's very quiet and very nice. (A1 BREAKTHROUGH; Farsi)\n\nMy neighbours are very friendly. (A1; Slovak)"
+    },
+    {
+      "id": "1741163706530x479020650602328450",
+      "SuperCategory": "ADJECTIVES",
+      "SubCategory": "position",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: ATTRIBUTIVE (WITH NOUNS)",
+      "Can-do statement": "Can use a limited range of adjectives attributively, before a noun. ► noun phrases",
+      "Example": "We have a big garden and a small swimming pool. (Arabic - Other, A1 BREAKTHROUGH, Pass, 2009)\n\nMy name is Bogdan. I am your new neighbour. (Polish, A1 BREAKTHROUGH, Pass, 2008)\n\nI like my home because I have a nice park next to my house. (Farsi, A1 BREAKTHROUGH, Pass, 2009)"
+    },
+    {
+      "id": "1741163706530x753542801715210100",
+      "SuperCategory": "ADJECTIVES",
+      "SubCategory": "position",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: PREDICATIVE, WITH 'BE'",
+      "Can-do statement": "Can use a limited range of adjectives predicatively, after 'be'.",
+      "Example": "I like my home because my bedroom is big. (Turkish, A1 BREAKTHROUGH, Pass, 2009)\n\nThis place is lovely. (Polish, A1 BREAKTHROUGH, Pass, 2007)\n\nMy kitchen is nice. (Farsi, A1 BREAKTHROUGH, Pass, 2009)\n\nThis place is beautiful. (Tagalog, A1 BREAKTHROUGH, Pass, 2007)"
+    },
+    {
+      "id": "1741163706532x162687205151185180",
+      "SuperCategory": "ADJECTIVES",
+      "SubCategory": "superlatives",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'MY BEST FRIEND'",
+      "Can-do statement": "Can use the irregular superlative adjective 'best' in the phrase 'my best friend'.",
+      "Example": "She's my best friend. (A1 BREAKTHROUGH; 2006; Polish; Pass)\n\nShahin is my best friend. (A1 BREAKTHROUGH; 2006; Urdu; Pass)"
+    },
+    {
+      "id": "1741163706537x909158263292138100",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "adverbs and adverb phrases: types and meanings",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: TIME",
+      "Can-do statement": "Can use 'soon' in the phrases 'See you soon' and 'Get well soon', as a signing-off device. ",
+      "Example": "Take care. See you soon. (A1 BREAKTHROUGH; 2009; Turkish; Pass)\n\nGet well soon. (A1 BREAKTHROUGH; 2009; Polish; Pass)"
+    },
+    {
+      "id": "1741163706721x821677696151876900",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "adverbs and adverb phrases: types and meanings",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "USE: PLACE",
+      "Can-do statement": "Can use a limited range of adverbs ('here', 'there') to indicate place. ",
+      "Example": "My girlfriend is here with me. (A1 BREAKTHROUGH; 2007; Slovak; Pass)\n\nI was born there and I lived there over twenty years. (A1 BREAKTHROUGH; 2007; Spanish - Other; Pass)\n\nI go there every year with my friends. (A1 BREAKTHROUGH; 2011; Bulgarian; Pass)"
+    },
+    {
+      "id": "1741163706722x425107176833770200",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "adverbs and adverb phrases: types and meanings",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: DEGREE WITH VERBS ",
+      "Can-do statement": "Can use 'really' and 'very much' with verbs expressing preference ('like', 'love'), for emphasis.",
+      "Example": "I really like theatre and a classical music. (Poland; A1 BREAKTHROUGH; 2010; Polish; Pass)\n\nI really love my space! (A1 BREAKTHROUGH; 2009; Portuguese; Pass)\n\nI like my garden very much. (A1 BREAKTHROUGH; 2009; Bengali; Pass)"
+    },
+    {
+      "id": "1741163706722x502415631169033540",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "adverbs and adverb phrases: types and meanings",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: 'VERY' WITH ADJECTIVES",
+      "Can-do statement": "Can use 'very' to make adjectives stronger.",
+      "Example": "He's a very good man. (A1 BREAKTHROUGH; 2006; Mandarin; Pass)\n\nI'm very happy in my home. (A1 BREAKTHROUGH; 2009; Spanish - Latin American; Pass)"
+    },
+    {
+      "id": "1741163706722x604132732561016200",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "adverbs and adverb phrases: types and meanings",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "USE: FREQUENCY ",
+      "Can-do statement": "Can use a limited range of adverbs ('always', 'sometimes') to talk about frequency.",
+      "Example": "I like Dorchester's people, they are always very friendly and polite. (A1 BREAKTHROUGH; 2007; Russian; Pass)\n\nI always see Safora because she lives near my home. (A1 BREAKTHROUGH; 2006; Farsi; Pass)\n\nSometimes I go to the beach. (A1 BREAKTHROUGH; 2011; Arabic - Other; Pass)"
+    },
+    {
+      "id": "1741163706728x100067556201106640",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "adverbs as modifiers",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'VERY' + ADJECTIVES",
+      "Can-do statement": "Can use 'very' to modify common gradable adjectives.",
+      "Example": "My home is very nice. (A1 BREAKTHROUGH; 2009; Italian; Pass)\n\nMy teacher is very good. (A1 BREAKTHROUGH; 2007; Gujarati; Pass)"
+    },
+    {
+      "id": "1741163706728x743541438966270800",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "adverbs as modifiers",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'VERY' + TIME ADVERBS ",
+      "Can-do statement": "Can use 'very' to modify time adverbs. ► adverb phrases",
+      "Example": "I hope you get well very soon. (A1 BREAKTHROUGH; 2009; Bengali; Pass)\n\nI don't like it at college when I have a lesson very early. (A1 BREAKTHROUGH; 2007; Polish; Pass)"
+    },
+    {
+      "id": "1741163706728x827649422602473600",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "adverbs as modifiers",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: PLACE, COMPLEMENT",
+      "Can-do statement": "Can use place adverbs ('here', 'there') as complements of verbs. ",
+      "Example": "I am happy here because people are very nice. (A1 BREAKTHROUGH; 2007; Hindi; Pass)\n\nI hope you will be there. (A1 BREAKTHROUGH; 2011; Portuguese; Pass)\n\nYou must go there. (A1 BREAKTHROUGH; 2008; Polish; Pass)"
+    },
+    {
+      "id": "1741163706728x987923532840156800",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "adverbs as modifiers",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: DEGREE and TIME, MODIFYING VERBS",
+      "Can-do statement": "Can use degree and time adverbs to modify verbs.",
+      "Example": "I really like Japanese music. (A1 BREAKTHROUGH; 2008; Chinese; Pass)\n\nI like my college very much. (A1 BREAKTHROUGH; 2007; Polish; Fail)\n\nI always go to the park with my children. We sometimes go to the shopping centre. (A1 BREAKTHROUGH; 2010; Arabic - Other; Pass)"
+    },
+    {
+      "id": "1741163706930x279245648285079580",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "position",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: FRONT POSITION",
+      "Can-do statement": "Can use a limited range of adverbs in front position.",
+      "Example": "Sometimes I go to the beach. (A1 BREAKTHROUGH; 2011; Arabic - Other; Pass)\n\nI like writing and speaking but sometimes I like listening. (A1 BREAKTHROUGH; 2007; Somali; Pass)\n\nYou can bring some music . Maybe we can dance. (A1 BREAKTHROUGH; 2008; Polish; Pass)"
+    },
+    {
+      "id": "1741163706930x543760633232157630",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "position",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: DEGREE, BEFORE ADJECTIVES",
+      "Can-do statement": "Can use a limited range of degree adverbs before an adjective.",
+      "Example": "My home is very light and very comfortable. (A1 BREAKTHROUGH; 2009; Polish; Pass)\n\nI have a really good friend, her name is Dylma. (A1 BREAKTHROUGH; 2006; Polish; Pass)"
+    },
+    {
+      "id": "1741163706930x543836854317855550",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "position",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: FREQUENCY, MID POSITION",
+      "Can-do statement": "Can use frequency adverbs in the usual mid position, between the subject and the main verb.",
+      "Example": "In my free time I always listen to music, watch TV, clean my room ... (Spain; A1 BREAKTHROUGH; 2010; Spanish - European; Pass)\n\nShe sometimes goes to the cinema and to the disco. (A1 BREAKTHROUGH; 2006; Polish; Pass)"
+    },
+    {
+      "id": "1741163706931x652422120447256700",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "position",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'REALLY,'  MID POSITION ",
+      "Can-do statement": "Can use 'really' in the usual mid-position, between the subject and the main verb.",
+      "Example": "I really love walking. (A1 BREAKTHROUGH; 2011; Polish; Pass)\n\nI really like my kitchen, because it is big. (A1 BREAKTHROUGH; 2009; Somali; Pass)"
+    },
+    {
+      "id": "1741163706931x922201162401665300",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "position",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: TIME, END POSITION",
+      "Can-do statement": "Can use time adverbs in the usual end position.",
+      "Example": "Get well soon. (A1 BREAKTHROUGH; 2009; Nepali; Pass)\n\nI hope to see you soon. (Pakistan; A1 BREAKTHROUGH; 2010; Urdu; Pass)\n\n… because I not working also I will wake up late . (Pakistan; A1 BREAKTHROUGH; 2010; Urdu; Pass)"
+    },
+    {
+      "id": "1741163706938x862543767286873900",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "position",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: PLACE, END POSITION",
+      "Can-do statement": "Can use place adverbs in the usual end position.",
+      "Example": "I have many friends there. (A1 BREAKTHROUGH; 2007; Polish; Fail)\n\nI like this place because my parents live there. (A1 BREAKTHROUGH; 2007; Czech; Fail)"
+    },
+    {
+      "id": "1741163708146x551167324571377540",
+      "SuperCategory": "ADVERBS",
+      "SubCategory": "adverb phrases - form",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'VERY' + ADVERB",
+      "Can-do statement": "Can modify adverbs of time and degree with 'very'. ",
+      "Example": "I hope you will be fine very soon. (A1 BREAKTHROUGH; 2009; Urdu; Pass)\n\nI like my job very much. (A1 BREAKTHROUGH; 2007; Mandarin; Pass)"
+    },
+    {
+      "id": "1741163708153x480316823264789900",
+      "SuperCategory": "CLAUSES",
+      "SubCategory": "coordinated",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: CLAUSE + CLAUSE, ELLIPTED SUBJECT",
+      "Can-do statement": "Can omit the subject in a second main declarative clause when the subject is obvious or the same as the first clause. ",
+      "Example": "She likes to listen to music and watch TV. (A1 BREAKTHROUGH; 2006; Urdu; Pass)\n\nAfter break we go to the class and play some games or study. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nSometimes I go to the park with my friend and play tennis and football. (Poland; A1 BREAKTHROUGH; 2010; Polish; Pass)\n\nI can clean or cook for you. (A1 BREAKTHROUGH; 2009; Romanian; Pass)"
+    },
+    {
+      "id": "1741163708153x695756963015404300",
+      "SuperCategory": "CLAUSES",
+      "SubCategory": "coordinated",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: MAIN CLAUSE + MAIN CLAUSE",
+      "Can-do statement": "Can combine two main declarative clauses using co-ordinating conjunctions ('and', 'but', 'or'). ",
+      "Example": "I like my college and I like my class. (A1 BREAKTHROUGH; 2007; Gujarati; Pass)\n\nOn Sunday I visit my friends, but I often stay at home and I read books. (Poland; A1 BREAKTHROUGH; 2010; Polish; Pass)\n\nI like English lessons but I don't like physics. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nI watch television, I read magazines or I sleep. (A1 BREAKTHROUGH; 2007; Slovak; Pass)"
+    },
+    {
+      "id": "1741163708329x286701804737242940",
+      "SuperCategory": "CLAUSES",
+      "SubCategory": "declarative",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AFFIRMATIVE DECLARATIVE",
+      "Can-do statement": "Can form simple affirmative declarative clauses.",
+      "Example": "I study English at college. (A1 BREAKTHROUGH; 2007; Mandarin; Pass)\n\nMy friend is a nurse. (A1 BREAKTHROUGH; 2006; Panjabi; Pass)\n\nI'm living in Manchester. (A1 BREAKTHROUGH; 2009; Kurdish; Pass)\n\nIt's very cheap and you can buy all you need. (A1 BREAKTHROUGH; 2008; Italian; Fail)\n\nHe is very nice but sometimes he is a little crazy. (A1 BREAKTHROUGH; 2006; Italian; Pass)"
+    },
+    {
+      "id": "1741163708329x778951051617750700",
+      "SuperCategory": "CLAUSES",
+      "SubCategory": "declarative",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: NEGATIVE DECLARATIVE WITH 'BE'",
+      "Can-do statement": "Can form a simple negative declarative clause with lexical 'be' + 'not' or 'n't'. ",
+      "Example": "My college is not very big. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nThis place isn't big. (A1 BREAKTHROUGH; 2007; Lithuanian; Pass)\n\nI'm not bad. (A1 BREAKTHROUGH; 2006; Panjabi; Pass)"
+    },
+    {
+      "id": "1741163708329x894844343465365000",
+      "SuperCategory": "CLAUSES",
+      "SubCategory": "declarative",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: NEGATIVE DECLARATIVE, LEXICAL VERBS",
+      "Can-do statement": "Can form simple negative declarative clauses.",
+      "Example": "I don't like maths. (A1 BREAKTHROUGH; 2007; Farsi; Pass)\n\nI don't have children. (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\nI don't know. (A1 BREAKTHROUGH; 2009; French; Pass)"
+    },
+    {
+      "id": "1741163708329x931125497510935300",
+      "SuperCategory": "CLAUSES",
+      "SubCategory": "declarative",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AFFIRMATIVE DECLARATIVE, MODAL AUXILIARY VERBS",
+      "Can-do statement": "Can form an affirmative declarative clause with modal verbs.",
+      "Example": "I can go to see her tomorrow. (A1 BREAKTHROUGH; 2009; Panjabi; Pass)\n\nI will visit you soon. (A1 BREAKTHROUGH; 2009; Kurdish; Pass)"
+    },
+    {
+      "id": "1741163708336x928067678664856700",
+      "SuperCategory": "CLAUSES",
+      "SubCategory": "interrogatives",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AFFIRMATIVE INTERROGATIVE, WITH 'BE'",
+      "Can-do statement": "Can form interrogative clauses with 'be'. ",
+      "Example": "How are you? (A1 BREAKTHROUGH; 2009; Farsi; Pass)\n\nAre you ok? (A1 BREAKTHROUGH; 2011; Thai; Pass)"
+    },
+    {
+      "id": "1741163708567x184494536538858620",
+      "SuperCategory": "CLAUSES",
+      "SubCategory": "subordinated",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM/USE: 'BECAUSE', REASONS",
+      "Can-do statement": "Can use a finite subordinate clause with 'because', after a main clause, to introduce reasons. ",
+      "Example": "I love her because she is friendly. (A1 BREAKTHROUGH; 2006; Bengali; Pass)\n\nI like my television because it is big and modern. (A1 BREAKTHROUGH; 2009; Arabic - Other; Pass)"
+    },
+    {
+      "id": "1741163708775x236006169337418240",
+      "SuperCategory": "CONJUNCTIONS",
+      "SubCategory": "coordinating",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: PHRASE + PHRASE",
+      "Can-do statement": "Can use single word conjunctions ('and, but, or') to combine phrases.",
+      "Example": "My home is very light and very comfortable. (A1 BREAKTHROUGH; 2009; Polish; Pass)\n\nI live with my mother and her boyfriend. (A1 BREAKTHROUGH; 2009; Polish; Pass)\n\nMy house is small but very nice. (A1 BREAKTHROUGH; 2009; Pashto; Pass)\n\nShe likes to go to the cinema or to the theatre. (A1 BREAKTHROUGH; 2006; French; Pass)"
+    },
+    {
+      "id": "1741163708775x324182637264445630",
+      "SuperCategory": "CONJUNCTIONS",
+      "SubCategory": "coordinating",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: SENTENCE + SENTENCE",
+      "Can-do statement": "Can use single word conjunctions ('and, but, or') to combine sentences.",
+      "Example": "I like it because there are lots of shops, it is not too busy and there is lots of parking. And I like my home because it's not too big and it's a very nice flat. (A1 BREAKTHROUGH; 2009; Tamil; Pass)\n\nI am from Estonia. Estonia it is a small country near the Baltic Sea. But now I live in Dorchester, because I work here. (A1 BREAKTHROUGH; 2007; Russian; Pass)\n\nI go shopping on Ladypool Road. Or sometimes I go to my local shop.  (A1 BREAKTHROUGH; 2008; Panjabi; Pass)"
+    },
+    {
+      "id": "1741163708775x343585548868345200",
+      "SuperCategory": "CONJUNCTIONS",
+      "SubCategory": "coordinating",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: LISTING",
+      "Can-do statement": "Can use 'and' and 'or' before the final item in a list. ",
+      "Example": "I like to eat chicken, mushrooms and some vegetables. (A1 BREAKTHROUGH; 2006; Polish; Pass)\n\nI have three rooms; a kitchen, living room, bathroom and toilet. (A1 BREAKTHROUGH; 2009; Polish; Pass)\n\nI go to college every Tuesday, Thursday and Friday morning, (A1 BREAKTHROUGH; 2007; French; Pass)\n\nI really like my English course because there are very good students from other countries, for example from Italy, Portugal, China and India. (A1 BREAKTHROUGH; 2007; Slovak; Pass)\nI like to eat steak, vegetables, potatoes or rice. (A1 BREAKTHROUGH; 2006; Polish; Pass)"
+    },
+    {
+      "id": "1741163708775x495770064260905300",
+      "SuperCategory": "CONJUNCTIONS",
+      "SubCategory": "coordinating",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: CLAUSE + CLAUSE",
+      "Can-do statement": "Can use single word conjunctions ('and, but, or') to combine clauses.",
+      "Example": "He is a journalist and he likes everything about cinema. (A1 BREAKTHROUGH; 2006; Italian; Pass)\n\nThere are lots of shops in the town and the town is only five minutes away. (A1 BREAKTHROUGH; 2008; Urdu; Pass)\n\nI have visited a lot of places, but the best place is Thailand. (A1 BREAKTHROUGH; 2007; Slovak; Pass)\n\nI like to eat pasta or pizza, but I'm easy about food, I can eat anything. (A1 BREAKTHROUGH; 2006; French; Pass)\n\nWe love to go to the cinema, or just sit together and have a laugh. (A1 BREAKTHROUGH; 2006; Portuguese; Pass)"
+    },
+    {
+      "id": "1741163708775x971363187748411900",
+      "SuperCategory": "CONJUNCTIONS",
+      "SubCategory": "coordinating",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: WORD + WORD",
+      "Can-do statement": "Can use single word conjunctions ('and, but, or') to connect single nouns and adjectives.",
+      "Example": "I like chicken and rice. I don't like meat and fish. (A1 BREAKTHROUGH; 2006; Kurdish; Pass)\n\nMy street is quiet and friendly. (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\nOn Monday and Wednesday I have English and maths. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nI like my kitchen, it is small but nice. (A1 BREAKTHROUGH; 2009; Polish; Pass)\n\nI like cheese pizza or chicken. (A1 BREAKTHROUGH; 2006; French; Pass)\n\nI like to eat soup, eggs, meat and salad or banana and cheese. (A1 BREAKTHROUGH; 2006; Polish; Pass)"
+    },
+    {
+      "id": "1741163708776x617714358104645400",
+      "SuperCategory": "CONJUNCTIONS",
+      "SubCategory": "coordinating",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: 'BUT', CONCESSIVE",
+      "Can-do statement": "Can use 'but' to add an unexpected contrast. ",
+      "Example": "I really like my home, it is very small but it is very easy to clean. (A1 BREAKTHROUGH; 2009; Urdu; Pass)\n\nI like my home, it's small but so comfortable, and the decoration is beautiful. (A1 BREAKTHROUGH; 2009; Portuguese; Pass)"
+    },
+    {
+      "id": "1741163708785x514563206586401860",
+      "SuperCategory": "CONJUNCTIONS",
+      "SubCategory": "subordinating",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'BECAUSE' ",
+      "Can-do statement": "Can use 'because' as a subordinating conjunction to introduce a subordinate clause. ",
+      "Example": "I want a big garden because I have children. (Arabic - Other)\n\nShe likes meeting other people because she wants to improve her English. (Nepali)"
+    },
+    {
+      "id": "1741163708789x105964971324936210",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "articles",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: WITH NOUNS ",
+      "Can-do statement": "Can use articles 'the', 'a' and 'an' before nouns. ► noun phrases",
+      "Example": "She lives in a small flat in the town - it's great! (A1 BREAKTHROUGH; 2006; German; Pass)\n\nI have an appointment with my G.P. at 5.45 pm. (A1 BREAKTHROUGH; 2006; Turkish; Pass)"
+    },
+    {
+      "id": "1741163708789x174288205596050180",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "articles",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'A' + 'VERY' + ADJECTIVES",
+      "Can-do statement": "Can use 'a' + 'very' + adjectives in basic noun phrases. ► adverbs ►  noun phrases",
+      "Example": "He's a very good man. (A1 BREAKTHROUGH; 2006; Mandarin; Pass)\n\nIt is a very beautiful place. (A1 BREAKTHROUGH; 2007; Russian; Pass)\n\nIt's a very nice town. (A1 BREAKTHROUGH; 2007; Slovak; Pass)"
+    },
+    {
+      "id": "1741163708789x344483096716751800",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "articles",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: 'A' + ADJECTIVES",
+      "Can-do statement": "Can use 'a' and 'an' before adjectives in a noun phrase. ► adjectives ►  noun phrases",
+      "Example": "You can make a quick snack, for example a sandwich. (A1 BREAKTHROUGH; 2006; German; Pass)\n\nWe have a big garden and a small swimming pool. (A1 BREAKTHROUGH; 2009; Arabic - Other; Pass)\n\nI like it because it is an interesting place. (A1 BREAKTHROUGH; 2007; Romanian; Fail)\n\nIt's an old house, about 50 years old. (A1 BREAKTHROUGH; 2007; Arabic - Other; Fail)"
+    },
+    {
+      "id": "1741163708789x819248395543273500",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "articles",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: PREPOSITION + 'THE' + NOUN",
+      "Can-do statement": "Can use 'the' in prepositional phrases relating to time.",
+      "Example": "I work at the weekend and I'm very busy from Monday to Friday. (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\nI can come to see you on Friday in the morning. (A1 BREAKTHROUGH; 2009; Thai; Pass)"
+    },
+    {
+      "id": "1741163708792x578027203654075000",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "articles",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: PREPOSITION + NO ARTICLE",
+      "Can-do statement": "Can use no article before a limited range of nouns in some fixed expressions with prepositions.",
+      "Example": "If you are at home, I can come tomorrow. (A1 BREAKTHROUGH; 2009; Farsi; Pass)\n\nWe are going to the sports centre by car. (Brazil; A2 WAYSTAGE; 2008; Portuguese; Pass)\n\nI go to college every day. (A1 BREAKTHROUGH; 2007; Polish; Pass)"
+    },
+    {
+      "id": "1741163708793x394528376329640770",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "articles",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM/USE: NO ARTICLE",
+      "Can-do statement": "Can use no article before a limited range of singular, plural and uncountable nouns when referring to things in general. ",
+      "Example": "In my free time I usually play football. (Poland; A1 BREAKTHROUGH; 2010; Polish; Pass)\n\nIn my free time usually I stay at home. I watch TV, read books… (A1 BREAKTHROUGH; 2010; Arabic - Other; Pass)\n\nI like rice and sweet dishes. (A1 BREAKTHROUGH; 2006; Urdu; Pass)"
+    },
+    {
+      "id": "1741163708998x446294161060833700",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "demonstratives",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "USE: 'THIS', POINTING",
+      "Can-do statement": "Can use 'this' in a limited range of contexts to refer to places from the speaker's or writer's point of view. ► noun phrases ►  pronouns: demonstrative",
+      "Example": "I want to let you know about this area and the shops near here. (A1 BREAKTHROUGH; 2008; ; Pass)\n\nThe football class and tennis class are the best things about this college. (A1 BREAKTHROUGH; 2007; Spanish - Other; Pass)\n\nI like this place because there are many cultures. (A1 BREAKTHROUGH; 2007; Dutch; Pass)"
+    },
+    {
+      "id": "1741163708998x669595367530949600",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "demonstratives",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: 'THIS', FUTURE",
+      "Can-do statement": "Can use 'this' with time and date words to refer to 'the one that's coming'. ",
+      "Example": "… this summer I want to spend my holiday in my country, Bulgaria. (A1 BREAKTHROUGH; 2011; Bengali; Pass)\n\nI have a good plan for this weekend. (A1 BREAKTHROUGH; 2011; Polish; Pass)\n\nI'll call you this evening. (A1 BREAKTHROUGH; 2009; Turkish; Pass)"
+    },
+    {
+      "id": "1741163708998x842376822392022500",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "demonstratives",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: 'THIS' WITH SINGULAR NOUNS",
+      "Can-do statement": "Can use 'this' with singular nouns. ► noun phrases ►  pronouns: demonstrative",
+      "Example": "I like this place because is very nice and quiet. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nIf you like, then we can go this Saturday. (A1 BREAKTHROUGH; 2011; Lithuanian; Pass)"
+    },
+    {
+      "id": "1741163709005x427091401714639400",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "possessives",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: WITH NOUNS",
+      "Can-do statement": "Can use possessive determiners 'my', 'your', 'his', 'her' and 'our' before nouns. ► noun phrases ► possessive pronouns",
+      "Example": "I live with my family. My home is a flat. (A1 BREAKTHROUGH; 2009; Urdu; Pass)\n\n… my neighbours are very nice and helpful. (A1 BREAKTHROUGH; 2009; Panjabi; Pass)\n\nI like my teachers. (A1 BREAKTHROUGH; 2007; Farsi; Pass)\n\nI live with my mother and her boyfriend. (A1 BREAKTHROUGH; 2009; Polish; Pass)\n\nOur house has four rooms, one bathroom and one toilet. (A1 BREAKTHROUGH; 2009; Slovak; Pass)"
+    },
+    {
+      "id": "1741163709012x117638123076284200",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "quantity",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: WITH PLURAL NOUNS ",
+      "Can-do statement": "Can use a limited range of quantifying determiners with plural nouns ('some', 'lots of', 'a lot of' and numbers).",
+      "Example": "Near my home there are some shops. (Portuguese, A1 BREAKTHROUGH, Pass, 2009)\n\nMy house has got three rooms. (Polish, A1 BREAKTHROUGH, Pass, 2009) \n\nI had a lot of friends in this town. (A1 BREAKTHROUGH; 2007; Pashto; Pass)\n\nFor homework we have to write lots of things. (A1 BREAKTHROUGH; 2007; ; Pass)"
+    },
+    {
+      "id": "1741163709012x230041547102954000",
+      "SuperCategory": "DETERMINERS",
+      "SubCategory": "quantity",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: WITH SINGULAR NOUNS",
+      "Can-do statement": "Can use a limited range of quantifying determiners with singular nouns ('a', 'every').► determiners: articles",
+      "Example": "In my home are 3 bedrooms. I have a big kitchen and small toilet. (A1 BREAKTHROUGH; 2009; Polish; Pass)\n\nThe first floor has two bedrooms and a big bathroom with a bath. (A1 BREAKTHROUGH; 2009; Romanian; Pass)\n\nI go to India every year to see my friends and family. (Panjabi, A1 BREAKTHROUGH, Pass, 2007)\n\nI go to college every day. (A1 BREAKTHROUGH; 2007; Polish; Pass)"
+    },
+    {
+      "id": "1741163709453x838199776198091500",
+      "SuperCategory": "FUTURE",
+      "SubCategory": "future simple (with will and shall)",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AFFIRMATIVE 'WILL'",
+      "Can-do statement": "Can use the affirmative forms 'will' and ''ll'. ",
+      "Example": "I will see you soon. (A1 BREAKTHROUGH; 2009; Urdu; Pass)\n I'll come at 7 o'clock. (A1 BREAKTHROUGH; 2006; Others; Pass)"
+    },
+    {
+      "id": "1741163709453x862696596004533200",
+      "SuperCategory": "FUTURE",
+      "SubCategory": "future simple (with will and shall)",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: PLANS AND INTENTIONS WITH 'WILL'",
+      "Can-do statement": "Can use 'will' and ''ll' to talk about plans and intentions. ",
+      "Example": "I will try to come to see you tomorrow. (A1 BREAKTHROUGH; 2009; Romanian; Pass)\n\nI'll bring a football ball with me. (A1 BREAKTHROUGH; 2011; Bulgarian; Pass)"
+    },
+    {
+      "id": "1741163710388x206193011712334940",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "can",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AFFIRMATIVE",
+      "Can-do statement": "Can use the affirmative form.",
+      "Example": "You can see a lot of special places in Wroclaw. (A1 BREAKTHROUGH, 2007, Polish)\n\nYou can make a quick snack, for example, a sandwich. (A1 BREAKTHROUGH, 2006, German)"
+    },
+    {
+      "id": "1741163710388x273734335473510240",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "can",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: QUESTION ",
+      "Can-do statement": "Can use the affirmative question form.",
+      "Example": "Can you come for dinner Monday at 6.00 pm? (Arabic - Other, A1 BREAKTHROUGH, Pass, 2008)\n\nCan we go to the park on the Sunday? (Somali, A1 BREAKTHROUGH, Pass, 2011)"
+    },
+    {
+      "id": "1741163710388x482560605581935800",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "can",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: NEGATIVE ",
+      "Can-do statement": "Can use the negative forms.",
+      "Example": "I cannot come to see you. (A1 BREAKTHROUGH, 2009, Bengali)\n\nI'm very nervous and I can't say anything. (A1 BREAKTHROUGH Polish)"
+    },
+    {
+      "id": "1741163710388x540901022788007400",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "can",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: OFFERS",
+      "Can-do statement": "Can use 'can' to make an offer. ",
+      "Example": "Can I help you? (A1 BREAKTHROUGH, 2009, Lithuanian)\n\nWhat can I do for you? (A1 BREAKTHROUGH, 2009, Turkish)\n\nHow can I help you? (A1 BREAKTHROUGH, 2009, Polish)\n\nIf you want, I can come to your house and I can help you with for example some housework on Sunday this weekend. (A1 BREAKTHROUGH; 2009; Czech; Pass)"
+    },
+    {
+      "id": "1741163710388x882361395502946800",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "can",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: ABILITY",
+      "Can-do statement": "Can use 'can' to talk about ability to do something. ",
+      "Example": "I can cook. (A1 BREAKTHROUGH, 2009, Turkish)\n\nI can write English. (A1 BREAKTHROUGH, 2007, Thai)\n\n[talking about someone with a physical disability] He cannot go up stairs. (A1 BREAKTHROUGH, 2009, Urdu)\n\n[talking about reading in English] I can’t read very well. (A1 BREAKTHROUGH, 2007, Polish)"
+    },
+    {
+      "id": "1741163710391x459074403345042000",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "can",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: REQUESTS",
+      "Can-do statement": "Can use 'can' to make a request.",
+      "Example": "Can you come on Sunday at seven o’clock? (A1 BREAKTHROUGH, 2010, Arabic)\n\nCan you call me? (A1 BREAKTHROUGH, 2009, Lithuanian)"
+    },
+    {
+      "id": "1741163710391x534949859885590850",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "can",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: POSSIBILITY",
+      "Can-do statement": "Can use 'can' to talk about possibility.",
+      "Example": "The shop is next to the post office. There you can find milk, juices and sweets but you can't buy meat. (A1 BREAKTHROUGH, 2008, Spanish - Other)\n\nI cannot see you today. (A1 BREAKTHROUGH, 2009, Farsi)\n\nI'm sorry I can't see you now because I am very busy at work. (A1 BREAKTHROUGH, 2009, Mandarin)"
+    },
+    {
+      "id": "1741163711296x326455472693880200",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "will",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AFFIRMATIVE",
+      "Can-do statement": "Can use the affirmative forms. ",
+      "Example": "I will be at your house at 7.30 because I have an appointment before. (A1 BREAKTHROUGH; 2006; Russian; Pass)\n\nI'll come to see you tomorrow morning. (A1 BREAKTHROUGH; 2009; Nepali; Pass)"
+    },
+    {
+      "id": "1741163711296x692481066424056800",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "will",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: PLANS AND INTENTIONS",
+      "Can-do statement": "Can use 'will' to talk about plans and intentions. ",
+      "Example": "I will bring some music to the dinner. (A1 BREAKTHROUGH; 2008; Bengali; Pass)\n\nI'll see you tomorrow. (A1 BREAKTHROUGH; 2006; Polish; Pass)"
+    },
+    {
+      "id": "1741163711300x363892315600628400",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "would",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: INVITATIONS WITH 'LIKE'",
+      "Can-do statement": "Can use 'would like to invite' to make invitations.",
+      "Example": "I would like to invite you to dinner in my house on Saturday at 7 30 pm. (A1 BREAKTHROUGH; 2010; Others; Pass)\n\nDear Neighbours, I would like to invite you to my home for dinner. (A1 BREAKTHROUGH; 2008; Arabic - Other; Pass)"
+    },
+    {
+      "id": "1741163711300x444537304178034940",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "would",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AFFIRMATIVE WITH 'LIKE'",
+      "Can-do statement": "Can use the affirmative form with 'like'. ",
+      "Example": "I'd like to invite you to dinner. (Farsi, A1 BREAKTHROUGH, Pass, 2008)\n\nI would like to eat some Spanish food. (Italian, A1 BREAKTHROUGH, Pass, 2006)"
+    },
+    {
+      "id": "1741163711300x569087712695511000",
+      "SuperCategory": "MODALITY",
+      "SubCategory": "would",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: WISHES AND PREFERENCES WITH 'LIKE'",
+      "Can-do statement": "Can use 'would like' to talk about wishes and preferences.",
+      "Example": "If possible, I'd like to come to see you on Tuesday afternoon. (A1 BREAKTHROUGH; 2009; French; Pass)\n\nI would like to eat chicken, potatoes and some vegetables. (A1 BREAKTHROUGH; 2006; Nepali; Pass)"
+    },
+    {
+      "id": "1741163716067x101148462288360720",
+      "SuperCategory": "NEGATION",
+      "SubCategory": "negation",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AUXILIARY VERB 'DO', PRESENT",
+      "Can-do statement": "Can form negative statements of main verbs in the present simple with 'don't' + main verb. ► present simple ► can",
+      "Example": "I don't have a dining room, so we eat in the living room. (A1 BREAKTHROUGH; 2009; Romanian; Pass)\n\nWe don't like other lessons, for example: French language. (A1 BREAKTHROUGH; 2007; Polish; Pass)"
+    },
+    {
+      "id": "1741163716067x824562184770361200",
+      "SuperCategory": "NEGATION",
+      "SubCategory": "negation",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: MAIN VERB 'BE'",
+      "Can-do statement": "Can form negative statements of main verb 'be', with contracted and uncontracted forms.",
+      "Example": "My college is not very big. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nI know you are not well. (A1 BREAKTHROUGH; 2009; French; Pass)\n\nI'm not a good swimmer. (A1 BREAKTHROUGH; 2011; Romanian; Pass)\n\nThis place isn't big. (A1 BREAKTHROUGH; 2007; Lithuanian; Pass)"
+    },
+    {
+      "id": "1741163716068x909588472060841300",
+      "SuperCategory": "NEGATION",
+      "SubCategory": "negation",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: MODAL VERB 'CAN'",
+      "Can-do statement": "Can use negative form 'can’t'.",
+      "Example": "In winter, we can't go visiting because it is too cold. (A1 BREAKTHROUGH; 2011; Nepali; Pass)\n\nI can't find my CD. (A1 BREAKTHROUGH; 2008; Romanian; Pass)"
+    },
+    {
+      "id": "1741163711539x318006443369482940",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "noun phrases",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: ADJECTIVE + PLURAL NOUN",
+      "Can-do statement": "Can form simple noun phrases by pre-modifying plural nouns with an adjective and no determiner. ",
+      "Example": "I have new neighbours. (A1 BREAKTHROUGH; 2008; Gujarati; Pass)\n\nThey're nice people. (A1 BREAKTHROUGH; 2009; Arabic - Other; Pass)\n\nThis place has nice shops. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nI like reading interesting books in the Library. (A1 BREAKTHROUGH; 2007; Polish; Pass)"
+    },
+    {
+      "id": "1741163711539x336320676887564860",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "noun phrases",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: DETERMINER + ADJECTIVE + NOUN",
+      "Can-do statement": "Can form simple noun phrases by pre-modifying singular and plural nouns with an adjective after a determiner. ",
+      "Example": "Martin is my best friend. (A1 BREAKTHROUGH; 2006; Slovak; Pass)\n\nWe have a big garden and a small swimming pool. (A1 BREAKTHROUGH; 2009; Arabic - Other; Pass)\n\nHer favourite colours are blue and black. (A1 BREAKTHROUGH; 2006; Hungarian; Pass)"
+    },
+    {
+      "id": "1741163711539x384428957229715900",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "noun phrases",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: DETERMINER + NOUN",
+      "Can-do statement": "Can form simple noun phrases with a limited range of determiners + singular and plural nouns. ► Nouns and noun phrases: functions",
+      "Example": "There is also a park near my house. (A1 BREAKTHROUGH; 2009; Pashto; Pass)\n\nMy husband is a teacher. (A1 BREAKTHROUGH; 2009; Korean; Pass)\n\nThat's why I like this place. (A1 BREAKTHROUGH; 2007; Urdu; Pass)\n\nI go to college every day. (A1 BREAKTHROUGH; 2007; Polish; Pass)"
+    },
+    {
+      "id": "1741163711539x458750897089793800",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "noun phrases",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: NOUN + NOUN",
+      "Can-do statement": "Can form noun phrases by pre-modifying a limited range of nouns with another noun. ",
+      "Example": "Every Friday I go swimming and play computer games. (Poland; A1 BREAKTHROUGH; 2010; Polish; Pass)\n\nI am having a dinner party on Friday 25 December at 7 pm. (India; A1 BREAKTHROUGH; 2010; Panjabi; Pass)\n\nCan you come to my house on Friday evening? (Iran; A1 BREAKTHROUGH; 2010; Farsi; Pass)\n\nMy girlfriend likes vegetable pasta with tomato sauce, because she is vegetarian. (A1 BREAKTHROUGH; 2006; Polish; Pass)"
+    },
+    {
+      "id": "1741163711816x743806450459332500",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "types",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: PROPER NOUNS",
+      "Can-do statement": "Can use proper nouns with a capital letter to refer to specific people, places, days and things. ",
+      "Example": "I want to see you on Saturday and Sunday. (A1 BREAKTHROUGH; 2009; Portuguese; Pass)\n\nIn Leicester I live in an area called Hamilton. (A1 BREAKTHROUGH; 2009; Gujarati; Pass)\n\nThis place is Gloscat College in Gloucester. (A1 BREAKTHROUGH; 2007; Tigrinya; Pass)\n\nMy friend is called Monika , she comes from Poland. (A1 BREAKTHROUGH; 2006; Polish; Pass)"
+    },
+    {
+      "id": "1741163711816x756476872948352000",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "types",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: COMMON NOUNS",
+      "Can-do statement": "Can use a limited range of common nouns. ",
+      "Example": "My house is in Ilford. (A1 BREAKTHROUGH; 2009; Tagalog; Pass)\n\nIn my free time I go shopping and I like swimming. (Poland; A1 BREAKTHROUGH; 2010; Polish; Pass)\n\nMy friend is called Jessica. (A1 BREAKTHROUGH; 2006; German; Pass)"
+    },
+    {
+      "id": "1741163711817x590984810392161200",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "types",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: COMPOUND NOUNS",
+      "Can-do statement": "Can use a range of compound nouns, as one-word, two-word and hyphenated compounds, formed from verb + noun, noun + noun and adjective + noun combinations. ",
+      "Example": "She likes to go to the swimming pool and to the gym. (A1 BREAKTHROUGH; 2006; Ukrainian; Pass)\n\nThere are seven rooms: three bedrooms, a living room, a kitchen and there are two bathrooms. (A1 BREAKTHROUGH; 2009; Farsi; Pass)\n\nMy house is next to the bus stop. (A1 BREAKTHROUGH; 2009; Bengali; Pass)\n\nMy home is in Belfast, near the city centre. (A1 BREAKTHROUGH; 2009; Italian; Pass)\n\nThere's a supermarket and  a post office . (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nHe likes sports like ice-hockey and table tennis. (A1 BREAKTHROUGH; 2006; Singhalese; Pass)\n\nI buy wines and ice-cream. (A1 BREAKTHROUGH; 2006; Others; Pass)"
+    },
+    {
+      "id": "1741163711821x759916598484829700",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "plural",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: PLURAL '-S'",
+      "Can-do statement": "Can form plurals by adding '-s' to common countable nouns. ",
+      "Example": "We play computer games. (A1 BREAKTHROUGH; 2011; Polish; Pass)\n\nYou have to walk just 5 minutes down the road. (A1 BREAKTHROUGH; 2008; Russian; Pass)\n\nMy favourite season is  summer, because it's very hot and there are a lot of flowers and nice trees. (A1 BREAKTHROUGH; 2011; Hungarian; Pass)"
+    },
+    {
+      "id": "1741163711828x633639966955607000",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "noun phrases - grammatical functions",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AS SUBJECTS ",
+      "Can-do statement": "Can use nouns and noun phrases as subjects of the clause. ",
+      "Example": "His name is Stanislav. (Singhalese, A1 BREAKTHROUGH)\n\nMy friends are from Poland, Hungary, Libya, and Morocco. (Slovak, A1 BREAKTHROUGH)"
+    },
+    {
+      "id": "1741163711829x722500780296901000",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "noun phrases - grammatical functions",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AS COMPLEMENT OF PREPOSITIONS",
+      "Can-do statement": "Can use nouns and noun phrases as complements of prepositions in prepositional phrases. ",
+      "Example": "I invite you and your family to come to my house for dinner. (Portuguese, A1 BREAKTHROUGH)\n\nI like everything in my house. (Tamil, A1 BREAKTHROUGH)"
+    },
+    {
+      "id": "1741163711829x787492176446619900",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "noun phrases - grammatical functions",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AS OBJECTS",
+      "Can-do statement": "Can use nouns and noun phrases as objects of the clause. ",
+      "Example": "I love my house. (Thai, A1 BREAKTHROUGH)\n\nWhen I have time, I visit my family. (Portuguese, A1 BREAKTHROUGH)"
+    },
+    {
+      "id": "1741163712047x121249829588899070",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "noun phrases - grammatical functions",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AS ADJUNCTS",
+      "Can-do statement": "Can use nouns and noun phrases as adjuncts in some time expressions. ",
+      "Example": "But if not, then I will see you tomorrow morning. (A1 BREAKTHROUGH; 2009; Tamil; Pass)\n\nI can go to see her tomorrow because I am going to a job interview today. (A1 BREAKTHROUGH; 2009; Panjabi; Pass)\n\nI will write to you again next week. (A1 BREAKTHROUGH; 2007; Spanish - Other; Pass)"
+    },
+    {
+      "id": "1741163712047x409239658002596100",
+      "SuperCategory": "NOUNS",
+      "SubCategory": "noun phrases - grammatical functions",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AS COMPLEMENT OF 'BE'",
+      "Can-do statement": "Can use nouns and noun phrases as complements of the verb 'be'. ",
+      "Example": "There is a big garden. (A1 BREAKTHROUGH; 2009; Urdu; Pass)\n\nHi Rie, It's Mohamad. (A1 BREAKTHROUGH; 2006; Kurdish; Pass)\n\nHe is a student in B6 College. (A1 BREAKTHROUGH; 2006; Turkish; Pass)"
+    },
+    {
+      "id": "1741163712739x256584265013129380",
+      "SuperCategory": "PAST",
+      "SubCategory": "past simple",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: AFFIRMATIVE",
+      "Can-do statement": "Can use the affirmative form with a limited range of regular and irregular verbs.",
+      "Example": "Every day at college I went to class at 9 am. (A1 BREAKTHROUGH; 2007; Portuguese; Pass)\n\nI met her about ten years ago. (A1 BREAKTHROUGH; 2006; Others; Pass)\n\nMy grandmother lived in a village and I often went there. (A1 BREAKTHROUGH; 2007; Polish; Pass)"
+    },
+    {
+      "id": "1741163712739x802711964566174800",
+      "SuperCategory": "PAST",
+      "SubCategory": "past simple",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: EVERYDAY EVENTS AND STATES",
+      "Can-do statement": "Can use the past simple to talk about everyday events or states.",
+      "Example": "The people were very polite. (A1, French)\n\nEvery time I went to Hendon Park, I saw so many people there. (A1, Polish)\n\nI liked this place very much. (A1, French)"
+    },
+    {
+      "id": "1741163713112x603850914179882600",
+      "SuperCategory": "PREPOSITIONS",
+      "SubCategory": "prepostions",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: PREPOSITION + NOUN PHRASE",
+      "Can-do statement": "Can form prepositional phrases with a preposition and a noun phrase. ",
+      "Example": "When I have free time, I go to the park with my dog. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nWe have lots of vegetables and fruit in the summer. (A1 BREAKTHROUGH; 2009; Slovak; Pass)\n\nWe sometimes meet friends or go to the Sports Center at the weekend. (A1 BREAKTHROUGH; 2006; Mandarin; Pass)"
+    },
+    {
+      "id": "1741163713112x806003192035927200",
+      "SuperCategory": "PREPOSITIONS",
+      "SubCategory": "prepostions",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: SIMPLE",
+      "Can-do statement": "Can use a limited range of simple (single-word) prepositions. ",
+      "Example": "I'm sending some flowers to you. (A1 BREAKTHROUGH; 2009; Romanian; Pass)\n\nHe works in Bognor Regis. (A1 Slovak)\n\nI can cook some food for you. (A1 BREAKTHROUGH; 2009; Bengali; Pass)\n\nI usually go shopping with her in Chester. (Bulgarian, A1 BREAKTHROUGH, Pass, 2006)\n\nCan you come on Saturday at five o'clock in the afternoon? (A1 Polish)\n\nI will come to your house on time. (A1 BREAKTHROUGH; 2006; Mandarin; Pass)"
+    },
+    {
+      "id": "1741163713121x244049823776565150",
+      "SuperCategory": "PRESENT",
+      "SubCategory": "present continuous",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AFFIRMATIVE",
+      "Can-do statement": "Can use the affirmative form.",
+      "Example": "I am sending you some flowers, because you are not well. (Bengali, A1 BREAKTHROUGH, 2009)\n\nI am writing to tell you what I do every day at college. (Mandarin, ===NONE===, A1 BREAKTHROUGH, Pass, 2007)"
+    },
+    {
+      "id": "1741163713121x758287721695059000",
+      "SuperCategory": "PRESENT",
+      "SubCategory": "present continuous",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "USE: EVENTS IN PROGRESS",
+      "Can-do statement": "Can use the present continuous with a limited range of verbs to talk about situations and events in progress.",
+      "Example": "[in a message to someone who is ill] We are missing you. (A1 BREAKTHROUGH; 2009; Nepali; Pass)\n\nI am sending you these flowers because I think that you will like these pretty flowers and you will get well soon. (A1 BREAKTHROUGH; 2009; Gujarati; Pass)\n\nI really like it when we are doing more speaking. (A1 BREAKTHROUGH; 2007; Kurdish; Pass)"
+    },
+    {
+      "id": "1741163713626x335670389512142900",
+      "SuperCategory": "PRESENT",
+      "SubCategory": "present simple",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: NEGATIVE",
+      "Can-do statement": "Can use the negative form with a limited range of regular and irregular verbs.",
+      "Example": "I don't like meat and fish. (Skills for life Elementary 1, A1, Kurdish)\n\nYou don’t know the place. (Skills for life Elementary 1, A1, French)"
+    },
+    {
+      "id": "1741163713626x414037782388433340",
+      "SuperCategory": "PRESENT",
+      "SubCategory": "present simple",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "USE: HABITS AND GENERAL FACTS",
+      "Can-do statement": "Can use the present simple to talk about repeated events or habits, and general facts. ",
+      "Example": "I work in a supermarket. (Skills for life Elementary 1, A1, Russian)\n\nI like my place because it is quiet, the people are nice, it is near the town centre, not too far from the college and my flat is lovely. (Skills for life Elementary 1, A1, Kurdish)\n\nIt takes 25 minutes by car, but by bus it takes 1 hour … (Skills for life Elementary 1, A1, Nepali)\n\nI watch TV in the evening. I read books at night. (Skills for life Elementary 1, A1, Farsi)\n\nShe goes to work by bus. (Skills for life Elementary 1, A1, Tamil)"
+    },
+    {
+      "id": "1741163713626x486355013779909760",
+      "SuperCategory": "PRESENT",
+      "SubCategory": "present simple",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: AFFIRMATIVE",
+      "Can-do statement": "Can use the affirmative form with a limited range of regular and irregular verbs.",
+      "Example": "Every day at college I learn new words and new things. (Skills for life Elementary 1, A1, Polish)\n\nI am your new neighbour. (Skills for life Elementary 1, A1, Panjabi)\n\nShe plays tennis and she likes going to the swimming pool. (Skills for life Elementary 1, A1, French)"
+    },
+    {
+      "id": "1741163713626x606524312014730500",
+      "SuperCategory": "PRESENT",
+      "SubCategory": "present simple",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: WITH 'REALLY'",
+      "Can-do statement": "Can use the present simple with the adverb 'really' as an intensifier. ► adverbs",
+      "Example": "I really like my kitchen, because it is big and new and it makes my cooking easy. (Skills for life Elementary 1; A1, Somali)\n\nI really want to see you. (Skills for life Elementary 1, A1, Polish)"
+    },
+    {
+      "id": "1741163713867x150062658595893500",
+      "SuperCategory": "PRONOUNS",
+      "SubCategory": "subject/ object",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: (SUBJECT) QUESTIONS WITH 'BE'",
+      "Can-do statement": "Can use the pronouns 'you' and 'it' after 'be' in question forms.",
+      "Example": "Hi, Mrs. Bishop. How are you? (Skills for Life (Entry 1); ; A1 BREAKTHROUGH; 2009; Tagalog; Pass)\n\nIs it OK? (Skills for Life (Entry 1); ; A1 BREAKTHROUGH; 2009; Romanian; Pass)"
+    },
+    {
+      "id": "1741163713867x281198469131771500",
+      "SuperCategory": "PRONOUNS",
+      "SubCategory": "subject/ object",
+      "Level": "A1",
+      "Lexical Range": "2",
+      "Guideword": "FORM: (OBJECT) 'IT'",
+      "Can-do statement": "Can use the pronoun 'it' as a direct object to refer to an object or situation already referred to.",
+      "Example": "The maths is boring and I don't like it. (Skills for Life (Entry 1); A1; Portuguese)\n\nIf you can't find it, call me. (Skills for Life (Entry 1); A1; Turkish)\n\nDo you like it too? (Skills for Life (Entry 1); A1; German)"
+    },
+    {
+      "id": "1741163713867x530274295544571840",
+      "SuperCategory": "PRONOUNS",
+      "SubCategory": "subject/ object",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: (OBJECT) WITH PREPOSITION ",
+      "Can-do statement": "Can use the object pronouns 'me', 'you', 'him', 'her', 'it', 'us' and 'them' in the object position after prepositions. ",
+      "Example": "I really like to learn new words. It's very important for me. (Skills for Life (Entry 1); A1; Polish)\n\nSometimes I go with her. (Skills for Life (Entry 1); A1; Polish)\n\nCan you bring some music so we can listen to it. (Skills for Life (Entry 1); A1; no L1 specified)\n\nI spend my free time with them. (Skills for Life (Entry 1); A1; Lithuanian)"
+    },
+    {
+      "id": "1741163713867x609205291409504700",
+      "SuperCategory": "PRONOUNS",
+      "SubCategory": "subject/ object",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: (SUBJECT) QUESTIONS",
+      "Can-do statement": "Can use the pronouns 'I', 'you', 'we' and 'they' after an auxiliary or modal verb in question forms.",
+      "Example": "Can I help you? (Skills for Life (Entry 1); A1; Arabic – other)\n\nWhat do you think about that? (Skills for Life (Entry 1); A1; French)\n\nCan we have a chat? (Skills for Life (Entry 1); A1; Russian)"
+    },
+    {
+      "id": "1741163713867x710371035379195900",
+      "SuperCategory": "PRONOUNS",
+      "SubCategory": "subject/ object",
+      "Level": "A1",
+      "Lexical Range": "2",
+      "Guideword": "FORM: (OBJECT) 'ME', 'YOU', 'HER', 'HIM', 'US', 'THEM' ",
+      "Can-do statement": "Can use the pronouns 'me', 'you', 'him', 'her', 'us' and 'them' in the direct object position after a transitive verb.",
+      "Example": "I'm very happy that you want to see me. (Skills for Life (Entry 1); A1; German)\n\nI can see her on Saturday at 8 pm. (Skills for Life (Entry 1); A1; Arabic)\n\nIt protects us from rain, wind and sun. (Skills for Life (Entry 1); A1; Portuguese)\n\nYou will find a lot of different shops … I hope you'll like them. (Skills for Life (Entry 1); A1; Russian)"
+    },
+    {
+      "id": "1741163713867x970460151516622800",
+      "SuperCategory": "PRONOUNS",
+      "SubCategory": "subject/ object",
+      "Level": "A1",
+      "Lexical Range": "3",
+      "Guideword": "FORM: (SUBJECT) 'IT' FOR FIRST PERSON",
+      "Can-do statement": "Can use the pronoun 'it' before 'be' to refer to a first person speaker or writer.",
+      "Example": "Hello Mrs Bishop. It's Clarisse (Skills for Life (Entry 1); A1; French)\n\nDear Cris, it's me, Paarth. (India; A2 WAYSTAGE; 2009; Hindi; Pass)"
+    },
+    {
+      "id": "1741163713868x463659211645272000",
+      "SuperCategory": "PRONOUNS",
+      "SubCategory": "subject/ object",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: (SUBJECT) STATEMENTS",
+      "Can-do statement": "Can use the pronouns 'I', 'you', 'he', 'she', 'it', 'we' and 'they' in the subject position before a verb in statements.",
+      "Example": "In my free time I go shopping and I like swimming. (Skills for Life (Entry 1); A1; Polish)\n\nIf you want, you can go inside. (Skills for Life (Entry 1); A1; Hindi)\n\nHe prefers chess. (Skills for Life (Entry 1); A1; Singhalese)\n\nMy friend's name is Julissa, she is from Ecuador and she lives near my home. (Skills for Life (Entry 1); A1; Spanish)\n\nI like my home because it is a beautiful home. It has a big garden and a good sitting room. (Skills for Life (Entry 1); A1; Pashto)\n\nI like my front garden because it's very nice and warm. (Skills for Life (Entry 1); A1; Czech)\n\nThey're nice people. (Skills for Life (Entry 1); A1; Arabic) "
+    },
+    {
+      "id": "1741163714316x468029054820445100",
+      "SuperCategory": "PRONOUNS",
+      "SubCategory": "indefinite - thing, -one, -body etc",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: OBJECT",
+      "Can-do statement": "Can use a limited range of indefinite pronouns as objects. ",
+      "Example": "I like doing everything at College because I love my college … (A1 BREAKTHROUGH; 2007; Arabic - Other; Pass)\n\nI like to eat everything. (A1 BREAKTHROUGH; 2006; Polish; Pass)\n\nI can clean your house and cook something for you. (A1 BREAKTHROUGH; 2009; Portuguese; Pass)\n\nIf you need anything, please let me know. (A1 BREAKTHROUGH; 2009; Arabic - Other; Pass)"
+    },
+    {
+      "id": "1741163714316x693313936907989500",
+      "SuperCategory": "PRONOUNS",
+      "SubCategory": "indefinite - thing, -one, -body etc",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'EVERYTHING', SUBJECT",
+      "Can-do statement": "Can use 'everything' as subject, with a singular verb. ",
+      "Example": "I hope everything is all right. (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\n[talking about the countryside] Everything is nice and green there. (A1 BREAKTHROUGH; 2007; Slovak; Pass)"
+    },
+    {
+      "id": "1741163715032x756418004139892900",
+      "SuperCategory": "QUESTIONS",
+      "SubCategory": "yes/no",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: MODAL VERBS",
+      "Can-do statement": "Can use a limited range of modal verbs + subject + main verb to form 'yes/no' questions.  ► can",
+      "Example": "Can you come to dinner in my house? (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\nI can't find my CD, can you bring some music please? (A1 BREAKTHROUGH; 2008; Romanian; Pass)"
+    },
+    {
+      "id": "1741163715275x913732212255741200",
+      "SuperCategory": "VERBS",
+      "SubCategory": "prepositional",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: VERB + PREPOSITION + OBJECT",
+      "Can-do statement": "Can use a limited range of prepositional verbs followed by noun or pronoun objects. ",
+      "Example": "I listen to music in the living room, and also eat my breakfast, lunch and dinner. (A1 BREAKTHROUGH; 2009; Dari; Pass)\n\nI can look after her if she needs to do shopping and cleaning. (A1 BREAKTHROUGH; 2009; Gujarati; Pass)\n\nI like to walk in the woods and look for mushrooms. (A1 BREAKTHROUGH; 2007; Polish; Pass)"
+    },
+    {
+      "id": "1741163715288x262148040901666750",
+      "SuperCategory": "VERBS",
+      "SubCategory": "types",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: AUXILIARY VERB 'BE' ",
+      "Can-do statement": "Can use auxiliary verb 'be'. ►  present continuous",
+      "Example": "I am writing to tell you what I do every day at college. (A1 BREAKTHROUGH; 2007; Mandarin; Pass)\n\nI'm working today. (A1 BREAKTHROUGH; 2009; Turkish; Pass)\n\nWe are going to the park. (Somalia; A1 BREAKTHROUGH; 2010; Somali; Pass)"
+    },
+    {
+      "id": "1741163715288x297270598417309800",
+      "SuperCategory": "VERBS",
+      "SubCategory": "types",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: MODAL AUXILIARY VERBS",
+      "Can-do statement": "Can use a limited range of modal auxiliary verbs ('can', 'will', 'would'). ",
+      "Example": "Can you bring some music with you to the dinner. (A1 BREAKTHROUGH; 2008; Bengali; Pass)\n\nI'll be very happy to help you. (A1 BREAKTHROUGH; 2009; Romanian; Pass)\n\nI would like to eat some Spanish food. (A1 BREAKTHROUGH; 2006; Italian; Pass)"
+    },
+    {
+      "id": "1741163715288x539616242661052000",
+      "SuperCategory": "VERBS",
+      "SubCategory": "types",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: LINKING VERB, 'BE'",
+      "Can-do statement": "Can use linking verb 'be'. ",
+      "Example": " I am 22 years old. (A1 BREAKTHROUGH; 2008; Bengali; Pass)\n\nThere are 4 rooms. (A1 BREAKTHROUGH; 2009; Tamil; Pass)\n\nAnd I like my home because it's not too big and it's a very nice flat. (A1 BREAKTHROUGH; 2009; Tamil; Pass)\n\nIt was very nice. (A1 BREAKTHROUGH; 2007; Urdu; Pass)"
+    },
+    {
+      "id": "1741163715288x929829619225120500",
+      "SuperCategory": "VERBS",
+      "SubCategory": "types",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: MAIN VERBS",
+      "Can-do statement": "Can use regular and irregular main verbs in simple verb phrases. ► present simple ► past simple",
+      "Example": "You know, I love your cooking! (A1 BREAKTHROUGH; 2006; Slovak; Pass)\n\nI have very good friends. (A1 BREAKTHROUGH; 2009; Polish; Pass)\n\nShe comes from India. (A1 BREAKTHROUGH; 2006; Nepali; Pass)\n\nShe has long, dark hair and brown eyes. (A1 BREAKTHROUGH; 2006; Polish; Pass)\n\nHe gets up at 6 o'clock and goes to work. (A1 BREAKTHROUGH; 2006; Polish; Pass)\n\nI heard from our neighbours about you. (A1 BREAKTHROUGH; 2009; Arabic - Other; Pass)\n\nMy grandmother lived in a village and I often went there. (A1 BREAKTHROUGH; 2007; Polish; Pass)"
+    },
+    {
+      "id": "1741163715299x334716733147188740",
+      "SuperCategory": "VERBS",
+      "SubCategory": "patterns_with to and -ing",
+      "Level": "A1",
+      "Lexical Range": "1",
+      "Guideword": "FORM: VERB + 'TO'-INFINITIVE",
+      "Can-do statement": "Can use a limited range of verbs followed by a 'to'- infinitive. ",
+      "Example": "I like to go to the zoo. (A1 BREAKTHROUGH; 2011; Arabic - Other; Pass)\n\nSometimes I don't like to go out because It's very cold. (A1 BREAKTHROUGH; 2007; Tagalog; Pass)\n\nI want to invite you for dinner. (India; A1 BREAKTHROUGH; 2010; Panjabi; Pass)"
+    },
+    {
+      "id": "1741163715300x285261568472368060",
+      "SuperCategory": "VERBS",
+      "SubCategory": "patterns_with to and -ing",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'WOULD LIKE TO'",
+      "Can-do statement": "Can use 'would like to' + infinitive. ",
+      "Example": "I would like to meet you to give you some information about the Brannl State and the shops near her. (A1 BREAKTHROUGH; 2008; Arabic - Other; Pass)\n\nI'd like to invite you on Sunday about six o'clock in the evening. (Poland; A1 BREAKTHROUGH; 2010; Polish; Pass)"
+    },
+    {
+      "id": "1741163715300x394950798002922750",
+      "SuperCategory": "VERBS",
+      "SubCategory": "patterns_with to and -ing",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'LIKE' + 'TO'-INFINITIVE OR + '-ING'",
+      "Can-do statement": "Can use 'like' followed either by a 'to'-infinitive or an '-ing' form, with no change in meaning. ",
+      "Example": "I like to work with my teacher. (A1 BREAKTHROUGH; 2007; Italian; Pass)\n\nI don't like to eat at College. (A1 BREAKTHROUGH; 2007; Italian; Pass)\n\nI like reading lots of magazines. (Hungary; A1 BREAKTHROUGH; 2010; Hungarian; Pass)\n\nI don't like doing homework in college. (A1 BREAKTHROUGH; 2007; Thai; Pass)\n\nI like learning grammar. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nI like travelling by car. (A1 BREAKTHROUGH; 2011; Others; Pass)"
+    },
+    {
+      "id": "1741163715607x526138276437947400",
+      "SuperCategory": "VERBS",
+      "SubCategory": "there is/are",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'THERE IS'",
+      "Can-do statement": "Can use 'there is' + singular noun phrase as complement. ",
+      "Example": "My home is nice, there is a nice garden. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nIn my College there is a big library. (A1 BREAKTHROUGH; 2007; Luganda; Pass)\n\nIn my home there are two bedrooms, there's a kitchen, there's a bathroom and a living-room. (A1 BREAKTHROUGH; 2009; Spanish - Other; Pass)"
+    },
+    {
+      "id": "1741163715607x671128268905876200",
+      "SuperCategory": "VERBS",
+      "SubCategory": "there is/are",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'THERE ARE'",
+      "Can-do statement": "Can use 'there are' + plural noun phrase as complement.",
+      "Example": "There are two bathrooms. (A1 BREAKTHROUGH; 2009; Farsi; Pass)\n\nThere are many shops and schools. (A1 BREAKTHROUGH; 2007; Somali; Pass)\n\nI think, in the park there are animals. (A1 BREAKTHROUGH; 2011; Pashto; Pass)"
+    },
+    {
+      "id": "1741163715608x123988758899529200",
+      "SuperCategory": "VERBS",
+      "SubCategory": "linking",
+      "Level": "A1",
+      "Lexical Range": "N/A",
+      "Guideword": "FORM: 'BE' + COMPLEMENT",
+      "Can-do statement": "Can use linking verb 'be' with complements.",
+      "Example": "Because today is my birthday. (A1 BREAKTHROUGH; 2008; Mandarin; Pass)\n\nMartin is from Poland. (A1 BREAKTHROUGH; 2006; Polish; Pass)\n\nMy house is very clean. (A1 BREAKTHROUGH; 2009; Bengali; Pass)"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "lesson_id": "U1-L07",
+  "candidate_id": "lesson_candidate.write_short_personal_profile",
+  "status": "content_ready",
+  "title": {"en": "Write a Short Profile", "ar": "اكتب نبذة شخصية قصيرة"},
+  "goal": {"en": "Write a few connected sentences introducing yourself or one fictional person.", "ar": "أن تكتب عدة جمل مترابطة تقدم بها نفسك أو شخصًا خياليًا واحدًا."},
+  "section_order": ["video_explanation", "comprehension", "applied_practice", "personal_or_contextual_use", "fresh_mastery", "delayed_review"],
+  "video": {"format": "bilingual_single_teacher_video", "speaker_count": 1, "directory": "video", "interaction_during_video": false, "interaction_starts_after_video": true},
+  "source_packet": "source-packet.json",
+  "privacy": ["A fictional profile is always allowed.", "No sensitive personal detail is required."],
+  "accessibility": "accessibility.json"
+}

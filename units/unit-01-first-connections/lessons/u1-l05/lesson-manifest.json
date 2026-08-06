@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "lesson_id": "U1-L05",
+  "candidate_id": "lesson_candidate.locate_written_personal_details",
+  "status": "content_ready",
+  "title": {"en": "Find Personal Details", "ar": "استخرج المعلومات الشخصية"},
+  "goal": {"en": "Locate two or three requested personal details in a fresh short text.", "ar": "أن تستخرج معلومتين أو ثلاث معلومات مطلوبة من نص قصير جديد."},
+  "section_order": ["video_explanation", "comprehension", "applied_practice", "personal_or_contextual_use", "fresh_mastery", "delayed_review"],
+  "video": {"format": "bilingual_single_teacher_video", "speaker_count": 1, "directory": "video", "interaction_during_video": false, "interaction_starts_after_video": true},
+  "source_packet": "source-packet.json",
+  "privacy": ["All profiles are fictional.", "No real address is requested."],
+  "accessibility": "accessibility.json"
+}

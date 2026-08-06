@@ -1,0 +1,125 @@
+"""Everyday spoken-interaction candidates for social contact."""
+
+try:
+    from scripts.lesson_identity_spec_helpers import BASIC_SPOKEN
+    from scripts.lesson_social_spec_helpers import evidence, social_spec
+except ModuleNotFoundError:
+    from lesson_identity_spec_helpers import BASIC_SPOKEN
+    from lesson_social_spec_helpers import evidence, social_spec
+
+
+INTERACTION_SPECS = [
+    social_spec(
+        candidate_id="lesson_candidate.agree_to_a_simple_request",
+        situation="a short everyday turn containing one simple low-stakes request",
+        action="agree with an appropriate basic fixed expression",
+        content="one clear affirmative response to the request",
+        success="the reply clearly and politely agrees to the request",
+        statement="In a fresh everyday turn, the learner can agree to a simple request with a basic fixed expression.",
+        evidence_items=[evidence(
+            "gse.adult.2022.p22.012", "anchor", "The objective directly anchors agreement to a simple request.",
+        )],
+        skill_codes=["speaking"], mode_codes=["interaction"],
+        function_codes=["respond_to_request_or_offer"],
+        rationale="Agreement to a request is independently assessable from acceptance of an offer.",
+        fresh_task="A changed low-stakes request from a fictional interlocutor.",
+        level_2={
+            "comprehension": "Recognises the request and that agreement is required.",
+            "outcome_performance": "Uses a basic fixed expression that agrees to the request.",
+            "interaction_or_transfer": "Responds appropriately to changed request content.",
+            "control_or_repair": "Repairs one response that is heard as refusal or uncertainty.",
+        },
+        critical_failure="The reply refuses, contradicts, or does not answer the request.",
+        permitted_support=["Neutral repetition of one prompt."],
+        delayed_probe="Use a different simple request after a delay.",
+        scope_rationale="One request and one short affirmative response.",
+        risks=["Keep requests low-stakes and free of obligation."],
+        basic_support_ids=BASIC_SPOKEN,
+    ),
+    social_spec(
+        candidate_id="lesson_candidate.accept_a_simple_offer",
+        situation="a short everyday turn containing one simple low-stakes offer",
+        action="accept with an appropriate basic fixed expression",
+        content="one clear affirmative response to the offer",
+        success="the reply clearly and politely accepts the offer",
+        statement="In a fresh everyday turn, the learner can accept a simple offer with a basic fixed expression.",
+        evidence_items=[evidence(
+            "gse.adult.2022.p23.001", "anchor", "The objective directly anchors acceptance of a simple offer.",
+        )],
+        skill_codes=["speaking"], mode_codes=["interaction"],
+        function_codes=["respond_to_request_or_offer"],
+        rationale="Acceptance of an offer is independently assessable from agreement to a request.",
+        fresh_task="A changed low-stakes offer from a fictional interlocutor.",
+        level_2={
+            "comprehension": "Recognises the offer and that acceptance is required.",
+            "outcome_performance": "Uses a basic fixed expression that accepts the offer.",
+            "interaction_or_transfer": "Responds appropriately to changed offer content.",
+            "control_or_repair": "Repairs one response that is heard as refusal or uncertainty.",
+        },
+        critical_failure="The reply refuses, contradicts, or does not answer the offer.",
+        permitted_support=["Neutral repetition of one prompt."],
+        delayed_probe="Use a different simple offer after a delay.",
+        scope_rationale="One offer and one short affirmative response.",
+        risks=["Keep offers low-stakes and free of spending pressure."],
+        basic_support_ids=BASIC_SPOKEN,
+    ),
+    social_spec(
+        candidate_id="lesson_candidate.open_and_close_a_basic_social_exchange",
+        situation="a short meeting and leave-taking exchange with familiar news",
+        action="greet, ask how the person is, react to simple news, and say goodbye",
+        content="a greeting, wellbeing question, fitting reaction, and farewell",
+        success="the four moves fit their places in the exchange",
+        statement="In a fresh short social exchange, the learner can greet someone, ask how they are, react to simple news, and say goodbye.",
+        evidence_items=[
+            evidence("gse.adult.2022.p22.013", "anchor", "The objective anchors greeting, asking how someone is, and reacting to news."),
+            evidence("gse.adult.2022.p23.012", "supporting", "Covers the greeting and leave-taking clause; introduction is assigned elsewhere.", "partial"),
+            evidence("cefr.cv2020.p074.conversation.03", "supporting", "Covers the greeting and leave-taking clause; introduction is assigned elsewhere.", "partial"),
+            evidence("cefr.cv2020.p074.conversation.04", "supporting", "The descriptor supports asking how someone is and reacting to news."),
+            evidence("cefr.cv2020.p137.sociolinguistic_appropriateness.01", "supporting", "Covers greetings and farewells; introductions, thanks, and apology are assigned elsewhere.", "partial"),
+        ],
+        skill_codes=["listening", "speaking"], mode_codes=["interaction"],
+        function_codes=["socialize"],
+        rationale="The greeting, wellbeing question, news reaction, and farewell form one short social encounter.",
+        fresh_task="A different fictional person, wellbeing answer, and item of familiar low-stakes news.",
+        level_2={
+            "comprehension": "Understands the wellbeing answer and simple news.",
+            "outcome_performance": "Completes the greeting, question, fitting reaction, and farewell.",
+            "interaction_or_transfer": "Adapts the reaction to changed positive or negative news.",
+            "control_or_repair": "Repairs one socially mismatched response after a neutral signal.",
+        },
+        critical_failure="A missing or contradictory response prevents the short exchange from functioning.",
+        permitted_support=["A neutral cue naming the exchange stage, not the words to say."],
+        delayed_probe="Use a new person and different familiar news after a delay.",
+        scope_rationale="One four-move social exchange with short formulaic language.",
+        risks=["Use fictional, low-stakes news and avoid assumptions about greeting customs."],
+        basic_support_ids=BASIC_SPOKEN, scope_band="standard",
+    ),
+    social_spec(
+        candidate_id="lesson_candidate.respond_politely_to_an_introduction",
+        situation="being introduced to a new person in a simple social setting",
+        action="respond with a polite basic fixed expression",
+        content="an acknowledgement appropriate to the introduction",
+        success="the reply acknowledges the new person and fits the situation",
+        statement="When introduced to someone in a fresh simple situation, the learner can respond politely with a basic fixed expression.",
+        evidence_items=[
+            evidence("gse.adult.2022.p24.003", "anchor", "The objective directly anchors a polite response when introduced."),
+            evidence("cefr.cv2020.p137.sociolinguistic_appropriateness.01", "supporting", "Covers the introductions clause; other polite forms are assigned to other social tasks.", "partial"),
+        ],
+        skill_codes=["speaking"], mode_codes=["interaction"],
+        function_codes=["introduce", "socialize"],
+        rationale="Understanding the introduction and giving one polite acknowledgement are one interaction move.",
+        fresh_task="A changed fictional person and simple class, work, or community context.",
+        level_2={
+            "comprehension": "Recognises that an introduction has been made and who the new person is.",
+            "outcome_performance": "Gives a polite basic acknowledgement to the introduced person.",
+            "interaction_or_transfer": "Responds to a different person and context without copying a model.",
+            "control_or_repair": "Repairs an absent or inappropriate acknowledgement after a neutral signal.",
+        },
+        critical_failure="The reply ignores, rejects, or addresses the wrong person.",
+        permitted_support=["A fictional name card without a response phrase."],
+        delayed_probe="Use a different person and introduction context after a delay.",
+        scope_rationale="One introduction and one short polite response.",
+        risks=["Do not require culture-specific physical greetings."],
+        basic_support_ids=BASIC_SPOKEN,
+    ),
+]

@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/candidate-unit-map.schema.json",
+  "title": "A1 candidate unit map",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "map_id", "status", "reviewed_at", "evidence_dataset_ids",
+    "prior_proposal_test", "coverage", "clusters", "assignments"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "map_id": {"const": "a1_candidate_unit_map_cur_005"},
+    "status": {"const": "candidate_not_final"},
+    "reviewed_at": {"type": "string", "format": "date-time"},
+    "evidence_dataset_ids": {
+      "type": "array", "minItems": 2, "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "prior_proposal_test": {"$ref": "#/$defs/priorProposalTest"},
+    "coverage": {"$ref": "#/$defs/coverage"},
+    "clusters": {
+      "type": "array", "minItems": 1,
+      "items": {"$ref": "#/$defs/cluster"}
+    },
+    "assignments": {
+      "type": "array", "minItems": 1,
+      "items": {"$ref": "#/$defs/assignment"}
+    }
+  },
+  "$defs": {
+    "clusterId": {
+      "enum": [
+        "identity_personal_information", "people_relationships",
+        "routines_time_leisure", "home_objects_descriptions",
+        "places_directions_travel", "food_shopping_services",
+        "messages_signs_forms", "social_contact_collaboration",
+        "communication_strategies", "language_foundations"
+      ]
+    },
+    "countMap": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 0}
+    },
+    "priorProposalTest": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "proposed_units", "verdict", "fit_counts", "objective_fit_counts",
+        "descriptor_fit_counts", "findings"
+      ],
+      "properties": {
+        "proposed_units": {
+          "type": "array", "minItems": 7, "maxItems": 7, "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "verdict": {"const": "not_supported_as_an_exact_final_map"},
+        "fit_counts": {"$ref": "#/$defs/countMap"},
+        "objective_fit_counts": {"$ref": "#/$defs/countMap"},
+        "descriptor_fit_counts": {"$ref": "#/$defs/countMap"},
+        "findings": {
+          "type": "array", "minItems": 1,
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "coverage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["record_count", "included_count", "excluded_count", "mapping_fit_counts"],
+      "properties": {
+        "record_count": {"type": "integer", "minimum": 1},
+        "included_count": {"type": "integer", "minimum": 1},
+        "excluded_count": {"type": "integer", "minimum": 0},
+        "mapping_fit_counts": {"$ref": "#/$defs/countMap"}
+      }
+    },
+    "cluster": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "cluster_id", "title", "role", "goal", "prior_unit", "prior_fit",
+        "assignment_count", "objective_count", "descriptor_count", "record_ids"
+      ],
+      "properties": {
+        "cluster_id": {"$ref": "#/$defs/clusterId"},
+        "title": {"type": "string", "minLength": 1},
+        "role": {"enum": ["candidate_unit", "cross_cutting_support"]},
+        "goal": {"type": "string", "minLength": 1},
+        "prior_unit": {"type": ["string", "null"], "minLength": 1},
+        "prior_fit": {"enum": ["natural", "overlap", "forced"]},
+        "assignment_count": {"type": "integer", "minimum": 1},
+        "objective_count": {"type": "integer", "minimum": 0},
+        "descriptor_count": {"type": "integer", "minimum": 0},
+        "record_ids": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "assignment": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "record_id", "record_kind", "dataset_id", "source_id", "raw_file", "location",
+        "source_text_sha256", "candidate_cluster_ids", "mapping_fit", "prior_seven_unit_fit"
+      ],
+      "properties": {
+        "record_id": {"type": "string", "minLength": 1},
+        "record_kind": {"enum": ["objective", "descriptor"]},
+        "dataset_id": {"type": "string", "minLength": 1},
+        "source_id": {"type": "string", "minLength": 1},
+        "raw_file": {"type": "string", "pattern": "^sources/raw/"},
+        "location": {"type": "object"},
+        "source_text_sha256": {"type": "string", "pattern": "^[A-Fa-f0-9]{64}$"},
+        "candidate_cluster_ids": {
+          "type": "array", "uniqueItems": true,
+          "items": {"$ref": "#/$defs/clusterId"}
+        },
+        "mapping_fit": {
+          "enum": ["natural", "natural_with_support", "cross_cutting", "explicit_exclusion"]
+        },
+        "prior_seven_unit_fit": {"enum": ["natural", "overlap", "forced", "not_applicable"]}
+      }
+    }
+  }
+}

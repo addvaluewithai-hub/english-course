@@ -1,0 +1,232 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/lesson-candidate.schema.json",
+  "title": "Lesson-sized ability candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "candidate_id", "version", "status", "candidate_cluster_ids",
+    "outcome", "evidence_refs", "skill_codes", "mode_codes", "function_codes",
+    "normalization", "relationships", "language_targets", "error_hypotheses",
+    "mastery", "scope", "risks", "review"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "candidate_id": {"type": "string", "pattern": "^lesson_candidate\\.[a-z0-9_]+$"},
+    "version": {"type": "integer", "minimum": 1},
+    "status": {"enum": ["draft", "needs_review", "approved_candidate"]},
+    "candidate_cluster_ids": {
+      "$ref": "source-record.schema.json#/$defs/candidateClusterCodeArray", "minItems": 1
+    },
+    "outcome": {"$ref": "#/$defs/outcome"},
+    "evidence_refs": {
+      "type": "array", "minItems": 1,
+      "items": {"$ref": "#/$defs/evidenceRef"}
+    },
+    "skill_codes": {
+      "$ref": "source-record.schema.json#/$defs/skillCodeArray", "minItems": 1
+    },
+    "mode_codes": {
+      "$ref": "source-record.schema.json#/$defs/modeCodeArray", "minItems": 1
+    },
+    "function_codes": {
+      "$ref": "source-record.schema.json#/$defs/functionCodeArray", "minItems": 1
+    },
+    "normalization": {"$ref": "#/$defs/normalization"},
+    "relationships": {"$ref": "#/$defs/relationships"},
+    "language_targets": {"$ref": "#/$defs/languageTargets"},
+    "error_hypotheses": {
+      "type": "array", "items": {"$ref": "#/$defs/errorHypothesis"}
+    },
+    "mastery": {"$ref": "#/$defs/mastery"},
+    "scope": {"$ref": "#/$defs/scope"},
+    "risks": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "allOf": [{
+    "if": {"properties": {"status": {"const": "approved_candidate"}}},
+    "then": {"properties": {"review": {"properties": {"status": {"const": "accepted"}}}}}
+  }],
+  "$defs": {
+    "uniqueStrings": {
+      "type": "array", "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "nonEmptyUniqueStrings": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "outcome": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "situation", "observable_action", "essential_content", "independence",
+        "success_condition", "statement"
+      ],
+      "properties": {
+        "situation": {"type": "string", "minLength": 1},
+        "observable_action": {"type": "string", "minLength": 1},
+        "essential_content": {"type": "string", "minLength": 1},
+        "independence": {"type": "string", "minLength": 1},
+        "success_condition": {"type": "string", "minLength": 1},
+        "statement": {"type": "string", "minLength": 1}
+      }
+    },
+    "evidenceRef": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "record_id", "dataset_id", "source_id", "raw_file", "location",
+        "source_text_sha256", "role", "coverage", "interpretation_note"
+      ],
+      "properties": {
+        "record_id": {"type": "string", "minLength": 1},
+        "dataset_id": {"type": "string", "minLength": 1},
+        "source_id": {"type": "string", "minLength": 1},
+        "raw_file": {"type": "string", "pattern": "^sources/raw/"},
+        "location": {"type": "object", "minProperties": 1},
+        "source_text_sha256": {"type": "string", "pattern": "^[A-Fa-f0-9]{64}$"},
+        "role": {"enum": ["anchor", "supporting", "cross_cutting"]},
+        "coverage": {"enum": ["full", "partial", "context_only"]},
+        "interpretation_note": {"type": "string"}
+      },
+      "allOf": [{
+        "if": {"properties": {"coverage": {"const": "partial"}}},
+        "then": {"properties": {"interpretation_note": {"minLength": 1}}}
+      }]
+    },
+    "normalization": {
+      "type": "object", "additionalProperties": false,
+      "required": ["decision", "inputs", "coherence_tests", "rationale"],
+      "properties": {
+        "decision": {"enum": ["direct", "merged", "split_child"]},
+        "inputs": {"$ref": "#/$defs/nonEmptyUniqueStrings"},
+        "coherence_tests": {
+          "type": "object", "additionalProperties": false,
+          "required": [
+            "one_purpose", "same_task", "single_judgment", "a1_load",
+            "source_fidelity", "independence"
+          ],
+          "properties": {
+            "one_purpose": {"const": true},
+            "same_task": {"const": true},
+            "single_judgment": {"const": true},
+            "a1_load": {"const": true},
+            "source_fidelity": {"const": true},
+            "independence": {"const": true}
+          }
+        },
+        "rationale": {"type": "string", "minLength": 1}
+      }
+    },
+    "relation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["candidate_id", "rationale", "evidence_record_ids"],
+      "properties": {
+        "candidate_id": {"type": "string", "pattern": "^lesson_candidate\\.[a-z0-9_]+$"},
+        "rationale": {"type": "string", "minLength": 1},
+        "evidence_record_ids": {"$ref": "#/$defs/nonEmptyUniqueStrings"}
+      }
+    },
+    "supportRelation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["support_id", "rationale", "evidence_record_ids"],
+      "properties": {
+        "support_id": {"type": "string", "pattern": "^support\\.[a-z0-9_]+$"},
+        "rationale": {"type": "string", "minLength": 1},
+        "evidence_record_ids": {"$ref": "#/$defs/nonEmptyUniqueStrings"}
+      }
+    },
+    "relationships": {
+      "type": "object", "additionalProperties": false,
+      "required": ["required_before", "helpful_before", "successors", "concurrent_support"],
+      "properties": {
+        "required_before": {"type": "array", "items": {"$ref": "#/$defs/relation"}},
+        "helpful_before": {"type": "array", "items": {"$ref": "#/$defs/relation"}},
+        "successors": {"type": "array", "items": {"$ref": "#/$defs/relation"}},
+        "concurrent_support": {
+          "type": "array", "items": {"$ref": "#/$defs/supportRelation"}
+        }
+      }
+    },
+    "target": {
+      "type": "object", "additionalProperties": false,
+      "required": ["target", "purpose", "evidence_refs"],
+      "properties": {
+        "target": {"type": "string", "minLength": 1},
+        "purpose": {"type": "string", "minLength": 1},
+        "evidence_refs": {
+          "type": "array", "minItems": 1, "items": {"$ref": "#/$defs/evidenceRef"}
+        }
+      }
+    },
+    "languageTargets": {
+      "type": "object", "additionalProperties": false,
+      "required": ["grammar", "vocabulary", "phrases", "pronunciation"],
+      "properties": {
+        "grammar": {"type": "array", "items": {"$ref": "#/$defs/target"}},
+        "vocabulary": {"type": "array", "items": {"$ref": "#/$defs/target"}},
+        "phrases": {"type": "array", "items": {"$ref": "#/$defs/target"}},
+        "pronunciation": {"type": "array", "items": {"$ref": "#/$defs/target"}}
+      }
+    },
+    "errorHypothesis": {
+      "type": "object", "additionalProperties": false,
+      "required": ["error", "impact", "basis", "validation_status"],
+      "properties": {
+        "error": {"type": "string", "minLength": 1},
+        "impact": {"type": "string", "minLength": 1},
+        "basis": {"type": "string", "minLength": 1},
+        "validation_status": {"enum": ["hypothesis", "expert_reviewed", "learner_observed"]}
+      }
+    },
+    "mastery": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "fresh_task_family", "required_dimensions", "level_2_evidence",
+        "critical_failures", "non_blocking_errors", "permitted_support",
+        "disallowed_help", "delayed_probe"
+      ],
+      "properties": {
+        "fresh_task_family": {"type": "string", "minLength": 1},
+        "required_dimensions": {"$ref": "#/$defs/nonEmptyUniqueStrings"},
+        "level_2_evidence": {"type": "object", "minProperties": 2},
+        "critical_failures": {"$ref": "#/$defs/nonEmptyUniqueStrings"},
+        "non_blocking_errors": {"$ref": "#/$defs/uniqueStrings"},
+        "permitted_support": {"$ref": "#/$defs/uniqueStrings"},
+        "disallowed_help": {"$ref": "#/$defs/nonEmptyUniqueStrings"},
+        "delayed_probe": {"type": "string", "minLength": 1}
+      }
+    },
+    "scope": {
+      "type": "object", "additionalProperties": false,
+      "required": ["band", "load_rationale", "time_range_hypothesis", "no_split_rationale"],
+      "properties": {
+        "band": {"enum": ["focused", "standard", "complex"]},
+        "load_rationale": {"type": "string", "minLength": 1},
+        "time_range_hypothesis": {"type": ["string", "null"]},
+        "no_split_rationale": {"type": ["string", "null"]}
+      },
+      "allOf": [{
+        "if": {"properties": {"band": {"const": "complex"}}},
+        "then": {"properties": {"no_split_rationale": {"type": "string", "minLength": 1}}}
+      }]
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "reviewer", "reviewed_at", "issues"],
+      "properties": {
+        "status": {"enum": ["unreviewed", "needs_review", "accepted"]},
+        "reviewer": {"type": ["string", "null"]},
+        "reviewed_at": {"type": ["string", "null"], "format": "date-time"},
+        "issues": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      },
+      "allOf": [{
+        "if": {"properties": {"status": {"const": "accepted"}}},
+        "then": {"properties": {
+          "reviewer": {"type": "string", "minLength": 1},
+          "reviewed_at": {"type": "string", "format": "date-time"},
+          "issues": {"maxItems": 0}
+        }}
+      }]
+    }
+  }
+}

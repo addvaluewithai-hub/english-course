@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "items": [
+    {"when": "next_day", "task": "Hear a new three-detail introduction and identify the person plus two details."},
+    {"when": "three_days", "task": "Classify three I/he/she statements, then hear a fresh introduction."},
+    {"when": "seven_days", "task": "Complete the delayed probe with a new voice and no transcript."}
+  ]
+}

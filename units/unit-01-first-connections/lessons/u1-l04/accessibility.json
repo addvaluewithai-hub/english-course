@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "video_readable_equivalent": "video/transcript.txt",
+  "captions": {"required": true, "source": "video/transcript.txt", "timing": "apply_after_final_audio"},
+  "mastery_audio": {
+    "transcript_hidden_to_preserve_listening_construct": true,
+    "replay_control_keyboard_accessible": true,
+    "adjusted_clear_delivery_available": true,
+    "fictional_data_only": true
+  },
+  "feedback": {"color_only": false, "digit_position_text_required": true}
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "video_readable_equivalent": "video/transcript.txt",
+  "captions": {"required": true, "source": "video/transcript.txt", "timing": "apply_after_final_audio"},
+  "interaction": {
+    "text_input_equivalent": true,
+    "microphone_required": false,
+    "one_turn_at_a_time": true,
+    "visible_focus_and_keyboard_access": true
+  },
+  "feedback": {"color_only": false, "text_labels_required": true}
+}

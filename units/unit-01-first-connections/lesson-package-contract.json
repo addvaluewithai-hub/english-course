@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "required_files": [
+    "lesson-manifest.json",
+    "source-packet.json",
+    "content.json",
+    "activities.json",
+    "ai-contract.json",
+    "assessment.json",
+    "review.json",
+    "accessibility.json",
+    "video/scene.txt",
+    "video/sample-context.txt",
+    "video/transcript.txt",
+    "video/pronunciation-map.json"
+  ],
+  "delivery_contract": {
+    "teacher_count": 1,
+    "teacher_label": "Speaker 1:",
+    "arabic_voice": "natural Egyptian Arabic",
+    "english_accent": "General American",
+    "english_markup": "en-US lang plus IPA phoneme",
+    "interaction_during_video": false,
+    "interaction_starts_after_video": true
+  },
+  "learning_contract": {
+    "required_stages": [
+      "video_explanation",
+      "comprehension",
+      "applied_practice",
+      "personal_or_contextual_use",
+      "fresh_mastery",
+      "delayed_review"
+    ],
+    "completion_is_mastery": false,
+    "fictional_identity_allowed": true
+  },
+  "accessibility_contract": {
+    "readable_equivalent": "video/transcript.txt",
+    "captions_required_with_final_media": true,
+    "audio_only_information_allowed": false,
+    "color_only_feedback_allowed": false
+  }
+}

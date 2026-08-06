@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "unit_id": "a1.unit01.first_connections.v0",
+  "status": "complete_source_package",
+  "title": {
+    "en": "First Connections",
+    "ar": "التعارف والمعلومات الشخصية"
+  },
+  "unit_outcome": {
+    "en": "Handle essential personal information across a first spoken and written contact.",
+    "ar": "أن تفهم المعلومات الشخصية الأساسية وتتبادلها شفهيًا وكتابيًا في موقف تعارف جديد."
+  },
+  "source_of_truth": "data/reviewed/a1-lesson-map.json",
+  "lesson_count": 8,
+  "lessons": [
+    {
+      "lesson_id": "U1-L01",
+      "candidate_id": "lesson_candidate.give_short_self_introduction",
+      "title": {"en": "Introduce Yourself", "ar": "قدّم نفسك"},
+      "primary_skills": ["speaking"],
+      "status": "gold_reference_ready",
+      "content_path": "gold/introduce-yourself"
+    },
+    {
+      "lesson_id": "U1-L02",
+      "candidate_id": "lesson_candidate.understand_spoken_personal_introductions",
+      "title": {"en": "Understand an Introduction", "ar": "افهم تقديم شخص لنفسه"},
+      "primary_skills": ["listening"],
+      "status": "content_ready",
+      "content_path": "units/unit-01-first-connections/lessons/u1-l02"
+    },
+    {
+      "lesson_id": "U1-L03",
+      "candidate_id": "lesson_candidate.exchange_personal_details_orally",
+      "title": {"en": "Ask and Answer Personal Questions", "ar": "اسأل وأجب عن معلومات شخصية"},
+      "primary_skills": ["listening", "speaking"],
+      "status": "content_ready",
+      "content_path": "units/unit-01-first-connections/lessons/u1-l03"
+    },
+    {
+      "lesson_id": "U1-L04",
+      "candidate_id": "lesson_candidate.understand_spoken_contact_details",
+      "title": {"en": "Hear Names and Phone Numbers", "ar": "افهم الاسم ورقم الهاتف"},
+      "primary_skills": ["listening"],
+      "status": "content_ready",
+      "content_path": "units/unit-01-first-connections/lessons/u1-l04"
+    },
+    {
+      "lesson_id": "U1-L05",
+      "candidate_id": "lesson_candidate.locate_written_personal_details",
+      "title": {"en": "Find Personal Details", "ar": "استخرج المعلومات الشخصية"},
+      "primary_skills": ["reading"],
+      "status": "content_ready",
+      "content_path": "units/unit-01-first-connections/lessons/u1-l05"
+    },
+    {
+      "lesson_id": "U1-L06",
+      "candidate_id": "lesson_candidate.complete_a_simple_information_form",
+      "title": {"en": "Complete an Information Form", "ar": "املأ نموذج معلومات"},
+      "primary_skills": ["reading", "writing"],
+      "status": "content_ready",
+      "content_path": "units/unit-01-first-connections/lessons/u1-l06"
+    },
+    {
+      "lesson_id": "U1-L07",
+      "candidate_id": "lesson_candidate.write_short_personal_profile",
+      "title": {"en": "Write a Short Profile", "ar": "اكتب نبذة شخصية قصيرة"},
+      "primary_skills": ["writing"],
+      "status": "content_ready",
+      "content_path": "units/unit-01-first-connections/lessons/u1-l07"
+    },
+    {
+      "lesson_id": "U1-L08",
+      "candidate_id": "lesson_candidate.exchange_personal_details_in_writing",
+      "title": {"en": "Exchange Details in Writing", "ar": "تبادل المعلومات كتابةً"},
+      "primary_skills": ["reading", "writing"],
+      "status": "content_ready",
+      "content_path": "units/unit-01-first-connections/lessons/u1-l08"
+    }
+  ],
+  "cross_cutting_support": [
+    "support.basic_language_control",
+    "support.receptive_processing",
+    "support.spoken_intelligibility",
+    "support.interaction_repair",
+    "support.number_processing",
+    "support.written_form_control"
+  ],
+  "deferred_candidates": [
+    {
+      "candidate_id": "lesson_candidate.relay_predictable_person_time_or_place_details",
+      "reason": "Requires locate_names_places_and_times_in_slow_recordings, which is outside this unit boundary."
+    }
+  ],
+  "unit_mastery": "unit-mastery.json",
+  "unit_mastery_experience": "unit-mastery-experience.json",
+  "unit_review": "unit-review.json",
+  "unit_accessibility": "unit-accessibility.json"
+}

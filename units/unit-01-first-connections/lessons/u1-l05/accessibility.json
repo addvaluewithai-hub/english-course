@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "video_readable_equivalent": "video/transcript.txt",
+  "captions": {"required": true, "source": "video/transcript.txt", "timing": "apply_after_final_audio"},
+  "reading": {"semantic_field_labels": true, "screen_reader_order_required": true, "zoom_reflow_required": true, "answer_not_conveyed_by_position_or_color_alone": true},
+  "feedback": {"color_only": false, "text_labels_required": true}
+}

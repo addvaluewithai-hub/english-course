@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/lesson-map.schema.json",
+  "title": "A1 lesson-sized ability map",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "map_id", "level", "version", "status",
+    "evidence_dataset_ids", "candidates", "sequence", "support_definitions", "review"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "map_id": {"type": "string", "pattern": "^a1_lesson_map(?:_[a-z0-9]+)*$"},
+    "level": {"const": "a1"},
+    "version": {"type": "integer", "minimum": 1},
+    "status": {"enum": ["in_progress", "needs_review", "approved"]},
+    "evidence_dataset_ids": {
+      "type": "array", "minItems": 2, "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "candidates": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "$ref": "https://english-course.local/schemas/curriculum/lesson-candidate.schema.json"
+      }
+    },
+    "sequence": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^lesson_candidate\\.[a-z0-9_]+$"}
+    },
+    "support_definitions": {
+      "type": "array", "items": {"$ref": "#/$defs/supportDefinition"}
+    },
+    "review": {"$ref": "#/$defs/mapReview"}
+  },
+  "$defs": {
+    "candidateIds": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^lesson_candidate\\.[a-z0-9_]+$"}
+    },
+    "supportDefinition": {
+      "type": "object", "additionalProperties": false,
+      "required": ["support_id", "title", "evidence_refs", "applies_to_candidate_ids"],
+      "properties": {
+        "support_id": {"type": "string", "pattern": "^support\\.[a-z0-9_]+$"},
+        "title": {"type": "string", "minLength": 1},
+        "evidence_refs": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "$ref": "https://english-course.local/schemas/curriculum/lesson-candidate.schema.json#/$defs/evidenceRef"
+          }
+        },
+        "applies_to_candidate_ids": {"$ref": "#/$defs/candidateIds"}
+      }
+    },
+    "mapReview": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "reviewer", "reviewed_at", "issues"],
+      "properties": {
+        "status": {"enum": ["unreviewed", "needs_review", "accepted"]},
+        "reviewer": {"type": ["string", "null"]},
+        "reviewed_at": {"type": ["string", "null"], "format": "date-time"},
+        "issues": {
+          "type": "array", "items": {"type": "string", "minLength": 1}
+        }
+      },
+      "allOf": [{
+        "if": {"properties": {"status": {"const": "accepted"}}},
+        "then": {"properties": {
+          "reviewer": {"type": "string", "minLength": 1},
+          "reviewed_at": {"type": "string", "format": "date-time"},
+          "issues": {"maxItems": 0}
+        }}
+      }]
+    }
+  }
+}

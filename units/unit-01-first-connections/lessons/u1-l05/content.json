@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "situation": {"ar": "أمامك بطاقة أو بروفايل قصير، وتحتاج أن تجد معلومات محددة بسرعة ودقة.", "success_ar": "تربط كل عنوان بالقيمة الصحيحة ولا تنقل معلومة من السطر المجاور."},
+  "field_labels": [
+    {"label": "Name", "meaning_ar": "الاسم"},
+    {"label": "Age", "meaning_ar": "العمر"},
+    {"label": "Nationality", "meaning_ar": "الجنسية"},
+    {"label": "Address", "meaning_ar": "العنوان"},
+    {"label": "Occupation", "meaning_ar": "العمل"}
+  ],
+  "model_card": {"Name": "Lina Haddad", "Age": "29", "Nationality": "Syrian", "Address": "12 Green Street, Amman", "Occupation": "Teacher"},
+  "strategy": ["اقرأ السؤال أولًا.", "ابحث عن عنوان الحقل المطلوب.", "اقرأ القيمة الملاصقة له فقط.", "راجع أنك لم تنقل قيمة من سطر آخر."]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "mastery_task": {
+    "audio_text_hidden": "Hello, this is Nadia Saleh. My phone number is four one seven, zero five, eight two.",
+    "prompt_ar": "استمع وسجل الاسم ورقم الهاتف.",
+    "answer": {"name": "Nadia Saleh", "phone": "417-05-82"},
+    "transcript_visible": false,
+    "replay_limit": 1,
+    "replacement_audio_text_hidden": "Hi, my name is Adam Noor. My number is six three zero, one nine, four five.",
+    "replacement_answer": {"name": "Adam Noor", "phone": "630-19-45"}
+  },
+  "decision": {
+    "demonstrated": "The name and every phone-number digit are recorded in usable order.",
+    "needs_review": "A name is unusable or any required digit is missing, changed, or reordered after the permitted replay.",
+    "completion_is_mastery": false
+  }
+}

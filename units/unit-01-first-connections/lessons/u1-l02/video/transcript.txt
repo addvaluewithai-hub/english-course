@@ -1,0 +1,65 @@
+Speaker 1: [WARM] أهلًا بيك. النهاردة مش هنتعلم نقول معلومات جديدة عن نفسنا. النهاردة هنتعلم نلقط معلومات شخص تاني وهو بيتكلم.
+
+Speaker 1: تخيّل إن عضو جديد بعت رسالة صوتية لمجموعة الدراسة. اسمعها مرة واحدة.
+
+Speaker 1: [CLEAR, SLIGHTLY SLOWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="haɪ | aɪm ˈælɪks | aɪm frəm ˈkænədə | aɪ lɪv ɪn ˈkaɪroʊ | aɪm ən ˌɛndʒəˈnɪr">Hi, I'm Alex. I'm from Canada. I live in Cairo. I'm an engineer.</phoneme></lang>
+
+Speaker 1: لو حاولت تترجم كل كلمة، ممكن تضيع منك المعلومة الأهم. المطلوب هنا أبسط من كده.
+
+Speaker 1: في أول مرة، اسأل نفسك: مين الشخص؟
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ˈælɪks">I'm Alex.</phoneme></lang>
+
+Speaker 1: إذن الاسم هو <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈælɪks">Alex</phoneme></lang>.
+
+Speaker 1: بعد الاسم، دوّر على إشارات صغيرة تعرفها.
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm frəm ˈkænədə">I'm from Canada.</phoneme></lang>
+
+Speaker 1: دي بتقول الأصل أو البلد.
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ lɪv ɪn ˈkaɪroʊ">I live in Cairo.</phoneme></lang>
+
+Speaker 1: ودي بتقول مكان السكن دلوقتي.
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ən ˌɛndʒəˈnɪr">I'm an engineer.</phoneme></lang>
+
+Speaker 1: ودي بتقول شغله.
+
+Speaker 1: يبقى <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈælɪks">Alex</phoneme></lang> من <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈkænədə">Canada</phoneme></lang>، عايش في <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈkaɪroʊ">Cairo</phoneme></lang>، وشغله <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˌɛndʒəˈnɪr">engineer</phoneme></lang>. أربع معلومات واضحة من غير ما نترجم الرسالة كلمة كلمة.
+
+Speaker 1: دلوقتي خد بالك من فرق مهم. أحيانًا الشخص بيتكلم عن نفسه، وأحيانًا بيقدم شخص تاني.
+
+Speaker 1: لما يقول:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm frəm ˈkænədə">I'm from Canada.</phoneme></lang>
+
+Speaker 1: المعلومة عن المتكلم نفسه.
+
+Speaker 1: لكن اسمع النموذج ده.
+
+Speaker 1: [CLEAR, SLIGHTLY SLOWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ðɪs ɪz ˈoʊmɑɹ | hiːz frəm ˈiːdʒɪpt | hiː lɪvz ɪn ˈɡiːzə | hiːz ə ˈstuːdənt">This is Omar. He's from Egypt. He lives in Giza. He's a student.</phoneme></lang>
+
+Speaker 1: هنا المتكلم بيقدم <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈoʊmɑɹ">Omar</phoneme></lang>. لما تسمع:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ðɪs ɪz ˈoʊmɑɹ">This is Omar.</phoneme></lang>
+
+Speaker 1: اعرف إن المعلومات اللي بعدها غالبًا عن <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈoʊmɑɹ">Omar</phoneme></lang>.
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="hiːz frəm ˈiːdʒɪpt">He's from Egypt.</phoneme></lang>
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="hiː lɪvz ɪn ˈɡiːzə">He lives in Giza.</phoneme></lang>
+
+Speaker 1: ما ننسبش المعلومات دي للمتكلم. كلها عن <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈoʊmɑɹ">Omar</phoneme></lang>.
+
+Speaker 1: ونفس الفكرة لو سمعت:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ðɪs ɪz ˈleɪlə | ʃiːz ə ˈtiːtʃɚ">This is Layla. She's a teacher.</phoneme></lang>
+
+Speaker 1: المعلومة عن <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈleɪlə">Layla</phoneme></lang>، مش عن الشخص اللي بيقدمها.
+
+Speaker 1: الخلاصة بسيطة: أول مرة اعرف مين الشخص. ثاني مرة التقط معلومتين أو ثلاثة. وخلي الضمير يساعدك تعرف المعلومة عن مين.
+
+Speaker 1: بعد الفيديو هتسمع أصوات جديدة فعلًا. مش مطلوب تفهم كل كلمة. المطلوب تعرف الشخص وتلتقط المعلومات الأساسية من غير نص مكتوب.
+
+Speaker 1: [ENCOURAGING] ركّز على المعنى، مش على مطاردة كل كلمة. نشوفك في التطبيق.
