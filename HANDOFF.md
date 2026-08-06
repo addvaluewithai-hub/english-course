@@ -48,10 +48,10 @@ references it instead of duplicating it.
 
 ## Public-repository hygiene
 
-This public snapshot omits private conversations, historic per-agent run logs,
-caches, temporary files, and third-party reference binaries/full-text mirrors.
-Download external sources from the URLs in `sources/registry/SOURCES.md` when the
-extraction pipeline must be reproduced.
+This public snapshot includes the verified third-party source files and extracted
+text mirrors used by the curriculum pipeline so the team can reproduce the work.
+Private conversations, historic per-agent run logs, caches, and temporary files
+remain excluded. Review each publisher's reuse terms before republishing elsewhere.
 
 No repository-wide open-source license has been selected. The new team should choose
 one deliberately before accepting outside contributions.

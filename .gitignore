@@ -25,10 +25,6 @@ automation/RUNNING.json
 logs/runs/
 references/legacy/
 
-# Third-party source copies are local-only; use sources/registry/SOURCES.md
-sources/raw/
-data/derived/source-text/
-
 # OS/editor files
 .DS_Store
 Thumbs.db

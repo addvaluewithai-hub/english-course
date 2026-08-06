@@ -1,8 +1,8 @@
 # Authoritative Source Registry
 
-Downloaded and verified locally on 2026-07-15. Raw files and full-text mirrors are
-not redistributed in this public repository. Download them from the URLs below,
-place them at the listed paths, and verify the SHA-256 hashes before extraction.
+Downloaded and verified on 2026-07-15. Raw files are immutable. Text mirrors under
+`data/derived/source-text/` support search; cite the raw source location. The URLs
+and hashes below allow the included snapshots to be independently verified.
 
 ## Active A1 sources
 

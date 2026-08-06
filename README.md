@@ -55,10 +55,10 @@ downloaded. All curriculum, lesson-package, and Unit 1 tests still run.
 - `prototype/` - dependency-free browser prototype
 - `schemas/` - curriculum data contracts
 - `scripts/` - small deterministic curriculum utilities
-- `sources/registry/` - source provenance and acquisition details
+- `sources/raw/` - verified source snapshots used by the extraction pipeline
+- `sources/registry/` - source provenance, acquisition details, and hashes
 - `tests/` - validation suite
 - `units/` - authored unit source packages
 
-Raw third-party source files, extracted full-text mirrors, agent run logs, temporary
-files, and private legacy conversations are intentionally excluded from this public
-handoff.
+Raw source snapshots and extracted text mirrors are included for reproducibility.
+Private legacy conversations, per-agent run logs, and temporary files are excluded.
