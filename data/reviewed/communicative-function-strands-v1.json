@@ -1,0 +1,4618 @@
+{
+  "schema_version": 1,
+  "dataset_id": "communicative_function_progression_strands",
+  "version": 1,
+  "level_order": [
+    "pre_a1",
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2"
+  ],
+  "lifecycle_order": [
+    "expose",
+    "introduce",
+    "practise",
+    "recycle",
+    "consolidate",
+    "extend"
+  ],
+  "inputs": [
+    {
+      "path": "data/reviewed/communicative-tag-assignments-v1.json",
+      "sha256": "afe54f8f9314e4167d8f94cf9e80baa9db6da6150fb3692c5e010989e10e98ff"
+    },
+    {
+      "path": "data/reviewed/level-exit-profiles-v1.json",
+      "sha256": "8cd53270688f6aafadddb7beb7f8f3717d832a464f127fefd3def3a1a62da30a"
+    }
+  ],
+  "strands": [
+    {
+      "strand_id": "function.advise_or_recommend",
+      "function_code": "advise_or_recommend",
+      "title": "Advise Or Recommend",
+      "curriculum_intent": "Give or seek advice and recommend a course of action.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 16,
+        "assignment_ids_sha256": "9249b9b8515406554843b1c9624c88eaab42cfd1620971d10accac612e2ba32a",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p063.b2.sustained_monologue_giving_information.001",
+          "cefr_all_descriptors:cefr.cv2020.p092.a2.overall_mediation.001",
+          "gse_all_objectives:gse.adult.2022.b2_plus.p43.016"
+        ],
+        "source_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a2",
+        "consolidation_level": "a2",
+        "recycle_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a2",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 6,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.analyze_or_criticize",
+      "function_code": "analyze_or_criticize",
+      "title": "Analyze Or Criticize",
+      "curriculum_intent": "Analyse evidence or a text and produce reasoned criticism.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 13,
+        "assignment_ids_sha256": "9aff052d2ce45db11ec736798cb8790c7b09a780e4b46b68b7112fa30f566949",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p067.c1.creative_writing.003",
+          "cefr_all_descriptors:cefr.cv2020.p107.c1.analysis_and_criticism_of_creative_texts_including.001",
+          "gse_all_objectives:gse.adult.2022.c2.p36.006"
+        ],
+        "source_levels": [
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "b2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "b2",
+        "consolidation_level": "b2",
+        "recycle_levels": [
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "b2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.ask_for_information",
+      "function_code": "ask_for_information",
+      "title": "Ask For Information",
+      "curriculum_intent": "Request a specific fact, confirmation, or explanation.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 10,
+        "assignment_ids_sha256": "bdb28b6a12014052a108472335c3b92ee9990cf33a6d0336f673d939a1bf5bbb",
+        "representative_assignment_ids": [
+          "gse_all_objectives:gse.adult.2022.a1.p22.026",
+          "gse_all_objectives:gse.adult.2022.a2.p24.016",
+          "gse_all_objectives:gse.adult.2022.b2_plus.p43.007"
+        ],
+        "source_levels": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "source_datasets": [
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a1",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.clarify_or_repair",
+      "function_code": "clarify_or_repair",
+      "title": "Clarify Or Repair",
+      "curriculum_intent": "Signal difficulty, clarify, reformulate, and repair communication.",
+      "strand_role": "support_strategy",
+      "evidence": {
+        "assignment_count": 32,
+        "assignment_ids_sha256": "b845d8d7787bfe94fc761c2e29b2e2294b7524c976630ea68ba521a0de09797e",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p069.a1.compensating.001",
+          "cefr_all_descriptors:cefr.cv2020.p089.a2.asking_for_clarification.003",
+          "gse_all_objectives:gse.adult.2022.c2.p36.005"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 9,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 8,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 6,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.compare",
+      "function_code": "compare",
+      "title": "Compare",
+      "curriculum_intent": "Identify and communicate relevant similarities and differences.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 21,
+        "assignment_ids_sha256": "84db23728e513281512ff96a0fc974721a092072dc22c016c6b6475ec126fccb",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p063.a2.sustained_monologue_describing_experience.005",
+          "gse_all_objectives:gse.adult.2022.a2_plus.p39.004",
+          "gse_all_objectives:gse.adult.2022.c2.p36.006"
+        ],
+        "source_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a2",
+        "consolidation_level": "a2",
+        "recycle_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a2",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 11,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.complete_form",
+      "function_code": "complete_form",
+      "title": "Complete Form",
+      "curriculum_intent": "Supply accurate information in paper or online forms.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 7,
+        "assignment_ids_sha256": "355c500fb98de7c68cd3c27b9d29c4e54c6f78610bcf0c449f9b909af26106da",
+        "representative_assignment_ids": [
+          "gse_all_objectives:gse.adult.2022.a1.p37.001",
+          "gse_all_objectives:gse.adult.2022.b1.p40.015",
+          "gse_all_objectives:gse.adult.2022.b1_plus.p41.011"
+        ],
+        "source_levels": [
+          "a1",
+          "a2",
+          "b1"
+        ],
+        "source_datasets": [
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a1",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.comprehend_information",
+      "function_code": "comprehend_information",
+      "title": "Comprehend Information",
+      "curriculum_intent": "Understand stated meaning and factual content.",
+      "strand_role": "receptive",
+      "evidence": {
+        "assignment_count": 325,
+        "assignment_ids_sha256": "29c16c991a7b6d8b876b479d34499a72caf26848aea3a12b69658a294ce258a7",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p048.a1.overall_oral_comprehension.001",
+          "gse_all_objectives:gse.adult.2022.a1.p14.014",
+          "gse_all_objectives:gse.adult.2022.c2.p20.002"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": "a1",
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 19,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "both",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 41,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "both",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 78,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "both",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 75,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "both",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 73,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "both",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 24,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "both",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 15,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "both",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.control_language_form",
+      "function_code": "control_language_form",
+      "title": "Control Language Form",
+      "curriculum_intent": "Control grammar, lexis, sound, spelling, and form in communication.",
+      "strand_role": "language_system_support",
+      "evidence": {
+        "assignment_count": 182,
+        "assignment_ids_sha256": "9ead1d55957953a6b1677b2ac99a55fde129a8b80810a2293396e3e1b887f820",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p130.a2.general_linguistic_range.001",
+          "cefr_all_descriptors:cefr.cv2020.p137.b2.sociolinguistic_appropriateness.002",
+          "cefr_all_descriptors:cefr.cv2020.p142.pre_a1.propositional_precision.001"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 15,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 32,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 33,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 47,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 33,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 18,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.correspond",
+      "function_code": "correspond",
+      "title": "Correspond",
+      "curriculum_intent": "Exchange written or online messages for a communicative purpose.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 133,
+        "assignment_ids_sha256": "170e0f1e4a98bde2d9f9ee4b155337ad881133e509b2ad7d1ba63c7b54b92025",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p082.b2.correspondence.001",
+          "cefr_all_descriptors:cefr.cv2020.p086.c2.goal_oriented_online_transactions_and_collaboration.002",
+          "gse_all_objectives:gse.adult.2022.c1.p43.004"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 8,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 10,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 29,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 40,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 28,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 12,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 6,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.describe",
+      "function_code": "describe",
+      "title": "Describe",
+      "curriculum_intent": "Describe people, objects, places, routines, experiences, or situations.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 109,
+        "assignment_ids_sha256": "b8d9441cf202b548f5b598350487b3db65fff27c417d3162b4a563559cbf8046",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p062.b1.sustained_monologue_describing_experience.001",
+          "gse_all_objectives:gse.adult.2022.a1.p22.027",
+          "gse_all_objectives:gse.adult.2022.c1.p36.023"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 14,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 40,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 25,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 17,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.evaluate",
+      "function_code": "evaluate",
+      "title": "Evaluate",
+      "curriculum_intent": "Judge options, evidence, or sources against relevant criteria.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 29,
+        "assignment_ids_sha256": "1bc0731c176663ccf81e4bc127b3efe2ee42a4c16cc2bfadf16c698d86618354",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p064.b2.sustained_monologue_putting_a_case_e_g.004",
+          "cefr_all_descriptors:cefr.cv2020.p091.c1.overall_mediation.001",
+          "gse_all_objectives:gse.adult.2022.b2_plus.p43.016"
+        ],
+        "source_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "b1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "b1",
+        "consolidation_level": "b1",
+        "recycle_levels": [
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "b1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 19,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.exchange_information",
+      "function_code": "exchange_information",
+      "title": "Exchange Information",
+      "curriculum_intent": "Ask, answer, check, and reciprocally share information.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 271,
+        "assignment_ids_sha256": "51ff01f7475198a59146c1b3d85ed9f7744387c430d59dbd082ee63500529b95",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p072.a1.overall_oral_interaction.001",
+          "cefr_all_descriptors:cefr.cv2020.p079.b1.information_exchange.002",
+          "gse_all_objectives:gse.adult.2022.c2.p36.006"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 17,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 23,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 63,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 68,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 62,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 24,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 14,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.explain",
+      "function_code": "explain",
+      "title": "Explain",
+      "curriculum_intent": "Make reasons, processes, relationships, or complex information clear.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 91,
+        "assignment_ids_sha256": "9d45e5ab454d1b0920e1c475a6d0637e4ab65466875aee7b902b3216d0ab0f08",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p062.b1.sustained_monologue_describing_experience.001",
+          "cefr_all_descriptors:cefr.cv2020.p099.b2.processing_text_in_writing.003",
+          "gse_all_objectives:gse.adult.2022.c1.p36.009"
+        ],
+        "source_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a2",
+        "consolidation_level": "a2",
+        "recycle_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a2",
+            "evidence_count": 13,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 36,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 23,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 15,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.express_ability",
+      "function_code": "express_ability",
+      "title": "Express Ability",
+      "curriculum_intent": "State and qualify ability, possibility, or lack of ability.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 3,
+        "assignment_ids_sha256": "0b7bed8d792a008aa7f9b36ce6d2a76d29dda692db55978d9525cfe398aba619",
+        "representative_assignment_ids": [
+          "gse_all_objectives:gse.adult.2022.a1.p23.006",
+          "gse_all_objectives:gse.adult.2022.a2.p38.008",
+          "gse_all_objectives:gse.adult.2022.b2.p32.014"
+        ],
+        "source_levels": [
+          "a1",
+          "a2",
+          "b2"
+        ],
+        "source_datasets": [
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.express_feeling",
+      "function_code": "express_feeling",
+      "title": "Express Feeling",
+      "curriculum_intent": "Express and respond to feelings and emotional reactions.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 13,
+        "assignment_ids_sha256": "f2e7423a8ab0ed33bad41f45509f9babb4d89a72333cc0bfb5d47f4c8f24d8f0",
+        "representative_assignment_ids": [
+          "gse_all_objectives:gse.adult.2022.a1.p23.010",
+          "gse_all_objectives:gse.adult.2022.b1.p40.021",
+          "gse_all_objectives:gse.adult.2022.b2_plus.p43.002"
+        ],
+        "source_levels": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "source_datasets": [
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.express_opinion",
+      "function_code": "express_opinion",
+      "title": "Express Opinion",
+      "curriculum_intent": "State and develop a personal view or position.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 72,
+        "assignment_ids_sha256": "6c15ec9a0f464b99a0c87e61e56ce740bbdb0b5a5310fca2f22cdacea1c5b357",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p064.a2.sustained_monologue_putting_a_case_e_g.002",
+          "cefr_all_descriptors:cefr.cv2020.p100.b2.processing_text_in_speech_or_sign.004",
+          "gse_all_objectives:gse.adult.2022.c2.p44.005"
+        ],
+        "source_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a2",
+        "consolidation_level": "a2",
+        "recycle_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a2",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 31,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 25,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 6,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.express_preference",
+      "function_code": "express_preference",
+      "title": "Express Preference",
+      "curriculum_intent": "Express and compare likes, dislikes, and preferences.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 8,
+        "assignment_ids_sha256": "e0fd26243b24b99ec3dbfe7f955fd7a372a16e12a99072441ad4a9b675458c04",
+        "representative_assignment_ids": [
+          "gse_all_objectives:gse.adult.2022.a1.p23.014",
+          "gse_all_objectives:gse.adult.2022.a2.p38.014",
+          "gse_all_objectives:gse.adult.2022.b1.p29.033"
+        ],
+        "source_levels": [
+          "a1",
+          "a2",
+          "b1"
+        ],
+        "source_datasets": [
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a1",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.facilitate_interaction",
+      "function_code": "facilitate_interaction",
+      "title": "Facilitate Interaction",
+      "curriculum_intent": "Enable others to contribute and help a group construct meaning.",
+      "strand_role": "mediation",
+      "evidence": {
+        "assignment_count": 131,
+        "assignment_ids_sha256": "eb78c748c1f1776dcdee961693d047bd5b18281865d6d147d32ac6fdc3c8f2cd",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p110.b2.collaborating_to_construct_meaning.001",
+          "cefr_all_descriptors:cefr.cv2020.p115.b1.facilitating_pluricultural_space.002",
+          "gse_all_objectives:gse.adult.2022.b2.p33.013"
+        ],
+        "source_levels": [
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a1",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 16,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 27,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 49,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 21,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 11,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.follow_instructions",
+      "function_code": "follow_instructions",
+      "title": "Follow Instructions",
+      "curriculum_intent": "Understand and act on directions, commands, or instructions.",
+      "strand_role": "receptive",
+      "evidence": {
+        "assignment_count": 59,
+        "assignment_ids_sha256": "a4ee0ddcf9021f85c6d0aacbef69cc1e463fda661c2c5dadb8ee54116ee96edf",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p051.a1.understanding_announcements_and_instructions.001",
+          "cefr_all_descriptors:cefr.cv2020.p058.b2.reading_instructions.001",
+          "gse_all_objectives:gse.adult.2022.below_a1.p14.007"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": "a1",
+        "first_productive_control_level": null,
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 13,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 17,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 16,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.give_information",
+      "function_code": "give_information",
+      "title": "Give Information",
+      "curriculum_intent": "State or present information without a required exchange.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 422,
+        "assignment_ids_sha256": "21f41dd4aef1503c2c45e14c262d76ee7ca34db24cd9459b3b6401f7c7d829bd",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p062.a1.overall_oral_production.001",
+          "gse_all_objectives:gse.adult.2022.a2_plus.p38.010",
+          "gse_all_objectives:gse.adult.2022.c2.p44.004"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 23,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 30,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 118,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 90,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 111,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 36,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 14,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.infer_meaning",
+      "function_code": "infer_meaning",
+      "title": "Infer Meaning",
+      "curriculum_intent": "Infer unfamiliar meaning using linguistic or contextual cues.",
+      "strand_role": "receptive",
+      "evidence": {
+        "assignment_count": 35,
+        "assignment_ids_sha256": "d082af2bafdb16d41495cd73e403e25407f4707e796a44e1a0f2576dc76f609d",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p050.c2.understanding_as_a_member_of_a_live.002",
+          "cefr_all_descriptors:cefr.cv2020.p060.c1.identifying_cues_and_inferring_spoken_signed_and.001",
+          "gse_all_objectives:gse.adult.2022.c1.p20.009"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": "a1",
+        "first_productive_control_level": null,
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 14,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.interpret_attitude_or_implication",
+      "function_code": "interpret_attitude_or_implication",
+      "title": "Interpret Attitude Or Implication",
+      "curriculum_intent": "Interpret stance, intention, tone, or implied meaning.",
+      "strand_role": "receptive",
+      "evidence": {
+        "assignment_count": 17,
+        "assignment_ids_sha256": "28cff52bf5b156a3a2768fb0a1f8c8046aa6c535e7cf6277d9f7e306726c4d3b",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p048.c1.overall_oral_comprehension.002",
+          "cefr_all_descriptors:cefr.cv2020.p059.c1.reading_as_a_leisure_activity.002",
+          "gse_all_objectives:gse.adult.2022.c1.p20.008"
+        ],
+        "source_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "b1",
+        "first_receptive_control_level": "b1",
+        "first_productive_control_level": null,
+        "consolidation_level": "b1",
+        "recycle_levels": [
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "b1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.introduce",
+      "function_code": "introduce",
+      "title": "Introduce",
+      "curriculum_intent": "Introduce oneself, another person, or a topic appropriately.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 17,
+        "assignment_ids_sha256": "6cf52a9a52ff6cf5baca73ac888b2223cc5ea3ce5ae8f7a1ff7efa922b34a7c6",
+        "representative_assignment_ids": [
+          "gse_all_objectives:gse.adult.2022.a1.p22.006",
+          "gse_all_objectives:gse.adult.2022.a2.p25.011",
+          "gse_all_objectives:gse.adult.2022.below_a1.p21.005"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "source_datasets": [
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 8,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.justify_or_argue",
+      "function_code": "justify_or_argue",
+      "title": "Justify Or Argue",
+      "curriculum_intent": "Support, defend, or challenge a position with reasons and evidence.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 71,
+        "assignment_ids_sha256": "f9010cac179b38adce5cf213283a91fbd65446188d228042b104c79a74dd4852",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p064.b1.sustained_monologue_putting_a_case_e_g.001",
+          "cefr_all_descriptors:cefr.cv2020.p100.b2.processing_text_in_speech_or_sign.005",
+          "gse_all_objectives:gse.adult.2022.c2.p36.006"
+        ],
+        "source_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "b1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "b1",
+        "consolidation_level": "b1",
+        "recycle_levels": [
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "b1",
+            "evidence_count": 10,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 41,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 12,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 8,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.locate_information",
+      "function_code": "locate_information",
+      "title": "Locate Information",
+      "curriculum_intent": "Find or extract a required detail from input.",
+      "strand_role": "receptive",
+      "evidence": {
+        "assignment_count": 125,
+        "assignment_ids_sha256": "dd8016f8fedc7f8445805c5b972eb6e4b517f5944cae91767a7b9637dd80a083",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p049.b2.understanding_conversation_between_other_people.002",
+          "gse_all_objectives:gse.adult.2022.a2_plus.p16.015",
+          "gse_all_objectives:gse.adult.2022.c1.p20.012"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": "a1",
+        "first_productive_control_level": null,
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 13,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 17,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 35,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 30,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 26,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "receptive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.manage_discourse",
+      "function_code": "manage_discourse",
+      "title": "Manage Discourse",
+      "curriculum_intent": "Organise, connect, signal, and develop discourse for the audience.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 40,
+        "assignment_ids_sha256": "54785f58cc373656464a2fbdeed98e0db7d98d4b30482071ea6432695d20060b",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p062.c2.overall_oral_production.001",
+          "cefr_all_descriptors:cefr.cv2020.p091.c2.overall_mediation.001",
+          "gse_all_objectives:gse.adult.2022.c1.p36.008"
+        ],
+        "source_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a2",
+        "consolidation_level": "a2",
+        "recycle_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a2",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 12,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 11,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 8,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.mediate_information",
+      "function_code": "mediate_information",
+      "title": "Mediate Information",
+      "curriculum_intent": "Relay, process, or reshape information for another person.",
+      "strand_role": "mediation",
+      "evidence": {
+        "assignment_count": 226,
+        "assignment_ids_sha256": "32e3b8e1ae982f3fd65410911414033c21ebafd9145b12b7fc043abff073f80a",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p091.c1.overall_mediation.001",
+          "cefr_all_descriptors:cefr.cv2020.p107.b1.expressing_a_personal_response_to_creative_texts.001",
+          "gse_all_objectives:gse.adult.2022.b2.p32.011"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 10,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 34,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 55,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 65,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 37,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 22,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.narrate",
+      "function_code": "narrate",
+      "title": "Narrate",
+      "curriculum_intent": "Recount events as an intelligible sequence with relevant detail.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 25,
+        "assignment_ids_sha256": "e5d15cbcc114151ac2d68ac66e4a824333d3725cccbe9c6c2dd3ddc11c3532b7",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p062.b1.sustained_monologue_describing_experience.003",
+          "cefr_all_descriptors:cefr.cv2020.p107.b1.expressing_a_personal_response_to_creative_texts.005",
+          "gse_all_objectives:gse.adult.2022.b2_plus.p34.002"
+        ],
+        "source_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a2",
+        "consolidation_level": "a2",
+        "recycle_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a2",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 15,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.negotiate_or_resolve",
+      "function_code": "negotiate_or_resolve",
+      "title": "Negotiate Or Resolve",
+      "curriculum_intent": "Negotiate conditions, seek compromise, and resolve disagreement.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 13,
+        "assignment_ids_sha256": "51ad353eb604aa68f1fa5a1be05751187842461458f7d86334b9886426df2c95",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p075.b1.informal_discussion_with_friends.009",
+          "cefr_all_descriptors:cefr.cv2020.p086.c1.goal_oriented_online_transactions_and_collaboration.002",
+          "gse_all_objectives:gse.adult.2022.b2_plus.p35.022"
+        ],
+        "source_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "b1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "b1",
+        "consolidation_level": "b1",
+        "recycle_levels": [
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "b1",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 6,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.offer_or_invite",
+      "function_code": "offer_or_invite",
+      "title": "Offer Or Invite",
+      "curriculum_intent": "Make offers and invitations with appropriate detail and register.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 11,
+        "assignment_ids_sha256": "b5c8094790b192a2c6713f38db3593a41ad2ac67f17bbbeebc89a8a4cd52259e",
+        "representative_assignment_ids": [
+          "gse_all_objectives:gse.adult.2022.a2.p24.023",
+          "gse_all_objectives:gse.adult.2022.a2_plus.p39.015",
+          "gse_all_objectives:gse.adult.2022.b2.p42.001"
+        ],
+        "source_levels": [
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "source_datasets": [
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a2",
+        "consolidation_level": "a2",
+        "recycle_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b1",
+          "b2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a2",
+            "evidence_count": 6,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.present_or_address_audience",
+      "function_code": "present_or_address_audience",
+      "title": "Present Or Address Audience",
+      "curriculum_intent": "Plan and deliver communication for an audience.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 42,
+        "assignment_ids_sha256": "69df808ae7f4a5ddb02368084199f29173644d8a7d3a4b1d521107828cfc7b42",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p062.a2.overall_oral_production.001",
+          "cefr_all_descriptors:cefr.cv2020.p105.a2.note_taking_lectures_seminars_meetings_etc.001",
+          "gse_all_objectives:gse.adult.2022.c1.p36.018"
+        ],
+        "source_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a2",
+        "consolidation_level": "a2",
+        "recycle_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a2",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 21,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 9,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.report_or_review",
+      "function_code": "report_or_review",
+      "title": "Report Or Review",
+      "curriculum_intent": "Produce an appropriate report, review, or factual account.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 24,
+        "assignment_ids_sha256": "a6d2d4b57e24ba73155ed89a97ede758fa3dc6ec4fc9d1b00089f9add0094915",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p063.b1.sustained_monologue_giving_information.003",
+          "cefr_all_descriptors:cefr.cv2020.p094.b2.relaying_specific_information_in_speech_or_sign.002",
+          "gse_all_objectives:gse.adult.2022.c1.p44.002"
+        ],
+        "source_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a2",
+        "consolidation_level": "a2",
+        "recycle_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a2",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.reproduce_language",
+      "function_code": "reproduce_language",
+      "title": "Reproduce Language",
+      "curriculum_intent": "Copy, spell, repeat, or read supplied language accurately enough.",
+      "strand_role": "support_strategy",
+      "evidence": {
+        "assignment_count": 17,
+        "assignment_ids_sha256": "d7e60d29dc2c078418de8d0445387c0b095b4e565c1ca35483e4be64fac4795c",
+        "representative_assignment_ids": [
+          "gse_all_objectives:gse.adult.2022.a1.p22.005",
+          "gse_all_objectives:gse.adult.2022.a2.p26.012",
+          "gse_all_objectives:gse.adult.2022.c1.p43.002"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "source_datasets": [
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.request",
+      "function_code": "request",
+      "title": "Request",
+      "curriculum_intent": "Ask for an action, item, help, attention, or service.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 31,
+        "assignment_ids_sha256": "45ec2be2e0f2b5b26642aa1541f97024ec01fc83f67802ecc70ae9ca8cdf99b4",
+        "representative_assignment_ids": [
+          "gse_all_objectives:gse.adult.2022.a1.p22.005",
+          "gse_all_objectives:gse.adult.2022.a2_plus.p28.014",
+          "gse_all_objectives:gse.adult.2022.below_a1.p21.030"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "source_datasets": [
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 8,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 11,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.respond_to_request_or_offer",
+      "function_code": "respond_to_request_or_offer",
+      "title": "Respond To Request Or Offer",
+      "curriculum_intent": "Accept, decline, or otherwise respond to requests and offers.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 6,
+        "assignment_ids_sha256": "803922eb94d6f03c058d482c236b0ad8dc8832179f53650a1619899b222cd923",
+        "representative_assignment_ids": [
+          "gse_all_objectives:gse.adult.2022.a1.p22.012",
+          "gse_all_objectives:gse.adult.2022.a2_plus.p27.001",
+          "gse_all_objectives:gse.adult.2022.b1_plus.p31.029"
+        ],
+        "source_levels": [
+          "a1",
+          "a2",
+          "b1"
+        ],
+        "source_datasets": [
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a1",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.socialize",
+      "function_code": "socialize",
+      "title": "Socialize",
+      "curriculum_intent": "Establish and maintain social contact with suitable politeness.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 14,
+        "assignment_ids_sha256": "a88022b62075fbaa2685ffd0435401f37e7dd35085ff9f1030110a224910405b",
+        "representative_assignment_ids": [
+          "gse_all_objectives:gse.adult.2022.a1.p22.013",
+          "gse_all_objectives:gse.adult.2022.b1_plus.p40.003",
+          "gse_all_objectives:gse.adult.2022.below_a1.p21.026"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "source_datasets": [
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.speculate_or_hypothesize",
+      "function_code": "speculate_or_hypothesize",
+      "title": "Speculate Or Hypothesize",
+      "curriculum_intent": "Express degrees of possibility, prediction, and hypothesis.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 10,
+        "assignment_ids_sha256": "30d193bddce3ef13c98c1eab367695bec114579777a32e2870aea24922e06f17",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p065.c1.addressing_audiences.003",
+          "gse_all_objectives:gse.adult.2022.b2.p33.025",
+          "gse_all_objectives:gse.adult.2022.b2_plus.p35.031"
+        ],
+        "source_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a2",
+        "consolidation_level": "a2",
+        "recycle_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 7,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.summarize",
+      "function_code": "summarize",
+      "title": "Summarize",
+      "curriculum_intent": "Condense input while preserving its main points and relationships.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 48,
+        "assignment_ids_sha256": "3d4189a4a6914a219672566bb4976961d39c520a3e15824f479c450dc059bc78",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p068.b1.reports_and_essays.003",
+          "cefr_all_descriptors:cefr.cv2020.p101.a2.processing_text_in_speech_or_sign.003",
+          "gse_all_objectives:gse.adult.2022.c2.p44.002"
+        ],
+        "source_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a2",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a2",
+        "consolidation_level": "a2",
+        "recycle_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a2",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 20,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 14,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 11,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.synthesize",
+      "function_code": "synthesize",
+      "title": "Synthesize",
+      "curriculum_intent": "Integrate information or arguments from multiple sources into a coherent whole.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 9,
+        "assignment_ids_sha256": "c10b2bce09cde6717e9218ebbcb5203da4eb549d9a3f2f34edde1fe074a77376",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p062.c1.overall_oral_production.001",
+          "cefr_all_descriptors:cefr.cv2020.p099.b2.processing_text_in_writing.002",
+          "gse_all_objectives:gse.adult.2022.c1.p43.003"
+        ],
+        "source_levels": [
+          "b1",
+          "b2",
+          "c1"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "b1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "b1",
+        "consolidation_level": "b1",
+        "recycle_levels": [
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "b2",
+          "c1"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "b1",
+            "evidence_count": 1,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 0,
+            "evidence_status": "planned_recycle",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.transact",
+      "function_code": "transact",
+      "title": "Transact",
+      "curriculum_intent": "Obtain goods or services and complete practical transactions.",
+      "strand_role": "communicative",
+      "evidence": {
+        "assignment_count": 52,
+        "assignment_ids_sha256": "53911015c5d6c25e0601af8699c9c569e4b91b169c07955aae6b6088894269aa",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p078.a1.obtaining_goods_and_services.001",
+          "cefr_all_descriptors:cefr.cv2020.p086.c1.goal_oriented_online_transactions_and_collaboration.002",
+          "gse_all_objectives:gse.adult.2022.b1.p29.030"
+        ],
+        "source_levels": [
+          "pre_a1",
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors",
+          "gse_all_objectives"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "pre_a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "pre_a1",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise"
+            ]
+          },
+          {
+            "level": "a1",
+            "evidence_count": 6,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 18,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 11,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 8,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 5,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    },
+    {
+      "strand_id": "function.translate",
+      "function_code": "translate",
+      "title": "Translate",
+      "curriculum_intent": "Translate meaning appropriately across languages at the required precision.",
+      "strand_role": "mediation",
+      "evidence": {
+        "assignment_count": 17,
+        "assignment_ids_sha256": "2b9e324a9b08d420c8da07f7e34623e43f831f0b286573ad556b92fa41210c8d",
+        "representative_assignment_ids": [
+          "cefr_all_descriptors:cefr.cv2020.p103.b1.translating_a_written_text_in_speech_or.001",
+          "cefr_all_descriptors:cefr.cv2020.p103.c1.translating_a_written_text_in_writing.001",
+          "cefr_all_descriptors:cefr.cv2020.p104.a2.translating_a_written_text_in_writing.001"
+        ],
+        "source_levels": [
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "source_datasets": [
+          "cefr_all_descriptors"
+        ]
+      },
+      "lifecycle": {
+        "first_exposure_level": "a1",
+        "first_receptive_control_level": null,
+        "first_productive_control_level": "a1",
+        "consolidation_level": "a1",
+        "recycle_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "extension_levels": [
+          "a2",
+          "b1",
+          "b2",
+          "c1",
+          "c2"
+        ],
+        "within_level_order_required": true,
+        "stages": [
+          {
+            "level": "a1",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "expose",
+              "introduce",
+              "practise",
+              "consolidate"
+            ]
+          },
+          {
+            "level": "a2",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b1",
+            "evidence_count": 4,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "b2",
+            "evidence_count": 3,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c1",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          },
+          {
+            "level": "c2",
+            "evidence_count": 2,
+            "evidence_status": "source_evidenced",
+            "control_expectation": "productive",
+            "lifecycle_states": [
+              "recycle",
+              "extend"
+            ]
+          }
+        ],
+        "rationale": "Published level evidence sets the first control boundary; earlier Pre-A1 evidence remains support. The function is deliberately recycled at every later exit level, while extension is source-evidenced."
+      },
+      "review": {
+        "status": "accepted",
+        "review_basis": "source_level_boundary_plus_persistence_policy"
+      }
+    }
+  ],
+  "audit": {
+    "strand_count": 41,
+    "source_assignment_count": 2274,
+    "evidence_link_count": 2797,
+    "uncovered_assignments": [],
+    "missing_consolidation": [],
+    "invalid_level_regressions": [],
+    "missing_post_consolidation_recycle": []
+  },
+  "review": {
+    "status": "accepted",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T13:18:23+03:00",
+    "method": "source_boundary_derived_lifecycle_plus_persistence_review",
+    "limitations": [
+      "A CEFR-level lifecycle boundary does not prescribe within-level lesson order.",
+      "Function tags group comparable purposes but do not claim exact semantic equivalence between source records.",
+      "Exact grammar, lexical, pronunciation, and assessment ownership is mapped in companion strands."
+    ]
+  }
+}

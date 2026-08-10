@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/communicative-tag-assignments.schema.json",
+  "title": "Reviewed all-level communicative tag assignments",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "dataset_id", "version", "taxonomy_version", "inputs",
+    "records", "audit", "review"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "dataset_id": {"const": "communicative_tag_assignments_all_levels"},
+    "version": {"const": 1},
+    "taxonomy_version": {"const": "2.0.0"},
+    "inputs": {
+      "type": "array", "minItems": 3, "maxItems": 3,
+      "items": {"$ref": "#/$defs/input"}
+    },
+    "records": {
+      "type": "array", "minItems": 2274, "maxItems": 2274,
+      "items": {"$ref": "#/$defs/assignment"}
+    },
+    "audit": {"$ref": "#/$defs/audit"},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "codeList": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[a-z0-9_]+$"}
+    },
+    "input": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256", "record_count"],
+      "properties": {
+        "path": {"type": "string", "pattern": "^data/(derived|reviewed)/"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "record_count": {"type": "integer", "minimum": 1}
+      }
+    },
+    "assignment": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "source_dataset_id", "source_record_id", "source_level_codes",
+        "source_disposition", "skill_codes", "mode_codes", "function_codes", "rule_ids"
+      ],
+      "properties": {
+        "source_dataset_id": {"enum": ["cefr_all_descriptors", "gse_all_objectives"]},
+        "source_record_id": {"$ref": "#/$defs/text"},
+        "source_level_codes": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"enum": ["pre_a1", "a1", "a2", "b1", "b2", "c1", "c2"]}
+        },
+        "source_disposition": {
+          "enum": ["include_for_spine", "supporting_evidence", "duplicate_or_overlap"]
+        },
+        "skill_codes": {"$ref": "#/$defs/codeList"},
+        "mode_codes": {"$ref": "#/$defs/codeList"},
+        "function_codes": {"$ref": "#/$defs/codeList"},
+        "rule_ids": {"$ref": "#/$defs/codeList"}
+      }
+    },
+    "countMap": {
+      "type": "object", "additionalProperties": {"type": "integer", "minimum": 0}
+    },
+    "audit": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "record_count", "dataset_counts", "level_counts", "skill_counts",
+        "mode_counts", "function_counts", "rule_counts", "untagged_records",
+        "unknown_codes", "missing_dispositions"
+      ],
+      "properties": {
+        "record_count": {"const": 2274},
+        "dataset_counts": {"$ref": "#/$defs/countMap"},
+        "level_counts": {"$ref": "#/$defs/countMap"},
+        "skill_counts": {"$ref": "#/$defs/countMap"},
+        "mode_counts": {"$ref": "#/$defs/countMap"},
+        "function_counts": {"$ref": "#/$defs/countMap"},
+        "rule_counts": {"$ref": "#/$defs/countMap"},
+        "untagged_records": {"type": "array", "maxItems": 0},
+        "unknown_codes": {"type": "array", "maxItems": 0},
+        "missing_dispositions": {"type": "array", "maxItems": 0}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "reviewer", "reviewed_at", "method", "limitations"],
+      "properties": {
+        "status": {"const": "accepted"},
+        "reviewer": {"const": "codex_primary_curriculum_agent"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "method": {"const": "deterministic_rules_plus_distribution_and_hotspot_review"},
+        "limitations": {
+          "type": "array", "minItems": 2, "items": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

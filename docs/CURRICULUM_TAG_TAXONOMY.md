@@ -1,9 +1,9 @@
-# A1 Curriculum Tag Taxonomy v1.0.0
+# All-Level Curriculum Tag Taxonomy v2.0.0
 
 ## Purpose and evidence boundary
 
-These controlled codes normalize the reviewed GSE A1 objectives and CEFR A1
-descriptors for comparison in Phase 2. They are project interpretations, not wording or
+These controlled codes normalize reviewed GSE and CEFR evidence from Pre-A1 through
+C2 for vertical comparison. They are project interpretations, not wording or
 labels published by Pearson or the Council of Europe. Verbatim text, source facts,
 locations, hashes, inclusion decisions, and source-specific warnings remain unchanged.
 
@@ -37,6 +37,7 @@ language skill.
 | `online_interaction` | Interacting through an online written or multimodal channel. |
 | `mediation` | Relaying, translating, processing, or facilitating meaning for others. |
 | `communicative_competence` | Language-system control supporting communication. |
+| `plurilingual_pluricultural` | Building on multiple languages and cultural repertoires. |
 
 CEFR mode labels map directly to these codes. Pearson labels only Reading, Listening,
 Speaking, and Writing, so GSE modes are inferred from the objective action: Reading and
@@ -72,14 +73,31 @@ transaction is required. This inference remains in `interpretation.mode_codes`.
 | `facilitate_interaction` | Invite, support, or sustain others' collaborative contribution. |
 | `reproduce_language` | Copy, spell, repeat, or read supplied language aloud. |
 | `control_language_form` | Control grammar, vocabulary, sound, spelling, punctuation, or cohesion. |
+| `interpret_attitude_or_implication` | Interpret stance, intention, tone, or implied meaning. |
+| `narrate` | Recount events as an intelligible sequence. |
+| `express_opinion` | State and develop a personal view. |
+| `offer_or_invite` | Make offers and invitations appropriately. |
+| `explain` | Make reasons, processes, or relationships clear. |
+| `justify_or_argue` | Support or challenge a position with reasons and evidence. |
+| `compare` | Communicate relevant similarities and differences. |
+| `evaluate` | Judge options, evidence, or sources against criteria. |
+| `summarize` | Condense input while preserving its main points. |
+| `synthesize` | Integrate information or arguments across sources. |
+| `speculate_or_hypothesize` | Express possibility, prediction, and hypothesis. |
+| `advise_or_recommend` | Give or seek advice and recommend action. |
+| `negotiate_or_resolve` | Negotiate conditions and resolve disagreement. |
+| `present_or_address_audience` | Plan and deliver communication for an audience. |
+| `report_or_review` | Produce an appropriate report, review, or factual account. |
+| `analyze_or_criticize` | Analyse evidence or a text and produce reasoned criticism. |
+| `manage_discourse` | Organise, connect, signal, and develop discourse. |
 
 ## Deterministic assignment and ambiguity
 
-`scripts/tag_gse.py` assigns GSE tags from its source skill and action wording.
-`scripts/tag_cefr.py` assigns CEFR tags from its source mode, skill hierarchy, scale,
-and descriptor action. `scripts/curriculum_tagging.py` applies those decisions without
-changing evidence fields, and `scripts/normalize_curriculum_tags.py` updates the four
-derived/reviewed collections reproducibly.
+`scripts/tag_gse_progression.py` assigns all-level GSE tags from source skill and action
+wording. `scripts/tag_cefr_progression.py` assigns CEFR tags from source mode, skill
+hierarchy, scale, and descriptor action. The compact reviewed assignments are in
+`data/reviewed/communicative-tag-assignments-v1.json`. Earlier A1 taggers remain for
+reproducibility of the historical A1 audit.
 
 The CEFR personal-response descriptor does not fix whether the learner responds orally
 or in writing. Both supported productive channels are tagged and the uncertainty is
