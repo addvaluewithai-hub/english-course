@@ -71,16 +71,17 @@ Each lesson candidate needs:
 - a mastery rubric that can be observed in a fresh task;
 - an estimated scope band, not an arbitrary fixed duration.
 
-Exit gate: the final A1 lesson map has no tiny fragments, overloaded lessons, missing
-skills, or untraceable outcomes.
+Historical technical gate: the 81-candidate map passed its internal source and lesson
+contract. This did not constitute owner approval of the lesson count, sequence, or
+final A1 syllabus. Those decisions remain open to replacement in the cross-level gate.
 
 ## Cross-level spine gate - Owner-directed critical workstream
 
 Before mass-producing the remaining A1 lessons, build a vertical curriculum spine from
 A1 through C2, with Pre-A1 as an onboarding support band. Normalize the all-level CEFR,
 GSE, EGP, GSE Grammar, and Oxford evidence; review level exit profiles; assign lifecycle
-ownership across communicative abilities and language systems; and reconcile the 81 A1
-candidates plus Unit 1.
+ownership across communicative abilities and language systems; and reconcile, replace,
+or retire the 81 current A1 candidates plus Unit 1. The final count is evidence-led.
 
 A small gold-lesson or Unit 1 delivery pilot may continue because it tests the learning
 experience rather than content placement. It does not unlock mass production.

@@ -2,8 +2,9 @@
 
 ## Purpose
 
-Reconcile the approved 81 A1 abilities and the current Unit 1 packages against the
-cross-level spine without discarding source-linked work that remains valid.
+Audit the 81 source-audited A1 candidates and the current Unit 1 packages against the
+cross-level spine. They are not an owner-approved syllabus and receive no preservation
+bias: reuse only work that earns a place in the final curriculum.
 
 ## Candidate decision
 
@@ -14,7 +15,9 @@ Every A1 candidate receives exactly one primary decision:
 - `split`: one task cannot validly assess all parts;
 - `merge`: two candidates duplicate the same independent performance;
 - `defer`: independent control belongs after A1;
-- `support_only`: useful language or strategy, but not separate lesson mastery.
+- `support_only`: useful language or strategy, but not separate lesson mastery;
+- `replace`: the need is valid but a newly designed candidate serves it better;
+- `retire`: remove the candidate because it adds no necessary independent outcome.
 
 ## Required audit columns
 
@@ -37,7 +40,7 @@ independence, complexity, length, or precision than the A1 exit profile requires
 
 ### 2. Global ability coverage
 
-Map the 81 candidates to A1 reception, production, oral interaction, written/online
+Map the current 81 candidates to A1 reception, production, oral interaction, written/online
 interaction, mediation, repair, and language-control expectations. Report missing and
 overrepresented dimensions.
 
@@ -72,7 +75,8 @@ level exit evidence.
 
 ## Outputs
 
-- reviewed reconciliation dataset for all 81 candidates;
+- reviewed reconciliation dataset for all 81 current candidates, including replaced
+  and retired items;
 - grammar, vocabulary, pronunciation, and ability coverage reports;
 - proposed changes with before/after source traceability;
 - final A1 unit boundaries and scope-and-sequence v1;
@@ -80,5 +84,5 @@ level exit evidence.
 
 ## Stop rule
 
-Do not rewrite all lessons during the audit. First approve the reconciliation decisions,
-then update only affected source packets and content packages.
+Do not mass-author lessons during the audit. First approve the new curriculum decisions,
+then author or update only the source packets and content packages the final map needs.

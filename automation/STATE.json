@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
   "project_status": "active",
-  "active_phase": "phase_4_gold_lesson",
-  "last_completed_task": "SPINE-001",
-  "next_task": "SPINE-002",
-  "updated_at": "2026-08-10T12:00:00+03:00",
+  "execution_mode": "single_primary_agent_continuous",
+  "scheduled_execution": "disabled_by_owner",
+  "active_phase": "cross_level_vertical_spine",
+  "last_completed_task": "SPINE-002",
+  "next_task": "SPINE-003",
+  "updated_at": "2026-08-10T12:43:20+03:00",
   "phase_gates": {
     "phase_0_foundation": "passed",
     "phase_1_learning_model": "passed",
@@ -37,6 +39,19 @@
     "proposal_status": "needs_review",
     "egp_all_level_records": 1222,
     "mass_a1_production": "blocked_until_spine_006",
-    "parallel_delivery_pilot": "allowed"
+    "parallel_delivery_pilot": "allowed",
+    "current_a1_candidates": 81,
+    "current_a1_candidate_status": "source_audited_not_owner_approved",
+    "final_a1_lesson_count": "open"
+  },
+  "source_normalization": {
+    "status": "complete",
+    "gse_objective_rows": 1050,
+    "cefr_descriptor_rows": 1224,
+    "egp_feature_rows": 1222,
+    "gse_grammar_rows": 456,
+    "oxford_3000_entry_lines": 3307,
+    "oxford_5000_entry_lines": 2015,
+    "validation_tests_passed": 267
   }
 }

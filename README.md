@@ -5,14 +5,16 @@ The learning loop is: understand, practice, use, explain, review, and retain.
 
 ## Current delivery
 
-- The A1 curriculum map contains 81 approved lesson candidates.
+- The A1 curriculum map contains 81 source-audited lesson candidates. They passed an
+  internal contract, but the owner has not approved them as the final A1 syllabus.
 - The gold lesson, `Introduce Yourself`, is complete and owner-approved.
 - Unit 1, `First Connections`, has eight complete lesson source packages.
 - A browser prototype is available for the gold lesson.
 - An A1-C2 vertical-curriculum proposal and validated level exit profiles are ready
-  for curriculum-team review.
-- All 1,222 English Grammar Profile features are available as an all-level derived
-  dataset; record-level lifecycle review remains pending.
+  for evidence review.
+- All-level CEFR, GSE objectives, EGP, GSE Grammar, Oxford 3000, and Oxford 5000
+  source records are normalized with page or row provenance. Curriculum dispositions
+  and lifecycle ownership remain pending.
 - Rendered voice/video assets and external learner-pilot evidence are still pending.
 
 Read [HANDOFF.md](HANDOFF.md) before continuing the project.
@@ -49,11 +51,11 @@ downloaded. All curriculum, lesson-package, and Unit 1 tests still run.
 - `units/unit-01-first-connections/` - complete first-unit source package
 - `gold/introduce-yourself/` - accepted reference lesson and video script
 - `sources/registry/SOURCES.md` - source URLs, roles, and verified hashes
-- `automation/AGENT_RUNBOOK.md` - recurring-agent operating contract
+- `automation/AGENT_RUNBOOK.md` - single-primary-agent operating contract
 
 ## Repository map
 
-- `automation/` - runbook, historical queue, and state
+- `automation/` - project checklist, runbook, and state; it does not schedule agents
 - `data/derived/` - structured machine-derived curriculum records
 - `data/reviewed/` - reviewed curriculum records and audits
 - `docs/` - product, pedagogy, policy, and QA decisions

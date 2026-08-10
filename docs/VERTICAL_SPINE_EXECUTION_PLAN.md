@@ -31,9 +31,11 @@ Acceptance:
 - counts reconcile to the registered source and duplicate/parse issues are explicit;
 - extraction code is modular and deterministic.
 
-Current result: the all-level EGP dataset exists in
-`data/derived/egp-all-levels.json`; the other sources remain to be normalized beyond
-their existing A1 subsets and full text mirrors.
+Current result: this work package is complete. The all-level datasets are
+`cefr-all-descriptors.json`, `gse-all-objectives.json`, `egp-all-levels.json`,
+`gse-grammar-all.json`, `oxford-3000-all.json`, and `oxford-5000-all.json` under
+`data/derived/`. Counts and parse exceptions are documented in
+`docs/SOURCE_COVERAGE_AUDIT_ALL_LEVELS.md`.
 
 ## Work package 3 - Build source dispositions
 
@@ -85,13 +87,15 @@ Acceptance:
 
 ## Work package 6 - Reconcile current A1
 
-Audit all 81 A1 candidates, the gold lesson, and eight Unit 1 source packages against
-the reviewed spine. Preserve valid authored work and identify gaps, premature demands,
-duplicates, vague lexical targets, missing recycling, and later-level leakage.
+Audit all 81 current A1 candidates, the gold lesson, and eight Unit 1 source packages
+against the reviewed spine. They are working evidence, not fixed syllabus decisions.
+Identify gaps, premature demands, duplicates, vague lexical targets, missing recycling,
+and later-level leakage.
 
 Acceptance:
 
-- every candidate has a keep/revise/split/merge/defer decision;
+- every candidate has a keep/revise/split/merge/defer/support-only/replace/retire decision;
+- the final lesson count follows the evidence rather than preserving 81 by default;
 - grammar, vocabulary, phrases, and pronunciation have exact ownership and lifecycle
   states;
 - every change retains original source evidence and rationale.

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import unittest
 from collections import Counter
 from pathlib import Path
@@ -38,7 +39,14 @@ class EgpAllLevelTests(unittest.TestCase):
         source = self.all_data["source"]
         self.assertEqual("Data", source["sheet"])
         self.assertEqual("A1:H1223", source["range"])
-        self.assertTrue((ROOT / source["raw_file"]).is_file())
+        raw_file = ROOT / source["raw_file"]
+        self.assertTrue(raw_file.is_file())
+        self.assertEqual(
+            source["source_file_sha256"].lower(), hashlib.sha256(raw_file.read_bytes()).hexdigest()
+        )
+        for expected_row, record in enumerate(self.all_data["records"], 2):
+            self.assertEqual(expected_row, record["_source"]["spreadsheet_row"])
+            self.assertTrue(record["_source"]["raw_level_text"].strip())
 
 
 if __name__ == "__main__":

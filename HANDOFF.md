@@ -4,7 +4,8 @@
 
 The project has a reviewed A1 curriculum foundation and one complete content unit.
 
-- 218 reviewed CEFR/GSE source records feed an approved 81-lesson A1 map.
+- 218 reviewed CEFR/GSE source records feed 81 source-audited A1 candidates. They are
+  evidence-backed working material, not an owner-approved lesson count or syllabus.
 - The gold lesson is `Introduce Yourself` under `gold/introduce-yourself/`.
 - The owner tested and accepted the one-teacher Arabic/English presentation style.
 - Every English expression in the video scripts has pronunciation guidance for
@@ -16,8 +17,10 @@ The project has a reviewed A1 curriculum foundation and one complete content uni
   production. The proposal, exit profiles, source audit, and execution plan are in
   `docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md`,
   `docs/LEVEL_EXIT_PROFILES_V0.md`, and `docs/VERTICAL_SPINE_EXECUTION_PLAN.md`.
-- `data/derived/egp-all-levels.json` contains all 1,222 EGP features. It is derived
-  evidence, not an approved grammar syllabus.
+- All cross-level source inventories are normalized under `data/derived/`: 1,050 GSE
+  objectives, 1,224 CEFR descriptors, 1,222 EGP features, 456 GSE Grammar entries,
+  3,307 Oxford 3000 entry lines, and 2,015 Oxford 5000 entry lines. They are derived
+  evidence, not approved syllabuses.
 
 ## Important boundary
 
@@ -25,19 +28,21 @@ The authored content package is complete; the product is not production-ready.
 There is no rendered media pipeline, learner account system, production database,
 analytics layer, or external learner-pilot result yet.
 
-`automation/STATE.json` and `automation/TASKS.json` preserve the original gated
-factory history. Later owner-directed work produced Unit 1 before the earlier pilot,
+`automation/STATE.json` and `automation/TASKS.json` preserve the gated factory history
+and now act only as project memory and a checklist. They do not create scheduled tasks.
+Later owner-directed work produced Unit 1 before the earlier pilot,
 system, and architecture gates were formally closed. Treat this as an explicit
 exception, not proof that those gates passed.
 
 ## Recommended next work
 
-1. Review and approve or revise the A1-C2 exit-profile proposal.
-2. Normalize all-level CEFR, GSE, GSE Grammar, and Oxford records with exact provenance.
-3. Build reviewed progression strands and lifecycle ownership across all levels.
-4. Reconcile the 81 A1 candidates and Unit 1, then lock A1 scope and sequence v1.
-5. In parallel, run a small consent-based gold-lesson pilot and record delivery evidence.
-6. Resume mass A1 production only after the vertical-spine and delivery gates pass.
+1. Review every normalized source record's curriculum disposition and revise the A1-C2
+   exit-profile proposal against that evidence.
+2. Build reviewed progression strands and lifecycle ownership across all levels.
+3. Reconcile, replace, or retire the 81 A1 candidates and Unit 1 as needed, then lock
+   A1 scope and sequence v1 without preserving the current lesson count by default.
+4. In parallel, run a small consent-based gold-lesson pilot and record delivery evidence.
+5. Resume mass A1 production only after the vertical-spine and delivery gates pass.
 
 ## Content locations
 

@@ -9,9 +9,10 @@ A1 lessons. Use Pre-A1 as an onboarding and support band, not as a promised exit
 Use the GSE plus bands (A2+, B1+, B2+) as internal progress milestones rather than new
 CEFR exit claims.
 
-The gold lesson and Unit 1 remain valid authored evidence. A small delivery pilot may
-continue, but full-A1 production is blocked until the A1 map is reconciled with the
-approved vertical spine.
+The gold lesson and Unit 1 are authored prototypes, not fixed curriculum constraints.
+They may be kept, revised, replaced, or retired after reconciliation. A small delivery
+pilot may continue, but full-A1 production is blocked until the A1 map is reconciled
+with the approved vertical spine.
 
 ## What this architecture controls
 
@@ -123,7 +124,7 @@ Mass A1 production may resume only after:
 - all-level source normalization and disposition audits pass;
 - level exit profiles are approved;
 - progression strands and lifecycle ownership are reviewed;
-- the 81 A1 candidates and Unit 1 are reconciled;
+- the 81 current A1 candidates and Unit 1 are reconciled without a fixed-count bias;
 - A1 scope, sequence, unit boundaries, and assessment coverage are locked as v1.
 
 ## Primary source locations

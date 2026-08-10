@@ -100,7 +100,7 @@
     {
       "id": "LESSON-002",
       "phase": "phase_3_lesson_normalization",
-      "title": "Create and audit the final A1 lesson map",
+      "title": "Create and source-audit the initial A1 candidate map",
       "status": "complete",
       "dependencies": ["LESSON-001"],
       "acceptance": "Lessons are coherent, source-linked, sequenced, balanced, and individually assessable.",
@@ -138,7 +138,7 @@
         "Next partition: review source-linked language targets and labelled error decisions for the six remaining social-contact/collaboration candidates: agreeing to a request, accepting an offer, showing sympathy, inviting input and checking understanding, showing interest and welcoming an idea, and sharing an idea while asking what others think; candidate approval remains later.",
         "2026-07-18 final social-contact/collaboration target/error partition complete: reviewed 19 source-linked target entries and six labelled learner-error hypotheses across the final six candidates; all 81 candidates now have explicit decisions and none is approved.",
         "Next partition: begin the separate candidate-approval audit with the nine foundational reception candidates; keep LESSON-002 in progress and Phase 4 locked.",
-        "2026-07-19 consolidated approval complete: all 81 candidates passed the full mechanical and semantic acceptance contract in one fast-track audit; 218/218 source records remain covered, the global audit passed, and all 228 tests passed. Phase 4 opened."
+        "2026-07-19 internal contract audit complete: all 81 candidates passed the mechanical and semantic acceptance contract; 218/218 source records remain covered, the global audit passed, and all 228 tests passed. This was not owner approval of the lesson count or final A1 syllabus."
       ]
     },
     {
@@ -156,18 +156,21 @@
       "id": "SPINE-002",
       "phase": "cross_level_vertical_spine",
       "title": "Normalize all-level curriculum sources",
-      "status": "ready",
+      "status": "complete",
       "dependencies": ["SPINE-001"],
       "acceptance": "CEFR, GSE, EGP, GSE Grammar, and Oxford records are versioned, provenance-complete, count-reconciled, and validation-clean.",
       "notes": [
-        "The EGP all-level partition is complete. Continue with CEFR, GSE, GSE Grammar, and PDF-aware Oxford normalization."
+        "The EGP all-level partition is complete.",
+        "2026-08-10: normalized 1,050 GSE objective rows, 1,224 CEFR descriptor rows, 456 GSE Grammar rows, 3,307 Oxford 3000 entry lines, and 2,015 Oxford 5000 entry lines with exact page provenance and locked count audits.",
+        "2026-08-10: enriched all 1,222 EGP records with spreadsheet-row provenance and source hash; verified the workbook through artifact-tool.",
+        "2026-08-10: all 267 repository tests passed. Source exceptions and undecided review boundary are documented in docs/SOURCE_COVERAGE_AUDIT_ALL_LEVELS.md."
       ]
     },
     {
       "id": "SPINE-003",
       "phase": "cross_level_vertical_spine",
       "title": "Review source dispositions and level exit profiles",
-      "status": "locked",
+      "status": "ready",
       "dependencies": ["SPINE-002"],
       "acceptance": "All relevant records have dispositions and every exit claim is reviewed across skills, modes, language systems, and complexity."
     },
@@ -185,7 +188,7 @@
       "title": "Reconcile the current A1 map and Unit 1",
       "status": "locked",
       "dependencies": ["SPINE-004", "GOLD-002"],
-      "acceptance": "All 81 candidates and Unit 1 have source-preserving keep, revise, split, merge, defer, or support-only decisions."
+      "acceptance": "All 81 current candidates and Unit 1 have evidence-led keep, revise, split, merge, defer, support-only, replace, or retire decisions; the final lesson count is unconstrained."
     },
     {
       "id": "SPINE-006",

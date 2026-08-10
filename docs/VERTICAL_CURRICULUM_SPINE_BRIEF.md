@@ -5,9 +5,10 @@
 Build an A1-C2 curriculum spine before mass-producing the remaining A1 lessons. Treat
 Pre-A1 as a diagnostic and remedial on-ramp, not as a promised exit level. Treat A2+,
 B1+, and B2+ as internal GSE milestones rather than separate CEFR exit claims.
-Do not discard the gold lesson or Unit 1; use them as authored evidence to reconcile
-against the spine. A small delivery pilot may proceed in parallel because it tests a
-different question.
+Use the gold lesson and Unit 1 as authored prototypes to reconcile against the spine,
+not as constraints. Revise, replace, or retire their curriculum choices when the
+cross-level evidence requires it. A small delivery pilot may proceed in parallel
+because it tests a different question.
 
 ## Goal
 
@@ -24,7 +25,7 @@ The supported exit range is locked as A1 through C2.
 - English Grammar Profile export with 1,222 records across levels.
 - Pearson GSE Grammar Guide.
 - Oxford 3000 and Oxford 5000 levelled vocabulary pools.
-- Reviewed A1 CEFR/GSE records, 81 approved A1 abilities, relationship audits, gold
+- Reviewed A1 CEFR/GSE records, 81 source-audited candidate abilities, relationship audits, gold
   lesson, and Unit 1 source packages.
 
 Current extraction and approval code is A1-scoped. Extend it; do not assume it already
@@ -83,9 +84,10 @@ consolidation, extension, and deliberate deferral.
 
 ### 4. Reconcile A1
 
-Audit the 81 approved A1 abilities and eight Unit 1 lessons against the spine. Identify
+Audit the 81 current A1 candidates and eight Unit 1 lessons against the spine. Identify
 missing coverage, premature control demands, duplicates, lexical vagueness, and items
-that belong to later levels. Preserve valid authored work.
+that belong to later levels. Keep, revise, split, merge, defer, replace, or retire work
+according to evidence; the final count is open.
 
 ### 5. Lock A1 scope and sequence v1
 

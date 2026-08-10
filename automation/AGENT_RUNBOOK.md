@@ -1,10 +1,13 @@
-# Hourly Curriculum Agent Runbook
+# Primary Curriculum Agent Runbook
 
-Each scheduled run completes exactly one bounded task from `automation/TASKS.json`,
-verifies it, records the result, and stops. Quality and traceability matter more than
-the number of files produced.
+The owner has chosen one continuing primary Codex task, not scheduled or hourly
+execution. `automation/TASKS.json` is a durable checklist and `automation/STATE.json`
+is project memory; neither file creates an automation or a background agent.
 
-## 1. Orient every run
+The primary agent may complete as many coherent partitions as are safe in one turn.
+Quality, source traceability, and honest status matter more than file count or speed.
+
+## 1. Orient before a work session
 
 Read completely, in this order:
 
@@ -16,25 +19,21 @@ Read completely, in this order:
 6. `automation/STATE.json`
 7. `automation/TASKS.json`
 
-Inspect recent reports in `logs/runs/` only when needed for the selected task.
+Inspect historical reports in `logs/runs/` only when needed for the current task.
 
 ## 2. Respect the phase gate
 
-Select the first task whose status is `ready` and whose dependencies are complete.
-Never work ahead of the active phase. If no task is ready, diagnose dependency state,
-record a short no-op report, and stop.
+Work on the first task whose status is `ready` and whose dependencies are complete.
+Do not work ahead of the active phase. If no task is ready, diagnose and correct the
+dependency state or explain the genuine owner decision that is required.
 
 Do not build the app, database, or mass content while discovery tasks remain.
 
-## 3. Concurrency and ownership
+## 3. Ownership
 
-Create `automation/RUNNING.json` with the run id, task id, and start time before edits.
-If it already exists and is newer than three hours, stop without editing. If older than
-three hours, treat it as stale, mention recovery in the report, and replace it.
-
-The primary scheduled agent is the only writer. It may use up to three sub-agents for
-independent read-only extraction, source checking, or critique. Sub-agents must not edit
-shared files. The primary agent integrates and verifies their findings.
+One primary agent owns implementation, integration, validation, and status. Do not
+create scheduled tasks or delegate to sub-agents unless the owner explicitly changes
+this decision. No `RUNNING.json` lock is required for this single-agent workflow.
 
 ## 4. Execute one bounded task
 
@@ -48,8 +47,8 @@ shared files. The primary agent integrates and verifies their findings.
 - Keep files focused and under the project line limits.
 - Use authoritative sources for any web research and record URLs.
 
-If a task is too large for one run, finish one coherent partition, validate it, record
-the partition in the task notes, leave the task `in_progress`, and stop.
+If a task is large, finish and validate coherent partitions while keeping the parent
+task `in_progress`. Continue in later turns without pretending the task is complete.
 
 ## 5. Critique before acceptance
 
@@ -62,11 +61,13 @@ For curriculum work, check at minimum:
 - whether interpretations have been mislabeled as source facts;
 - clear Modern Standard Arabic where Arabic is present.
 
-Use an independent read-only reviewer for high-impact mappings when practical.
+Run separate deterministic checks and structured self-review for high-impact mappings.
+External specialist or learner review remains a named gate where evidence requires it.
 
 ## 6. Verify and record
 
-Create `logs/runs/YYYY-MM-DDTHH-mm-ss_TASK-ID.md` with:
+For a completed milestone or material partition, create a focused report under
+`logs/runs/` when the evidence would otherwise be hard to reconstruct. Include:
 
 - task and outcome;
 - files created or changed;
@@ -76,19 +77,17 @@ Create `logs/runs/YYYY-MM-DDTHH-mm-ss_TASK-ID.md` with:
 - exact recommended next task.
 
 Then update `automation/TASKS.json` and `automation/STATE.json`. Mark a task complete
-only when its acceptance criteria pass. Remove `automation/RUNNING.json` last.
+only when its acceptance criteria pass.
 
-If the project is a Git repository, create one local commit for the verified task using
-`task: TASK-ID - short outcome`. Never push from the scheduled run.
+Use intentional commits for verified milestones. Push only when the owner has
+authorized publishing; the current private repository may be pushed directly to its
+main branch under the owner's standing instruction.
 
-## 7. Stop conditions
+## 7. Completion and pause conditions
 
-Stop after one task or one coherent task partition. Do not begin the next task.
-
-If all tasks are complete, set project status to `complete`, report that the plan has
-finished, and do no further work. If a product decision is genuinely required, set the
-task to `needs_user` with a concrete question and continue any other safe independent
-task on later runs.
+Continue while safe work remains. If all tasks are genuinely complete, set project
+status to `complete` and report the final evidence. If an owner decision is genuinely
+required, record the precise question and continue any safe independent work.
 
 Never communicate externally, spend money, deploy publicly, publish content, or upload
 private files. Do not expose credentials. Image/audio/video generation is prohibited

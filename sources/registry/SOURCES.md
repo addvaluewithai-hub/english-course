@@ -4,7 +4,7 @@ Downloaded and verified on 2026-07-15. Raw files are immutable. Text mirrors und
 `data/derived/source-text/` support search; cite the raw source location. The URLs
 and hashes below allow the included snapshots to be independently verified.
 
-## Active A1 sources
+## Active curriculum sources
 
 ### CEFR Companion Volume 2020 - English
 
@@ -54,11 +54,13 @@ and hashes below allow the included snapshots to be independently verified.
 - URL: https://www.oxfordlearnersdictionaries.com/us/external/pdf/wordlists/oxford-3000-5000/The_Oxford_3000_by_CEFR_level.pdf
 - SHA-256: `B81E3F65C976FC93EB342BA34C40F0FF8C3A59646312D09AC50F9C648E461CD3`
 
-## Later-level source
+### Oxford 5000 additions by CEFR level
 
-Oxford 5000 adds B2-C1 items, so it is retained for future levels but is not an A1
-input. File: `sources/raw/vocabulary/oxford-5000-by-cefr-level.pdf`; SHA-256:
-`6577E6EB8745226AB7AB80912E83D285CF421EC70E61C92D74D5FEF5F2C99570`.
+- File: `sources/raw/vocabulary/oxford-5000-by-cefr-level.pdf`
+- Pages: 8
+- Role: additional B2-C1 vocabulary pool; not an A1 input or mandatory syllabus
+- URL: https://www.oxfordlearnersdictionaries.com/us/external/pdf/wordlists/oxford-3000-5000/The_Oxford_5000_by_CEFR_level.pdf
+- SHA-256: `6577E6EB8745226AB7AB80912E83D285CF421EC70E61C92D74D5FEF5F2C99570`
 
 ## Private historical inputs
 
