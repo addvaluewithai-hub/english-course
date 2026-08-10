@@ -1,0 +1,4441 @@
+{
+  "schema_version": 1,
+  "dataset_id": "a1_grammar_coverage_ownership",
+  "version": 1,
+  "inputs": [
+    {
+      "path": "data/derived/egp-all-levels.json",
+      "sha256": "c8b87795774e1938125d2bd105a962a97c887712e1fae8bcbfdfa5e3ec9536b3"
+    },
+    {
+      "path": "data/derived/gse-grammar-all.json",
+      "sha256": "ae13883e6408054c060604f11d1d77a100e8bf90954b8fc9fbe6e08d2a27ee3b"
+    },
+    {
+      "path": "data/reviewed/grammar-family-strands-v1.json",
+      "sha256": "00a83dbe2818a1aec6f668fbf26182da5cfef6528b1c7e6afbbb3f7e915aec7e"
+    },
+    {
+      "path": "data/reviewed/a1-reconciliation-worklist-v1.json",
+      "sha256": "b61e6d565003c5cee170db8c3660f9b96159894e39f928fe4fd71cd7075ae983"
+    },
+    {
+      "path": "data/reviewed/a1-outcome-level-fit-review-v1.json",
+      "sha256": "28c0e4fca70c99f2517314f3b2d866eb8f66a5c5500e7833030b6dc7c74defc4"
+    },
+    {
+      "path": "data/reviewed/a1-ability-coverage-overlap-audit-v1.json",
+      "sha256": "9d986a4fe493926aaec9723333a478b0d8c877d708d57c9fc46af49542b7798d"
+    }
+  ],
+  "policy": {
+    "source_role": "EGP and GSE Grammar are evidence inventories, not automatic lesson or mastery checklists.",
+    "course_item_role": "The controlled items define exact A1 forms, meanings, limits, contexts, and fresh-task mastery evidence.",
+    "ownership_status": "Candidate owners are reconciliation contexts and may move intact when candidates merge or the final sequence changes.",
+    "variety_policy": "Internationally intelligible core English is taught; have is the course default while BrE have got is registered as valid.",
+    "assessment_policy": "Grammar is assessed through meaning-preserving use in fresh communicative tasks, not rule naming or isolated recall alone."
+  },
+  "course_items": [
+    {
+      "item_id": "grammar.be_affirmative",
+      "title": "Present be: affirmative",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "I am/I'm",
+        "you/we/they are/'re",
+        "he/she/it is/'s",
+        "subject + be + name, age, nationality, job, location, noun phrase, or adjective"
+      ],
+      "meaning_use": "Identify and describe people, things, states, and locations in the present.",
+      "introduction_owner_ids": [
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.give_short_self_introduction"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.describe_a_family_or_known_person"
+      ],
+      "mastery_evidence": "Produce accurate subject-be agreement in fresh identity and description prompts.",
+      "not_yet": "Past be and complex complements wait for later control.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 11,
+        "egp_feature_ids": [
+          "1741163706530x753542801715210100",
+          "1741163712047x409239658002596100",
+          "1741163713867x970460151516622800",
+          "1741163715288x539616242661052000",
+          "1741163715608x123988758899529200"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p07.002",
+          "gse.grammar.2023.p07.005",
+          "gse.grammar.2023.p07.006",
+          "gse.grammar.2023.p07.008",
+          "gse.grammar.2023.p08.001",
+          "gse.grammar.2023.p09.003"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.be_negative",
+      "title": "Present be: negative",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "I am not/I'm not",
+        "you/we/they are not/aren't",
+        "he/she/it is not/isn't"
+      ],
+      "meaning_use": "Correct or deny a present identity, state, description, or location.",
+      "introduction_owner_ids": [
+        "lesson_candidate.write_short_personal_profile"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_simple_problem_to_a_health_professional"
+      ],
+      "mastery_evidence": "Correct a false detail using the matching negative form without a model.",
+      "not_yet": "No emphatic, tag, or contrastive negative system at A1.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 4,
+        "egp_feature_ids": [
+          "1741163708329x778951051617750700",
+          "1741163716067x824562184770361200",
+          "1741163715288x539616242661052000"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p08.001"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.be_questions",
+      "title": "Present be: questions and short answers",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "Am I ...?",
+        "Are you/we/they ...?",
+        "Is he/she/it ...?",
+        "wh-word + am/is/are + subject?",
+        "Yes, subject + am/is/are; No, subject + am not/isn't/aren't"
+      ],
+      "meaning_use": "Ask and answer direct questions about identity, state, description, and location.",
+      "introduction_owner_ids": [
+        "lesson_candidate.exchange_personal_details_orally"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.exchange_basic_information_about_a_home"
+      ],
+      "mastery_evidence": "Complete a fresh information gap with correct be-question order and relevant short answers.",
+      "not_yet": "Embedded questions and question tags wait for later levels.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 5,
+        "egp_feature_ids": [
+          "1741163708336x928067678664856700",
+          "1741163713867x150062658595893500"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p07.011",
+          "gse.grammar.2023.p07.012",
+          "gse.grammar.2023.p08.005"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.present_simple_affirmative",
+      "title": "Present simple: affirmative",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "I/you/we/they + base verb",
+        "he/she/it + verb-s/-es",
+        "limited irregular forms: have/has, do/does, go/goes"
+      ],
+      "meaning_use": "State present facts, routines, likes, and familiar repeated actions.",
+      "introduction_owner_ids": [
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.introduce_another_person"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ],
+      "mastery_evidence": "Write or say fresh facts about self and another person with controlled third-person agreement.",
+      "not_yet": "Subtle stative/dynamic distinctions and broader irregular morphology wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 9,
+        "egp_feature_ids": [
+          "1741163713626x414037782388433340",
+          "1741163713626x486355013779909760",
+          "1741163713626x606524312014730500",
+          "1741163715288x929829619225120500"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p07.003",
+          "gse.grammar.2023.p08.007",
+          "gse.grammar.2023.p08.010",
+          "gse.grammar.2023.p09.004",
+          "gse.grammar.2023.p09.010"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.present_simple_negative",
+      "title": "Present simple: negative",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "I/you/we/they do not/don't + base verb",
+        "he/she/it does not/doesn't + base verb"
+      ],
+      "meaning_use": "State that a fact, preference, possession, or routine is not true.",
+      "introduction_owner_ids": [
+        "lesson_candidate.exchange_information_about_family_and_friends"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ],
+      "mastery_evidence": "Correct false routine and preference statements using do/does plus the base verb.",
+      "not_yet": "Negative adverbials and emphatic do wait for later levels.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 5,
+        "egp_feature_ids": [
+          "1741163708329x894844343465365000",
+          "1741163716067x101148462288360720",
+          "1741163713626x335670389512142900"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p08.008",
+          "gse.grammar.2023.p09.004"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.present_simple_questions",
+      "title": "Present simple: questions and short answers",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "Do + I/you/we/they + base verb?",
+        "Does + he/she/it + base verb?",
+        "wh-word + do/does + subject + base verb?",
+        "Yes, subject + do/does; No, subject + don't/doesn't"
+      ],
+      "meaning_use": "Exchange facts, routines, possessions, likes, and wants.",
+      "introduction_owner_ids": [
+        "lesson_candidate.exchange_information_about_family_and_friends"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_information_about_an_immediate_need"
+      ],
+      "mastery_evidence": "Ask and answer fresh yes/no and wh- questions without retaining -s on the main verb after does.",
+      "not_yet": "Indirect and negative questions wait for later levels.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 4,
+        "egp_feature_ids": [],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p08.009",
+          "gse.grammar.2023.p08.011",
+          "gse.grammar.2023.p09.004",
+          "gse.grammar.2023.p09.009"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.basic_clause_order",
+      "title": "Basic statement order",
+      "control_status": "embedded_support",
+      "exact_forms": [
+        "subject + verb",
+        "subject + verb + object",
+        "subject + be + complement",
+        "subject + verb + place/time adjunct"
+      ],
+      "meaning_use": "Build short intelligible statements with an explicit subject and stable word order.",
+      "introduction_owner_ids": [
+        "lesson_candidate.give_short_self_introduction"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences",
+        "lesson_candidate.write_a_simple_room_description"
+      ],
+      "mastery_evidence": "Reconstruct fresh short statements and preserve who did or is what.",
+      "not_yet": "Inversion, fronting for discourse effect, and complex clause patterns wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 6,
+        "egp_feature_ids": [
+          "1741163708329x286701804737242940",
+          "1741163711828x633639966955607000",
+          "1741163711829x787492176446619900",
+          "1741163715288x929829619225120500",
+          "1741163715608x123988758899529200"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p07.003"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.personal_pronouns",
+      "title": "Subject and object personal pronouns",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "subjects: I, you, he, she, it, we, they",
+        "objects: me, you, him, her, it, us, them",
+        "object pronoun after a verb or preposition"
+      ],
+      "meaning_use": "Keep reference clear when talking about people and familiar things.",
+      "introduction_owner_ids": [
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.give_short_self_introduction"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.write_simple_people_profile_cards",
+        "lesson_candidate.ask_for_and_give_an_everyday_item"
+      ],
+      "mastery_evidence": "Replace fresh noun phrases with the correct subject or object pronoun in context.",
+      "not_yet": "Generic, reflexive, and reciprocal pronouns wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 8,
+        "egp_feature_ids": [
+          "1741163713867x150062658595893500",
+          "1741163713867x281198469131771500",
+          "1741163713867x530274295544571840",
+          "1741163713867x609205291409504700",
+          "1741163713867x710371035379195900",
+          "1741163713868x463659211645272000"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p07.004",
+          "gse.grammar.2023.p08.015"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.possessive_forms",
+      "title": "Possessive determiners and singular 's",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "my, your, his, her, its, our, their + noun",
+        "singular name/noun + 's + noun"
+      ],
+      "meaning_use": "Show familiar ownership and personal relationships.",
+      "introduction_owner_ids": [
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.describe_a_familiar_object_orally"
+      ],
+      "mastery_evidence": "Identify and express who a fresh familiar person or object belongs to.",
+      "not_yet": "Independent possessive pronouns and plural possessive apostrophes wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 3,
+        "egp_feature_ids": [
+          "1741163709005x427091401714639400"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p07.009",
+          "gse.grammar.2023.p09.008"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.present_continuous_now",
+      "title": "Present continuous: actions now",
+      "control_status": "productive_limited",
+      "exact_forms": [
+        "I am/I'm + verb-ing",
+        "you/we/they are/'re + verb-ing",
+        "he/she/it is/'s + verb-ing",
+        "receptive recognition of present negative and question forms"
+      ],
+      "meaning_use": "Describe a visible or immediate action in progress and distinguish it from a routine.",
+      "introduction_owner_ids": [
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.identify_a_product_in_a_short_video_advertisement"
+      ],
+      "mastery_evidence": "Choose present simple for a routine and present continuous for a pictured action, then produce one accurate action-now statement.",
+      "not_yet": "Future arrangement use and a broad spelling-rule inventory wait for A2.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 4,
+        "egp_feature_ids": [
+          "1741163713121x244049823776565150",
+          "1741163713121x758287721695059000",
+          "1741163715288x262148040901666750"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p09.010"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.past_simple_limited",
+      "title": "Past simple: limited familiar events",
+      "control_status": "productive_limited",
+      "exact_forms": [
+        "affirmative with was/were and a bounded set such as went, had, liked, worked, lived",
+        "subject + did not/didn't + base verb"
+      ],
+      "meaning_use": "State one or two completed familiar past events or states when time is clear.",
+      "introduction_owner_ids": [
+        "lesson_candidate.understand_outline_of_an_illustrated_short_story"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.state_how_a_simple_work_made_them_feel",
+        "support.a1_exit_grammar_probe"
+      ],
+      "mastery_evidence": "After a fresh visual sequence, produce two controlled past facts, including one negative contrast.",
+      "not_yet": "Past questions, narrative expansion, and a broad irregular-verb inventory wait for A2.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 4,
+        "egp_feature_ids": [
+          "1741163712739x256584265013129380",
+          "1741163712739x802711964566174800",
+          "1741163715288x929829619225120500"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p09.013"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.will_commitments",
+      "title": "Will/'ll: simple plans and commitments",
+      "control_status": "productive_limited",
+      "exact_forms": [
+        "subject + will/'ll + base verb"
+      ],
+      "meaning_use": "State a simple intended action, promise, arrival, or return in a familiar arrangement.",
+      "introduction_owner_ids": [
+        "lesson_candidate.understand_a_simple_meeting_arrangement"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message"
+      ],
+      "mastery_evidence": "Complete a fresh arrangement or return message with an intended action and time.",
+      "not_yet": "Predictions, spontaneous decisions, negative forms, and will-questions wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 6,
+        "egp_feature_ids": [
+          "1741163708329x931125497510935300",
+          "1741163709453x838199776198091500",
+          "1741163709453x862696596004533200",
+          "1741163711296x326455472693880200",
+          "1741163711296x692481066424056800",
+          "1741163715288x297270598417309800"
+        ],
+        "gse_grammar_record_ids": []
+      }
+    },
+    {
+      "item_id": "grammar.can_ability_possibility",
+      "title": "Can/can't: ability and simple possibility",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "subject + can + base verb",
+        "subject + cannot/can't + base verb"
+      ],
+      "meaning_use": "State present ability or whether a familiar action is possible in the situation.",
+      "introduction_owner_ids": [
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.exchange_information_about_an_immediate_need"
+      ],
+      "mastery_evidence": "Exchange fresh ability facts and choose can or can't from the evidence in the task.",
+      "not_yet": "Probability meanings and past or future ability wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 8,
+        "egp_feature_ids": [
+          "1741163708329x931125497510935300",
+          "1741163710388x206193011712334940",
+          "1741163710388x482560605581935800",
+          "1741163710388x882361395502946800",
+          "1741163710391x534949859885590850",
+          "1741163716068x909588472060841300",
+          "1741163715288x297270598417309800"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p09.012"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.can_requests_offers",
+      "title": "Can: requests and offers",
+      "control_status": "formulaic_productive",
+      "exact_forms": [
+        "Can I + base verb?",
+        "Can you + base verb?",
+        "Can we + base verb?",
+        "Can I help? / What can I do for you?",
+        "basic acceptance or refusal response"
+      ],
+      "meaning_use": "Request an action, offer help, or check a simple shared action politely.",
+      "introduction_owner_ids": [
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.ask_for_basic_practical_help"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.agree_to_a_simple_request",
+        "lesson_candidate.accept_a_simple_offer"
+      ],
+      "mastery_evidence": "Complete a fresh service or help exchange with a clear can-question and relevant response.",
+      "not_yet": "Could/would request scales and nuanced permission wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 4,
+        "egp_feature_ids": [
+          "1741163710388x273734335473510240",
+          "1741163710388x540901022788007400",
+          "1741163710391x459074403345042000",
+          "1741163715032x756418004139892900"
+        ],
+        "gse_grammar_record_ids": []
+      }
+    },
+    {
+      "item_id": "grammar.would_like_and_want",
+      "title": "Would like and want: bounded wants",
+      "control_status": "formulaic_productive",
+      "exact_forms": [
+        "I would/I'd like + noun",
+        "I would/I'd like to + base verb",
+        "I want + noun/to + base verb",
+        "I would like to invite + person + to + event"
+      ],
+      "meaning_use": "Express a simple want, service choice, preference, or formulaic invitation.",
+      "introduction_owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.write_a_short_message_to_a_friend"
+      ],
+      "mastery_evidence": "Select and produce the appropriate frame in a fresh order, booking, or invitation prompt.",
+      "not_yet": "Would for hypotheticals, habits, and nuanced politeness waits.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 6,
+        "egp_feature_ids": [
+          "1741163711300x363892315600628400",
+          "1741163711300x444537304178034940",
+          "1741163711300x569087712695511000",
+          "1741163715288x297270598417309800",
+          "1741163715300x285261568472368060"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p09.011"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.imperatives",
+      "title": "Positive and negative imperatives",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "base verb + object/complement",
+        "do not/don't + base verb",
+        "two or three ordered verb-led steps"
+      ],
+      "meaning_use": "Give or follow direct familiar instructions, warnings, and route steps.",
+      "introduction_owner_ids": [
+        "lesson_candidate.follow_simple_game_or_activity_instructions"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.follow_simple_written_wayfinding_directions",
+        "lesson_candidate.follow_slow_spoken_route_directions",
+        "lesson_candidate.follow_short_written_everyday_instructions"
+      ],
+      "mastery_evidence": "Order and carry out or produce fresh two- or three-step instructions accurately.",
+      "not_yet": "Let’s suggestions and complex procedural subordination wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 1,
+        "egp_feature_ids": [],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p08.014"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.there_is_are",
+      "title": "There is/are: presence and absence",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "there is/there's + singular noun phrase",
+        "there are + plural noun phrase",
+        "there isn't/aren't",
+        "Is there ...? / Are there ...?"
+      ],
+      "meaning_use": "State and ask what exists in a room, home, or familiar place.",
+      "introduction_owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.exchange_basic_information_about_a_home"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.understand_simple_place_and_hotel_information"
+      ],
+      "mastery_evidence": "Complete a fresh room information gap with accurate singular/plural forms.",
+      "not_yet": "There has been and presentational there beyond presence wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 3,
+        "egp_feature_ids": [
+          "1741163715607x526138276437947400",
+          "1741163715607x671128268905876200"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p08.017"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.have_possession",
+      "title": "Have/has and have got: possession",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "I/you/we/they have; he/she/it has",
+        "do/does ... have?; don't/doesn't have",
+        "recognise and optionally produce BrE have/has got and Have ... got?"
+      ],
+      "meaning_use": "State and exchange family, possession, home, and familiar feature information.",
+      "introduction_owner_ids": [
+        "lesson_candidate.exchange_information_about_family_and_friends"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.write_simple_people_profile_cards",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_visible_object_information"
+      ],
+      "mastery_evidence": "Exchange fresh possession facts using the chosen course default and understand the registered BrE variant.",
+      "not_yet": "Perfect have and broader have got idioms wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 2,
+        "egp_feature_ids": [],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p08.003",
+          "gse.grammar.2023.p09.006"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.articles",
+      "title": "A/an, the, and bounded zero article",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "a/an + singular countable noun",
+        "a/an + adjective + singular countable noun",
+        "a/an + job",
+        "the + specific familiar noun",
+        "zero article with plural/uncount general nouns and fixed at home/by car/go to college"
+      ],
+      "meaning_use": "Mark one nonspecific item, an identifiable item, or a bounded general/fixed expression.",
+      "introduction_owner_ids": [
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.ask_for_basic_food_or_drink"
+      ],
+      "mastery_evidence": "Choose a/an, the, or zero in fresh bounded identity, object, and service phrases.",
+      "not_yet": "Full article discourse choice, institutions beyond taught chunks, and generic the wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 10,
+        "egp_feature_ids": [
+          "1741163708789x105964971324936210",
+          "1741163708789x174288205596050180",
+          "1741163708789x344483096716751800",
+          "1741163708789x819248395543273500",
+          "1741163708792x578027203654075000",
+          "1741163708793x394528376329640770",
+          "1741163709012x230041547102954000"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p07.010",
+          "gse.grammar.2023.p08.006",
+          "gse.grammar.2023.p08.012"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.noun_number_quantity",
+      "title": "Noun number and basic quantity",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "regular plural -s/-es",
+        "common irregular plurals: people, children, women, men",
+        "number + plural noun",
+        "some/a lot of/lots of + plural or uncount noun",
+        "every + singular noun"
+      ],
+      "meaning_use": "Refer to one or more familiar items and express a useful bounded quantity.",
+      "introduction_owner_ids": [
+        "lesson_candidate.write_simple_people_profile_cards"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.write_a_simple_room_description"
+      ],
+      "mastery_evidence": "Name and quantify fresh familiar items without singular/plural mismatch.",
+      "not_yet": "Productive much/many, fewer/less, and complex partitives wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 5,
+        "egp_feature_ids": [
+          "1741163709012x117638123076284200",
+          "1741163709012x230041547102954000",
+          "1741163711821x759916598484829700"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p07.007",
+          "gse.grammar.2023.p08.004"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.basic_noun_phrase",
+      "title": "Basic noun-phrase order and roles",
+      "control_status": "embedded_support",
+      "exact_forms": [
+        "determiner + noun",
+        "determiner + adjective + noun",
+        "adjective + plural noun with no determiner when licensed",
+        "limited lexical noun + noun compound",
+        "noun phrase as subject, object, complement, or preposition complement"
+      ],
+      "meaning_use": "Build compact referents that preserve which person or thing is meant.",
+      "introduction_owner_ids": [
+        "lesson_candidate.write_short_personal_profile"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.write_simple_people_profile_cards",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.write_a_simple_room_description"
+      ],
+      "mastery_evidence": "Build and place fresh bounded noun phrases correctly inside short statements.",
+      "not_yet": "Dense modification, complex determiners, and productive compounding wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 8,
+        "egp_feature_ids": [
+          "1741163711539x318006443369482940",
+          "1741163711539x336320676887564860",
+          "1741163711539x384428957229715900",
+          "1741163711828x633639966955607000",
+          "1741163711829x722500780296901000",
+          "1741163711829x787492176446619900",
+          "1741163712047x409239658002596100",
+          "1741163713112x603850914179882600"
+        ],
+        "gse_grammar_record_ids": []
+      }
+    },
+    {
+      "item_id": "grammar.this_reference",
+      "title": "This: near reference and current time",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "this + singular noun",
+        "this is + person/thing",
+        "this + coming day/weekend/evening/summer"
+      ],
+      "meaning_use": "Point to a nearby or current referent, introduce someone, or identify the coming time period.",
+      "introduction_owner_ids": [
+        "lesson_candidate.introduce_another_person"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.exchange_information_about_an_immediate_need"
+      ],
+      "mastery_evidence": "Use this with a fresh singular visual or time referent without switching number.",
+      "not_yet": "Systematic this/that/these/those contrast waits for A2.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 4,
+        "egp_feature_ids": [
+          "1741163708998x446294161060833700",
+          "1741163708998x669595367530949600",
+          "1741163708998x842376822392022500"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p08.002"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.adjective_patterns",
+      "title": "Common adjective position and coordination",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "adjective + noun",
+        "be + adjective",
+        "adjective + and + adjective"
+      ],
+      "meaning_use": "Describe familiar people, objects, homes, places, and weather with visible or known qualities.",
+      "introduction_owner_ids": [
+        "lesson_candidate.describe_a_family_or_known_person"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_common_weather"
+      ],
+      "mastery_evidence": "Produce fresh noun and be descriptions with adjectives in the correct position.",
+      "not_yet": "Comparison, adjective complements, and long adjective strings wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 8,
+        "egp_feature_ids": [
+          "1741163706530x479020650602328450",
+          "1741163706530x753542801715210100",
+          "1741163708789x174288205596050180",
+          "1741163708789x344483096716751800",
+          "1741163711539x318006443369482940",
+          "1741163711539x336320676887564860"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p07.008",
+          "gse.grammar.2023.p08.001"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.degree_adverbs",
+      "title": "Very, really, and very much",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "very + common gradable adjective",
+        "really + like/love/want",
+        "like/love + object + very much",
+        "very soon"
+      ],
+      "meaning_use": "Strengthen a basic description, preference, want, or fixed time expression.",
+      "introduction_owner_ids": [
+        "lesson_candidate.describe_a_family_or_known_person"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ],
+      "mastery_evidence": "Choose a licensed intensifier position in fresh descriptions and preference statements.",
+      "not_yet": "Degree scales, downtoners, and intensifier-register choices wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 11,
+        "egp_feature_ids": [
+          "1741163706326x912859360099482800",
+          "1741163706722x425107176833770200",
+          "1741163706722x502415631169033540",
+          "1741163706728x100067556201106640",
+          "1741163706728x743541438966270800",
+          "1741163706728x987923532840156800",
+          "1741163706930x543760633232157630",
+          "1741163706931x652422120447256700",
+          "1741163708146x551167324571377540",
+          "1741163708789x174288205596050180",
+          "1741163713626x606524312014730500"
+        ],
+        "gse_grammar_record_ids": []
+      }
+    },
+    {
+      "item_id": "grammar.frequency_adverbs",
+      "title": "Always and sometimes",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "subject + always/sometimes + main verb",
+        "Sometimes + subject + main verb"
+      ],
+      "meaning_use": "Add a simple frequency to a familiar routine or repeated activity.",
+      "introduction_owner_ids": [
+        "lesson_candidate.exchange_routine_and_preference_information"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ],
+      "mastery_evidence": "Place always or sometimes correctly in a fresh routine statement.",
+      "not_yet": "Broader frequency scales and be-position control wait for extension.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 5,
+        "egp_feature_ids": [
+          "1741163706722x604132732561016200",
+          "1741163706728x987923532840156800",
+          "1741163706930x279245648285079580",
+          "1741163706930x543836854317855550"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p08.010"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.indefinite_pronouns_limited",
+      "title": "Everything and something: limited chunks",
+      "control_status": "receptive_formulaic",
+      "exact_forms": [
+        "everything as subject + singular verb",
+        "everything/something as object"
+      ],
+      "meaning_use": "Recognise and use a small number of high-utility indefinite references in fixed or transparent contexts.",
+      "introduction_owner_ids": [
+        "lesson_candidate.understand_outline_of_an_illustrated_short_story"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "support.a1_exit_grammar_probe"
+      ],
+      "mastery_evidence": "Interpret fresh transparent examples and complete one familiar formula such as Everything is OK.",
+      "not_yet": "The full some/any/no/every pronoun system waits for A2.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 2,
+        "egp_feature_ids": [
+          "1741163714316x468029054820445100",
+          "1741163714316x693313936907989500"
+        ],
+        "gse_grammar_record_ids": []
+      }
+    },
+    {
+      "item_id": "grammar.place_prepositions",
+      "title": "Basic place and relationship prepositions",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "place: in, on, at, under, near, next to, opposite",
+        "movement/relationship: to, from, with, for",
+        "preposition + bounded noun phrase"
+      ],
+      "meaning_use": "Locate people and things and express a simple destination or relationship.",
+      "introduction_owner_ids": [
+        "lesson_candidate.describe_people_and_object_locations_orally"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.exchange_basic_wayfinding_information"
+      ],
+      "mastery_evidence": "Place fresh people or objects accurately in a pictured scene and interpret the same phrases.",
+      "not_yet": "Finer spatial relations and idiomatic preposition choice wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 6,
+        "egp_feature_ids": [
+          "1741163711829x722500780296901000",
+          "1741163713112x603850914179882600",
+          "1741163713112x806003192035927200"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p08.005",
+          "gse.grammar.2023.p08.013",
+          "gse.grammar.2023.p09.003"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.time_date_expressions",
+      "title": "Clock time, dates, and basic time placement",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "at + clock time; on + day/date; in + month/year/morning",
+        "whole number + o'clock",
+        "day-month-year or month-day-year with ordinal dates",
+        "today, tomorrow, tomorrow morning, this evening, next week at clause end"
+      ],
+      "meaning_use": "Give and locate a basic event, meeting, schedule, or return time.",
+      "introduction_owner_ids": [
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.give_an_event_date_and_time"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.write_schedule_dates_and_times",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech"
+      ],
+      "mastery_evidence": "Transfer fresh spoken and written time/date information accurately across a schedule and message.",
+      "not_yet": "Duration, deadlines, and complex calendar relations wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 7,
+        "egp_feature_ids": [
+          "1741163706728x987923532840156800",
+          "1741163706931x922201162401665300",
+          "1741163708789x819248395543273500",
+          "1741163708998x669595367530949600",
+          "1741163712047x121249829588899070"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p08.016",
+          "gse.grammar.2023.p09.007"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.place_adverbs",
+      "title": "Here and there",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "here/there after be or a main verb",
+        "here/there in normal clause-end position"
+      ],
+      "meaning_use": "Refer economically to a place already visible, shared, or mentioned.",
+      "introduction_owner_ids": [
+        "lesson_candidate.describe_people_and_object_locations_orally"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.follow_slow_spoken_route_directions",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message"
+      ],
+      "mastery_evidence": "Use here or there to distinguish speaker-near and other location in a fresh scene.",
+      "not_yet": "Broader deictic and directional adverbs wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 3,
+        "egp_feature_ids": [
+          "1741163706721x821677696151876900",
+          "1741163706728x827649422602473600",
+          "1741163706938x862543767286873900"
+        ],
+        "gse_grammar_record_ids": []
+      }
+    },
+    {
+      "item_id": "grammar.coordination",
+      "title": "And, but, and or",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "word/phrase + and/but/or + word/phrase",
+        "main clause + and/but/or + main clause",
+        "list items with and/or before the last item",
+        "omit the repeated second subject when it is unchanged"
+      ],
+      "meaning_use": "Add, contrast, choose, list, and connect two short related ideas.",
+      "introduction_owner_ids": [
+        "lesson_candidate.write_short_personal_profile"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ],
+      "mastery_evidence": "Combine fresh short facts without losing the intended relation or subject.",
+      "not_yet": "Discourse-level coordination and correlative conjunctions wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 11,
+        "egp_feature_ids": [
+          "1741163706316x926291459998112000",
+          "1741163708153x480316823264789900",
+          "1741163708153x695756963015404300",
+          "1741163708775x236006169337418240",
+          "1741163708775x324182637264445630",
+          "1741163708775x343585548868345200",
+          "1741163708775x495770064260905300",
+          "1741163708775x971363187748411900",
+          "1741163708776x617714358104645400"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p07.013",
+          "gse.grammar.2023.p09.005"
+        ]
+      }
+    },
+    {
+      "item_id": "grammar.because_reasons",
+      "title": "Because: one simple reason",
+      "control_status": "productive_core",
+      "exact_forms": [
+        "main clause + because + subject + finite verb"
+      ],
+      "meaning_use": "Add one transparent reason after a simple statement, preference, or evaluation.",
+      "introduction_owner_ids": [
+        "lesson_candidate.give_a_simple_leisure_profile"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.state_how_a_simple_work_made_them_feel"
+      ],
+      "mastery_evidence": "Join a fresh choice or feeling to one relevant reason with a complete because-clause.",
+      "not_yet": "Fronted because-clauses and multi-clause reasoning wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 2,
+        "egp_feature_ids": [
+          "1741163708567x184494536538858620",
+          "1741163708785x514563206586401860"
+        ],
+        "gse_grammar_record_ids": []
+      }
+    },
+    {
+      "item_id": "grammar.like_and_infinitive_patterns",
+      "title": "Like, love, and want complements",
+      "control_status": "productive_limited",
+      "exact_forms": [
+        "like/love + noun",
+        "like/love + verb-ing",
+        "like + to + base verb",
+        "want + to + base verb"
+      ],
+      "meaning_use": "Express a familiar preference or intended action with a bounded verb pattern.",
+      "introduction_owner_ids": [
+        "lesson_candidate.give_a_simple_leisure_profile"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ],
+      "mastery_evidence": "Complete and produce fresh preference statements using one licensed complement pattern.",
+      "not_yet": "Meaning contrasts among gerund and infinitive patterns wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 2,
+        "egp_feature_ids": [
+          "1741163715299x334716733147188740",
+          "1741163715300x394950798002922750"
+        ],
+        "gse_grammar_record_ids": []
+      }
+    },
+    {
+      "item_id": "grammar.prepositional_verbs_limited",
+      "title": "Lexicalised verb-preposition patterns",
+      "control_status": "productive_limited",
+      "exact_forms": [
+        "listen to",
+        "look at",
+        "look for",
+        "look after",
+        "talk to"
+      ],
+      "meaning_use": "Use a small taught set as whole patterns in routines, descriptions, needs, and interaction.",
+      "introduction_owner_ids": [
+        "lesson_candidate.understand_a_short_everyday_activity_text"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.ask_for_basic_practical_help"
+      ],
+      "mastery_evidence": "Choose the complete taught pattern in fresh transparent contexts without dropping its preposition.",
+      "not_yet": "Productive phrasal-verb systems and free verb-preposition generalisation wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 1,
+        "egp_feature_ids": [
+          "1741163715275x913732212255741200"
+        ],
+        "gse_grammar_record_ids": []
+      }
+    },
+    {
+      "item_id": "grammar.information_question_frames",
+      "title": "High-utility information question frames",
+      "control_status": "formulaic_productive",
+      "exact_forms": [
+        "What's your + noun?",
+        "Who/What/Where + is/are + subject?",
+        "How old + is/are + subject?",
+        "What/Where/When/What time + do/does + subject + base verb?",
+        "How much is/are + noun?",
+        "How many + plural noun + are there?"
+      ],
+      "meaning_use": "Obtain the identity, place, time, price, or quantity needed in a predictable exchange.",
+      "introduction_owner_ids": [
+        "lesson_candidate.exchange_personal_details_orally"
+      ],
+      "recycle_owner_ids": [
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.handle_basic_price_and_quantity_information"
+      ],
+      "mastery_evidence": "Select and produce the frame that retrieves the missing detail in a fresh information gap.",
+      "not_yet": "Why, which, whose, how long, and open-ended follow-up systems wait.",
+      "decision_status": "accepted_for_a1_reconciliation",
+      "source_evidence": {
+        "source_count": 8,
+        "egp_feature_ids": [
+          "1741163713867x609205291409504700"
+        ],
+        "gse_grammar_record_ids": [
+          "gse.grammar.2023.p07.001",
+          "gse.grammar.2023.p07.011",
+          "gse.grammar.2023.p07.012",
+          "gse.grammar.2023.p08.005",
+          "gse.grammar.2023.p08.009",
+          "gse.grammar.2023.p09.001",
+          "gse.grammar.2023.p09.002"
+        ]
+      }
+    }
+  ],
+  "source_dispositions": [
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706316x926291459998112000",
+      "source_level": "A1",
+      "source_label": "ADJECTIVES > combining > FORM: COMBINING TWO ADJECTIVES WITH 'AND'",
+      "source_text": "Can use 'and' to join a limited range of common adjectives. ",
+      "course_item_ids": [
+        "grammar.coordination"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "adjective_joining_is_coordination",
+      "owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706326x912859360099482800",
+      "source_level": "A1",
+      "source_label": "ADJECTIVES > modifying > FORM: WITH 'VERY' ",
+      "source_text": "Can use 'very' with a limited range of common gradable adjectives. ",
+      "course_item_ids": [
+        "grammar.degree_adverbs"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "bounded_very_pattern",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706530x479020650602328450",
+      "source_level": "A1",
+      "source_label": "ADJECTIVES > position > FORM: ATTRIBUTIVE (WITH NOUNS)",
+      "source_text": "Can use a limited range of adjectives attributively, before a noun. ► noun phrases",
+      "course_item_ids": [
+        "grammar.adjective_patterns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "attributive_position",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.match_visual_descriptions_to_familiar_things"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706530x753542801715210100",
+      "source_level": "A1",
+      "source_label": "ADJECTIVES > position > FORM: PREDICATIVE, WITH 'BE'",
+      "source_text": "Can use a limited range of adjectives predicatively, after 'be'.",
+      "course_item_ids": [
+        "grammar.adjective_patterns",
+        "grammar.be_affirmative"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "predicative_be_pattern",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_short_personal_profile"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706532x162687205151185180",
+      "source_level": "A1",
+      "source_label": "ADJECTIVES > superlatives > FORM: 'MY BEST FRIEND'",
+      "source_text": "Can use the irregular superlative adjective 'best' in the phrase 'my best friend'.",
+      "course_item_ids": [],
+      "disposition": "transfer_phrase_layer",
+      "rationale_code": "lexicalised_best_friend_chunk",
+      "owner_ids": [
+        "support.phrase_syllabus"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706537x909158263292138100",
+      "source_level": "A1",
+      "source_label": "ADVERBS > adverbs and adverb phrases: types and meanings > USE: TIME",
+      "source_text": "Can use 'soon' in the phrases 'See you soon' and 'Get well soon', as a signing-off device. ",
+      "course_item_ids": [],
+      "disposition": "transfer_phrase_layer",
+      "rationale_code": "lexicalised_social_signoff",
+      "owner_ids": [
+        "support.phrase_syllabus"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706721x821677696151876900",
+      "source_level": "A1",
+      "source_label": "ADVERBS > adverbs and adverb phrases: types and meanings > USE: PLACE",
+      "source_text": "Can use a limited range of adverbs ('here', 'there') to indicate place. ",
+      "course_item_ids": [
+        "grammar.place_adverbs"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "bounded_here_there_use",
+      "owner_ids": [
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.follow_slow_spoken_route_directions",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.understand_where_things_or_people_are"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706722x425107176833770200",
+      "source_level": "A1",
+      "source_label": "ADVERBS > adverbs and adverb phrases: types and meanings > USE: DEGREE WITH VERBS ",
+      "source_text": "Can use 'really' and 'very much' with verbs expressing preference ('like', 'love'), for emphasis.",
+      "course_item_ids": [
+        "grammar.degree_adverbs"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "preference_intensification",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706722x502415631169033540",
+      "source_level": "A1",
+      "source_label": "ADVERBS > adverbs and adverb phrases: types and meanings > USE: 'VERY' WITH ADJECTIVES",
+      "source_text": "Can use 'very' to make adjectives stronger.",
+      "course_item_ids": [
+        "grammar.degree_adverbs"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_very_adjective_target",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706722x604132732561016200",
+      "source_level": "A1",
+      "source_label": "ADVERBS > adverbs and adverb phrases: types and meanings > USE: FREQUENCY ",
+      "source_text": "Can use a limited range of adverbs ('always', 'sometimes') to talk about frequency.",
+      "course_item_ids": [
+        "grammar.frequency_adverbs"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "bounded_frequency_meaning",
+      "owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706728x100067556201106640",
+      "source_level": "A1",
+      "source_label": "ADVERBS > adverbs as modifiers > FORM: 'VERY' + ADJECTIVES",
+      "source_text": "Can use 'very' to modify common gradable adjectives.",
+      "course_item_ids": [
+        "grammar.degree_adverbs"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_very_adjective_form",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706728x743541438966270800",
+      "source_level": "A1",
+      "source_label": "ADVERBS > adverbs as modifiers > FORM: 'VERY' + TIME ADVERBS ",
+      "source_text": "Can use 'very' to modify time adverbs. ► adverb phrases",
+      "course_item_ids": [
+        "grammar.degree_adverbs"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "bounded_very_soon_pattern",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706728x827649422602473600",
+      "source_level": "A1",
+      "source_label": "ADVERBS > adverbs as modifiers > FORM: PLACE, COMPLEMENT",
+      "source_text": "Can use place adverbs ('here', 'there') as complements of verbs. ",
+      "course_item_ids": [
+        "grammar.place_adverbs"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_here_there_complement",
+      "owner_ids": [
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.follow_slow_spoken_route_directions",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.understand_where_things_or_people_are"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706728x987923532840156800",
+      "source_level": "A1",
+      "source_label": "ADVERBS > adverbs as modifiers > FORM: DEGREE and TIME, MODIFYING VERBS",
+      "source_text": "Can use degree and time adverbs to modify verbs.",
+      "course_item_ids": [
+        "grammar.degree_adverbs",
+        "grammar.frequency_adverbs",
+        "grammar.time_date_expressions"
+      ],
+      "disposition": "support_not_separate",
+      "rationale_code": "summary_feature_owned_by_specific_items",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.write_schedule_dates_and_times",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706930x279245648285079580",
+      "source_level": "A1",
+      "source_label": "ADVERBS > position > FORM: FRONT POSITION",
+      "source_text": "Can use a limited range of adverbs in front position.",
+      "course_item_ids": [
+        "grammar.frequency_adverbs"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "sometimes_front_position",
+      "owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706930x543760633232157630",
+      "source_level": "A1",
+      "source_label": "ADVERBS > position > FORM: DEGREE, BEFORE ADJECTIVES",
+      "source_text": "Can use a limited range of degree adverbs before an adjective.",
+      "course_item_ids": [
+        "grammar.degree_adverbs"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_degree_position",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706930x543836854317855550",
+      "source_level": "A1",
+      "source_label": "ADVERBS > position > FORM: FREQUENCY, MID POSITION",
+      "source_text": "Can use frequency adverbs in the usual mid position, between the subject and the main verb.",
+      "course_item_ids": [
+        "grammar.frequency_adverbs"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "mid_position_target",
+      "owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706931x652422120447256700",
+      "source_level": "A1",
+      "source_label": "ADVERBS > position > FORM: 'REALLY,'  MID POSITION ",
+      "source_text": "Can use 'really' in the usual mid-position, between the subject and the main verb.",
+      "course_item_ids": [
+        "grammar.degree_adverbs"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "really_mid_position",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706931x922201162401665300",
+      "source_level": "A1",
+      "source_label": "ADVERBS > position > FORM: TIME, END POSITION",
+      "source_text": "Can use time adverbs in the usual end position.",
+      "course_item_ids": [
+        "grammar.time_date_expressions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "bounded_time_end_position",
+      "owner_ids": [
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+        "lesson_candidate.write_schedule_dates_and_times"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163706938x862543767286873900",
+      "source_level": "A1",
+      "source_label": "ADVERBS > position > FORM: PLACE, END POSITION",
+      "source_text": "Can use place adverbs in the usual end position.",
+      "course_item_ids": [
+        "grammar.place_adverbs"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "place_end_position",
+      "owner_ids": [
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.follow_slow_spoken_route_directions",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.understand_where_things_or_people_are"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708146x551167324571377540",
+      "source_level": "A1",
+      "source_label": "ADVERBS > adverb phrases - form > FORM: 'VERY' + ADVERB",
+      "source_text": "Can modify adverbs of time and degree with 'very'. ",
+      "course_item_ids": [
+        "grammar.degree_adverbs"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_very_adverb_pattern",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708153x480316823264789900",
+      "source_level": "A1",
+      "source_label": "CLAUSES > coordinated > FORM: CLAUSE + CLAUSE, ELLIPTED SUBJECT",
+      "source_text": "Can omit the subject in a second main declarative clause when the subject is obvious or the same as the first clause. ",
+      "course_item_ids": [
+        "grammar.coordination"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "shared_subject_coordination",
+      "owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708153x695756963015404300",
+      "source_level": "A1",
+      "source_label": "CLAUSES > coordinated > FORM: MAIN CLAUSE + MAIN CLAUSE",
+      "source_text": "Can combine two main declarative clauses using co-ordinating conjunctions ('and', 'but', 'or'). ",
+      "course_item_ids": [
+        "grammar.coordination"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "clause_coordination",
+      "owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708329x286701804737242940",
+      "source_level": "A1",
+      "source_label": "CLAUSES > declarative > FORM: AFFIRMATIVE DECLARATIVE",
+      "source_text": "Can form simple affirmative declarative clauses.",
+      "course_item_ids": [
+        "grammar.basic_clause_order"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "affirmative_clause_base",
+      "owner_ids": [
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708329x778951051617750700",
+      "source_level": "A1",
+      "source_label": "CLAUSES > declarative > FORM: NEGATIVE DECLARATIVE WITH 'BE'",
+      "source_text": "Can form a simple negative declarative clause with lexical 'be' + 'not' or 'n't'. ",
+      "course_item_ids": [
+        "grammar.be_negative"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "be_negative_clause",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
+        "lesson_candidate.write_short_personal_profile"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708329x894844343465365000",
+      "source_level": "A1",
+      "source_label": "CLAUSES > declarative > FORM: NEGATIVE DECLARATIVE, LEXICAL VERBS",
+      "source_text": "Can form simple negative declarative clauses.",
+      "course_item_ids": [
+        "grammar.present_simple_negative"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "lexical_verb_negative",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708329x931125497510935300",
+      "source_level": "A1",
+      "source_label": "CLAUSES > declarative > FORM: AFFIRMATIVE DECLARATIVE, MODAL AUXILIARY VERBS",
+      "source_text": "Can form an affirmative declarative clause with modal verbs.",
+      "course_item_ids": [
+        "grammar.can_ability_possibility",
+        "grammar.will_commitments"
+      ],
+      "disposition": "support_not_separate",
+      "rationale_code": "broad_modal_clause_owned_by_specific_items",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.understand_a_simple_meeting_arrangement",
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708336x928067678664856700",
+      "source_level": "A1",
+      "source_label": "CLAUSES > interrogatives > FORM: AFFIRMATIVE INTERROGATIVE, WITH 'BE'",
+      "source_text": "Can form interrogative clauses with 'be'. ",
+      "course_item_ids": [
+        "grammar.be_questions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "be_interrogative",
+      "owner_ids": [
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.exchange_visible_object_information"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708567x184494536538858620",
+      "source_level": "A1",
+      "source_label": "CLAUSES > subordinated > FORM/USE: 'BECAUSE', REASONS",
+      "source_text": "Can use a finite subordinate clause with 'because', after a main clause, to introduce reasons. ",
+      "course_item_ids": [
+        "grammar.because_reasons"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "reason_clause",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.state_how_a_simple_work_made_them_feel"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708775x236006169337418240",
+      "source_level": "A1",
+      "source_label": "CONJUNCTIONS > coordinating > FORM: PHRASE + PHRASE",
+      "source_text": "Can use single word conjunctions ('and, but, or') to combine phrases.",
+      "course_item_ids": [
+        "grammar.coordination"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "phrase_coordination",
+      "owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708775x324182637264445630",
+      "source_level": "A1",
+      "source_label": "CONJUNCTIONS > coordinating > FORM: SENTENCE + SENTENCE",
+      "source_text": "Can use single word conjunctions ('and, but, or') to combine sentences.",
+      "course_item_ids": [
+        "grammar.coordination"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "sentence_coordination_same_system",
+      "owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708775x343585548868345200",
+      "source_level": "A1",
+      "source_label": "CONJUNCTIONS > coordinating > USE: LISTING",
+      "source_text": "Can use 'and' and 'or' before the final item in a list. ",
+      "course_item_ids": [
+        "grammar.coordination"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "list_coordination",
+      "owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708775x495770064260905300",
+      "source_level": "A1",
+      "source_label": "CONJUNCTIONS > coordinating > FORM: CLAUSE + CLAUSE",
+      "source_text": "Can use single word conjunctions ('and, but, or') to combine clauses.",
+      "course_item_ids": [
+        "grammar.coordination"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "clause_coordination_same_system",
+      "owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708775x971363187748411900",
+      "source_level": "A1",
+      "source_label": "CONJUNCTIONS > coordinating > FORM: WORD + WORD",
+      "source_text": "Can use single word conjunctions ('and, but, or') to connect single nouns and adjectives.",
+      "course_item_ids": [
+        "grammar.coordination"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "word_coordination_same_system",
+      "owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708776x617714358104645400",
+      "source_level": "A1",
+      "source_label": "CONJUNCTIONS > coordinating > USE: 'BUT', CONCESSIVE",
+      "source_text": "Can use 'but' to add an unexpected contrast. ",
+      "course_item_ids": [
+        "grammar.coordination"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "contrastive_but",
+      "owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708785x514563206586401860",
+      "source_level": "A1",
+      "source_label": "CONJUNCTIONS > subordinating > FORM: 'BECAUSE' ",
+      "source_text": "Can use 'because' as a subordinating conjunction to introduce a subordinate clause. ",
+      "course_item_ids": [
+        "grammar.because_reasons"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_because_form",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.state_how_a_simple_work_made_them_feel"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708789x105964971324936210",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > articles > FORM: WITH NOUNS ",
+      "source_text": "Can use articles 'the', 'a' and 'an' before nouns. ► noun phrases",
+      "course_item_ids": [
+        "grammar.articles"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "article_inventory",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708789x174288205596050180",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > articles > FORM: 'A' + 'VERY' + ADJECTIVES",
+      "source_text": "Can use 'a' + 'very' + adjectives in basic noun phrases. ► adverbs ►  noun phrases",
+      "course_item_ids": [
+        "grammar.articles",
+        "grammar.degree_adverbs",
+        "grammar.adjective_patterns"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "composed_noun_phrase_pattern",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708789x344483096716751800",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > articles > FORM: 'A' + ADJECTIVES",
+      "source_text": "Can use 'a' and 'an' before adjectives in a noun phrase. ► adjectives ►  noun phrases",
+      "course_item_ids": [
+        "grammar.articles",
+        "grammar.adjective_patterns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "article_adjective_noun",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708789x819248395543273500",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > articles > FORM: PREPOSITION + 'THE' + NOUN",
+      "source_text": "Can use 'the' in prepositional phrases relating to time.",
+      "course_item_ids": [
+        "grammar.articles",
+        "grammar.time_date_expressions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "time_preposition_article_chunk",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_schedule_dates_and_times"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708792x578027203654075000",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > articles > FORM: PREPOSITION + NO ARTICLE",
+      "source_text": "Can use no article before a limited range of nouns in some fixed expressions with prepositions.",
+      "course_item_ids": [
+        "grammar.articles"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "fixed_zero_article_chunks",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708793x394528376329640770",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > articles > FORM/USE: NO ARTICLE",
+      "source_text": "Can use no article before a limited range of singular, plural and uncountable nouns when referring to things in general. ",
+      "course_item_ids": [
+        "grammar.articles"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "bounded_generic_zero_article",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708998x446294161060833700",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > demonstratives > USE: 'THIS', POINTING",
+      "source_text": "Can use 'this' in a limited range of contexts to refer to places from the speaker's or writer's point of view. ► noun phrases ►  pronouns: demonstrative",
+      "course_item_ids": [
+        "grammar.this_reference"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "pointing_reference",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.introduce_another_person"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708998x669595367530949600",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > demonstratives > USE: 'THIS', FUTURE",
+      "source_text": "Can use 'this' with time and date words to refer to 'the one that's coming'. ",
+      "course_item_ids": [
+        "grammar.this_reference",
+        "grammar.time_date_expressions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "coming_time_reference",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+        "lesson_candidate.write_schedule_dates_and_times"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163708998x842376822392022500",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > demonstratives > FORM: 'THIS' WITH SINGULAR NOUNS",
+      "source_text": "Can use 'this' with singular nouns. ► noun phrases ►  pronouns: demonstrative",
+      "course_item_ids": [
+        "grammar.this_reference"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_this_singular_form",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.introduce_another_person"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163709005x427091401714639400",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > possessives > FORM: WITH NOUNS",
+      "source_text": "Can use possessive determiners 'my', 'your', 'his', 'her' and 'our' before nouns. ► noun phrases ► possessive pronouns",
+      "course_item_ids": [
+        "grammar.possessive_forms"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "possessive_determiners",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163709012x117638123076284200",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > quantity > FORM: WITH PLURAL NOUNS ",
+      "source_text": "Can use a limited range of quantifying determiners with plural nouns ('some', 'lots of', 'a lot of' and numbers).",
+      "course_item_ids": [
+        "grammar.noun_number_quantity"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "plural_quantifiers",
+      "owner_ids": [
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163709012x230041547102954000",
+      "source_level": "A1",
+      "source_label": "DETERMINERS > quantity > FORM: WITH SINGULAR NOUNS",
+      "source_text": "Can use a limited range of quantifying determiners with singular nouns ('a', 'every').► determiners: articles",
+      "course_item_ids": [
+        "grammar.noun_number_quantity",
+        "grammar.articles"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "singular_quantity_determiners",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163709453x838199776198091500",
+      "source_level": "A1",
+      "source_label": "FUTURE > future simple (with will and shall) > FORM: AFFIRMATIVE 'WILL'",
+      "source_text": "Can use the affirmative forms 'will' and ''ll'. ",
+      "course_item_ids": [
+        "grammar.will_commitments"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "will_affirmative",
+      "owner_ids": [
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.understand_a_simple_meeting_arrangement"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163709453x862696596004533200",
+      "source_level": "A1",
+      "source_label": "FUTURE > future simple (with will and shall) > USE: PLANS AND INTENTIONS WITH 'WILL'",
+      "source_text": "Can use 'will' and ''ll' to talk about plans and intentions. ",
+      "course_item_ids": [
+        "grammar.will_commitments"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "will_plan_use",
+      "owner_ids": [
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.understand_a_simple_meeting_arrangement"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163710388x206193011712334940",
+      "source_level": "A1",
+      "source_label": "MODALITY > can > FORM: AFFIRMATIVE",
+      "source_text": "Can use the affirmative form.",
+      "course_item_ids": [
+        "grammar.can_ability_possibility"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "can_affirmative",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163710388x273734335473510240",
+      "source_level": "A1",
+      "source_label": "MODALITY > can > FORM: QUESTION ",
+      "source_text": "Can use the affirmative question form.",
+      "course_item_ids": [
+        "grammar.can_requests_offers"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "can_question_form",
+      "owner_ids": [
+        "lesson_candidate.accept_a_simple_offer",
+        "lesson_candidate.agree_to_a_simple_request",
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.ask_for_basic_practical_help",
+        "lesson_candidate.exchange_information_about_an_immediate_need"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163710388x482560605581935800",
+      "source_level": "A1",
+      "source_label": "MODALITY > can > FORM: NEGATIVE ",
+      "source_text": "Can use the negative forms.",
+      "course_item_ids": [
+        "grammar.can_ability_possibility"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "can_negative",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163710388x540901022788007400",
+      "source_level": "A1",
+      "source_label": "MODALITY > can > USE: OFFERS",
+      "source_text": "Can use 'can' to make an offer. ",
+      "course_item_ids": [
+        "grammar.can_requests_offers"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "can_offer",
+      "owner_ids": [
+        "lesson_candidate.accept_a_simple_offer",
+        "lesson_candidate.agree_to_a_simple_request",
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.ask_for_basic_practical_help",
+        "lesson_candidate.exchange_information_about_an_immediate_need"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163710388x882361395502946800",
+      "source_level": "A1",
+      "source_label": "MODALITY > can > USE: ABILITY",
+      "source_text": "Can use 'can' to talk about ability to do something. ",
+      "course_item_ids": [
+        "grammar.can_ability_possibility"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "can_ability",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163710391x459074403345042000",
+      "source_level": "A1",
+      "source_label": "MODALITY > can > USE: REQUESTS",
+      "source_text": "Can use 'can' to make a request.",
+      "course_item_ids": [
+        "grammar.can_requests_offers"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "can_request",
+      "owner_ids": [
+        "lesson_candidate.accept_a_simple_offer",
+        "lesson_candidate.agree_to_a_simple_request",
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.ask_for_basic_practical_help",
+        "lesson_candidate.exchange_information_about_an_immediate_need"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163710391x534949859885590850",
+      "source_level": "A1",
+      "source_label": "MODALITY > can > USE: POSSIBILITY",
+      "source_text": "Can use 'can' to talk about possibility.",
+      "course_item_ids": [
+        "grammar.can_ability_possibility"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "can_situational_possibility",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711296x326455472693880200",
+      "source_level": "A1",
+      "source_label": "MODALITY > will > FORM: AFFIRMATIVE",
+      "source_text": "Can use the affirmative forms. ",
+      "course_item_ids": [
+        "grammar.will_commitments"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_will_affirmative",
+      "owner_ids": [
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.understand_a_simple_meeting_arrangement"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711296x692481066424056800",
+      "source_level": "A1",
+      "source_label": "MODALITY > will > USE: PLANS AND INTENTIONS",
+      "source_text": "Can use 'will' to talk about plans and intentions. ",
+      "course_item_ids": [
+        "grammar.will_commitments"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_will_plan_use",
+      "owner_ids": [
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.understand_a_simple_meeting_arrangement"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711300x363892315600628400",
+      "source_level": "A1",
+      "source_label": "MODALITY > would > USE: INVITATIONS WITH 'LIKE'",
+      "source_text": "Can use 'would like to invite' to make invitations.",
+      "course_item_ids": [
+        "grammar.would_like_and_want"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "formulaic_invitation",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.write_a_short_message_to_a_friend"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711300x444537304178034940",
+      "source_level": "A1",
+      "source_label": "MODALITY > would > FORM: AFFIRMATIVE WITH 'LIKE'",
+      "source_text": "Can use the affirmative form with 'like'. ",
+      "course_item_ids": [
+        "grammar.would_like_and_want"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "would_like_affirmative",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.write_a_short_message_to_a_friend"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711300x569087712695511000",
+      "source_level": "A1",
+      "source_label": "MODALITY > would > USE: WISHES AND PREFERENCES WITH 'LIKE'",
+      "source_text": "Can use 'would like' to talk about wishes and preferences.",
+      "course_item_ids": [
+        "grammar.would_like_and_want"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "wants_preferences",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.write_a_short_message_to_a_friend"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163716067x101148462288360720",
+      "source_level": "A1",
+      "source_label": "NEGATION > negation > FORM: AUXILIARY VERB 'DO', PRESENT",
+      "source_text": "Can form negative statements of main verbs in the present simple with 'don't' + main verb. ► present simple ► can",
+      "course_item_ids": [
+        "grammar.present_simple_negative"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_do_negative",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163716067x824562184770361200",
+      "source_level": "A1",
+      "source_label": "NEGATION > negation > FORM: MAIN VERB 'BE'",
+      "source_text": "Can form negative statements of main verb 'be', with contracted and uncontracted forms.",
+      "course_item_ids": [
+        "grammar.be_negative"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_be_negative",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
+        "lesson_candidate.write_short_personal_profile"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163716068x909588472060841300",
+      "source_level": "A1",
+      "source_label": "NEGATION > negation > FORM: MODAL VERB 'CAN'",
+      "source_text": "Can use negative form 'can’t'.",
+      "course_item_ids": [
+        "grammar.can_ability_possibility"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_can_negative",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711539x318006443369482940",
+      "source_level": "A1",
+      "source_label": "NOUNS > noun phrases > FORM: ADJECTIVE + PLURAL NOUN",
+      "source_text": "Can form simple noun phrases by pre-modifying plural nouns with an adjective and no determiner. ",
+      "course_item_ids": [
+        "grammar.basic_noun_phrase",
+        "grammar.adjective_patterns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "adjective_plural_noun_phrase",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711539x336320676887564860",
+      "source_level": "A1",
+      "source_label": "NOUNS > noun phrases > FORM: DETERMINER + ADJECTIVE + NOUN",
+      "source_text": "Can form simple noun phrases by pre-modifying singular and plural nouns with an adjective after a determiner. ",
+      "course_item_ids": [
+        "grammar.basic_noun_phrase",
+        "grammar.adjective_patterns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "determiner_adjective_noun",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711539x384428957229715900",
+      "source_level": "A1",
+      "source_label": "NOUNS > noun phrases > FORM: DETERMINER + NOUN",
+      "source_text": "Can form simple noun phrases with a limited range of determiners + singular and plural nouns. ► Nouns and noun phrases: functions",
+      "course_item_ids": [
+        "grammar.basic_noun_phrase"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "determiner_noun",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711539x458750897089793800",
+      "source_level": "A1",
+      "source_label": "NOUNS > noun phrases > FORM: NOUN + NOUN",
+      "source_text": "Can form noun phrases by pre-modifying a limited range of nouns with another noun. ",
+      "course_item_ids": [],
+      "disposition": "transfer_lexical_layer",
+      "rationale_code": "lexicalised_noun_compounds",
+      "owner_ids": [
+        "support.lexical_syllabus"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711816x743806450459332500",
+      "source_level": "A1",
+      "source_label": "NOUNS > types > FORM: PROPER NOUNS",
+      "source_text": "Can use proper nouns with a capital letter to refer to specific people, places, days and things. ",
+      "course_item_ids": [],
+      "disposition": "transfer_writing_support",
+      "rationale_code": "capitalisation_not_grammar_mastery",
+      "owner_ids": [
+        "support.written_form_control"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711816x756476872948352000",
+      "source_level": "A1",
+      "source_label": "NOUNS > types > FORM: COMMON NOUNS",
+      "source_text": "Can use a limited range of common nouns. ",
+      "course_item_ids": [],
+      "disposition": "transfer_lexical_layer",
+      "rationale_code": "common_noun_inventory",
+      "owner_ids": [
+        "support.lexical_syllabus"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711817x590984810392161200",
+      "source_level": "A1",
+      "source_label": "NOUNS > types > FORM: COMPOUND NOUNS",
+      "source_text": "Can use a range of compound nouns, as one-word, two-word and hyphenated compounds, formed from verb + noun, noun + noun and adjective + noun combinations. ",
+      "course_item_ids": [],
+      "disposition": "transfer_lexical_layer",
+      "rationale_code": "compound_noun_inventory",
+      "owner_ids": [
+        "support.lexical_syllabus"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711821x759916598484829700",
+      "source_level": "A1",
+      "source_label": "NOUNS > plural > FORM: PLURAL '-S'",
+      "source_text": "Can form plurals by adding '-s' to common countable nouns. ",
+      "course_item_ids": [
+        "grammar.noun_number_quantity"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "regular_plural",
+      "owner_ids": [
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711828x633639966955607000",
+      "source_level": "A1",
+      "source_label": "NOUNS > noun phrases - grammatical functions > FORM: AS SUBJECTS ",
+      "source_text": "Can use nouns and noun phrases as subjects of the clause. ",
+      "course_item_ids": [
+        "grammar.basic_clause_order",
+        "grammar.basic_noun_phrase"
+      ],
+      "disposition": "support_not_separate",
+      "rationale_code": "noun_phrase_subject_role",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711829x722500780296901000",
+      "source_level": "A1",
+      "source_label": "NOUNS > noun phrases - grammatical functions > FORM: AS COMPLEMENT OF PREPOSITIONS",
+      "source_text": "Can use nouns and noun phrases as complements of prepositions in prepositional phrases. ",
+      "course_item_ids": [
+        "grammar.basic_noun_phrase",
+        "grammar.place_prepositions"
+      ],
+      "disposition": "support_not_separate",
+      "rationale_code": "noun_phrase_preposition_complement_role",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163711829x787492176446619900",
+      "source_level": "A1",
+      "source_label": "NOUNS > noun phrases - grammatical functions > FORM: AS OBJECTS",
+      "source_text": "Can use nouns and noun phrases as objects of the clause. ",
+      "course_item_ids": [
+        "grammar.basic_clause_order",
+        "grammar.basic_noun_phrase"
+      ],
+      "disposition": "support_not_separate",
+      "rationale_code": "noun_phrase_object_role",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163712047x121249829588899070",
+      "source_level": "A1",
+      "source_label": "NOUNS > noun phrases - grammatical functions > FORM: AS ADJUNCTS",
+      "source_text": "Can use nouns and noun phrases as adjuncts in some time expressions. ",
+      "course_item_ids": [
+        "grammar.time_date_expressions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "noun_phrase_time_adjunct",
+      "owner_ids": [
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+        "lesson_candidate.write_schedule_dates_and_times"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163712047x409239658002596100",
+      "source_level": "A1",
+      "source_label": "NOUNS > noun phrases - grammatical functions > FORM: AS COMPLEMENT OF 'BE'",
+      "source_text": "Can use nouns and noun phrases as complements of the verb 'be'. ",
+      "course_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.basic_noun_phrase"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "noun_phrase_be_complement",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163712739x256584265013129380",
+      "source_level": "A1",
+      "source_label": "PAST > past simple > FORM: AFFIRMATIVE",
+      "source_text": "Can use the affirmative form with a limited range of regular and irregular verbs.",
+      "course_item_ids": [
+        "grammar.past_simple_limited"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "bounded_past_affirmative",
+      "owner_ids": [
+        "lesson_candidate.state_how_a_simple_work_made_them_feel",
+        "lesson_candidate.understand_outline_of_an_illustrated_short_story",
+        "support.a1_exit_grammar_probe"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163712739x802711964566174800",
+      "source_level": "A1",
+      "source_label": "PAST > past simple > USE: EVERYDAY EVENTS AND STATES",
+      "source_text": "Can use the past simple to talk about everyday events or states.",
+      "course_item_ids": [
+        "grammar.past_simple_limited"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "bounded_past_event_use",
+      "owner_ids": [
+        "lesson_candidate.state_how_a_simple_work_made_them_feel",
+        "lesson_candidate.understand_outline_of_an_illustrated_short_story",
+        "support.a1_exit_grammar_probe"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713112x603850914179882600",
+      "source_level": "A1",
+      "source_label": "PREPOSITIONS > prepostions > FORM: PREPOSITION + NOUN PHRASE",
+      "source_text": "Can form prepositional phrases with a preposition and a noun phrase. ",
+      "course_item_ids": [
+        "grammar.place_prepositions",
+        "grammar.basic_noun_phrase"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "prepositional_phrase_form",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713112x806003192035927200",
+      "source_level": "A1",
+      "source_label": "PREPOSITIONS > prepostions > FORM: SIMPLE",
+      "source_text": "Can use a limited range of simple (single-word) prepositions. ",
+      "course_item_ids": [
+        "grammar.place_prepositions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "simple_preposition_range",
+      "owner_ids": [
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713121x244049823776565150",
+      "source_level": "A1",
+      "source_label": "PRESENT > present continuous > FORM: AFFIRMATIVE",
+      "source_text": "Can use the affirmative form.",
+      "course_item_ids": [
+        "grammar.present_continuous_now"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "continuous_affirmative",
+      "owner_ids": [
+        "lesson_candidate.identify_a_product_in_a_short_video_advertisement",
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713121x758287721695059000",
+      "source_level": "A1",
+      "source_label": "PRESENT > present continuous > USE: EVENTS IN PROGRESS",
+      "source_text": "Can use the present continuous with a limited range of verbs to talk about situations and events in progress.",
+      "course_item_ids": [
+        "grammar.present_continuous_now"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "action_in_progress",
+      "owner_ids": [
+        "lesson_candidate.identify_a_product_in_a_short_video_advertisement",
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713626x335670389512142900",
+      "source_level": "A1",
+      "source_label": "PRESENT > present simple > FORM: NEGATIVE",
+      "source_text": "Can use the negative form with a limited range of regular and irregular verbs.",
+      "course_item_ids": [
+        "grammar.present_simple_negative"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_present_negative",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713626x414037782388433340",
+      "source_level": "A1",
+      "source_label": "PRESENT > present simple > USE: HABITS AND GENERAL FACTS",
+      "source_text": "Can use the present simple to talk about repeated events or habits, and general facts. ",
+      "course_item_ids": [
+        "grammar.present_simple_affirmative"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "habit_fact_use",
+      "owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713626x486355013779909760",
+      "source_level": "A1",
+      "source_label": "PRESENT > present simple > FORM: AFFIRMATIVE",
+      "source_text": "Can use the affirmative form with a limited range of regular and irregular verbs.",
+      "course_item_ids": [
+        "grammar.present_simple_affirmative"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "present_affirmative",
+      "owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713626x606524312014730500",
+      "source_level": "A1",
+      "source_label": "PRESENT > present simple > FORM: WITH 'REALLY'",
+      "source_text": "Can use the present simple with the adverb 'really' as an intensifier. ► adverbs",
+      "course_item_ids": [
+        "grammar.degree_adverbs",
+        "grammar.present_simple_affirmative"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "really_with_present",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713867x150062658595893500",
+      "source_level": "A1",
+      "source_label": "PRONOUNS > subject/ object > FORM: (SUBJECT) QUESTIONS WITH 'BE'",
+      "source_text": "Can use the pronouns 'you' and 'it' after 'be' in question forms.",
+      "course_item_ids": [
+        "grammar.be_questions",
+        "grammar.personal_pronouns"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "pronouns_in_be_questions",
+      "owner_ids": [
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713867x281198469131771500",
+      "source_level": "A1",
+      "source_label": "PRONOUNS > subject/ object > FORM: (OBJECT) 'IT'",
+      "source_text": "Can use the pronoun 'it' as a direct object to refer to an object or situation already referred to.",
+      "course_item_ids": [
+        "grammar.personal_pronouns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "object_it",
+      "owner_ids": [
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713867x530274295544571840",
+      "source_level": "A1",
+      "source_label": "PRONOUNS > subject/ object > FORM: (OBJECT) WITH PREPOSITION ",
+      "source_text": "Can use the object pronouns 'me', 'you', 'him', 'her', 'it', 'us' and 'them' in the object position after prepositions. ",
+      "course_item_ids": [
+        "grammar.personal_pronouns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "object_pronouns_after_prepositions",
+      "owner_ids": [
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713867x609205291409504700",
+      "source_level": "A1",
+      "source_label": "PRONOUNS > subject/ object > FORM: (SUBJECT) QUESTIONS",
+      "source_text": "Can use the pronouns 'I', 'you', 'we' and 'they' after an auxiliary or modal verb in question forms.",
+      "course_item_ids": [
+        "grammar.personal_pronouns",
+        "grammar.information_question_frames"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "subjects_in_questions",
+      "owner_ids": [
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713867x710371035379195900",
+      "source_level": "A1",
+      "source_label": "PRONOUNS > subject/ object > FORM: (OBJECT) 'ME', 'YOU', 'HER', 'HIM', 'US', 'THEM' ",
+      "source_text": "Can use the pronouns 'me', 'you', 'him', 'her', 'us' and 'them' in the direct object position after a transitive verb.",
+      "course_item_ids": [
+        "grammar.personal_pronouns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "direct_object_pronouns",
+      "owner_ids": [
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713867x970460151516622800",
+      "source_level": "A1",
+      "source_label": "PRONOUNS > subject/ object > FORM: (SUBJECT) 'IT' FOR FIRST PERSON",
+      "source_text": "Can use the pronoun 'it' before 'be' to refer to a first person speaker or writer.",
+      "course_item_ids": [
+        "grammar.be_affirmative"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "formulaic_its_me_identification",
+      "owner_ids": [
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_short_personal_profile"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163713868x463659211645272000",
+      "source_level": "A1",
+      "source_label": "PRONOUNS > subject/ object > FORM: (SUBJECT) STATEMENTS",
+      "source_text": "Can use the pronouns 'I', 'you', 'he', 'she', 'it', 'we' and 'they' in the subject position before a verb in statements.",
+      "course_item_ids": [
+        "grammar.personal_pronouns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "subject_pronouns",
+      "owner_ids": [
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163714316x468029054820445100",
+      "source_level": "A1",
+      "source_label": "PRONOUNS > indefinite - thing, -one, -body etc > FORM: OBJECT",
+      "source_text": "Can use a limited range of indefinite pronouns as objects. ",
+      "course_item_ids": [
+        "grammar.indefinite_pronouns_limited"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "bounded_indefinite_object",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.understand_outline_of_an_illustrated_short_story",
+        "support.a1_exit_grammar_probe"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163714316x693313936907989500",
+      "source_level": "A1",
+      "source_label": "PRONOUNS > indefinite - thing, -one, -body etc > FORM: 'EVERYTHING', SUBJECT",
+      "source_text": "Can use 'everything' as subject, with a singular verb. ",
+      "course_item_ids": [
+        "grammar.indefinite_pronouns_limited"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "everything_subject_chunk",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.understand_outline_of_an_illustrated_short_story",
+        "support.a1_exit_grammar_probe"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715032x756418004139892900",
+      "source_level": "A1",
+      "source_label": "QUESTIONS > yes/no > FORM: MODAL VERBS",
+      "source_text": "Can use a limited range of modal verbs + subject + main verb to form 'yes/no' questions.  ► can",
+      "course_item_ids": [
+        "grammar.can_requests_offers"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_modal_question_order",
+      "owner_ids": [
+        "lesson_candidate.accept_a_simple_offer",
+        "lesson_candidate.agree_to_a_simple_request",
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.ask_for_basic_practical_help",
+        "lesson_candidate.exchange_information_about_an_immediate_need"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715275x913732212255741200",
+      "source_level": "A1",
+      "source_label": "VERBS > prepositional > FORM: VERB + PREPOSITION + OBJECT",
+      "source_text": "Can use a limited range of prepositional verbs followed by noun or pronoun objects. ",
+      "course_item_ids": [
+        "grammar.prepositional_verbs_limited"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "bounded_lexicalised_patterns",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_practical_help",
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.understand_a_short_everyday_activity_text"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715288x262148040901666750",
+      "source_level": "A1",
+      "source_label": "VERBS > types > FORM: AUXILIARY VERB 'BE' ",
+      "source_text": "Can use auxiliary verb 'be'. ►  present continuous",
+      "course_item_ids": [
+        "grammar.present_continuous_now"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "auxiliary_be_owned_by_continuous",
+      "owner_ids": [
+        "lesson_candidate.identify_a_product_in_a_short_video_advertisement",
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715288x297270598417309800",
+      "source_level": "A1",
+      "source_label": "VERBS > types > FORM: MODAL AUXILIARY VERBS",
+      "source_text": "Can use a limited range of modal auxiliary verbs ('can', 'will', 'would'). ",
+      "course_item_ids": [
+        "grammar.can_ability_possibility",
+        "grammar.will_commitments",
+        "grammar.would_like_and_want"
+      ],
+      "disposition": "support_not_separate",
+      "rationale_code": "broad_modal_inventory_owned_by_specific_items",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.understand_a_simple_meeting_arrangement",
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+        "lesson_candidate.write_a_short_message_to_a_friend"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715288x539616242661052000",
+      "source_level": "A1",
+      "source_label": "VERBS > types > FORM: LINKING VERB, 'BE'",
+      "source_text": "Can use linking verb 'be'. ",
+      "course_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.be_negative"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "linking_be_owned_by_be_items",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_short_personal_profile"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715288x929829619225120500",
+      "source_level": "A1",
+      "source_label": "VERBS > types > FORM: MAIN VERBS",
+      "source_text": "Can use regular and irregular main verbs in simple verb phrases. ► present simple ► past simple",
+      "course_item_ids": [
+        "grammar.present_simple_affirmative",
+        "grammar.past_simple_limited",
+        "grammar.basic_clause_order"
+      ],
+      "disposition": "support_not_separate",
+      "rationale_code": "broad_main_verb_category_owned_by_specific_items",
+      "owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.state_how_a_simple_work_made_them_feel",
+        "lesson_candidate.understand_outline_of_an_illustrated_short_story",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences",
+        "support.a1_exit_grammar_probe"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715299x334716733147188740",
+      "source_level": "A1",
+      "source_label": "VERBS > patterns_with to and -ing > FORM: VERB + 'TO'-INFINITIVE",
+      "source_text": "Can use a limited range of verbs followed by a 'to'- infinitive. ",
+      "course_item_ids": [
+        "grammar.like_and_infinitive_patterns"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "bounded_to_infinitive_patterns",
+      "owner_ids": [
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715300x285261568472368060",
+      "source_level": "A1",
+      "source_label": "VERBS > patterns_with to and -ing > FORM: 'WOULD LIKE TO'",
+      "source_text": "Can use 'would like to' + infinitive. ",
+      "course_item_ids": [
+        "grammar.would_like_and_want"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_would_like_to_pattern",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.write_a_short_message_to_a_friend"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715300x394950798002922750",
+      "source_level": "A1",
+      "source_label": "VERBS > patterns_with to and -ing > FORM: 'LIKE' + 'TO'-INFINITIVE OR + '-ING'",
+      "source_text": "Can use 'like' followed either by a 'to'-infinitive or an '-ing' form, with no change in meaning. ",
+      "course_item_ids": [
+        "grammar.like_and_infinitive_patterns"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "like_ing_or_infinitive",
+      "owner_ids": [
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715607x526138276437947400",
+      "source_level": "A1",
+      "source_label": "VERBS > there is/are > FORM: 'THERE IS'",
+      "source_text": "Can use 'there is' + singular noun phrase as complement. ",
+      "course_item_ids": [
+        "grammar.there_is_are"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "there_is_singular",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.understand_simple_place_and_hotel_information",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715607x671128268905876200",
+      "source_level": "A1",
+      "source_label": "VERBS > there is/are > FORM: 'THERE ARE'",
+      "source_text": "Can use 'there are' + plural noun phrase as complement.",
+      "course_item_ids": [
+        "grammar.there_is_are"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "there_are_plural",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.understand_simple_place_and_hotel_information",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "egp",
+      "source_record_id": "1741163715608x123988758899529200",
+      "source_level": "A1",
+      "source_label": "VERBS > linking > FORM: 'BE' + COMPLEMENT",
+      "source_text": "Can use linking verb 'be' with complements.",
+      "course_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.basic_clause_order"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "be_complement_summary",
+      "owner_ids": [
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.001",
+      "source_level": "A1",
+      "source_label": "GSE 24: ‘what’s your’ + NP?",
+      "source_text": "Can ask basic questions using ‘What’s your ...?’",
+      "course_item_ids": [
+        "grammar.information_question_frames"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "personal_question_frame",
+      "owner_ids": [
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.handle_basic_price_and_quantity_information"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.002",
+      "source_level": "A1",
+      "source_label": "GSE 24: agreement between nouns and verb ‘be’",
+      "source_text": "Can use the correct form of ‘be’ with singular and plural nouns.",
+      "course_item_ids": [
+        "grammar.be_affirmative"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "be_agreement",
+      "owner_ids": [
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_short_personal_profile"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.003",
+      "source_level": "A1",
+      "source_label": "GSE 24: statements with subject + verb + object",
+      "source_text": "Can make basic statements with subject + verb + object.",
+      "course_item_ids": [
+        "grammar.basic_clause_order",
+        "grammar.present_simple_affirmative"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "subject_verb_object",
+      "owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.004",
+      "source_level": "A1",
+      "source_label": "GSE 24: subject personal pronouns",
+      "source_text": "Can use subject personal pronouns.",
+      "course_item_ids": [
+        "grammar.personal_pronouns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "subject_pronouns",
+      "owner_ids": [
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.005",
+      "source_level": "A1",
+      "source_label": "GSE 24: ‘I’m’ + number for age",
+      "source_text": "Can say their own age using ‘I’m [number]’.",
+      "course_item_ids": [
+        "grammar.be_affirmative"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "age_with_be",
+      "owner_ids": [
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_short_personal_profile"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.006",
+      "source_level": "A1",
+      "source_label": "GSE 24: ‘it’ + ‘be’",
+      "source_text": "Can make simple statements with ‘it’s/it is’.",
+      "course_item_ids": [
+        "grammar.be_affirmative"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "it_be_time_weather_state",
+      "owner_ids": [
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_short_personal_profile"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.007",
+      "source_level": "A1",
+      "source_label": "GSE 24: regular nouns - plural",
+      "source_text": "Can use regular nouns in the plural form.",
+      "course_item_ids": [
+        "grammar.noun_number_quantity"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "regular_plural",
+      "owner_ids": [
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.008",
+      "source_level": "A1",
+      "source_label": "GSE 24: subject pronouns + ‘be’ + adj",
+      "source_text": "Can use subject pronouns with the correct form of the verb ‘be’ in the simple present.",
+      "course_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.adjective_patterns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "subject_be_adjective",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_short_personal_profile"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.009",
+      "source_level": "A1",
+      "source_label": "GSE 25: possessive adjectives (determiners)",
+      "source_text": "Can use possessive adjectives such as ‘my’, ‘your’, etc.",
+      "course_item_ids": [
+        "grammar.possessive_forms"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "possessive_determiners",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.010",
+      "source_level": "A1",
+      "source_label": "GSE 25: ‘a/an’ with jobs",
+      "source_text": "Can use ‘a/an’ with the names of jobs.",
+      "course_item_ids": [
+        "grammar.articles"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "article_with_job",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.011",
+      "source_level": "A1",
+      "source_label": "GSE 25: interrogative pronouns: ‘what/who’",
+      "source_text": "Can form questions with ‘what’ and ‘who’ and answer them.",
+      "course_item_ids": [
+        "grammar.information_question_frames",
+        "grammar.be_questions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "what_who_questions",
+      "owner_ids": [
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.handle_basic_price_and_quantity_information"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.012",
+      "source_level": "A1",
+      "source_label": "GSE 25: ‘How old’ + ‘is/are’ + NP?",
+      "source_text": "Can ask someone’s age using ‘How old …?’",
+      "course_item_ids": [
+        "grammar.information_question_frames",
+        "grammar.be_questions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "how_old_question",
+      "owner_ids": [
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.handle_basic_price_and_quantity_information"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p07.013",
+      "source_level": "A1",
+      "source_label": "GSE 25: NP + ‘and’ + NP",
+      "source_text": "Can use ‘and’ to link nouns and noun phrases.",
+      "course_item_ids": [
+        "grammar.coordination"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "noun_phrase_and",
+      "owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.001",
+      "source_level": "A1",
+      "source_label": "GSE 25: ‘be’ + adjective",
+      "source_text": "Can use the verb ‘be’ in the simple present with adjectives.",
+      "course_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.be_negative",
+        "grammar.adjective_patterns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "be_adjective_system",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_short_personal_profile"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.002",
+      "source_level": "A1",
+      "source_label": "GSE 25: ‘this is’ for an introduction",
+      "source_text": "Can use ‘this is’ for an introduction.",
+      "course_item_ids": [
+        "grammar.this_reference"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "this_is_introduction",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.introduce_another_person"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.003",
+      "source_level": "A1",
+      "source_label": "GSE 25: ‘have’ in the present tense",
+      "source_text": "Can use common forms of ‘have’ in the present tense.",
+      "course_item_ids": [
+        "grammar.have_possession"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "present_have",
+      "owner_ids": [
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.004",
+      "source_level": "A1",
+      "source_label": "GSE 25: irregular nouns – plural",
+      "source_text": "Can use common irregular nouns in the plural form.",
+      "course_item_ids": [
+        "grammar.noun_number_quantity"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "common_irregular_plurals",
+      "owner_ids": [
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.005",
+      "source_level": "A1",
+      "source_label": "GSE 25: ‘Where’ + ‘is/are’ + NP?",
+      "source_text": "Can ask where other people are using ‘Where is/are …?’",
+      "course_item_ids": [
+        "grammar.information_question_frames",
+        "grammar.be_questions",
+        "grammar.place_prepositions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "where_be_question",
+      "owner_ids": [
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.006",
+      "source_level": "A1",
+      "source_label": "GSE 26: ‘a/an’ with single countable nouns",
+      "source_text": "Can use ‘a/an’ with single countable nouns.",
+      "course_item_ids": [
+        "grammar.articles"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "article_single_countable",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.007",
+      "source_level": "A1",
+      "source_label": "GSE 26: present simple for facts and states (affirmative only)",
+      "source_text": "Can make affirmative statements using the present simple without time reference.",
+      "course_item_ids": [
+        "grammar.present_simple_affirmative"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "present_facts_states",
+      "owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.008",
+      "source_level": "A1",
+      "source_label": "GSE 26: present simple – negative forms",
+      "source_text": "Can make negative statements using the present simple.",
+      "course_item_ids": [
+        "grammar.present_simple_negative"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "present_negative",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.009",
+      "source_level": "A1",
+      "source_label": "GSE 26: wh- questions in the present simple",
+      "source_text": "Can ask wh- questions using the present simple.",
+      "course_item_ids": [
+        "grammar.present_simple_questions",
+        "grammar.information_question_frames"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "present_wh_questions",
+      "owner_ids": [
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.handle_basic_price_and_quantity_information"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.010",
+      "source_level": "A1",
+      "source_label": "GSE 26: present simple for daily routines",
+      "source_text": "Can use the present simple to refer to daily routines.",
+      "course_item_ids": [
+        "grammar.present_simple_affirmative",
+        "grammar.frequency_adverbs"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "daily_routines",
+      "owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.011",
+      "source_level": "A1",
+      "source_label": "GSE 26: yes/no questions in the present simple",
+      "source_text": "Can ask yes/no questions using the present simple.",
+      "course_item_ids": [
+        "grammar.present_simple_questions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "present_yes_no_questions",
+      "owner_ids": [
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_routine_and_preference_information"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.012",
+      "source_level": "A1",
+      "source_label": "GSE 26: ‘a/an’ + jobs",
+      "source_text": "Can use ‘a/an’ with jobs to talk about work and professions.",
+      "course_item_ids": [
+        "grammar.articles"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "same_article_job_pattern",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.013",
+      "source_level": "A1",
+      "source_label": "GSE 26: basic prepositions of place (prepositional phrases)",
+      "source_text": "Can use basic prepositions of place with nouns and noun phrases.",
+      "course_item_ids": [
+        "grammar.place_prepositions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "basic_place_prepositions",
+      "owner_ids": [
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.014",
+      "source_level": "A1",
+      "source_label": "GSE 27: Imperatives + negative imperatives",
+      "source_text": "Can use verbs in the imperative.",
+      "course_item_ids": [
+        "grammar.imperatives"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "positive_negative_imperatives",
+      "owner_ids": [
+        "lesson_candidate.follow_short_written_everyday_instructions",
+        "lesson_candidate.follow_simple_game_or_activity_instructions",
+        "lesson_candidate.follow_simple_written_wayfinding_directions",
+        "lesson_candidate.follow_slow_spoken_route_directions"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.015",
+      "source_level": "A1",
+      "source_label": "GSE 27: object personal pronouns",
+      "source_text": "Can use personal pronouns as objects and complements.",
+      "course_item_ids": [
+        "grammar.personal_pronouns"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "object_pronouns",
+      "owner_ids": [
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.016",
+      "source_level": "A1",
+      "source_label": "GSE 27: basic time expressions with ‘o’clock’",
+      "source_text": "Can use a range of time expressions with whole numbers (+ ‘o’clock’).",
+      "course_item_ids": [
+        "grammar.time_date_expressions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "clock_time",
+      "owner_ids": [
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+        "lesson_candidate.write_schedule_dates_and_times"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p08.017",
+      "source_level": "A1",
+      "source_label": "GSE 27: ‘there is(n’t)/are(n’t)’",
+      "source_text": "Can use ‘there’ + ‘be’ to express presence/ absence.",
+      "course_item_ids": [
+        "grammar.there_is_are"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "presence_absence",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.understand_simple_place_and_hotel_information",
+        "lesson_candidate.write_a_simple_room_description"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.001",
+      "source_level": "A1",
+      "source_label": "GSE 27: ‘How much’ + ‘is/are’ + NP?",
+      "source_text": "Can ask about the price of something using ‘How much is/are …?’",
+      "course_item_ids": [
+        "grammar.information_question_frames"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "price_question",
+      "owner_ids": [
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.handle_basic_price_and_quantity_information"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.002",
+      "source_level": "A1",
+      "source_label": "GSE 27: types of wh- questions",
+      "source_text": "Can ask a range of wh- questions.",
+      "course_item_ids": [
+        "grammar.information_question_frames"
+      ],
+      "disposition": "folded_duplicate",
+      "rationale_code": "question_range_summary",
+      "owner_ids": [
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.handle_basic_price_and_quantity_information"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.003",
+      "source_level": "A1",
+      "source_label": "GSE 27: NP + ‘is/are’ + PP with common prepositions of place",
+      "source_text": "Can say where they and other people are using a few basic prepositions.",
+      "course_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.place_prepositions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "person_location_statement",
+      "owner_ids": [
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.write_a_simple_room_description",
+        "lesson_candidate.write_short_personal_profile"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.004",
+      "source_level": "A1",
+      "source_label": "GSE 27: present simple for opinions, likes and dislikes",
+      "source_text": "Can use the present simple to refer to likes, dislikes and opinions.",
+      "course_item_ids": [
+        "grammar.present_simple_affirmative",
+        "grammar.present_simple_negative",
+        "grammar.present_simple_questions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "likes_dislikes_opinions",
+      "owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.005",
+      "source_level": "A1",
+      "source_label": "GSE 28: basic ‘but’",
+      "source_text": "Can use ‘but’ to link clauses and sentences.",
+      "course_item_ids": [
+        "grammar.coordination"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "basic_but",
+      "owner_ids": [
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.006",
+      "source_level": "A1",
+      "source_label": "GSE 28: ‘have got’ in the present tense",
+      "source_text": "Can use common forms of ‘have got’ (BrE) in the present tense.",
+      "course_item_ids": [
+        "grammar.have_possession"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "registered_bre_have_got",
+      "owner_ids": [
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.007",
+      "source_level": "A1",
+      "source_label": "GSE 28: ordinal number + month/month + ordinal number + year",
+      "source_text": "Can give dates (e.g. their date of birth) using ordinal numbers in the form day- month-year or month-day-year.",
+      "course_item_ids": [
+        "grammar.time_date_expressions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "ordinal_dates",
+      "owner_ids": [
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+        "lesson_candidate.write_schedule_dates_and_times"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.008",
+      "source_level": "A1",
+      "source_label": "GSE 28: ‘‘s’ for possession",
+      "source_text": "Can use ‘’s’ to express possession with singular nouns.",
+      "course_item_ids": [
+        "grammar.possessive_forms"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "singular_possessive_s",
+      "owner_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.009",
+      "source_level": "A1",
+      "source_label": "GSE 28: tag responses (short answers to present simple yes/no questions)",
+      "source_text": "Can construct short answers to questions in the present simple using the verb ‘do’.",
+      "course_item_ids": [
+        "grammar.present_simple_questions"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "do_short_answers",
+      "owner_ids": [
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.exchange_routine_and_preference_information"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.010",
+      "source_level": "A1",
+      "source_label": "GSE 29: present simple vs. present continuous",
+      "source_text": "Can tell when to use the present simple and when to use the present continuous.",
+      "course_item_ids": [
+        "grammar.present_simple_affirmative",
+        "grammar.present_continuous_now"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "routine_now_contrast",
+      "owner_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.identify_a_product_in_a_short_video_advertisement",
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.011",
+      "source_level": "A1",
+      "source_label": "GSE 29: ‘I’d like/I want’ + NP",
+      "source_text": "Can use ‘I’d like …/I want …’ to express wants and wishes.",
+      "course_item_ids": [
+        "grammar.would_like_and_want"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "want_frame",
+      "owner_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.write_a_short_message_to_a_friend"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.012",
+      "source_level": "A1",
+      "source_label": "GSE 29: ‘can’ for ability",
+      "source_text": "Can use ‘can’ to refer to ability in the present.",
+      "course_item_ids": [
+        "grammar.can_ability_possibility"
+      ],
+      "disposition": "selected_core",
+      "rationale_code": "can_ability",
+      "owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities"
+      ]
+    },
+    {
+      "source_system": "gse_grammar",
+      "source_record_id": "gse.grammar.2023.p09.013",
+      "source_level": "A1",
+      "source_label": "GSE 29: past tense – negative",
+      "source_text": "Can use negative forms of the simple past.",
+      "course_item_ids": [
+        "grammar.past_simple_limited"
+      ],
+      "disposition": "selected_limited",
+      "rationale_code": "past_negative",
+      "owner_ids": [
+        "lesson_candidate.state_how_a_simple_work_made_them_feel",
+        "lesson_candidate.understand_outline_of_an_illustrated_short_story",
+        "support.a1_exit_grammar_probe"
+      ]
+    }
+  ],
+  "legacy_target_crosswalk": [
+    {
+      "candidate_id": "lesson_candidate.understand_spoken_personal_introductions",
+      "legacy_target": "Simple first- and third-person identity statements",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.personal_pronouns"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.give_short_self_introduction",
+      "legacy_target": "Simple first-person statements for identity, residence, role, and one personal detail",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.present_simple_affirmative",
+        "grammar.basic_clause_order",
+        "grammar.possessive_forms"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_personal_details_orally",
+      "legacy_target": "Direct personal-detail questions with short relevant answers",
+      "exact_item_ids": [
+        "grammar.be_questions",
+        "grammar.present_simple_questions",
+        "grammar.information_question_frames"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.write_short_personal_profile",
+      "legacy_target": "Simple identity, residence, role, and family statements about self or one person",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.present_simple_affirmative",
+        "grammar.possessive_forms",
+        "grammar.coordination"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_personal_details_in_writing",
+      "legacy_target": "Simple written personal-detail questions and statements",
+      "exact_item_ids": [
+        "grammar.be_questions",
+        "grammar.present_simple_questions",
+        "grammar.information_question_frames"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_people_and_object_locations_orally",
+      "legacy_target": "Basic location statements for people and objects",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.place_prepositions",
+        "grammar.place_adverbs"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.introduce_another_person",
+      "legacy_target": "Simple third-person identity and job statements",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.present_simple_affirmative",
+        "grammar.articles",
+        "grammar.this_reference"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_information_about_family_and_friends",
+      "legacy_target": "Basic factual questions with short relevant answers",
+      "exact_item_ids": [
+        "grammar.be_questions",
+        "grammar.present_simple_questions",
+        "grammar.have_possession",
+        "grammar.information_question_frames"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_family_or_known_person",
+      "legacy_target": "Basic statements identifying people and relationships",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.have_possession",
+        "grammar.possessive_forms",
+        "grammar.adjective_patterns"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.write_simple_people_profile_cards",
+      "legacy_target": "Simple statements linking each person to a possession, family, pet, or job fact",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.have_possession",
+        "grammar.possessive_forms",
+        "grammar.articles"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.write_a_short_message_to_a_friend",
+      "legacy_target": "A simple information statement or direct question",
+      "exact_item_ids": [
+        "grammar.basic_clause_order",
+        "grammar.present_simple_questions",
+        "grammar.coordination"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+      "legacy_target": "Receptive contrast between can and can't",
+      "exact_item_ids": [
+        "grammar.can_ability_possibility"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.give_a_simple_leisure_profile",
+      "legacy_target": "Can and can't for basic activity ability",
+      "exact_item_ids": [
+        "grammar.present_simple_affirmative",
+        "grammar.can_ability_possibility",
+        "grammar.like_and_infinitive_patterns"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_routine_and_preference_information",
+      "legacy_target": "Simple routine and preference questions with short relevant answers",
+      "exact_item_ids": [
+        "grammar.present_simple_affirmative",
+        "grammar.present_simple_questions",
+        "grammar.frequency_adverbs"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_simple_everyday_routine",
+      "legacy_target": "A prepared series of simple sentences about everyday life",
+      "exact_item_ids": [
+        "grammar.present_simple_affirmative",
+        "grammar.frequency_adverbs",
+        "grammar.coordination"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.write_a_short_hobbies_and_likes_post",
+      "legacy_target": "Simple positive and negative hobby or preference statements",
+      "exact_item_ids": [
+        "grammar.present_simple_affirmative",
+        "grammar.present_simple_negative",
+        "grammar.like_and_infinitive_patterns",
+        "grammar.coordination"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.write_simple_life_and_routine_sentences",
+      "legacy_target": "Simple statements keeping one person linked to their life and routine facts",
+      "exact_item_ids": [
+        "grammar.present_simple_affirmative",
+        "grammar.personal_pronouns",
+        "grammar.frequency_adverbs",
+        "grammar.coordination"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.match_visual_descriptions_to_familiar_things",
+      "legacy_target": "Basic descriptive sentences linking a referent to a visible feature",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.adjective_patterns",
+        "grammar.basic_noun_phrase"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_where_things_or_people_are",
+      "legacy_target": "Basic receptive location statements",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.place_prepositions",
+        "grammar.place_adverbs"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_familiar_object_orally",
+      "legacy_target": "Basic descriptive statements connecting an object with visible features",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.adjective_patterns",
+        "grammar.articles",
+        "grammar.degree_adverbs"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_visible_object_information",
+      "legacy_target": "Simple object questions with short relevant answers",
+      "exact_item_ids": [
+        "grammar.be_questions",
+        "grammar.adjective_patterns",
+        "grammar.noun_number_quantity",
+        "grammar.information_question_frames"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_basic_information_about_a_home",
+      "legacy_target": "Basic home and possession questions with short relevant answers",
+      "exact_item_ids": [
+        "grammar.present_simple_questions",
+        "grammar.have_possession",
+        "grammar.there_is_are",
+        "grammar.information_question_frames"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.write_a_simple_object_description",
+      "legacy_target": "Basic descriptive statements linking a familiar object to visible features",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.adjective_patterns",
+        "grammar.basic_noun_phrase"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.write_a_simple_room_description",
+      "legacy_target": "Simple position statements connecting familiar things to places in a room",
+      "exact_item_ids": [
+        "grammar.there_is_are",
+        "grammar.place_prepositions",
+        "grammar.basic_noun_phrase"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_basic_wayfinding_information",
+      "legacy_target": "Basic questions for a route and short answers about where people or things are",
+      "exact_item_ids": [
+        "grammar.be_questions",
+        "grammar.place_prepositions",
+        "grammar.place_adverbs",
+        "grammar.information_question_frames"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_information_about_an_immediate_need",
+      "legacy_target": "Simple question, answer, and statement frames about an immediate need",
+      "exact_item_ids": [
+        "grammar.be_questions",
+        "grammar.present_simple_questions",
+        "grammar.can_ability_possibility",
+        "grammar.information_question_frames"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
+      "legacy_target": "Simple problem statements and brief answers to direct questions",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.present_simple_affirmative",
+        "grammar.information_question_frames"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+      "legacy_target": "Simple statements of whereabouts and return time",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.will_commitments",
+        "grammar.place_prepositions",
+        "grammar.time_date_expressions"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.open_and_close_a_basic_social_exchange",
+      "legacy_target": "Short wellbeing question-and-answer frames",
+      "exact_item_ids": [
+        "grammar.be_questions",
+        "grammar.information_question_frames"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.state_how_a_simple_work_made_them_feel",
+      "legacy_target": "A basic personal feeling statement linked to the work",
+      "exact_item_ids": [
+        "grammar.be_affirmative",
+        "grammar.because_reasons",
+        "grammar.past_simple_limited"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.share_an_idea_and_ask_what_others_think",
+      "legacy_target": "A very simple prepared idea statement and opinion-inviting question frame",
+      "exact_item_ids": [
+        "grammar.present_simple_affirmative",
+        "grammar.present_simple_questions",
+        "grammar.information_question_frames"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.follow_short_written_everyday_instructions",
+      "legacy_target": "Verb-led positive instruction clauses",
+      "exact_item_ids": [
+        "grammar.imperatives"
+      ]
+    }
+  ],
+  "audit": {
+    "egp_a1_source_count": 109,
+    "gse_grammar_a1_source_count": 43,
+    "total_source_count": 152,
+    "course_item_count": 34,
+    "control_status_counts": {
+      "embedded_support": 2,
+      "formulaic_productive": 3,
+      "productive_core": 23,
+      "productive_limited": 5,
+      "receptive_formulaic": 1
+    },
+    "disposition_counts": {
+      "folded_duplicate": 30,
+      "selected_core": 89,
+      "selected_limited": 20,
+      "support_not_separate": 7,
+      "transfer_lexical_layer": 3,
+      "transfer_phrase_layer": 2,
+      "transfer_writing_support": 1
+    },
+    "legacy_target_count": 32,
+    "new_system_item_ids": [
+      "grammar.be_negative",
+      "grammar.can_requests_offers",
+      "grammar.indefinite_pronouns_limited",
+      "grammar.prepositional_verbs_limited",
+      "grammar.present_continuous_now",
+      "grammar.would_like_and_want"
+    ],
+    "orphan_source_ids": [],
+    "unknown_course_item_ids": [],
+    "unknown_owner_ids": [],
+    "items_without_source_evidence": [],
+    "items_without_recycle_owners": [],
+    "unmapped_legacy_candidate_ids": [],
+    "final_lesson_decisions_made": 0
+  },
+  "review": {
+    "status": "accepted_exact_language_system_pass",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T14:50:00+03:00",
+    "statement": "All A1 grammar evidence has a disposition and every selected learner item has exact forms, bounded use, owners, recycling, mastery, and an explicit later-level boundary."
+  }
+}
