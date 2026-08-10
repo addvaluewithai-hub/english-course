@@ -2,7 +2,9 @@
 
 ## Decision
 
-Build a cross-level curriculum spine before mass-producing the remaining A1 lessons.
+Build an A1-C2 curriculum spine before mass-producing the remaining A1 lessons. Treat
+Pre-A1 as a diagnostic and remedial on-ramp, not as a promised exit level. Treat A2+,
+B1+, and B2+ as internal GSE milestones rather than separate CEFR exit claims.
 Do not discard the gold lesson or Unit 1; use them as authored evidence to reconcile
 against the spine. A small delivery pilot may proceed in parallel because it tests a
 different question.
@@ -13,7 +15,7 @@ Define what grows, when, and to what degree across every supported English level
 spine must connect communicative ability with language systems and complexity, rather
 than treating CEFR descriptors as a ready-made table of contents.
 
-The owner must first lock the supported exit range: Pre-A1 through C1 or C2.
+The supported exit range is locked as A1 through C2.
 
 ## Existing assets to reuse
 

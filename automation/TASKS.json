@@ -142,6 +142,60 @@
       ]
     },
     {
+      "id": "SPINE-001",
+      "phase": "cross_level_vertical_spine",
+      "title": "Define the A1-C2 vertical curriculum contract and proposal",
+      "status": "complete",
+      "dependencies": ["FOUND-001", "LESSON-002"],
+      "acceptance": "Supported levels, source coverage, lifecycle, exit-profile proposal, A1 reconciliation plan, and validation contract are explicit.",
+      "notes": [
+        "2026-08-10: locked A1-C2 exits, Pre-A1 support, and GSE plus-band milestones; derived all 1,222 EGP records; added proposal profiles and validators."
+      ]
+    },
+    {
+      "id": "SPINE-002",
+      "phase": "cross_level_vertical_spine",
+      "title": "Normalize all-level curriculum sources",
+      "status": "ready",
+      "dependencies": ["SPINE-001"],
+      "acceptance": "CEFR, GSE, EGP, GSE Grammar, and Oxford records are versioned, provenance-complete, count-reconciled, and validation-clean.",
+      "notes": [
+        "The EGP all-level partition is complete. Continue with CEFR, GSE, GSE Grammar, and PDF-aware Oxford normalization."
+      ]
+    },
+    {
+      "id": "SPINE-003",
+      "phase": "cross_level_vertical_spine",
+      "title": "Review source dispositions and level exit profiles",
+      "status": "locked",
+      "dependencies": ["SPINE-002"],
+      "acceptance": "All relevant records have dispositions and every exit claim is reviewed across skills, modes, language systems, and complexity."
+    },
+    {
+      "id": "SPINE-004",
+      "phase": "cross_level_vertical_spine",
+      "title": "Build and audit vertical progression strands",
+      "status": "locked",
+      "dependencies": ["SPINE-003"],
+      "acceptance": "Abilities, grammar, vocabulary, pronunciation, discourse, and complexity have reviewed lifecycle ownership without unexplained orphans or regressions."
+    },
+    {
+      "id": "SPINE-005",
+      "phase": "cross_level_vertical_spine",
+      "title": "Reconcile the current A1 map and Unit 1",
+      "status": "locked",
+      "dependencies": ["SPINE-004", "GOLD-002"],
+      "acceptance": "All 81 candidates and Unit 1 have source-preserving keep, revise, split, merge, defer, or support-only decisions."
+    },
+    {
+      "id": "SPINE-006",
+      "phase": "cross_level_vertical_spine",
+      "title": "Lock A1 scope and sequence v1",
+      "status": "locked",
+      "dependencies": ["SPINE-005"],
+      "acceptance": "Final A1 units, sequence, language ownership, recycling, and exit assessment coverage pass independent review."
+    },
+    {
       "id": "GOLD-001",
       "phase": "phase_4_gold_lesson",
       "title": "Select the gold lesson and assemble its source packet",
@@ -210,7 +264,7 @@
       "phase": "phase_9_full_a1",
       "title": "Scale the validated factory to full A1",
       "status": "locked",
-      "dependencies": ["UNIT1-001"],
+      "dependencies": ["UNIT1-001", "SPINE-006"],
       "acceptance": "Full A1 passes source, level, Arabic, pedagogy, media, technical, and release audits."
     }
   ]

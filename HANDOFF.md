@@ -12,6 +12,12 @@ The project has a reviewed A1 curriculum foundation and one complete content uni
 - Unit 1 contains eight sequenced lessons, lesson-level practice and assessment,
   accessibility requirements, review routing, and a unit mastery experience.
 - The static prototype demonstrates the gold lesson without an app or database.
+- The owner has directed the team to build an A1-C2 vertical curriculum before mass
+  production. The proposal, exit profiles, source audit, and execution plan are in
+  `docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md`,
+  `docs/LEVEL_EXIT_PROFILES_V0.md`, and `docs/VERTICAL_SPINE_EXECUTION_PLAN.md`.
+- `data/derived/egp-all-levels.json` contains all 1,222 EGP features. It is derived
+  evidence, not an approved grammar syllabus.
 
 ## Important boundary
 
@@ -26,12 +32,12 @@ exception, not proof that those gates passed.
 
 ## Recommended next work
 
-1. Render and listen-test the eight lesson videos with the chosen voice system.
-2. Run a small, consent-based learner pilot of the gold lesson.
-3. Record pronunciation, comprehension, completion, and usability findings.
-4. Revise the lesson contract only from observed evidence.
-5. Lock reusable content schemas and build a thin application slice.
-6. Pilot the complete unit before scaling the remaining A1 map.
+1. Review and approve or revise the A1-C2 exit-profile proposal.
+2. Normalize all-level CEFR, GSE, GSE Grammar, and Oxford records with exact provenance.
+3. Build reviewed progression strands and lifecycle ownership across all levels.
+4. Reconcile the 81 A1 candidates and Unit 1, then lock A1 scope and sequence v1.
+5. In parallel, run a small consent-based gold-lesson pilot and record delivery evidence.
+6. Resume mass A1 production only after the vertical-spine and delivery gates pass.
 
 ## Content locations
 
@@ -54,7 +60,7 @@ context, not approved curriculum evidence. Historic per-agent run logs, caches, 
 temporary files remain excluded. Review each publisher's reuse terms before sharing.
 
 For the next curriculum phase, read `docs/VERTICAL_CURRICULUM_SPINE_BRIEF.md` and
-`docs/LOCAL_RECOVERY_AUDIT.md` before designing A2 or revising A1.
+`docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md` before designing A2 or revising A1.
 
 No repository-wide open-source license has been selected. The new team should choose
 one deliberately before accepting outside contributions.

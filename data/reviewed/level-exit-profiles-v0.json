@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "profile_set_id": "english_course_level_exit_profiles",
+  "version": 0,
+  "status": "proposal",
+  "exit_levels": ["a1", "a2", "b1", "b2", "c1", "c2"],
+  "onboarding_support": {
+    "level": "pre_a1",
+    "role": "Diagnostic and remedial on-ramp for isolated words, formulaic expressions, and foundational recognition.",
+    "exit_claim": false
+  },
+  "internal_milestones": [
+    {"id": "a2_plus", "gse_range": "36-42", "role": "Internal progress milestone within the A2-to-B1 journey."},
+    {"id": "b1_plus", "gse_range": "51-58", "role": "Internal progress milestone within the B1-to-B2 journey."},
+    {"id": "b2_plus", "gse_range": "67-75", "role": "Internal progress milestone within the B2-to-C1 journey."}
+  ],
+  "lifecycle": ["expose", "introduce", "practise", "recycle", "consolidate", "extend"],
+  "source_catalog": [
+    {
+      "source_id": "coe.cefr_companion_2020_en",
+      "raw_file": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "locations": ["page 175: global scale", "pages 177-181: expanded skill grid", "pages 131-142: language competences"],
+      "role": "Primary broad level and qualitative boundary."
+    },
+    {
+      "source_id": "pearson.gse_adult_general_english_2022",
+      "raw_file": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "locations": ["pages 7-8: GSE/CEFR bands", "pages 9-45: skill objectives"],
+      "role": "Granular communicative objectives and internal progress ranges."
+    },
+    {
+      "source_id": "english_profile.egp_online_export",
+      "raw_file": "sources/raw/grammar/english-grammar-profile-online.xlsx",
+      "locations": ["Data!A2:H1223"],
+      "role": "Empirical English grammar features by CEFR level."
+    },
+    {
+      "source_id": "pearson.gse_grammar_adult_2023",
+      "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+      "locations": ["pages 5-39: productive grammar inventory"],
+      "role": "Secondary grammar and GSE cross-check."
+    },
+    {
+      "source_id": "oxford.3000_by_cefr",
+      "raw_file": "sources/raw/vocabulary/oxford-3000-by-cefr-level.pdf",
+      "locations": ["pages 1-12: A1-B2 list"],
+      "role": "Core lexical pool, not a mandatory syllabus order."
+    },
+    {
+      "source_id": "oxford.5000_by_cefr",
+      "raw_file": "sources/raw/vocabulary/oxford-5000-by-cefr-level.pdf",
+      "locations": ["pages 1-8: B2-C1 additions"],
+      "role": "Advanced lexical pool through C1; no C2 checklist."
+    }
+  ],
+  "levels": [
+    {
+      "level": "a1",
+      "gse_range": "22-29",
+      "title": "Supported concrete communication",
+      "exit_promise": "Handle concrete personal details and immediate needs with learnt language and a collaborative partner.",
+      "reception": {
+        "listening": "Recognise familiar words and very basic phrases when delivery is slow, clear, and context-supported.",
+        "reading": "Understand familiar names, words, signs, and very simple sentences in predictable material."
+      },
+      "production": {
+        "speaking": "Use isolated simple phrases and sentences for personal details, familiar people, places, possessions, and needs.",
+        "writing": "Produce isolated phrases and sentences and complete very simple personal-detail forms or messages."
+      },
+      "interaction": {
+        "oral": "Ask and answer simple questions with repetition, rephrasing, slower speech, and formulation help.",
+        "written_online": "Post simple greetings or reactions and complete a very simple purchase or personal-details form.",
+        "mediation": "Relay simple predictable information from short signs or notices and show welcome, interest, or understanding."
+      },
+      "language_control": {
+        "range": "Very basic expressions and some one-clause structures for concrete personal information and needs.",
+        "grammar": "Limited control of a few learnt simple structures and sentence patterns.",
+        "vocabulary": "Basic words and phrases tied to particular concrete situations.",
+        "pronunciation": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+        "discourse": "Link words or groups mainly with very basic linear connectors such as and or then.",
+        "fluency": "Manage very short pre-packaged utterances with substantial pausing and repair."
+      },
+      "assessment_evidence": ["A new concrete personal or immediate-need task", "No copying of a complete model", "Support may clarify but not supply the response"],
+      "source_refs": ["coe.cefr_companion_2020_en", "pearson.gse_adult_general_english_2022", "english_profile.egp_online_export", "oxford.3000_by_cefr"],
+      "decision_state": "needs_review"
+    },
+    {
+      "level": "a2",
+      "gse_range": "30-42",
+      "title": "Routine direct communication",
+      "exit_promise": "Complete simple routine exchanges and describe the immediate world through linked simple language.",
+      "reception": {
+        "listening": "Understand high-frequency language of immediate relevance and the main point of short clear messages.",
+        "reading": "Read short simple texts and locate predictable information in everyday materials and personal correspondence."
+      },
+      "production": {
+        "speaking": "Use a series of simple phrases and sentences to describe family, background, routines, and immediate surroundings.",
+        "writing": "Produce a series of simple phrases and sentences linked by frequent connectors."
+      },
+      "interaction": {
+        "oral": "Complete routine tasks and short social exchanges through direct familiar information exchange.",
+        "written_online": "Handle basic social interaction, routine transactions, simple instructions, and supported collaboration.",
+        "mediation": "Convey main points of short simple everyday texts and collaborate on practical tasks with occasional repetition."
+      },
+      "language_control": {
+        "range": "Basic patterns and memorised phrases for predictable everyday content, with message compromise outside routine situations.",
+        "grammar": "Some simple structures are correct, though systematic basic mistakes remain and meaning is usually clear.",
+        "vocabulary": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+        "pronunciation": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+        "discourse": "Link simple sentences with frequent connectors such as and, but, and because.",
+        "fluency": "Make short understandable contributions with visible hesitation, false starts, and reformulation."
+      },
+      "assessment_evidence": ["A new routine transaction", "A short linked description", "Successful repair after a bounded misunderstanding"],
+      "source_refs": ["coe.cefr_companion_2020_en", "pearson.gse_adult_general_english_2022", "english_profile.egp_online_export", "oxford.3000_by_cefr"],
+      "decision_state": "needs_review"
+    },
+    {
+      "level": "b1",
+      "gse_range": "43-58",
+      "title": "Connected familiar independence",
+      "exit_promise": "Operate independently in familiar life, travel, work, and personal-interest situations using connected language.",
+      "reception": {
+        "listening": "Understand main points of clear standard input and relatively clear media on familiar or personally relevant topics.",
+        "reading": "Understand high-frequency everyday or job-related texts and descriptions of events, feelings, and wishes."
+      },
+      "production": {
+        "speaking": "Connect phrases to narrate experiences and events and give brief reasons for opinions, hopes, and plans.",
+        "writing": "Produce straightforward connected text on familiar or personally interesting topics."
+      },
+      "interaction": {
+        "oral": "Enter unprepared conversation on familiar topics and handle most common situations while travelling.",
+        "written_online": "Interact about experiences and feelings, ask for clarification, and answer comments in some detail.",
+        "mediation": "Convey familiar information from clear texts, seek simple compromise, and support shared communication."
+      },
+      "language_control": {
+        "range": "Sufficient familiar-topic language for some unpredictable situations, with hesitation and circumlocution when limits appear.",
+        "grammar": "Reasonable accuracy in familiar contexts; errors and first-language influence remain but intended meaning is clear.",
+        "vocabulary": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+        "pronunciation": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+        "discourse": "Link shorter elements into a connected linear sequence with simple paragraphing and chronological control.",
+        "fluency": "Keep going comprehensibly despite evident pauses for planning and repair."
+      },
+      "assessment_evidence": ["An unscripted familiar problem", "A connected narrative", "A reasoned response in more than one context"],
+      "source_refs": ["coe.cefr_companion_2020_en", "pearson.gse_adult_general_english_2022", "english_profile.egp_online_export", "oxford.3000_by_cefr"],
+      "decision_state": "needs_review"
+    },
+    {
+      "level": "b2",
+      "gse_range": "59-75",
+      "title": "Detailed independent communication",
+      "exit_promise": "Understand and produce clear detailed language, sustain viewpoints, and interact with useful spontaneity.",
+      "reception": {
+        "listening": "Follow extended talk and complex argument on reasonably familiar topics and understand most standard-language news and film.",
+        "reading": "Understand articles and reports with viewpoints, contemporary prose, and relevant technical discussion."
+      },
+      "production": {
+        "speaking": "Give clear detailed descriptions and explain a viewpoint with advantages, disadvantages, and supporting detail.",
+        "writing": "Produce clear detailed texts, essays, and reports that present information or support a position."
+      },
+      "interaction": {
+        "oral": "Participate actively with useful fluency and spontaneity, sustain views, and manage routine disagreement.",
+        "written_online": "Collaborate in multi-person tasks and handle misunderstanding when others remain reasonably cooperative.",
+        "mediation": "Relay detailed information and arguments reliably, clarify complex points, and develop or connect others' ideas."
+      },
+      "language_control": {
+        "range": "Broad general and field-related language, viewpoints, argument, and some complex sentence forms without much restriction.",
+        "grammar": "Relatively high control with occasional slips and some rigid or inaccurate use of complex forms.",
+        "vocabulary": "Good general and field-related range with systematic use of many appropriate collocations.",
+        "pronunciation": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+        "discourse": "Use varied linking expressions, cohesive devices, supporting detail, and clear logical paragraphs.",
+        "fluency": "Sustain longer stretches at a fairly even tempo with few conspicuously long pauses."
+      },
+      "assessment_evidence": ["Interpretation of complex input", "Spontaneous contribution", "A supported viewpoint for a new audience and topic"],
+      "source_refs": ["coe.cefr_companion_2020_en", "pearson.gse_adult_general_english_2022", "english_profile.egp_online_export", "oxford.3000_by_cefr", "oxford.5000_by_cefr"],
+      "decision_state": "needs_review"
+    },
+    {
+      "level": "c1",
+      "gse_range": "76-84",
+      "title": "Flexible complex communication",
+      "exit_promise": "Use English flexibly for complex social, academic, and professional purposes, including implicit meaning.",
+      "reception": {
+        "listening": "Understand extended discourse with implicit relationships and demanding media without excessive effort.",
+        "reading": "Understand long complex factual, literary, specialised, and technical texts while appreciating style distinctions."
+      },
+      "production": {
+        "speaking": "Present complex subjects with integrated sub-themes, developed points, and an appropriate conclusion.",
+        "writing": "Produce clear well-structured detailed texts on complex subjects in a style appropriate to the reader."
+      },
+      "interaction": {
+        "oral": "Express ideas fluently and precisely, adapt register, and relate contributions skilfully to others.",
+        "written_online": "Handle complex abstract interaction and communication problems through flexible register, clarification, and exemplification.",
+        "mediation": "Convey significant ideas from long complex texts and evaluate and connect multiple perspectives."
+      },
+      "language_control": {
+        "range": "Broad complex language selected flexibly for clear social, academic, and professional communication.",
+        "grammar": "Consistently high accuracy; errors are rare and difficult to notice.",
+        "vocabulary": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+        "pronunciation": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+        "discourse": "Produce smooth, well-structured language with controlled organisational patterns and cohesive devices.",
+        "fluency": "Express complex thought almost effortlessly, with only conceptually difficult material affecting flow."
+      },
+      "assessment_evidence": ["Synthesis of demanding input", "A complex position in multiple domains", "Audience and register adaptation without rehearsed wording"],
+      "source_refs": ["coe.cefr_companion_2020_en", "pearson.gse_adult_general_english_2022", "english_profile.egp_online_export", "oxford.5000_by_cefr"],
+      "decision_state": "needs_review"
+    },
+    {
+      "level": "c2",
+      "gse_range": "85-90",
+      "title": "Precise nuanced synthesis",
+      "exit_promise": "Synthesize complex sources and communicate precise nuances with consistently appropriate language.",
+      "reception": {
+        "listening": "Understand virtually all live or broadcast language, including fast natural delivery after reasonable accent familiarisation.",
+        "reading": "Read with ease virtually all abstract, structurally complex, specialised, and literary written language."
+      },
+      "production": {
+        "speaking": "Deliver smooth logically structured communication that highlights significant points and fine shades of meaning.",
+        "writing": "Create complex letters, reports, articles, summaries, and reviews in an effective reader-appropriate style."
+      },
+      "interaction": {
+        "oral": "Participate effortlessly, use idiomatic language appropriately, and repair so smoothly that difficulty is unobtrusive.",
+        "written_online": "Use an appropriate tone in virtually any interaction and anticipate cultural, emotional, or communication problems.",
+        "mediation": "Reconstruct and evaluate arguments, convey nuance and sociocultural implications, and guide complex discussion sensitively."
+      },
+      "language_control": {
+        "range": "Comprehensive precise language that differentiates, emphasises, and eliminates ambiguity without visible restriction.",
+        "grammar": "Consistent control of complex language even while attention is divided across planning and interaction.",
+        "vocabulary": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+        "pronunciation": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+        "discourse": "Create fully coherent and cohesive communication using flexible organisational and rhetorical patterns.",
+        "fluency": "Sustain natural effortless flow, pausing mainly to select the most precise formulation or example."
+      },
+      "assessment_evidence": ["Synthesis of unfamiliar complex sources", "Precise nuance under realistic cognitive load", "Audience, register, and sociocultural appropriateness"],
+      "source_refs": ["coe.cefr_companion_2020_en", "pearson.gse_adult_general_english_2022", "english_profile.egp_online_export"],
+      "decision_state": "needs_review"
+    }
+  ],
+  "review": {
+    "status": "needs_review",
+    "reviewer": null,
+    "reviewed_at": null,
+    "issues": [
+      "Record-level CEFR and GSE mappings above A1 are not yet normalized.",
+      "Grammar, vocabulary, and pronunciation lifecycle ownership is not yet reviewed.",
+      "C2 lexical selection needs a method beyond the Oxford levelled lists."
+    ]
+  }
+}

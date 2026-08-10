@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/level-exit-profiles.schema.json",
+  "title": "Cross-level English course exit profiles",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "profile_set_id", "version", "status", "exit_levels",
+    "onboarding_support", "internal_milestones", "lifecycle", "source_catalog",
+    "levels", "review"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "profile_set_id": {"const": "english_course_level_exit_profiles"},
+    "version": {"type": "integer", "minimum": 0},
+    "status": {"enum": ["proposal", "needs_review", "approved"]},
+    "exit_levels": {
+      "type": "array", "minItems": 6, "maxItems": 6, "uniqueItems": true,
+      "items": {"enum": ["a1", "a2", "b1", "b2", "c1", "c2"]}
+    },
+    "onboarding_support": {
+      "type": "object", "additionalProperties": false,
+      "required": ["level", "role", "exit_claim"],
+      "properties": {
+        "level": {"const": "pre_a1"},
+        "role": {"type": "string", "minLength": 1},
+        "exit_claim": {"const": false}
+      }
+    },
+    "internal_milestones": {
+      "type": "array", "minItems": 3, "maxItems": 3,
+      "items": {"$ref": "#/$defs/milestone"}
+    },
+    "lifecycle": {
+      "type": "array", "minItems": 6, "maxItems": 6, "uniqueItems": true,
+      "items": {"enum": ["expose", "introduce", "practise", "recycle", "consolidate", "extend"]}
+    },
+    "source_catalog": {
+      "type": "array", "minItems": 4, "items": {"$ref": "#/$defs/source"}
+    },
+    "levels": {
+      "type": "array", "minItems": 6, "maxItems": 6,
+      "items": {"$ref": "#/$defs/levelProfile"}
+    },
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "stringList": {
+      "type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}
+    },
+    "milestone": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "gse_range", "role"],
+      "properties": {
+        "id": {"enum": ["a2_plus", "b1_plus", "b2_plus"]},
+        "gse_range": {"type": "string", "pattern": "^[0-9]{2}-[0-9]{2}$"},
+        "role": {"type": "string", "minLength": 1}
+      }
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "raw_file", "locations", "role"],
+      "properties": {
+        "source_id": {"type": "string", "pattern": "^[a-z0-9._-]+$"},
+        "raw_file": {"type": "string", "pattern": "^sources/raw/"},
+        "locations": {"$ref": "#/$defs/stringList"},
+        "role": {"type": "string", "minLength": 1}
+      }
+    },
+    "reception": {
+      "type": "object", "additionalProperties": false,
+      "required": ["listening", "reading"],
+      "properties": {
+        "listening": {"type": "string", "minLength": 1},
+        "reading": {"type": "string", "minLength": 1}
+      }
+    },
+    "production": {
+      "type": "object", "additionalProperties": false,
+      "required": ["speaking", "writing"],
+      "properties": {
+        "speaking": {"type": "string", "minLength": 1},
+        "writing": {"type": "string", "minLength": 1}
+      }
+    },
+    "interaction": {
+      "type": "object", "additionalProperties": false,
+      "required": ["oral", "written_online", "mediation"],
+      "properties": {
+        "oral": {"type": "string", "minLength": 1},
+        "written_online": {"type": "string", "minLength": 1},
+        "mediation": {"type": "string", "minLength": 1}
+      }
+    },
+    "languageControl": {
+      "type": "object", "additionalProperties": false,
+      "required": ["range", "grammar", "vocabulary", "pronunciation", "discourse", "fluency"],
+      "properties": {
+        "range": {"type": "string", "minLength": 1},
+        "grammar": {"type": "string", "minLength": 1},
+        "vocabulary": {"type": "string", "minLength": 1},
+        "pronunciation": {"type": "string", "minLength": 1},
+        "discourse": {"type": "string", "minLength": 1},
+        "fluency": {"type": "string", "minLength": 1}
+      }
+    },
+    "levelProfile": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "level", "gse_range", "title", "exit_promise", "reception", "production",
+        "interaction", "language_control", "assessment_evidence", "source_refs", "decision_state"
+      ],
+      "properties": {
+        "level": {"enum": ["a1", "a2", "b1", "b2", "c1", "c2"]},
+        "gse_range": {"type": "string", "pattern": "^[0-9]{2}-[0-9]{2}$"},
+        "title": {"type": "string", "minLength": 1},
+        "exit_promise": {"type": "string", "minLength": 1},
+        "reception": {"$ref": "#/$defs/reception"},
+        "production": {"$ref": "#/$defs/production"},
+        "interaction": {"$ref": "#/$defs/interaction"},
+        "language_control": {"$ref": "#/$defs/languageControl"},
+        "assessment_evidence": {"$ref": "#/$defs/stringList"},
+        "source_refs": {"$ref": "#/$defs/stringList"},
+        "decision_state": {"const": "needs_review"}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "reviewer", "reviewed_at", "issues"],
+      "properties": {
+        "status": {"enum": ["unreviewed", "needs_review", "accepted"]},
+        "reviewer": {"type": ["string", "null"]},
+        "reviewed_at": {"type": ["string", "null"], "format": "date-time"},
+        "issues": {
+          "type": "array", "items": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

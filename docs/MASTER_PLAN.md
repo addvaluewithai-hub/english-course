@@ -74,6 +74,20 @@ Each lesson candidate needs:
 Exit gate: the final A1 lesson map has no tiny fragments, overloaded lessons, missing
 skills, or untraceable outcomes.
 
+## Cross-level spine gate - Owner-directed critical workstream
+
+Before mass-producing the remaining A1 lessons, build a vertical curriculum spine from
+A1 through C2, with Pre-A1 as an onboarding support band. Normalize the all-level CEFR,
+GSE, EGP, GSE Grammar, and Oxford evidence; review level exit profiles; assign lifecycle
+ownership across communicative abilities and language systems; and reconcile the 81 A1
+candidates plus Unit 1.
+
+A small gold-lesson or Unit 1 delivery pilot may continue because it tests the learning
+experience rather than content placement. It does not unlock mass production.
+
+Exit gate: level profiles, progression strands, source dispositions, and A1
+reconciliation pass independent review; A1 scope and sequence v1 is locked.
+
 ## Phase 4 - Design one gold lesson
 
 Default candidate: `Introduce Yourself`, subject to the curriculum audit.
@@ -153,13 +167,18 @@ and preserves source links. Image, audio, and video generation begin here under 
 licensing, voice, and consistency rules.
 
 Exit gate: full A1 coverage, native-Arabic review, CEFR/GSE/grammar/vocabulary audit,
-technical QA, and release readiness.
+technical QA, vertical-spine reconciliation, and release readiness.
 
 ## Current critical path
 
-Learning contract -> A1 source extraction -> objective coverage map -> normalized
-lesson map -> gold lesson -> learner test -> lesson contracts -> architecture -> Unit 1
--> full A1.
+Two coordinated paths now converge before full A1:
+
+- curriculum: all-level source normalization -> exit profiles -> progression strands ->
+  A1 reconciliation -> A1 scope and sequence v1;
+- delivery: gold lesson -> learner test -> lesson contracts -> architecture -> Unit 1
+  pilot.
+
+Both paths -> controlled full-A1 production.
 
 ## Things agents must not do yet
 

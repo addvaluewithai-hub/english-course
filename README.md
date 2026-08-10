@@ -9,6 +9,10 @@ The learning loop is: understand, practice, use, explain, review, and retain.
 - The gold lesson, `Introduce Yourself`, is complete and owner-approved.
 - Unit 1, `First Connections`, has eight complete lesson source packages.
 - A browser prototype is available for the gold lesson.
+- An A1-C2 vertical-curriculum proposal and validated level exit profiles are ready
+  for curriculum-team review.
+- All 1,222 English Grammar Profile features are available as an all-level derived
+  dataset; record-level lifecycle review remains pending.
 - Rendered voice/video assets and external learner-pilot evidence are still pending.
 
 Read [HANDOFF.md](HANDOFF.md) before continuing the project.
@@ -40,6 +44,8 @@ downloaded. All curriculum, lesson-package, and Unit 1 tests still run.
 - `HANDOFF.md` - current status, boundaries, and recommended next work
 - `docs/MASTER_PLAN.md` - gated roadmap and completion criteria
 - `docs/LEARNING_PRINCIPLES.md` - product and pedagogy contract
+- `docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md` - proposed A1-C2 vertical contract
+- `docs/VERTICAL_SPINE_EXECUTION_PLAN.md` - work packages and approval gates
 - `units/unit-01-first-connections/` - complete first-unit source package
 - `gold/introduce-yourself/` - accepted reference lesson and video script
 - `sources/registry/SOURCES.md` - source URLs, roles, and verified hashes

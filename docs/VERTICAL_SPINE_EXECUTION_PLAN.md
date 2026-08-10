@@ -1,0 +1,125 @@
+# Vertical Spine Execution Plan
+
+Status: proposed critical path before mass A1 production.
+
+## Work package 1 - Scope and governance
+
+Lock A1-C2 as exit levels, Pre-A1 as an onboarding support band, and A2+/B1+/B2+ as
+internal GSE milestones. Keep a small delivery pilot independent from curriculum
+approval and record the mass-production freeze.
+
+Acceptance:
+
+- supported levels and milestone semantics are explicit;
+- source facts and product decisions have separate fields;
+- the lifecycle vocabulary is fixed and validated.
+
+## Work package 2 - Normalize all-level sources
+
+Create deterministic, versioned records for:
+
+- CEFR descriptors across Pre-A1 to C2;
+- GSE Adult objectives across scores 10-90;
+- all 1,222 EGP grammar features;
+- Pearson GSE Grammar entries;
+- Oxford 3000 and Oxford 5000 entries by published level.
+
+Acceptance:
+
+- every record retains raw file, hash, page or row, exact source text, level, and review
+  state;
+- counts reconcile to the registered source and duplicate/parse issues are explicit;
+- extraction code is modular and deterministic.
+
+Current result: the all-level EGP dataset exists in
+`data/derived/egp-all-levels.json`; the other sources remain to be normalized beyond
+their existing A1 subsets and full text mirrors.
+
+## Work package 3 - Build source dispositions
+
+Give every relevant record a reviewed disposition without forcing it into a lesson:
+
+`productive_target`, `receptive_exposure`, `supporting_evidence`, `extend_later`,
+`optional_enrichment`, `duplicate_or_overlap`, or `excluded_with_reason`.
+
+Acceptance:
+
+- no unexplained orphan records;
+- cross-source overlap does not imply equivalence;
+- gaps and conflicts are reported by level and strand.
+
+## Work package 4 - Review level exit profiles
+
+Review `data/reviewed/level-exit-profiles-v0.json` against the normalized records and
+approve or revise each level's reception, production, interaction, mediation, language
+control, pronunciation, discourse, and assessment boundary.
+
+Acceptance:
+
+- every exit claim has source references;
+- receptive and productive expectations are distinct;
+- adjacent levels show a clear increase in independence, complexity, or precision;
+- C2 is not described as native-speaker imitation.
+
+## Work package 5 - Build progression strands
+
+Create record-level strands for:
+
+- communicative functions and real-life abilities;
+- grammar and sentence patterns;
+- vocabulary, chunks, collocations, and register;
+- pronunciation and intelligibility;
+- discourse, cohesion, fluency, and repair;
+- receptive and productive text complexity;
+- oral, written, online, and mediated interaction.
+
+Each controlled item receives lifecycle levels, prerequisites, examples, Arabic-learner
+risks, rationale, and review metadata.
+
+Acceptance:
+
+- no invalid level regressions;
+- every consolidated item was introduced and practised earlier or has an explicit
+  rationale;
+- every level has purposeful recycling and exit-assessment ownership.
+
+## Work package 6 - Reconcile current A1
+
+Audit all 81 A1 candidates, the gold lesson, and eight Unit 1 source packages against
+the reviewed spine. Preserve valid authored work and identify gaps, premature demands,
+duplicates, vague lexical targets, missing recycling, and later-level leakage.
+
+Acceptance:
+
+- every candidate has a keep/revise/split/merge/defer decision;
+- grammar, vocabulary, phrases, and pronunciation have exact ownership and lifecycle
+  states;
+- every change retains original source evidence and rationale.
+
+## Work package 7 - Lock A1 scope and sequence v1
+
+Only after reconciliation, define final learner-facing units, lesson order, review
+points, unit synthesis, and exit assessment coverage.
+
+Acceptance:
+
+- unit boundaries are versioned product decisions;
+- prerequisites are acyclic and review spacing is visible;
+- all A1 exit-profile dimensions are assessed in fresh tasks;
+- independent curriculum review accepts the map.
+
+## Parallel delivery rule
+
+Gold-lesson QA and a small learner pilot may continue because they test comprehension,
+pacing, Arabic, video, interaction, and mastery experience. Do not use pilot progress
+as permission to mass-produce A1 before work packages 2-7 pass.
+
+## Recommended review roles
+
+- curriculum architect: owns vertical coherence and final disposition;
+- CEFR/GSE evidence reviewer: checks source fidelity and level interpretation;
+- English grammar reviewer: resolves EGP/GSE Grammar ownership and prerequisites;
+- lexical syllabus reviewer: owns word, chunk, collocation, and register decisions;
+- pronunciation specialist: creates the English-specific intelligibility progression;
+- Arabic-English specialist: reviews learner risks without treating hypotheses as facts;
+- assessment reviewer: checks that exit claims have valid fresh performance evidence.
