@@ -427,3 +427,36 @@
 - All 81 candidates now have explicit target/error decisions, but all remain
   `needs_review`. `LESSON-002` stays in progress, candidate approval is the next
   separate audit, and Phase 4 stays locked.
+
+## Cross-level source-disposition contract v1
+
+- Source use, learner control, and product lifecycle are separate decisions. A record
+  now has a `source_role`, a `control_expectation`, and a use `disposition`; its first
+  exposure, practice, recycle, consolidation, and extension levels remain SPINE-004
+  product decisions.
+- All 9,274 normalized records were reviewed through explicit dataset policies plus a
+  complete exception and exact-overlap audit. This is accepted batch-policy review,
+  not a false claim of 9,274 independent human pedagogical judgments.
+- CEFR descriptors are level-boundary evidence; GSE objectives are granular
+  communicative evidence; EGP and GSE Grammar are language-system evidence; Oxford
+  entries are lexical reference pools rather than automatic targets.
+- Exact-text repetition remains visible as 27 overlap groups affecting 55 records.
+  Three GSE groups repeat the same objective at different scores; the variance is
+  preserved and no score is silently selected as authoritative.
+
+## A1-C2 level-exit profiles v1
+
+- The six A1-C2 exit profiles are accepted as the internal curriculum boundary. Pre-A1
+  remains diagnostic/remedial support and A2+/B1+/B2+ remain internal milestones.
+- Each level has 17 reviewed claims: one synthesized exit promise, 13 source-boundary
+  claims across reception, production, interaction, mediation, and language control,
+  plus three fresh-performance policy claims. The complete set contains 102 claims.
+- Source-boundary claims reference deterministic evidence bundles rather than entire
+  source files. Product assessment claims reference the learning and mastery policy so
+  sourced facts and product decisions remain distinct.
+- C2 targets precise, effective communication; retained accent is acceptable when it
+  does not reduce intelligibility or effectiveness. Native-speaker imitation and
+  accent removal are not course goals.
+- C2 lexical methodology, the English-specific pronunciation sequence for Arabic
+  learners, semantic cross-source mapping, and item lifecycle ownership remain named
+  SPINE-004 work rather than hidden gaps.

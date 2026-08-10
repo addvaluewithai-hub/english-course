@@ -1,6 +1,7 @@
-# Cross-Level Curriculum Architecture v0
+# Cross-Level Curriculum Architecture v1
 
-Status: owner-requested proposal for curriculum-team review.
+Status: approved foundation. Source use and A1-C2 exit boundaries are reviewed;
+record-level lifecycle ownership and progression strands remain the next gate.
 
 ## Decision
 
@@ -98,9 +99,11 @@ method, reviewed separately, rather than an invented word count.
 
 ## Grammar policy
 
-Do not convert all 1,222 EGP features into lessons. Each feature must receive a
-disposition: productive target, receptive exposure, supporting evidence, later-level
-extension, optional enrichment, duplicate/overlap, or excluded with rationale.
+Do not convert all 1,222 EGP features into lessons. Every feature is now classified as
+productively attested language-system evidence and included for progression review.
+SPINE-004 must then decide product lifecycle: exposure, supported production,
+recycling, consolidation, extension, optional enrichment, overlap, or exclusion with
+rationale.
 
 The level of an EGP feature is not automatically the lesson in which it is first seen.
 The spine decides ownership and lifecycle after communicative need, prerequisites,
@@ -115,14 +118,15 @@ still needs to be authored and reviewed for Arabic-speaking learners.
 
 ## Approval boundary
 
-This document and `docs/LEVEL_EXIT_PROFILES_V0.md` are a proposal, not a completed
-cross-level mapping. They may guide source normalization and review, but they cannot be
-used to claim that every CEFR, GSE, grammar, or lexical record has already been placed.
+This architecture and `docs/LEVEL_EXIT_PROFILES_V1.md` now define the approved source
+roles and exit boundaries. They are not a completed cross-level item mapping and cannot
+be used to claim that every ability, grammar feature, or word already has lifecycle or
+lesson ownership.
 
 Mass A1 production may resume only after:
 
-- all-level source normalization and disposition audits pass;
-- level exit profiles are approved;
+- all-level source normalization and disposition audits pass (complete);
+- level exit profiles are approved (complete);
 - progression strands and lifecycle ownership are reviewed;
 - the 81 current A1 candidates and Unit 1 are reconciled without a fixed-count bias;
 - A1 scope, sequence, unit boundaries, and assessment coverage are locked as v1.

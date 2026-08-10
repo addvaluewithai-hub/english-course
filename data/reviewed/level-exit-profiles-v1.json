@@ -1,0 +1,1718 @@
+{
+  "schema_version": 2,
+  "profile_set_id": "english_course_level_exit_profiles",
+  "version": 1,
+  "status": "approved",
+  "exit_levels": [
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2"
+  ],
+  "onboarding_support": {
+    "level": "pre_a1",
+    "role": "Diagnostic and remedial on-ramp for isolated words, formulaic expressions, and foundational recognition.",
+    "exit_claim": false
+  },
+  "internal_milestones": [
+    {
+      "id": "a2_plus",
+      "gse_range": "36-42",
+      "role": "Internal progress milestone within the A2-to-B1 journey."
+    },
+    {
+      "id": "b1_plus",
+      "gse_range": "51-58",
+      "role": "Internal progress milestone within the B1-to-B2 journey."
+    },
+    {
+      "id": "b2_plus",
+      "gse_range": "67-75",
+      "role": "Internal progress milestone within the B2-to-C1 journey."
+    }
+  ],
+  "lifecycle": [
+    "expose",
+    "introduce",
+    "practise",
+    "recycle",
+    "consolidate",
+    "extend"
+  ],
+  "evidence_bundles": {
+    "path": "data/reviewed/level-exit-evidence-v1.json",
+    "sha256": "b4dbb6d279cf0237b123d460106fce3b65a9e0bda75a8d455f259fdb4e2d84b6"
+  },
+  "levels": [
+    {
+      "level": "a1",
+      "progression_index": 1,
+      "gse_range": "22-29",
+      "title": "Supported concrete communication",
+      "exit_promise": {
+        "claim_id": "a1.exit_promise",
+        "claim_type": "synthesis",
+        "text": "Handle concrete personal details and immediate needs with learnt language and a collaborative partner.",
+        "evidence_bundle_ids": [
+          "cefr_all_descriptors.a1.listening_reception",
+          "cefr_all_descriptors.a1.mediation",
+          "cefr_all_descriptors.a1.oral_interaction",
+          "cefr_all_descriptors.a1.reading_reception",
+          "cefr_all_descriptors.a1.speaking_production",
+          "cefr_all_descriptors.a1.writing_production",
+          "cefr_all_descriptors.a1.written_online_interaction",
+          "gse_all_objectives.a1.listening_reception",
+          "gse_all_objectives.a1.reading_reception",
+          "gse_all_objectives.a1.speaking_production",
+          "gse_all_objectives.a1.writing_production"
+        ],
+        "decision_refs": [
+          "docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md#supported-progression"
+        ],
+        "review": {
+          "status": "accepted",
+          "reviewer": "codex_primary_curriculum_agent",
+          "reviewed_at": "2026-08-10T12:54:12+03:00"
+        }
+      },
+      "reception": {
+        "listening": {
+          "claim_id": "a1.reception.listening",
+          "claim_type": "source_boundary",
+          "text": "Recognise familiar words and very basic phrases when delivery is slow, clear, and context-supported.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.listening_reception",
+            "gse_all_objectives.a1.listening_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "reading": {
+          "claim_id": "a1.reception.reading",
+          "claim_type": "source_boundary",
+          "text": "Understand familiar names, words, signs, and very simple sentences in predictable material.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.reading_reception",
+            "gse_all_objectives.a1.reading_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "production": {
+        "speaking": {
+          "claim_id": "a1.production.speaking",
+          "claim_type": "source_boundary",
+          "text": "Use isolated simple phrases and sentences for personal details, familiar people, places, possessions, and needs.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.speaking_production",
+            "gse_all_objectives.a1.speaking_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "writing": {
+          "claim_id": "a1.production.writing",
+          "claim_type": "source_boundary",
+          "text": "Produce isolated phrases and sentences and complete very simple personal-detail forms or messages.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.writing_production",
+            "gse_all_objectives.a1.writing_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "interaction": {
+        "oral": {
+          "claim_id": "a1.interaction.oral",
+          "claim_type": "source_boundary",
+          "text": "Ask and answer simple questions with repetition, rephrasing, slower speech, and formulation help.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.oral_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "written_online": {
+          "claim_id": "a1.interaction.written_online",
+          "claim_type": "source_boundary",
+          "text": "Post simple greetings or reactions and complete a very simple purchase or personal-details form.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.written_online_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "mediation": {
+          "claim_id": "a1.interaction.mediation",
+          "claim_type": "source_boundary",
+          "text": "Relay simple predictable information from short signs or notices and show welcome, interest, or understanding.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.mediation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "language_control": {
+        "range": {
+          "claim_id": "a1.language_control.range",
+          "claim_type": "source_boundary",
+          "text": "Very basic expressions and some one-clause structures for concrete personal information and needs.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.language_range"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "grammar": {
+          "claim_id": "a1.language_control.grammar",
+          "claim_type": "source_boundary",
+          "text": "Limited control of a few learnt simple structures and sentence patterns.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.grammar",
+            "egp_all_levels.a1.grammar",
+            "gse_grammar_all.a1.grammar"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "vocabulary": {
+          "claim_id": "a1.language_control.vocabulary",
+          "claim_type": "source_boundary",
+          "text": "Basic words and phrases tied to particular concrete situations.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.vocabulary",
+            "oxford_3000_all.a1.lexical_pool"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "pronunciation": {
+          "claim_id": "a1.language_control.pronunciation",
+          "claim_type": "source_boundary",
+          "text": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.pronunciation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "discourse": {
+          "claim_id": "a1.language_control.discourse",
+          "claim_type": "source_boundary",
+          "text": "Link words or groups mainly with very basic linear connectors such as and or then.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.discourse"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "fluency": {
+          "claim_id": "a1.language_control.fluency",
+          "claim_type": "source_boundary",
+          "text": "Manage very short pre-packaged utterances with substantial pausing and repair.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a1.fluency"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "assessment_evidence": [
+        {
+          "claim_id": "a1.assessment.01",
+          "claim_type": "product_policy",
+          "text": "A new concrete personal or immediate-need task",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "a1.assessment.02",
+          "claim_type": "product_policy",
+          "text": "No copying of a complete model",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "a1.assessment.03",
+          "claim_type": "product_policy",
+          "text": "Support may clarify but not supply the response",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      ],
+      "decision_state": "accepted"
+    },
+    {
+      "level": "a2",
+      "progression_index": 2,
+      "gse_range": "30-42",
+      "title": "Routine direct communication",
+      "exit_promise": {
+        "claim_id": "a2.exit_promise",
+        "claim_type": "synthesis",
+        "text": "Complete simple routine exchanges and describe the immediate world through linked simple language.",
+        "evidence_bundle_ids": [
+          "cefr_all_descriptors.a2.listening_reception",
+          "cefr_all_descriptors.a2.mediation",
+          "cefr_all_descriptors.a2.oral_interaction",
+          "cefr_all_descriptors.a2.reading_reception",
+          "cefr_all_descriptors.a2.speaking_production",
+          "cefr_all_descriptors.a2.writing_production",
+          "cefr_all_descriptors.a2.written_online_interaction",
+          "gse_all_objectives.a2.listening_reception",
+          "gse_all_objectives.a2.reading_reception",
+          "gse_all_objectives.a2.speaking_production",
+          "gse_all_objectives.a2.writing_production"
+        ],
+        "decision_refs": [
+          "docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md#supported-progression"
+        ],
+        "review": {
+          "status": "accepted",
+          "reviewer": "codex_primary_curriculum_agent",
+          "reviewed_at": "2026-08-10T12:54:12+03:00"
+        }
+      },
+      "reception": {
+        "listening": {
+          "claim_id": "a2.reception.listening",
+          "claim_type": "source_boundary",
+          "text": "Understand high-frequency language of immediate relevance and the main point of short clear messages.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.listening_reception",
+            "gse_all_objectives.a2.listening_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "reading": {
+          "claim_id": "a2.reception.reading",
+          "claim_type": "source_boundary",
+          "text": "Read short simple texts and locate predictable information in everyday materials and personal correspondence.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.reading_reception",
+            "gse_all_objectives.a2.reading_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "production": {
+        "speaking": {
+          "claim_id": "a2.production.speaking",
+          "claim_type": "source_boundary",
+          "text": "Use a series of simple phrases and sentences to describe family, background, routines, and immediate surroundings.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.speaking_production",
+            "gse_all_objectives.a2.speaking_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "writing": {
+          "claim_id": "a2.production.writing",
+          "claim_type": "source_boundary",
+          "text": "Produce a series of simple phrases and sentences linked by frequent connectors.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.writing_production",
+            "gse_all_objectives.a2.writing_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "interaction": {
+        "oral": {
+          "claim_id": "a2.interaction.oral",
+          "claim_type": "source_boundary",
+          "text": "Complete routine tasks and short social exchanges through direct familiar information exchange.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.oral_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "written_online": {
+          "claim_id": "a2.interaction.written_online",
+          "claim_type": "source_boundary",
+          "text": "Handle basic social interaction, routine transactions, simple instructions, and supported collaboration.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.written_online_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "mediation": {
+          "claim_id": "a2.interaction.mediation",
+          "claim_type": "source_boundary",
+          "text": "Convey main points of short simple everyday texts and collaborate on practical tasks with occasional repetition.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.mediation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "language_control": {
+        "range": {
+          "claim_id": "a2.language_control.range",
+          "claim_type": "source_boundary",
+          "text": "Basic patterns and memorised phrases for predictable everyday content, with message compromise outside routine situations.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.language_range"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "grammar": {
+          "claim_id": "a2.language_control.grammar",
+          "claim_type": "source_boundary",
+          "text": "Some simple structures are correct, though systematic basic mistakes remain and meaning is usually clear.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.grammar",
+            "egp_all_levels.a2.grammar",
+            "gse_grammar_all.a2.grammar"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "vocabulary": {
+          "claim_id": "a2.language_control.vocabulary",
+          "claim_type": "source_boundary",
+          "text": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.vocabulary",
+            "oxford_3000_all.a2.lexical_pool"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "pronunciation": {
+          "claim_id": "a2.language_control.pronunciation",
+          "claim_type": "source_boundary",
+          "text": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.pronunciation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "discourse": {
+          "claim_id": "a2.language_control.discourse",
+          "claim_type": "source_boundary",
+          "text": "Link simple sentences with frequent connectors such as and, but, and because.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.discourse"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "fluency": {
+          "claim_id": "a2.language_control.fluency",
+          "claim_type": "source_boundary",
+          "text": "Make short understandable contributions with visible hesitation, false starts, and reformulation.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.a2.fluency"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "assessment_evidence": [
+        {
+          "claim_id": "a2.assessment.01",
+          "claim_type": "product_policy",
+          "text": "A new routine transaction",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "a2.assessment.02",
+          "claim_type": "product_policy",
+          "text": "A short linked description",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "a2.assessment.03",
+          "claim_type": "product_policy",
+          "text": "Successful repair after a bounded misunderstanding",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      ],
+      "decision_state": "accepted"
+    },
+    {
+      "level": "b1",
+      "progression_index": 3,
+      "gse_range": "43-58",
+      "title": "Connected familiar independence",
+      "exit_promise": {
+        "claim_id": "b1.exit_promise",
+        "claim_type": "synthesis",
+        "text": "Operate independently in familiar life, travel, work, and personal-interest situations using connected language.",
+        "evidence_bundle_ids": [
+          "cefr_all_descriptors.b1.listening_reception",
+          "cefr_all_descriptors.b1.mediation",
+          "cefr_all_descriptors.b1.oral_interaction",
+          "cefr_all_descriptors.b1.reading_reception",
+          "cefr_all_descriptors.b1.speaking_production",
+          "cefr_all_descriptors.b1.writing_production",
+          "cefr_all_descriptors.b1.written_online_interaction",
+          "gse_all_objectives.b1.listening_reception",
+          "gse_all_objectives.b1.reading_reception",
+          "gse_all_objectives.b1.speaking_production",
+          "gse_all_objectives.b1.writing_production"
+        ],
+        "decision_refs": [
+          "docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md#supported-progression"
+        ],
+        "review": {
+          "status": "accepted",
+          "reviewer": "codex_primary_curriculum_agent",
+          "reviewed_at": "2026-08-10T12:54:12+03:00"
+        }
+      },
+      "reception": {
+        "listening": {
+          "claim_id": "b1.reception.listening",
+          "claim_type": "source_boundary",
+          "text": "Understand main points of clear standard input and relatively clear media on familiar or personally relevant topics.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.listening_reception",
+            "gse_all_objectives.b1.listening_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "reading": {
+          "claim_id": "b1.reception.reading",
+          "claim_type": "source_boundary",
+          "text": "Understand high-frequency everyday or job-related texts and descriptions of events, feelings, and wishes.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.reading_reception",
+            "gse_all_objectives.b1.reading_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "production": {
+        "speaking": {
+          "claim_id": "b1.production.speaking",
+          "claim_type": "source_boundary",
+          "text": "Connect phrases to narrate experiences and events and give brief reasons for opinions, hopes, and plans.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.speaking_production",
+            "gse_all_objectives.b1.speaking_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "writing": {
+          "claim_id": "b1.production.writing",
+          "claim_type": "source_boundary",
+          "text": "Produce straightforward connected text on familiar or personally interesting topics.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.writing_production",
+            "gse_all_objectives.b1.writing_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "interaction": {
+        "oral": {
+          "claim_id": "b1.interaction.oral",
+          "claim_type": "source_boundary",
+          "text": "Enter unprepared conversation on familiar topics and handle most common situations while travelling.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.oral_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "written_online": {
+          "claim_id": "b1.interaction.written_online",
+          "claim_type": "source_boundary",
+          "text": "Interact about experiences and feelings, ask for clarification, and answer comments in some detail.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.written_online_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "mediation": {
+          "claim_id": "b1.interaction.mediation",
+          "claim_type": "source_boundary",
+          "text": "Convey familiar information from clear texts, seek simple compromise, and support shared communication.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.mediation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "language_control": {
+        "range": {
+          "claim_id": "b1.language_control.range",
+          "claim_type": "source_boundary",
+          "text": "Sufficient familiar-topic language for some unpredictable situations, with hesitation and circumlocution when limits appear.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.language_range"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "grammar": {
+          "claim_id": "b1.language_control.grammar",
+          "claim_type": "source_boundary",
+          "text": "Reasonable accuracy in familiar contexts; errors and first-language influence remain but intended meaning is clear.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.grammar",
+            "egp_all_levels.b1.grammar",
+            "gse_grammar_all.b1.grammar"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "vocabulary": {
+          "claim_id": "b1.language_control.vocabulary",
+          "claim_type": "source_boundary",
+          "text": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.vocabulary",
+            "oxford_3000_all.b1.lexical_pool"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "pronunciation": {
+          "claim_id": "b1.language_control.pronunciation",
+          "claim_type": "source_boundary",
+          "text": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.pronunciation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "discourse": {
+          "claim_id": "b1.language_control.discourse",
+          "claim_type": "source_boundary",
+          "text": "Link shorter elements into a connected linear sequence with simple paragraphing and chronological control.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.discourse"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "fluency": {
+          "claim_id": "b1.language_control.fluency",
+          "claim_type": "source_boundary",
+          "text": "Keep going comprehensibly despite evident pauses for planning and repair.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b1.fluency"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "assessment_evidence": [
+        {
+          "claim_id": "b1.assessment.01",
+          "claim_type": "product_policy",
+          "text": "An unscripted familiar problem",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "b1.assessment.02",
+          "claim_type": "product_policy",
+          "text": "A connected narrative",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "b1.assessment.03",
+          "claim_type": "product_policy",
+          "text": "A reasoned response in more than one context",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      ],
+      "decision_state": "accepted"
+    },
+    {
+      "level": "b2",
+      "progression_index": 4,
+      "gse_range": "59-75",
+      "title": "Detailed independent communication",
+      "exit_promise": {
+        "claim_id": "b2.exit_promise",
+        "claim_type": "synthesis",
+        "text": "Understand and produce clear detailed language, sustain viewpoints, and interact with useful spontaneity.",
+        "evidence_bundle_ids": [
+          "cefr_all_descriptors.b2.listening_reception",
+          "cefr_all_descriptors.b2.mediation",
+          "cefr_all_descriptors.b2.oral_interaction",
+          "cefr_all_descriptors.b2.reading_reception",
+          "cefr_all_descriptors.b2.speaking_production",
+          "cefr_all_descriptors.b2.writing_production",
+          "cefr_all_descriptors.b2.written_online_interaction",
+          "gse_all_objectives.b2.listening_reception",
+          "gse_all_objectives.b2.reading_reception",
+          "gse_all_objectives.b2.speaking_production",
+          "gse_all_objectives.b2.writing_production"
+        ],
+        "decision_refs": [
+          "docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md#supported-progression"
+        ],
+        "review": {
+          "status": "accepted",
+          "reviewer": "codex_primary_curriculum_agent",
+          "reviewed_at": "2026-08-10T12:54:12+03:00"
+        }
+      },
+      "reception": {
+        "listening": {
+          "claim_id": "b2.reception.listening",
+          "claim_type": "source_boundary",
+          "text": "Follow extended talk and complex argument on reasonably familiar topics and understand most standard-language news and film.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.listening_reception",
+            "gse_all_objectives.b2.listening_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "reading": {
+          "claim_id": "b2.reception.reading",
+          "claim_type": "source_boundary",
+          "text": "Understand articles and reports with viewpoints, contemporary prose, and relevant technical discussion.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.reading_reception",
+            "gse_all_objectives.b2.reading_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "production": {
+        "speaking": {
+          "claim_id": "b2.production.speaking",
+          "claim_type": "source_boundary",
+          "text": "Give clear detailed descriptions and explain a viewpoint with advantages, disadvantages, and supporting detail.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.speaking_production",
+            "gse_all_objectives.b2.speaking_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "writing": {
+          "claim_id": "b2.production.writing",
+          "claim_type": "source_boundary",
+          "text": "Produce clear detailed texts, essays, and reports that present information or support a position.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.writing_production",
+            "gse_all_objectives.b2.writing_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "interaction": {
+        "oral": {
+          "claim_id": "b2.interaction.oral",
+          "claim_type": "source_boundary",
+          "text": "Participate actively with useful fluency and spontaneity, sustain views, and manage routine disagreement.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.oral_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "written_online": {
+          "claim_id": "b2.interaction.written_online",
+          "claim_type": "source_boundary",
+          "text": "Collaborate in multi-person tasks and handle misunderstanding when others remain reasonably cooperative.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.written_online_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "mediation": {
+          "claim_id": "b2.interaction.mediation",
+          "claim_type": "source_boundary",
+          "text": "Relay detailed information and arguments reliably, clarify complex points, and develop or connect others' ideas.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.mediation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "language_control": {
+        "range": {
+          "claim_id": "b2.language_control.range",
+          "claim_type": "source_boundary",
+          "text": "Broad general and field-related language, viewpoints, argument, and some complex sentence forms without much restriction.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.language_range"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "grammar": {
+          "claim_id": "b2.language_control.grammar",
+          "claim_type": "source_boundary",
+          "text": "Relatively high control with occasional slips and some rigid or inaccurate use of complex forms.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.grammar",
+            "egp_all_levels.b2.grammar",
+            "gse_grammar_all.b2.grammar"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "vocabulary": {
+          "claim_id": "b2.language_control.vocabulary",
+          "claim_type": "source_boundary",
+          "text": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.vocabulary",
+            "oxford_3000_all.b2.lexical_pool",
+            "oxford_5000_all.b2.lexical_pool"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "pronunciation": {
+          "claim_id": "b2.language_control.pronunciation",
+          "claim_type": "source_boundary",
+          "text": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.pronunciation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "discourse": {
+          "claim_id": "b2.language_control.discourse",
+          "claim_type": "source_boundary",
+          "text": "Use varied linking expressions, cohesive devices, supporting detail, and clear logical paragraphs.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.discourse"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "fluency": {
+          "claim_id": "b2.language_control.fluency",
+          "claim_type": "source_boundary",
+          "text": "Sustain longer stretches at a fairly even tempo with few conspicuously long pauses.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.b2.fluency"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "assessment_evidence": [
+        {
+          "claim_id": "b2.assessment.01",
+          "claim_type": "product_policy",
+          "text": "Interpretation of complex input",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "b2.assessment.02",
+          "claim_type": "product_policy",
+          "text": "Spontaneous contribution",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "b2.assessment.03",
+          "claim_type": "product_policy",
+          "text": "A supported viewpoint for a new audience and topic",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      ],
+      "decision_state": "accepted"
+    },
+    {
+      "level": "c1",
+      "progression_index": 5,
+      "gse_range": "76-84",
+      "title": "Flexible complex communication",
+      "exit_promise": {
+        "claim_id": "c1.exit_promise",
+        "claim_type": "synthesis",
+        "text": "Use English flexibly for complex social, academic, and professional purposes, including implicit meaning.",
+        "evidence_bundle_ids": [
+          "cefr_all_descriptors.c1.listening_reception",
+          "cefr_all_descriptors.c1.mediation",
+          "cefr_all_descriptors.c1.oral_interaction",
+          "cefr_all_descriptors.c1.reading_reception",
+          "cefr_all_descriptors.c1.speaking_production",
+          "cefr_all_descriptors.c1.writing_production",
+          "cefr_all_descriptors.c1.written_online_interaction",
+          "gse_all_objectives.c1.listening_reception",
+          "gse_all_objectives.c1.reading_reception",
+          "gse_all_objectives.c1.speaking_production",
+          "gse_all_objectives.c1.writing_production"
+        ],
+        "decision_refs": [
+          "docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md#supported-progression"
+        ],
+        "review": {
+          "status": "accepted",
+          "reviewer": "codex_primary_curriculum_agent",
+          "reviewed_at": "2026-08-10T12:54:12+03:00"
+        }
+      },
+      "reception": {
+        "listening": {
+          "claim_id": "c1.reception.listening",
+          "claim_type": "source_boundary",
+          "text": "Understand extended discourse with implicit relationships and demanding media without excessive effort.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.listening_reception",
+            "gse_all_objectives.c1.listening_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "reading": {
+          "claim_id": "c1.reception.reading",
+          "claim_type": "source_boundary",
+          "text": "Understand long complex factual, literary, specialised, and technical texts while appreciating style distinctions.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.reading_reception",
+            "gse_all_objectives.c1.reading_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "production": {
+        "speaking": {
+          "claim_id": "c1.production.speaking",
+          "claim_type": "source_boundary",
+          "text": "Present complex subjects with integrated sub-themes, developed points, and an appropriate conclusion.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.speaking_production",
+            "gse_all_objectives.c1.speaking_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "writing": {
+          "claim_id": "c1.production.writing",
+          "claim_type": "source_boundary",
+          "text": "Produce clear well-structured detailed texts on complex subjects in a style appropriate to the reader.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.writing_production",
+            "gse_all_objectives.c1.writing_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "interaction": {
+        "oral": {
+          "claim_id": "c1.interaction.oral",
+          "claim_type": "source_boundary",
+          "text": "Express ideas fluently and precisely, adapt register, and relate contributions skilfully to others.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.oral_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "written_online": {
+          "claim_id": "c1.interaction.written_online",
+          "claim_type": "source_boundary",
+          "text": "Handle complex abstract interaction and communication problems through flexible register, clarification, and exemplification.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.written_online_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "mediation": {
+          "claim_id": "c1.interaction.mediation",
+          "claim_type": "source_boundary",
+          "text": "Convey significant ideas from long complex texts and evaluate and connect multiple perspectives.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.mediation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "language_control": {
+        "range": {
+          "claim_id": "c1.language_control.range",
+          "claim_type": "source_boundary",
+          "text": "Broad complex language selected flexibly for clear social, academic, and professional communication.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.language_range"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "grammar": {
+          "claim_id": "c1.language_control.grammar",
+          "claim_type": "source_boundary",
+          "text": "Consistently high accuracy; errors are rare and difficult to notice.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.grammar",
+            "egp_all_levels.c1.grammar",
+            "gse_grammar_all.c1.grammar"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "vocabulary": {
+          "claim_id": "c1.language_control.vocabulary",
+          "claim_type": "source_boundary",
+          "text": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.vocabulary",
+            "oxford_5000_all.c1.lexical_pool"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "pronunciation": {
+          "claim_id": "c1.language_control.pronunciation",
+          "claim_type": "source_boundary",
+          "text": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.pronunciation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "discourse": {
+          "claim_id": "c1.language_control.discourse",
+          "claim_type": "source_boundary",
+          "text": "Produce smooth, well-structured language with controlled organisational patterns and cohesive devices.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.discourse"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "fluency": {
+          "claim_id": "c1.language_control.fluency",
+          "claim_type": "source_boundary",
+          "text": "Express complex thought almost effortlessly, with only conceptually difficult material affecting flow.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c1.fluency"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "assessment_evidence": [
+        {
+          "claim_id": "c1.assessment.01",
+          "claim_type": "product_policy",
+          "text": "Synthesis of demanding input",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "c1.assessment.02",
+          "claim_type": "product_policy",
+          "text": "A complex position in multiple domains",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "c1.assessment.03",
+          "claim_type": "product_policy",
+          "text": "Audience and register adaptation without rehearsed wording",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      ],
+      "decision_state": "accepted"
+    },
+    {
+      "level": "c2",
+      "progression_index": 6,
+      "gse_range": "85-90",
+      "title": "Precise nuanced synthesis",
+      "exit_promise": {
+        "claim_id": "c2.exit_promise",
+        "claim_type": "synthesis",
+        "text": "Synthesize complex sources and communicate precise nuances with consistently appropriate language.",
+        "evidence_bundle_ids": [
+          "cefr_all_descriptors.c2.listening_reception",
+          "cefr_all_descriptors.c2.mediation",
+          "cefr_all_descriptors.c2.oral_interaction",
+          "cefr_all_descriptors.c2.reading_reception",
+          "cefr_all_descriptors.c2.speaking_production",
+          "cefr_all_descriptors.c2.writing_production",
+          "cefr_all_descriptors.c2.written_online_interaction",
+          "gse_all_objectives.c2.listening_reception",
+          "gse_all_objectives.c2.reading_reception",
+          "gse_all_objectives.c2.speaking_production",
+          "gse_all_objectives.c2.writing_production"
+        ],
+        "decision_refs": [
+          "docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md#supported-progression"
+        ],
+        "review": {
+          "status": "accepted",
+          "reviewer": "codex_primary_curriculum_agent",
+          "reviewed_at": "2026-08-10T12:54:12+03:00"
+        }
+      },
+      "reception": {
+        "listening": {
+          "claim_id": "c2.reception.listening",
+          "claim_type": "source_boundary",
+          "text": "Understand with ease virtually any kind of live or recorded language, including delivery at fast natural speed.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.listening_reception",
+            "gse_all_objectives.c2.listening_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "reading": {
+          "claim_id": "c2.reception.reading",
+          "claim_type": "source_boundary",
+          "text": "Read with ease virtually all abstract, structurally complex, specialised, and literary written language.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.reading_reception",
+            "gse_all_objectives.c2.reading_reception"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "production": {
+        "speaking": {
+          "claim_id": "c2.production.speaking",
+          "claim_type": "source_boundary",
+          "text": "Deliver smooth logically structured communication that highlights significant points and fine shades of meaning.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.speaking_production",
+            "gse_all_objectives.c2.speaking_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "writing": {
+          "claim_id": "c2.production.writing",
+          "claim_type": "source_boundary",
+          "text": "Create complex letters, reports, articles, summaries, and reviews in an effective reader-appropriate style.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.writing_production",
+            "gse_all_objectives.c2.writing_production"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "interaction": {
+        "oral": {
+          "claim_id": "c2.interaction.oral",
+          "claim_type": "source_boundary",
+          "text": "Participate effortlessly, use idiomatic language appropriately, and repair so smoothly that difficulty is unobtrusive.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.oral_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "written_online": {
+          "claim_id": "c2.interaction.written_online",
+          "claim_type": "source_boundary",
+          "text": "Use an appropriate tone in virtually any interaction and anticipate cultural, emotional, or communication problems.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.written_online_interaction"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "mediation": {
+          "claim_id": "c2.interaction.mediation",
+          "claim_type": "source_boundary",
+          "text": "Reconstruct and evaluate arguments, convey nuance and sociocultural implications, and guide complex discussion sensitively.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.mediation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "language_control": {
+        "range": {
+          "claim_id": "c2.language_control.range",
+          "claim_type": "source_boundary",
+          "text": "Comprehensive precise language that differentiates, emphasises, and eliminates ambiguity without visible restriction.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.language_range"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "grammar": {
+          "claim_id": "c2.language_control.grammar",
+          "claim_type": "source_boundary",
+          "text": "Consistent control of complex language even while attention is divided across planning and interaction.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.grammar",
+            "egp_all_levels.c2.grammar"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "vocabulary": {
+          "claim_id": "c2.language_control.vocabulary",
+          "claim_type": "source_boundary",
+          "text": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.vocabulary"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "pronunciation": {
+          "claim_id": "c2.language_control.pronunciation",
+          "claim_type": "source_boundary",
+          "text": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.pronunciation"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "discourse": {
+          "claim_id": "c2.language_control.discourse",
+          "claim_type": "source_boundary",
+          "text": "Create fully coherent and cohesive communication using flexible organisational and rhetorical patterns.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.discourse"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        "fluency": {
+          "claim_id": "c2.language_control.fluency",
+          "claim_type": "source_boundary",
+          "text": "Sustain natural effortless flow, pausing mainly to select the most precise formulation or example.",
+          "evidence_bundle_ids": [
+            "cefr_all_descriptors.c2.fluency"
+          ],
+          "decision_refs": [],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      },
+      "assessment_evidence": [
+        {
+          "claim_id": "c2.assessment.01",
+          "claim_type": "product_policy",
+          "text": "Synthesis of unfamiliar complex sources",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "c2.assessment.02",
+          "claim_type": "product_policy",
+          "text": "Precise nuance under realistic cognitive load",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        },
+        {
+          "claim_id": "c2.assessment.03",
+          "claim_type": "product_policy",
+          "text": "Audience, register, and sociocultural appropriateness",
+          "evidence_bundle_ids": [],
+          "decision_refs": [
+            "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+            "docs/LEARNING_PRINCIPLES.md#mastery"
+          ],
+          "review": {
+            "status": "accepted",
+            "reviewer": "codex_primary_curriculum_agent",
+            "reviewed_at": "2026-08-10T12:54:12+03:00"
+          }
+        }
+      ],
+      "decision_state": "accepted"
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T12:54:12+03:00",
+    "method": "claim_by_claim_source_boundary_review",
+    "issues": []
+  }
+}

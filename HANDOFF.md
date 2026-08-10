@@ -13,14 +13,17 @@ The project has a reviewed A1 curriculum foundation and one complete content uni
 - Unit 1 contains eight sequenced lessons, lesson-level practice and assessment,
   accessibility requirements, review routing, and a unit mastery experience.
 - The static prototype demonstrates the gold lesson without an app or database.
-- The owner has directed the team to build an A1-C2 vertical curriculum before mass
-  production. The proposal, exit profiles, source audit, and execution plan are in
+- The owner has directed the project to build an A1-C2 vertical curriculum before mass
+  production. The approved architecture, exit profiles, source audit, and execution plan are in
   `docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md`,
-  `docs/LEVEL_EXIT_PROFILES_V0.md`, and `docs/VERTICAL_SPINE_EXECUTION_PLAN.md`.
+  `docs/LEVEL_EXIT_PROFILES_V1.md`, and `docs/VERTICAL_SPINE_EXECUTION_PLAN.md`.
 - All cross-level source inventories are normalized under `data/derived/`: 1,050 GSE
   objectives, 1,224 CEFR descriptors, 1,222 EGP features, 456 GSE Grammar entries,
   3,307 Oxford 3000 entry lines, and 2,015 Oxford 5000 entry lines. They are derived
   evidence, not approved syllabuses.
+- Every one of the 9,274 normalized records has a reviewed source-use disposition.
+  The approved exit contract contains 102 evidence-linked claims across A1-C2; the
+  completion audit is `docs/SPINE_003_REVIEW_AUDIT.md`.
 
 ## Important boundary
 
@@ -36,13 +39,11 @@ exception, not proof that those gates passed.
 
 ## Recommended next work
 
-1. Review every normalized source record's curriculum disposition and revise the A1-C2
-   exit-profile proposal against that evidence.
-2. Build reviewed progression strands and lifecycle ownership across all levels.
-3. Reconcile, replace, or retire the 81 A1 candidates and Unit 1 as needed, then lock
+1. Build reviewed progression strands and lifecycle ownership across all levels.
+2. Reconcile, replace, or retire the 81 A1 candidates and Unit 1 as needed, then lock
    A1 scope and sequence v1 without preserving the current lesson count by default.
-4. In parallel, run a small consent-based gold-lesson pilot and record delivery evidence.
-5. Resume mass A1 production only after the vertical-spine and delivery gates pass.
+3. In parallel, run a small consent-based gold-lesson pilot and record delivery evidence.
+4. Resume mass A1 production only after the vertical-spine and delivery gates pass.
 
 ## Content locations
 

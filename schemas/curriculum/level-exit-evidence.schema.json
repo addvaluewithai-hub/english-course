@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/level-exit-evidence.schema.json",
+  "title": "Level-exit evidence bundles",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "dataset_id", "version", "source_dispositions",
+    "bundles", "audit", "review"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "dataset_id": {"const": "level_exit_evidence_bundles"},
+    "version": {"const": 1},
+    "source_dispositions": {"$ref": "#/$defs/source"},
+    "bundles": {
+      "type": "array", "minItems": 1, "items": {"$ref": "#/$defs/bundle"}
+    },
+    "audit": {"$ref": "#/$defs/audit"},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "stringList": {
+      "type": "array", "items": {"$ref": "#/$defs/text"}, "uniqueItems": true
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256", "record_count"],
+      "properties": {
+        "path": {"const": "data/reviewed/source-dispositions-v1.json"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "record_count": {"const": 9274}
+      }
+    },
+    "selector": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_dataset_id", "source_level_code", "strand_code"],
+      "properties": {
+        "source_dataset_id": {"$ref": "#/$defs/text"},
+        "source_level_code": {"enum": ["a1", "a2", "b1", "b2", "c1", "c2"]},
+        "strand_code": {"$ref": "#/$defs/text"}
+      }
+    },
+    "bundle": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "bundle_id", "selector", "evidence_role", "matched_record_count",
+        "matched_record_ids_sha256", "representative_record_ids"
+      ],
+      "properties": {
+        "bundle_id": {"type": "string", "pattern": "^[a-z0-9_.]+$"},
+        "selector": {"$ref": "#/$defs/selector"},
+        "evidence_role": {
+          "enum": [
+            "primary_level_boundary", "granular_communicative_cross_check",
+            "grammar_feature_pool", "productive_grammar_cross_check",
+            "lexical_reference_pool"
+          ]
+        },
+        "matched_record_count": {"type": "integer", "minimum": 1},
+        "matched_record_ids_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "representative_record_ids": {
+          "type": "array", "minItems": 1, "maxItems": 3,
+          "items": {"$ref": "#/$defs/text"}, "uniqueItems": true
+        }
+      }
+    },
+    "audit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["bundle_count", "level_counts", "source_counts", "empty_selectors"],
+      "properties": {
+        "bundle_count": {"type": "integer", "minimum": 1},
+        "level_counts": {"type": "object", "additionalProperties": {"type": "integer"}},
+        "source_counts": {"type": "object", "additionalProperties": {"type": "integer"}},
+        "empty_selectors": {"$ref": "#/$defs/stringList"}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "reviewer", "reviewed_at", "method"],
+      "properties": {
+        "status": {"const": "accepted"},
+        "reviewer": {"const": "codex_primary_curriculum_agent"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "method": {"const": "validated_selector_and_claim_boundary_review"}
+      }
+    }
+  }
+}

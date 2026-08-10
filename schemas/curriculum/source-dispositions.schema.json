@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/source-dispositions.schema.json",
+  "title": "Reviewed curriculum source dispositions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "dataset_id", "version", "source_datasets",
+    "policy_catalog", "records", "audit", "review"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "dataset_id": {"const": "english_course_source_dispositions"},
+    "version": {"type": "integer", "minimum": 1},
+    "source_datasets": {
+      "type": "array", "minItems": 6, "maxItems": 6,
+      "items": {"$ref": "#/$defs/sourceDataset"}
+    },
+    "policy_catalog": {
+      "type": "array", "minItems": 6,
+      "items": {"$ref": "#/$defs/policy"}
+    },
+    "records": {
+      "type": "array", "minItems": 1,
+      "items": {"$ref": "#/$defs/dispositionRecord"}
+    },
+    "audit": {"$ref": "#/$defs/audit"},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "stringList": {
+      "type": "array", "items": {"$ref": "#/$defs/text"}, "uniqueItems": true
+    },
+    "countMap": {
+      "type": "object", "additionalProperties": {"type": "integer", "minimum": 0}
+    },
+    "sourceDataset": {
+      "type": "object", "additionalProperties": false,
+      "required": ["dataset_id", "path", "sha256", "record_count"],
+      "properties": {
+        "dataset_id": {"$ref": "#/$defs/text"},
+        "path": {"type": "string", "pattern": "^data/derived/"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "record_count": {"type": "integer", "minimum": 1}
+      }
+    },
+    "policy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["policy_id", "source_role", "base_disposition", "rationale"],
+      "properties": {
+        "policy_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+        "source_role": {"$ref": "#/$defs/sourceRole"},
+        "base_disposition": {"$ref": "#/$defs/disposition"},
+        "rationale": {"$ref": "#/$defs/text"}
+      }
+    },
+    "sourceRole": {
+      "enum": [
+        "level_boundary_evidence", "communicative_target_evidence",
+        "language_system_evidence", "lexical_reference_pool"
+      ]
+    },
+    "disposition": {
+      "enum": [
+        "include_for_spine", "supporting_evidence", "reference_pool",
+        "duplicate_or_overlap", "excluded_with_reason"
+      ]
+    },
+    "control": {"enum": ["receptive", "productive", "both", "not_applicable"]},
+    "overlap": {
+      "type": ["object", "null"], "additionalProperties": false,
+      "required": [
+        "group_id", "canonical_record_id", "relation",
+        "different_source_levels", "different_source_scores"
+      ],
+      "properties": {
+        "group_id": {"type": "string", "pattern": "^overlap_[a-f0-9]{12}$"},
+        "canonical_record_id": {"$ref": "#/$defs/text"},
+        "relation": {"const": "exact_text_repetition"},
+        "different_source_levels": {"type": "boolean"},
+        "different_source_scores": {"type": "boolean"}
+      }
+    },
+    "dispositionRecord": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "source_dataset_id", "source_record_id", "source_level_codes",
+        "source_level_text", "source_role", "control_expectation",
+        "strand_codes", "disposition", "policy_id", "overlap"
+      ],
+      "properties": {
+        "source_dataset_id": {"$ref": "#/$defs/text"},
+        "source_record_id": {"$ref": "#/$defs/text"},
+        "source_level_codes": {"$ref": "#/$defs/stringList"},
+        "source_level_text": {"type": ["string", "null"]},
+        "source_role": {"$ref": "#/$defs/sourceRole"},
+        "control_expectation": {"$ref": "#/$defs/control"},
+        "strand_codes": {"$ref": "#/$defs/stringList"},
+        "disposition": {"$ref": "#/$defs/disposition"},
+        "policy_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+        "overlap": {"$ref": "#/$defs/overlap"}
+      }
+    },
+    "audit": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "total_records", "disposition_counts", "role_counts", "control_counts",
+        "strand_counts", "level_counts", "overlap_groups", "unclassified_records",
+        "unexplained_orphans", "cross_level_exact_text_conflicts"
+      ],
+      "properties": {
+        "total_records": {"type": "integer", "minimum": 1},
+        "disposition_counts": {"$ref": "#/$defs/countMap"},
+        "role_counts": {"$ref": "#/$defs/countMap"},
+        "control_counts": {"$ref": "#/$defs/countMap"},
+        "strand_counts": {"$ref": "#/$defs/countMap"},
+        "level_counts": {"$ref": "#/$defs/countMap"},
+        "overlap_groups": {"type": "integer", "minimum": 0},
+        "unclassified_records": {"$ref": "#/$defs/stringList"},
+        "unexplained_orphans": {"$ref": "#/$defs/stringList"},
+        "cross_level_exact_text_conflicts": {"$ref": "#/$defs/stringList"}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "status", "reviewer", "reviewed_at", "method", "individual_manual_review",
+        "decision_authority", "limitations"
+      ],
+      "properties": {
+        "status": {"const": "accepted"},
+        "reviewer": {"const": "codex_primary_curriculum_agent"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "method": {"const": "policy_rule_plus_exception_audit"},
+        "individual_manual_review": {"const": false},
+        "decision_authority": {"const": "owner_delegated_primary_agent"},
+        "limitations": {"$ref": "#/$defs/stringList"}
+      }
+    }
+  }
+}

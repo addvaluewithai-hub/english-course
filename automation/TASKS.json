@@ -170,15 +170,20 @@
       "id": "SPINE-003",
       "phase": "cross_level_vertical_spine",
       "title": "Review source dispositions and level exit profiles",
-      "status": "ready",
+      "status": "complete",
       "dependencies": ["SPINE-002"],
-      "acceptance": "All relevant records have dispositions and every exit claim is reviewed across skills, modes, language systems, and complexity."
+      "acceptance": "All relevant records have dispositions and every exit claim is reviewed across skills, modes, language systems, and complexity.",
+      "notes": [
+        "2026-08-10: classified all 9,274 normalized records by source role, expected control, strand, and use disposition; audited 27 exact-text overlap groups with no cross-level exact-text conflict and no unexplained orphan.",
+        "2026-08-10: approved 102 evidence-linked A1-C2 exit claims across reception, production, interaction, language control, and fresh performance; named C2 lexical, pronunciation-sequence, and lifecycle limits for SPINE-004.",
+        "2026-08-10: all 281 repository tests passed after the completion audit."
+      ]
     },
     {
       "id": "SPINE-004",
       "phase": "cross_level_vertical_spine",
       "title": "Build and audit vertical progression strands",
-      "status": "locked",
+      "status": "ready",
       "dependencies": ["SPINE-003"],
       "acceptance": "Abilities, grammar, vocabulary, pronunciation, discourse, and complexity have reviewed lifecycle ownership without unexplained orphans or regressions."
     },

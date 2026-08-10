@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "audit_id": "spine_003_review_audit",
+  "status": "accepted",
+  "inputs": [
+    {
+      "path": "data/reviewed/source-dispositions-v1.json",
+      "sha256": "15824d8281d9e6669eddc40780e3f9ab3113866834c7fae997b2de76bf92a32d"
+    },
+    {
+      "path": "data/reviewed/level-exit-profiles-v1.json",
+      "sha256": "8cd53270688f6aafadddb7beb7f8f3717d832a464f127fefd3def3a1a62da30a"
+    }
+  ],
+  "levels": [
+    {
+      "level": "a1",
+      "progression_index": 1,
+      "reviewed_claims": 17,
+      "cefr_strands": 15,
+      "gse_receptive_records": 48,
+      "gse_productive_records": 73,
+      "egp_grammar_features": 109,
+      "gse_grammar_features": 43,
+      "lexical_pool_records": 900
+    },
+    {
+      "level": "a2",
+      "progression_index": 2,
+      "reviewed_claims": 17,
+      "cefr_strands": 15,
+      "gse_receptive_records": 76,
+      "gse_productive_records": 193,
+      "egp_grammar_features": 291,
+      "gse_grammar_features": 117,
+      "lexical_pool_records": 871
+    },
+    {
+      "level": "b1",
+      "progression_index": 3,
+      "reviewed_claims": 17,
+      "cefr_strands": 15,
+      "gse_receptive_records": 77,
+      "gse_productive_records": 174,
+      "egp_grammar_features": 338,
+      "gse_grammar_features": 229,
+      "lexical_pool_records": 809
+    },
+    {
+      "level": "b2",
+      "progression_index": 4,
+      "reviewed_claims": 17,
+      "cefr_strands": 15,
+      "gse_receptive_records": 85,
+      "gse_productive_records": 187,
+      "egp_grammar_features": 243,
+      "gse_grammar_features": 64,
+      "lexical_pool_records": 1427
+    },
+    {
+      "level": "c1",
+      "progression_index": 5,
+      "reviewed_claims": 17,
+      "cefr_strands": 15,
+      "gse_receptive_records": 19,
+      "gse_productive_records": 40,
+      "egp_grammar_features": 129,
+      "gse_grammar_features": 3,
+      "lexical_pool_records": 1315
+    },
+    {
+      "level": "c2",
+      "progression_index": 6,
+      "reviewed_claims": 17,
+      "cefr_strands": 15,
+      "gse_receptive_records": 8,
+      "gse_productive_records": 11,
+      "egp_grammar_features": 112,
+      "gse_grammar_features": 0,
+      "lexical_pool_records": 0
+    }
+  ],
+  "overlap": {
+    "exact_text_groups": 27,
+    "affected_records": 55,
+    "cross_level_groups": 0,
+    "score_variance_groups": [
+      "overlap_597d781917b2",
+      "overlap_6c6c24543737",
+      "overlap_76a161527e3e"
+    ]
+  },
+  "integrity": {
+    "unclassified_records": [],
+    "unexplained_orphans": [],
+    "claims_without_evidence": [],
+    "duplicate_claim_ids": [],
+    "adjacent_claim_text_duplicates": []
+  },
+  "named_limits": [
+    "C2 lexical ownership needs a corpus- and domain-informed method because Oxford has no C2 list.",
+    "CEFR supplies pronunciation boundaries but not an English-specific Arabic-learner teaching sequence.",
+    "Semantic cross-source equivalence and lifecycle ownership remain SPINE-004 decisions.",
+    "Source-record counts describe evidence density, not curriculum time or teaching weight."
+  ],
+  "next_task": "SPINE-004",
+  "review": {
+    "status": "accepted",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T12:54:12+03:00",
+    "method": "complete_policy_exception_and_claim_boundary_audit"
+  }
+}

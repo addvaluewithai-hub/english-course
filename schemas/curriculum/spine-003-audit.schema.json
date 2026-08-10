@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/spine-003-audit.schema.json",
+  "title": "SPINE-003 completion audit",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "audit_id", "status", "inputs", "levels", "overlap",
+    "integrity", "named_limits", "next_task", "review"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "audit_id": {"const": "spine_003_review_audit"},
+    "status": {"const": "accepted"},
+    "inputs": {
+      "type": "array", "minItems": 2, "maxItems": 2,
+      "items": {"$ref": "#/$defs/input"}
+    },
+    "levels": {
+      "type": "array", "minItems": 6, "maxItems": 6,
+      "items": {"$ref": "#/$defs/level"}
+    },
+    "overlap": {"$ref": "#/$defs/overlap"},
+    "integrity": {"$ref": "#/$defs/integrity"},
+    "named_limits": {
+      "type": "array", "minItems": 3, "items": {"type": "string", "minLength": 1}
+    },
+    "next_task": {"const": "SPINE-004"},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "stringList": {
+      "type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true
+    },
+    "input": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "pattern": "^data/reviewed/"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "level": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "level", "progression_index", "reviewed_claims", "cefr_strands",
+        "gse_receptive_records", "gse_productive_records", "egp_grammar_features",
+        "gse_grammar_features", "lexical_pool_records"
+      ],
+      "properties": {
+        "level": {"enum": ["a1", "a2", "b1", "b2", "c1", "c2"]},
+        "progression_index": {"type": "integer", "minimum": 1, "maximum": 6},
+        "reviewed_claims": {"const": 17},
+        "cefr_strands": {"type": "integer", "minimum": 15},
+        "gse_receptive_records": {"type": "integer", "minimum": 1},
+        "gse_productive_records": {"type": "integer", "minimum": 1},
+        "egp_grammar_features": {"type": "integer", "minimum": 1},
+        "gse_grammar_features": {"type": "integer", "minimum": 0},
+        "lexical_pool_records": {"type": "integer", "minimum": 0}
+      }
+    },
+    "overlap": {
+      "type": "object", "additionalProperties": false,
+      "required": ["exact_text_groups", "affected_records", "cross_level_groups", "score_variance_groups"],
+      "properties": {
+        "exact_text_groups": {"type": "integer", "minimum": 0},
+        "affected_records": {"type": "integer", "minimum": 0},
+        "cross_level_groups": {"const": 0},
+        "score_variance_groups": {"$ref": "#/$defs/stringList"}
+      }
+    },
+    "integrity": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "unclassified_records", "unexplained_orphans", "claims_without_evidence",
+        "duplicate_claim_ids", "adjacent_claim_text_duplicates"
+      ],
+      "properties": {
+        "unclassified_records": {"maxItems": 0, "$ref": "#/$defs/stringList"},
+        "unexplained_orphans": {"maxItems": 0, "$ref": "#/$defs/stringList"},
+        "claims_without_evidence": {"maxItems": 0, "$ref": "#/$defs/stringList"},
+        "duplicate_claim_ids": {"maxItems": 0, "$ref": "#/$defs/stringList"},
+        "adjacent_claim_text_duplicates": {"maxItems": 0, "$ref": "#/$defs/stringList"}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "reviewer", "reviewed_at", "method"],
+      "properties": {
+        "status": {"const": "accepted"},
+        "reviewer": {"const": "codex_primary_curriculum_agent"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "method": {"const": "complete_policy_exception_and_claim_boundary_audit"}
+      }
+    }
+  }
+}

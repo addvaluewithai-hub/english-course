@@ -1,7 +1,11 @@
 # Level Exit Profiles v0
 
-Status: proposal for evidence review. These profiles define exit performance, not
-lesson counts or a locked inventory of grammar and vocabulary.
+Status: superseded proposal retained for history. The approved, claim-level,
+evidence-linked contract is `docs/LEVEL_EXIT_PROFILES_V1.md` with structured data in
+`data/reviewed/level-exit-profiles-v1.json`.
+
+These profiles define exit performance, not lesson counts or a locked inventory of
+grammar and vocabulary.
 
 ## Pre-A1 support band
 

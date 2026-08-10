@@ -1,6 +1,7 @@
 # Vertical Spine Execution Plan
 
-Status: proposed critical path before mass A1 production.
+Status: active critical path. Work packages 1-4 are complete; progression strands are
+next.
 
 ## Work package 1 - Scope and governance
 
@@ -39,16 +40,24 @@ Current result: this work package is complete. The all-level datasets are
 
 ## Work package 3 - Build source dispositions
 
-Give every relevant record a reviewed disposition without forcing it into a lesson:
+Give every relevant record a reviewed disposition without forcing it into a lesson.
+The reviewed contract separates three different questions:
 
-`productive_target`, `receptive_exposure`, `supporting_evidence`, `extend_later`,
-`optional_enrichment`, `duplicate_or_overlap`, or `excluded_with_reason`.
+- `source_role`: what kind of evidence the record supplies;
+- `control_expectation`: receptive, productive, both, or not applicable;
+- `disposition`: include for spine, supporting evidence, reference pool,
+  duplicate/overlap, or excluded with reason.
 
 Acceptance:
 
 - no unexplained orphan records;
 - cross-source overlap does not imply equivalence;
 - gaps and conflicts are reported by level and strand.
+
+Current result: complete. All 9,274 records have a disposition in
+`data/reviewed/source-dispositions-v1.json`; the audit reports 27 exact-text overlap
+groups, no cross-level exact-text conflict, no unclassified record, and no unexplained
+orphan.
 
 ## Work package 4 - Review level exit profiles
 
@@ -62,6 +71,11 @@ Acceptance:
 - receptive and productive expectations are distinct;
 - adjacent levels show a clear increase in independence, complexity, or precision;
 - C2 is not described as native-speaker imitation.
+
+Current result: complete. The approved contract contains 102 reviewed claims in
+`data/reviewed/level-exit-profiles-v1.json`; every source-boundary claim points to a
+validated bundle in `data/reviewed/level-exit-evidence-v1.json`. The combined gate
+audit is `docs/SPINE_003_REVIEW_AUDIT.md`.
 
 ## Work package 5 - Build progression strands
 

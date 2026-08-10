@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/profile-claim.schema.json",
+  "title": "Reviewed level-exit claim",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claim_id", "claim_type", "text", "evidence_bundle_ids",
+    "decision_refs", "review"
+  ],
+  "properties": {
+    "claim_id": {"type": "string", "pattern": "^[a-z0-9_.]+$"},
+    "claim_type": {"enum": ["source_boundary", "synthesis", "product_policy"]},
+    "text": {"type": "string", "minLength": 1},
+    "evidence_bundle_ids": {
+      "type": "array", "items": {"type": "string", "pattern": "^[a-z0-9_.]+$"},
+      "uniqueItems": true
+    },
+    "decision_refs": {
+      "type": "array", "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "reviewer", "reviewed_at"],
+      "properties": {
+        "status": {"const": "accepted"},
+        "reviewer": {"const": "codex_primary_curriculum_agent"},
+        "reviewed_at": {"type": "string", "format": "date-time"}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"claim_type": {"const": "source_boundary"}}},
+      "then": {"properties": {"evidence_bundle_ids": {"minItems": 1}}}
+    },
+    {
+      "if": {"properties": {"claim_type": {"const": "synthesis"}}},
+      "then": {
+        "properties": {
+          "evidence_bundle_ids": {"minItems": 1},
+          "decision_refs": {"minItems": 1}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"claim_type": {"const": "product_policy"}}},
+      "then": {"properties": {"decision_refs": {"minItems": 1}}}
+    }
+  ]
+}

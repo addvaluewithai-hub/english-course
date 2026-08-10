@@ -1,0 +1,2104 @@
+{
+  "schema_version": 1,
+  "dataset_id": "level_exit_evidence_bundles",
+  "version": 1,
+  "source_dispositions": {
+    "path": "data/reviewed/source-dispositions-v1.json",
+    "sha256": "15824d8281d9e6669eddc40780e3f9ab3113866834c7fae997b2de76bf92a32d",
+    "record_count": 9274
+  },
+  "bundles": [
+    {
+      "bundle_id": "cefr_all_descriptors.a1.communication_strategy",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "communication_strategy"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 3,
+      "matched_record_ids_sha256": "d0f2e06d14d352c4e80ed4dd35b477efa7df9b776d252a6c860e8a12733b9a6b",
+      "representative_record_ids": [
+        "cefr.cv2020.p069.a1.compensating.001",
+        "cefr.cv2020.p089.a1.asking_for_clarification.001",
+        "cefr.cv2020.p089.a1.asking_for_clarification.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.discourse",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "discourse"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 2,
+      "matched_record_ids_sha256": "2196c78d16a31b061c01b257489b7c61c3ee53b9e13b952132dfc67cf2b2caf3",
+      "representative_record_ids": [
+        "cefr.cv2020.p141.a1.coherence_and_cohesion.001",
+        "cefr.cv2020.p142.a1.propositional_precision.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.fluency",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "fluency"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 1,
+      "matched_record_ids_sha256": "6f007efa8f483c8ada1e154e84885a2f5e95ff75c3f63db24d531b401dbece31",
+      "representative_record_ids": [
+        "cefr.cv2020.p142.a1.fluency.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.grammar",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 1,
+      "matched_record_ids_sha256": "90271b880fbfb118d5debc4b1f7c23c45889fb7ebb18cfdf50b58fec6313b012",
+      "representative_record_ids": [
+        "cefr.cv2020.p132.a1.grammatical_accuracy.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.language_range",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "language_range"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 2,
+      "matched_record_ids_sha256": "2432e00ba273416a147346a43abd5ce94ddcb16965f79beff590b54bad5cf8e8",
+      "representative_record_ids": [
+        "cefr.cv2020.p131.a1.general_linguistic_range.001",
+        "cefr.cv2020.p131.a1.general_linguistic_range.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.listening_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 10,
+      "matched_record_ids_sha256": "2fa1f0fb6c538381ada5f63d1e82897d8fe618b228420a3e2899365f69de8cd5",
+      "representative_record_ids": [
+        "cefr.cv2020.p048.a1.overall_oral_comprehension.001",
+        "cefr.cv2020.p051.a1.understanding_announcements_and_instructions.002",
+        "cefr.cv2020.p053.a1.watching_tv_film_and_video.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.mediation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "mediation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 18,
+      "matched_record_ids_sha256": "494d04c034edcd29f4fa71400c8bcc97723f75ac830782a2749d7a57bdc0e906",
+      "representative_record_ids": [
+        "cefr.cv2020.p092.a1.overall_mediation.001",
+        "cefr.cv2020.p111.a1.collaborating_to_construct_meaning.001",
+        "cefr.cv2020.p128.a1.building_on_plurilingual_repertoire.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.oral_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "oral_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 22,
+      "matched_record_ids_sha256": "5c127579a1ff420f97b30fb4bf8a58458f03f95908244c230d68d73321bdc0a1",
+      "representative_record_ids": [
+        "cefr.cv2020.p072.a1.overall_oral_interaction.001",
+        "cefr.cv2020.p078.a1.obtaining_goods_and_services.001",
+        "cefr.cv2020.p080.a1.interviewing_and_being_interviewed.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.pronunciation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "pronunciation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 4,
+      "matched_record_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+      "representative_record_ids": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.reading_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 14,
+      "matched_record_ids_sha256": "7c75491d0a22d9165baba1c7f18f71cbc1180c4a3cce0407eb27dc3f64d67fca",
+      "representative_record_ids": [
+        "cefr.cv2020.p054.a1.overall_reading_comprehension.001",
+        "cefr.cv2020.p057.a1.reading_for_information_and_argument.001",
+        "cefr.cv2020.p060.a1.identifying_cues_and_inferring_spoken_signed_and.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.sociolinguistic",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "sociolinguistic"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 1,
+      "matched_record_ids_sha256": "e81ad76cc18ca6d60339a491ff140c9751135f64f1d756f8f124ec903965dd17",
+      "representative_record_ids": [
+        "cefr.cv2020.p137.a1.sociolinguistic_appropriateness.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.speaking_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 5,
+      "matched_record_ids_sha256": "725f4aca63d3e16257e4d6c72318d94c84b9396cdc1afee899ffc20b0269409c",
+      "representative_record_ids": [
+        "cefr.cv2020.p062.a1.overall_oral_production.001",
+        "cefr.cv2020.p063.a1.sustained_monologue_describing_experience.002",
+        "cefr.cv2020.p066.a1.addressing_audiences.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.vocabulary",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "vocabulary"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 1,
+      "matched_record_ids_sha256": "a7384d10d3ac265dca357300e3be5ee4c245af14cb944646e09475d80f450a6d",
+      "representative_record_ids": [
+        "cefr.cv2020.p131.a1.vocabulary_range.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.writing_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 8,
+      "matched_record_ids_sha256": "5f9a937ab100087c2254f499b32264e678f588b59f14178e90d07dcd963cfc92",
+      "representative_record_ids": [
+        "cefr.cv2020.p066.a1.overall_written_production.001",
+        "cefr.cv2020.p067.a1.creative_writing.003",
+        "cefr.cv2020.p136.a1.orthographic_control.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a1.written_online_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a1",
+        "strand_code": "written_online_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 9,
+      "matched_record_ids_sha256": "95b6fe7e1e88d7c6ff12b8078842a79a77b697991a9b2eaf8f1d6332ea192bc2",
+      "representative_record_ids": [
+        "cefr.cv2020.p082.a1.overall_written_interaction.001",
+        "cefr.cv2020.p084.a1.notes_messages_and_forms.001",
+        "cefr.cv2020.p087.a1.goal_oriented_online_transactions_and_collaboration.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.communication_strategy",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "communication_strategy"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 14,
+      "matched_record_ids_sha256": "c6cb2c8d7353eb086dbead1b67577a8b6f5826be16dffd6114655e4f26c99d02",
+      "representative_record_ids": [
+        "cefr.cv2020.p069.a2.compensating.001",
+        "cefr.cv2020.p089.a2.asking_for_clarification.002",
+        "cefr.cv2020.p139.a2.turntaking.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.discourse",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "discourse"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 7,
+      "matched_record_ids_sha256": "2af4bfe18ca189591fc438721c79bb392b89f57150b7a8eeb78a06cde7c79418",
+      "representative_record_ids": [
+        "cefr.cv2020.p138.a2.flexibility.001",
+        "cefr.cv2020.p140.a2.thematic_development.002",
+        "cefr.cv2020.p142.a2.propositional_precision.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.fluency",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "fluency"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 2,
+      "matched_record_ids_sha256": "51137cafa4fc824e87588ceb0687bee6429c07d2c164bb29878d996926d7124d",
+      "representative_record_ids": [
+        "cefr.cv2020.p142.a2.fluency.001",
+        "cefr.cv2020.p142.a2.fluency.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.grammar",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 1,
+      "matched_record_ids_sha256": "fee224a94ebbb3903f97fd3aea5cfb0046619504ae806d4a6fab547e86740a6b",
+      "representative_record_ids": [
+        "cefr.cv2020.p132.a2.grammatical_accuracy.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.language_range",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "language_range"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 4,
+      "matched_record_ids_sha256": "423e4ba000a2642477f82d0083582bd04e03269e72d345eef986621b3eacbf51",
+      "representative_record_ids": [
+        "cefr.cv2020.p130.a2.general_linguistic_range.001",
+        "cefr.cv2020.p130.a2.general_linguistic_range.003",
+        "cefr.cv2020.p130.a2.general_linguistic_range.004"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.listening_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 21,
+      "matched_record_ids_sha256": "c0a43165dd2683e2aa112681004e7d54db10dca078c3caa29aab0c736861e846",
+      "representative_record_ids": [
+        "cefr.cv2020.p048.a2.overall_oral_comprehension.001",
+        "cefr.cv2020.p051.a2.understanding_announcements_and_instructions.003",
+        "cefr.cv2020.p053.a2.watching_tv_film_and_video.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.mediation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "mediation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 50,
+      "matched_record_ids_sha256": "9f103cf0e1095ede390148244a9409983dc0fc5630e3e28500c0e5756cbf481e",
+      "representative_record_ids": [
+        "cefr.cv2020.p092.a2.overall_mediation.001",
+        "cefr.cv2020.p107.a2.expressing_a_personal_response_to_creative_texts.003",
+        "cefr.cv2020.p128.a2.building_on_plurilingual_repertoire.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.oral_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "oral_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 61,
+      "matched_record_ids_sha256": "bae813cbc9adbae42117140129e02c8e98a175be9de3a78f1b9ed35e2aec6077",
+      "representative_record_ids": [
+        "cefr.cv2020.p072.a2.overall_oral_interaction.001",
+        "cefr.cv2020.p077.a2.goal_oriented_co_operation_cooking_together_discussing.004",
+        "cefr.cv2020.p081.a2.using_telecommunications.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.pronunciation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "pronunciation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 5,
+      "matched_record_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+      "representative_record_ids": [
+        "cefr.cv2020.p135.a2.overall_phonological_control.001",
+        "cefr.cv2020.p135.a2.prosodic_features.002",
+        "cefr.cv2020.p135.a2.sound_articulation.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.reading_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 37,
+      "matched_record_ids_sha256": "c868a3b4df93ab658de1b36b6f2ad5f51310b1f7f2245754c8d5d9b972ea91ae",
+      "representative_record_ids": [
+        "cefr.cv2020.p054.a2.overall_reading_comprehension.001",
+        "cefr.cv2020.p057.a2.reading_for_information_and_argument.008",
+        "cefr.cv2020.p060.a2.identifying_cues_and_inferring_spoken_signed_and.005"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.sociolinguistic",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "sociolinguistic"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 4,
+      "matched_record_ids_sha256": "db61ecbebca60a300a5cf80a873df48980e34d6991ed473eab6d9fed4b9433ee",
+      "representative_record_ids": [
+        "cefr.cv2020.p137.a2.sociolinguistic_appropriateness.001",
+        "cefr.cv2020.p137.a2.sociolinguistic_appropriateness.003",
+        "cefr.cv2020.p137.a2.sociolinguistic_appropriateness.004"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.speaking_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 19,
+      "matched_record_ids_sha256": "2c661d78fe17abece43ffaa68d29a7f3f63eea538929a31c015fe3e63fc0d908",
+      "representative_record_ids": [
+        "cefr.cv2020.p062.a2.overall_oral_production.001",
+        "cefr.cv2020.p063.a2.sustained_monologue_describing_experience.009",
+        "cefr.cv2020.p066.a2.addressing_audiences.004"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.vocabulary",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "vocabulary"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 4,
+      "matched_record_ids_sha256": "f514c9bb516dd91758f5f6b04cce59c9cd0266c17c9df56cdeaef7e6efeba965",
+      "representative_record_ids": [
+        "cefr.cv2020.p131.a2.vocabulary_range.001",
+        "cefr.cv2020.p131.a2.vocabulary_range.003",
+        "cefr.cv2020.p133.a2.vocabulary_control.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.writing_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 12,
+      "matched_record_ids_sha256": "5b540eee0257b84a4589e9d365922be0d18bdef5a3f8eef8edcc198e0451f825",
+      "representative_record_ids": [
+        "cefr.cv2020.p066.a2.overall_written_production.001",
+        "cefr.cv2020.p067.a2.creative_writing.006",
+        "cefr.cv2020.p136.a2.orthographic_control.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.a2.written_online_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "a2",
+        "strand_code": "written_online_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 19,
+      "matched_record_ids_sha256": "8a8226131726fb43204da3f3e646f02af52605383fb6ef302aeb29bdc81e287f",
+      "representative_record_ids": [
+        "cefr.cv2020.p082.a2.overall_written_interaction.001",
+        "cefr.cv2020.p085.a2.online_conversation_and_discussion.001",
+        "cefr.cv2020.p087.a2.goal_oriented_online_transactions_and_collaboration.005"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.communication_strategy",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "communication_strategy"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 19,
+      "matched_record_ids_sha256": "7f05450f84bee77145759f4dd53d86aff284e7fd2bebb461e9cd4f35b14f4e75",
+      "representative_record_ids": [
+        "cefr.cv2020.p069.b1.compensating.001",
+        "cefr.cv2020.p088.b1.turntaking.001",
+        "cefr.cv2020.p139.b1.turntaking.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.discourse",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "discourse"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 13,
+      "matched_record_ids_sha256": "9d3331becb48c6c6027eace70377f2f9b086093b0b9240e92514a02ccd684ab0",
+      "representative_record_ids": [
+        "cefr.cv2020.p138.b1.flexibility.001",
+        "cefr.cv2020.p141.b1.coherence_and_cohesion.001",
+        "cefr.cv2020.p142.b1.propositional_precision.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.fluency",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "fluency"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 2,
+      "matched_record_ids_sha256": "ba8b363ad1498558e147c96c165dac41f7770ab0642c32223e15f1553f018a14",
+      "representative_record_ids": [
+        "cefr.cv2020.p142.b1.fluency.001",
+        "cefr.cv2020.p142.b1.fluency.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.grammar",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 2,
+      "matched_record_ids_sha256": "fc8151d1b40aefef11833693b0f3baf9b5b14915756f5a41fbdb1c2518911416",
+      "representative_record_ids": [
+        "cefr.cv2020.p132.b1.grammatical_accuracy.001",
+        "cefr.cv2020.p132.b1.grammatical_accuracy.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.language_range",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "language_range"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 2,
+      "matched_record_ids_sha256": "8bb23529123dc4bb2fd4ec6df0018c361d1a0c3d54df629b1d07d4b759c2ee9e",
+      "representative_record_ids": [
+        "cefr.cv2020.p130.b1.general_linguistic_range.001",
+        "cefr.cv2020.p130.b1.general_linguistic_range.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.listening_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 18,
+      "matched_record_ids_sha256": "15bc5946af381b5b9b37a2691ad57718f356d93b33d3851ae0a9eb119d494939",
+      "representative_record_ids": [
+        "cefr.cv2020.p048.b1.overall_oral_comprehension.001",
+        "cefr.cv2020.p051.b1.understanding_announcements_and_instructions.001",
+        "cefr.cv2020.p053.b1.watching_tv_film_and_video.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.mediation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "mediation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 84,
+      "matched_record_ids_sha256": "8f0300fafd4a77d63fe0d43e70efa806ebf6ca38075db06279d06a397c55147d",
+      "representative_record_ids": [
+        "cefr.cv2020.p092.b1.overall_mediation.001",
+        "cefr.cv2020.p111.b1.collaborating_to_construct_meaning.003",
+        "cefr.cv2020.p128.b1.building_on_plurilingual_repertoire.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.oral_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "oral_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 48,
+      "matched_record_ids_sha256": "77fbfb3d1141b6cb60a5d6dbb3756376f095df9c020a646b033b3aa402309616",
+      "representative_record_ids": [
+        "cefr.cv2020.p072.b1.overall_oral_interaction.001",
+        "cefr.cv2020.p077.b1.goal_oriented_co_operation_cooking_together_discussing.003",
+        "cefr.cv2020.p081.b1.using_telecommunications.004"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.pronunciation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "pronunciation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 3,
+      "matched_record_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+      "representative_record_ids": [
+        "cefr.cv2020.p134.b1.overall_phonological_control.001",
+        "cefr.cv2020.p134.b1.prosodic_features.001",
+        "cefr.cv2020.p134.b1.sound_articulation.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.reading_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 35,
+      "matched_record_ids_sha256": "a9db87a4b58fdfd82af3882a936fa9ffed50723042ba58c7416994fcce5c9da2",
+      "representative_record_ids": [
+        "cefr.cv2020.p054.b1.overall_reading_comprehension.001",
+        "cefr.cv2020.p057.b1.reading_for_information_and_argument.007",
+        "cefr.cv2020.p060.b1.identifying_cues_and_inferring_spoken_signed_and.008"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.sociolinguistic",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "sociolinguistic"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 3,
+      "matched_record_ids_sha256": "c3fa920986759d07064a1386b69f3757a408d1d76c9700ab5951e7767a0977fe",
+      "representative_record_ids": [
+        "cefr.cv2020.p137.b1.sociolinguistic_appropriateness.001",
+        "cefr.cv2020.p137.b1.sociolinguistic_appropriateness.002",
+        "cefr.cv2020.p137.b1.sociolinguistic_appropriateness.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.speaking_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 22,
+      "matched_record_ids_sha256": "c5e66fc2d41fee8cac88950564eca4f84aa034e9f9f7b18c2d490c8d0c29346a",
+      "representative_record_ids": [
+        "cefr.cv2020.p062.b1.overall_oral_production.001",
+        "cefr.cv2020.p063.b1.sustained_monologue_giving_information.002",
+        "cefr.cv2020.p066.b1.addressing_audiences.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.vocabulary",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "vocabulary"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 4,
+      "matched_record_ids_sha256": "d810bb47e8e82a17603a4b54e6acdce07f5c7569638282595e08318d1190c517",
+      "representative_record_ids": [
+        "cefr.cv2020.p131.b1.vocabulary_range.001",
+        "cefr.cv2020.p133.b1.vocabulary_control.001",
+        "cefr.cv2020.p133.b1.vocabulary_control.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.writing_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 14,
+      "matched_record_ids_sha256": "4dcb007d9d67b0e2855ca208992537c857125375b5b4e2b7d3c651c2eaa9352a",
+      "representative_record_ids": [
+        "cefr.cv2020.p066.b1.overall_written_production.001",
+        "cefr.cv2020.p068.b1.reports_and_essays.001",
+        "cefr.cv2020.p136.b1.orthographic_control.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b1.written_online_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b1",
+        "strand_code": "written_online_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 22,
+      "matched_record_ids_sha256": "1cb64e290482e81a9f822310ce31cf8eb22ec895f1689efdae83de41b27fb11d",
+      "representative_record_ids": [
+        "cefr.cv2020.p082.b1.overall_written_interaction.001",
+        "cefr.cv2020.p084.b1.notes_messages_and_forms.003",
+        "cefr.cv2020.p087.b1.goal_oriented_online_transactions_and_collaboration.005"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.communication_strategy",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "communication_strategy"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 22,
+      "matched_record_ids_sha256": "75150d0bc8cac6f787747be942b3ca75de7ceb68a3ce91d57e7433b3e8f5a4e7",
+      "representative_record_ids": [
+        "cefr.cv2020.p069.b2.compensating.001",
+        "cefr.cv2020.p088.b2.turntaking.003",
+        "cefr.cv2020.p139.b2.turntaking.004"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.discourse",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "discourse"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 17,
+      "matched_record_ids_sha256": "80fe94943dd38efbfc3a38aae7ad34076bb42e159f01b28f61a5cead6129991c",
+      "representative_record_ids": [
+        "cefr.cv2020.p138.b2.flexibility.001",
+        "cefr.cv2020.p140.b2.thematic_development.005",
+        "cefr.cv2020.p141.b2.propositional_precision.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.fluency",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "fluency"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 3,
+      "matched_record_ids_sha256": "7679ffc8a6e60ca2b71cc3a605fc9c8cd576db356a32fa3ad2b7770295006a9c",
+      "representative_record_ids": [
+        "cefr.cv2020.p142.b2.fluency.001",
+        "cefr.cv2020.p142.b2.fluency.002",
+        "cefr.cv2020.p142.b2.fluency.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.grammar",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 3,
+      "matched_record_ids_sha256": "16f1f4b8997676df74b154e724246937bcd1df1c9bdb6a006f96e56f6bba441c",
+      "representative_record_ids": [
+        "cefr.cv2020.p132.b2.grammatical_accuracy.001",
+        "cefr.cv2020.p132.b2.grammatical_accuracy.002",
+        "cefr.cv2020.p132.b2.grammatical_accuracy.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.language_range",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "language_range"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 2,
+      "matched_record_ids_sha256": "6e0d9c84bf92f513cbe0299375ca3bb1f99e034c001ef391b5f2b29c5cd10157",
+      "representative_record_ids": [
+        "cefr.cv2020.p130.b2.general_linguistic_range.001",
+        "cefr.cv2020.p130.b2.general_linguistic_range.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.listening_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 19,
+      "matched_record_ids_sha256": "32e134c28e0060639a11e9e12a3b29b12a2c9e4c08a3cbaf602e7e43dab145e7",
+      "representative_record_ids": [
+        "cefr.cv2020.p048.b2.overall_oral_comprehension.001",
+        "cefr.cv2020.p050.b2.understanding_as_a_member_of_a_live.003",
+        "cefr.cv2020.p053.b2.watching_tv_film_and_video.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.mediation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "mediation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 102,
+      "matched_record_ids_sha256": "51cfc93cec17012091cc8a0de7435deffbf190f21d032146badfe20a7191c279",
+      "representative_record_ids": [
+        "cefr.cv2020.p092.b2.overall_mediation.001",
+        "cefr.cv2020.p113.b2.encouraging_conceptual_talk.005",
+        "cefr.cv2020.p128.b2.building_on_plurilingual_repertoire.006"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.oral_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "oral_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 33,
+      "matched_record_ids_sha256": "2b7bfcdef67cc150ab3d27ee4c2da286413fb3236fe63fa49aff3ee500ba67ec",
+      "representative_record_ids": [
+        "cefr.cv2020.p072.b2.overall_oral_interaction.001",
+        "cefr.cv2020.p076.b2.formal_discussion_meetings.004",
+        "cefr.cv2020.p081.b2.using_telecommunications.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.pronunciation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "pronunciation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 4,
+      "matched_record_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+      "representative_record_ids": [
+        "cefr.cv2020.p134.b2.overall_phonological_control.001",
+        "cefr.cv2020.p134.b2.sound_articulation.001",
+        "cefr.cv2020.p134.b2.sound_articulation.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.reading_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 15,
+      "matched_record_ids_sha256": "289ca488efbd29b8217f6777b98b384e4e1379319b0dc67fcae5c32493eba1d8",
+      "representative_record_ids": [
+        "cefr.cv2020.p054.b2.overall_reading_comprehension.001",
+        "cefr.cv2020.p057.b2.reading_for_information_and_argument.002",
+        "cefr.cv2020.p060.b2.identifying_cues_and_inferring_spoken_signed_and.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.sociolinguistic",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "sociolinguistic"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 6,
+      "matched_record_ids_sha256": "a0b45db24947bef73d25e46e872afba146eec790840643bae27981213a2bfb28",
+      "representative_record_ids": [
+        "cefr.cv2020.p137.b2.sociolinguistic_appropriateness.001",
+        "cefr.cv2020.p137.b2.sociolinguistic_appropriateness.004",
+        "cefr.cv2020.p137.b2.sociolinguistic_appropriateness.006"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.speaking_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 16,
+      "matched_record_ids_sha256": "39f8eb04bf2b44a8311fa4b7a44ccf1fec6720976ac623542c1b0f46d84f2355",
+      "representative_record_ids": [
+        "cefr.cv2020.p062.b2.overall_oral_production.001",
+        "cefr.cv2020.p064.b2.sustained_monologue_putting_a_case_e_g.002",
+        "cefr.cv2020.p065.b2.public_announcements.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.vocabulary",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "vocabulary"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 6,
+      "matched_record_ids_sha256": "8b88fd69cbc5be030717d1e6db0b2f3646e9891f4b31b8963591285758e3c7b7",
+      "representative_record_ids": [
+        "cefr.cv2020.p131.b2.vocabulary_range.001",
+        "cefr.cv2020.p131.b2.vocabulary_range.004",
+        "cefr.cv2020.p132.b2.vocabulary_control.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.writing_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 11,
+      "matched_record_ids_sha256": "c4fdbe03faeb88942c6611417b4da10326bb6b26f9fef9d1260ca6d30006d922",
+      "representative_record_ids": [
+        "cefr.cv2020.p066.b2.overall_written_production.001",
+        "cefr.cv2020.p068.b2.reports_and_essays.002",
+        "cefr.cv2020.p136.b2.orthographic_control.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.b2.written_online_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "b2",
+        "strand_code": "written_online_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 19,
+      "matched_record_ids_sha256": "2082e9ca655b0802a41a4ac30475f006ee5bd9b49f69732ba62909bc7d38c535",
+      "representative_record_ids": [
+        "cefr.cv2020.p082.b2.correspondence.001",
+        "cefr.cv2020.p083.b2.correspondence.005",
+        "cefr.cv2020.p087.b2.goal_oriented_online_transactions_and_collaboration.004"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.communication_strategy",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "communication_strategy"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 8,
+      "matched_record_ids_sha256": "9fb9efcc66ae0f18330bf9a38d4e04ee9134de7fcbb9b8c3bc0709cc6cab61a7",
+      "representative_record_ids": [
+        "cefr.cv2020.p069.c1.compensating.001",
+        "cefr.cv2020.p088.c1.co_operating.001",
+        "cefr.cv2020.p139.c1.turntaking.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.discourse",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "discourse"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 10,
+      "matched_record_ids_sha256": "677fd3c60f142a705c30d8620493a72827836813634ee4ff0ed9fdb9c440a073",
+      "representative_record_ids": [
+        "cefr.cv2020.p138.c1.flexibility.001",
+        "cefr.cv2020.p140.c1.thematic_development.004",
+        "cefr.cv2020.p141.c1.propositional_precision.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.fluency",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "fluency"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 1,
+      "matched_record_ids_sha256": "fbe84535e482a14b5065a9094f7fc0bf1c787197693393f258224694b4bfd3fb",
+      "representative_record_ids": [
+        "cefr.cv2020.p142.c1.fluency.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.grammar",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 1,
+      "matched_record_ids_sha256": "fd17c36f2a6e6ccaa9dbb3b730c9ab9fd85b812e2987b42422118ba2c2d77bb2",
+      "representative_record_ids": [
+        "cefr.cv2020.p132.c1.grammatical_accuracy.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.language_range",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "language_range"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 2,
+      "matched_record_ids_sha256": "d7a5c8dea0ade7dcda4a9362a7b6a318a04acb9745f8d765001bdc96352fddd6",
+      "representative_record_ids": [
+        "cefr.cv2020.p130.c1.general_linguistic_range.001",
+        "cefr.cv2020.p130.c1.general_linguistic_range.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.listening_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 12,
+      "matched_record_ids_sha256": "77a8eaea4e22440888f7c47bf86ead5eacdb0ca0e09cb8caeb20165561c39d49",
+      "representative_record_ids": [
+        "cefr.cv2020.p048.c1.overall_oral_comprehension.001",
+        "cefr.cv2020.p051.c1.understanding_announcements_and_instructions.001",
+        "cefr.cv2020.p053.c1.watching_tv_film_and_video.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.mediation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "mediation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 52,
+      "matched_record_ids_sha256": "aad9931bf43e85c899b393db99c5bb9ce9d3e6a4458d4638065adb48b6c82852",
+      "representative_record_ids": [
+        "cefr.cv2020.p091.c1.overall_mediation.001",
+        "cefr.cv2020.p110.c1.facilitating_collaborative_interaction_with_peers.002",
+        "cefr.cv2020.p128.c1.building_on_plurilingual_repertoire.005"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.oral_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "oral_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 13,
+      "matched_record_ids_sha256": "ce8ab879c13b7b10cb4cb2d292b1a91f566ff9ac6d3e4d24cca56828910cdbac",
+      "representative_record_ids": [
+        "cefr.cv2020.p072.c1.overall_oral_interaction.001",
+        "cefr.cv2020.p076.c1.formal_discussion_meetings.003",
+        "cefr.cv2020.p081.c1.using_telecommunications.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.pronunciation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "pronunciation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 4,
+      "matched_record_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+      "representative_record_ids": [
+        "cefr.cv2020.p134.c1.overall_phonological_control.001",
+        "cefr.cv2020.p134.c1.prosodic_features.002",
+        "cefr.cv2020.p134.c1.sound_articulation.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.reading_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 10,
+      "matched_record_ids_sha256": "58945b12e3b8e902a36360fe2c4a92ac7a30299b74ec0af3b17986531b06c566",
+      "representative_record_ids": [
+        "cefr.cv2020.p054.c1.overall_reading_comprehension.001",
+        "cefr.cv2020.p056.c1.reading_for_information_and_argument.001",
+        "cefr.cv2020.p060.c1.identifying_cues_and_inferring_spoken_signed_and.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.sociolinguistic",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "sociolinguistic"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 6,
+      "matched_record_ids_sha256": "4838eb04a6acfa0573b12e737a4bf36150c5cbb3bb4ef6643a66601380fb11cb",
+      "representative_record_ids": [
+        "cefr.cv2020.p137.c1.sociolinguistic_appropriateness.001",
+        "cefr.cv2020.p137.c1.sociolinguistic_appropriateness.004",
+        "cefr.cv2020.p137.c1.sociolinguistic_appropriateness.006"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.speaking_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 12,
+      "matched_record_ids_sha256": "dc7ab0669cf2194ab01dbb06a7a064586ca2c1a311683ba22ff4e7fae6ce45f8",
+      "representative_record_ids": [
+        "cefr.cv2020.p062.c1.overall_oral_production.001",
+        "cefr.cv2020.p064.c1.sustained_monologue_putting_a_case_e_g.002",
+        "cefr.cv2020.p065.c1.public_announcements.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.vocabulary",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "vocabulary"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 6,
+      "matched_record_ids_sha256": "d9c345243bee0b77fde9d1b2b49b0d2db9ebf253bb960010422530c6261de4d9",
+      "representative_record_ids": [
+        "cefr.cv2020.p131.c1.vocabulary_range.001",
+        "cefr.cv2020.p131.c1.vocabulary_range.004",
+        "cefr.cv2020.p132.c1.vocabulary_control.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.writing_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 10,
+      "matched_record_ids_sha256": "8bef092c10905aba9fe05aec2ad5413d7744a9a97f884d1d8b9f934e55ccd75f",
+      "representative_record_ids": [
+        "cefr.cv2020.p066.c1.overall_written_production.001",
+        "cefr.cv2020.p068.c1.reports_and_essays.001",
+        "cefr.cv2020.p136.c1.orthographic_control.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c1.written_online_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c1",
+        "strand_code": "written_online_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 11,
+      "matched_record_ids_sha256": "a39a6d255260a5c4e9c560c9ff18dc6bc4b4b0833821db85aad3a5f8420470ff",
+      "representative_record_ids": [
+        "cefr.cv2020.p082.c1.correspondence.001",
+        "cefr.cv2020.p085.c1.online_conversation_and_discussion.003",
+        "cefr.cv2020.p086.c1.goal_oriented_online_transactions_and_collaboration.004"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.communication_strategy",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "communication_strategy"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 3,
+      "matched_record_ids_sha256": "0cb53250e46cc1054820b94d39bde52f9f95af2a240689efea7ca630ca12c3a3",
+      "representative_record_ids": [
+        "cefr.cv2020.p069.c2.compensating.001",
+        "cefr.cv2020.p070.c2.monitoring_and_repair.001",
+        "cefr.cv2020.p088.c2.co_operating.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.discourse",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "discourse"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 5,
+      "matched_record_ids_sha256": "327f4d71ca42f23127f2c51a3799ccb3f0eb209b9f70286b488b7f6c902bb176",
+      "representative_record_ids": [
+        "cefr.cv2020.p138.c2.flexibility.001",
+        "cefr.cv2020.p141.c2.coherence_and_cohesion.001",
+        "cefr.cv2020.p141.c2.propositional_precision.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.fluency",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "fluency"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 1,
+      "matched_record_ids_sha256": "f16d2ec119c411c66627ea703aa882f0f94007aa6abb58e0a0cf122ec4b28df6",
+      "representative_record_ids": [
+        "cefr.cv2020.p142.c2.fluency.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.grammar",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 1,
+      "matched_record_ids_sha256": "383b4a1437c2e4bd7a942533b3557e8a14a49f04ca784b5ce2f36497b0940ba2",
+      "representative_record_ids": [
+        "cefr.cv2020.p132.c2.grammatical_accuracy.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.language_range",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "language_range"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 1,
+      "matched_record_ids_sha256": "7aac1bd90259360a766d36f2ab58a959777da2d41ccf4da1092e2043777dab8c",
+      "representative_record_ids": [
+        "cefr.cv2020.p130.c2.general_linguistic_range.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.listening_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 5,
+      "matched_record_ids_sha256": "574346130a2ae86325e9676e4324f6e3c9d266850f1ec2beab919d94ae65a567",
+      "representative_record_ids": [
+        "cefr.cv2020.p048.c2.overall_oral_comprehension.001",
+        "cefr.cv2020.p050.c2.understanding_as_a_member_of_a_live.001",
+        "cefr.cv2020.p050.c2.understanding_as_a_member_of_a_live.003"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.mediation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "mediation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 32,
+      "matched_record_ids_sha256": "912d02d6ad87784b303e5caa9c850d7749e4a4b2a33a2f5d6fb33074a97d689f",
+      "representative_record_ids": [
+        "cefr.cv2020.p091.c2.overall_mediation.001",
+        "cefr.cv2020.p113.c2.encouraging_conceptual_talk.001",
+        "cefr.cv2020.p128.c2.building_on_plurilingual_repertoire.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.oral_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "oral_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 9,
+      "matched_record_ids_sha256": "b42c77aef9a7c8bb70e4cd64e75abacfebc504217d35aa341d9c969b30d09520",
+      "representative_record_ids": [
+        "cefr.cv2020.p072.c2.overall_oral_interaction.001",
+        "cefr.cv2020.p076.c2.formal_discussion_meetings.001",
+        "cefr.cv2020.p081.c2.using_telecommunications.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.pronunciation",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "pronunciation"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 3,
+      "matched_record_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+      "representative_record_ids": [
+        "cefr.cv2020.p134.c2.overall_phonological_control.001",
+        "cefr.cv2020.p134.c2.prosodic_features.001",
+        "cefr.cv2020.p134.c2.sound_articulation.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.reading_reception",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 5,
+      "matched_record_ids_sha256": "5aae985facb2fa77dd2d1c6a5328a7f39b719991448b5246c1763b2fefcc685f",
+      "representative_record_ids": [
+        "cefr.cv2020.p054.c2.overall_reading_comprehension.001",
+        "cefr.cv2020.p054.c2.reading_correspondence.001",
+        "cefr.cv2020.p059.c2.reading_as_a_leisure_activity.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.sociolinguistic",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "sociolinguistic"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 4,
+      "matched_record_ids_sha256": "06bfa6cb816242c60ab2fdb44b16e786646f1880ee94adde5daaa0c71d0cc2af",
+      "representative_record_ids": [
+        "cefr.cv2020.p137.c2.sociolinguistic_appropriateness.001",
+        "cefr.cv2020.p137.c2.sociolinguistic_appropriateness.003",
+        "cefr.cv2020.p137.c2.sociolinguistic_appropriateness.004"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.speaking_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 4,
+      "matched_record_ids_sha256": "fc6c626ad08d3b45e15b436db0b02559ca690eb97ebaa17759e065ad24ad9086",
+      "representative_record_ids": [
+        "cefr.cv2020.p062.c2.overall_oral_production.001",
+        "cefr.cv2020.p065.c2.addressing_audiences.001",
+        "cefr.cv2020.p065.c2.addressing_audiences.002"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.vocabulary",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "vocabulary"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 2,
+      "matched_record_ids_sha256": "356c8bf58f2088c5569a587ed89295ecb5c69aeef3ac03de3f669c97856ace89",
+      "representative_record_ids": [
+        "cefr.cv2020.p131.c2.vocabulary_range.001",
+        "cefr.cv2020.p132.c2.vocabulary_control.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.writing_production",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 7,
+      "matched_record_ids_sha256": "70dec7ad90317e7c26f7815ec2486fce33cbd9195d9707c8fc3856988c77ffb8",
+      "representative_record_ids": [
+        "cefr.cv2020.p066.c2.overall_written_production.001",
+        "cefr.cv2020.p068.c2.reports_and_essays.001",
+        "cefr.cv2020.p136.c2.orthographic_control.001"
+      ]
+    },
+    {
+      "bundle_id": "cefr_all_descriptors.c2.written_online_interaction",
+      "selector": {
+        "source_dataset_id": "cefr_all_descriptors",
+        "source_level_code": "c2",
+        "strand_code": "written_online_interaction"
+      },
+      "evidence_role": "primary_level_boundary",
+      "matched_record_count": 7,
+      "matched_record_ids_sha256": "1441b85b5958ae183b895af1680ac291a4958f2fb06aa96f31e97f939674340a",
+      "representative_record_ids": [
+        "cefr.cv2020.p082.c2.correspondence.001",
+        "cefr.cv2020.p085.c2.online_conversation_and_discussion.002",
+        "cefr.cv2020.p086.c2.goal_oriented_online_transactions_and_collaboration.002"
+      ]
+    },
+    {
+      "bundle_id": "egp_all_levels.a1.grammar",
+      "selector": {
+        "source_dataset_id": "egp_all_levels",
+        "source_level_code": "a1",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "grammar_feature_pool",
+      "matched_record_count": 109,
+      "matched_record_ids_sha256": "adba428de6046895aa3fdf2e70a6aa22bd2f278ab04620c76b0af9dcfbacb4e7",
+      "representative_record_ids": [
+        "1741163706316x926291459998112000",
+        "1741163710388x882361395502946800",
+        "1741163716068x909588472060841300"
+      ]
+    },
+    {
+      "bundle_id": "egp_all_levels.a2.grammar",
+      "selector": {
+        "source_dataset_id": "egp_all_levels",
+        "source_level_code": "a2",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "grammar_feature_pool",
+      "matched_record_count": 291,
+      "matched_record_ids_sha256": "7761ec5e59edc055853dd85bde36caef7b8d787f260fb3bbb978291630e355b1",
+      "representative_record_ids": [
+        "1741163706316x198445876411383900",
+        "1741163711296x618996248976702100",
+        "1741163716292x917584988638321400"
+      ]
+    },
+    {
+      "bundle_id": "egp_all_levels.b1.grammar",
+      "selector": {
+        "source_dataset_id": "egp_all_levels",
+        "source_level_code": "b1",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "grammar_feature_pool",
+      "matched_record_count": 338,
+      "matched_record_ids_sha256": "2b648a8c223327a4a34adc7316ba61ec094ea307576851c6d02f20aaf8f10e64",
+      "representative_record_ids": [
+        "1741163706317x286016181282525020",
+        "1741163711534x531065253308636860",
+        "1741163716294x857600764651929500"
+      ]
+    },
+    {
+      "bundle_id": "egp_all_levels.b2.grammar",
+      "selector": {
+        "source_dataset_id": "egp_all_levels",
+        "source_level_code": "b2",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "grammar_feature_pool",
+      "matched_record_count": 243,
+      "matched_record_ids_sha256": "4a7c19493885ae4cd4cea0317a8655b8b7c85f43d11b9ea4058e52396c536b6b",
+      "representative_record_ids": [
+        "1741163706317x106352194611554880",
+        "1741163711828x662115964014106400",
+        "1741163716295x544491590213676700"
+      ]
+    },
+    {
+      "bundle_id": "egp_all_levels.c1.grammar",
+      "selector": {
+        "source_dataset_id": "egp_all_levels",
+        "source_level_code": "c1",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "grammar_feature_pool",
+      "matched_record_count": 129,
+      "matched_record_ids_sha256": "0b340c6c460289c5e2c4f7496516a3d8b2086d2170bd2da410d4c3b0d2dfdc68",
+      "representative_record_ids": [
+        "1741163706318x964351339627643300",
+        "1741163711057x995048909365883900",
+        "1741163716295x133200860687879170"
+      ]
+    },
+    {
+      "bundle_id": "egp_all_levels.c2.grammar",
+      "selector": {
+        "source_dataset_id": "egp_all_levels",
+        "source_level_code": "c2",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "grammar_feature_pool",
+      "matched_record_count": 112,
+      "matched_record_ids_sha256": "2a39fe8d41aefac518494e0cb12caebc84019ad5deb2bc92b1a56d7e055ac15d",
+      "representative_record_ids": [
+        "1741163706322x308841091964953600",
+        "1741163711055x530884409098289800",
+        "1741163716295x549939411550883300"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.a1.listening_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "a1",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 34,
+      "matched_record_ids_sha256": "a875888e19673cd7d834fdb5e5d3227060ffdcabed80996424ac5df74b237d4f",
+      "representative_record_ids": [
+        "gse.adult.2022.a1.p14.001",
+        "gse.adult.2022.a1.p15.003",
+        "gse.adult.2022.a1.p15.019"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.a1.reading_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "a1",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 14,
+      "matched_record_ids_sha256": "531a9f224fd41e62e47d2e86b743ce0056037749e9ab7479fa995c901b5e3cd2",
+      "representative_record_ids": [
+        "gse.adult.2022.a1.p09.001",
+        "gse.adult.2022.a1.p09.008",
+        "gse.adult.2022.a1.p09.014"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.a1.speaking_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "a1",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 54,
+      "matched_record_ids_sha256": "4a9ab4d6d5a45ed5e6a9a56eb2a177d53185531c6a97b34f81eaf127c92dfd64",
+      "representative_record_ids": [
+        "gse.adult.2022.a1.p22.001",
+        "gse.adult.2022.a1.p22.028",
+        "gse.adult.2022.a1.p24.007"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.a1.writing_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "a1",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 19,
+      "matched_record_ids_sha256": "7c654e6d0f85246899272f7019948cfb731c30f55c6d6131b9bd50e52f659983",
+      "representative_record_ids": [
+        "gse.adult.2022.a1.p37.001",
+        "gse.adult.2022.a1.p37.010",
+        "gse.adult.2022.a1.p37.019"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.a2.listening_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "a2",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 41,
+      "matched_record_ids_sha256": "914b3981b118dec7f3d6ece31c191cea254ac2587f81b4c0032d589c233cad6c",
+      "representative_record_ids": [
+        "gse.adult.2022.a2.p15.001",
+        "gse.adult.2022.a2_plus.p16.001",
+        "gse.adult.2022.a2_plus.p16.021"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.a2.reading_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "a2",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 35,
+      "matched_record_ids_sha256": "30c1012af1ac5838ec1b9f6606ba955d904789d5d62bff4bff9ad57c9c3deabe",
+      "representative_record_ids": [
+        "gse.adult.2022.a2.p09.001",
+        "gse.adult.2022.a2_plus.p10.002",
+        "gse.adult.2022.a2_plus.p10.019"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.a2.speaking_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "a2",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 143,
+      "matched_record_ids_sha256": "d6db2258cb7af8f11fd560ca366b32e1995b88ef4c88979f0a5ae66fbf7ef4f5",
+      "representative_record_ids": [
+        "gse.adult.2022.a2.p24.001",
+        "gse.adult.2022.a2.p26.021",
+        "gse.adult.2022.a2_plus.p28.037"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.a2.writing_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "a2",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 50,
+      "matched_record_ids_sha256": "af1448679ee77cf9178b6eac8071370f5f5261b9c5672d3484a429a92b91d1cd",
+      "representative_record_ids": [
+        "gse.adult.2022.a2.p38.001",
+        "gse.adult.2022.a2_plus.p38.008",
+        "gse.adult.2022.a2_plus.p39.022"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.b1.listening_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "b1",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 44,
+      "matched_record_ids_sha256": "f1366c6ae76d2c35537bed794ed88086677956db86e66f7a2b15196eaae263b0",
+      "representative_record_ids": [
+        "gse.adult.2022.b1.p17.001",
+        "gse.adult.2022.b1_plus.p17.003",
+        "gse.adult.2022.b1_plus.p18.013"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.b1.reading_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "b1",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 33,
+      "matched_record_ids_sha256": "08a79aeb997076454d6d4246520053da9983211185550d0ea04d34b51d087e0b",
+      "representative_record_ids": [
+        "gse.adult.2022.b1.p11.001",
+        "gse.adult.2022.b1.p11.017",
+        "gse.adult.2022.b1_plus.p11.016"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.b1.speaking_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "b1",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 106,
+      "matched_record_ids_sha256": "618369070bc6f1da625bce6da19860cc56fbd7eb5a83c463d280268af6b688b0",
+      "representative_record_ids": [
+        "gse.adult.2022.b1.p29.001",
+        "gse.adult.2022.b1_plus.p30.001",
+        "gse.adult.2022.b1_plus.p32.005"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.b1.writing_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "b1",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 68,
+      "matched_record_ids_sha256": "01e9d43a02af407f18a248236dc71a0bc144effa813ff2c4977b78a8ad6cf831",
+      "representative_record_ids": [
+        "gse.adult.2022.b1.p39.001",
+        "gse.adult.2022.b1_plus.p40.004",
+        "gse.adult.2022.b1_plus.p41.027"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.b2.listening_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "b2",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 45,
+      "matched_record_ids_sha256": "52717d8a0b073ede4d53d7122ba4583b29de795664619a714d64f3bb7129b8a3",
+      "representative_record_ids": [
+        "gse.adult.2022.b2.p18.001",
+        "gse.adult.2022.b2.p19.006",
+        "gse.adult.2022.b2_plus.p19.020"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.b2.reading_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "b2",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 40,
+      "matched_record_ids_sha256": "fb38df38657732664bdbd577af0fb44355039ce8e61a163a97c23d5e2bbf4560",
+      "representative_record_ids": [
+        "gse.adult.2022.b2.p12.001",
+        "gse.adult.2022.b2_plus.p12.004",
+        "gse.adult.2022.b2_plus.p13.010"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.b2.speaking_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "b2",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 119,
+      "matched_record_ids_sha256": "c16a244653e2e3f927e785c4530fa3b56cb884666c352715b5cc5adfd4995dd3",
+      "representative_record_ids": [
+        "gse.adult.2022.b2.p32.001",
+        "gse.adult.2022.b2.p34.005",
+        "gse.adult.2022.b2_plus.p35.034"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.b2.writing_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "b2",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 68,
+      "matched_record_ids_sha256": "d338a4e1c0ef8c9f30635569e32570da395073f98be1673d53806bca6e460c90",
+      "representative_record_ids": [
+        "gse.adult.2022.b2.p41.001",
+        "gse.adult.2022.b2.p42.028",
+        "gse.adult.2022.b2_plus.p43.026"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.c1.listening_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "c1",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 12,
+      "matched_record_ids_sha256": "b42c971ead998803257f5ec139f7fba36b6109fa9ac323dde3784f381645ae19",
+      "representative_record_ids": [
+        "gse.adult.2022.c1.p20.001",
+        "gse.adult.2022.c1.p20.007",
+        "gse.adult.2022.c1.p20.012"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.c1.reading_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "c1",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 7,
+      "matched_record_ids_sha256": "b1aa43e566a48e72b7e4b60bbd6bc223b9cb0bd626716c5adfe1a1f24c739487",
+      "representative_record_ids": [
+        "gse.adult.2022.c1.p13.001",
+        "gse.adult.2022.c1.p13.004",
+        "gse.adult.2022.c1.p13.007"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.c1.speaking_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "c1",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 24,
+      "matched_record_ids_sha256": "9694a7df6953ca2f440a9d040ada7df0cb9755f2d7b06cbd74d51de1d618706b",
+      "representative_record_ids": [
+        "gse.adult.2022.c1.p36.001",
+        "gse.adult.2022.c1.p36.013",
+        "gse.adult.2022.c1.p36.024"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.c1.writing_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "c1",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 16,
+      "matched_record_ids_sha256": "5eabcaf203dbb77149b688ee45dc4d2f399867ebe23f47c2ace22dbf9316bda5",
+      "representative_record_ids": [
+        "gse.adult.2022.c1.p43.001",
+        "gse.adult.2022.c1.p44.005",
+        "gse.adult.2022.c1.p44.012"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.c2.listening_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "c2",
+        "strand_code": "listening_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 2,
+      "matched_record_ids_sha256": "c4e756d0ffb30d8038b0b006f25abb379ac6f5d37b1381624edfc809adc0dea3",
+      "representative_record_ids": [
+        "gse.adult.2022.c2.p20.001",
+        "gse.adult.2022.c2.p20.002"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.c2.reading_reception",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "c2",
+        "strand_code": "reading_reception"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 6,
+      "matched_record_ids_sha256": "6da56ecd61b784b2ed885a73c1444ea74f231377035acbdee3d1d3cc6352bf13",
+      "representative_record_ids": [
+        "gse.adult.2022.c2.p13.001",
+        "gse.adult.2022.c2.p13.004",
+        "gse.adult.2022.c2.p13.006"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.c2.speaking_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "c2",
+        "strand_code": "speaking_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 6,
+      "matched_record_ids_sha256": "45701285cec28d20dd075f2c8b9dc5ffd83dc16ea114affd8c2521b238048354",
+      "representative_record_ids": [
+        "gse.adult.2022.c2.p36.001",
+        "gse.adult.2022.c2.p36.004",
+        "gse.adult.2022.c2.p36.006"
+      ]
+    },
+    {
+      "bundle_id": "gse_all_objectives.c2.writing_production",
+      "selector": {
+        "source_dataset_id": "gse_all_objectives",
+        "source_level_code": "c2",
+        "strand_code": "writing_production"
+      },
+      "evidence_role": "granular_communicative_cross_check",
+      "matched_record_count": 5,
+      "matched_record_ids_sha256": "c5bfe7af50e523459de5686bb0c0733a9ffdbb1b98b89e5ca1a914a811527687",
+      "representative_record_ids": [
+        "gse.adult.2022.c2.p44.001",
+        "gse.adult.2022.c2.p44.003",
+        "gse.adult.2022.c2.p44.005"
+      ]
+    },
+    {
+      "bundle_id": "gse_grammar_all.a1.grammar",
+      "selector": {
+        "source_dataset_id": "gse_grammar_all",
+        "source_level_code": "a1",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "productive_grammar_cross_check",
+      "matched_record_count": 43,
+      "matched_record_ids_sha256": "e3f38d77e781c95f5457ec784c3b8734b5c16144bd2ced507fe45d9d675489ff",
+      "representative_record_ids": [
+        "gse.grammar.2023.p07.001",
+        "gse.grammar.2023.p08.009",
+        "gse.grammar.2023.p09.013"
+      ]
+    },
+    {
+      "bundle_id": "gse_grammar_all.a2.grammar",
+      "selector": {
+        "source_dataset_id": "gse_grammar_all",
+        "source_level_code": "a2",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "productive_grammar_cross_check",
+      "matched_record_count": 117,
+      "matched_record_ids_sha256": "79149709561578d4e43274fbc595a9c609353d0daf33aab82e3d63240b37fa48",
+      "representative_record_ids": [
+        "gse.grammar.2023.p10.001",
+        "gse.grammar.2023.p14.001",
+        "gse.grammar.2023.p17.015"
+      ]
+    },
+    {
+      "bundle_id": "gse_grammar_all.b1.grammar",
+      "selector": {
+        "source_dataset_id": "gse_grammar_all",
+        "source_level_code": "b1",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "productive_grammar_cross_check",
+      "matched_record_count": 229,
+      "matched_record_ids_sha256": "d10833cb5a2277390fa50ce44aad696ca2e1461caa3b5b932b9b9ba8b22e0fff",
+      "representative_record_ids": [
+        "gse.grammar.2023.p18.001",
+        "gse.grammar.2023.p25.007",
+        "gse.grammar.2023.p33.001"
+      ]
+    },
+    {
+      "bundle_id": "gse_grammar_all.b2.grammar",
+      "selector": {
+        "source_dataset_id": "gse_grammar_all",
+        "source_level_code": "b2",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "productive_grammar_cross_check",
+      "matched_record_count": 64,
+      "matched_record_ids_sha256": "aef620a163baf535aa69a09d11c5377215eeaa748c8b0870485a85f90d41ab2a",
+      "representative_record_ids": [
+        "gse.grammar.2023.p33.002",
+        "gse.grammar.2023.p35.008",
+        "gse.grammar.2023.p37.013"
+      ]
+    },
+    {
+      "bundle_id": "gse_grammar_all.c1.grammar",
+      "selector": {
+        "source_dataset_id": "gse_grammar_all",
+        "source_level_code": "c1",
+        "strand_code": "grammar"
+      },
+      "evidence_role": "productive_grammar_cross_check",
+      "matched_record_count": 3,
+      "matched_record_ids_sha256": "009e9d66e60dbb7ab9dcbd90e484fd2aef0326b4b6214b2fe18ef018cf582c35",
+      "representative_record_ids": [
+        "gse.grammar.2023.p38.001",
+        "gse.grammar.2023.p38.002",
+        "gse.grammar.2023.p38.003"
+      ]
+    },
+    {
+      "bundle_id": "oxford_3000_all.a1.lexical_pool",
+      "selector": {
+        "source_dataset_id": "oxford_3000_all",
+        "source_level_code": "a1",
+        "strand_code": "lexical_pool"
+      },
+      "evidence_role": "lexical_reference_pool",
+      "matched_record_count": 900,
+      "matched_record_ids_sha256": "43e2299094bc99064a587e59ab79b545a933fdbe826c2fc8d505dbc0d8ba9382",
+      "representative_record_ids": [
+        "oxford.o3000.p01.001",
+        "oxford.o3000.p02.209",
+        "oxford.o3000.p04.100"
+      ]
+    },
+    {
+      "bundle_id": "oxford_3000_all.a2.lexical_pool",
+      "selector": {
+        "source_dataset_id": "oxford_3000_all",
+        "source_level_code": "a2",
+        "strand_code": "lexical_pool"
+      },
+      "evidence_role": "lexical_reference_pool",
+      "matched_record_count": 871,
+      "matched_record_ids_sha256": "acea563fe61f823bf6f2fb8845b5d2186ad30d6a08050fcf2faea46857f918e2",
+      "representative_record_ids": [
+        "oxford.o3000.p04.101",
+        "oxford.o3000.p05.260",
+        "oxford.o3000.p07.135"
+      ]
+    },
+    {
+      "bundle_id": "oxford_3000_all.b1.lexical_pool",
+      "selector": {
+        "source_dataset_id": "oxford_3000_all",
+        "source_level_code": "b1",
+        "strand_code": "lexical_pool"
+      },
+      "evidence_role": "lexical_reference_pool",
+      "matched_record_count": 809,
+      "matched_record_ids_sha256": "10e0ced7fe603105947cbfa0f4718ba695605e04076cf29d3de56ac3b47a1e6c",
+      "representative_record_ids": [
+        "oxford.o3000.p07.136",
+        "oxford.o3000.p08.264",
+        "oxford.o3000.p10.108"
+      ]
+    },
+    {
+      "bundle_id": "oxford_3000_all.b2.lexical_pool",
+      "selector": {
+        "source_dataset_id": "oxford_3000_all",
+        "source_level_code": "b2",
+        "strand_code": "lexical_pool"
+      },
+      "evidence_role": "lexical_reference_pool",
+      "matched_record_count": 727,
+      "matched_record_ids_sha256": "c97d3845dac51b96d425a014aa4e10b27e845abcc7ac2e8eaf59e421c496d365",
+      "representative_record_ids": [
+        "oxford.o3000.p10.109",
+        "oxford.o3000.p11.196",
+        "oxford.o3000.p12.279"
+      ]
+    },
+    {
+      "bundle_id": "oxford_5000_all.b2.lexical_pool",
+      "selector": {
+        "source_dataset_id": "oxford_5000_all",
+        "source_level_code": "b2",
+        "strand_code": "lexical_pool"
+      },
+      "evidence_role": "lexical_reference_pool",
+      "matched_record_count": 700,
+      "matched_record_ids_sha256": "646ba3570b2ea2920d50256cdfd9367b15aae57be35b3669d1fc8614fae8e3e9",
+      "representative_record_ids": [
+        "oxford.o5000.p01.001",
+        "oxford.o5000.p02.113",
+        "oxford.o5000.p03.182"
+      ]
+    },
+    {
+      "bundle_id": "oxford_5000_all.c1.lexical_pool",
+      "selector": {
+        "source_dataset_id": "oxford_5000_all",
+        "source_level_code": "c1",
+        "strand_code": "lexical_pool"
+      },
+      "evidence_role": "lexical_reference_pool",
+      "matched_record_count": 1315,
+      "matched_record_ids_sha256": "830084ed9946376551b63c0f30e90b0eed015657daa7050b46dbe2fd387ec71a",
+      "representative_record_ids": [
+        "oxford.o5000.p03.183",
+        "oxford.o5000.p06.004",
+        "oxford.o5000.p08.101"
+      ]
+    }
+  ],
+  "audit": {
+    "bundle_count": 131,
+    "level_counts": {
+      "a1": 22,
+      "a2": 22,
+      "b1": 22,
+      "b2": 23,
+      "c1": 22,
+      "c2": 20
+    },
+    "source_counts": {
+      "cefr_all_descriptors": 90,
+      "egp_all_levels": 6,
+      "gse_all_objectives": 24,
+      "gse_grammar_all": 5,
+      "oxford_3000_all": 4,
+      "oxford_5000_all": 2
+    },
+    "empty_selectors": []
+  },
+  "review": {
+    "status": "accepted",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T12:54:12+03:00",
+    "method": "validated_selector_and_claim_boundary_review"
+  }
+}

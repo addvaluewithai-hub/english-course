@@ -4,9 +4,10 @@ Date: 2026-08-10
 
 ## Result
 
-The authoritative cross-level source pack is now normalized into deterministic,
-validation-clean derived datasets. This closes source normalization, not curriculum
-review: every new record remains unreviewed with its curriculum disposition undecided.
+The authoritative cross-level source pack is normalized into deterministic,
+validation-clean derived datasets. The immutable derived records retain their original
+`unreviewed` extraction state; a separate reviewed layer now gives every record an
+explicit curriculum disposition without rewriting source facts.
 
 ## Inventory
 
@@ -73,10 +74,19 @@ source inventory, not the number of grammar lessons or mandatory productive targ
 - EGP rows now include exact spreadsheet row and raw level text. Three source cells
   with trailing spaces remain documented in the normalization audit.
 
+## Disposition review completed
+
+- `data/reviewed/source-dispositions-v1.json` covers all 9,274 normalized records.
+- 2,722 records are included for progression mapping, 1,175 are supporting evidence,
+  5,322 remain lexical reference-pool entries, and 55 are explicit exact-text overlaps.
+- GSE listening and reading records remain receptive target evidence; they are not
+  mislabelled as optional exposure.
+- No record is unclassified and no unexplained orphan remains.
+
 ## Gaps that must remain explicit
 
-- All new records are source evidence with `undecided` inclusion status; lifecycle
-  disposition and teaching ownership have not been reviewed.
+- Exact teaching ownership and lifecycle levels have not yet been reviewed. Source-use
+  disposition is complete; progression ownership is SPINE-004.
 - Oxford provides no C2-specific levelled list; C2 lexical selection needs an explicit
   corpus/domain method.
 - CEFR gives pronunciation level boundaries but not an English-specific sound and
@@ -90,13 +100,12 @@ source inventory, not the number of grammar lessons or mandatory productive targ
 
 Ready now:
 
-- review source dispositions and the proposed exit profiles;
 - build ability, grammar, vocabulary, pronunciation, discourse, and complexity strands;
 - continue limited gold-lesson delivery testing.
 
 Not ready yet:
 
 - claim exact A2-C2 lesson maps;
-- claim reviewed global grammar or vocabulary ownership;
+- claim reviewed global grammar or vocabulary lifecycle ownership;
 - mass-produce the remaining A1 lessons;
 - use the source lists as a one-item-per-lesson checklist.
