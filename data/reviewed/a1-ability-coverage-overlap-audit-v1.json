@@ -1,0 +1,754 @@
+{
+  "schema_version": 1,
+  "audit_id": "a1_ability_coverage_overlap_audit",
+  "version": 1,
+  "inputs": [
+    {
+      "path": "data/reviewed/a1-lesson-map.json",
+      "sha256": "6e20fd30db58c270e271b45c39c5382db2033dd24368cd14a3d7b2f0bd1e4a56"
+    },
+    {
+      "path": "data/reviewed/a1-reconciliation-worklist-v1.json",
+      "sha256": "b61e6d565003c5cee170db8c3660f9b96159894e39f928fe4fd71cd7075ae983"
+    },
+    {
+      "path": "data/reviewed/a1-outcome-level-fit-review-v1.json",
+      "sha256": "28c0e4fca70c99f2517314f3b2d866eb8f66a5c5500e7833030b6dc7c74defc4"
+    },
+    {
+      "path": "data/reviewed/communicative-function-strands-v1.json",
+      "sha256": "84cef12823195ce803b9f4945406188ac8ad3c20eb0968c3f385dce0605153f2"
+    },
+    {
+      "path": "data/reviewed/level-exit-profiles-v1.json",
+      "sha256": "8cd53270688f6aafadddb7beb7f8f3717d832a464f127fefd3def3a1a62da30a"
+    },
+    {
+      "path": "units/unit-01-first-connections/unit-manifest.json",
+      "sha256": "2bf5fcb78404dd39aefbbcae31a75f9b2659b9d013ac5cf98fd40365cf259683"
+    },
+    {
+      "path": "units/unit-01-first-connections/unit-mastery.json",
+      "sha256": "8f4f81103e91270550337e434c33063b0e0fb562b3065752c6a1d3be22d2fa97"
+    }
+  ],
+  "function_coverage": [
+    {
+      "function_code": "ask_for_information",
+      "candidate_owner_ids": [
+        "lesson_candidate.exchange_information_about_an_immediate_need"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "clarify_or_repair",
+      "candidate_owner_ids": [],
+      "support_owner_ids": [
+        "support.interaction_repair"
+      ],
+      "ownership_type": "support_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "complete_form",
+      "candidate_owner_ids": [
+        "lesson_candidate.complete_a_simple_information_form",
+        "lesson_candidate.complete_a_very_simple_online_purchase_or_application"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "comprehend_information",
+      "candidate_owner_ids": [
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.understand_spoken_contact_details",
+        "lesson_candidate.understand_talk_about_people_and_family",
+        "lesson_candidate.understand_a_simple_meeting_arrangement",
+        "lesson_candidate.understand_a_short_everyday_activity_text",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues",
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.understand_simple_place_and_hotel_information",
+        "lesson_candidate.understand_outline_of_a_simple_guided_tour",
+        "lesson_candidate.identify_a_price_in_slow_spoken_service_information",
+        "lesson_candidate.follow_a_slow_everyday_service_exchange",
+        "lesson_candidate.understand_a_short_simple_postcard_message",
+        "lesson_candidate.understand_outline_of_an_illustrated_short_story"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "control_language_form",
+      "candidate_owner_ids": [],
+      "support_owner_ids": [
+        "support.basic_language_control",
+        "support.written_form_control"
+      ],
+      "ownership_type": "support_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "correspond",
+      "candidate_owner_ids": [
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.react_politely_to_a_simple_online_post"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "describe",
+      "candidate_owner_ids": [
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.write_a_simple_object_description",
+        "lesson_candidate.write_a_simple_room_description"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "exchange_information",
+      "candidate_owner_ids": [
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.exchange_personal_details_in_writing",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.describe_a_simple_problem_to_a_health_professional"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "express_ability",
+      "candidate_owner_ids": [
+        "lesson_candidate.give_a_simple_leisure_profile"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "express_feeling",
+      "candidate_owner_ids": [
+        "lesson_candidate.state_how_a_simple_work_made_them_feel"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "express_preference",
+      "candidate_owner_ids": [
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.state_a_basic_food_or_drink_preference"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "facilitate_interaction",
+      "candidate_owner_ids": [
+        "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement",
+        "lesson_candidate.invite_input_and_check_understanding_in_a_simple_task",
+        "lesson_candidate.show_interest_and_welcome_an_idea",
+        "lesson_candidate.share_an_idea_and_ask_what_others_think"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "follow_instructions",
+      "candidate_owner_ids": [
+        "lesson_candidate.follow_simple_game_or_activity_instructions",
+        "lesson_candidate.follow_simple_written_wayfinding_directions",
+        "lesson_candidate.follow_slow_spoken_route_directions",
+        "lesson_candidate.follow_simple_directions_from_an_interlocutor",
+        "lesson_candidate.understand_common_signs_notices_and_visual_instructions",
+        "lesson_candidate.follow_short_written_everyday_instructions"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "give_information",
+      "candidate_owner_ids": [
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.write_simple_people_profile_cards",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_schedule_dates_and_times",
+        "lesson_candidate.write_simple_life_and_routine_sentences",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.write_a_simple_object_description",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.deliver_a_rehearsed_formal_introduction"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "infer_meaning",
+      "candidate_owner_ids": [],
+      "support_owner_ids": [
+        "support.receptive_processing"
+      ],
+      "ownership_type": "support_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "introduce",
+      "candidate_owner_ids": [
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.respond_politely_to_an_introduction",
+        "lesson_candidate.deliver_a_rehearsed_formal_introduction"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "locate_information",
+      "candidate_owner_ids": [
+        "lesson_candidate.locate_written_personal_details",
+        "lesson_candidate.understand_spoken_contact_details",
+        "lesson_candidate.locate_names_places_and_times_in_slow_recordings",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues",
+        "lesson_candidate.understand_simple_place_and_hotel_information",
+        "lesson_candidate.identify_key_details_in_a_slow_station_announcement",
+        "lesson_candidate.identify_a_price_in_slow_spoken_service_information",
+        "lesson_candidate.find_key_details_in_a_simple_advertisement_or_leaflet",
+        "lesson_candidate.understand_common_signs_notices_and_visual_instructions",
+        "lesson_candidate.identify_a_headline_news_topic_from_visual_media",
+        "lesson_candidate.identify_a_product_in_a_short_video_advertisement"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "mediate_information",
+      "candidate_owner_ids": [
+        "lesson_candidate.relay_predictable_person_time_or_place_details",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+        "lesson_candidate.convey_simple_information_from_a_sign_or_notice",
+        "lesson_candidate.translate_simple_written_phrases_with_a_dictionary"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "reproduce_language",
+      "candidate_owner_ids": [
+        "lesson_candidate.write_simple_people_profile_cards"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "request",
+      "candidate_owner_ids": [
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.ask_for_basic_practical_help"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "respond_to_request_or_offer",
+      "candidate_owner_ids": [
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.agree_to_a_simple_request",
+        "lesson_candidate.accept_a_simple_offer"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "socialize",
+      "candidate_owner_ids": [
+        "lesson_candidate.react_politely_to_a_simple_online_post",
+        "lesson_candidate.open_and_close_a_basic_social_exchange",
+        "lesson_candidate.respond_politely_to_an_introduction",
+        "lesson_candidate.use_basic_everyday_polite_forms"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "transact",
+      "candidate_owner_ids": [
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.follow_a_slow_everyday_service_exchange",
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.complete_a_very_simple_online_purchase_or_application"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    },
+    {
+      "function_code": "translate",
+      "candidate_owner_ids": [
+        "lesson_candidate.give_a_rough_oral_translation_of_everyday_sign_words",
+        "lesson_candidate.translate_simple_written_phrases_with_a_dictionary"
+      ],
+      "support_owner_ids": [],
+      "ownership_type": "candidate_owned",
+      "coverage_status": "covered"
+    }
+  ],
+  "exit_dimension_coverage": [
+    {
+      "dimension_code": "listening_reception",
+      "candidate_owner_ids": [
+        "lesson_candidate.understand_spoken_personal_introductions",
+        "lesson_candidate.understand_spoken_contact_details",
+        "lesson_candidate.locate_names_places_and_times_in_slow_recordings",
+        "lesson_candidate.understand_talk_about_people_and_family",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+        "lesson_candidate.follow_simple_game_or_activity_instructions",
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues",
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.follow_slow_spoken_route_directions",
+        "lesson_candidate.understand_outline_of_a_simple_guided_tour",
+        "lesson_candidate.identify_key_details_in_a_slow_station_announcement",
+        "lesson_candidate.identify_a_price_in_slow_spoken_service_information",
+        "lesson_candidate.follow_a_slow_everyday_service_exchange",
+        "lesson_candidate.identify_a_headline_news_topic_from_visual_media",
+        "lesson_candidate.identify_a_product_in_a_short_video_advertisement"
+      ],
+      "coverage_status": "covered"
+    },
+    {
+      "dimension_code": "reading_reception",
+      "candidate_owner_ids": [
+        "lesson_candidate.locate_written_personal_details",
+        "lesson_candidate.understand_a_simple_meeting_arrangement",
+        "lesson_candidate.understand_a_short_everyday_activity_text",
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.follow_simple_written_wayfinding_directions",
+        "lesson_candidate.understand_simple_place_and_hotel_information",
+        "lesson_candidate.find_key_details_in_a_simple_advertisement_or_leaflet",
+        "lesson_candidate.understand_common_signs_notices_and_visual_instructions",
+        "lesson_candidate.understand_a_short_simple_postcard_message",
+        "lesson_candidate.follow_short_written_everyday_instructions",
+        "lesson_candidate.understand_outline_of_an_illustrated_short_story"
+      ],
+      "coverage_status": "covered"
+    },
+    {
+      "dimension_code": "speaking_production",
+      "candidate_owner_ids": [
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.deliver_a_rehearsed_formal_introduction"
+      ],
+      "coverage_status": "covered"
+    },
+    {
+      "dimension_code": "writing_production",
+      "candidate_owner_ids": [
+        "lesson_candidate.complete_a_simple_information_form",
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_people_profile_cards",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.write_schedule_dates_and_times",
+        "lesson_candidate.write_simple_life_and_routine_sentences",
+        "lesson_candidate.write_a_simple_object_description",
+        "lesson_candidate.write_a_simple_room_description"
+      ],
+      "coverage_status": "covered"
+    },
+    {
+      "dimension_code": "oral_interaction",
+      "candidate_owner_ids": [
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.follow_simple_game_or_activity_instructions",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.follow_simple_directions_from_an_interlocutor",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.ask_for_basic_practical_help",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
+        "lesson_candidate.agree_to_a_simple_request",
+        "lesson_candidate.accept_a_simple_offer",
+        "lesson_candidate.open_and_close_a_basic_social_exchange",
+        "lesson_candidate.respond_politely_to_an_introduction"
+      ],
+      "coverage_status": "covered"
+    },
+    {
+      "dimension_code": "written_online_interaction",
+      "candidate_owner_ids": [
+        "lesson_candidate.exchange_personal_details_in_writing",
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post",
+        "lesson_candidate.complete_a_very_simple_online_purchase_or_application",
+        "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+        "lesson_candidate.react_politely_to_a_simple_online_post"
+      ],
+      "coverage_status": "covered"
+    },
+    {
+      "dimension_code": "mediation",
+      "candidate_owner_ids": [
+        "lesson_candidate.relay_predictable_person_time_or_place_details",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+        "lesson_candidate.convey_simple_information_from_a_sign_or_notice",
+        "lesson_candidate.give_a_rough_oral_translation_of_everyday_sign_words",
+        "lesson_candidate.state_how_a_simple_work_made_them_feel",
+        "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement",
+        "lesson_candidate.invite_input_and_check_understanding_in_a_simple_task",
+        "lesson_candidate.show_interest_and_welcome_an_idea",
+        "lesson_candidate.share_an_idea_and_ask_what_others_think",
+        "lesson_candidate.translate_simple_written_phrases_with_a_dictionary"
+      ],
+      "coverage_status": "covered"
+    }
+  ],
+  "overlap_groups": [
+    {
+      "group_id": "personal_introductions",
+      "candidate_ids": [
+        "lesson_candidate.give_short_self_introduction",
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.deliver_a_rehearsed_formal_introduction"
+      ],
+      "rationale": "Self, other-person, and rehearsed formal introductions share core identity language but differ in audience and support.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "personal_profile_writing",
+      "candidate_ids": [
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ],
+      "rationale": "Both write short factual people profiles with largely shared form and lexis.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "generic_spoken_detail_location",
+      "candidate_ids": [
+        "lesson_candidate.understand_spoken_contact_details",
+        "lesson_candidate.locate_names_places_and_times_in_slow_recordings",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.identify_key_details_in_a_slow_station_announcement",
+        "lesson_candidate.identify_a_price_in_slow_spoken_service_information"
+      ],
+      "rationale": "The same detail-segmentation and number-listening resources recur across distinct real-life contexts.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "people_and_family_output",
+      "candidate_ids": [
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ],
+      "rationale": "All express basic facts about another person across spoken and written channels.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "routine_preference_cycle",
+      "candidate_ids": [
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.write_a_short_hobbies_and_likes_post"
+      ],
+      "rationale": "Reception, production, interaction, and online writing share preference and ability language.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "routine_output_channels",
+      "candidate_ids": [
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.write_simple_life_and_routine_sentences"
+      ],
+      "rationale": "The same routine outcome appears in spoken and written production.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "schedule_time_cycle",
+      "candidate_ids": [
+        "lesson_candidate.understand_a_simple_meeting_arrangement",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.write_schedule_dates_and_times"
+      ],
+      "rationale": "Scheduling needs one multi-channel time/date progression rather than isolated ownership.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "generic_referent_matching",
+      "candidate_ids": [
+        "lesson_candidate.match_visual_descriptions_to_familiar_things",
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues"
+      ],
+      "rationale": "Both are decontextualised matching strategies that need real-life task owners.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "location_and_room_language",
+      "candidate_ids": [
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.write_a_simple_room_description"
+      ],
+      "rationale": "The same basic position language spans reception and output.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "object_description_channels",
+      "candidate_ids": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.write_a_simple_object_description"
+      ],
+      "rationale": "Visible-feature description is duplicated across spoken and written channels.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "service_reception_and_purchase",
+      "candidate_ids": [
+        "lesson_candidate.identify_a_price_in_slow_spoken_service_information",
+        "lesson_candidate.follow_a_slow_everyday_service_exchange",
+        "lesson_candidate.handle_basic_price_and_quantity_information"
+      ],
+      "rationale": "Price and service reception should feed the integrated purchase outcome.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "requests_and_immediate_needs",
+      "candidate_ids": [
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.ask_for_basic_practical_help"
+      ],
+      "rationale": "Several micro-requests share one immediate-needs interaction repertoire.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "forms_and_online_transactions",
+      "candidate_ids": [
+        "lesson_candidate.complete_a_simple_information_form",
+        "lesson_candidate.complete_a_very_simple_online_purchase_or_application"
+      ],
+      "rationale": "Both require accurate entry under labels; the online task adds a transaction choice.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "visual_media_topic_recognition",
+      "candidate_ids": [
+        "lesson_candidate.identify_a_headline_news_topic_from_visual_media",
+        "lesson_candidate.identify_a_product_in_a_short_video_advertisement"
+      ],
+      "rationale": "Both assess visual-supported topic or referent recognition in short video.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "correspondence_input_output",
+      "candidate_ids": [
+        "lesson_candidate.write_a_short_message_to_a_friend",
+        "lesson_candidate.understand_a_short_simple_postcard_message",
+        "lesson_candidate.react_politely_to_a_simple_online_post"
+      ],
+      "rationale": "Short correspondence provides linked reception and response variants across paper and online contexts.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "sign_comprehension_and_mediation",
+      "candidate_ids": [
+        "lesson_candidate.understand_common_signs_notices_and_visual_instructions",
+        "lesson_candidate.convey_simple_information_from_a_sign_or_notice",
+        "lesson_candidate.give_a_rough_oral_translation_of_everyday_sign_words",
+        "lesson_candidate.translate_simple_written_phrases_with_a_dictionary"
+      ],
+      "rationale": "Sign comprehension, relay, and translation share source text but require explicit language direction and control.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "fixed_social_responses",
+      "candidate_ids": [
+        "lesson_candidate.agree_to_a_simple_request",
+        "lesson_candidate.accept_a_simple_offer",
+        "lesson_candidate.respond_politely_to_an_introduction",
+        "lesson_candidate.use_basic_everyday_polite_forms"
+      ],
+      "rationale": "These are important fixed moves best recycled inside fuller social and transaction outcomes.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "collaboration_facilitation",
+      "candidate_ids": [
+        "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement",
+        "lesson_candidate.invite_input_and_check_understanding_in_a_simple_task",
+        "lesson_candidate.show_interest_and_welcome_an_idea",
+        "lesson_candidate.share_an_idea_and_ask_what_others_think"
+      ],
+      "rationale": "Four adjacent mediation candidates can form one coherent simple collaboration progression.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    },
+    {
+      "group_id": "predictable_detail_mediation",
+      "candidate_ids": [
+        "lesson_candidate.relay_predictable_person_time_or_place_details",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech"
+      ],
+      "rationale": "Both relay already-learned predictable details and are natural synthesis evidence.",
+      "all_candidates_known": true,
+      "decision_status": "requires_later_passes"
+    }
+  ],
+  "unit1_audit": {
+    "status": "requires_revision_not_rejection",
+    "candidate_ids": [
+      "lesson_candidate.give_short_self_introduction",
+      "lesson_candidate.understand_spoken_personal_introductions",
+      "lesson_candidate.exchange_personal_details_orally",
+      "lesson_candidate.understand_spoken_contact_details",
+      "lesson_candidate.locate_written_personal_details",
+      "lesson_candidate.complete_a_simple_information_form",
+      "lesson_candidate.write_short_personal_profile",
+      "lesson_candidate.exchange_personal_details_in_writing"
+    ],
+    "all_candidates_a1_source_fit": true,
+    "scope_revision_candidate_ids": [
+      "lesson_candidate.understand_spoken_contact_details"
+    ],
+    "helpful_before_order_violations": [
+      {
+        "candidate_id": "lesson_candidate.give_short_self_introduction",
+        "helpful_before_candidate_id": "lesson_candidate.understand_spoken_personal_introductions"
+      }
+    ],
+    "mastery_station_count": 3,
+    "mastery_mode_evidence": [
+      "listening",
+      "reading",
+      "speaking",
+      "spoken_interaction",
+      "writing",
+      "written_interaction"
+    ],
+    "findings": [
+      {
+        "finding_id": "input_model_after_first_output",
+        "action": "Move introduction listening before first independent self-introduction or document a different input source."
+      },
+      {
+        "finding_id": "first_contact_social_frame_unowned",
+        "action": "Add or embed greeting, response-to-introduction, and closing ownership, or narrow the unit promise."
+      },
+      {
+        "finding_id": "contact_detail_construct_mismatch",
+        "action": "Keep listening recognition as the construct; treat written capture as transfer evidence."
+      }
+    ]
+  },
+  "audit": {
+    "a1_function_count": 24,
+    "candidate_owned_function_count": 21,
+    "support_owned_function_count": 3,
+    "uncovered_function_codes": [],
+    "exit_dimension_count": 7,
+    "uncovered_exit_dimensions": [],
+    "overlap_group_count": 19,
+    "unknown_overlap_candidate_ids": [],
+    "final_candidate_decisions_made": 0
+  },
+  "review": {
+    "status": "accepted_coverage_pass",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T14:28:12+03:00",
+    "statement": "Coverage and overlap hypotheses constrain later decisions; they do not freeze the current candidates or final lesson count."
+  }
+}

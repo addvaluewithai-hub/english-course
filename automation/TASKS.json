@@ -202,9 +202,18 @@
       "id": "SPINE-005",
       "phase": "cross_level_vertical_spine",
       "title": "Reconcile the current A1 map and Unit 1",
-      "status": "ready",
+      "status": "in_progress",
       "dependencies": ["SPINE-004", "GOLD-002"],
-      "acceptance": "All 81 current candidates and Unit 1 have evidence-led keep, revise, split, merge, defer, support-only, replace, or retire decisions; the final lesson count is unconstrained."
+      "acceptance": "All 81 current candidates and Unit 1 have evidence-led keep, revise, split, merge, defer, support-only, replace, or retire decisions; the final lesson count is unconstrained.",
+      "notes": [
+        "2026-08-10: created the 81-row reconciliation worklist, preserving original order, targets, relationships, mastery evidence, and all eight Unit 1 memberships without implying final approval.",
+        "2026-08-10: cross-walked every legacy A1 evidence reference to the all-level normalized source by source id, page, and exact text hash; all 81 candidates currently cite A1-only evidence and no reference is unmatched.",
+        "2026-08-10: completed the candidate-by-candidate outcome and level-fit pass: 67 fit the A1 boundary as written, 14 require scope revision, 43 are standalone-plausible, 25 require merge review, 10 support-only review, two unit-synthesis review, and one split review. No final keep or removal decision is implied yet.",
+        "2026-08-10: completed global ability coverage: all 24 A1 communicative-function strands and all seven exit dimensions have owners; 21 functions are candidate-owned and repair, form control, and inference are intentionally support-owned.",
+        "2026-08-10: recorded 19 overlap groups for later decisions. Unit 1 is retained for revision with one input-before-output ordering violation and three actionable findings covering sequence, first-contact social framing, and contact-detail construct alignment.",
+        "2026-08-10: all 325 repository tests passed at the worklist, outcome-fit, and global-ability-coverage checkpoint.",
+        "Next partition: select exact A1 grammar, vocabulary, chunks, and pronunciation ownership before final candidate decisions."
+      ]
     },
     {
       "id": "SPINE-006",

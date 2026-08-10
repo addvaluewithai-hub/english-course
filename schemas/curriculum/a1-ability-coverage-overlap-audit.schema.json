@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/a1-ability-coverage-overlap-audit.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "audit_id", "version", "inputs", "function_coverage", "exit_dimension_coverage", "overlap_groups", "unit1_audit", "audit", "review"],
+  "properties": {
+    "schema_version": {"const": 1}, "audit_id": {"const": "a1_ability_coverage_overlap_audit"}, "version": {"const": 1},
+    "inputs": {"type": "array", "minItems": 7, "maxItems": 7, "items": {"$ref": "#/$defs/input"}},
+    "function_coverage": {"type": "array", "minItems": 24, "maxItems": 24, "items": {"$ref": "#/$defs/function"}},
+    "exit_dimension_coverage": {"type": "array", "minItems": 7, "maxItems": 7, "items": {"$ref": "#/$defs/dimension"}},
+    "overlap_groups": {"type": "array", "minItems": 19, "maxItems": 19, "items": {"$ref": "#/$defs/overlap"}},
+    "unit1_audit": {"$ref": "#/$defs/unit"}, "audit": {"$ref": "#/$defs/audit"}, "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "candidateId": {"type": "string", "pattern": "^lesson_candidate\\.[a-z0-9_]+$"},
+    "candidateIds": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/candidateId"}},
+    "input": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"], "properties": {"path": {"$ref": "#/$defs/text"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}},
+    "function": {
+      "type": "object", "additionalProperties": false,
+      "required": ["function_code", "candidate_owner_ids", "support_owner_ids", "ownership_type", "coverage_status"],
+      "properties": {
+        "function_code": {"type": "string", "pattern": "^[a-z0-9_]+$"}, "candidate_owner_ids": {"$ref": "#/$defs/candidateIds"},
+        "support_owner_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^support\\.[a-z0-9_]+$"}},
+        "ownership_type": {"enum": ["candidate_owned", "support_owned"]}, "coverage_status": {"const": "covered"}
+      }
+    },
+    "dimension": {
+      "type": "object", "additionalProperties": false, "required": ["dimension_code", "candidate_owner_ids", "coverage_status"],
+      "properties": {
+        "dimension_code": {"enum": ["listening_reception", "reading_reception", "speaking_production", "writing_production", "oral_interaction", "written_online_interaction", "mediation"]},
+        "candidate_owner_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/candidateId"}},
+        "coverage_status": {"const": "covered"}
+      }
+    },
+    "overlap": {
+      "type": "object", "additionalProperties": false, "required": ["group_id", "candidate_ids", "rationale", "all_candidates_known", "decision_status"],
+      "properties": {
+        "group_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+        "candidate_ids": {"type": "array", "minItems": 2, "uniqueItems": true, "items": {"$ref": "#/$defs/candidateId"}},
+        "rationale": {"$ref": "#/$defs/text"}, "all_candidates_known": {"const": true},
+        "decision_status": {"const": "requires_later_passes"}
+      }
+    },
+    "orderViolation": {
+      "type": "object", "additionalProperties": false, "required": ["candidate_id", "helpful_before_candidate_id"],
+      "properties": {"candidate_id": {"$ref": "#/$defs/candidateId"}, "helpful_before_candidate_id": {"$ref": "#/$defs/candidateId"}}
+    },
+    "finding": {
+      "type": "object", "additionalProperties": false, "required": ["finding_id", "action"],
+      "properties": {"finding_id": {"enum": ["input_model_after_first_output", "first_contact_social_frame_unowned", "contact_detail_construct_mismatch"]}, "action": {"$ref": "#/$defs/text"}}
+    },
+    "unit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "candidate_ids", "all_candidates_a1_source_fit", "scope_revision_candidate_ids", "helpful_before_order_violations", "mastery_station_count", "mastery_mode_evidence", "findings"],
+      "properties": {
+        "status": {"const": "requires_revision_not_rejection"},
+        "candidate_ids": {"type": "array", "minItems": 8, "maxItems": 8, "uniqueItems": true, "items": {"$ref": "#/$defs/candidateId"}},
+        "all_candidates_a1_source_fit": {"const": true}, "scope_revision_candidate_ids": {"$ref": "#/$defs/candidateIds"},
+        "helpful_before_order_violations": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/orderViolation"}},
+        "mastery_station_count": {"const": 3}, "mastery_mode_evidence": {"type": "array", "minItems": 6, "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
+        "findings": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/finding"}}
+      }
+    },
+    "audit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["a1_function_count", "candidate_owned_function_count", "support_owned_function_count", "uncovered_function_codes", "exit_dimension_count", "uncovered_exit_dimensions", "overlap_group_count", "unknown_overlap_candidate_ids", "final_candidate_decisions_made"],
+      "properties": {
+        "a1_function_count": {"const": 24}, "candidate_owned_function_count": {"const": 21}, "support_owned_function_count": {"const": 3},
+        "uncovered_function_codes": {"type": "array", "maxItems": 0}, "exit_dimension_count": {"const": 7},
+        "uncovered_exit_dimensions": {"type": "array", "maxItems": 0}, "overlap_group_count": {"const": 19},
+        "unknown_overlap_candidate_ids": {"type": "array", "maxItems": 0}, "final_candidate_decisions_made": {"const": 0}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at", "statement"],
+      "properties": {"status": {"const": "accepted_coverage_pass"}, "reviewer": {"const": "codex_primary_curriculum_agent"}, "reviewed_at": {"type": "string", "format": "date-time"}, "statement": {"$ref": "#/$defs/text"}}
+    }
+  }
+}

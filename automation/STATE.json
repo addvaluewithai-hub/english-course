@@ -6,7 +6,7 @@
   "active_phase": "cross_level_vertical_spine",
   "last_completed_task": "SPINE-004",
   "next_task": "SPINE-005",
-  "updated_at": "2026-08-10T14:07:39+03:00",
+  "updated_at": "2026-08-10T14:30:27+03:00",
   "phase_gates": {
     "phase_0_foundation": "passed",
     "phase_1_learning_model": "passed",
@@ -92,9 +92,45 @@
     "exact_item_selection_boundary": "SPINE-005",
     "mass_a1_production": "blocked_until_SPINE-006"
   },
+  "a1_reconciliation": {
+    "status": "in_progress",
+    "current_candidate_count": 81,
+    "unit1_candidate_count": 8,
+    "old_to_all_level_source_crosswalk": "complete",
+    "candidates_with_a1_only_source_evidence": 81,
+    "unmatched_source_evidence_records": 0,
+    "final_decisions_pending": 81,
+    "outcome_level_fit_review": {
+      "status": "complete_first_pass",
+      "fits_a1_boundary": 67,
+      "fits_a1_with_scope_revision": 14,
+      "standalone_plausible": 43,
+      "merge_review": 25,
+      "support_only_review": 10,
+      "unit_synthesis_review": 2,
+      "split_review": 1
+    },
+    "global_ability_coverage": {
+      "status": "complete",
+      "a1_function_strands_covered": 24,
+      "candidate_owned_functions": 21,
+      "support_owned_functions": 3,
+      "exit_dimensions_covered": 7,
+      "uncovered_functions_or_dimensions": 0,
+      "overlap_groups": 19
+    },
+    "unit1_reconciliation": {
+      "status": "requires_revision_not_rejection",
+      "current_candidate_count": 8,
+      "a1_source_fit_count": 8,
+      "helpful_before_order_violations": 1,
+      "actionable_findings": 3
+    },
+    "next_partition": "exact_language_system_ownership"
+  },
   "last_full_validation": {
-    "passed_tests": 313,
+    "passed_tests": 325,
     "failed_tests": 0,
-    "validated_at": "2026-08-10T14:07:39+03:00"
+    "validated_at": "2026-08-10T14:30:27+03:00"
   }
 }

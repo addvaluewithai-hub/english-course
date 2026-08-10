@@ -1,0 +1,1309 @@
+{
+  "schema_version": 1,
+  "review_id": "a1_outcome_level_fit_review",
+  "version": 1,
+  "inputs": [
+    {
+      "path": "data/reviewed/a1-reconciliation-worklist-v1.json",
+      "sha256": "b61e6d565003c5cee170db8c3660f9b96159894e39f928fe4fd71cd7075ae983"
+    },
+    {
+      "path": "data/reviewed/level-exit-profiles-v1.json",
+      "sha256": "8cd53270688f6aafadddb7beb7f8f3717d832a464f127fefd3def3a1a62da30a"
+    },
+    {
+      "path": "data/reviewed/communicative-function-strands-v1.json",
+      "sha256": "84cef12823195ce803b9f4945406188ac8ad3c20eb0968c3f385dce0605153f2"
+    },
+    {
+      "path": "data/reviewed/performance-complexity-strands-v1.json",
+      "sha256": "60c3810d624bf47dfc454b3cbc20466897baa861ca3767d9963b10053f86e70e"
+    }
+  ],
+  "reviews": [
+    {
+      "candidate_id": "lesson_candidate.locate_written_personal_details",
+      "original_sequence_position": 1,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.reading"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "A bounded fresh reading search is an independent A1 reception outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_spoken_personal_introductions",
+      "original_sequence_position": 2,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Clear personal-introduction listening is a distinct A1 reception outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_spoken_contact_details",
+      "original_sequence_position": 3,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [
+        "channel_or_mode_mismatch"
+      ],
+      "rationale": "Recording the answer adds writing transfer to a listening-only candidate; preserve listening as the mastery construct.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.give_short_self_introduction",
+      "original_sequence_position": 4,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "The bounded fresh self-introduction matches A1 output independence and content.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_personal_details_orally",
+      "original_sequence_position": 5,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "A slow direct two-way personal exchange is a core A1 interaction outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.complete_a_simple_information_form",
+      "original_sequence_position": 6,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.writing"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Accurate entry under clear labels is an independent written A1 form outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.write_short_personal_profile",
+      "original_sequence_position": 7,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.writing"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "A few uncopied personal sentences are a valid A1 written-production outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_personal_details_in_writing",
+      "original_sequence_position": 8,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.written_online"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Short purposeful written exchange is distinct from profile production at A1.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.relay_predictable_person_time_or_place_details",
+      "original_sequence_position": 9,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.mediation"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "unit_synthesis_review",
+      "risk_codes": [
+        "ambiguous_language_direction",
+        "overlap_likely"
+      ],
+      "rationale": "A1 mediation is valid, but input/output language direction and ownership across learned detail tasks must be explicit.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.locate_names_places_and_times_in_slow_recordings",
+      "original_sequence_position": 10,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "support_only_review",
+      "risk_codes": [
+        "generic_strategy_not_context_owned",
+        "overlap_likely"
+      ],
+      "rationale": "The skill is A1, but a generic detail-listening target may be better recycled inside contact, schedule, and travel contexts.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_talk_about_people_and_family",
+      "original_sequence_position": 11,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Slow family-topic comprehension is a bounded A1 listening outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_people_and_object_locations_orally",
+      "original_sequence_position": 12,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "The A1 location output is valid but overlaps the later home and scene location strand.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.introduce_another_person",
+      "original_sequence_position": 13,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "Introducing another person is A1 but can extend the self-introduction and social-exchange cycle.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_information_about_family_and_friends",
+      "original_sequence_position": 14,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Predictable family questions and answers form a valid A1 interaction outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_family_or_known_person",
+      "original_sequence_position": 15,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "A short supported description of known people is a coherent A1 spoken outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.write_simple_people_profile_cards",
+      "original_sequence_position": 16,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.writing"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "The writing is A1 but substantially recycles the personal-profile and known-person outcomes.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.write_a_short_message_to_a_friend",
+      "original_sequence_position": 17,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.written_online"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "One purposeful fact or question in a friend message is a coherent A1 written interaction.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_a_simple_meeting_arrangement",
+      "original_sequence_position": 18,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.reading"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Extracting action, time, and place from a short message is a practical A1 reading outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_a_short_everyday_activity_text",
+      "original_sequence_position": 19,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.reading"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Recognising familiar actions and simple order is within A1 reading complexity.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_spoken_time_and_date_details",
+      "original_sequence_position": 20,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "A1 time/date listening is valid but should share ownership with scheduling and announcement contexts.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+      "original_sequence_position": 21,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Slow familiar preference and ability listening is a coherent A1 reception outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.follow_simple_game_or_activity_instructions",
+      "original_sequence_position": 22,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [
+        "channel_or_mode_mismatch"
+      ],
+      "rationale": "Acting on commands is valid A1 reception; speaking should not be required unless repair is separately assessed.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.give_an_event_date_and_time",
+      "original_sequence_position": 23,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "Giving a date and time fits A1 but belongs naturally inside an integrated scheduling exchange.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.give_a_simple_leisure_profile",
+      "original_sequence_position": 24,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "The A1 output is valid but closely overlaps routine and preference interaction.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_routine_and_preference_information",
+      "original_sequence_position": 25,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "A short two-way exchange integrates core A1 routine and preference control.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_simple_everyday_routine",
+      "original_sequence_position": 26,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Three sequenced familiar activities form a coherent A1 spoken-production outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_common_weather",
+      "original_sequence_position": 27,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "micro_move",
+        "overlap_likely"
+      ],
+      "rationale": "The source-backed A1 ability is too small alone and should serve a routine, plan, or local-information outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.write_a_short_hobbies_and_likes_post",
+      "original_sequence_position": 28,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.writing",
+        "a1.interaction.written_online"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "channel_or_mode_mismatch",
+        "overlap_likely"
+      ],
+      "rationale": "The writing fits A1, but production versus online interaction and its relationship to preference outcomes need one owner.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.write_schedule_dates_and_times",
+      "original_sequence_position": 29,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.writing"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "micro_move",
+        "overlap_likely"
+      ],
+      "rationale": "Writing isolated dates and times is A1 support for a broader schedule or form task rather than a clear standalone performance.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.write_simple_life_and_routine_sentences",
+      "original_sequence_position": 30,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.writing"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "The A1 written outcome should be reconciled with spoken routine and personal-profile ownership.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.match_visual_descriptions_to_familiar_things",
+      "original_sequence_position": 31,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.reading"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "support_only_review",
+      "risk_codes": [
+        "generic_strategy_not_context_owned"
+      ],
+      "rationale": "Matching visible referents is valid A1 comprehension practice but does not yet define a real-life outcome owner.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_familiar_referents_from_spoken_clues",
+      "original_sequence_position": 32,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "support_only_review",
+      "risk_codes": [
+        "generic_strategy_not_context_owned"
+      ],
+      "rationale": "Spoken-clue matching is useful A1 reception practice that should be owned by a concrete context.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_where_things_or_people_are",
+      "original_sequence_position": 33,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "The A1 listening outcome belongs in the same location progression as room, scene, and wayfinding language.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_familiar_object_orally",
+      "original_sequence_position": 34,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "A visible-object show-and-tell is a coherent bounded A1 production outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_visible_object_information",
+      "original_sequence_position": 35,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "The visual information gap creates a genuine A1 two-way interaction outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_basic_information_about_a_home",
+      "original_sequence_position": 36,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Exchanging a few home and possession facts is a practical A1 interaction outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.write_a_simple_object_description",
+      "original_sequence_position": 37,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.writing"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "The written channel is valid A1 but may recycle the same object-description owner rather than require a separate lesson.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.write_a_simple_room_description",
+      "original_sequence_position": 38,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.writing"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "A pictured room with several object positions is a coherent A1 written-description outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.follow_simple_written_wayfinding_directions",
+      "original_sequence_position": 39,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.reading"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Following a short written route on a plan is a distinct practical A1 reception outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_simple_place_and_hotel_information",
+      "original_sequence_position": 40,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.reading"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Locating two explicit place or hotel facts is within A1 reading complexity.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.follow_slow_spoken_route_directions",
+      "original_sequence_position": 41,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "A short route with plan support and replay is a coherent A1 listening outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_outline_of_a_simple_guided_tour",
+      "original_sequence_position": 42,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [
+        "label_outcome_mismatch"
+      ],
+      "rationale": "The essential content is one place and one fact, so 'outline' should be narrowed to the observable A1 comprehension claim.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_key_details_in_a_slow_station_announcement",
+      "original_sequence_position": 43,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "The A1 announcement target is valid but should extend the time/detail listening progression inside travel.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.follow_simple_directions_from_an_interlocutor",
+      "original_sequence_position": 44,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Live directions with clarification form a distinct A1 interaction outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_basic_wayfinding_information",
+      "original_sequence_position": 45,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [
+        "channel_or_mode_mismatch"
+      ],
+      "rationale": "Asking and answering location questions requires listening as well as the currently declared speaking skill.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.buy_a_basic_public_transport_ticket",
+      "original_sequence_position": 46,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Destination plus one ticket detail is a coherent A1 transaction outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.check_in_at_a_hotel",
+      "original_sequence_position": 47,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "A fixed-expression check-in with one detail is a coherent A1 transaction outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_a_price_in_slow_spoken_service_information",
+      "original_sequence_position": 48,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "support_only_review",
+      "risk_codes": [
+        "micro_move",
+        "overlap_likely"
+      ],
+      "rationale": "Price recognition is valid A1 listening support but should recur within purchase and service outcomes.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.follow_a_slow_everyday_service_exchange",
+      "original_sequence_position": 49,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "Service-exchange comprehension is A1 input for the transaction progression and may not need a separate owner.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.find_key_details_in_a_simple_advertisement_or_leaflet",
+      "original_sequence_position": 50,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.reading"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Finding two practical details is a transferable A1 reading outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.ask_for_basic_food_or_drink",
+      "original_sequence_position": 51,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Obtaining an intended food or drink is a coherent A1 transaction.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.state_a_basic_food_or_drink_preference",
+      "original_sequence_position": 52,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "micro_move",
+        "overlap_likely"
+      ],
+      "rationale": "The preference move is valid but should be integrated into ordering or broader preference interaction.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.ask_for_and_give_an_everyday_item",
+      "original_sequence_position": 53,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "The exchange fits A1 but overlaps requests, immediate needs, and response language.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_information_about_an_immediate_need",
+      "original_sequence_position": 54,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "A need plus one practical detail is a coherent and generalisable A1 interaction outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.ask_for_basic_practical_help",
+      "original_sequence_position": 55,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "micro_move",
+        "overlap_likely"
+      ],
+      "rationale": "A help request is essential A1 language but too small alone and overlaps the immediate-need owner.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.handle_basic_price_and_quantity_information",
+      "original_sequence_position": 56,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Item, quantity, and cost create a complete A1 purchase outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
+      "original_sequence_position": 57,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "A simple symptom plus one response is a bounded safety-relevant A1 exchange.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.complete_a_very_simple_online_purchase_or_application",
+      "original_sequence_position": 58,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.written_online"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "split_review",
+      "risk_codes": [
+        "compound_scope"
+      ],
+      "rationale": "Purchase and application are distinct task families; one representative transaction must own mastery or the candidate must split.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.leave_a_simple_whereabouts_and_return_message",
+      "original_sequence_position": 59,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.written_online"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Destination and return time form a coherent A1 written-message outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+      "original_sequence_position": 60,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.mediation"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "unit_synthesis_review",
+      "risk_codes": [
+        "ambiguous_language_direction",
+        "overlap_likely"
+      ],
+      "rationale": "A1 mediation is valid, but language direction and reuse of contact, number, and price listening must be explicit.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_common_signs_notices_and_visual_instructions",
+      "original_sequence_position": 61,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.reading"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Selecting practical meaning or action from a sign is a transferable A1 reading outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_a_headline_news_topic_from_visual_media",
+      "original_sequence_position": 62,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "micro_move",
+        "overlap_likely"
+      ],
+      "rationale": "Familiar-topic identification is valid A1 viewing but shares one visual-media comprehension construct with advertisements.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_a_product_in_a_short_video_advertisement",
+      "original_sequence_position": 63,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.listening"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "micro_move",
+        "overlap_likely"
+      ],
+      "rationale": "Product identification is valid A1 viewing but is a narrow variant of visual-media topic recognition.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_a_short_simple_postcard_message",
+      "original_sequence_position": 64,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.reading"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely"
+      ],
+      "rationale": "Postcard reception is A1 but can provide input and recycling within a broader correspondence progression.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.react_politely_to_a_simple_online_post",
+      "original_sequence_position": 65,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.written_online"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Reaction plus follow-up response forms a coherent A1 online interaction.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.convey_simple_information_from_a_sign_or_notice",
+      "original_sequence_position": 66,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.mediation"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "ambiguous_language_direction",
+        "overlap_likely"
+      ],
+      "rationale": "A1 mediation is valid, but language direction and its relationship to sign comprehension and translation must be fixed.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.give_a_rough_oral_translation_of_everyday_sign_words",
+      "original_sequence_position": 67,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.mediation"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "support_only_review",
+      "risk_codes": [
+        "ambiguous_language_direction",
+        "micro_move",
+        "overlap_likely"
+      ],
+      "rationale": "The source-backed A1 task needs explicit language direction and is likely support inside sign mediation rather than a lesson.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.agree_to_a_simple_request",
+      "original_sequence_position": 68,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "support_only_review",
+      "risk_codes": [
+        "cross_cutting_support",
+        "micro_move"
+      ],
+      "rationale": "Agreement is valid A1 interaction language but belongs inside request and task outcomes.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.accept_a_simple_offer",
+      "original_sequence_position": 69,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "support_only_review",
+      "risk_codes": [
+        "cross_cutting_support",
+        "micro_move"
+      ],
+      "rationale": "Offer acceptance is valid A1 interaction language but belongs inside service and social outcomes.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.open_and_close_a_basic_social_exchange",
+      "original_sequence_position": 70,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "The full greeting-to-farewell exchange is a coherent A1 social outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.respond_politely_to_an_introduction",
+      "original_sequence_position": 71,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.oral"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "support_only_review",
+      "risk_codes": [
+        "cross_cutting_support",
+        "micro_move"
+      ],
+      "rationale": "The fixed response is essential but should be controlled inside introduction and social-exchange tasks.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.deliver_a_rehearsed_formal_introduction",
+      "original_sequence_position": 72,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.production.speaking"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "overlap_likely",
+        "prepared_text_support_contradiction"
+      ],
+      "rationale": "A rehearsed A1 introduction is valid, but the prepared text versus no-complete-model support rule conflicts and overlaps introducing another person.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.use_basic_everyday_polite_forms",
+      "original_sequence_position": 73,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.language_control.range"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "support_only_review",
+      "risk_codes": [
+        "cross_cutting_support"
+      ],
+      "rationale": "Please, thanks, and apology are level-wide social control, not one real-life lesson outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.state_how_a_simple_work_made_them_feel",
+      "original_sequence_position": 74,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.mediation"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [
+        "assessment_channel_ambiguous"
+      ],
+      "rationale": "The A1 personal response is valid, but mastery must choose spoken or written performance rather than a configured alternative.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement",
+      "original_sequence_position": 75,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.mediation"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "cross_cutting_support",
+        "micro_move"
+      ],
+      "rationale": "Sympathy is valid A1 facilitation language best integrated into a simple problem or social exchange.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.invite_input_and_check_understanding_in_a_simple_task",
+      "original_sequence_position": 76,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.mediation"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "compound_scope",
+        "overlap_likely"
+      ],
+      "rationale": "The three facilitation moves fit A1 but need one bounded task owner alongside adjacent collaboration moves.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.show_interest_and_welcome_an_idea",
+      "original_sequence_position": 77,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.mediation"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "merge_review",
+      "risk_codes": [
+        "cross_cutting_support",
+        "overlap_likely"
+      ],
+      "rationale": "Welcoming an idea is useful A1 collaboration support rather than a full independent lesson alone.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.share_an_idea_and_ask_what_others_think",
+      "original_sequence_position": 78,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.mediation"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "One prepared idea plus an opinion invitation creates a coherent A1 collaborative outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.follow_short_written_everyday_instructions",
+      "original_sequence_position": 79,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.reading"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Following several ordered written steps is a coherent practical A1 reception outcome.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_outline_of_an_illustrated_short_story",
+      "original_sequence_position": 80,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.reception.reading"
+      ],
+      "a1_fit_status": "fits_a1_boundary",
+      "independence_signal": "standalone_plausible",
+      "risk_codes": [],
+      "rationale": "Main situation and basic sequence with illustrations fit A1 leisure reading complexity.",
+      "review_status": "accepted_first_pass"
+    },
+    {
+      "candidate_id": "lesson_candidate.translate_simple_written_phrases_with_a_dictionary",
+      "original_sequence_position": 81,
+      "a1_source_fit_confirmed": true,
+      "profile_claim_ids": [
+        "a1.exit_promise",
+        "a1.interaction.mediation"
+      ],
+      "a1_fit_status": "fits_a1_with_scope_revision",
+      "independence_signal": "support_only_review",
+      "risk_codes": [
+        "ambiguous_language_direction",
+        "generic_strategy_not_context_owned"
+      ],
+      "rationale": "Dictionary-assisted mediation is valid A1 support, but language direction and a practical context must be owned elsewhere.",
+      "review_status": "accepted_first_pass"
+    }
+  ],
+  "audit": {
+    "review_count": 81,
+    "source_fit_confirmed_count": 81,
+    "fit_status_counts": {
+      "fits_a1_boundary": 67,
+      "fits_a1_with_scope_revision": 14
+    },
+    "independence_signal_counts": {
+      "merge_review": 25,
+      "split_review": 1,
+      "standalone_plausible": 43,
+      "support_only_review": 10,
+      "unit_synthesis_review": 2
+    },
+    "risk_code_counts": {
+      "ambiguous_language_direction": 5,
+      "assessment_channel_ambiguous": 1,
+      "channel_or_mode_mismatch": 4,
+      "compound_scope": 2,
+      "cross_cutting_support": 6,
+      "generic_strategy_not_context_owned": 4,
+      "label_outcome_mismatch": 1,
+      "micro_move": 12,
+      "overlap_likely": 29,
+      "prepared_text_support_contradiction": 1
+    },
+    "missing_candidate_ids": [],
+    "unknown_candidate_ids": [],
+    "unknown_profile_claim_ids": [],
+    "final_candidate_decisions_made": 0
+  },
+  "review": {
+    "status": "accepted_first_pass",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T14:24:00+03:00",
+    "method": "candidate_by_candidate_outcome_independence_and_a1_exit_boundary_review",
+    "statement": "A level-fit or independence signal is evidence for later reconciliation, not a final keep, merge, or retire decision."
+  }
+}

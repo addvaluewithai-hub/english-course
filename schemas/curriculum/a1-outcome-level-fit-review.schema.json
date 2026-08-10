@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/a1-outcome-level-fit-review.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "review_id", "version", "inputs", "reviews", "audit", "review"],
+  "properties": {
+    "schema_version": {"const": 1}, "review_id": {"const": "a1_outcome_level_fit_review"}, "version": {"const": 1},
+    "inputs": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"$ref": "#/$defs/input"}},
+    "reviews": {"type": "array", "minItems": 81, "maxItems": 81, "items": {"$ref": "#/$defs/item"}},
+    "audit": {"$ref": "#/$defs/audit"}, "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "candidateId": {"type": "string", "pattern": "^lesson_candidate\\.[a-z0-9_]+$"},
+    "input": {
+      "type": "object", "additionalProperties": false, "required": ["path", "sha256"],
+      "properties": {"path": {"type": "string", "pattern": "^data/reviewed/"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+    },
+    "item": {
+      "type": "object", "additionalProperties": false,
+      "required": ["candidate_id", "original_sequence_position", "a1_source_fit_confirmed", "profile_claim_ids", "a1_fit_status", "independence_signal", "risk_codes", "rationale", "review_status"],
+      "properties": {
+        "candidate_id": {"$ref": "#/$defs/candidateId"}, "original_sequence_position": {"type": "integer", "minimum": 1, "maximum": 81},
+        "a1_source_fit_confirmed": {"const": true},
+        "profile_claim_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^a1\\."}},
+        "a1_fit_status": {"enum": ["fits_a1_boundary", "fits_a1_with_scope_revision", "not_a1_defer_review"]},
+        "independence_signal": {"enum": ["standalone_plausible", "merge_review", "support_only_review", "unit_synthesis_review", "split_review", "replace_or_reframe_review"]},
+        "risk_codes": {"type": "array", "uniqueItems": true, "items": {"enum": ["ambiguous_language_direction", "assessment_channel_ambiguous", "channel_or_mode_mismatch", "compound_scope", "content_scope_vague", "cross_cutting_support", "generic_strategy_not_context_owned", "label_outcome_mismatch", "micro_move", "overlap_likely", "prepared_text_support_contradiction"]}},
+        "rationale": {"$ref": "#/$defs/text"}, "review_status": {"const": "accepted_first_pass"}
+      }
+    },
+    "counts": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "integer", "minimum": 1}},
+    "audit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["review_count", "source_fit_confirmed_count", "fit_status_counts", "independence_signal_counts", "risk_code_counts", "missing_candidate_ids", "unknown_candidate_ids", "unknown_profile_claim_ids", "final_candidate_decisions_made"],
+      "properties": {
+        "review_count": {"const": 81}, "source_fit_confirmed_count": {"const": 81},
+        "fit_status_counts": {"$ref": "#/$defs/counts"}, "independence_signal_counts": {"$ref": "#/$defs/counts"},
+        "risk_code_counts": {"$ref": "#/$defs/counts"},
+        "missing_candidate_ids": {"type": "array", "maxItems": 0}, "unknown_candidate_ids": {"type": "array", "maxItems": 0},
+        "unknown_profile_claim_ids": {"type": "array", "maxItems": 0}, "final_candidate_decisions_made": {"const": 0}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at", "method", "statement"],
+      "properties": {
+        "status": {"const": "accepted_first_pass"}, "reviewer": {"const": "codex_primary_curriculum_agent"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "method": {"const": "candidate_by_candidate_outcome_independence_and_a1_exit_boundary_review"},
+        "statement": {"$ref": "#/$defs/text"}
+      }
+    }
+  }
+}
