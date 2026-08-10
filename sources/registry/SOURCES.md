@@ -63,4 +63,5 @@ input. File: `sources/raw/vocabulary/oxford-5000-by-cefr-level.pdf`; SHA-256:
 ## Private historical inputs
 
 Legacy conversations and earlier agent-factory examples informed the workflow but
-are not curriculum evidence and are intentionally excluded from the public handoff.
+are not curriculum evidence. Recovered copies are stored under `references/legacy/`
+in this private repository and must remain clearly labelled as historical context.

@@ -23,7 +23,6 @@ automation/RUNNING.json
 
 # Private or noisy project history
 logs/runs/
-references/legacy/
 
 # OS/editor files
 .DS_Store

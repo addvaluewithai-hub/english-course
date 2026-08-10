@@ -46,12 +46,15 @@ exception, not proof that those gates passed.
 Lesson 1 intentionally remains in `gold/introduce-yourself/`; the Unit 1 manifest
 references it instead of duplicating it.
 
-## Public-repository hygiene
+## Repository hygiene
 
-This public snapshot includes the verified third-party source files and extracted
-text mirrors used by the curriculum pipeline so the team can reproduce the work.
-Private conversations, historic per-agent run logs, caches, and temporary files
-remain excluded. Review each publisher's reuse terms before republishing elsewhere.
+This private repository includes verified third-party source files, extracted text
+mirrors, and recovered legacy planning inputs. The legacy inputs are historical
+context, not approved curriculum evidence. Historic per-agent run logs, caches, and
+temporary files remain excluded. Review each publisher's reuse terms before sharing.
+
+For the next curriculum phase, read `docs/VERTICAL_CURRICULUM_SPINE_BRIEF.md` and
+`docs/LOCAL_RECOVERY_AUDIT.md` before designing A2 or revising A1.
 
 No repository-wide open-source license has been selected. The new team should choose
 one deliberately before accepting outside contributions.

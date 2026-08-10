@@ -53,6 +53,7 @@ downloaded. All curriculum, lesson-package, and Unit 1 tests still run.
 - `docs/` - product, pedagogy, policy, and QA decisions
 - `gold/` - reference lesson source package
 - `prototype/` - dependency-free browser prototype
+- `references/legacy/` - recovered historical inputs; never curriculum authority
 - `schemas/` - curriculum data contracts
 - `scripts/` - small deterministic curriculum utilities
 - `sources/raw/` - verified source snapshots used by the extraction pipeline
@@ -60,5 +61,5 @@ downloaded. All curriculum, lesson-package, and Unit 1 tests still run.
 - `tests/` - validation suite
 - `units/` - authored unit source packages
 
-Raw source snapshots and extracted text mirrors are included for reproducibility.
-Private legacy conversations, per-agent run logs, and temporary files are excluded.
+Raw source snapshots, extracted text mirrors, and recovered legacy planning inputs
+are included for reproducibility. Per-agent run logs and temporary files are excluded.
