@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "qa_id": "gold_lesson_v1_qa",
+  "version": 1,
+  "package_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03",
+  "package_files": [
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/activities.json",
+      "sha256": "01897ac556e46fe6340445944cf843fd37904d16f52b2bc87e955f4061a09221"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/ai-contract.json",
+      "sha256": "55c75f1ab33ed1e7089c16244c1794768e19eaf490987b5375827daeeb891af4"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/assessment.json",
+      "sha256": "0a909456c040793712e43661e38cfe0559069b774267c8dd9df84a8f4a556627"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/ASSET_BRIEFS.md",
+      "sha256": "6d32fc71f6e7a64186f2f7ea827ff7ad08119229827150e0f693c626e08b126d"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/content.json",
+      "sha256": "07d08521622635b38d8ebe970368304940d1aa9bb22da9cb9136446df96d3d23"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/lesson-manifest.json",
+      "sha256": "e60c4fe8ce596bccdab0def487b3d3803053e46c9beb1afa8f378e8e98b920b8"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/source-packet.json",
+      "sha256": "c95b2ec5525b77e119c1c077de1bc5bd2d9876c51de64a4c5e26d6c7b0199bf3"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/video/pronunciation-map.json",
+      "sha256": "bc444358c6b801c27b6b2b98e1eaf18ddaafef2de91588040b572d608076720e"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/video/README.md",
+      "sha256": "89c3ff2c37a1c576f623fdda11a818750c13571c71280691e774fceb722cae09"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/video/sample-context.txt",
+      "sha256": "4f18234f797855c4f0450a4d2c9cb09a459d216611b103ce9bb6269b52b8ba87"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/video/scene.txt",
+      "sha256": "d42d4cabe95f4e17ea4c9cc9480f02b94e115f1e2b2e9000089a82ab1aa8ec03"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/video/transcript.txt",
+      "sha256": "c83ad1917f911720280f5762b096420f27f53c67cad7b50da242ab529fc7320c"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "stale_package_identity",
+      "severity": "medium",
+      "status": "resolved",
+      "resolution": "Moved the package to versioned U1-L03 with final IDs and lineage."
+    },
+    {
+      "finding_id": "stale_first_lesson_wording",
+      "severity": "medium",
+      "status": "resolved",
+      "resolution": "Changed the opening and declared U1-L01/U1-L02 prior learning."
+    },
+    {
+      "finding_id": "out_of_sequence_live_vowel_contrast",
+      "severity": "medium",
+      "status": "resolved",
+      "resolution": "Removed systematic /lɪv/-/laɪv/ contrast and retained one modelled word."
+    },
+    {
+      "finding_id": "bounded_possessive_and_article_intro_implicit",
+      "severity": "medium",
+      "status": "resolved",
+      "resolution": "Added my + name and a/an + job explanation and application."
+    },
+    {
+      "finding_id": "v1_exact_targets_not_traceable",
+      "severity": "medium",
+      "status": "resolved",
+      "resolution": "Added a compact v2 packet for seven introductions and three recycles."
+    },
+    {
+      "finding_id": "arabic_conversational_tanween",
+      "severity": "info",
+      "status": "resolved",
+      "resolution": "Confirmed شخص جديد and موضوع يقدر while retaining natural مثلًا."
+    },
+    {
+      "finding_id": "mixed_language_tts_pronunciation",
+      "severity": "info",
+      "status": "resolved",
+      "resolution": "Confirmed one speaker and SSML wrapping for every spoken English span."
+    }
+  ],
+  "audit": {
+    "finding_count": 7,
+    "major_open": 0,
+    "medium_open": 0,
+    "resolved_medium": 5,
+    "owner_accepted_content_preserved": true
+  },
+  "review": {
+    "status": "GOLD_003_passed",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T16:37:00+03:00",
+    "statement": "No major defect remains and every medium migration finding is resolved in the v1 package."
+  }
+}

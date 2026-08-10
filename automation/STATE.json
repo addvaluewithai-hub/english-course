@@ -3,17 +3,17 @@
   "project_status": "active",
   "execution_mode": "single_primary_agent_continuous",
   "scheduled_execution": "disabled_by_owner",
-  "active_phase": "phase_4_gold_lesson",
-  "last_completed_task": "SPINE-006",
-  "next_task": "GOLD-003",
-  "updated_at": "2026-08-10T16:27:48+03:00",
+  "active_phase": "phase_5_learner_test",
+  "last_completed_task": "GOLD-003",
+  "next_task": "TEST-001",
+  "updated_at": "2026-08-10T16:43:29+03:00",
   "phase_gates": {
     "phase_0_foundation": "passed",
     "phase_1_learning_model": "passed",
     "phase_2_curriculum_audit": "passed",
     "phase_3_lesson_normalization": "passed",
-    "phase_4_gold_lesson": "open",
-    "phase_5_learner_test": "locked",
+    "phase_4_gold_lesson": "passed",
+    "phase_5_learner_test": "open",
     "phase_6_lesson_system": "locked",
     "phase_7_architecture": "locked",
     "phase_8_unit_1": "locked",
@@ -229,9 +229,25 @@
     "release_status": "blocked_until_content_packages_and_learner_validation_pass",
     "unresolved_scope_sequence_findings": 0
   },
+  "gold_lesson_v1_migration": {
+    "status": "complete_GOLD_003_passed",
+    "final_lesson_id": "U1-L03",
+    "package_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03",
+    "package_files": 12,
+    "exact_introductions": 7,
+    "exact_recycles": 3,
+    "speaker_count": 1,
+    "interaction_during_video": false,
+    "english_spans_without_ssml": 0,
+    "open_major_findings": 0,
+    "open_medium_findings": 0,
+    "resolved_medium_findings": 5,
+    "owner_accepted_content_preserved": true,
+    "next_gate": "TEST-001"
+  },
   "last_full_validation": {
-    "passed_tests": 361,
+    "passed_tests": 367,
     "failed_tests": 0,
-    "validated_at": "2026-08-10T16:27:48+03:00"
+    "validated_at": "2026-08-10T16:43:29+03:00"
   }
 }

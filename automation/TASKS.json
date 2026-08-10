@@ -273,18 +273,21 @@
       "id": "GOLD-003",
       "phase": "phase_4_gold_lesson",
       "title": "Run independent pedagogy, level, Arabic, and source QA",
-      "status": "in_progress",
+      "status": "complete",
       "dependencies": ["GOLD-002"],
       "acceptance": "No major defect remains and all medium findings have owners.",
       "notes": [
-        "2026-08-10: reopened against A1 scope-and-sequence v1. The accepted gold content is preserved but now occupies U1-L03 after a social opening and listening model; its exact targets and package IDs require migration review."
+        "2026-08-10: reopened against A1 scope-and-sequence v1. The accepted gold content is preserved but now occupies U1-L03 after a social opening and listening model.",
+        "2026-08-10: migrated the accepted one-teacher lesson into the versioned A1 v1 path with seven locked introductions, three locked recycles, and traceable source hashes.",
+        "2026-08-10: removed the out-of-sequence systematic live vowel contrast, added bounded my + name and a/an + job application, and verified every spoken English span uses SSML.",
+        "2026-08-10: all seven QA findings are resolved, no major or medium item remains open, and all 367 repository tests pass. GOLD-003 complete."
       ]
     },
     {
       "id": "TEST-001",
       "phase": "phase_5_learner_test",
       "title": "Create prototype, protocol, consent, and success thresholds",
-      "status": "locked",
+      "status": "in_progress",
       "dependencies": ["GOLD-003"],
       "acceptance": "A clickable test and ethical observation protocol can evaluate the important hypotheses."
     },
