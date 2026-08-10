@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/a1-final-candidate-decisions.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "decision_set_id", "version", "inputs", "policy", "decisions", "ownership_transfers", "final_lesson_capabilities", "support_owners", "exit_anchor_resolutions", "audit", "review"],
+  "properties": {
+    "schema_version": {"const": 1}, "decision_set_id": {"const": "a1_final_candidate_decisions"}, "version": {"const": 1},
+    "inputs": {"type": "array", "minItems": 7, "maxItems": 7, "items": {"$ref": "#/$defs/input"}},
+    "policy": {"$ref": "#/$defs/policy"},
+    "decisions": {"type": "array", "minItems": 81, "maxItems": 81, "items": {"$ref": "#/$defs/decision"}},
+    "ownership_transfers": {"type": "array", "minItems": 216, "maxItems": 216, "items": {"$ref": "#/$defs/transfer"}},
+    "final_lesson_capabilities": {"type": "array", "minItems": 45, "maxItems": 45, "items": {"$ref": "#/$defs/capability"}},
+    "support_owners": {"type": "array", "minItems": 1, "maxItems": 1, "items": {"$ref": "#/$defs/support"}},
+    "exit_anchor_resolutions": {"type": "array", "minItems": 31, "maxItems": 31, "items": {"$ref": "#/$defs/exit"}},
+    "audit": {"$ref": "#/$defs/audit"}, "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "candidateId": {"type": "string", "pattern": "^lesson_candidate\\.[a-z0-9_]+$"},
+    "ownerId": {"type": "string", "pattern": "^(lesson_candidate|support)\\.[a-z0-9_]+$"},
+    "candidateIds": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/candidateId"}},
+    "ownerIds": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/ownerId"}},
+    "itemId": {"type": "string", "pattern": "^(grammar|lexical|a1_pronunciation)\\.[a-z0-9_]+$"},
+    "itemIds": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/itemId"}},
+    "input": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"], "properties": {"path": {"$ref": "#/$defs/text"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}},
+    "policy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["old_candidate_count_is_not_a_target", "no_preservation_bias", "source_capability_survival_rule", "exact_ownership_transfer_rule", "mass_production_status"],
+      "properties": {
+        "old_candidate_count_is_not_a_target": {"const": true}, "no_preservation_bias": {"const": true},
+        "source_capability_survival_rule": {"$ref": "#/$defs/text"}, "exact_ownership_transfer_rule": {"$ref": "#/$defs/text"},
+        "mass_production_status": {"const": "blocked_until_SPINE_006"}
+      }
+    },
+    "decision": {
+      "type": "object", "additionalProperties": false,
+      "required": ["candidate_id", "decision", "architecture_role", "survives_as_learner_lesson", "final_owner_ids", "primary_transfer_owner_id", "rationale", "revised_outcome_statement", "mastery_action", "original_sequence_position", "original_outcome_statement", "a1_fit_status", "original_architecture_hypothesis", "construct_revision_actions", "exact_introduction_item_ids", "exact_recycle_item_ids", "protected_exit_anchor", "unresolved_questions", "review_status"],
+      "properties": {
+        "candidate_id": {"$ref": "#/$defs/candidateId"}, "decision": {"enum": ["keep", "revise", "merge", "support_only", "split"]},
+        "architecture_role": {"enum": ["learner_lesson", "merged_source", "cross_cutting_support", "split_source"]},
+        "survives_as_learner_lesson": {"type": "boolean"}, "final_owner_ids": {"$ref": "#/$defs/ownerIds"},
+        "primary_transfer_owner_id": {"$ref": "#/$defs/ownerId"}, "rationale": {"$ref": "#/$defs/text"},
+        "revised_outcome_statement": {"type": ["string", "null"]}, "mastery_action": {"$ref": "#/$defs/text"},
+        "original_sequence_position": {"type": "integer", "minimum": 1, "maximum": 81}, "original_outcome_statement": {"$ref": "#/$defs/text"},
+        "a1_fit_status": {"enum": ["fits_a1_boundary", "fits_a1_with_scope_revision"]},
+        "original_architecture_hypothesis": {"enum": ["standalone_plausible", "merge_review", "support_only_review", "unit_synthesis_review", "split_review"]},
+        "construct_revision_actions": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
+        "exact_introduction_item_ids": {"$ref": "#/$defs/itemIds"}, "exact_recycle_item_ids": {"$ref": "#/$defs/itemIds"},
+        "protected_exit_anchor": {"type": "boolean"}, "unresolved_questions": {"type": "array", "maxItems": 0},
+        "review_status": {"const": "accepted"}
+      }
+    },
+    "transfer": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_candidate_id", "role", "item_id", "destination_owner_id", "status"],
+      "properties": {"source_candidate_id": {"$ref": "#/$defs/candidateId"}, "role": {"enum": ["introduction", "recycle"]}, "item_id": {"$ref": "#/$defs/itemId"}, "destination_owner_id": {"$ref": "#/$defs/ownerId"}, "status": {"const": "accepted_transfer"}}
+    },
+    "capability": {
+      "type": "object", "additionalProperties": false,
+      "required": ["final_owner_id", "decision", "source_candidate_ids", "outcome_statement", "mastery_action", "introduction_item_ids", "recycle_item_ids", "status"],
+      "properties": {"final_owner_id": {"$ref": "#/$defs/candidateId"}, "decision": {"enum": ["keep", "revise"]}, "source_candidate_ids": {"$ref": "#/$defs/candidateIds"}, "outcome_statement": {"$ref": "#/$defs/text"}, "mastery_action": {"$ref": "#/$defs/text"}, "introduction_item_ids": {"$ref": "#/$defs/itemIds"}, "recycle_item_ids": {"$ref": "#/$defs/itemIds"}, "status": {"const": "accepted_for_scope_and_sequence"}}
+    },
+    "support": {
+      "type": "object", "additionalProperties": false,
+      "required": ["support_owner_id", "source_candidate_ids", "introduction_item_ids", "recycle_item_ids", "status"],
+      "properties": {"support_owner_id": {"type": "string", "pattern": "^support\\.[a-z0-9_]+$"}, "source_candidate_ids": {"$ref": "#/$defs/candidateIds"}, "introduction_item_ids": {"$ref": "#/$defs/itemIds"}, "recycle_item_ids": {"$ref": "#/$defs/itemIds"}, "status": {"const": "accepted_cross_cutting_support"}}
+    },
+    "exit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["dimension_code", "anchor_candidate_id", "decision", "resolved_owner_ids", "status"],
+      "properties": {"dimension_code": {"enum": ["listening_reception", "reading_reception", "speaking_production", "writing_production", "oral_interaction", "written_online_interaction", "mediation"]}, "anchor_candidate_id": {"$ref": "#/$defs/candidateId"}, "decision": {"enum": ["keep", "revise", "merge", "support_only", "split"]}, "resolved_owner_ids": {"$ref": "#/$defs/ownerIds"}, "status": {"const": "resolved"}}
+    },
+    "audit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["candidate_count", "decision_counts", "final_lesson_capability_count", "support_owner_count", "non_surviving_candidate_count", "ownership_transfer_count", "final_exact_item_count", "resolved_exit_anchor_count", "unresolved_exit_anchor_count", "scope_revision_candidates_kept_without_revision", "surviving_unit1_capability_count", "sequence_findings_carried_forward", "unresolved_questions"],
+      "properties": {
+        "candidate_count": {"const": 81}, "decision_counts": {"const": {"keep": 23, "merge": 21, "revise": 22, "split": 1, "support_only": 14}},
+        "final_lesson_capability_count": {"const": 45}, "support_owner_count": {"const": 1}, "non_surviving_candidate_count": {"const": 36},
+        "ownership_transfer_count": {"const": 216}, "final_exact_item_count": {"const": 158}, "resolved_exit_anchor_count": {"const": 31},
+        "unresolved_exit_anchor_count": {"const": 0}, "scope_revision_candidates_kept_without_revision": {"const": 0},
+        "surviving_unit1_capability_count": {"const": 8}, "sequence_findings_carried_forward": {"const": 60},
+        "unresolved_questions": {"type": "array", "maxItems": 0}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at", "statement"],
+      "properties": {"status": {"const": "SPINE_005_passed_for_scope_and_sequence"}, "reviewer": {"const": "codex_primary_curriculum_agent"}, "reviewed_at": {"type": "string", "format": "date-time"}, "statement": {"$ref": "#/$defs/text"}}
+    }
+  }
+}

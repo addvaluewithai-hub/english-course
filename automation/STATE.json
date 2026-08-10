@@ -4,9 +4,9 @@
   "execution_mode": "single_primary_agent_continuous",
   "scheduled_execution": "disabled_by_owner",
   "active_phase": "cross_level_vertical_spine",
-  "last_completed_task": "SPINE-004",
-  "next_task": "SPINE-005",
-  "updated_at": "2026-08-10T15:53:31+03:00",
+  "last_completed_task": "SPINE-005",
+  "next_task": "SPINE-006",
+  "updated_at": "2026-08-10T16:08:53+03:00",
   "phase_gates": {
     "phase_0_foundation": "passed",
     "phase_1_learning_model": "passed",
@@ -93,13 +93,13 @@
     "mass_a1_production": "blocked_until_SPINE-006"
   },
   "a1_reconciliation": {
-    "status": "in_progress",
+    "status": "complete",
     "current_candidate_count": 81,
     "unit1_candidate_count": 8,
     "old_to_all_level_source_crosswalk": "complete",
     "candidates_with_a1_only_source_evidence": 81,
     "unmatched_source_evidence_records": 0,
-    "final_decisions_pending": 81,
+    "final_decisions_pending": 0,
     "outcome_level_fit_review": {
       "status": "complete_first_pass",
       "fits_a1_boundary": 67,
@@ -186,11 +186,28 @@
       "unknown_locations_or_unprotected_dimensions": 0,
       "final_lesson_decisions_made": 0
     },
-    "next_partition": "final_candidate_decisions"
+    "final_candidate_decisions": {
+      "status": "complete_SPINE_005_passed",
+      "source_candidates_reviewed": 81,
+      "keep_decisions": 23,
+      "revise_decisions": 22,
+      "merge_decisions": 21,
+      "support_only_decisions": 14,
+      "split_decisions": 1,
+      "final_learner_lesson_capabilities": 45,
+      "cross_cutting_support_owners": 1,
+      "exact_ownership_roles_transferred": 216,
+      "exact_items_with_final_introduction_and_recycle_owners": 158,
+      "resolved_exit_anchors": 31,
+      "unresolved_exit_anchors_or_questions": 0,
+      "surviving_unit1_capabilities": 8,
+      "sequence_findings_carried_to_SPINE_006": 60
+    },
+    "next_partition": "final_a1_units_scope_sequence_SPINE_006"
   },
   "last_full_validation": {
-    "passed_tests": 348,
+    "passed_tests": 354,
     "failed_tests": 0,
-    "validated_at": "2026-08-10T15:53:31+03:00"
+    "validated_at": "2026-08-10T16:08:53+03:00"
   }
 }

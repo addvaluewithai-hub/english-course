@@ -1,0 +1,71 @@
+"""Reviewed final dispositions for A1 candidates 58-81."""
+
+from scripts.a1_final_decision_helpers import decision, keep, revise
+
+
+DECISIONS = (
+    decision("complete_a_very_simple_online_purchase_or_application", "split",
+             ("complete_a_simple_information_form", "handle_basic_price_and_quantity_information", "check_in_at_a_hotel"),
+             "The compound candidate splits into digital application, purchase, and contextual form-transfer owners.",
+             mastery="Do not assess the original compound task; assess each arm under its named owner."),
+    keep("leave_a_simple_whereabouts_and_return_message", "Destination plus return time form coherent message mastery."),
+    decision("relay_names_numbers_and_prices_from_slow_speech", "merge", ("relay_predictable_person_time_or_place_details",),
+             "Both predictable-detail mediation candidates become one explicit English-to-Arabic relay outcome."),
+    revise("understand_common_signs_notices_and_visual_instructions", "Absorb sign mediation while keeping dictionary use out of mastery.",
+           "Understand a fresh simple English sign or notice and relay one practical meaning or required action accurately in Arabic.",
+           "Score practical meaning and action; dictionary use is guided practice, not answer-revealing mastery support."),
+    revise("identify_a_headline_news_topic_from_visual_media", "Unify the two narrow visual-media recognition variants.",
+           "Identify a familiar topic or product and one explicit detail in a fresh short visual-supported news or advertisement clip.",
+           "Use a changed clip; score the topic or product and required detail."),
+    decision("identify_a_product_in_a_short_video_advertisement", "merge", ("identify_a_headline_news_topic_from_visual_media",),
+             "Product recognition becomes the advertisement variant of visual-media mastery."),
+    decision("understand_a_short_simple_postcard_message", "merge", ("write_a_short_message_to_a_friend",),
+             "Postcard reception becomes the input phase of one correspondence lesson."),
+    keep("react_politely_to_a_simple_online_post", "Reaction plus one follow-up response is coherent online interaction."),
+    decision("convey_simple_information_from_a_sign_or_notice", "merge", ("understand_common_signs_notices_and_visual_instructions",),
+             "Sign relay becomes the mediation phase of the sign-comprehension owner."),
+    decision("give_a_rough_oral_translation_of_everyday_sign_words", "support_only",
+             ("understand_common_signs_notices_and_visual_instructions",),
+             "Rough translation is guided support inside practical sign mediation."),
+    decision("agree_to_a_simple_request", "support_only",
+             ("exchange_information_about_an_immediate_need", "share_an_idea_and_ask_what_others_think"),
+             "Agreement is recycled inside requests and simple collaboration."),
+    decision("accept_a_simple_offer", "support_only",
+             ("ask_for_basic_food_or_drink", "open_and_close_a_basic_social_exchange"),
+             "Offer acceptance is recycled inside service and social exchanges."),
+    keep("open_and_close_a_basic_social_exchange", "Greeting through farewell is a complete social outcome."),
+    decision("respond_politely_to_an_introduction", "support_only",
+             ("describe_a_family_or_known_person", "open_and_close_a_basic_social_exchange"),
+             "The fixed response is taught inside introduction and social-exchange tasks."),
+    decision("deliver_a_rehearsed_formal_introduction", "merge", ("describe_a_family_or_known_person",),
+             "Formal delivery becomes a prepared audience variant using learner-created notes."),
+    decision("use_basic_everyday_polite_forms", "support_only", ("support.a1_politeness_control",),
+             "Please, thanks, apology, and polite tone remain level-wide control, not a standalone lesson."),
+    revise("state_how_a_simple_work_made_them_feel", "Choose spoken mastery and make writing only transfer.",
+           "After a fresh simple safe creative work, state orally in one or two simple phrases how it made you feel.",
+           "Score a relevant spoken feeling response; writing is delayed transfer."),
+    decision("show_basic_sympathy_during_a_problem_or_disagreement", "support_only",
+             ("share_an_idea_and_ask_what_others_think", "describe_a_simple_problem_to_a_health_professional", "open_and_close_a_basic_social_exchange"),
+             "Sympathy is recycled inside collaboration, health, and social response contexts."),
+    decision("invite_input_and_check_understanding_in_a_simple_task", "merge", ("share_an_idea_and_ask_what_others_think",),
+             "Invitation and checking moves become part of one bounded collaboration task."),
+    decision("show_interest_and_welcome_an_idea", "support_only", ("share_an_idea_and_ask_what_others_think",),
+             "Interest and welcome are response moves inside the collaboration owner."),
+    revise("share_an_idea_and_ask_what_others_think", "Absorb invitation, interest, and understanding checks.",
+           "During a fresh very simple task, share one prepared idea, invite another person, show interest, and check one point of understanding.",
+           "Use changed roles and task; score the required collaborative moves without supplying their wording."),
+    keep("follow_short_written_everyday_instructions", "Following several ordered written steps is coherent practical reception."),
+    keep("understand_outline_of_an_illustrated_short_story", "Main situation and basic sequence with illustrations form coherent leisure reading."),
+    decision("translate_simple_written_phrases_with_a_dictionary", "support_only",
+             ("understand_common_signs_notices_and_visual_instructions",),
+             "Dictionary-assisted English-to-Arabic rendering is guided support in practical sign mediation."),
+)
+
+
+TRANSFER_OVERRIDES = {
+    "lesson_candidate.complete_a_very_simple_online_purchase_or_application": {
+        "lexical.hotel_checkin_frames": "lesson_candidate.check_in_at_a_hotel",
+        "lexical.hotel_core": "lesson_candidate.check_in_at_a_hotel",
+        "lexical.shopping_options": "lesson_candidate.handle_basic_price_and_quantity_information",
+    }
+}
