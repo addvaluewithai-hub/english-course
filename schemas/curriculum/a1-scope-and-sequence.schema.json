@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/a1-scope-and-sequence.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "scope_sequence_id", "version", "inputs", "policy", "units", "exact_item_placements", "mapped_prerequisite_edges", "capability_unit_mastery_coverage", "exit_assessment", "unit1_prototype_migration", "audit", "review"],
+  "properties": {
+    "schema_version": {"const": 1}, "scope_sequence_id": {"const": "a1_scope_and_sequence"}, "version": {"const": 1},
+    "inputs": {"type": "array", "minItems": 10, "maxItems": 10, "items": {"$ref": "#/$defs/input"}},
+    "policy": {"$ref": "#/$defs/policy"}, "units": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"$ref": "#/$defs/unit"}},
+    "exact_item_placements": {"type": "array", "minItems": 158, "maxItems": 158, "items": {"$ref": "#/$defs/item"}},
+    "mapped_prerequisite_edges": {"type": "array", "minItems": 24, "maxItems": 24, "items": {"$ref": "#/$defs/edge"}},
+    "capability_unit_mastery_coverage": {"type": "array", "minItems": 45, "maxItems": 45, "items": {"$ref": "#/$defs/coverage"}},
+    "exit_assessment": {"$ref": "#/$defs/exit"}, "unit1_prototype_migration": {"$ref": "#/$defs/migration"},
+    "audit": {"$ref": "#/$defs/audit"}, "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1}, "nullableText": {"type": ["string", "null"]},
+    "candidateId": {"type": "string", "pattern": "^lesson_candidate\\.[a-z0-9_]+$"},
+    "locationId": {"type": "string", "pattern": "^(lesson_candidate|support|unit_review|assessment)\\.[A-Za-z0-9_]+$"},
+    "itemId": {"type": "string", "pattern": "^(grammar|lexical|a1_pronunciation)\\.[a-z0-9_]+$"},
+    "itemIds": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/itemId"}},
+    "candidateIds": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/candidateId"}},
+    "bilingual": {"type": "object", "additionalProperties": false, "required": ["en", "ar"], "properties": {"en": {"$ref": "#/$defs/text"}, "ar": {"$ref": "#/$defs/text"}}},
+    "input": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"], "properties": {"path": {"$ref": "#/$defs/text"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}},
+    "policy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "lesson_count_is_capability_count", "gold_lesson_status", "exact_item_lifecycle", "content_factory_status", "release_status"],
+      "properties": {"status": {"const": "locked_v1"}, "lesson_count_is_capability_count": {"const": true}, "gold_lesson_status": {"const": "preserved_and_moved_after_input"}, "exact_item_lifecycle": {"const": "introduce_then_fresh_recycle_then_consolidate"}, "content_factory_status": {"const": "authorised_against_locked_scope"}, "release_status": {"const": "blocked_until_content_packages_and_learner_validation_pass"}}
+    },
+    "prototype": {
+      "type": "object", "additionalProperties": false, "required": ["old_lesson_id", "old_content_path", "reuse_status"],
+      "properties": {"old_lesson_id": {"$ref": "#/$defs/nullableText"}, "old_content_path": {"$ref": "#/$defs/nullableText"}, "reuse_status": {"enum": ["author_new_package", "gold_reference_preserved_requires_id_rebind", "prototype_requires_rebuild_to_v1_scope"]}}
+    },
+    "lesson": {
+      "type": "object", "additionalProperties": false,
+      "required": ["lesson_id", "global_sequence_position", "final_owner_id", "title", "outcome_statement", "mastery_action", "source_candidate_ids", "planned_content_path", "prototype_lineage", "status"],
+      "properties": {"lesson_id": {"type": "string", "pattern": "^U[1-6]-L[0-9]{2}$"}, "global_sequence_position": {"type": "integer", "minimum": 1, "maximum": 45}, "final_owner_id": {"$ref": "#/$defs/candidateId"}, "title": {"$ref": "#/$defs/bilingual"}, "outcome_statement": {"$ref": "#/$defs/text"}, "mastery_action": {"$ref": "#/$defs/text"}, "source_candidate_ids": {"$ref": "#/$defs/candidateIds"}, "planned_content_path": {"$ref": "#/$defs/text"}, "prototype_lineage": {"$ref": "#/$defs/prototype"}, "status": {"const": "scope_sequence_locked_content_pending"}}
+    },
+    "station": {
+      "type": "object", "additionalProperties": false,
+      "required": ["station_id", "title", "owner_ids", "dimension_codes", "fresh_task", "critical_failure", "answer_revealing_support_allowed"],
+      "properties": {"station_id": {"type": "string", "pattern": "^(U[1-6]-M[0-9]{2}|A1-X[0-9]{2})$"}, "title": {"$ref": "#/$defs/text"}, "owner_ids": {"$ref": "#/$defs/candidateIds"}, "dimension_codes": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["listening_reception", "reading_reception", "speaking_production", "writing_production", "oral_interaction", "written_online_interaction", "mediation"]}}, "fresh_task": {"$ref": "#/$defs/text"}, "critical_failure": {"$ref": "#/$defs/text"}, "answer_revealing_support_allowed": {"const": false}}
+    },
+    "unitReview": {
+      "type": "object", "additionalProperties": false, "required": ["review_id", "review_item_ids", "fresh_variant_policy", "mastery_stations", "all_station_support_non_answer_revealing"],
+      "properties": {"review_id": {"type": "string", "pattern": "^unit_review\\.U[1-6]$"}, "review_item_ids": {"$ref": "#/$defs/itemIds"}, "fresh_variant_policy": {"$ref": "#/$defs/text"}, "mastery_stations": {"type": "array", "minItems": 3, "maxItems": 4, "items": {"$ref": "#/$defs/station"}}, "all_station_support_non_answer_revealing": {"const": true}}
+    },
+    "unit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["unit_id", "unit_number", "directory", "title", "unit_outcome", "lesson_count", "lessons", "unit_review_id", "unit_review"],
+      "properties": {"unit_id": {"type": "string", "pattern": "^a1\\.unit0[1-6]\\.[a-z0-9_]+$"}, "unit_number": {"type": "integer", "minimum": 1, "maximum": 6}, "directory": {"$ref": "#/$defs/text"}, "title": {"$ref": "#/$defs/bilingual"}, "unit_outcome": {"$ref": "#/$defs/bilingual"}, "lesson_count": {"type": "integer", "minimum": 5, "maximum": 9}, "lessons": {"type": "array", "minItems": 5, "maxItems": 9, "items": {"$ref": "#/$defs/lesson"}}, "unit_review_id": {"type": "string", "pattern": "^unit_review\\.U[1-6]$"}, "unit_review": {"$ref": "#/$defs/unitReview"}}
+    },
+    "item": {
+      "type": "object", "additionalProperties": false,
+      "required": ["item_id", "system", "label", "candidate_introduction_owner_ids", "candidate_recycle_owner_ids", "final_introduction_location_id", "introduction_resolution", "first_fresh_recycle_location_id", "first_recycle_resolution", "consolidation_location_id", "prior_sequence_status", "final_status"],
+      "properties": {"item_id": {"$ref": "#/$defs/itemId"}, "system": {"enum": ["grammar", "lexical", "pronunciation"]}, "label": {"$ref": "#/$defs/text"}, "candidate_introduction_owner_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/locationId"}}, "candidate_recycle_owner_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/locationId"}}, "final_introduction_location_id": {"$ref": "#/$defs/locationId"}, "introduction_resolution": {"enum": ["retained_named_introduction", "transferred_to_earliest_final_use"]}, "first_fresh_recycle_location_id": {"$ref": "#/$defs/locationId"}, "first_recycle_resolution": {"enum": ["existing_final_owner", "unit_review_added"]}, "consolidation_location_id": {"$ref": "#/$defs/locationId"}, "prior_sequence_status": {"enum": ["aligned", "early_use_requires_introduction_transfer_or_reorder", "no_later_recycle_requires_reorder_or_new_recycle"]}, "final_status": {"const": "resolved_introduction_recycle_consolidation"}}
+    },
+    "edge": {
+      "type": "object", "additionalProperties": false, "required": ["before_owner_id", "after_owner_id", "relationship", "source_edge_count", "before_position", "after_position", "status"],
+      "properties": {"before_owner_id": {"$ref": "#/$defs/candidateId"}, "after_owner_id": {"$ref": "#/$defs/candidateId"}, "relationship": {"enum": ["required_before", "helpful_before"]}, "source_edge_count": {"type": "integer", "minimum": 1}, "before_position": {"type": "integer", "minimum": 1, "maximum": 45}, "after_position": {"type": "integer", "minimum": 1, "maximum": 45}, "status": {"const": "aligned"}}
+    },
+    "coverage": {"type": "object", "additionalProperties": false, "required": ["final_owner_id", "unit_station_ids"], "properties": {"final_owner_id": {"$ref": "#/$defs/candidateId"}, "unit_station_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^U[1-6]-M[0-9]{2}$"}}}},
+    "exit": {
+      "type": "object", "additionalProperties": false, "required": ["assessment_id", "language_probe_id", "language_probe_item_ids", "fresh_variant_policy", "stations", "all_seven_dimensions_required", "decision_rule"],
+      "properties": {"assessment_id": {"const": "a1.exit_assessment.v1"}, "language_probe_id": {"const": "assessment.a1_exit_language_probe"}, "language_probe_item_ids": {"$ref": "#/$defs/itemIds"}, "fresh_variant_policy": {"$ref": "#/$defs/text"}, "stations": {"type": "array", "minItems": 7, "maxItems": 7, "items": {"$ref": "#/$defs/station"}}, "all_seven_dimensions_required": {"const": true}, "decision_rule": {"$ref": "#/$defs/text"}}
+    },
+    "migration": {
+      "type": "object", "additionalProperties": false, "required": ["status", "old_package_count", "old_capabilities_preserved_in_new_unit", "new_unit_lesson_count", "added_social_owner_id", "old_gold_lesson_id", "new_gold_lesson_id", "gold_content_path", "migration_rule"],
+      "properties": {"status": {"const": "prototype_preserved_rebuild_required"}, "old_package_count": {"const": 8}, "old_capabilities_preserved_in_new_unit": {"const": 8}, "new_unit_lesson_count": {"const": 9}, "added_social_owner_id": {"const": "lesson_candidate.open_and_close_a_basic_social_exchange"}, "old_gold_lesson_id": {"const": "U1-L01"}, "new_gold_lesson_id": {"const": "U1-L03"}, "gold_content_path": {"const": "gold/introduce-yourself"}, "migration_rule": {"$ref": "#/$defs/text"}}
+    },
+    "audit": {
+      "type": "object", "additionalProperties": false, "required": ["unit_count", "unit_lesson_counts", "lesson_count", "unique_lesson_owner_count", "exact_item_count", "introduction_resolution_counts", "first_recycle_resolution_counts", "carried_sequence_findings_resolved", "unresolved_item_placements", "mapped_prerequisite_edge_count", "aligned_mapped_prerequisite_edges", "absorbed_source_prerequisite_edges", "unit_mastery_station_count", "capabilities_with_unit_mastery", "exit_station_count", "exit_dimensions_covered", "unresolved_questions"],
+      "properties": {"unit_count": {"const": 6}, "unit_lesson_counts": {"const": [9, 9, 7, 7, 5, 8]}, "lesson_count": {"const": 45}, "unique_lesson_owner_count": {"const": 45}, "exact_item_count": {"const": 158}, "introduction_resolution_counts": {"const": {"retained_named_introduction": 118, "transferred_to_earliest_final_use": 40}}, "first_recycle_resolution_counts": {"const": {"existing_final_owner": 146, "unit_review_added": 12}}, "carried_sequence_findings_resolved": {"const": 60}, "unresolved_item_placements": {"const": 0}, "mapped_prerequisite_edge_count": {"const": 24}, "aligned_mapped_prerequisite_edges": {"const": 24}, "absorbed_source_prerequisite_edges": {"const": 20}, "unit_mastery_station_count": {"const": 19}, "capabilities_with_unit_mastery": {"const": 45}, "exit_station_count": {"const": 7}, "exit_dimensions_covered": {"const": 7}, "unresolved_questions": {"type": "array", "maxItems": 0}}
+    },
+    "review": {"type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at", "statement"], "properties": {"status": {"const": "SPINE_006_passed_scope_sequence_locked"}, "reviewer": {"const": "codex_primary_curriculum_agent"}, "reviewed_at": {"type": "string", "format": "date-time"}, "statement": {"$ref": "#/$defs/text"}}}
+  }
+}

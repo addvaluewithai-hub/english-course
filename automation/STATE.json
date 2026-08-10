@@ -3,10 +3,10 @@
   "project_status": "active",
   "execution_mode": "single_primary_agent_continuous",
   "scheduled_execution": "disabled_by_owner",
-  "active_phase": "cross_level_vertical_spine",
-  "last_completed_task": "SPINE-005",
-  "next_task": "SPINE-006",
-  "updated_at": "2026-08-10T16:08:53+03:00",
+  "active_phase": "phase_4_gold_lesson",
+  "last_completed_task": "SPINE-006",
+  "next_task": "GOLD-003",
+  "updated_at": "2026-08-10T16:27:48+03:00",
   "phase_gates": {
     "phase_0_foundation": "passed",
     "phase_1_learning_model": "passed",
@@ -18,7 +18,7 @@
     "phase_7_architecture": "locked",
     "phase_8_unit_1": "locked",
     "phase_9_full_a1": "locked",
-    "cross_level_vertical_spine": "open"
+    "cross_level_vertical_spine": "passed"
   },
   "source_baseline": {
     "pdf_files": 6,
@@ -29,7 +29,7 @@
   },
   "owner_directed_content_build": {
     "gold_lesson_accepted_by_owner": true,
-    "unit_1_first_connections": "complete_source_package",
+    "unit_1_first_connections": "prototype_preserved_rebuild_required_against_v1_scope",
     "external_learner_pilot_evidence": "deferred_named_risk",
     "rendered_media": "generate_and_listen_from_approved_source_packages"
   },
@@ -38,11 +38,12 @@
     "pre_a1_role": "diagnostic_and_remedial_on_ramp",
     "proposal_status": "exit_profiles_approved_v1",
     "egp_all_level_records": 1222,
-    "mass_a1_production": "blocked_until_spine_006",
+    "mass_a1_production": "scope_locked_content_authoring_authorized",
     "parallel_delivery_pilot": "allowed",
     "current_a1_candidates": 81,
-    "current_a1_candidate_status": "source_audited_not_owner_approved",
-    "final_a1_lesson_count": "open"
+    "current_a1_candidate_status": "reconciled_into_final_scope",
+    "final_a1_unit_count": 6,
+    "final_a1_lesson_count": 45
   },
   "source_normalization": {
     "status": "complete",
@@ -203,11 +204,34 @@
       "surviving_unit1_capabilities": 8,
       "sequence_findings_carried_to_SPINE_006": 60
     },
-    "next_partition": "final_a1_units_scope_sequence_SPINE_006"
+    "next_partition": "complete"
+  },
+  "a1_scope_sequence": {
+    "status": "complete_SPINE_006_passed_locked_v1",
+    "unit_count": 6,
+    "unit_lesson_counts": [9, 9, 7, 7, 5, 8],
+    "learner_lesson_capabilities": 45,
+    "exact_items_placed": 158,
+    "named_introductions_retained": 118,
+    "introductions_transferred_to_earliest_use": 40,
+    "existing_owner_first_recycles": 146,
+    "unit_review_first_recycles_added": 12,
+    "sequence_findings_resolved": 60,
+    "mapped_prerequisite_edges_aligned": 24,
+    "unit_mastery_stations": 19,
+    "capabilities_with_unit_mastery": 45,
+    "exit_stations": 7,
+    "exit_dimensions_covered": 7,
+    "old_unit1_packages_preserved": 8,
+    "new_unit1_lesson_count": 9,
+    "gold_lesson_new_position": "U1-L03",
+    "content_factory_status": "authorised_against_locked_scope",
+    "release_status": "blocked_until_content_packages_and_learner_validation_pass",
+    "unresolved_scope_sequence_findings": 0
   },
   "last_full_validation": {
-    "passed_tests": 354,
+    "passed_tests": 361,
     "failed_tests": 0,
-    "validated_at": "2026-08-10T16:08:53+03:00"
+    "validated_at": "2026-08-10T16:27:48+03:00"
   }
 }

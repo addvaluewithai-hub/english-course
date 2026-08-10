@@ -240,12 +240,17 @@
       "id": "SPINE-006",
       "phase": "cross_level_vertical_spine",
       "title": "Lock A1 scope and sequence v1",
-      "status": "in_progress",
+      "status": "complete",
       "dependencies": ["SPINE-005"],
       "acceptance": "Final A1 units, sequence, language ownership, recycling, and exit assessment coverage pass independent review.",
       "notes": [
         "2026-08-10: opened after SPINE-005 passed with 45 final learner-facing capability owners, one cross-cutting support owner, and no unresolved candidate decisions.",
-        "Current constraints: preserve all 158 exact items and 31 protected exit anchors, correct the Unit 1 input-before-output issue, and resolve 60 provisional-order introduction/recycle findings."
+        "2026-08-10: locked six final units containing 9, 9, 7, 7, 5, and 8 learner-facing capabilities respectively; every one of the 45 final owners appears exactly once.",
+        "2026-08-10: placed all 158 exact items into an ordered introduce -> fresh recycle -> consolidation lifecycle. Forty introductions moved to their earliest final use, 12 new unit-review recycles were added, and all 60 carried sequence findings are resolved.",
+        "2026-08-10: all 24 mapped prerequisite edges are aligned. Nineteen fresh unit-mastery stations cover all 45 capabilities, and seven exit stations cover listening, reading, speaking, writing, oral interaction, written online interaction, and mediation.",
+        "2026-08-10: preserved all eight existing Unit 1 packages as rebuildable prototypes, added a social-opening lesson, and moved the accepted gold lesson from U1-L01 to U1-L03 after a listening model.",
+        "2026-08-10: all 361 repository tests passed at the completed SPINE-006 scope-and-sequence lock checkpoint.",
+        "SPINE-006 complete. Content authoring is authorised against the locked v1 scope; release remains blocked until package migration, QA, and learner validation pass."
       ]
     },
     {
@@ -268,9 +273,12 @@
       "id": "GOLD-003",
       "phase": "phase_4_gold_lesson",
       "title": "Run independent pedagogy, level, Arabic, and source QA",
-      "status": "ready",
+      "status": "in_progress",
       "dependencies": ["GOLD-002"],
-      "acceptance": "No major defect remains and all medium findings have owners."
+      "acceptance": "No major defect remains and all medium findings have owners.",
+      "notes": [
+        "2026-08-10: reopened against A1 scope-and-sequence v1. The accepted gold content is preserved but now occupies U1-L03 after a social opening and listening model; its exact targets and package IDs require migration review."
+      ]
     },
     {
       "id": "TEST-001",

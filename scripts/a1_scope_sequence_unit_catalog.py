@@ -1,0 +1,58 @@
+"""Reviewed six-unit grouping and order for the final A1 capabilities."""
+
+
+def unit(unit_id: str, title_en: str, title_ar: str, outcome_en: str, outcome_ar: str,
+         lessons: tuple[str, ...]) -> dict:
+    return {
+        "unit_id": unit_id, "title": {"en": title_en, "ar": title_ar},
+        "unit_outcome": {"en": outcome_en, "ar": outcome_ar}, "lesson_short_ids": lessons,
+    }
+
+
+UNITS = (
+    unit("a1.unit01.first_connections", "First Connections", "التعارف الأول",
+         "Handle essential personal information across a first spoken and written contact.",
+         "تواصل لأول مرة وتبادل المعلومات الشخصية الأساسية شفهيًا وكتابيًا.",
+         ("open_and_close_a_basic_social_exchange", "understand_spoken_personal_introductions",
+          "give_short_self_introduction", "exchange_personal_details_orally",
+          "understand_spoken_contact_details", "locate_written_personal_details",
+          "complete_a_simple_information_form", "write_short_personal_profile",
+          "exchange_personal_details_in_writing")),
+    unit("a1.unit02.people_routines_plans", "People, Routines, and Plans", "الناس والروتين والمواعيد",
+         "Understand and exchange simple information about people, routines, preferences, and plans.",
+         "افهم وتبادل معلومات بسيطة عن الناس والروتين والتفضيلات والمواعيد.",
+         ("understand_talk_about_people_and_family", "exchange_information_about_family_and_friends",
+          "describe_a_family_or_known_person", "understand_talk_about_leisure_preferences_and_abilities",
+          "understand_a_short_everyday_activity_text", "describe_a_simple_everyday_routine",
+          "exchange_routine_and_preference_information", "understand_a_simple_meeting_arrangement",
+          "give_an_event_date_and_time")),
+    unit("a1.unit03.things_home_instructions", "Things, Home, and Instructions", "الأشياء والبيت والتعليمات",
+         "Identify, describe, and locate familiar things and follow short spoken and written instructions.",
+         "حدّد ووصف مكان الأشياء المألوفة ونفّذ تعليمات قصيرة مسموعة ومكتوبة.",
+         ("follow_simple_game_or_activity_instructions", "describe_a_familiar_object_orally",
+          "exchange_visible_object_information", "exchange_basic_information_about_a_home",
+          "write_a_simple_room_description", "follow_short_written_everyday_instructions",
+          "understand_outline_of_an_illustrated_short_story")),
+    unit("a1.unit04.places_routes_travel", "Places, Routes, and Travel", "الأماكن والاتجاهات والسفر",
+         "Find place information, follow or clarify routes, and complete basic travel and hotel exchanges.",
+         "افهم معلومات الأماكن والاتجاهات وتعامل في مواقف السفر والفندق الأساسية.",
+         ("follow_simple_written_wayfinding_directions", "follow_slow_spoken_route_directions",
+          "follow_simple_directions_from_an_interlocutor", "understand_outline_of_a_simple_guided_tour",
+          "understand_simple_place_and_hotel_information", "buy_a_basic_public_transport_ticket",
+          "check_in_at_a_hotel")),
+    unit("a1.unit05.services_needs", "Everyday Services and Needs", "الخدمات والاحتياجات اليومية",
+         "Use simple information to buy, order, request help, and explain an immediate health need.",
+         "استخدم معلومات بسيطة للشراء والطلب وطلب المساعدة وشرح احتياج صحي فوري.",
+         ("find_key_details_in_a_simple_advertisement_or_leaflet",
+          "handle_basic_price_and_quantity_information", "ask_for_basic_food_or_drink",
+          "exchange_information_about_an_immediate_need",
+          "describe_a_simple_problem_to_a_health_professional")),
+    unit("a1.unit06.messages_media_community", "Messages, Media, and Community", "الرسائل والإعلام والتواصل",
+         "Understand and create short messages, relay practical information, and participate in simple shared responses.",
+         "افهم وأنشئ رسائل قصيرة وانقل معلومات عملية وشارك في تواصل جماعي بسيط.",
+         ("leave_a_simple_whereabouts_and_return_message", "write_a_short_message_to_a_friend",
+          "understand_common_signs_notices_and_visual_instructions",
+          "identify_a_headline_news_topic_from_visual_media", "react_politely_to_a_simple_online_post",
+          "state_how_a_simple_work_made_them_feel", "share_an_idea_and_ask_what_others_think",
+          "relay_predictable_person_time_or_place_details")),
+)
