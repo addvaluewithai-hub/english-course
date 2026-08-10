@@ -6,7 +6,7 @@
   "active_phase": "cross_level_vertical_spine",
   "last_completed_task": "SPINE-004",
   "next_task": "SPINE-005",
-  "updated_at": "2026-08-10T15:37:48+03:00",
+  "updated_at": "2026-08-10T15:53:31+03:00",
   "phase_gates": {
     "phase_0_foundation": "passed",
     "phase_1_learning_model": "passed",
@@ -170,11 +170,27 @@
       "orphan_targets_strands_risks_or_owners": 0,
       "final_lesson_decisions_made": 0
     },
-    "next_partition": "prerequisite_recycling_mastery_exit_audit"
+    "prerequisite_recycling_mastery_exit_audit": {
+      "status": "complete",
+      "explicit_dependency_edges_aligned": 48,
+      "explicit_dependency_edges_unresolved": 0,
+      "exact_system_items_audited": 158,
+      "sequence_aligned_exact_items": 98,
+      "early_use_items_requiring_transfer_or_reorder": 51,
+      "items_without_later_recycle_in_provisional_order": 9,
+      "candidates_with_exact_item_roles": 81,
+      "structurally_complete_mastery_records": 81,
+      "mastery_constructs_aligned": 67,
+      "mastery_constructs_requiring_revision": 14,
+      "protected_exit_dimensions": 7,
+      "unknown_locations_or_unprotected_dimensions": 0,
+      "final_lesson_decisions_made": 0
+    },
+    "next_partition": "final_candidate_decisions"
   },
   "last_full_validation": {
-    "passed_tests": 342,
+    "passed_tests": 348,
     "failed_tests": 0,
-    "validated_at": "2026-08-10T15:37:48+03:00"
+    "validated_at": "2026-08-10T15:53:31+03:00"
   }
 }
