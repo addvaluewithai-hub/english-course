@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/a1-pronunciation-ownership.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "dataset_id", "version", "inputs", "policy", "targets", "risk_dispositions", "candidate_ownership", "audit", "review"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "dataset_id": {"const": "a1_pronunciation_ownership"},
+    "version": {"const": 1},
+    "inputs": {"type": "array", "minItems": 3, "items": {"$ref": "#/$defs/input"}},
+    "policy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["goal", "reference_model", "variation", "risk_use"],
+      "properties": {
+        "goal": {"type": "string", "minLength": 20},
+        "reference_model": {"type": "string", "minLength": 20},
+        "variation": {"type": "string", "minLength": 20},
+        "risk_use": {"type": "string", "minLength": 20}
+      }
+    },
+    "targets": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/target"}},
+    "risk_dispositions": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/risk"}},
+    "candidate_ownership": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/candidate"}},
+    "audit": {"$ref": "#/$defs/audit"},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "input": {
+      "type": "object", "additionalProperties": false, "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "example": {
+      "type": "object", "additionalProperties": false, "required": ["text", "reference_ipa"],
+      "properties": {
+        "text": {"type": "string", "minLength": 1},
+        "reference_ipa": {"type": "string", "pattern": "^/.*"}
+      }
+    },
+    "target": {
+      "type": "object", "additionalProperties": false,
+      "required": ["target_id", "strand_id", "title", "control_status", "feature_or_contrast", "course_examples", "meaning_risk", "introduction_location", "recycle_locations", "mastery_evidence", "arabic_risk_hypothesis_ids", "not_yet", "teaching_reference", "assessment_tolerance", "source_refs", "level_expectation", "review"],
+      "properties": {
+        "target_id": {"type": "string", "pattern": "^a1_pronunciation\\."},
+        "strand_id": {"type": "string", "pattern": "^pronunciation\\."},
+        "title": {"type": "string", "minLength": 3},
+        "control_status": {"enum": ["receptive_and_productive", "receptive_with_guided_imitation"]},
+        "feature_or_contrast": {"type": "string", "minLength": 10},
+        "course_examples": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/example"}},
+        "meaning_risk": {"type": "string", "minLength": 10},
+        "introduction_location": {"type": "string", "minLength": 5},
+        "recycle_locations": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "mastery_evidence": {"type": "string", "minLength": 15},
+        "arabic_risk_hypothesis_ids": {"type": "array", "items": {"type": "string", "pattern": "^arabic_pronunciation\\."}, "uniqueItems": true},
+        "not_yet": {"type": "string", "minLength": 10},
+        "teaching_reference": {"const": "General American broad IPA for modelling only"},
+        "assessment_tolerance": {"type": "string", "minLength": 20},
+        "source_refs": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "level_expectation": {"type": "string", "minLength": 20},
+        "review": {"$ref": "#/$defs/itemReview"}
+      }
+    },
+    "risk": {
+      "type": "object", "additionalProperties": false,
+      "required": ["risk_id", "strand_id", "statement", "universality", "validation_route", "selected_target_ids", "disposition", "rationale"],
+      "properties": {
+        "risk_id": {"type": "string", "pattern": "^arabic_pronunciation\\."},
+        "strand_id": {"type": "string", "pattern": "^pronunciation\\."},
+        "statement": {"type": "string", "minLength": 15},
+        "universality": {"const": "not_assumed_across_arabic_dialects_or_individuals"},
+        "validation_route": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "selected_target_ids": {"type": "array", "items": {"type": "string", "pattern": "^a1_pronunciation\\."}, "uniqueItems": true},
+        "disposition": {"enum": ["selected_monitor_target", "monitor_if_observed_not_pre_taught"]},
+        "rationale": {"type": "string", "minLength": 20}
+      }
+    },
+    "candidate": {
+      "type": "object", "additionalProperties": false,
+      "required": ["candidate_id", "legacy_pronunciation_targets", "exact_target_ids"],
+      "properties": {
+        "candidate_id": {"type": "string", "pattern": "^lesson_candidate\\."},
+        "legacy_pronunciation_targets": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "exact_target_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^a1_pronunciation\\."}, "uniqueItems": true}
+      }
+    },
+    "itemReview": {
+      "type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at"],
+      "properties": {
+        "status": {"const": "accepted_for_a1_reconciliation"},
+        "reviewer": {"type": "string", "minLength": 3},
+        "reviewed_at": {"type": "string", "format": "date-time"}
+      }
+    },
+    "audit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["target_count", "strand_count", "control_status_counts", "arabic_risk_hypothesis_count", "risk_disposition_counts", "legacy_pronunciation_candidate_count", "uncovered_pronunciation_candidate_ids", "uncovered_strand_ids", "unknown_strand_ids", "unknown_risk_ids", "unknown_candidate_location_ids", "targets_without_source_refs", "targets_without_recycle_locations", "examples_without_reference_ipa", "final_lesson_decisions_made"],
+      "properties": {
+        "target_count": {"const": 20},
+        "strand_count": {"const": 10},
+        "control_status_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "arabic_risk_hypothesis_count": {"const": 12},
+        "risk_disposition_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "legacy_pronunciation_candidate_count": {"const": 54},
+        "uncovered_pronunciation_candidate_ids": {"type": "array", "maxItems": 0},
+        "uncovered_strand_ids": {"type": "array", "maxItems": 0},
+        "unknown_strand_ids": {"type": "array", "maxItems": 0},
+        "unknown_risk_ids": {"type": "array", "maxItems": 0},
+        "unknown_candidate_location_ids": {"type": "array", "maxItems": 0},
+        "targets_without_source_refs": {"type": "array", "maxItems": 0},
+        "targets_without_recycle_locations": {"type": "array", "maxItems": 0},
+        "examples_without_reference_ipa": {"type": "array", "maxItems": 0},
+        "final_lesson_decisions_made": {"const": 0}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at", "statement"],
+      "properties": {
+        "status": {"const": "accepted_exact_pronunciation_pass"},
+        "reviewer": {"type": "string", "minLength": 3},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "statement": {"type": "string", "minLength": 30}
+      }
+    }
+  }
+}

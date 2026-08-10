@@ -1,0 +1,1825 @@
+{
+  "schema_version": 1,
+  "dataset_id": "a1_pronunciation_ownership",
+  "version": 1,
+  "inputs": [
+    {
+      "path": "data/reviewed/pronunciation-progression-strands-v1.json",
+      "sha256": "2f060773421312ca67f1f54067e032757f188f212109874b32296461a191be3c"
+    },
+    {
+      "path": "data/reviewed/a1-reconciliation-worklist-v1.json",
+      "sha256": "b61e6d565003c5cee170db8c3660f9b96159894e39f928fe4fd71cd7075ae983"
+    },
+    {
+      "path": "data/reviewed/a1-lexical-chunk-ownership-v1.json",
+      "sha256": "35601d0831d7c2c0dd069a9cf6b5dc4e64c89b6ef9a840154475ea232dbdd4eb"
+    }
+  ],
+  "policy": {
+    "goal": "Maximise intelligibility, accurate key-detail transfer, listening recognition, and successful repair; never remove an accent.",
+    "reference_model": "General American broad IPA supports consistent course models and SSML authoring but is not an imitation target.",
+    "variation": "Accept stable intelligible English varieties and learner pronunciations when the intended word, contrast, and interaction remain clear.",
+    "risk_use": "Arabic-learner risks are dialect-sensitive hypotheses requiring observation; they are not facts about an individual learner."
+  },
+  "targets": [
+    {
+      "target_id": "a1_pronunciation.spelling_sound_verification",
+      "strand_id": "pronunciation.sound_perception",
+      "title": "Letter names and spelling-sound verification",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Recognise the English letter name and check a heard model or IPA for irregular high-value spellings rather than applying one fixed letter-sound rule.",
+      "course_examples": [
+        {
+          "text": "A",
+          "reference_ipa": "/eɪ/"
+        },
+        {
+          "text": "E",
+          "reference_ipa": "/iː/"
+        },
+        {
+          "text": "I",
+          "reference_ipa": "/aɪ/"
+        },
+        {
+          "text": "G",
+          "reference_ipa": "/dʒiː/"
+        },
+        {
+          "text": "J",
+          "reference_ipa": "/dʒeɪ/"
+        },
+        {
+          "text": "name",
+          "reference_ipa": "/neɪm/"
+        },
+        {
+          "text": "phone",
+          "reference_ipa": "/foʊn/"
+        },
+        {
+          "text": "eight",
+          "reference_ipa": "/eɪt/"
+        },
+        {
+          "text": "one",
+          "reference_ipa": "/wʌn/"
+        }
+      ],
+      "meaning_risk": "A spelling-driven guess can make a name, digit, or key word unrecognisable.",
+      "introduction_location": "lesson_candidate.understand_spoken_contact_details",
+      "recycle_locations": [
+        "lesson_candidate.exchange_personal_details_orally",
+        "lesson_candidate.check_in_at_a_hotel"
+      ],
+      "mastery_evidence": "Hear a fresh key word, select its matching written form, then repeat or spell it when misunderstood.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.spelling_driven_pronunciation"
+      ],
+      "not_yet": "No full phonics or spelling-to-sound system is promised at A1.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Distinguish selected high-value sounds, word boundaries, names, numbers, and learnt chunks in very clear speech.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.name_number_segmentation",
+      "strand_id": "pronunciation.sound_perception",
+      "title": "Segment names, numbers, and key details",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Hear word boundaries and grouping in very clear names, phone digits, dates, times, prices, and learnt chunks.",
+      "course_examples": [
+        {
+          "text": "phone number",
+          "reference_ipa": "/ˈfoʊn ˌnʌmbɚ/"
+        },
+        {
+          "text": "zero",
+          "reference_ipa": "/ˈzɪroʊ/"
+        },
+        {
+          "text": "oh",
+          "reference_ipa": "/oʊ/"
+        },
+        {
+          "text": "fifteen",
+          "reference_ipa": "/ˌfɪfˈtiːn/"
+        },
+        {
+          "text": "fifty",
+          "reference_ipa": "/ˈfɪfti/"
+        }
+      ],
+      "meaning_risk": "A boundary or grouping error changes the recorded identity, time, or amount.",
+      "introduction_location": "lesson_candidate.understand_spoken_contact_details",
+      "recycle_locations": [
+        "lesson_candidate.locate_names_places_and_times_in_slow_recordings",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech"
+      ],
+      "mastery_evidence": "Record a fresh slowly spoken name plus digit sequence, then confirm the grouping accurately.",
+      "arabic_risk_hypothesis_ids": [],
+      "not_yet": "Fast unscripted segmentation and unfamiliar proper names remain later or repair-supported.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Distinguish selected high-value sounds, word boundaries, names, numbers, and learnt chunks in very clear speech.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.p_b_contrast",
+      "strand_id": "pronunciation.consonant_clarity",
+      "title": "/p/ and /b/",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Keep voiceless /p/ and voiced /b/ distinct in selected practical words.",
+      "course_examples": [
+        {
+          "text": "pen",
+          "reference_ipa": "/pɛn/"
+        },
+        {
+          "text": "please",
+          "reference_ipa": "/pliːz/"
+        },
+        {
+          "text": "bag",
+          "reference_ipa": "/bæɡ/"
+        },
+        {
+          "text": "bus",
+          "reference_ipa": "/bʌs/"
+        }
+      ],
+      "meaning_risk": "A merger can change the requested item, place, or key noun.",
+      "introduction_location": "lesson_candidate.ask_for_and_give_an_everyday_item",
+      "recycle_locations": [
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.ask_for_basic_food_or_drink"
+      ],
+      "mastery_evidence": "Choose and say the intended fresh /p/- or /b/-initial word so a listener selects the correct item.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.p_b_contrast"
+      ],
+      "not_yet": "Do not drill the contrast if the learner already distinguishes it reliably.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Produce selected high-impact consonant contrasts clearly enough in names, numbers, key nouns, verbs, and chunks.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.f_v_contrast",
+      "strand_id": "pronunciation.consonant_clarity",
+      "title": "/f/ and /v/",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Keep /f/ and /v/ distinct in family, number, and high-utility description words.",
+      "course_examples": [
+        {
+          "text": "five",
+          "reference_ipa": "/faɪv/"
+        },
+        {
+          "text": "family",
+          "reference_ipa": "/ˈfæməli/"
+        },
+        {
+          "text": "very",
+          "reference_ipa": "/ˈvɛri/"
+        },
+        {
+          "text": "seven",
+          "reference_ipa": "/ˈsɛvən/"
+        }
+      ],
+      "meaning_risk": "A merger can obscure a number, family word, or intensified description.",
+      "introduction_location": "lesson_candidate.understand_talk_about_people_and_family",
+      "recycle_locations": [
+        "lesson_candidate.exchange_information_about_family_and_friends",
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.describe_a_family_or_known_person"
+      ],
+      "mastery_evidence": "Discriminate and produce the intended fresh number or family word in an information gap.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.v_f_contrast"
+      ],
+      "not_yet": "Do not assume the issue from the learner's Arabic dialect or identity.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Produce selected high-impact consonant contrasts clearly enough in names, numbers, key nouns, verbs, and chunks.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.dental_fricatives",
+      "strand_id": "pronunciation.consonant_clarity",
+      "title": "/θ/ and /ð/ in selected high-value words",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Produce or repair the voiceless and voiced dental-fricative categories in a bounded repertoire.",
+      "course_examples": [
+        {
+          "text": "three",
+          "reference_ipa": "/θriː/"
+        },
+        {
+          "text": "thirty",
+          "reference_ipa": "/ˈθɝti/"
+        },
+        {
+          "text": "thank",
+          "reference_ipa": "/θæŋk/"
+        },
+        {
+          "text": "this",
+          "reference_ipa": "/ðɪs/"
+        },
+        {
+          "text": "there",
+          "reference_ipa": "/ðɛr/"
+        }
+      ],
+      "meaning_risk": "Substitution can obscure numbers or frequent social and reference words.",
+      "introduction_location": "lesson_candidate.understand_spoken_contact_details",
+      "recycle_locations": [
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.open_and_close_a_basic_social_exchange"
+      ],
+      "mastery_evidence": "Make the intended fresh number or chunk intelligible; use repetition or spelling if the first attempt fails.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.dental_fricatives"
+      ],
+      "not_yet": "Accent imitation and exhaustive /θ/-/ð/ lexical coverage are not required.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Produce selected high-impact consonant contrasts clearly enough in names, numbers, key nouns, verbs, and chunks.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.high_vowel_contrasts",
+      "strand_id": "pronunciation.vowel_clarity",
+      "title": "Selected /iː/-/ɪ/ and /uː/-/ʊ/ contrasts",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Keep selected tense/lax high-vowel categories distinct where they identify a course word.",
+      "course_examples": [
+        {
+          "text": "three",
+          "reference_ipa": "/θriː/"
+        },
+        {
+          "text": "green",
+          "reference_ipa": "/ɡriːn/"
+        },
+        {
+          "text": "six",
+          "reference_ipa": "/sɪks/"
+        },
+        {
+          "text": "big",
+          "reference_ipa": "/bɪɡ/"
+        },
+        {
+          "text": "food",
+          "reference_ipa": "/fuːd/"
+        },
+        {
+          "text": "book",
+          "reference_ipa": "/bʊk/"
+        }
+      ],
+      "meaning_risk": "A merger can obscure a number, colour, size, food, or object word.",
+      "introduction_location": "lesson_candidate.understand_spoken_contact_details",
+      "recycle_locations": [
+        "lesson_candidate.exchange_visible_object_information",
+        "lesson_candidate.ask_for_basic_food_or_drink"
+      ],
+      "mastery_evidence": "Hear and produce the intended fresh word so the listener selects the correct number, object, or food.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.high_vowel_contrasts"
+      ],
+      "not_yet": "Only course-critical words are assessed; a complete English vowel inventory waits.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Produce selected meaning-changing vowel contrasts in a bounded learnt repertoire with modelling and repair.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.front_central_vowels",
+      "strand_id": "pronunciation.vowel_clarity",
+      "title": "Selected /æ/, /ɛ/, and /ʌ/ categories",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Keep selected front and central vowel categories distinct in practical A1 words.",
+      "course_examples": [
+        {
+          "text": "man",
+          "reference_ipa": "/mæn/"
+        },
+        {
+          "text": "men",
+          "reference_ipa": "/mɛn/"
+        },
+        {
+          "text": "bag",
+          "reference_ipa": "/bæɡ/"
+        },
+        {
+          "text": "bed",
+          "reference_ipa": "/bɛd/"
+        },
+        {
+          "text": "bus",
+          "reference_ipa": "/bʌs/"
+        },
+        {
+          "text": "cup",
+          "reference_ipa": "/kʌp/"
+        }
+      ],
+      "meaning_risk": "A merger can change a person, object, room, or transport word.",
+      "introduction_location": "lesson_candidate.understand_talk_about_people_and_family",
+      "recycle_locations": [
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.buy_a_basic_public_transport_ticket"
+      ],
+      "mastery_evidence": "Discriminate and produce the word that identifies a fresh visual or requested object.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.front_central_vowels"
+      ],
+      "not_yet": "Learner-specific stable intelligible variants are accepted; no native-vowel target is imposed.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Produce selected meaning-changing vowel contrasts in a bounded learnt repertoire with modelling and repair.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.can_cant_contrast",
+      "strand_id": "pronunciation.vowel_clarity",
+      "title": "Can versus can't in context",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Use context, prominence, vowel quality, and especially the final /t/ cue to distinguish can from can't.",
+      "course_examples": [
+        {
+          "text": "can",
+          "reference_ipa": "/kæn/; often /kən/ unstressed"
+        },
+        {
+          "text": "can't",
+          "reference_ipa": "/kænt/"
+        }
+      ],
+      "meaning_risk": "Confusing ability with inability reverses the message.",
+      "introduction_location": "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+      "recycle_locations": [
+        "lesson_candidate.give_a_simple_leisure_profile",
+        "lesson_candidate.exchange_routine_and_preference_information"
+      ],
+      "mastery_evidence": "A listener correctly identifies ability or inability in fresh positive and negative statements.",
+      "arabic_risk_hypothesis_ids": [],
+      "not_yet": "Reduced-form mastery and dialect-wide can/can't acoustics remain later; repair is always acceptable.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Produce selected meaning-changing vowel contrasts in a bounded learnt repertoire with modelling and repair.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.initial_clusters",
+      "strand_id": "pronunciation.syllable_shape",
+      "title": "Preserve selected initial clusters",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Avoid inserting an extra vowel inside selected course-critical initial clusters.",
+      "course_examples": [
+        {
+          "text": "street",
+          "reference_ipa": "/striːt/"
+        },
+        {
+          "text": "three",
+          "reference_ipa": "/θriː/"
+        },
+        {
+          "text": "train",
+          "reference_ipa": "/treɪn/"
+        },
+        {
+          "text": "spring",
+          "reference_ipa": "/sprɪŋ/"
+        }
+      ],
+      "meaning_risk": "An inserted vowel can delay or block recognition of a destination, number, transport word, or season.",
+      "introduction_location": "lesson_candidate.follow_slow_spoken_route_directions",
+      "recycle_locations": [
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.describe_common_weather",
+        "lesson_candidate.give_an_event_date_and_time"
+      ],
+      "mastery_evidence": "Produce a fresh target word without adding a syllable; repair with slower chunking if needed.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.cluster_epenthesis"
+      ],
+      "not_yet": "Complex cluster mastery outside the selected words waits.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Preserve selected final consonants and simple clusters when they carry essential word identity or meaning.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.final_consonants_clusters",
+      "strand_id": "pronunciation.syllable_shape",
+      "title": "Preserve meaning-bearing final consonants",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Keep selected final consonants or clusters audible when they identify a route, sequence, item, or request.",
+      "course_examples": [
+        {
+          "text": "left",
+          "reference_ipa": "/lɛft/"
+        },
+        {
+          "text": "next",
+          "reference_ipa": "/nɛkst/"
+        },
+        {
+          "text": "first",
+          "reference_ipa": "/fɝst/"
+        },
+        {
+          "text": "card",
+          "reference_ipa": "/kɑrd/"
+        },
+        {
+          "text": "help",
+          "reference_ipa": "/hɛlp/"
+        }
+      ],
+      "meaning_risk": "Final deletion can change a route, order, payment method, or help request.",
+      "introduction_location": "lesson_candidate.follow_slow_spoken_route_directions",
+      "recycle_locations": [
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.ask_for_basic_practical_help",
+        "lesson_candidate.handle_basic_price_and_quantity_information"
+      ],
+      "mastery_evidence": "A listener selects the intended fresh direction, sequence word, or item without needing a written cue.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.final_cluster_reduction"
+      ],
+      "not_yet": "Minor release differences are accepted when the word and contrast remain clear.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Preserve selected final consonants and simple clusters when they carry essential word identity or meaning.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.s_endings",
+      "strand_id": "pronunciation.grammatical_endings",
+      "title": "Plural, possessive, and third-person -s endings",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Make /s/, /z/, or /ɪz/ audible in selected plurals, possessives, and third-person present forms.",
+      "course_examples": [
+        {
+          "text": "books",
+          "reference_ipa": "/bʊks/"
+        },
+        {
+          "text": "rooms",
+          "reference_ipa": "/ruːmz/"
+        },
+        {
+          "text": "buses",
+          "reference_ipa": "/ˈbʌsɪz/"
+        },
+        {
+          "text": "John's",
+          "reference_ipa": "/dʒɑnz/"
+        },
+        {
+          "text": "works",
+          "reference_ipa": "/wɝks/"
+        },
+        {
+          "text": "lives",
+          "reference_ipa": "/lɪvz/"
+        }
+      ],
+      "meaning_risk": "Omission can hide number, ownership, or who performs a routine.",
+      "introduction_location": "lesson_candidate.introduce_another_person",
+      "recycle_locations": [
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.exchange_basic_information_about_a_home"
+      ],
+      "mastery_evidence": "Describe fresh people or objects so a listener hears the intended number, owner, or third-person fact.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.s_ed_endings"
+      ],
+      "not_yet": "Rule naming is optional; intelligible use in selected words is required.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Make selected plural, possessive, and simple verb endings audible when omission changes immediate meaning.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.ed_endings_limited",
+      "strand_id": "pronunciation.grammatical_endings",
+      "title": "Limited past -ed endings",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Recognise and produce /t/, /d/, and /ɪd/ in the bounded A1 past repertoire.",
+      "course_examples": [
+        {
+          "text": "worked",
+          "reference_ipa": "/wɝkt/"
+        },
+        {
+          "text": "lived",
+          "reference_ipa": "/lɪvd/"
+        },
+        {
+          "text": "wanted",
+          "reference_ipa": "/ˈwɑntɪd/"
+        }
+      ],
+      "meaning_risk": "Deleting the ending can remove the completed-past signal; adding a syllable everywhere harms recognition.",
+      "introduction_location": "lesson_candidate.understand_outline_of_an_illustrated_short_story",
+      "recycle_locations": [
+        "lesson_candidate.state_how_a_simple_work_made_them_feel",
+        "support.a1_exit_pronunciation_probe"
+      ],
+      "mastery_evidence": "Produce two fresh bounded past facts with an audible ending that a listener identifies correctly.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.s_ed_endings"
+      ],
+      "not_yet": "A broad irregular-past or past-ending inventory waits for A2.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Make selected plural, possessive, and simple verb endings audible when omission changes immediate meaning.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.teen_ty_stress",
+      "strand_id": "pronunciation.word_stress",
+      "title": "-teen versus -ty stress",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Keep final stress and long /iː/ in -teen distinct from first-syllable stress and final /i/ in -ty.",
+      "course_examples": [
+        {
+          "text": "thirteen",
+          "reference_ipa": "/ˌθɝˈtiːn/"
+        },
+        {
+          "text": "thirty",
+          "reference_ipa": "/ˈθɝti/"
+        },
+        {
+          "text": "fifteen",
+          "reference_ipa": "/ˌfɪfˈtiːn/"
+        },
+        {
+          "text": "fifty",
+          "reference_ipa": "/ˈfɪfti/"
+        }
+      ],
+      "meaning_risk": "Stress confusion changes ages, times, prices, and quantities.",
+      "introduction_location": "lesson_candidate.understand_spoken_contact_details",
+      "recycle_locations": [
+        "lesson_candidate.identify_spoken_time_and_date_details",
+        "lesson_candidate.handle_basic_price_and_quantity_information",
+        "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech"
+      ],
+      "mastery_evidence": "A listener records the correct fresh -teen or -ty figure without seeing it.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.lexical_stress_transfer"
+      ],
+      "not_yet": "Natural fast-speech variation is not required; clear contrast is.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Place recognisable stress in selected names, numbers, nationalities, jobs, and other lesson-critical words.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.lesson_critical_word_stress",
+      "strand_id": "pronunciation.word_stress",
+      "title": "Stress in names, jobs, months, and nationalities",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Store a recognisable stress pattern with each personally or lesson-critical multisyllabic word.",
+      "course_examples": [
+        {
+          "text": "teacher",
+          "reference_ipa": "/ˈtiːtʃɚ/"
+        },
+        {
+          "text": "doctor",
+          "reference_ipa": "/ˈdɑktɚ/"
+        },
+        {
+          "text": "September",
+          "reference_ipa": "/sɛpˈtɛmbɚ/"
+        },
+        {
+          "text": "Egyptian",
+          "reference_ipa": "/ɪˈdʒɪpʃən/"
+        }
+      ],
+      "meaning_risk": "Spelling-led stress can make an otherwise correct identity detail hard to recognise.",
+      "introduction_location": "lesson_candidate.give_short_self_introduction",
+      "recycle_locations": [
+        "lesson_candidate.introduce_another_person",
+        "lesson_candidate.give_an_event_date_and_time",
+        "lesson_candidate.check_in_at_a_hotel"
+      ],
+      "mastery_evidence": "Deliver fresh personally relevant names and details with recognisable primary stress; spell to repair when needed.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.lexical_stress_transfer",
+        "arabic_pronunciation.spelling_driven_pronunciation"
+      ],
+      "not_yet": "Only selected course words and the learner's own details are assessed.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Place recognisable stress in selected names, numbers, nationalities, jobs, and other lesson-critical words.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.compound_chunk_stress",
+      "strand_id": "pronunciation.word_stress",
+      "title": "Stress in familiar compound labels",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Recognise and reproduce the main stress in selected multiword labels as learnt units.",
+      "course_examples": [
+        {
+          "text": "phone number",
+          "reference_ipa": "/ˈfoʊn ˌnʌmbɚ/"
+        },
+        {
+          "text": "bus stop",
+          "reference_ipa": "/ˈbʌs ˌstɑp/"
+        },
+        {
+          "text": "post office",
+          "reference_ipa": "/ˈpoʊst ˌɔfɪs/"
+        },
+        {
+          "text": "living room",
+          "reference_ipa": "/ˈlɪvɪŋ ˌruːm/"
+        }
+      ],
+      "meaning_risk": "Equal or misplaced stress can slow recognition of the requested field or destination.",
+      "introduction_location": "lesson_candidate.understand_spoken_contact_details",
+      "recycle_locations": [
+        "lesson_candidate.exchange_basic_information_about_a_home",
+        "lesson_candidate.follow_slow_spoken_route_directions",
+        "lesson_candidate.understand_simple_place_and_hotel_information"
+      ],
+      "mastery_evidence": "A listener selects the correct fresh familiar compound from speech without a written label.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.lexical_stress_transfer"
+      ],
+      "not_yet": "Productive compound-stress generalisation waits; taught labels are whole units.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Place recognisable stress in selected names, numbers, nationalities, jobs, and other lesson-critical words.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.key_information_prominence",
+      "strand_id": "pronunciation.prominence_rhythm",
+      "title": "Hear and highlight the key detail",
+      "control_status": "receptive_with_guided_imitation",
+      "feature_or_contrast": "Notice and imitate prominence on the name, number, price, time, destination, item, or need that carries the contrast.",
+      "course_examples": [
+        {
+          "text": "My NAME is Mona.",
+          "reference_ipa": "/maɪ ˈneɪm ɪz ˈmoʊnə/"
+        },
+        {
+          "text": "It's FIFteen.",
+          "reference_ipa": "/ɪts ˌfɪfˈtiːn/"
+        },
+        {
+          "text": "I need a TICKet.",
+          "reference_ipa": "/aɪ niːd ə ˈtɪkɪt/"
+        }
+      ],
+      "meaning_risk": "Equal prominence can hide which detail is new or corrected.",
+      "introduction_location": "lesson_candidate.exchange_personal_details_orally",
+      "recycle_locations": [
+        "lesson_candidate.exchange_routine_and_preference_information",
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues",
+        "lesson_candidate.understand_where_things_or_people_are",
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.understand_outline_of_a_simple_guided_tour",
+        "lesson_candidate.identify_key_details_in_a_slow_station_announcement",
+        "lesson_candidate.identify_a_price_in_slow_spoken_service_information",
+        "lesson_candidate.follow_a_slow_everyday_service_exchange",
+        "lesson_candidate.state_a_basic_food_or_drink_preference",
+        "lesson_candidate.exchange_information_about_an_immediate_need",
+        "lesson_candidate.identify_a_headline_news_topic_from_visual_media",
+        "lesson_candidate.identify_a_product_in_a_short_video_advertisement"
+      ],
+      "mastery_evidence": "After one model, highlight the changed detail in a fresh short contrast so the listener identifies it.",
+      "arabic_risk_hypothesis_ids": [
+        "arabic_pronunciation.equal_prominence"
+      ],
+      "not_yet": "Natural English rhythm, reductions, and native-like timing are not A1 mastery demands.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Notice and imitate prominence inside short learnt chunks without a natural-rhythm mastery demand.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.frequent_contractions",
+      "strand_id": "pronunciation.connected_speech",
+      "title": "Recognise frequent contractions in clear chunks",
+      "control_status": "receptive_with_guided_imitation",
+      "feature_or_contrast": "Recognise and optionally use the taught contracted forms without requiring fast or heavily reduced speech.",
+      "course_examples": [
+        {
+          "text": "I'm",
+          "reference_ipa": "/aɪm/"
+        },
+        {
+          "text": "you're",
+          "reference_ipa": "/jʊr/"
+        },
+        {
+          "text": "he's",
+          "reference_ipa": "/hiːz/"
+        },
+        {
+          "text": "it's",
+          "reference_ipa": "/ɪts/"
+        },
+        {
+          "text": "what's",
+          "reference_ipa": "/wʌts/"
+        },
+        {
+          "text": "don't",
+          "reference_ipa": "/doʊnt/"
+        },
+        {
+          "text": "can't",
+          "reference_ipa": "/kænt/"
+        },
+        {
+          "text": "I'd",
+          "reference_ipa": "/aɪd/"
+        },
+        {
+          "text": "I'll",
+          "reference_ipa": "/aɪl/"
+        }
+      ],
+      "meaning_risk": "Failure to recognise a contraction can hide identity, negation, a question, a request, or a future commitment.",
+      "introduction_location": "lesson_candidate.understand_spoken_personal_introductions",
+      "recycle_locations": [
+        "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.open_and_close_a_basic_social_exchange"
+      ],
+      "mastery_evidence": "Identify the full meaning of a fresh clear contracted chunk and produce either the contracted or full intelligible form.",
+      "arabic_risk_hypothesis_ids": [],
+      "not_yet": "Assimilation, elision, and fast casual reduction beyond the registered chunks wait.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Recognise a small set of frequent linked or reduced forms inside familiar, very clear chunks.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.question_social_contours",
+      "strand_id": "pronunciation.intonation_stance",
+      "title": "Recognisable social and question contours",
+      "control_status": "receptive_with_guided_imitation",
+      "feature_or_contrast": "Use or imitate a recognisable contour for a greeting, wh-question, yes/no check, and polite response while accepting variety.",
+      "course_examples": [
+        {
+          "text": "How are you?",
+          "reference_ipa": "/haʊ ɑr juː/"
+        },
+        {
+          "text": "Where is the station?",
+          "reference_ipa": "/wɛr ɪz ðə ˈsteɪʃən/"
+        },
+        {
+          "text": "Is that right?",
+          "reference_ipa": "/ɪz ðæt raɪt/"
+        },
+        {
+          "text": "Thank you.",
+          "reference_ipa": "/ˈθæŋk juː/"
+        }
+      ],
+      "meaning_risk": "A flat or mismatched contour can make a check sound like a statement or obscure turn completion.",
+      "introduction_location": "lesson_candidate.exchange_personal_details_orally",
+      "recycle_locations": [
+        "lesson_candidate.exchange_basic_wayfinding_information",
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.agree_to_a_simple_request",
+        "lesson_candidate.accept_a_simple_offer",
+        "lesson_candidate.open_and_close_a_basic_social_exchange",
+        "lesson_candidate.respond_politely_to_an_introduction",
+        "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement",
+        "lesson_candidate.invite_input_and_check_understanding_in_a_simple_task",
+        "lesson_candidate.show_interest_and_welcome_an_idea",
+        "lesson_candidate.share_an_idea_and_ask_what_others_think"
+      ],
+      "mastery_evidence": "A partner identifies the fresh utterance as greeting, question/check, or response without an answer-revealing script.",
+      "arabic_risk_hypothesis_ids": [],
+      "not_yet": "No single universal rise/fall pattern or emotion-reading claim is imposed.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Use recognisable contours in a few learnt greetings, questions, checks, and polite responses.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.sense_group_chunking",
+      "strand_id": "pronunciation.chunking_monitoring_repair",
+      "title": "Deliver short sense groups with safe pauses",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Group a short learnt message into meaning units and pause between units rather than inside a key name, number, or phrase.",
+      "course_examples": [
+        {
+          "text": "My name is Mona | I'm from Cairo.",
+          "reference_ipa": "/maɪ ˈneɪm ɪz ˈmoʊnə | aɪm frəm ˈkaɪroʊ/"
+        },
+        {
+          "text": "One ticket to Giza | please.",
+          "reference_ipa": "/wʌn ˈtɪkɪt tə ˈɡiːzə | pliːz/"
+        }
+      ],
+      "meaning_risk": "An unsafe pause can split a name, number, destination, or request and change what the listener records.",
+      "introduction_location": "lesson_candidate.give_short_self_introduction",
+      "recycle_locations": [
+        "lesson_candidate.describe_people_and_object_locations_orally",
+        "lesson_candidate.describe_a_family_or_known_person",
+        "lesson_candidate.describe_a_simple_everyday_routine",
+        "lesson_candidate.describe_a_familiar_object_orally",
+        "lesson_candidate.buy_a_basic_public_transport_ticket",
+        "lesson_candidate.check_in_at_a_hotel",
+        "lesson_candidate.ask_for_basic_food_or_drink",
+        "lesson_candidate.deliver_a_rehearsed_formal_introduction"
+      ],
+      "mastery_evidence": "Deliver a fresh two- or three-unit message with intelligible key details and pauses at meaning boundaries.",
+      "arabic_risk_hypothesis_ids": [],
+      "not_yet": "Long-turn fluency and spontaneous discourse chunking wait.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Deliver short learnt sense groups, pause safely, and repeat or spell a key item when not understood.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    },
+    {
+      "target_id": "a1_pronunciation.pronunciation_repair",
+      "strand_id": "pronunciation.chunking_monitoring_repair",
+      "title": "Repeat, slow, or spell a key item to repair",
+      "control_status": "receptive_and_productive",
+      "feature_or_contrast": "Notice a listener signal and repair the key item through slower repetition, contrast, or spelling.",
+      "course_examples": [
+        {
+          "text": "Sorry—FIFteen.",
+          "reference_ipa": "/ˈsɑri | ˌfɪfˈtiːn/"
+        },
+        {
+          "text": "Mona—M-O-N-A.",
+          "reference_ipa": "/ˈmoʊnə/"
+        },
+        {
+          "text": "Please say that again.",
+          "reference_ipa": "/pliːz seɪ ðæt əˈɡɛn/"
+        }
+      ],
+      "meaning_risk": "Without repair, a correctable name, number, item, or place remains misunderstood.",
+      "introduction_location": "lesson_candidate.exchange_personal_details_orally",
+      "recycle_locations": [
+        "lesson_candidate.relay_predictable_person_time_or_place_details",
+        "lesson_candidate.follow_simple_game_or_activity_instructions",
+        "lesson_candidate.follow_simple_directions_from_an_interlocutor",
+        "lesson_candidate.ask_for_and_give_an_everyday_item",
+        "lesson_candidate.ask_for_basic_practical_help",
+        "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
+        "lesson_candidate.convey_simple_information_from_a_sign_or_notice",
+        "lesson_candidate.give_a_rough_oral_translation_of_everyday_sign_words"
+      ],
+      "mastery_evidence": "After a fresh misunderstanding signal, repair only the key detail until the partner selects it correctly.",
+      "arabic_risk_hypothesis_ids": [],
+      "not_yet": "Repair success matters more than producing the reference model on the first attempt.",
+      "teaching_reference": "General American broad IPA for modelling only",
+      "assessment_tolerance": "Accept any stable intelligible variety; require repair only when the target distinction or key detail is lost.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "level_expectation": "Deliver short learnt sense groups, pause safely, and repeat or spell a key item when not understood.",
+      "review": {
+        "status": "accepted_for_a1_reconciliation",
+        "reviewer": "codex_primary_curriculum_agent",
+        "reviewed_at": "2026-08-10T15:28:00+03:00"
+      }
+    }
+  ],
+  "risk_dispositions": [
+    {
+      "risk_id": "arabic_pronunciation.p_b_contrast",
+      "strand_id": "pronunciation.consonant_clarity",
+      "statement": "Some learners may merge English /p/ and /b/ in perception or production.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [
+        "a1_pronunciation.p_b_contrast"
+      ],
+      "disposition": "selected_monitor_target",
+      "rationale": "Target only after task impact or learner observation; never infer need from Arabic identity alone."
+    },
+    {
+      "risk_id": "arabic_pronunciation.v_f_contrast",
+      "strand_id": "pronunciation.consonant_clarity",
+      "statement": "Some learners may merge English /v/ and /f/ in perception or production.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [
+        "a1_pronunciation.f_v_contrast"
+      ],
+      "disposition": "selected_monitor_target",
+      "rationale": "Target only after task impact or learner observation; never infer need from Arabic identity alone."
+    },
+    {
+      "risk_id": "arabic_pronunciation.dental_fricatives",
+      "strand_id": "pronunciation.consonant_clarity",
+      "statement": "English /θ/ and /ð/ may be replaced by different stops or fricatives; patterns vary by Arabic dialect.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [
+        "a1_pronunciation.dental_fricatives"
+      ],
+      "disposition": "selected_monitor_target",
+      "rationale": "Target only after task impact or learner observation; never infer need from Arabic identity alone."
+    },
+    {
+      "risk_id": "arabic_pronunciation.velar_nasal",
+      "strand_id": "pronunciation.consonant_clarity",
+      "statement": "Some learners may add /g/ after /ŋ/ or replace it in unfamiliar word positions.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [],
+      "disposition": "monitor_if_observed_not_pre_taught",
+      "rationale": "No current high-value A1 outcome justifies pre-teaching; never infer the need from identity, and add support only if observed."
+    },
+    {
+      "risk_id": "arabic_pronunciation.high_vowel_contrasts",
+      "strand_id": "pronunciation.vowel_clarity",
+      "statement": "Contrasts such as /iː/-/ɪ/ and /uː/-/ʊ/ may need explicit perception and meaning-based practice.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [
+        "a1_pronunciation.high_vowel_contrasts"
+      ],
+      "disposition": "selected_monitor_target",
+      "rationale": "Target only after task impact or learner observation; never infer need from Arabic identity alone."
+    },
+    {
+      "risk_id": "arabic_pronunciation.front_central_vowels",
+      "strand_id": "pronunciation.vowel_clarity",
+      "statement": "English /æ/, /e/, /ʌ/, and related vowels may be mapped onto a smaller learner-specific set.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [
+        "a1_pronunciation.front_central_vowels"
+      ],
+      "disposition": "selected_monitor_target",
+      "rationale": "Target only after task impact or learner observation; never infer need from Arabic identity alone."
+    },
+    {
+      "risk_id": "arabic_pronunciation.cluster_epenthesis",
+      "strand_id": "pronunciation.syllable_shape",
+      "statement": "Some learners may insert a vowel into unfamiliar initial or final consonant clusters.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [
+        "a1_pronunciation.initial_clusters"
+      ],
+      "disposition": "selected_monitor_target",
+      "rationale": "Target only after task impact or learner observation; never infer need from Arabic identity alone."
+    },
+    {
+      "risk_id": "arabic_pronunciation.final_cluster_reduction",
+      "strand_id": "pronunciation.syllable_shape",
+      "statement": "Final consonants or clusters may be reduced when several articulatory demands occur together.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [
+        "a1_pronunciation.final_consonants_clusters"
+      ],
+      "disposition": "selected_monitor_target",
+      "rationale": "Target only after task impact or learner observation; never infer need from Arabic identity alone."
+    },
+    {
+      "risk_id": "arabic_pronunciation.s_ed_endings",
+      "strand_id": "pronunciation.grammatical_endings",
+      "statement": "Plural, third-person, possessive, and past endings may be omitted or given an extra syllable.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [
+        "a1_pronunciation.ed_endings_limited",
+        "a1_pronunciation.s_endings"
+      ],
+      "disposition": "selected_monitor_target",
+      "rationale": "Target only after task impact or learner observation; never infer need from Arabic identity alone."
+    },
+    {
+      "risk_id": "arabic_pronunciation.lexical_stress_transfer",
+      "strand_id": "pronunciation.word_stress",
+      "statement": "Stress may follow spelling or a familiar Arabic pattern rather than the English lexical pattern.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [
+        "a1_pronunciation.compound_chunk_stress",
+        "a1_pronunciation.lesson_critical_word_stress",
+        "a1_pronunciation.teen_ty_stress"
+      ],
+      "disposition": "selected_monitor_target",
+      "rationale": "Target only after task impact or learner observation; never infer need from Arabic identity alone."
+    },
+    {
+      "risk_id": "arabic_pronunciation.equal_prominence",
+      "strand_id": "pronunciation.prominence_rhythm",
+      "statement": "Function words may receive equal prominence, limiting English focus and rhythm cues.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [
+        "a1_pronunciation.key_information_prominence"
+      ],
+      "disposition": "selected_monitor_target",
+      "rationale": "Target only after task impact or learner observation; never infer need from Arabic identity alone."
+    },
+    {
+      "risk_id": "arabic_pronunciation.spelling_driven_pronunciation",
+      "strand_id": "pronunciation.sound_perception",
+      "statement": "English spelling may encourage a stable letter-to-sound guess where pronunciation is irregular.",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ],
+      "selected_target_ids": [
+        "a1_pronunciation.lesson_critical_word_stress",
+        "a1_pronunciation.spelling_sound_verification"
+      ],
+      "disposition": "selected_monitor_target",
+      "rationale": "Target only after task impact or learner observation; never infer need from Arabic identity alone."
+    }
+  ],
+  "candidate_ownership": [
+    {
+      "candidate_id": "lesson_candidate.understand_spoken_personal_introductions",
+      "legacy_pronunciation_targets": [
+        "Recognition of key personal details in short clear introductions"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.frequent_contractions"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_spoken_contact_details",
+      "legacy_pronunciation_targets": [
+        "Discrimination and grouping of spoken name and phone-number detail"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.compound_chunk_stress",
+        "a1_pronunciation.dental_fricatives",
+        "a1_pronunciation.high_vowel_contrasts",
+        "a1_pronunciation.name_number_segmentation",
+        "a1_pronunciation.spelling_sound_verification",
+        "a1_pronunciation.teen_ty_stress"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.give_short_self_introduction",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of names, places, roles, and the selected personal detail"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.lesson_critical_word_stress",
+        "a1_pronunciation.sense_group_chunking"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_personal_details_orally",
+      "legacy_pronunciation_targets": [
+        "Recognition and intelligible delivery of question words and personal-detail values"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.key_information_prominence",
+        "a1_pronunciation.pronunciation_repair",
+        "a1_pronunciation.question_social_contours",
+        "a1_pronunciation.spelling_sound_verification"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.relay_predictable_person_time_or_place_details",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of contrasting names, roles, times, and places"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.pronunciation_repair"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.locate_names_places_and_times_in_slow_recordings",
+      "legacy_pronunciation_targets": [
+        "Segmentation of names, places, and times in very slow clear delivery"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.name_number_segmentation"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_talk_about_people_and_family",
+      "legacy_pronunciation_targets": [
+        "Recognition of person and family expressions in slow clear conversation"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.f_v_contrast",
+        "a1_pronunciation.front_central_vowels"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_people_and_object_locations_orally",
+      "legacy_pronunciation_targets": [
+        "Intelligible contrasts among people, objects, and positions"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.sense_group_chunking"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.introduce_another_person",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the person's name and job"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.lesson_critical_word_stress",
+        "a1_pronunciation.s_endings"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_information_about_family_and_friends",
+      "legacy_pronunciation_targets": [
+        "Recognition and intelligible delivery of the requested people fact"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.f_v_contrast"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_family_or_known_person",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of person and relationship words"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.f_v_contrast",
+        "a1_pronunciation.s_endings",
+        "a1_pronunciation.sense_group_chunking"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_spoken_time_and_date_details",
+      "legacy_pronunciation_targets": [
+        "Recognition of exact time and date values in slow clear speech"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.f_v_contrast",
+        "a1_pronunciation.name_number_segmentation",
+        "a1_pronunciation.teen_ty_stress"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities",
+      "legacy_pronunciation_targets": [
+        "Recognition of can versus can't in slow clear sentences"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.can_cant_contrast",
+        "a1_pronunciation.frequent_contractions"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.follow_simple_game_or_activity_instructions",
+      "legacy_pronunciation_targets": [
+        "Recognition of contrasting action, time, and number words in slow speech"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.pronunciation_repair"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.give_an_event_date_and_time",
+      "legacy_pronunciation_targets": [
+        "Intelligible contrasts among dates, clock times, and lexicalised time phrases"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.dental_fricatives",
+        "a1_pronunciation.initial_clusters",
+        "a1_pronunciation.lesson_critical_word_stress"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.give_a_simple_leisure_profile",
+      "legacy_pronunciation_targets": [
+        "Intelligible contrast between can and can't"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.can_cant_contrast"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_routine_and_preference_information",
+      "legacy_pronunciation_targets": [
+        "Recognition and intelligible delivery of routine and preference contrasts"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.can_cant_contrast",
+        "a1_pronunciation.key_information_prominence"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_simple_everyday_routine",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the key activities and their order"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.s_endings",
+        "a1_pronunciation.sense_group_chunking"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_common_weather",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the contrasting weather-condition words"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.initial_clusters"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_familiar_referents_from_spoken_clues",
+      "legacy_pronunciation_targets": [
+        "Recognition of key referent and descriptor words in slow clear speech"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.key_information_prominence"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_where_things_or_people_are",
+      "legacy_pronunciation_targets": [
+        "Recognition of the referent and position in slow clear speech"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.key_information_prominence"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_familiar_object_orally",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the object name and contrasting features"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.front_central_vowels",
+        "a1_pronunciation.sense_group_chunking"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_visible_object_information",
+      "legacy_pronunciation_targets": [
+        "Intelligible contrasts among colour, size, and number answers"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.high_vowel_contrasts"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_basic_information_about_a_home",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of room, thing, and ownership contrasts"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.compound_chunk_stress",
+        "a1_pronunciation.s_endings"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.follow_slow_spoken_route_directions",
+      "legacy_pronunciation_targets": [
+        "Recognition of ordered route words in slow clear speech"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.compound_chunk_stress",
+        "a1_pronunciation.final_consonants_clusters",
+        "a1_pronunciation.initial_clusters"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.understand_outline_of_a_simple_guided_tour",
+      "legacy_pronunciation_targets": [
+        "Recognition of topic and main-fact words in very slow, clearly paused speech"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.key_information_prominence"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_key_details_in_a_slow_station_announcement",
+      "legacy_pronunciation_targets": [
+        "Recognition of contrasting spoken times and figures in slow clear delivery"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.key_information_prominence"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.follow_simple_directions_from_an_interlocutor",
+      "legacy_pronunciation_targets": [
+        "Recognition of location and move contrasts in careful slow delivery"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.pronunciation_repair"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_basic_wayfinding_information",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the destination and contrasting location words"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.final_consonants_clusters",
+        "a1_pronunciation.key_information_prominence",
+        "a1_pronunciation.question_social_contours"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.buy_a_basic_public_transport_ticket",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the destination and contrasting ticket detail"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.front_central_vowels",
+        "a1_pronunciation.initial_clusters",
+        "a1_pronunciation.p_b_contrast",
+        "a1_pronunciation.sense_group_chunking"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.check_in_at_a_hotel",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the booking name and requested detail"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.frequent_contractions",
+        "a1_pronunciation.lesson_critical_word_stress",
+        "a1_pronunciation.sense_group_chunking",
+        "a1_pronunciation.spelling_sound_verification"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_a_price_in_slow_spoken_service_information",
+      "legacy_pronunciation_targets": [
+        "Recognition of contrasting prices and other numbers in slow clear speech"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.key_information_prominence"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.follow_a_slow_everyday_service_exchange",
+      "legacy_pronunciation_targets": [
+        "Recognition of essential need and response words in slow clear speech"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.key_information_prominence"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.ask_for_basic_food_or_drink",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the requested item and essential option"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.high_vowel_contrasts",
+        "a1_pronunciation.p_b_contrast",
+        "a1_pronunciation.question_social_contours",
+        "a1_pronunciation.sense_group_chunking"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.state_a_basic_food_or_drink_preference",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the preference expression and chosen item"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.key_information_prominence"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.ask_for_and_give_an_everyday_item",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the request and contrasting item name"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.p_b_contrast",
+        "a1_pronunciation.pronunciation_repair"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.exchange_information_about_an_immediate_need",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the need and contrasting practical detail"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.key_information_prominence"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.ask_for_basic_practical_help",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the fixed help expression"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.final_consonants_clusters",
+        "a1_pronunciation.pronunciation_repair"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.handle_basic_price_and_quantity_information",
+      "legacy_pronunciation_targets": [
+        "Intelligible contrast between the spoken quantity and cost figures"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.final_consonants_clusters",
+        "a1_pronunciation.teen_ty_stress"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the affected area and brief answer"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.pronunciation_repair"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech",
+      "legacy_pronunciation_targets": [
+        "Receptive discrimination of very slow, clear articulation with repetition"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.name_number_segmentation",
+        "a1_pronunciation.teen_ty_stress"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_a_headline_news_topic_from_visual_media",
+      "legacy_pronunciation_targets": [
+        "Receptive recognition of familiar spoken topic wording"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.key_information_prominence"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.identify_a_product_in_a_short_video_advertisement",
+      "legacy_pronunciation_targets": [
+        "Receptive recognition of familiar spoken product wording"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.key_information_prominence"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.convey_simple_information_from_a_sign_or_notice",
+      "legacy_pronunciation_targets": [
+        "Intelligible spoken delivery of the selected Language B details"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.pronunciation_repair"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.give_a_rough_oral_translation_of_everyday_sign_words",
+      "legacy_pronunciation_targets": [
+        "Intelligible oral delivery of the rough Language B rendering"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.pronunciation_repair"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.agree_to_a_simple_request",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the fixed agreement expression"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.question_social_contours"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.accept_a_simple_offer",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the fixed acceptance expression"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.question_social_contours"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.open_and_close_a_basic_social_exchange",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of short fixed social expressions"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.dental_fricatives",
+        "a1_pronunciation.frequent_contractions",
+        "a1_pronunciation.question_social_contours"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.respond_politely_to_an_introduction",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the short acknowledgement"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.question_social_contours"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.deliver_a_rehearsed_formal_introduction",
+      "legacy_pronunciation_targets": [
+        "Intelligible rehearsed delivery of the very short identifying statement"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.sense_group_chunking"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the memorised sympathy expression"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.question_social_contours"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.invite_input_and_check_understanding_in_a_simple_task",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the invitation and understanding checks"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.question_social_contours"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.show_interest_and_welcome_an_idea",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the interest expression when speech is used"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.question_social_contours"
+      ]
+    },
+    {
+      "candidate_id": "lesson_candidate.share_an_idea_and_ask_what_others_think",
+      "legacy_pronunciation_targets": [
+        "Intelligible delivery of the idea and opinion question when speech is used"
+      ],
+      "exact_target_ids": [
+        "a1_pronunciation.question_social_contours"
+      ]
+    }
+  ],
+  "audit": {
+    "target_count": 20,
+    "strand_count": 10,
+    "control_status_counts": {
+      "receptive_and_productive": 17,
+      "receptive_with_guided_imitation": 3
+    },
+    "arabic_risk_hypothesis_count": 12,
+    "risk_disposition_counts": {
+      "monitor_if_observed_not_pre_taught": 1,
+      "selected_monitor_target": 11
+    },
+    "legacy_pronunciation_candidate_count": 54,
+    "uncovered_pronunciation_candidate_ids": [],
+    "uncovered_strand_ids": [],
+    "unknown_strand_ids": [],
+    "unknown_risk_ids": [],
+    "unknown_candidate_location_ids": [],
+    "targets_without_source_refs": [],
+    "targets_without_recycle_locations": [],
+    "examples_without_reference_ipa": [],
+    "final_lesson_decisions_made": 0
+  },
+  "review": {
+    "status": "accepted_exact_pronunciation_pass",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T15:28:00+03:00",
+    "statement": "All A1 pronunciation strands, current targets, and Arabic-learner hypotheses now have bounded intelligibility decisions, evidence, examples, owners, recycling, mastery, tolerance, and later-level limits."
+  }
+}

@@ -219,7 +219,11 @@
         "2026-08-10: selected 104 bounded lexical resources containing 760 distinct member forms: 62 lexical sets, 41 usable frame sets, and one personalised country-nationality slot. Every resource has a stated meaning/function, evidence, register, production expectation, introduction context, and distinct recycle context.",
         "2026-08-10: all 75 current vocabulary-target candidates and all 77 phrase-target candidates now have exact lexical owners; no source, selected resource, communicative owner, or candidate target is orphaned.",
         "2026-08-10: all 336 repository tests passed at the exact A1 lexical and chunk ownership checkpoint.",
-        "Next partition: select exact A1 pronunciation and intelligibility targets, Arabic-learner risk hypotheses, and fresh recycle owners before final candidate decisions."
+        "2026-08-10: selected 20 exact A1 pronunciation and intelligibility targets spanning all ten progression strands. Seventeen require receptive and productive control; three require receptive control with guided imitation, without accent-removal expectations.",
+        "2026-08-10: all 54 current pronunciation-target candidates have exact owners. All 12 Arabic-learner risk hypotheses were dispositioned as dialect-sensitive monitoring hypotheses: 11 selected monitor risks and one monitor-only /ŋ/ risk that is never pre-taught as an assumed deficit.",
+        "2026-08-10: every exact pronunciation target has course examples with reference IPA, meaning or intelligibility risk, an introduction context, a distinct fresh recycle context, mastery evidence, tolerance, and a later-level boundary.",
+        "2026-08-10: all 342 repository tests passed at the exact A1 pronunciation and intelligibility ownership checkpoint.",
+        "Next partition: audit candidate prerequisites, exact-item recycling, mastery validity, and A1 exit coverage before making final candidate decisions."
       ]
     },
     {
