@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/pronunciation-progression-strands.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "dataset_id", "version", "level_order", "inputs", "target_model", "evidence_contract", "strands", "arabic_learner_risk_hypotheses", "assessment_contract", "audit", "review"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "dataset_id": {"const": "pronunciation_progression_strands"},
+    "version": {"const": 1},
+    "level_order": {"const": ["a1", "a2", "b1", "b2", "c1", "c2"]},
+    "inputs": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/input"}},
+    "target_model": {"$ref": "#/$defs/model"},
+    "evidence_contract": {"$ref": "#/$defs/evidenceContract"},
+    "strands": {"type": "array", "minItems": 10, "maxItems": 10, "items": {"$ref": "#/$defs/strand"}},
+    "arabic_learner_risk_hypotheses": {"type": "array", "minItems": 12, "maxItems": 12, "items": {"$ref": "#/$defs/risk"}},
+    "assessment_contract": {"$ref": "#/$defs/assessment"},
+    "audit": {"$ref": "#/$defs/audit"},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "sha": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "level": {"enum": ["a1", "a2", "b1", "b2", "c1", "c2"]},
+    "input": {
+      "type": "object", "additionalProperties": false, "required": ["path", "sha256"],
+      "properties": {"path": {"$ref": "#/$defs/text"}, "sha256": {"$ref": "#/$defs/sha"}}
+    },
+    "model": {
+      "type": "object", "additionalProperties": false,
+      "required": ["teaching_reference", "success_standard", "accent_policy", "non_goals"],
+      "properties": {
+        "teaching_reference": {"const": "General American pronunciation for models and IPA"},
+        "success_standard": {"$ref": "#/$defs/text"}, "accent_policy": {"$ref": "#/$defs/text"},
+        "non_goals": {"const": ["accent removal", "native-speaker imitation", "one mandatory learner accent"]}
+      }
+    },
+    "evidenceContract": {
+      "type": "object", "additionalProperties": false,
+      "required": ["cefr_role", "english_sequence_role", "arabic_risk_role"],
+      "properties": {
+        "cefr_role": {"const": "exit_intelligibility_boundary"},
+        "english_sequence_role": {"const": "reviewed_product_decision_not_claimed_as_cefr_sequence"},
+        "arabic_risk_role": {"const": "hypothesis_pending_specialist_and_learner_validation"}
+      }
+    },
+    "stage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["level", "expectation", "exit_boundary", "profile_claim_id", "control_focus", "lifecycle_states", "cefr_boundary_evidence_count", "cefr_boundary_evidence_ids_sha256", "representative_cefr_evidence_ids", "evidence_role"],
+      "properties": {
+        "level": {"$ref": "#/$defs/level"}, "expectation": {"$ref": "#/$defs/text"},
+        "exit_boundary": {"$ref": "#/$defs/text"},
+        "profile_claim_id": {"type": "string", "pattern": "^[a-z][0-9]\\.language_control\\.pronunciation$"},
+        "control_focus": {"enum": ["receptive", "both"]},
+        "lifecycle_states": {"type": "array", "uniqueItems": true, "items": {"enum": ["expose", "introduce", "practise", "recycle", "consolidate", "extend"]}},
+        "cefr_boundary_evidence_count": {"type": "integer", "minimum": 1},
+        "cefr_boundary_evidence_ids_sha256": {"$ref": "#/$defs/sha"},
+        "representative_cefr_evidence_ids": {"type": "array", "minItems": 1, "maxItems": 3, "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
+        "evidence_role": {"const": "level_boundary_not_sequence_proof"}
+      }
+    },
+    "strand": {
+      "type": "object", "additionalProperties": false,
+      "required": ["strand_id", "strand_code", "title", "prerequisite_strand_ids", "first_guided_productive_level", "first_family_consolidation_level", "stages", "review"],
+      "properties": {
+        "strand_id": {"type": "string", "pattern": "^pronunciation\\.[a-z0-9_]+$"},
+        "strand_code": {"type": "string", "pattern": "^[a-z0-9_]+$"}, "title": {"$ref": "#/$defs/text"},
+        "prerequisite_strand_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^pronunciation\\.[a-z0-9_]+$"}},
+        "first_guided_productive_level": {"$ref": "#/$defs/level"},
+        "first_family_consolidation_level": {"$ref": "#/$defs/level"},
+        "stages": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"$ref": "#/$defs/stage"}},
+        "review": {
+          "type": "object", "additionalProperties": false, "required": ["status", "basis"],
+          "properties": {
+            "status": {"const": "accepted_internal_v1"},
+            "basis": {"const": "cefr_boundary_plus_english_specific_intelligibility_product_decision"}
+          }
+        }
+      }
+    },
+    "risk": {
+      "type": "object", "additionalProperties": false,
+      "required": ["risk_id", "strand_id", "statement", "evidence_status", "universality", "validation_route"],
+      "properties": {
+        "risk_id": {"type": "string", "pattern": "^arabic_pronunciation\\.[a-z0-9_]+$"},
+        "strand_id": {"type": "string", "pattern": "^pronunciation\\.[a-z0-9_]+$"},
+        "statement": {"$ref": "#/$defs/text"},
+        "evidence_status": {"const": "learner_risk_hypothesis_not_source_fact"},
+        "universality": {"const": "not_assumed_across_arabic_dialects_or_individuals"},
+        "validation_route": {"const": ["arabic_english_pronunciation_specialist_review", "dialect_aware_learner_observation"]}
+      }
+    },
+    "assessment": {
+      "type": "object", "additionalProperties": false, "required": ["status", "rules"],
+      "properties": {"status": {"const": "accepted"}, "rules": {"type": "array", "minItems": 5, "items": {"$ref": "#/$defs/text"}}}
+    },
+    "audit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["strand_count", "stage_count", "risk_hypothesis_count", "empty_cefr_boundary_stages", "invalid_prerequisites", "invalid_lifecycle_order", "risks_presented_as_source_facts", "accent_removal_requirements"],
+      "properties": {
+        "strand_count": {"const": 10}, "stage_count": {"const": 60}, "risk_hypothesis_count": {"const": 12},
+        "empty_cefr_boundary_stages": {"type": "array", "maxItems": 0},
+        "invalid_prerequisites": {"type": "array", "maxItems": 0},
+        "invalid_lifecycle_order": {"type": "array", "maxItems": 0},
+        "risks_presented_as_source_facts": {"type": "array", "maxItems": 0},
+        "accent_removal_requirements": {"type": "array", "maxItems": 0}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at", "method", "limitations"],
+      "properties": {
+        "status": {"const": "accepted_internal_v1"}, "reviewer": {"const": "codex_primary_curriculum_agent"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "method": {"const": "cefr_boundary_review_english_intelligibility_sequence_and_labelled_arabic_risk_audit"},
+        "limitations": {"type": "array", "minItems": 3, "items": {"$ref": "#/$defs/text"}}
+      }
+    }
+  }
+}

@@ -1,0 +1,1505 @@
+{
+  "schema_version": 1,
+  "dataset_id": "pronunciation_progression_strands",
+  "version": 1,
+  "level_order": [
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2"
+  ],
+  "inputs": [
+    {
+      "path": "data/reviewed/source-dispositions-v1.json",
+      "sha256": "15824d8281d9e6669eddc40780e3f9ab3113866834c7fae997b2de76bf92a32d"
+    },
+    {
+      "path": "data/reviewed/level-exit-profiles-v1.json",
+      "sha256": "8cd53270688f6aafadddb7beb7f8f3717d832a464f127fefd3def3a1a62da30a"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "sha256": "17a098d45b54b4fb26d0db02cf383b156a843e78414aa756c510cbbeccc819ca"
+    }
+  ],
+  "target_model": {
+    "teaching_reference": "General American pronunciation for models and IPA",
+    "success_standard": "intelligible effective meaning with level-appropriate listener effort and repair",
+    "accent_policy": "A retained accent is acceptable whenever intelligibility and effectiveness are preserved.",
+    "non_goals": [
+      "accent removal",
+      "native-speaker imitation",
+      "one mandatory learner accent"
+    ]
+  },
+  "evidence_contract": {
+    "cefr_role": "exit_intelligibility_boundary",
+    "english_sequence_role": "reviewed_product_decision_not_claimed_as_cefr_sequence",
+    "arabic_risk_role": "hypothesis_pending_specialist_and_learner_validation"
+  },
+  "strands": [
+    {
+      "strand_id": "pronunciation.sound_perception",
+      "strand_code": "sound_perception",
+      "title": "Sound perception and word recognition",
+      "prerequisite_strand_ids": [],
+      "first_guided_productive_level": "a1",
+      "first_family_consolidation_level": "a2",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Distinguish selected high-value sounds, word boundaries, names, numbers, and learnt chunks in very clear speech.",
+          "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "profile_claim_id": "a1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a1.overall_phonological_control.001",
+            "cefr.cv2020.p135.a1.sound_articulation.001",
+            "cefr.cv2020.p135.a1.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "a2",
+          "expectation": "Recognise selected contrasts and familiar words across routine voices and generally clear delivery.",
+          "exit_boundary": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "profile_claim_id": "a2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ],
+          "cefr_boundary_evidence_count": 5,
+          "cefr_boundary_evidence_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a2.overall_phonological_control.001",
+            "cefr.cv2020.p135.a2.prosodic_features.002",
+            "cefr.cv2020.p135.a2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b1",
+          "expectation": "Use phonological cues to recognise familiar connected speech despite regular variation and first-language influence.",
+          "exit_boundary": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "profile_claim_id": "b1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b1.overall_phonological_control.001",
+            "cefr.cv2020.p134.b1.prosodic_features.001",
+            "cefr.cv2020.p134.b1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b2",
+          "expectation": "Resolve most sound, stress, and reduction variation in standard familiar and field-related input.",
+          "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "profile_claim_id": "b2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b2.overall_phonological_control.001",
+            "cefr.cv2020.p134.b2.sound_articulation.001",
+            "cefr.cv2020.p134.b2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c1",
+          "expectation": "Track a full range of phonological cues across accents, speed, register, and complex discourse.",
+          "exit_boundary": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "profile_claim_id": "c1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c1.overall_phonological_control.001",
+            "cefr.cv2020.p134.c1.prosodic_features.002",
+            "cefr.cv2020.p134.c1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c2",
+          "expectation": "Interpret fine phonological detail, marked delivery, and subtle prosodic meaning across demanding input.",
+          "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "profile_claim_id": "c2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c2.overall_phonological_control.001",
+            "cefr.cv2020.p134.c2.prosodic_features.001",
+            "cefr.cv2020.p134.c2.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        }
+      ],
+      "review": {
+        "status": "accepted_internal_v1",
+        "basis": "cefr_boundary_plus_english_specific_intelligibility_product_decision"
+      }
+    },
+    {
+      "strand_id": "pronunciation.consonant_clarity",
+      "strand_code": "consonant_clarity",
+      "title": "Consonant contrasts and place or manner clarity",
+      "prerequisite_strand_ids": [
+        "pronunciation.sound_perception"
+      ],
+      "first_guided_productive_level": "a1",
+      "first_family_consolidation_level": "b1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Produce selected high-impact consonant contrasts clearly enough in names, numbers, key nouns, verbs, and chunks.",
+          "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "profile_claim_id": "a1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a1.overall_phonological_control.001",
+            "cefr.cv2020.p135.a1.sound_articulation.001",
+            "cefr.cv2020.p135.a1.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "a2",
+          "expectation": "Maintain selected contrasts in routine phrases and short sentences, with repetition available when needed.",
+          "exit_boundary": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "profile_claim_id": "a2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 5,
+          "cefr_boundary_evidence_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a2.overall_phonological_control.001",
+            "cefr.cv2020.p135.a2.prosodic_features.002",
+            "cefr.cv2020.p135.a2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b1",
+          "expectation": "Keep consonant distinctions generally intelligible in connected familiar-topic speech despite regular mispronunciation.",
+          "exit_boundary": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "profile_claim_id": "b1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b1.overall_phonological_control.001",
+            "cefr.cv2020.p134.b1.prosodic_features.001",
+            "cefr.cv2020.p134.b1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b2",
+          "expectation": "Sustain consonant clarity throughout extended speech so accent has little effect on understanding.",
+          "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "profile_claim_id": "b2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b2.overall_phonological_control.001",
+            "cefr.cv2020.p134.b2.sound_articulation.001",
+            "cefr.cv2020.p134.b2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c1",
+          "expectation": "Control consonant detail flexibly across speed, register, unfamiliar words, and complex purposes.",
+          "exit_boundary": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "profile_claim_id": "c1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c1.overall_phonological_control.001",
+            "cefr.cv2020.p134.c1.prosodic_features.002",
+            "cefr.cv2020.p134.c1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c2",
+          "expectation": "Use precise articulation deliberately where it supports subtle contrast, emphasis, or rhetorical effect.",
+          "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "profile_claim_id": "c2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c2.overall_phonological_control.001",
+            "cefr.cv2020.p134.c2.prosodic_features.001",
+            "cefr.cv2020.p134.c2.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        }
+      ],
+      "review": {
+        "status": "accepted_internal_v1",
+        "basis": "cefr_boundary_plus_english_specific_intelligibility_product_decision"
+      }
+    },
+    {
+      "strand_id": "pronunciation.vowel_clarity",
+      "strand_code": "vowel_clarity",
+      "title": "Vowel contrasts and reduced vowels",
+      "prerequisite_strand_ids": [
+        "pronunciation.sound_perception"
+      ],
+      "first_guided_productive_level": "a1",
+      "first_family_consolidation_level": "b1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Produce selected meaning-changing vowel contrasts in a bounded learnt repertoire with modelling and repair.",
+          "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "profile_claim_id": "a1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a1.overall_phonological_control.001",
+            "cefr.cv2020.p135.a1.sound_articulation.001",
+            "cefr.cv2020.p135.a1.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "a2",
+          "expectation": "Maintain selected vowel contrasts in routine words and phrases and begin recognising common unstressed vowels.",
+          "exit_boundary": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "profile_claim_id": "a2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 5,
+          "cefr_boundary_evidence_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a2.overall_phonological_control.001",
+            "cefr.cv2020.p135.a2.prosodic_features.002",
+            "cefr.cv2020.p135.a2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b1",
+          "expectation": "Keep vowel quality sufficiently distinct in connected familiar-topic speech despite noticeable accent.",
+          "exit_boundary": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "profile_claim_id": "b1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b1.overall_phonological_control.001",
+            "cefr.cv2020.p134.b1.prosodic_features.001",
+            "cefr.cv2020.p134.b1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b2",
+          "expectation": "Use stable stressed vowels and functional reductions so pronunciation remains intelligible throughout.",
+          "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "profile_claim_id": "b2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b2.overall_phonological_control.001",
+            "cefr.cv2020.p134.b2.sound_articulation.001",
+            "cefr.cv2020.p134.b2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c1",
+          "expectation": "Control vowel quality and reduction flexibly across rate, prominence, register, and unfamiliar language.",
+          "exit_boundary": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "profile_claim_id": "c1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c1.overall_phonological_control.001",
+            "cefr.cv2020.p134.c1.prosodic_features.002",
+            "cefr.cv2020.p134.c1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c2",
+          "expectation": "Adjust vowel and reduction detail precisely when it contributes to nuance, contrast, or performance effect.",
+          "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "profile_claim_id": "c2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c2.overall_phonological_control.001",
+            "cefr.cv2020.p134.c2.prosodic_features.001",
+            "cefr.cv2020.p134.c2.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        }
+      ],
+      "review": {
+        "status": "accepted_internal_v1",
+        "basis": "cefr_boundary_plus_english_specific_intelligibility_product_decision"
+      }
+    },
+    {
+      "strand_id": "pronunciation.syllable_shape",
+      "strand_code": "syllable_shape",
+      "title": "Syllable shape, consonant clusters, and word endings",
+      "prerequisite_strand_ids": [
+        "pronunciation.consonant_clarity"
+      ],
+      "first_guided_productive_level": "a1",
+      "first_family_consolidation_level": "a2",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Preserve selected final consonants and simple clusters when they carry essential word identity or meaning.",
+          "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "profile_claim_id": "a1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a1.overall_phonological_control.001",
+            "cefr.cv2020.p135.a1.sound_articulation.001",
+            "cefr.cv2020.p135.a1.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "a2",
+          "expectation": "Produce common initial and final clusters without additions or losses that disrupt routine understanding.",
+          "exit_boundary": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "profile_claim_id": "a2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ],
+          "cefr_boundary_evidence_count": 5,
+          "cefr_boundary_evidence_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a2.overall_phonological_control.001",
+            "cefr.cv2020.p135.a2.prosodic_features.002",
+            "cefr.cv2020.p135.a2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b1",
+          "expectation": "Maintain word shape across longer familiar-topic stretches while self-correcting important cluster problems.",
+          "exit_boundary": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "profile_claim_id": "b1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b1.overall_phonological_control.001",
+            "cefr.cv2020.p134.b1.prosodic_features.001",
+            "cefr.cv2020.p134.b1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b2",
+          "expectation": "Preserve syllable structure reliably at natural speed, including less familiar and field-related words.",
+          "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "profile_claim_id": "b2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b2.overall_phonological_control.001",
+            "cefr.cv2020.p134.b2.sound_articulation.001",
+            "cefr.cv2020.p134.b2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c1",
+          "expectation": "Handle complex word shapes flexibly across connected, formal, and rapid speech.",
+          "exit_boundary": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "profile_claim_id": "c1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c1.overall_phonological_control.001",
+            "cefr.cv2020.p134.c1.prosodic_features.002",
+            "cefr.cv2020.p134.c1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c2",
+          "expectation": "Use precise syllable shaping and deliberate simplification only when context and style make it appropriate.",
+          "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "profile_claim_id": "c2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c2.overall_phonological_control.001",
+            "cefr.cv2020.p134.c2.prosodic_features.001",
+            "cefr.cv2020.p134.c2.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        }
+      ],
+      "review": {
+        "status": "accepted_internal_v1",
+        "basis": "cefr_boundary_plus_english_specific_intelligibility_product_decision"
+      }
+    },
+    {
+      "strand_id": "pronunciation.grammatical_endings",
+      "strand_code": "grammatical_endings",
+      "title": "Audible grammatical endings",
+      "prerequisite_strand_ids": [
+        "pronunciation.syllable_shape"
+      ],
+      "first_guided_productive_level": "a1",
+      "first_family_consolidation_level": "b1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Make selected plural, possessive, and simple verb endings audible when omission changes immediate meaning.",
+          "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "profile_claim_id": "a1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a1.overall_phonological_control.001",
+            "cefr.cv2020.p135.a1.sound_articulation.001",
+            "cefr.cv2020.p135.a1.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "a2",
+          "expectation": "Distinguish common -s and -ed forms in routine production and recognise their main pronunciation patterns.",
+          "exit_boundary": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "profile_claim_id": "a2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 5,
+          "cefr_boundary_evidence_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a2.overall_phonological_control.001",
+            "cefr.cv2020.p135.a2.prosodic_features.002",
+            "cefr.cv2020.p135.a2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b1",
+          "expectation": "Preserve grammatical endings consistently enough in connected speech for time, number, and ownership to remain clear.",
+          "exit_boundary": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "profile_claim_id": "b1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b1.overall_phonological_control.001",
+            "cefr.cv2020.p134.b1.prosodic_features.001",
+            "cefr.cv2020.p134.b1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b2",
+          "expectation": "Integrate endings naturally into clusters and connected speech without loss of grammatical information.",
+          "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "profile_claim_id": "b2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b2.overall_phonological_control.001",
+            "cefr.cv2020.p134.b2.sound_articulation.001",
+            "cefr.cv2020.p134.b2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c1",
+          "expectation": "Control subtle morphological sound detail flexibly across complex and rapid language.",
+          "exit_boundary": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "profile_claim_id": "c1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c1.overall_phonological_control.001",
+            "cefr.cv2020.p134.c1.prosodic_features.002",
+            "cefr.cv2020.p134.c1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c2",
+          "expectation": "Use grammatical sound detail precisely while varying reduction appropriately for style and emphasis.",
+          "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "profile_claim_id": "c2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c2.overall_phonological_control.001",
+            "cefr.cv2020.p134.c2.prosodic_features.001",
+            "cefr.cv2020.p134.c2.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        }
+      ],
+      "review": {
+        "status": "accepted_internal_v1",
+        "basis": "cefr_boundary_plus_english_specific_intelligibility_product_decision"
+      }
+    },
+    {
+      "strand_id": "pronunciation.word_stress",
+      "strand_code": "word_stress",
+      "title": "Word stress and stress-sensitive recognition",
+      "prerequisite_strand_ids": [
+        "pronunciation.sound_perception"
+      ],
+      "first_guided_productive_level": "a1",
+      "first_family_consolidation_level": "b1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Place recognisable stress in selected names, numbers, nationalities, jobs, and other lesson-critical words.",
+          "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "profile_claim_id": "a1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a1.overall_phonological_control.001",
+            "cefr.cv2020.p135.a1.sound_articulation.001",
+            "cefr.cv2020.p135.a1.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "a2",
+          "expectation": "Use expected stress in a wider routine repertoire and notice stress changes in common related words.",
+          "exit_boundary": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "profile_claim_id": "a2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 5,
+          "cefr_boundary_evidence_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a2.overall_phonological_control.001",
+            "cefr.cv2020.p135.a2.prosodic_features.002",
+            "cefr.cv2020.p135.a2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b1",
+          "expectation": "Maintain generally intelligible word stress across familiar connected speech and repair important errors.",
+          "exit_boundary": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "profile_claim_id": "b1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b1.overall_phonological_control.001",
+            "cefr.cv2020.p134.b1.prosodic_features.001",
+            "cefr.cv2020.p134.b1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b2",
+          "expectation": "Control stress reliably in broad general and field-related vocabulary, including many derived words.",
+          "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "profile_claim_id": "b2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b2.overall_phonological_control.001",
+            "cefr.cv2020.p134.b2.sound_articulation.001",
+            "cefr.cv2020.p134.b2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c1",
+          "expectation": "Use word stress flexibly across unfamiliar, technical, and morphologically complex language.",
+          "exit_boundary": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "profile_claim_id": "c1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c1.overall_phonological_control.001",
+            "cefr.cv2020.p134.c1.prosodic_features.002",
+            "cefr.cv2020.p134.c1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c2",
+          "expectation": "Manipulate normal and contrastive lexical stress precisely for meaning and stylistic effect.",
+          "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "profile_claim_id": "c2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c2.overall_phonological_control.001",
+            "cefr.cv2020.p134.c2.prosodic_features.001",
+            "cefr.cv2020.p134.c2.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        }
+      ],
+      "review": {
+        "status": "accepted_internal_v1",
+        "basis": "cefr_boundary_plus_english_specific_intelligibility_product_decision"
+      }
+    },
+    {
+      "strand_id": "pronunciation.prominence_rhythm",
+      "strand_code": "prominence_rhythm",
+      "title": "Sentence prominence and rhythm",
+      "prerequisite_strand_ids": [
+        "pronunciation.word_stress"
+      ],
+      "first_guided_productive_level": "a2",
+      "first_family_consolidation_level": "b2",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Notice and imitate prominence inside short learnt chunks without a natural-rhythm mastery demand.",
+          "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "profile_claim_id": "a1.language_control.pronunciation",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a1.overall_phonological_control.001",
+            "cefr.cv2020.p135.a1.sound_articulation.001",
+            "cefr.cv2020.p135.a1.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "a2",
+          "expectation": "Highlight key content words and reduce some predictable function words in routine short utterances.",
+          "exit_boundary": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "profile_claim_id": "a2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 5,
+          "cefr_boundary_evidence_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a2.overall_phonological_control.001",
+            "cefr.cv2020.p135.a2.prosodic_features.002",
+            "cefr.cv2020.p135.a2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b1",
+          "expectation": "Use prominence to keep main information clear in connected familiar-topic speech.",
+          "exit_boundary": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "profile_claim_id": "b1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b1.overall_phonological_control.001",
+            "cefr.cv2020.p134.b1.prosodic_features.001",
+            "cefr.cv2020.p134.b1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b2",
+          "expectation": "Use prominence and rhythm consistently to support focus, contrast, turn structure, and intelligibility.",
+          "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "profile_claim_id": "b2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b2.overall_phonological_control.001",
+            "cefr.cv2020.p134.b2.sound_articulation.001",
+            "cefr.cv2020.p134.b2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c1",
+          "expectation": "Shift prominence flexibly to organise complex ideas, stance, correction, and audience attention.",
+          "exit_boundary": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "profile_claim_id": "c1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c1.overall_phonological_control.001",
+            "cefr.cv2020.p134.c1.prosodic_features.002",
+            "cefr.cv2020.p134.c1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c2",
+          "expectation": "Shape rhythm and prominence precisely for subtle meaning, rhetorical design, and interpersonal effect.",
+          "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "profile_claim_id": "c2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c2.overall_phonological_control.001",
+            "cefr.cv2020.p134.c2.prosodic_features.001",
+            "cefr.cv2020.p134.c2.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        }
+      ],
+      "review": {
+        "status": "accepted_internal_v1",
+        "basis": "cefr_boundary_plus_english_specific_intelligibility_product_decision"
+      }
+    },
+    {
+      "strand_id": "pronunciation.connected_speech",
+      "strand_code": "connected_speech",
+      "title": "Connected-speech perception and production",
+      "prerequisite_strand_ids": [
+        "pronunciation.syllable_shape",
+        "pronunciation.prominence_rhythm"
+      ],
+      "first_guided_productive_level": "a2",
+      "first_family_consolidation_level": "b2",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Recognise a small set of frequent linked or reduced forms inside familiar, very clear chunks.",
+          "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "profile_claim_id": "a1.language_control.pronunciation",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a1.overall_phonological_control.001",
+            "cefr.cv2020.p135.a1.sound_articulation.001",
+            "cefr.cv2020.p135.a1.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "a2",
+          "expectation": "Understand common routine linking and reductions and use selected forms without losing key words.",
+          "exit_boundary": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "profile_claim_id": "a2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 5,
+          "cefr_boundary_evidence_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a2.overall_phonological_control.001",
+            "cefr.cv2020.p135.a2.prosodic_features.002",
+            "cefr.cv2020.p135.a2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b1",
+          "expectation": "Process familiar connected speech and use linking or reduction that supports rather than obscures meaning.",
+          "exit_boundary": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "profile_claim_id": "b1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b1.overall_phonological_control.001",
+            "cefr.cv2020.p134.b1.prosodic_features.001",
+            "cefr.cv2020.p134.b1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b2",
+          "expectation": "Handle common connected-speech processes at a natural pace with intelligibility throughout.",
+          "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "profile_claim_id": "b2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b2.overall_phonological_control.001",
+            "cefr.cv2020.p134.b2.sound_articulation.001",
+            "cefr.cv2020.p134.b2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c1",
+          "expectation": "Adapt linking, assimilation, elision, and reduction flexibly across rate and register.",
+          "exit_boundary": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "profile_claim_id": "c1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c1.overall_phonological_control.001",
+            "cefr.cv2020.p134.c1.prosodic_features.002",
+            "cefr.cv2020.p134.c1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c2",
+          "expectation": "Use or resist connected-speech processes deliberately for precision, clarity, style, and audience.",
+          "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "profile_claim_id": "c2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c2.overall_phonological_control.001",
+            "cefr.cv2020.p134.c2.prosodic_features.001",
+            "cefr.cv2020.p134.c2.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        }
+      ],
+      "review": {
+        "status": "accepted_internal_v1",
+        "basis": "cefr_boundary_plus_english_specific_intelligibility_product_decision"
+      }
+    },
+    {
+      "strand_id": "pronunciation.intonation_stance",
+      "strand_code": "intonation_stance",
+      "title": "Intonation, interaction, and stance",
+      "prerequisite_strand_ids": [
+        "pronunciation.prominence_rhythm"
+      ],
+      "first_guided_productive_level": "a2",
+      "first_family_consolidation_level": "b2",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Use recognisable contours in a few learnt greetings, questions, checks, and polite responses.",
+          "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "profile_claim_id": "a1.language_control.pronunciation",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a1.overall_phonological_control.001",
+            "cefr.cv2020.p135.a1.sound_articulation.001",
+            "cefr.cv2020.p135.a1.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "a2",
+          "expectation": "Use basic contours for statements, questions, continuation, politeness, and routine turn-taking.",
+          "exit_boundary": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "profile_claim_id": "a2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 5,
+          "cefr_boundary_evidence_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a2.overall_phonological_control.001",
+            "cefr.cv2020.p135.a2.prosodic_features.002",
+            "cefr.cv2020.p135.a2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b1",
+          "expectation": "Use intonation to signal main intent, involvement, contrast, and completion in familiar interaction.",
+          "exit_boundary": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "profile_claim_id": "b1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b1.overall_phonological_control.001",
+            "cefr.cv2020.p134.b1.prosodic_features.001",
+            "cefr.cv2020.p134.b1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b2",
+          "expectation": "Control intonation consistently enough to support viewpoint, stance, turn management, and social meaning.",
+          "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "profile_claim_id": "b2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b2.overall_phonological_control.001",
+            "cefr.cv2020.p134.b2.sound_articulation.001",
+            "cefr.cv2020.p134.b2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c1",
+          "expectation": "Interpret and produce nuanced intonation flexibly across complex social and professional interaction.",
+          "exit_boundary": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "profile_claim_id": "c1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c1.overall_phonological_control.001",
+            "cefr.cv2020.p134.c1.prosodic_features.002",
+            "cefr.cv2020.p134.c1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c2",
+          "expectation": "Use fine intonational choices precisely for implication, humour, tact, ambiguity, and rhetorical effect.",
+          "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "profile_claim_id": "c2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c2.overall_phonological_control.001",
+            "cefr.cv2020.p134.c2.prosodic_features.001",
+            "cefr.cv2020.p134.c2.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        }
+      ],
+      "review": {
+        "status": "accepted_internal_v1",
+        "basis": "cefr_boundary_plus_english_specific_intelligibility_product_decision"
+      }
+    },
+    {
+      "strand_id": "pronunciation.chunking_monitoring_repair",
+      "strand_code": "chunking_monitoring_repair",
+      "title": "Chunking, pausing, monitoring, and pronunciation repair",
+      "prerequisite_strand_ids": [
+        "pronunciation.word_stress"
+      ],
+      "first_guided_productive_level": "a1",
+      "first_family_consolidation_level": "b1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Deliver short learnt sense groups, pause safely, and repeat or spell a key item when not understood.",
+          "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "profile_claim_id": "a1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a1.overall_phonological_control.001",
+            "cefr.cv2020.p135.a1.sound_articulation.001",
+            "cefr.cv2020.p135.a1.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "a2",
+          "expectation": "Group short sentences into clear units and use repetition, slower delivery, or rewording in routine repair.",
+          "exit_boundary": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "profile_claim_id": "a2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "practise"
+          ],
+          "cefr_boundary_evidence_count": 5,
+          "cefr_boundary_evidence_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p135.a2.overall_phonological_control.001",
+            "cefr.cv2020.p135.a2.prosodic_features.002",
+            "cefr.cv2020.p135.a2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b1",
+          "expectation": "Chunk connected familiar-topic speech and monitor or repair pronunciation without abandoning the message.",
+          "exit_boundary": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "profile_claim_id": "b1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b1.overall_phonological_control.001",
+            "cefr.cv2020.p134.b1.prosodic_features.001",
+            "cefr.cv2020.p134.b1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "b2",
+          "expectation": "Manage pausing and repair smoothly enough to sustain extended independent interaction.",
+          "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "profile_claim_id": "b2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.b2.overall_phonological_control.001",
+            "cefr.cv2020.p134.b2.sound_articulation.001",
+            "cefr.cv2020.p134.b2.sound_articulation.002"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c1",
+          "expectation": "Restructure complex delivery flexibly and resolve phonological ambiguity with little disruption.",
+          "exit_boundary": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "profile_claim_id": "c1.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 4,
+          "cefr_boundary_evidence_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c1.overall_phonological_control.001",
+            "cefr.cv2020.p134.c1.prosodic_features.002",
+            "cefr.cv2020.p134.c1.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        },
+        {
+          "level": "c2",
+          "expectation": "Backtrack, rechunk, and adjust articulation or prosody so smoothly that difficulty is unobtrusive.",
+          "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "profile_claim_id": "c2.language_control.pronunciation",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ],
+          "cefr_boundary_evidence_count": 3,
+          "cefr_boundary_evidence_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+          "representative_cefr_evidence_ids": [
+            "cefr.cv2020.p134.c2.overall_phonological_control.001",
+            "cefr.cv2020.p134.c2.prosodic_features.001",
+            "cefr.cv2020.p134.c2.sound_articulation.001"
+          ],
+          "evidence_role": "level_boundary_not_sequence_proof"
+        }
+      ],
+      "review": {
+        "status": "accepted_internal_v1",
+        "basis": "cefr_boundary_plus_english_specific_intelligibility_product_decision"
+      }
+    }
+  ],
+  "arabic_learner_risk_hypotheses": [
+    {
+      "risk_id": "arabic_pronunciation.p_b_contrast",
+      "strand_id": "pronunciation.consonant_clarity",
+      "statement": "Some learners may merge English /p/ and /b/ in perception or production.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    },
+    {
+      "risk_id": "arabic_pronunciation.v_f_contrast",
+      "strand_id": "pronunciation.consonant_clarity",
+      "statement": "Some learners may merge English /v/ and /f/ in perception or production.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    },
+    {
+      "risk_id": "arabic_pronunciation.dental_fricatives",
+      "strand_id": "pronunciation.consonant_clarity",
+      "statement": "English /θ/ and /ð/ may be replaced by different stops or fricatives; patterns vary by Arabic dialect.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    },
+    {
+      "risk_id": "arabic_pronunciation.velar_nasal",
+      "strand_id": "pronunciation.consonant_clarity",
+      "statement": "Some learners may add /g/ after /ŋ/ or replace it in unfamiliar word positions.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    },
+    {
+      "risk_id": "arabic_pronunciation.high_vowel_contrasts",
+      "strand_id": "pronunciation.vowel_clarity",
+      "statement": "Contrasts such as /iː/-/ɪ/ and /uː/-/ʊ/ may need explicit perception and meaning-based practice.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    },
+    {
+      "risk_id": "arabic_pronunciation.front_central_vowels",
+      "strand_id": "pronunciation.vowel_clarity",
+      "statement": "English /æ/, /e/, /ʌ/, and related vowels may be mapped onto a smaller learner-specific set.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    },
+    {
+      "risk_id": "arabic_pronunciation.cluster_epenthesis",
+      "strand_id": "pronunciation.syllable_shape",
+      "statement": "Some learners may insert a vowel into unfamiliar initial or final consonant clusters.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    },
+    {
+      "risk_id": "arabic_pronunciation.final_cluster_reduction",
+      "strand_id": "pronunciation.syllable_shape",
+      "statement": "Final consonants or clusters may be reduced when several articulatory demands occur together.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    },
+    {
+      "risk_id": "arabic_pronunciation.s_ed_endings",
+      "strand_id": "pronunciation.grammatical_endings",
+      "statement": "Plural, third-person, possessive, and past endings may be omitted or given an extra syllable.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    },
+    {
+      "risk_id": "arabic_pronunciation.lexical_stress_transfer",
+      "strand_id": "pronunciation.word_stress",
+      "statement": "Stress may follow spelling or a familiar Arabic pattern rather than the English lexical pattern.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    },
+    {
+      "risk_id": "arabic_pronunciation.equal_prominence",
+      "strand_id": "pronunciation.prominence_rhythm",
+      "statement": "Function words may receive equal prominence, limiting English focus and rhythm cues.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    },
+    {
+      "risk_id": "arabic_pronunciation.spelling_driven_pronunciation",
+      "strand_id": "pronunciation.sound_perception",
+      "statement": "English spelling may encourage a stable letter-to-sound guess where pronunciation is irregular.",
+      "evidence_status": "learner_risk_hypothesis_not_source_fact",
+      "universality": "not_assumed_across_arabic_dialects_or_individuals",
+      "validation_route": [
+        "arabic_english_pronunciation_specialist_review",
+        "dialect_aware_learner_observation"
+      ]
+    }
+  ],
+  "assessment_contract": {
+    "status": "accepted",
+    "rules": [
+      "Assess intelligibility inside fresh communicative performance; isolated imitation may diagnose but cannot prove mastery.",
+      "Score listener effort, preservation of key meaning, segmental clarity, stress and prominence, chunking, and repair at the level boundary.",
+      "Keep receptive sound discrimination separate from productive pronunciation control.",
+      "Permit the clarification and repair support named by the learner's level; do not silently score an A1 speaker as C2.",
+      "Never deduct for a retained accent when meaning, intelligibility, effectiveness, and situational appropriateness are preserved."
+    ]
+  },
+  "audit": {
+    "strand_count": 10,
+    "stage_count": 60,
+    "risk_hypothesis_count": 12,
+    "empty_cefr_boundary_stages": [],
+    "invalid_prerequisites": [],
+    "invalid_lifecycle_order": [],
+    "risks_presented_as_source_facts": [],
+    "accent_removal_requirements": []
+  },
+  "review": {
+    "status": "accepted_internal_v1",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T14:04:49+03:00",
+    "method": "cefr_boundary_review_english_intelligibility_sequence_and_labelled_arabic_risk_audit",
+    "limitations": [
+      "CEFR evidence validates level boundaries, not this English-specific teaching order.",
+      "Arabic-learner risks are dialect-sensitive hypotheses until specialist review and learner observation.",
+      "Exact phoneme targets and task locations are selected during level reconciliation from communication need and observed breakdowns."
+    ]
+  }
+}

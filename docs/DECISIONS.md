@@ -460,3 +460,30 @@
 - C2 lexical methodology, the English-specific pronunciation sequence for Arabic
   learners, semantic cross-source mapping, and item lifecycle ownership remain named
   SPINE-004 work rather than hidden gaps.
+
+## A1-C2 progression strands v1
+
+- SPINE-004 passes for A1 reconciliation. The approved family-level architecture now
+  contains 41 communicative-function strands, 91 grammar families, 10 lexical-resource
+  strands, 10 pronunciation strands, and 15 performance/complexity dimensions.
+- All 9,274 normalized source records have one primary evidence treatment. CEFR may be
+  reused as performance and pronunciation boundary evidence without creating a second
+  primary owner. The 167 families/strands contain 1,015 lifecycle stages with no
+  unexplained orphan, missing consolidation, post-consolidation recycle gap, or invalid
+  level regression.
+- Oxford's 5,322 entry lines remain a reference pool, not promised word counts or
+  automatic targets. Exact lexical selection must start from an approved communicative
+  owner, store meaning and control channels separately, and include fresh recycling
+  before consolidation.
+- Because Oxford provides no C2 list, C2 selection requires a registered contemporary
+  corpus or usage resource, domain evidence when specialist, sense/collocation/register
+  review, and an explicit lifecycle. Rarity or a raw frequency cutoff cannot justify a
+  target.
+- General American remains the teaching reference for models and IPA. The product goal
+  is intelligibility and effective meaning, never accent removal. The 12 Arabic-learner
+  pronunciation risks are labelled dialect-sensitive hypotheses pending specialist
+  review and learner observation.
+- The family spine deliberately does not freeze exact A1 forms, meanings, chunks,
+  sound contrasts, lesson owners, or recycle locations. The 81 current candidates are
+  still working material; SPINE-005 may keep, revise, split, merge, defer, support,
+  replace, or retire them without preserving the existing count.

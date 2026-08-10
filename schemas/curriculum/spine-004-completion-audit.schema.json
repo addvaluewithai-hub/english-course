@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/spine-004-completion-audit.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "audit_id", "version", "inputs", "source_ownership", "components", "global_lifecycle_audit", "controlled_item_boundary", "named_non_blocking_limits", "external_validation_obligations", "gate_decision", "review"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "audit_id": {"const": "spine_004_completion_audit"},
+    "version": {"const": 1},
+    "inputs": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"$ref": "#/$defs/input"}},
+    "source_ownership": {"$ref": "#/$defs/ownership"},
+    "components": {"type": "array", "minItems": 5, "maxItems": 5, "items": {"$ref": "#/$defs/component"}},
+    "global_lifecycle_audit": {"$ref": "#/$defs/lifecycle"},
+    "controlled_item_boundary": {"$ref": "#/$defs/boundary"},
+    "named_non_blocking_limits": {"type": "array", "minItems": 5, "maxItems": 5, "items": {"$ref": "#/$defs/limit"}},
+    "external_validation_obligations": {"type": "array", "minItems": 3, "items": {"$ref": "#/$defs/text"}},
+    "gate_decision": {"$ref": "#/$defs/gate"},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "input": {
+      "type": "object", "additionalProperties": false, "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "pattern": "^data/reviewed/"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "partition": {
+      "type": "object", "additionalProperties": false,
+      "required": ["partition", "source_dataset_ids", "source_record_count"],
+      "properties": {
+        "partition": {"enum": ["communicative_boundary_evidence", "grammar_system_evidence", "lexical_reference_evidence"]},
+        "source_dataset_ids": {"type": "array", "minItems": 2, "maxItems": 2, "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
+        "source_record_count": {"type": "integer", "minimum": 1}
+      }
+    },
+    "ownership": {
+      "type": "object", "additionalProperties": false,
+      "required": ["normalized_record_count", "primary_partitions", "owned_record_count", "unowned_source_dataset_ids", "duplicate_primary_dataset_owners"],
+      "properties": {
+        "normalized_record_count": {"const": 9274},
+        "primary_partitions": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/partition"}},
+        "owned_record_count": {"const": 9274},
+        "unowned_source_dataset_ids": {"type": "array", "maxItems": 0},
+        "duplicate_primary_dataset_owners": {"type": "array", "maxItems": 0}
+      }
+    },
+    "component": {
+      "type": "object", "additionalProperties": false,
+      "required": ["component", "artifact", "controlled_family_count", "lifecycle_stage_count", "source_record_coverage", "validation_status"],
+      "properties": {
+        "component": {"enum": ["communicative_abilities", "grammar_and_sentence_patterns", "vocabulary_phraseology_and_register", "pronunciation_and_intelligibility", "discourse_interaction_and_complexity"]},
+        "artifact": {"type": "string", "pattern": "-v1\\.json$"},
+        "controlled_family_count": {"type": "integer", "minimum": 1},
+        "lifecycle_stage_count": {"type": "integer", "minimum": 1},
+        "source_record_coverage": {"type": "integer", "minimum": 1},
+        "validation_status": {"const": "pass"}
+      }
+    },
+    "lifecycle": {
+      "type": "object", "additionalProperties": false,
+      "required": ["controlled_family_count", "lifecycle_stage_count", "invalid_level_regressions", "missing_consolidation", "missing_post_consolidation_recycle", "unexplained_orphans"],
+      "properties": {
+        "controlled_family_count": {"const": 167},
+        "lifecycle_stage_count": {"const": 1015},
+        "invalid_level_regressions": {"type": "array", "maxItems": 0},
+        "missing_consolidation": {"type": "array", "maxItems": 0},
+        "missing_post_consolidation_recycle": {"type": "array", "maxItems": 0},
+        "unexplained_orphans": {"type": "array", "maxItems": 0}
+      }
+    },
+    "boundary": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "source_rows_are_not_automatic_targets", "current_a1_working_targets_are_final", "next_required_action"],
+      "properties": {
+        "status": {"const": "family_spine_complete_item_selection_belongs_to_level_reconciliation"},
+        "source_rows_are_not_automatic_targets": {"const": true},
+        "current_a1_working_targets_are_final": {"const": false},
+        "next_required_action": {"$ref": "#/$defs/text"}
+      }
+    },
+    "limit": {
+      "type": "object", "additionalProperties": false, "required": ["limit_id", "treatment"],
+      "properties": {
+        "limit_id": {"enum": ["oxford_no_c2_pool", "gse_grammar_no_c2_rows", "discourse_markers_without_named_gse_category", "cefr_does_not_supply_english_arabic_pronunciation_sequence", "exact_items_and_lesson_owners_not_yet_selected"]},
+        "treatment": {"$ref": "#/$defs/text"}
+      }
+    },
+    "gate": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "completed_task", "next_task", "mass_a1_production"],
+      "properties": {
+        "status": {"const": "pass_for_a1_reconciliation"}, "completed_task": {"const": "SPINE-004"},
+        "next_task": {"const": "SPINE-005"}, "mass_a1_production": {"const": "remains_blocked_until_SPINE-006"}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at", "method"],
+      "properties": {
+        "status": {"const": "accepted"}, "reviewer": {"const": "codex_primary_curriculum_agent"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "method": {"const": "component_validation_source_partition_and_cross_component_completion_audit"}
+      }
+    }
+  }
+}

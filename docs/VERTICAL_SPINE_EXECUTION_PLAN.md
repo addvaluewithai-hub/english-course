@@ -1,6 +1,6 @@
 # Vertical Spine Execution Plan
 
-Status: active critical path. Work packages 1-4 are complete; progression strands are
+Status: active critical path. Work packages 1-5 are complete; A1 reconciliation is
 next.
 
 ## Work package 1 - Scope and governance
@@ -98,6 +98,13 @@ Acceptance:
 - every consolidated item was introduced and practised earlier or has an explicit
   rationale;
 - every level has purposeful recycling and exit-assessment ownership.
+
+Current result: complete. The reviewed spine contains 41 communicative-function
+strands, 91 grammar families, 10 lexical-resource strands, 10 English-specific
+pronunciation strands, and 15 performance/complexity dimensions. All 9,274 normalized
+source records have one primary evidence treatment. The 167 families/strands contain
+1,015 lifecycle stages with no unexplained orphan or invalid level regression. The
+completion gate is `docs/SPINE_004_COMPLETION_AUDIT.md`.
 
 ## Work package 6 - Reconcile current A1
 

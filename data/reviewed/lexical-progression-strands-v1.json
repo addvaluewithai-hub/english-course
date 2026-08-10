@@ -1,0 +1,941 @@
+{
+  "schema_version": 1,
+  "dataset_id": "lexical_progression_strands",
+  "version": 1,
+  "level_order": [
+    "a1",
+    "a2",
+    "b1",
+    "b2",
+    "c1",
+    "c2"
+  ],
+  "inputs": [
+    {
+      "path": "data/derived/oxford-3000-all.json",
+      "sha256": "e80f964b0e49d66702c2837a8605e3ef7ab2019d7eebe03a836ef6e088a7e951"
+    },
+    {
+      "path": "data/derived/oxford-5000-all.json",
+      "sha256": "c15e161287ac141153bc2ce9956f27558273c64658ebe3ec1633016925a7ef61"
+    },
+    {
+      "path": "data/reviewed/level-exit-profiles-v1.json",
+      "sha256": "8cd53270688f6aafadddb7beb7f8f3717d832a464f127fefd3def3a1a62da30a"
+    },
+    {
+      "path": "data/reviewed/communicative-function-strands-v1.json",
+      "sha256": "84cef12823195ce803b9f4945406188ac8ad3c20eb0968c3f385dce0605153f2"
+    }
+  ],
+  "reference_pool": {
+    "use_policy": "reference_pool_not_automatic_target_inventory",
+    "datasets": [
+      {
+        "dataset_id": "oxford_3000_all",
+        "path": "data/derived/oxford-3000-all.json",
+        "entry_line_count": 3307,
+        "distinct_printed_headword_labels": 2998,
+        "level_counts": {
+          "a1": 900,
+          "a2": 871,
+          "b1": 809,
+          "b2": 727
+        },
+        "record_ids_sha256": "e9f228811be0e95cd7a4d546ca03a76eb719166b8ab95b3260ce9db51305accc"
+      },
+      {
+        "dataset_id": "oxford_5000_all",
+        "path": "data/derived/oxford-5000-all.json",
+        "entry_line_count": 2015,
+        "distinct_printed_headword_labels": 1999,
+        "level_counts": {
+          "b2": 700,
+          "c1": 1315
+        },
+        "record_ids_sha256": "152ae57701feb30a4438c4b5c9f7d47dd6da582a37a67cefbfb6df4ea0c0494e"
+      }
+    ],
+    "total_entry_lines": 5322,
+    "all_source_record_ids_sha256": "d41c6d9e918208afa32de581c647b7f9b20aeb7875b5fae47bad1a1e82fcbb5d",
+    "levels_without_published_pool": [
+      "c2"
+    ],
+    "all_records_accounted_for": true
+  },
+  "selection_contract": {
+    "communicative_owner_dataset": "communicative_function_progression_strands",
+    "communicative_owner_count": 41,
+    "required_item_fields": [
+      "lexical_item_id",
+      "canonical_form",
+      "item_type",
+      "meaning_or_function",
+      "communicative_owner_ids",
+      "source_refs",
+      "first_exposure_level",
+      "first_guided_production_level",
+      "consolidation_level",
+      "recycle_locations",
+      "receptive_expectation",
+      "productive_expectation",
+      "register",
+      "collocations_or_frames",
+      "arabic_learner_risks",
+      "decision_rationale",
+      "review"
+    ],
+    "principles": [
+      "Start from an approved communicative outcome, never from an isolated word-list row.",
+      "Select a specific meaning, grammatical use, chunk, or collocation; a headword is not one indivisible target.",
+      "Prefer high-utility language that recurs across more than one approved task or domain.",
+      "Keep receptive exposure and productive control as separate decisions.",
+      "Require a planned fresh recycle after guided production and before consolidation.",
+      "Record deliberate omissions so breadth can be audited without forcing every reference-pool entry into the course.",
+      "Test register, cultural fit, adult relevance, and Arabic explanation needs before authoring.",
+      "Count source entry lines as evidence coverage, never as promised learner word counts."
+    ],
+    "promotion_gates": {
+      "expose_to_introduce": [
+        "The meaning or function is needed by an approved outcome.",
+        "The learner can notice it in comprehensible context without an independent-production demand."
+      ],
+      "introduce_to_practise": [
+        "Meaning, form, pronunciation when spoken, and at least one usable frame are specified.",
+        "The practice task requires the target meaning rather than allowing unrelated substitution."
+      ],
+      "practise_to_consolidate": [
+        "The item has returned in at least one distinct context after introduction.",
+        "Fresh performance requires retrieval without copying and meets the level control boundary."
+      ],
+      "consolidate_to_extend": [
+        "The consolidated meaning remains retrievable.",
+        "The new use adds sense, collocation, domain, register, nuance, or independence."
+      ]
+    }
+  },
+  "resource_strands": [
+    {
+      "strand_id": "lexis.core_headwords",
+      "strand_code": "core_headwords",
+      "title": "Core high-frequency headwords and meanings",
+      "first_guided_productive_level": "a1",
+      "first_family_consolidation_level": "a1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Control a small outcome-bound set of concrete words and meanings for immediate personal situations.",
+          "exit_boundary": "Basic words and phrases tied to particular concrete situations.",
+          "profile_claim_id": "a1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Extend the core to routine needs, transactions, local places, people, and everyday description.",
+          "exit_boundary": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "profile_claim_id": "a2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Use a good general range for familiar life, travel, work, study, and personal interests.",
+          "exit_boundary": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "profile_claim_id": "b1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Select accurately from a broad general range and relevant field-related vocabulary.",
+          "exit_boundary": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "profile_claim_id": "b2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Use a broad repertoire flexibly with little obvious searching and effective alternatives.",
+          "exit_boundary": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "profile_claim_id": "c1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Choose precise lexical senses for subtle distinctions without treating rarity as proficiency.",
+          "exit_boundary": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "profile_claim_id": "c2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "basis": "approved_exit_boundary_plus_product_lexical_resource_review"
+      }
+    },
+    {
+      "strand_id": "lexis.formulaic_chunks",
+      "strand_code": "formulaic_chunks",
+      "title": "Formulaic chunks and interactional frames",
+      "first_guided_productive_level": "a1",
+      "first_family_consolidation_level": "a1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Use short learnt chunks for greeting, identity, immediate needs, thanks, and basic repair.",
+          "exit_boundary": "Basic words and phrases tied to particular concrete situations.",
+          "profile_claim_id": "a1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Combine routine chunks for transactions, invitations, requests, directions, and social contact.",
+          "exit_boundary": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "profile_claim_id": "a2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Adapt semi-fixed frames to keep familiar exchanges and connected accounts moving.",
+          "exit_boundary": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "profile_claim_id": "b1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Use a varied phraseological repertoire to frame viewpoints, turns, comparison, and repair.",
+          "exit_boundary": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "profile_claim_id": "b2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Select flexible discourse and interpersonal bundles across social, academic, and professional contexts.",
+          "exit_boundary": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "profile_claim_id": "c1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Reshape conventional and creative phraseology precisely for stance, nuance, and audience.",
+          "exit_boundary": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "profile_claim_id": "c2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "basis": "approved_exit_boundary_plus_product_lexical_resource_review"
+      }
+    },
+    {
+      "strand_id": "lexis.topic_domain_lexis",
+      "strand_code": "topic_domain_lexis",
+      "title": "Topic and domain lexis",
+      "first_guided_productive_level": "a1",
+      "first_family_consolidation_level": "a1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Control bounded words for personal details, family, time, home, places, food, services, and safety.",
+          "exit_boundary": "Basic words and phrases tied to particular concrete situations.",
+          "profile_claim_id": "a1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Extend concrete domains to routine work, study, travel, health, leisure, media, and local community.",
+          "exit_boundary": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "profile_claim_id": "a2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Discuss familiar social, cultural, work, study, and personal-interest domains independently.",
+          "exit_boundary": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "profile_claim_id": "b1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Use good field-related range for detailed discussion and common specialist situations.",
+          "exit_boundary": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "profile_claim_id": "b2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Operate flexibly with broad academic, professional, social, and cultural domain language.",
+          "exit_boundary": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "profile_claim_id": "c1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Build task-specific expert repertoires through documented corpus and domain evidence.",
+          "exit_boundary": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "profile_claim_id": "c2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "basis": "approved_exit_boundary_plus_product_lexical_resource_review"
+      }
+    },
+    {
+      "strand_id": "lexis.collocation",
+      "strand_code": "collocation",
+      "title": "Collocation and lexical partnership",
+      "first_guided_productive_level": "a2",
+      "first_family_consolidation_level": "b2",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Notice and reproduce whole high-value combinations inside learnt chunks.",
+          "exit_boundary": "Basic words and phrases tied to particular concrete situations.",
+          "profile_claim_id": "a1.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Use selected common verb-noun, adjective-noun, and prepositional combinations in routines.",
+          "exit_boundary": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "profile_claim_id": "a2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Expand common collocations across familiar topics while tolerating some non-standard combinations.",
+          "exit_boundary": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "profile_claim_id": "b1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "practise"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Use many appropriate common collocations systematically in general and field-related language.",
+          "exit_boundary": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "profile_claim_id": "b2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Vary collocation with strong control across registers and less predictable contexts.",
+          "exit_boundary": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "profile_claim_id": "c1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Exploit conventional and marked combinations deliberately for precision, tone, and rhetorical effect.",
+          "exit_boundary": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "profile_claim_id": "c2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "basis": "approved_exit_boundary_plus_product_lexical_resource_review"
+      }
+    },
+    {
+      "strand_id": "lexis.word_families",
+      "strand_code": "word_families",
+      "title": "Word families and productive word formation",
+      "first_guided_productive_level": "a2",
+      "first_family_consolidation_level": "b1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Notice transparent members only when they serve a learnt concrete outcome.",
+          "exit_boundary": "Basic words and phrases tied to particular concrete situations.",
+          "profile_claim_id": "a1.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Use a small set of frequent transparent inflections and derivational relationships.",
+          "exit_boundary": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "profile_claim_id": "a2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Use common word-family patterns to expand familiar-topic expression and infer accessible meanings.",
+          "exit_boundary": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "profile_claim_id": "b1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Control a wider range of derivation and compounding in detailed general and field-related texts.",
+          "exit_boundary": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "profile_claim_id": "b2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Manipulate word formation flexibly to match dense academic, professional, and social purposes.",
+          "exit_boundary": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "profile_claim_id": "c1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Use morphological choices precisely for compression, stance, register, and stylistic effect.",
+          "exit_boundary": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "profile_claim_id": "c2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "basis": "approved_exit_boundary_plus_product_lexical_resource_review"
+      }
+    },
+    {
+      "strand_id": "lexis.multiword_items",
+      "strand_code": "multiword_items",
+      "title": "Phrasal verbs and other multiword lexical items",
+      "first_guided_productive_level": "a2",
+      "first_family_consolidation_level": "b1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Recognise only indispensable whole multiword items inside immediate-use chunks.",
+          "exit_boundary": "Basic words and phrases tied to particular concrete situations.",
+          "profile_claim_id": "a1.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Control selected frequent transparent multiword items in routine situations.",
+          "exit_boundary": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "profile_claim_id": "a2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Use a practical range of frequent phrasal verbs and fixed multiword meanings on familiar topics.",
+          "exit_boundary": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "profile_claim_id": "b1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Distinguish and select wider literal and figurative multiword meanings in context.",
+          "exit_boundary": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "profile_claim_id": "b2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Use broad multiword phraseology flexibly across registers with effective paraphrase.",
+          "exit_boundary": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "profile_claim_id": "c1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Handle subtle, idiomatic, and stylistically marked multiword choices with precision.",
+          "exit_boundary": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "profile_claim_id": "c2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "basis": "approved_exit_boundary_plus_product_lexical_resource_review"
+      }
+    },
+    {
+      "strand_id": "lexis.polysemy",
+      "strand_code": "polysemy",
+      "title": "Multiple meanings and sense selection",
+      "first_guided_productive_level": "a2",
+      "first_family_consolidation_level": "b1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Learn one outcome-relevant meaning at a time and avoid implying full headword mastery.",
+          "exit_boundary": "Basic words and phrases tied to particular concrete situations.",
+          "profile_claim_id": "a1.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Distinguish a small number of common meanings through clear routine contexts.",
+          "exit_boundary": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "profile_claim_id": "a2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Select among frequent senses of common words across familiar spoken and written contexts.",
+          "exit_boundary": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "profile_claim_id": "b1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Resolve a wider range of polysemy using collocation, grammar, domain, and discourse cues.",
+          "exit_boundary": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "profile_claim_id": "b2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Interpret and use less frequent senses flexibly, including figurative extensions.",
+          "exit_boundary": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "profile_claim_id": "c1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Control fine sense boundaries, ambiguity, and deliberate double meaning where appropriate.",
+          "exit_boundary": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "profile_claim_id": "c2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "basis": "approved_exit_boundary_plus_product_lexical_resource_review"
+      }
+    },
+    {
+      "strand_id": "lexis.register",
+      "strand_code": "register",
+      "title": "Register and situational appropriateness",
+      "first_guided_productive_level": "b1",
+      "first_family_consolidation_level": "b2",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Recognise a basic polite choice versus a neutral direct choice in learnt situations.",
+          "exit_boundary": "Basic words and phrases tied to particular concrete situations.",
+          "profile_claim_id": "a1.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Use common polite and neutral alternatives in predictable social and service contexts.",
+          "exit_boundary": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "profile_claim_id": "a2.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Choose from a wider neutral repertoire and common informal or polite variants.",
+          "exit_boundary": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "profile_claim_id": "b1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Select suitably formal, neutral, or informal vocabulary for audience and situation.",
+          "exit_boundary": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "profile_claim_id": "b2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Shift register flexibly across complex social, academic, and professional purposes.",
+          "exit_boundary": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "profile_claim_id": "c1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Control subtle register mixtures, markedness, voice, and interpersonal effect.",
+          "exit_boundary": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "profile_claim_id": "c2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "basis": "approved_exit_boundary_plus_product_lexical_resource_review"
+      }
+    },
+    {
+      "strand_id": "lexis.idiomatic_colloquial",
+      "strand_code": "idiomatic_colloquial",
+      "title": "Idiomatic and colloquial repertoire",
+      "first_guided_productive_level": "b2",
+      "first_family_consolidation_level": "c1",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Recognise only essential fixed social formulas; idiomatic range is not an exit demand.",
+          "exit_boundary": "Basic words and phrases tied to particular concrete situations.",
+          "profile_claim_id": "a1.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Recognise and use a few transparent everyday idiomatic formulas in strong context.",
+          "exit_boundary": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "profile_claim_id": "a2.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Understand and use frequent accessible idiomatic expressions on familiar topics.",
+          "exit_boundary": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "profile_claim_id": "b1.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Use common idiomatic and colloquial language while recognising important register limits.",
+          "exit_boundary": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "profile_claim_id": "b2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Command a broad idiomatic repertoire and recover effectively when an item is unavailable.",
+          "exit_boundary": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "profile_claim_id": "c1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Use very broad idiomatic and colloquial language with precise social and stylistic judgement.",
+          "exit_boundary": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "profile_claim_id": "c2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "basis": "approved_exit_boundary_plus_product_lexical_resource_review"
+      }
+    },
+    {
+      "strand_id": "lexis.connotation_precision",
+      "strand_code": "connotation_precision",
+      "title": "Connotation, semantic precision, and rhetorical choice",
+      "first_guided_productive_level": "c1",
+      "first_family_consolidation_level": "c2",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Distinguish only meaning contrasts necessary for immediate concrete tasks.",
+          "exit_boundary": "Basic words and phrases tied to particular concrete situations.",
+          "profile_claim_id": "a1.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Choose between common near-alternatives where the routine context makes the difference clear.",
+          "exit_boundary": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "profile_claim_id": "a2.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Express intended familiar meanings with reasonable precision and compensate for lexical gaps.",
+          "exit_boundary": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "profile_claim_id": "b1.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Choose generally precise alternatives for viewpoint, degree, evaluation, and field-related meaning.",
+          "exit_boundary": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "profile_claim_id": "b2.language_control.vocabulary",
+          "control_focus": "receptive",
+          "lifecycle_states": [
+            "expose"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Control connotation and fine meaning differences across complex purposes with effective circumlocution.",
+          "exit_boundary": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "profile_claim_id": "c1.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "introduce",
+            "practise"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Exploit fine semantic, connotative, affective, and rhetorical distinctions consistently.",
+          "exit_boundary": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "profile_claim_id": "c2.language_control.vocabulary",
+          "control_focus": "both",
+          "lifecycle_states": [
+            "recycle",
+            "consolidate"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "basis": "approved_exit_boundary_plus_product_lexical_resource_review"
+      }
+    }
+  ],
+  "c2_selection_method": {
+    "status": "accepted_method_before_item_selection",
+    "trigger": "Oxford 3000 and 5000 provide no C2-specific lexical pool.",
+    "required_evidence": [
+      "an approved C2 communicative, discourse, professional, academic, or cultural need",
+      "attested contemporary use in a registered general corpus or comparable usage resource",
+      "domain-corpus or expert evidence when the item is specialist",
+      "context samples sufficient to judge sense, collocation, register, connotation, and dispersion"
+    ],
+    "selection_tests": [
+      "utility for precise meaning or synthesis rather than rarity alone",
+      "distribution across relevant speakers, texts, registers, or domains rather than raw frequency alone",
+      "teachable contrast with a known alternative, paraphrase, or phraseological frame",
+      "clear receptive and productive expectations with a documented recycle plan"
+    ],
+    "prohibitions": [
+      "No invented C2 word-count target.",
+      "No single-corpus frequency cutoff as automatic inclusion.",
+      "No obscure vocabulary selected merely to make the course appear advanced.",
+      "No source may be used until its version, licence, provenance, and extraction method are registered."
+    ]
+  },
+  "audit": {
+    "resource_strand_count": 10,
+    "stage_count": 60,
+    "pool_record_count": 5322,
+    "unaccounted_source_records": [],
+    "missing_stage_boundaries": [],
+    "invalid_lifecycle_order": [],
+    "missing_selection_fields": []
+  },
+  "review": {
+    "status": "accepted",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T14:04:49+03:00",
+    "method": "reference_pool_audit_resource_family_progression_and_item_selection_contract",
+    "limitations": [
+      "Resource families control syllabus design; individual lexical items are selected during level reconciliation.",
+      "Oxford levels are evidence pools and do not define productive control, lesson order, or promised word counts.",
+      "C2 items require registered corpus or domain evidence before selection because Oxford supplies no C2 list."
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/lexical-progression-strands.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "dataset_id", "version", "level_order", "inputs", "reference_pool", "selection_contract", "resource_strands", "c2_selection_method", "audit", "review"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "dataset_id": {"const": "lexical_progression_strands"},
+    "version": {"const": 1},
+    "level_order": {"const": ["a1", "a2", "b1", "b2", "c1", "c2"]},
+    "inputs": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"$ref": "#/$defs/input"}},
+    "reference_pool": {"$ref": "#/$defs/pool"},
+    "selection_contract": {"$ref": "#/$defs/selection"},
+    "resource_strands": {"type": "array", "minItems": 10, "maxItems": 10, "items": {"$ref": "#/$defs/strand"}},
+    "c2_selection_method": {"$ref": "#/$defs/c2"},
+    "audit": {"$ref": "#/$defs/audit"},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "sha": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "level": {"enum": ["a1", "a2", "b1", "b2", "c1", "c2"]},
+    "input": {
+      "type": "object", "additionalProperties": false, "required": ["path", "sha256"],
+      "properties": {"path": {"$ref": "#/$defs/text"}, "sha256": {"$ref": "#/$defs/sha"}}
+    },
+    "poolDataset": {
+      "type": "object", "additionalProperties": false,
+      "required": ["dataset_id", "path", "entry_line_count", "distinct_printed_headword_labels", "level_counts", "record_ids_sha256"],
+      "properties": {
+        "dataset_id": {"enum": ["oxford_3000_all", "oxford_5000_all"]},
+        "path": {"type": "string", "pattern": "^data/derived/oxford-"},
+        "entry_line_count": {"type": "integer", "minimum": 1},
+        "distinct_printed_headword_labels": {"type": "integer", "minimum": 1},
+        "level_counts": {"type": "object", "minProperties": 2, "additionalProperties": {"type": "integer", "minimum": 1}},
+        "record_ids_sha256": {"$ref": "#/$defs/sha"}
+      }
+    },
+    "pool": {
+      "type": "object", "additionalProperties": false,
+      "required": ["use_policy", "datasets", "total_entry_lines", "all_source_record_ids_sha256", "levels_without_published_pool", "all_records_accounted_for"],
+      "properties": {
+        "use_policy": {"const": "reference_pool_not_automatic_target_inventory"},
+        "datasets": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"$ref": "#/$defs/poolDataset"}},
+        "total_entry_lines": {"const": 5322},
+        "all_source_record_ids_sha256": {"$ref": "#/$defs/sha"},
+        "levels_without_published_pool": {"const": ["c2"]},
+        "all_records_accounted_for": {"const": true}
+      }
+    },
+    "selection": {
+      "type": "object", "additionalProperties": false,
+      "required": ["communicative_owner_dataset", "communicative_owner_count", "required_item_fields", "principles", "promotion_gates"],
+      "properties": {
+        "communicative_owner_dataset": {"const": "communicative_function_progression_strands"},
+        "communicative_owner_count": {"const": 41},
+        "required_item_fields": {"type": "array", "minItems": 15, "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
+        "principles": {"type": "array", "minItems": 8, "items": {"$ref": "#/$defs/text"}},
+        "promotion_gates": {
+          "type": "object", "additionalProperties": false,
+          "required": ["expose_to_introduce", "introduce_to_practise", "practise_to_consolidate", "consolidate_to_extend"],
+          "properties": {
+            "expose_to_introduce": {"$ref": "#/$defs/rules"},
+            "introduce_to_practise": {"$ref": "#/$defs/rules"},
+            "practise_to_consolidate": {"$ref": "#/$defs/rules"},
+            "consolidate_to_extend": {"$ref": "#/$defs/rules"}
+          }
+        }
+      }
+    },
+    "rules": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/text"}},
+    "stage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["level", "expectation", "exit_boundary", "profile_claim_id", "control_focus", "lifecycle_states"],
+      "properties": {
+        "level": {"$ref": "#/$defs/level"}, "expectation": {"$ref": "#/$defs/text"},
+        "exit_boundary": {"$ref": "#/$defs/text"},
+        "profile_claim_id": {"type": "string", "pattern": "^[a-z][0-9]\\.language_control\\.vocabulary$"},
+        "control_focus": {"enum": ["receptive", "both"]},
+        "lifecycle_states": {"type": "array", "uniqueItems": true, "items": {"enum": ["expose", "introduce", "practise", "recycle", "consolidate", "extend"]}}
+      }
+    },
+    "strand": {
+      "type": "object", "additionalProperties": false,
+      "required": ["strand_id", "strand_code", "title", "first_guided_productive_level", "first_family_consolidation_level", "stages", "review"],
+      "properties": {
+        "strand_id": {"type": "string", "pattern": "^lexis\\.[a-z0-9_]+$"},
+        "strand_code": {"type": "string", "pattern": "^[a-z0-9_]+$"}, "title": {"$ref": "#/$defs/text"},
+        "first_guided_productive_level": {"$ref": "#/$defs/level"},
+        "first_family_consolidation_level": {"$ref": "#/$defs/level"},
+        "stages": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"$ref": "#/$defs/stage"}},
+        "review": {
+          "type": "object", "additionalProperties": false, "required": ["status", "basis"],
+          "properties": {"status": {"const": "accepted"}, "basis": {"const": "approved_exit_boundary_plus_product_lexical_resource_review"}}
+        }
+      }
+    },
+    "c2": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "trigger", "required_evidence", "selection_tests", "prohibitions"],
+      "properties": {
+        "status": {"const": "accepted_method_before_item_selection"}, "trigger": {"$ref": "#/$defs/text"},
+        "required_evidence": {"type": "array", "minItems": 4, "items": {"$ref": "#/$defs/text"}},
+        "selection_tests": {"type": "array", "minItems": 4, "items": {"$ref": "#/$defs/text"}},
+        "prohibitions": {"type": "array", "minItems": 4, "items": {"$ref": "#/$defs/text"}}
+      }
+    },
+    "audit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["resource_strand_count", "stage_count", "pool_record_count", "unaccounted_source_records", "missing_stage_boundaries", "invalid_lifecycle_order", "missing_selection_fields"],
+      "properties": {
+        "resource_strand_count": {"const": 10}, "stage_count": {"const": 60}, "pool_record_count": {"const": 5322},
+        "unaccounted_source_records": {"type": "array", "maxItems": 0},
+        "missing_stage_boundaries": {"type": "array", "maxItems": 0},
+        "invalid_lifecycle_order": {"type": "array", "maxItems": 0},
+        "missing_selection_fields": {"type": "array", "maxItems": 0}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at", "method", "limitations"],
+      "properties": {
+        "status": {"const": "accepted"}, "reviewer": {"const": "codex_primary_curriculum_agent"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "method": {"const": "reference_pool_audit_resource_family_progression_and_item_selection_contract"},
+        "limitations": {"type": "array", "minItems": 3, "items": {"$ref": "#/$defs/text"}}
+      }
+    }
+  }
+}

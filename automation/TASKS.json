@@ -183,7 +183,7 @@
       "id": "SPINE-004",
       "phase": "cross_level_vertical_spine",
       "title": "Build and audit vertical progression strands",
-      "status": "in_progress",
+      "status": "complete",
       "dependencies": ["SPINE-003"],
       "acceptance": "Abilities, grammar, vocabulary, pronunciation, discourse, and complexity have reviewed lifecycle ownership without unexplained orphans or regressions.",
       "notes": [
@@ -191,14 +191,18 @@
         "2026-08-10: created lifecycle ownership for all 41 communicative-function strands with Pre-A1 support, exit-level consolidation, persistent recycling, and source-evidenced extension.",
         "2026-08-10: grouped all 1,222 EGP rows into 91 grammar-family strands and cross-walked all 456 GSE Grammar records to 19 EGP supercategories without claiming item-level equivalence.",
         "2026-08-10: all 296 repository tests passed at the communicative-and-grammar checkpoint.",
-        "2026-08-10: reviewed 15 performance, discourse, interaction, strategy, and language-control dimensions across all six exits; all 90 level stages have CEFR evidence and distinct boundaries."
+        "2026-08-10: reviewed 15 performance, discourse, interaction, strategy, and language-control dimensions across all six exits; all 90 level stages have CEFR evidence and distinct boundaries.",
+        "2026-08-10: audited all 5,322 Oxford entry lines as lexical reference evidence and approved 10 resource-family progressions plus lifecycle promotion gates; C2 now has a registered corpus-and-domain selection method without an invented word count.",
+        "2026-08-10: approved 10 English-specific intelligibility strands across A1-C2; General American is the teaching reference, accent removal is rejected, and 12 Arabic-learner risks remain labelled dialect-sensitive validation hypotheses.",
+        "2026-08-10: the global completion audit passed 9,274/9,274 primary source ownership, 167 progression families or strands, and 1,015 lifecycle stages with no unexplained orphan or invalid regression. Exact A1 item and lesson ownership moves to SPINE-005.",
+        "2026-08-10: all 313 repository tests passed after the SPINE-004 completion audit."
       ]
     },
     {
       "id": "SPINE-005",
       "phase": "cross_level_vertical_spine",
       "title": "Reconcile the current A1 map and Unit 1",
-      "status": "locked",
+      "status": "ready",
       "dependencies": ["SPINE-004", "GOLD-002"],
       "acceptance": "All 81 current candidates and Unit 1 have evidence-led keep, revise, split, merge, defer, support-only, replace, or retire decisions; the final lesson count is unconstrained."
     },

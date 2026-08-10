@@ -1,7 +1,7 @@
 # Cross-Level Curriculum Architecture v1
 
-Status: approved foundation. Source use and A1-C2 exit boundaries are reviewed;
-record-level lifecycle ownership and progression strands remain the next gate.
+Status: approved vertical spine v1. Source use, A1-C2 exit boundaries, and family-level
+progression strands are reviewed; exact A1 item ownership is the next reconciliation gate.
 
 ## Decision
 
@@ -99,11 +99,10 @@ method, reviewed separately, rather than an invented word count.
 
 ## Grammar policy
 
-Do not convert all 1,222 EGP features into lessons. Every feature is now classified as
-productively attested language-system evidence and included for progression review.
-SPINE-004 must then decide product lifecycle: exposure, supported production,
-recycling, consolidation, extension, optional enrichment, overlap, or exclusion with
-rationale.
+Do not convert all 1,222 EGP features into lessons. Every feature is classified as
+productively attested language-system evidence inside one of 91 grammar families.
+Those families now have exposure, control, consolidation, recycling, and extension
+boundaries; exact learner-facing forms remain level-reconciliation decisions.
 
 The level of an EGP feature is not automatically the lesson in which it is first seen.
 The spine decides ownership and lifecycle after communicative need, prerequisites,
@@ -111,23 +110,24 @@ frequency, and cognitive load are considered.
 
 ## Pronunciation policy
 
-The target is intelligibility and effective meaning, not accent removal. Each level
-must progress sound control and prosody while retaining space for a learner's accent.
-The CEFR phonology grid is the level boundary; an English-specific teaching sequence
-still needs to be authored and reviewed for Arabic-speaking learners.
+The target is intelligibility and effective meaning, not accent removal. Ten reviewed
+English-specific strands now progress perception, sounds, word shape, endings, stress,
+rhythm, connected speech, intonation, chunking, monitoring, and repair. CEFR remains
+the exit boundary; the teaching order is a product decision. The 12 Arabic-learner
+risks remain dialect-sensitive hypotheses until specialist and learner validation.
 
 ## Approval boundary
 
-This architecture and `docs/LEVEL_EXIT_PROFILES_V1.md` now define the approved source
-roles and exit boundaries. They are not a completed cross-level item mapping and cannot
-be used to claim that every ability, grammar feature, or word already has lifecycle or
-lesson ownership.
+This architecture, `docs/LEVEL_EXIT_PROFILES_V1.md`, and the SPINE-004 artifacts define
+the approved family-level vertical map. They cannot be used to claim that every Oxford
+row or EGP feature is a mandatory learner target, or that exact lesson ownership has
+already been selected.
 
 Mass A1 production may resume only after:
 
 - all-level source normalization and disposition audits pass (complete);
 - level exit profiles are approved (complete);
-- progression strands and lifecycle ownership are reviewed;
+- progression strands and family-level lifecycle ownership are reviewed (complete);
 - the 81 current A1 candidates and Unit 1 are reconciled without a fixed-count bias;
 - A1 scope, sequence, unit boundaries, and assessment coverage are locked as v1.
 
