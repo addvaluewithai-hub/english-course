@@ -56,7 +56,7 @@
     {
       "unit_id": "a1.unit01.first_connections",
       "unit_number": 1,
-      "directory": "units/unit-01-first-connections",
+      "directory": "units/a1-v1/unit-01-first-connections",
       "title": {
         "en": "First Connections",
         "ar": "التعارف الأول"
@@ -83,7 +83,7 @@
             "lesson_candidate.respond_politely_to_an_introduction",
             "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement"
           ],
-          "planned_content_path": "units/unit-01-first-connections/lessons/u1-l01",
+          "planned_content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l01",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -104,7 +104,7 @@
           "source_candidate_ids": [
             "lesson_candidate.understand_spoken_personal_introductions"
           ],
-          "planned_content_path": "units/unit-01-first-connections/lessons/u1-l02",
+          "planned_content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l02",
           "prototype_lineage": {
             "old_lesson_id": "U1-L02",
             "old_content_path": "units/unit-01-first-connections/lessons/u1-l02",
@@ -125,7 +125,7 @@
           "source_candidate_ids": [
             "lesson_candidate.give_short_self_introduction"
           ],
-          "planned_content_path": "units/unit-01-first-connections/lessons/u1-l03",
+          "planned_content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03",
           "prototype_lineage": {
             "old_lesson_id": "U1-L01",
             "old_content_path": "gold/introduce-yourself",
@@ -146,7 +146,7 @@
           "source_candidate_ids": [
             "lesson_candidate.exchange_personal_details_orally"
           ],
-          "planned_content_path": "units/unit-01-first-connections/lessons/u1-l04",
+          "planned_content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l04",
           "prototype_lineage": {
             "old_lesson_id": "U1-L03",
             "old_content_path": "units/unit-01-first-connections/lessons/u1-l03",
@@ -168,7 +168,7 @@
             "lesson_candidate.understand_spoken_contact_details",
             "lesson_candidate.locate_names_places_and_times_in_slow_recordings"
           ],
-          "planned_content_path": "units/unit-01-first-connections/lessons/u1-l05",
+          "planned_content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l05",
           "prototype_lineage": {
             "old_lesson_id": "U1-L04",
             "old_content_path": "units/unit-01-first-connections/lessons/u1-l04",
@@ -189,7 +189,7 @@
           "source_candidate_ids": [
             "lesson_candidate.locate_written_personal_details"
           ],
-          "planned_content_path": "units/unit-01-first-connections/lessons/u1-l06",
+          "planned_content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l06",
           "prototype_lineage": {
             "old_lesson_id": "U1-L05",
             "old_content_path": "units/unit-01-first-connections/lessons/u1-l05",
@@ -211,7 +211,7 @@
             "lesson_candidate.complete_a_simple_information_form",
             "lesson_candidate.complete_a_very_simple_online_purchase_or_application"
           ],
-          "planned_content_path": "units/unit-01-first-connections/lessons/u1-l07",
+          "planned_content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l07",
           "prototype_lineage": {
             "old_lesson_id": "U1-L06",
             "old_content_path": "units/unit-01-first-connections/lessons/u1-l06",
@@ -233,7 +233,7 @@
             "lesson_candidate.write_short_personal_profile",
             "lesson_candidate.write_simple_people_profile_cards"
           ],
-          "planned_content_path": "units/unit-01-first-connections/lessons/u1-l08",
+          "planned_content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l08",
           "prototype_lineage": {
             "old_lesson_id": "U1-L07",
             "old_content_path": "units/unit-01-first-connections/lessons/u1-l07",
@@ -254,7 +254,7 @@
           "source_candidate_ids": [
             "lesson_candidate.exchange_personal_details_in_writing"
           ],
-          "planned_content_path": "units/unit-01-first-connections/lessons/u1-l09",
+          "planned_content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l09",
           "prototype_lineage": {
             "old_lesson_id": "U1-L08",
             "old_content_path": "units/unit-01-first-connections/lessons/u1-l08",
@@ -341,7 +341,7 @@
     {
       "unit_id": "a1.unit02.people_routines_plans",
       "unit_number": 2,
-      "directory": "units/unit-02-people-routines-plans",
+      "directory": "units/a1-v1/unit-02-people-routines-plans",
       "title": {
         "en": "People, Routines, and Plans",
         "ar": "الناس والروتين والمواعيد"
@@ -366,7 +366,7 @@
             "lesson_candidate.understand_talk_about_people_and_family",
             "lesson_candidate.identify_familiar_referents_from_spoken_clues"
           ],
-          "planned_content_path": "units/unit-02-people-routines-plans/lessons/u2-l01",
+          "planned_content_path": "units/a1-v1/unit-02-people-routines-plans/lessons/u2-l01",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -387,7 +387,7 @@
           "source_candidate_ids": [
             "lesson_candidate.exchange_information_about_family_and_friends"
           ],
-          "planned_content_path": "units/unit-02-people-routines-plans/lessons/u2-l02",
+          "planned_content_path": "units/a1-v1/unit-02-people-routines-plans/lessons/u2-l02",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -411,7 +411,7 @@
             "lesson_candidate.respond_politely_to_an_introduction",
             "lesson_candidate.deliver_a_rehearsed_formal_introduction"
           ],
-          "planned_content_path": "units/unit-02-people-routines-plans/lessons/u2-l03",
+          "planned_content_path": "units/a1-v1/unit-02-people-routines-plans/lessons/u2-l03",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -432,7 +432,7 @@
           "source_candidate_ids": [
             "lesson_candidate.understand_talk_about_leisure_preferences_and_abilities"
           ],
-          "planned_content_path": "units/unit-02-people-routines-plans/lessons/u2-l04",
+          "planned_content_path": "units/a1-v1/unit-02-people-routines-plans/lessons/u2-l04",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -453,7 +453,7 @@
           "source_candidate_ids": [
             "lesson_candidate.understand_a_short_everyday_activity_text"
           ],
-          "planned_content_path": "units/unit-02-people-routines-plans/lessons/u2-l05",
+          "planned_content_path": "units/a1-v1/unit-02-people-routines-plans/lessons/u2-l05",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -476,7 +476,7 @@
             "lesson_candidate.describe_common_weather",
             "lesson_candidate.write_simple_life_and_routine_sentences"
           ],
-          "planned_content_path": "units/unit-02-people-routines-plans/lessons/u2-l06",
+          "planned_content_path": "units/a1-v1/unit-02-people-routines-plans/lessons/u2-l06",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -499,7 +499,7 @@
             "lesson_candidate.exchange_routine_and_preference_information",
             "lesson_candidate.write_a_short_hobbies_and_likes_post"
           ],
-          "planned_content_path": "units/unit-02-people-routines-plans/lessons/u2-l07",
+          "planned_content_path": "units/a1-v1/unit-02-people-routines-plans/lessons/u2-l07",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -521,7 +521,7 @@
             "lesson_candidate.understand_a_simple_meeting_arrangement",
             "lesson_candidate.describe_common_weather"
           ],
-          "planned_content_path": "units/unit-02-people-routines-plans/lessons/u2-l08",
+          "planned_content_path": "units/a1-v1/unit-02-people-routines-plans/lessons/u2-l08",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -545,7 +545,7 @@
             "lesson_candidate.give_an_event_date_and_time",
             "lesson_candidate.write_schedule_dates_and_times"
           ],
-          "planned_content_path": "units/unit-02-people-routines-plans/lessons/u2-l09",
+          "planned_content_path": "units/a1-v1/unit-02-people-routines-plans/lessons/u2-l09",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -671,7 +671,7 @@
     {
       "unit_id": "a1.unit03.things_home_instructions",
       "unit_number": 3,
-      "directory": "units/unit-03-things-home-instructions",
+      "directory": "units/a1-v1/unit-03-things-home-instructions",
       "title": {
         "en": "Things, Home, and Instructions",
         "ar": "الأشياء والبيت والتعليمات"
@@ -695,7 +695,7 @@
           "source_candidate_ids": [
             "lesson_candidate.follow_simple_game_or_activity_instructions"
           ],
-          "planned_content_path": "units/unit-03-things-home-instructions/lessons/u3-l01",
+          "planned_content_path": "units/a1-v1/unit-03-things-home-instructions/lessons/u3-l01",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -719,7 +719,7 @@
             "lesson_candidate.describe_a_familiar_object_orally",
             "lesson_candidate.write_a_simple_object_description"
           ],
-          "planned_content_path": "units/unit-03-things-home-instructions/lessons/u3-l02",
+          "planned_content_path": "units/a1-v1/unit-03-things-home-instructions/lessons/u3-l02",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -741,7 +741,7 @@
             "lesson_candidate.match_visual_descriptions_to_familiar_things",
             "lesson_candidate.exchange_visible_object_information"
           ],
-          "planned_content_path": "units/unit-03-things-home-instructions/lessons/u3-l03",
+          "planned_content_path": "units/a1-v1/unit-03-things-home-instructions/lessons/u3-l03",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -764,7 +764,7 @@
             "lesson_candidate.understand_where_things_or_people_are",
             "lesson_candidate.exchange_basic_information_about_a_home"
           ],
-          "planned_content_path": "units/unit-03-things-home-instructions/lessons/u3-l04",
+          "planned_content_path": "units/a1-v1/unit-03-things-home-instructions/lessons/u3-l04",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -786,7 +786,7 @@
             "lesson_candidate.match_visual_descriptions_to_familiar_things",
             "lesson_candidate.write_a_simple_room_description"
           ],
-          "planned_content_path": "units/unit-03-things-home-instructions/lessons/u3-l05",
+          "planned_content_path": "units/a1-v1/unit-03-things-home-instructions/lessons/u3-l05",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -807,7 +807,7 @@
           "source_candidate_ids": [
             "lesson_candidate.follow_short_written_everyday_instructions"
           ],
-          "planned_content_path": "units/unit-03-things-home-instructions/lessons/u3-l06",
+          "planned_content_path": "units/a1-v1/unit-03-things-home-instructions/lessons/u3-l06",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -828,7 +828,7 @@
           "source_candidate_ids": [
             "lesson_candidate.understand_outline_of_an_illustrated_short_story"
           ],
-          "planned_content_path": "units/unit-03-things-home-instructions/lessons/u3-l07",
+          "planned_content_path": "units/a1-v1/unit-03-things-home-instructions/lessons/u3-l07",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -928,7 +928,7 @@
     {
       "unit_id": "a1.unit04.places_routes_travel",
       "unit_number": 4,
-      "directory": "units/unit-04-places-routes-travel",
+      "directory": "units/a1-v1/unit-04-places-routes-travel",
       "title": {
         "en": "Places, Routes, and Travel",
         "ar": "الأماكن والاتجاهات والسفر"
@@ -952,7 +952,7 @@
           "source_candidate_ids": [
             "lesson_candidate.follow_simple_written_wayfinding_directions"
           ],
-          "planned_content_path": "units/unit-04-places-routes-travel/lessons/u4-l01",
+          "planned_content_path": "units/a1-v1/unit-04-places-routes-travel/lessons/u4-l01",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -973,7 +973,7 @@
           "source_candidate_ids": [
             "lesson_candidate.follow_slow_spoken_route_directions"
           ],
-          "planned_content_path": "units/unit-04-places-routes-travel/lessons/u4-l02",
+          "planned_content_path": "units/a1-v1/unit-04-places-routes-travel/lessons/u4-l02",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -995,7 +995,7 @@
             "lesson_candidate.follow_simple_directions_from_an_interlocutor",
             "lesson_candidate.exchange_basic_wayfinding_information"
           ],
-          "planned_content_path": "units/unit-04-places-routes-travel/lessons/u4-l03",
+          "planned_content_path": "units/a1-v1/unit-04-places-routes-travel/lessons/u4-l03",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1017,7 +1017,7 @@
             "lesson_candidate.describe_common_weather",
             "lesson_candidate.understand_outline_of_a_simple_guided_tour"
           ],
-          "planned_content_path": "units/unit-04-places-routes-travel/lessons/u4-l04",
+          "planned_content_path": "units/a1-v1/unit-04-places-routes-travel/lessons/u4-l04",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1038,7 +1038,7 @@
           "source_candidate_ids": [
             "lesson_candidate.understand_simple_place_and_hotel_information"
           ],
-          "planned_content_path": "units/unit-04-places-routes-travel/lessons/u4-l05",
+          "planned_content_path": "units/a1-v1/unit-04-places-routes-travel/lessons/u4-l05",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1062,7 +1062,7 @@
             "lesson_candidate.buy_a_basic_public_transport_ticket",
             "lesson_candidate.identify_a_price_in_slow_spoken_service_information"
           ],
-          "planned_content_path": "units/unit-04-places-routes-travel/lessons/u4-l06",
+          "planned_content_path": "units/a1-v1/unit-04-places-routes-travel/lessons/u4-l06",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1085,7 +1085,7 @@
             "lesson_candidate.follow_a_slow_everyday_service_exchange",
             "lesson_candidate.complete_a_very_simple_online_purchase_or_application"
           ],
-          "planned_content_path": "units/unit-04-places-routes-travel/lessons/u4-l07",
+          "planned_content_path": "units/a1-v1/unit-04-places-routes-travel/lessons/u4-l07",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1172,7 +1172,7 @@
     {
       "unit_id": "a1.unit05.services_needs",
       "unit_number": 5,
-      "directory": "units/unit-05-services-needs",
+      "directory": "units/a1-v1/unit-05-services-needs",
       "title": {
         "en": "Everyday Services and Needs",
         "ar": "الخدمات والاحتياجات اليومية"
@@ -1196,7 +1196,7 @@
           "source_candidate_ids": [
             "lesson_candidate.find_key_details_in_a_simple_advertisement_or_leaflet"
           ],
-          "planned_content_path": "units/unit-05-services-needs/lessons/u5-l01",
+          "planned_content_path": "units/a1-v1/unit-05-services-needs/lessons/u5-l01",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1220,7 +1220,7 @@
             "lesson_candidate.handle_basic_price_and_quantity_information",
             "lesson_candidate.complete_a_very_simple_online_purchase_or_application"
           ],
-          "planned_content_path": "units/unit-05-services-needs/lessons/u5-l02",
+          "planned_content_path": "units/a1-v1/unit-05-services-needs/lessons/u5-l02",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1245,7 +1245,7 @@
             "lesson_candidate.state_a_basic_food_or_drink_preference",
             "lesson_candidate.accept_a_simple_offer"
           ],
-          "planned_content_path": "units/unit-05-services-needs/lessons/u5-l03",
+          "planned_content_path": "units/a1-v1/unit-05-services-needs/lessons/u5-l03",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1269,7 +1269,7 @@
             "lesson_candidate.ask_for_basic_practical_help",
             "lesson_candidate.agree_to_a_simple_request"
           ],
-          "planned_content_path": "units/unit-05-services-needs/lessons/u5-l04",
+          "planned_content_path": "units/a1-v1/unit-05-services-needs/lessons/u5-l04",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1291,7 +1291,7 @@
             "lesson_candidate.describe_a_simple_problem_to_a_health_professional",
             "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement"
           ],
-          "planned_content_path": "units/unit-05-services-needs/lessons/u5-l05",
+          "planned_content_path": "units/a1-v1/unit-05-services-needs/lessons/u5-l05",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1381,7 +1381,7 @@
     {
       "unit_id": "a1.unit06.messages_media_community",
       "unit_number": 6,
-      "directory": "units/unit-06-messages-media-community",
+      "directory": "units/a1-v1/unit-06-messages-media-community",
       "title": {
         "en": "Messages, Media, and Community",
         "ar": "الرسائل والإعلام والتواصل"
@@ -1405,7 +1405,7 @@
           "source_candidate_ids": [
             "lesson_candidate.leave_a_simple_whereabouts_and_return_message"
           ],
-          "planned_content_path": "units/unit-06-messages-media-community/lessons/u6-l01",
+          "planned_content_path": "units/a1-v1/unit-06-messages-media-community/lessons/u6-l01",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1427,7 +1427,7 @@
             "lesson_candidate.write_a_short_message_to_a_friend",
             "lesson_candidate.understand_a_short_simple_postcard_message"
           ],
-          "planned_content_path": "units/unit-06-messages-media-community/lessons/u6-l02",
+          "planned_content_path": "units/a1-v1/unit-06-messages-media-community/lessons/u6-l02",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1451,7 +1451,7 @@
             "lesson_candidate.give_a_rough_oral_translation_of_everyday_sign_words",
             "lesson_candidate.translate_simple_written_phrases_with_a_dictionary"
           ],
-          "planned_content_path": "units/unit-06-messages-media-community/lessons/u6-l03",
+          "planned_content_path": "units/a1-v1/unit-06-messages-media-community/lessons/u6-l03",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1473,7 +1473,7 @@
             "lesson_candidate.identify_a_headline_news_topic_from_visual_media",
             "lesson_candidate.identify_a_product_in_a_short_video_advertisement"
           ],
-          "planned_content_path": "units/unit-06-messages-media-community/lessons/u6-l04",
+          "planned_content_path": "units/a1-v1/unit-06-messages-media-community/lessons/u6-l04",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1494,7 +1494,7 @@
           "source_candidate_ids": [
             "lesson_candidate.react_politely_to_a_simple_online_post"
           ],
-          "planned_content_path": "units/unit-06-messages-media-community/lessons/u6-l05",
+          "planned_content_path": "units/a1-v1/unit-06-messages-media-community/lessons/u6-l05",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1515,7 +1515,7 @@
           "source_candidate_ids": [
             "lesson_candidate.state_how_a_simple_work_made_them_feel"
           ],
-          "planned_content_path": "units/unit-06-messages-media-community/lessons/u6-l06",
+          "planned_content_path": "units/a1-v1/unit-06-messages-media-community/lessons/u6-l06",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1540,7 +1540,7 @@
             "lesson_candidate.show_interest_and_welcome_an_idea",
             "lesson_candidate.share_an_idea_and_ask_what_others_think"
           ],
-          "planned_content_path": "units/unit-06-messages-media-community/lessons/u6-l07",
+          "planned_content_path": "units/a1-v1/unit-06-messages-media-community/lessons/u6-l07",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,
@@ -1562,7 +1562,7 @@
             "lesson_candidate.relay_predictable_person_time_or_place_details",
             "lesson_candidate.relay_names_numbers_and_prices_from_slow_speech"
           ],
-          "planned_content_path": "units/unit-06-messages-media-community/lessons/u6-l08",
+          "planned_content_path": "units/a1-v1/unit-06-messages-media-community/lessons/u6-l08",
           "prototype_lineage": {
             "old_lesson_id": null,
             "old_content_path": null,

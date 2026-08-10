@@ -24,7 +24,7 @@ def build_units(unit_catalog: tuple[dict, ...], final_decisions: dict, old_unit:
     units, global_position = [], 0
     for unit_number, source in enumerate(unit_catalog, start=1):
         lessons = []
-        directory = f"units/unit-{unit_number:02d}-{source['unit_id'].split('.', 2)[2].replace('_', '-')}"
+        directory = f"units/a1-v1/unit-{unit_number:02d}-{source['unit_id'].split('.', 2)[2].replace('_', '-')}"
         for local_position, short_id in enumerate(source["lesson_short_ids"], start=1):
             global_position += 1
             owner = cid(short_id)

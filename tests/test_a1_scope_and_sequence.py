@@ -22,6 +22,7 @@ class A1ScopeAndSequenceTests(unittest.TestCase):
         self.assertEqual([9, 9, 7, 7, 5, 8], audit["unit_lesson_counts"])
         self.assertEqual(45, audit["lesson_count"])
         self.assertEqual(45, audit["unique_lesson_owner_count"])
+        self.assertTrue(all(unit["directory"].startswith("units/a1-v1/") for unit in self.data["units"]))
 
     def test_all_exact_items_have_ordered_lifecycles(self) -> None:
         audit = self.data["audit"]
