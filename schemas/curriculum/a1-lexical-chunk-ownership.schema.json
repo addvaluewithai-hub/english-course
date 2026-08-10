@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/a1-lexical-chunk-ownership.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "dataset_id", "version", "inputs", "policy", "course_items", "oxford_a1_dispositions", "candidate_ownership", "audit", "review"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "dataset_id": {"const": "a1_lexical_chunk_ownership"},
+    "version": {"const": 1},
+    "inputs": {"type": "array", "minItems": 5, "items": {"$ref": "#/$defs/input"}},
+    "policy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["reference_pool_role", "sense_policy", "recycling_policy", "personalisation_policy", "supplement_policy"],
+      "properties": {
+        "reference_pool_role": {"type": "string", "minLength": 20},
+        "sense_policy": {"type": "string", "minLength": 20},
+        "recycling_policy": {"type": "string", "minLength": 20},
+        "personalisation_policy": {"type": "string", "minLength": 20},
+        "supplement_policy": {"type": "string", "minLength": 20}
+      }
+    },
+    "course_items": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/item"}},
+    "oxford_a1_dispositions": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/disposition"}},
+    "candidate_ownership": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/candidate"}},
+    "audit": {"$ref": "#/$defs/audit"},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "input": {
+      "type": "object", "additionalProperties": false, "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "item": {
+      "type": "object", "additionalProperties": false,
+      "required": ["lexical_item_id", "canonical_form", "item_type", "members", "meaning_or_function", "communicative_owner_ids", "source_refs", "introduction_location", "first_exposure_level", "first_guided_production_level", "consolidation_level", "recycle_locations", "receptive_expectation", "productive_expectation", "register", "collocations_or_frames", "arabic_learner_risks", "decision_rationale", "oxford_source_headwords", "unmatched_source_headwords", "review"],
+      "properties": {
+        "lexical_item_id": {"type": "string", "pattern": "^lexical\\."},
+        "canonical_form": {"type": "string", "minLength": 3},
+        "item_type": {"enum": ["lexical_set", "chunk_set", "frame_set", "personalized_slot"]},
+        "members": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "meaning_or_function": {"type": "string", "minLength": 12},
+        "communicative_owner_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "source_refs": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "introduction_location": {"type": "string", "minLength": 5},
+        "first_exposure_level": {"enum": ["pre_a1", "a1"]},
+        "first_guided_production_level": {"const": "a1"},
+        "consolidation_level": {"const": "a1"},
+        "recycle_locations": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "receptive_expectation": {"type": "string", "minLength": 15},
+        "productive_expectation": {"type": "string", "minLength": 15},
+        "register": {"enum": ["neutral", "neutral_polite", "informal_neutral", "public_notice", "form_label"]},
+        "collocations_or_frames": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "arabic_learner_risks": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "decision_rationale": {"type": "string", "minLength": 20},
+        "oxford_source_headwords": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "unmatched_source_headwords": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "review": {"$ref": "#/$defs/itemReview"}
+      }
+    },
+    "itemReview": {
+      "type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at"],
+      "properties": {
+        "status": {"const": "accepted_for_a1_reconciliation"},
+        "reviewer": {"type": "string", "minLength": 3},
+        "reviewed_at": {"type": "string", "format": "date-time"}
+      }
+    },
+    "disposition": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_record_id", "source_text", "headword", "part_of_speech", "disposition", "course_item_ids", "rationale_code"],
+      "properties": {
+        "source_record_id": {"type": "string", "pattern": "^oxford\\.o3000\\."},
+        "source_text": {"type": "string", "minLength": 2},
+        "headword": {"type": "string", "minLength": 1},
+        "part_of_speech": {"type": "string", "minLength": 1},
+        "disposition": {"enum": ["selected_course_item", "grammar_system_owned", "reference_pool_not_selected_v1"]},
+        "course_item_ids": {"type": "array", "items": {"type": "string", "pattern": "^lexical\\."}, "uniqueItems": true},
+        "rationale_code": {"type": "string", "pattern": "^[a-z0-9_]+$"}
+      }
+    },
+    "candidate": {
+      "type": "object", "additionalProperties": false,
+      "required": ["candidate_id", "legacy_vocabulary_targets", "legacy_phrase_targets", "lexical_item_ids"],
+      "properties": {
+        "candidate_id": {"type": "string", "pattern": "^lesson_candidate\\."},
+        "legacy_vocabulary_targets": {"type": "array", "items": {"type": "string"}},
+        "legacy_phrase_targets": {"type": "array", "items": {"type": "string"}},
+        "lexical_item_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^lexical\\."}, "uniqueItems": true}
+      }
+    },
+    "audit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["oxford_a1_record_count", "course_item_count", "item_type_counts", "member_line_count", "distinct_member_count", "selected_oxford_record_count", "grammar_owned_oxford_record_count", "reference_pool_record_count", "oxford_disposition_counts", "legacy_vocabulary_candidate_count", "legacy_phrase_candidate_count", "uncovered_vocabulary_candidate_ids", "uncovered_phrase_candidate_ids", "unknown_candidate_location_ids", "unknown_communicative_owner_ids", "items_without_source_refs", "items_without_recycle_locations", "items_without_oxford_refs", "unmatched_source_headword_request_count", "final_lesson_decisions_made"],
+      "properties": {
+        "oxford_a1_record_count": {"const": 900},
+        "course_item_count": {"type": "integer", "minimum": 1},
+        "item_type_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "member_line_count": {"type": "integer", "minimum": 1},
+        "distinct_member_count": {"type": "integer", "minimum": 1},
+        "selected_oxford_record_count": {"type": "integer", "minimum": 1},
+        "grammar_owned_oxford_record_count": {"type": "integer", "minimum": 1},
+        "reference_pool_record_count": {"type": "integer", "minimum": 1},
+        "oxford_disposition_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "legacy_vocabulary_candidate_count": {"type": "integer", "minimum": 1},
+        "legacy_phrase_candidate_count": {"type": "integer", "minimum": 1},
+        "uncovered_vocabulary_candidate_ids": {"type": "array", "maxItems": 0},
+        "uncovered_phrase_candidate_ids": {"type": "array", "maxItems": 0},
+        "unknown_candidate_location_ids": {"type": "array", "maxItems": 0},
+        "unknown_communicative_owner_ids": {"type": "array", "maxItems": 0},
+        "items_without_source_refs": {"type": "array", "maxItems": 0},
+        "items_without_recycle_locations": {"type": "array", "maxItems": 0},
+        "items_without_oxford_refs": {"type": "array", "maxItems": 0},
+        "unmatched_source_headword_request_count": {"type": "integer", "minimum": 0},
+        "final_lesson_decisions_made": {"const": 0}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at", "statement"],
+      "properties": {
+        "status": {"const": "accepted_exact_lexical_system_pass"},
+        "reviewer": {"type": "string", "minLength": 3},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "statement": {"type": "string", "minLength": 30}
+      }
+    }
+  }
+}

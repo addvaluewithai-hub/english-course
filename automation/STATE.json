@@ -6,7 +6,7 @@
   "active_phase": "cross_level_vertical_spine",
   "last_completed_task": "SPINE-004",
   "next_task": "SPINE-005",
-  "updated_at": "2026-08-10T14:54:33+03:00",
+  "updated_at": "2026-08-10T15:20:52+03:00",
   "phase_gates": {
     "phase_0_foundation": "passed",
     "phase_1_learning_model": "passed",
@@ -140,11 +140,28 @@
       "orphan_sources_items_or_owners": 0,
       "final_lesson_decisions_made": 0
     },
-    "next_partition": "exact_lexical_chunk_ownership"
+    "exact_lexical_chunk_ownership": {
+      "status": "complete",
+      "oxford_a1_records_dispositioned": 900,
+      "course_controlled_resources": 104,
+      "lexical_sets": 62,
+      "frame_sets": 41,
+      "personalized_slots": 1,
+      "member_lines": 923,
+      "distinct_member_forms": 760,
+      "selected_oxford_records": 537,
+      "grammar_owned_oxford_records": 87,
+      "reference_pool_records": 276,
+      "legacy_vocabulary_candidates_owned": 75,
+      "legacy_phrase_candidates_owned": 77,
+      "uncovered_candidates_items_or_sources": 0,
+      "final_lesson_decisions_made": 0
+    },
+    "next_partition": "exact_pronunciation_intelligibility_ownership"
   },
   "last_full_validation": {
-    "passed_tests": 330,
+    "passed_tests": 336,
     "failed_tests": 0,
-    "validated_at": "2026-08-10T14:54:33+03:00"
+    "validated_at": "2026-08-10T15:20:52+03:00"
   }
 }
