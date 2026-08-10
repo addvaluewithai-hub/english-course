@@ -16,7 +16,8 @@ The learning loop is: understand, practice, use, explain, review, and retain.
   source records are normalized with page or row provenance. All 9,274 records have
   reviewed source-use dispositions; exact lifecycle ownership remains pending.
 - SPINE-004 is in progress: all 2,274 communicative records now feed 41 reviewed
-  function strands, and all 1,222 EGP features feed 91 reviewed grammar-family strands.
+  function strands, all 1,222 EGP features feed 91 reviewed grammar-family strands,
+  and 15 performance/complexity dimensions define 90 evidence-linked level stages.
 - Rendered voice/video assets and external learner-pilot evidence are still pending.
 
 Read [HANDOFF.md](HANDOFF.md) before continuing the project.

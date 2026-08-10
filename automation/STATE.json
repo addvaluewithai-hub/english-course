@@ -72,9 +72,11 @@
     "communicative_source_assignments": 2274,
     "communicative_function_strands": 41,
     "grammar_family_strands": 91,
+    "performance_complexity_strands": 15,
+    "performance_complexity_stages": 90,
     "egp_features_covered": 1222,
     "gse_grammar_records_crosswalked": 456,
-    "next_partition": "performance_complexity_discourse"
+    "next_partition": "lexical_and_pronunciation_progression"
   },
   "last_full_validation": {
     "passed_tests": 296,

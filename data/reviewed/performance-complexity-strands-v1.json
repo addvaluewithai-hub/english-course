@@ -1,0 +1,1716 @@
+{
+  "schema_version": 1,
+  "dataset_id": "performance_complexity_progression_strands",
+  "version": 1,
+  "inputs": [
+    {
+      "path": "data/reviewed/level-exit-profiles-v1.json",
+      "sha256": "8cd53270688f6aafadddb7beb7f8f3717d832a464f127fefd3def3a1a62da30a"
+    },
+    {
+      "path": "data/reviewed/source-dispositions-v1.json",
+      "sha256": "15824d8281d9e6669eddc40780e3f9ab3113866834c7fae997b2de76bf92a32d"
+    }
+  ],
+  "strands": [
+    {
+      "strand_id": "performance.listening_reception",
+      "strand_code": "listening_reception",
+      "title": "Listening input complexity",
+      "dimension_type": "input",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Recognise familiar words and very basic phrases when delivery is slow, clear, and context-supported.",
+          "profile_claim_id": "a1.reception.listening",
+          "evidence_count": 10,
+          "evidence_ids_sha256": "2fa1f0fb6c538381ada5f63d1e82897d8fe618b228420a3e2899365f69de8cd5",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p048.a1.overall_oral_comprehension.001",
+            "cefr.cv2020.p051.a1.understanding_announcements_and_instructions.002",
+            "cefr.cv2020.p053.a1.watching_tv_film_and_video.001"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Understand high-frequency language of immediate relevance and the main point of short clear messages.",
+          "profile_claim_id": "a2.reception.listening",
+          "evidence_count": 21,
+          "evidence_ids_sha256": "c0a43165dd2683e2aa112681004e7d54db10dca078c3caa29aab0c736861e846",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p048.a2.overall_oral_comprehension.001",
+            "cefr.cv2020.p051.a2.understanding_announcements_and_instructions.003",
+            "cefr.cv2020.p053.a2.watching_tv_film_and_video.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Understand main points of clear standard input and relatively clear media on familiar or personally relevant topics.",
+          "profile_claim_id": "b1.reception.listening",
+          "evidence_count": 18,
+          "evidence_ids_sha256": "15bc5946af381b5b9b37a2691ad57718f356d93b33d3851ae0a9eb119d494939",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p048.b1.overall_oral_comprehension.001",
+            "cefr.cv2020.p051.b1.understanding_announcements_and_instructions.001",
+            "cefr.cv2020.p053.b1.watching_tv_film_and_video.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Follow extended talk and complex argument on reasonably familiar topics and understand most standard-language news and film.",
+          "profile_claim_id": "b2.reception.listening",
+          "evidence_count": 19,
+          "evidence_ids_sha256": "32e134c28e0060639a11e9e12a3b29b12a2c9e4c08a3cbaf602e7e43dab145e7",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p048.b2.overall_oral_comprehension.001",
+            "cefr.cv2020.p050.b2.understanding_as_a_member_of_a_live.003",
+            "cefr.cv2020.p053.b2.watching_tv_film_and_video.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Understand extended discourse with implicit relationships and demanding media without excessive effort.",
+          "profile_claim_id": "c1.reception.listening",
+          "evidence_count": 12,
+          "evidence_ids_sha256": "77a8eaea4e22440888f7c47bf86ead5eacdb0ca0e09cb8caeb20165561c39d49",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p048.c1.overall_oral_comprehension.001",
+            "cefr.cv2020.p051.c1.understanding_announcements_and_instructions.001",
+            "cefr.cv2020.p053.c1.watching_tv_film_and_video.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Understand with ease virtually any kind of live or recorded language, including delivery at fast natural speed.",
+          "profile_claim_id": "c2.reception.listening",
+          "evidence_count": 5,
+          "evidence_ids_sha256": "574346130a2ae86325e9676e4324f6e3c9d266850f1ec2beab919d94ae65a567",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p048.c2.overall_oral_comprehension.001",
+            "cefr.cv2020.p050.c2.understanding_as_a_member_of_a_live.001",
+            "cefr.cv2020.p050.c2.understanding_as_a_member_of_a_live.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.reading_reception",
+      "strand_code": "reading_reception",
+      "title": "Reading input complexity",
+      "dimension_type": "input",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Understand familiar names, words, signs, and very simple sentences in predictable material.",
+          "profile_claim_id": "a1.reception.reading",
+          "evidence_count": 14,
+          "evidence_ids_sha256": "7c75491d0a22d9165baba1c7f18f71cbc1180c4a3cce0407eb27dc3f64d67fca",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p054.a1.overall_reading_comprehension.001",
+            "cefr.cv2020.p057.a1.reading_for_information_and_argument.001",
+            "cefr.cv2020.p060.a1.identifying_cues_and_inferring_spoken_signed_and.002"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Read short simple texts and locate predictable information in everyday materials and personal correspondence.",
+          "profile_claim_id": "a2.reception.reading",
+          "evidence_count": 37,
+          "evidence_ids_sha256": "c868a3b4df93ab658de1b36b6f2ad5f51310b1f7f2245754c8d5d9b972ea91ae",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p054.a2.overall_reading_comprehension.001",
+            "cefr.cv2020.p057.a2.reading_for_information_and_argument.008",
+            "cefr.cv2020.p060.a2.identifying_cues_and_inferring_spoken_signed_and.005"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Understand high-frequency everyday or job-related texts and descriptions of events, feelings, and wishes.",
+          "profile_claim_id": "b1.reception.reading",
+          "evidence_count": 35,
+          "evidence_ids_sha256": "a9db87a4b58fdfd82af3882a936fa9ffed50723042ba58c7416994fcce5c9da2",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p054.b1.overall_reading_comprehension.001",
+            "cefr.cv2020.p057.b1.reading_for_information_and_argument.007",
+            "cefr.cv2020.p060.b1.identifying_cues_and_inferring_spoken_signed_and.008"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Understand articles and reports with viewpoints, contemporary prose, and relevant technical discussion.",
+          "profile_claim_id": "b2.reception.reading",
+          "evidence_count": 15,
+          "evidence_ids_sha256": "289ca488efbd29b8217f6777b98b384e4e1379319b0dc67fcae5c32493eba1d8",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p054.b2.overall_reading_comprehension.001",
+            "cefr.cv2020.p057.b2.reading_for_information_and_argument.002",
+            "cefr.cv2020.p060.b2.identifying_cues_and_inferring_spoken_signed_and.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Understand long complex factual, literary, specialised, and technical texts while appreciating style distinctions.",
+          "profile_claim_id": "c1.reception.reading",
+          "evidence_count": 10,
+          "evidence_ids_sha256": "58945b12e3b8e902a36360fe2c4a92ac7a30299b74ec0af3b17986531b06c566",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p054.c1.overall_reading_comprehension.001",
+            "cefr.cv2020.p056.c1.reading_for_information_and_argument.001",
+            "cefr.cv2020.p060.c1.identifying_cues_and_inferring_spoken_signed_and.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Read with ease virtually all abstract, structurally complex, specialised, and literary written language.",
+          "profile_claim_id": "c2.reception.reading",
+          "evidence_count": 5,
+          "evidence_ids_sha256": "5aae985facb2fa77dd2d1c6a5328a7f39b719991448b5246c1763b2fefcc685f",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p054.c2.overall_reading_comprehension.001",
+            "cefr.cv2020.p054.c2.reading_correspondence.001",
+            "cefr.cv2020.p059.c2.reading_as_a_leisure_activity.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.speaking_production",
+      "strand_code": "speaking_production",
+      "title": "Spoken output complexity",
+      "dimension_type": "output",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Use isolated simple phrases and sentences for personal details, familiar people, places, possessions, and needs.",
+          "profile_claim_id": "a1.production.speaking",
+          "evidence_count": 5,
+          "evidence_ids_sha256": "725f4aca63d3e16257e4d6c72318d94c84b9396cdc1afee899ffc20b0269409c",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p062.a1.overall_oral_production.001",
+            "cefr.cv2020.p063.a1.sustained_monologue_describing_experience.002",
+            "cefr.cv2020.p066.a1.addressing_audiences.001"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Use a series of simple phrases and sentences to describe family, background, routines, and immediate surroundings.",
+          "profile_claim_id": "a2.production.speaking",
+          "evidence_count": 19,
+          "evidence_ids_sha256": "2c661d78fe17abece43ffaa68d29a7f3f63eea538929a31c015fe3e63fc0d908",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p062.a2.overall_oral_production.001",
+            "cefr.cv2020.p063.a2.sustained_monologue_describing_experience.009",
+            "cefr.cv2020.p066.a2.addressing_audiences.004"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Connect phrases to narrate experiences and events and give brief reasons for opinions, hopes, and plans.",
+          "profile_claim_id": "b1.production.speaking",
+          "evidence_count": 22,
+          "evidence_ids_sha256": "c5e66fc2d41fee8cac88950564eca4f84aa034e9f9f7b18c2d490c8d0c29346a",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p062.b1.overall_oral_production.001",
+            "cefr.cv2020.p063.b1.sustained_monologue_giving_information.002",
+            "cefr.cv2020.p066.b1.addressing_audiences.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Give clear detailed descriptions and explain a viewpoint with advantages, disadvantages, and supporting detail.",
+          "profile_claim_id": "b2.production.speaking",
+          "evidence_count": 16,
+          "evidence_ids_sha256": "39f8eb04bf2b44a8311fa4b7a44ccf1fec6720976ac623542c1b0f46d84f2355",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p062.b2.overall_oral_production.001",
+            "cefr.cv2020.p064.b2.sustained_monologue_putting_a_case_e_g.002",
+            "cefr.cv2020.p065.b2.public_announcements.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Present complex subjects with integrated sub-themes, developed points, and an appropriate conclusion.",
+          "profile_claim_id": "c1.production.speaking",
+          "evidence_count": 12,
+          "evidence_ids_sha256": "dc7ab0669cf2194ab01dbb06a7a064586ca2c1a311683ba22ff4e7fae6ce45f8",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p062.c1.overall_oral_production.001",
+            "cefr.cv2020.p064.c1.sustained_monologue_putting_a_case_e_g.002",
+            "cefr.cv2020.p065.c1.public_announcements.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Deliver smooth logically structured communication that highlights significant points and fine shades of meaning.",
+          "profile_claim_id": "c2.production.speaking",
+          "evidence_count": 4,
+          "evidence_ids_sha256": "fc6c626ad08d3b45e15b436db0b02559ca690eb97ebaa17759e065ad24ad9086",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p062.c2.overall_oral_production.001",
+            "cefr.cv2020.p065.c2.addressing_audiences.001",
+            "cefr.cv2020.p065.c2.addressing_audiences.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.writing_production",
+      "strand_code": "writing_production",
+      "title": "Written output complexity",
+      "dimension_type": "output",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Produce isolated phrases and sentences and complete very simple personal-detail forms or messages.",
+          "profile_claim_id": "a1.production.writing",
+          "evidence_count": 8,
+          "evidence_ids_sha256": "5f9a937ab100087c2254f499b32264e678f588b59f14178e90d07dcd963cfc92",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p066.a1.overall_written_production.001",
+            "cefr.cv2020.p067.a1.creative_writing.003",
+            "cefr.cv2020.p136.a1.orthographic_control.003"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Produce a series of simple phrases and sentences linked by frequent connectors.",
+          "profile_claim_id": "a2.production.writing",
+          "evidence_count": 12,
+          "evidence_ids_sha256": "5b540eee0257b84a4589e9d365922be0d18bdef5a3f8eef8edcc198e0451f825",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p066.a2.overall_written_production.001",
+            "cefr.cv2020.p067.a2.creative_writing.006",
+            "cefr.cv2020.p136.a2.orthographic_control.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Produce straightforward connected text on familiar or personally interesting topics.",
+          "profile_claim_id": "b1.production.writing",
+          "evidence_count": 14,
+          "evidence_ids_sha256": "4dcb007d9d67b0e2855ca208992537c857125375b5b4e2b7d3c651c2eaa9352a",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p066.b1.overall_written_production.001",
+            "cefr.cv2020.p068.b1.reports_and_essays.001",
+            "cefr.cv2020.p136.b1.orthographic_control.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Produce clear detailed texts, essays, and reports that present information or support a position.",
+          "profile_claim_id": "b2.production.writing",
+          "evidence_count": 11,
+          "evidence_ids_sha256": "c4fdbe03faeb88942c6611417b4da10326bb6b26f9fef9d1260ca6d30006d922",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p066.b2.overall_written_production.001",
+            "cefr.cv2020.p068.b2.reports_and_essays.002",
+            "cefr.cv2020.p136.b2.orthographic_control.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Produce clear well-structured detailed texts on complex subjects in a style appropriate to the reader.",
+          "profile_claim_id": "c1.production.writing",
+          "evidence_count": 10,
+          "evidence_ids_sha256": "8bef092c10905aba9fe05aec2ad5413d7744a9a97f884d1d8b9f934e55ccd75f",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p066.c1.overall_written_production.001",
+            "cefr.cv2020.p068.c1.reports_and_essays.001",
+            "cefr.cv2020.p136.c1.orthographic_control.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Create complex letters, reports, articles, summaries, and reviews in an effective reader-appropriate style.",
+          "profile_claim_id": "c2.production.writing",
+          "evidence_count": 7,
+          "evidence_ids_sha256": "70dec7ad90317e7c26f7815ec2486fce33cbd9195d9707c8fc3856988c77ffb8",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p066.c2.overall_written_production.001",
+            "cefr.cv2020.p068.c2.reports_and_essays.001",
+            "cefr.cv2020.p136.c2.orthographic_control.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.oral_interaction",
+      "strand_code": "oral_interaction",
+      "title": "Oral interaction independence",
+      "dimension_type": "interaction",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Ask and answer simple questions with repetition, rephrasing, slower speech, and formulation help.",
+          "profile_claim_id": "a1.interaction.oral",
+          "evidence_count": 22,
+          "evidence_ids_sha256": "5c127579a1ff420f97b30fb4bf8a58458f03f95908244c230d68d73321bdc0a1",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p072.a1.overall_oral_interaction.001",
+            "cefr.cv2020.p078.a1.obtaining_goods_and_services.001",
+            "cefr.cv2020.p080.a1.interviewing_and_being_interviewed.002"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Complete routine tasks and short social exchanges through direct familiar information exchange.",
+          "profile_claim_id": "a2.interaction.oral",
+          "evidence_count": 61,
+          "evidence_ids_sha256": "bae813cbc9adbae42117140129e02c8e98a175be9de3a78f1b9ed35e2aec6077",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p072.a2.overall_oral_interaction.001",
+            "cefr.cv2020.p077.a2.goal_oriented_co_operation_cooking_together_discussing.004",
+            "cefr.cv2020.p081.a2.using_telecommunications.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Enter unprepared conversation on familiar topics and handle most common situations while travelling.",
+          "profile_claim_id": "b1.interaction.oral",
+          "evidence_count": 48,
+          "evidence_ids_sha256": "77fbfb3d1141b6cb60a5d6dbb3756376f095df9c020a646b033b3aa402309616",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p072.b1.overall_oral_interaction.001",
+            "cefr.cv2020.p077.b1.goal_oriented_co_operation_cooking_together_discussing.003",
+            "cefr.cv2020.p081.b1.using_telecommunications.004"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Participate actively with useful fluency and spontaneity, sustain views, and manage routine disagreement.",
+          "profile_claim_id": "b2.interaction.oral",
+          "evidence_count": 33,
+          "evidence_ids_sha256": "2b7bfcdef67cc150ab3d27ee4c2da286413fb3236fe63fa49aff3ee500ba67ec",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p072.b2.overall_oral_interaction.001",
+            "cefr.cv2020.p076.b2.formal_discussion_meetings.004",
+            "cefr.cv2020.p081.b2.using_telecommunications.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Express ideas fluently and precisely, adapt register, and relate contributions skilfully to others.",
+          "profile_claim_id": "c1.interaction.oral",
+          "evidence_count": 13,
+          "evidence_ids_sha256": "ce8ab879c13b7b10cb4cb2d292b1a91f566ff9ac6d3e4d24cca56828910cdbac",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p072.c1.overall_oral_interaction.001",
+            "cefr.cv2020.p076.c1.formal_discussion_meetings.003",
+            "cefr.cv2020.p081.c1.using_telecommunications.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Participate effortlessly, use idiomatic language appropriately, and repair so smoothly that difficulty is unobtrusive.",
+          "profile_claim_id": "c2.interaction.oral",
+          "evidence_count": 9,
+          "evidence_ids_sha256": "b42c77aef9a7c8bb70e4cd64e75abacfebc504217d35aa341d9c969b30d09520",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p072.c2.overall_oral_interaction.001",
+            "cefr.cv2020.p076.c2.formal_discussion_meetings.001",
+            "cefr.cv2020.p081.c2.using_telecommunications.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.written_online_interaction",
+      "strand_code": "written_online_interaction",
+      "title": "Written and online interaction",
+      "dimension_type": "interaction",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Post simple greetings or reactions and complete a very simple purchase or personal-details form.",
+          "profile_claim_id": "a1.interaction.written_online",
+          "evidence_count": 9,
+          "evidence_ids_sha256": "95b6fe7e1e88d7c6ff12b8078842a79a77b697991a9b2eaf8f1d6332ea192bc2",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p082.a1.overall_written_interaction.001",
+            "cefr.cv2020.p084.a1.notes_messages_and_forms.001",
+            "cefr.cv2020.p087.a1.goal_oriented_online_transactions_and_collaboration.001"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Handle basic social interaction, routine transactions, simple instructions, and supported collaboration.",
+          "profile_claim_id": "a2.interaction.written_online",
+          "evidence_count": 19,
+          "evidence_ids_sha256": "8a8226131726fb43204da3f3e646f02af52605383fb6ef302aeb29bdc81e287f",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p082.a2.overall_written_interaction.001",
+            "cefr.cv2020.p085.a2.online_conversation_and_discussion.001",
+            "cefr.cv2020.p087.a2.goal_oriented_online_transactions_and_collaboration.005"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Interact about experiences and feelings, ask for clarification, and answer comments in some detail.",
+          "profile_claim_id": "b1.interaction.written_online",
+          "evidence_count": 22,
+          "evidence_ids_sha256": "1cb64e290482e81a9f822310ce31cf8eb22ec895f1689efdae83de41b27fb11d",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p082.b1.overall_written_interaction.001",
+            "cefr.cv2020.p084.b1.notes_messages_and_forms.003",
+            "cefr.cv2020.p087.b1.goal_oriented_online_transactions_and_collaboration.005"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Collaborate in multi-person tasks and handle misunderstanding when others remain reasonably cooperative.",
+          "profile_claim_id": "b2.interaction.written_online",
+          "evidence_count": 19,
+          "evidence_ids_sha256": "2082e9ca655b0802a41a4ac30475f006ee5bd9b49f69732ba62909bc7d38c535",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p082.b2.correspondence.001",
+            "cefr.cv2020.p083.b2.correspondence.005",
+            "cefr.cv2020.p087.b2.goal_oriented_online_transactions_and_collaboration.004"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Handle complex abstract interaction and communication problems through flexible register, clarification, and exemplification.",
+          "profile_claim_id": "c1.interaction.written_online",
+          "evidence_count": 11,
+          "evidence_ids_sha256": "a39a6d255260a5c4e9c560c9ff18dc6bc4b4b0833821db85aad3a5f8420470ff",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p082.c1.correspondence.001",
+            "cefr.cv2020.p085.c1.online_conversation_and_discussion.003",
+            "cefr.cv2020.p086.c1.goal_oriented_online_transactions_and_collaboration.004"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Use an appropriate tone in virtually any interaction and anticipate cultural, emotional, or communication problems.",
+          "profile_claim_id": "c2.interaction.written_online",
+          "evidence_count": 7,
+          "evidence_ids_sha256": "1441b85b5958ae183b895af1680ac291a4958f2fb06aa96f31e97f939674340a",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p082.c2.correspondence.001",
+            "cefr.cv2020.p085.c2.online_conversation_and_discussion.002",
+            "cefr.cv2020.p086.c2.goal_oriented_online_transactions_and_collaboration.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.mediation",
+      "strand_code": "mediation",
+      "title": "Mediation complexity",
+      "dimension_type": "interaction",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Relay simple predictable information from short signs or notices and show welcome, interest, or understanding.",
+          "profile_claim_id": "a1.interaction.mediation",
+          "evidence_count": 18,
+          "evidence_ids_sha256": "494d04c034edcd29f4fa71400c8bcc97723f75ac830782a2749d7a57bdc0e906",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p092.a1.overall_mediation.001",
+            "cefr.cv2020.p111.a1.collaborating_to_construct_meaning.001",
+            "cefr.cv2020.p128.a1.building_on_plurilingual_repertoire.001"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Convey main points of short simple everyday texts and collaborate on practical tasks with occasional repetition.",
+          "profile_claim_id": "a2.interaction.mediation",
+          "evidence_count": 50,
+          "evidence_ids_sha256": "9f103cf0e1095ede390148244a9409983dc0fc5630e3e28500c0e5756cbf481e",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p092.a2.overall_mediation.001",
+            "cefr.cv2020.p107.a2.expressing_a_personal_response_to_creative_texts.003",
+            "cefr.cv2020.p128.a2.building_on_plurilingual_repertoire.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Convey familiar information from clear texts, seek simple compromise, and support shared communication.",
+          "profile_claim_id": "b1.interaction.mediation",
+          "evidence_count": 84,
+          "evidence_ids_sha256": "8f0300fafd4a77d63fe0d43e70efa806ebf6ca38075db06279d06a397c55147d",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p092.b1.overall_mediation.001",
+            "cefr.cv2020.p111.b1.collaborating_to_construct_meaning.003",
+            "cefr.cv2020.p128.b1.building_on_plurilingual_repertoire.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Relay detailed information and arguments reliably, clarify complex points, and develop or connect others' ideas.",
+          "profile_claim_id": "b2.interaction.mediation",
+          "evidence_count": 102,
+          "evidence_ids_sha256": "51cfc93cec17012091cc8a0de7435deffbf190f21d032146badfe20a7191c279",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p092.b2.overall_mediation.001",
+            "cefr.cv2020.p113.b2.encouraging_conceptual_talk.005",
+            "cefr.cv2020.p128.b2.building_on_plurilingual_repertoire.006"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Convey significant ideas from long complex texts and evaluate and connect multiple perspectives.",
+          "profile_claim_id": "c1.interaction.mediation",
+          "evidence_count": 52,
+          "evidence_ids_sha256": "aad9931bf43e85c899b393db99c5bb9ce9d3e6a4458d4638065adb48b6c82852",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p091.c1.overall_mediation.001",
+            "cefr.cv2020.p110.c1.facilitating_collaborative_interaction_with_peers.002",
+            "cefr.cv2020.p128.c1.building_on_plurilingual_repertoire.005"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Reconstruct and evaluate arguments, convey nuance and sociocultural implications, and guide complex discussion sensitively.",
+          "profile_claim_id": "c2.interaction.mediation",
+          "evidence_count": 32,
+          "evidence_ids_sha256": "912d02d6ad87784b303e5caa9c850d7749e4a4b2a33a2f5d6fb33074a97d689f",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p091.c2.overall_mediation.001",
+            "cefr.cv2020.p113.c2.encouraging_conceptual_talk.001",
+            "cefr.cv2020.p128.c2.building_on_plurilingual_repertoire.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.language_range",
+      "strand_code": "language_range",
+      "title": "Language range",
+      "dimension_type": "language_control",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Very basic expressions and some one-clause structures for concrete personal information and needs.",
+          "profile_claim_id": "a1.language_control.range",
+          "evidence_count": 2,
+          "evidence_ids_sha256": "2432e00ba273416a147346a43abd5ce94ddcb16965f79beff590b54bad5cf8e8",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p131.a1.general_linguistic_range.001",
+            "cefr.cv2020.p131.a1.general_linguistic_range.002"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Basic patterns and memorised phrases for predictable everyday content, with message compromise outside routine situations.",
+          "profile_claim_id": "a2.language_control.range",
+          "evidence_count": 4,
+          "evidence_ids_sha256": "423e4ba000a2642477f82d0083582bd04e03269e72d345eef986621b3eacbf51",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p130.a2.general_linguistic_range.001",
+            "cefr.cv2020.p130.a2.general_linguistic_range.003",
+            "cefr.cv2020.p130.a2.general_linguistic_range.004"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Sufficient familiar-topic language for some unpredictable situations, with hesitation and circumlocution when limits appear.",
+          "profile_claim_id": "b1.language_control.range",
+          "evidence_count": 2,
+          "evidence_ids_sha256": "8bb23529123dc4bb2fd4ec6df0018c361d1a0c3d54df629b1d07d4b759c2ee9e",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p130.b1.general_linguistic_range.001",
+            "cefr.cv2020.p130.b1.general_linguistic_range.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Broad general and field-related language, viewpoints, argument, and some complex sentence forms without much restriction.",
+          "profile_claim_id": "b2.language_control.range",
+          "evidence_count": 2,
+          "evidence_ids_sha256": "6e0d9c84bf92f513cbe0299375ca3bb1f99e034c001ef391b5f2b29c5cd10157",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p130.b2.general_linguistic_range.001",
+            "cefr.cv2020.p130.b2.general_linguistic_range.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Broad complex language selected flexibly for clear social, academic, and professional communication.",
+          "profile_claim_id": "c1.language_control.range",
+          "evidence_count": 2,
+          "evidence_ids_sha256": "d7a5c8dea0ade7dcda4a9362a7b6a318a04acb9745f8d765001bdc96352fddd6",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p130.c1.general_linguistic_range.001",
+            "cefr.cv2020.p130.c1.general_linguistic_range.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Comprehensive precise language that differentiates, emphasises, and eliminates ambiguity without visible restriction.",
+          "profile_claim_id": "c2.language_control.range",
+          "evidence_count": 1,
+          "evidence_ids_sha256": "7aac1bd90259360a766d36f2ab58a959777da2d41ccf4da1092e2043777dab8c",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p130.c2.general_linguistic_range.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.grammar",
+      "strand_code": "grammar",
+      "title": "Grammatical control",
+      "dimension_type": "language_control",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Limited control of a few learnt simple structures and sentence patterns.",
+          "profile_claim_id": "a1.language_control.grammar",
+          "evidence_count": 1,
+          "evidence_ids_sha256": "90271b880fbfb118d5debc4b1f7c23c45889fb7ebb18cfdf50b58fec6313b012",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p132.a1.grammatical_accuracy.001"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Some simple structures are correct, though systematic basic mistakes remain and meaning is usually clear.",
+          "profile_claim_id": "a2.language_control.grammar",
+          "evidence_count": 1,
+          "evidence_ids_sha256": "fee224a94ebbb3903f97fd3aea5cfb0046619504ae806d4a6fab547e86740a6b",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p132.a2.grammatical_accuracy.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Reasonable accuracy in familiar contexts; errors and first-language influence remain but intended meaning is clear.",
+          "profile_claim_id": "b1.language_control.grammar",
+          "evidence_count": 2,
+          "evidence_ids_sha256": "fc8151d1b40aefef11833693b0f3baf9b5b14915756f5a41fbdb1c2518911416",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p132.b1.grammatical_accuracy.001",
+            "cefr.cv2020.p132.b1.grammatical_accuracy.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Relatively high control with occasional slips and some rigid or inaccurate use of complex forms.",
+          "profile_claim_id": "b2.language_control.grammar",
+          "evidence_count": 3,
+          "evidence_ids_sha256": "16f1f4b8997676df74b154e724246937bcd1df1c9bdb6a006f96e56f6bba441c",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p132.b2.grammatical_accuracy.001",
+            "cefr.cv2020.p132.b2.grammatical_accuracy.002",
+            "cefr.cv2020.p132.b2.grammatical_accuracy.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Consistently high accuracy; errors are rare and difficult to notice.",
+          "profile_claim_id": "c1.language_control.grammar",
+          "evidence_count": 1,
+          "evidence_ids_sha256": "fd17c36f2a6e6ccaa9dbb3b730c9ab9fd85b812e2987b42422118ba2c2d77bb2",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p132.c1.grammatical_accuracy.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Consistent control of complex language even while attention is divided across planning and interaction.",
+          "profile_claim_id": "c2.language_control.grammar",
+          "evidence_count": 1,
+          "evidence_ids_sha256": "383b4a1437c2e4bd7a942533b3557e8a14a49f04ca784b5ce2f36497b0940ba2",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p132.c2.grammatical_accuracy.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.vocabulary",
+      "strand_code": "vocabulary",
+      "title": "Lexical range and control",
+      "dimension_type": "language_control",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Basic words and phrases tied to particular concrete situations.",
+          "profile_claim_id": "a1.language_control.vocabulary",
+          "evidence_count": 1,
+          "evidence_ids_sha256": "a7384d10d3ac265dca357300e3be5ee4c245af14cb944646e09475d80f450a6d",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p131.a1.vocabulary_range.001"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+          "profile_claim_id": "a2.language_control.vocabulary",
+          "evidence_count": 4,
+          "evidence_ids_sha256": "f514c9bb516dd91758f5f6b04cce59c9cd0266c17c9df56cdeaef7e6efeba965",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p131.a2.vocabulary_range.001",
+            "cefr.cv2020.p131.a2.vocabulary_range.003",
+            "cefr.cv2020.p133.a2.vocabulary_control.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+          "profile_claim_id": "b1.language_control.vocabulary",
+          "evidence_count": 4,
+          "evidence_ids_sha256": "d810bb47e8e82a17603a4b54e6acdce07f5c7569638282595e08318d1190c517",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p131.b1.vocabulary_range.001",
+            "cefr.cv2020.p133.b1.vocabulary_control.001",
+            "cefr.cv2020.p133.b1.vocabulary_control.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Good general and field-related range with systematic use of many appropriate collocations.",
+          "profile_claim_id": "b2.language_control.vocabulary",
+          "evidence_count": 6,
+          "evidence_ids_sha256": "8b88fd69cbc5be030717d1e6db0b2f3646e9891f4b31b8963591285758e3c7b7",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p131.b2.vocabulary_range.001",
+            "cefr.cv2020.p131.b2.vocabulary_range.004",
+            "cefr.cv2020.p132.b2.vocabulary_control.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+          "profile_claim_id": "c1.language_control.vocabulary",
+          "evidence_count": 6,
+          "evidence_ids_sha256": "d9c345243bee0b77fde9d1b2b49b0d2db9ebf253bb960010422530c6261de4d9",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p131.c1.vocabulary_range.001",
+            "cefr.cv2020.p131.c1.vocabulary_range.004",
+            "cefr.cv2020.p132.c1.vocabulary_control.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+          "profile_claim_id": "c2.language_control.vocabulary",
+          "evidence_count": 2,
+          "evidence_ids_sha256": "356c8bf58f2088c5569a587ed89295ecb5c69aeef3ac03de3f669c97856ace89",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p131.c2.vocabulary_range.001",
+            "cefr.cv2020.p132.c2.vocabulary_control.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.pronunciation",
+      "strand_code": "pronunciation",
+      "title": "Pronunciation and intelligibility",
+      "dimension_type": "language_control",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+          "profile_claim_id": "a1.language_control.pronunciation",
+          "evidence_count": 4,
+          "evidence_ids_sha256": "3bd14b1c1ecc9070e44d20be4a228e1c3dc914572af825b275fc4aede83f9d29",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p135.a1.overall_phonological_control.001",
+            "cefr.cv2020.p135.a1.sound_articulation.001",
+            "cefr.cv2020.p135.a1.sound_articulation.002"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+          "profile_claim_id": "a2.language_control.pronunciation",
+          "evidence_count": 5,
+          "evidence_ids_sha256": "f081a93ed8657980480f2fda01589ab207901bdc10830113fcfc785a6ed3cdff",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p135.a2.overall_phonological_control.001",
+            "cefr.cv2020.p135.a2.prosodic_features.002",
+            "cefr.cv2020.p135.a2.sound_articulation.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+          "profile_claim_id": "b1.language_control.pronunciation",
+          "evidence_count": 3,
+          "evidence_ids_sha256": "39e1386eabf51a04d70fa3f821292432653bee6f3373450fb13d60e620ed7c08",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p134.b1.overall_phonological_control.001",
+            "cefr.cv2020.p134.b1.prosodic_features.001",
+            "cefr.cv2020.p134.b1.sound_articulation.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+          "profile_claim_id": "b2.language_control.pronunciation",
+          "evidence_count": 4,
+          "evidence_ids_sha256": "56b789966f53ca03b059e2856523cbc4638e1393a025928e2d946cabf11d6fc2",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p134.b2.overall_phonological_control.001",
+            "cefr.cv2020.p134.b2.sound_articulation.001",
+            "cefr.cv2020.p134.b2.sound_articulation.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+          "profile_claim_id": "c1.language_control.pronunciation",
+          "evidence_count": 4,
+          "evidence_ids_sha256": "4824dd5a664c4e44c6c37454f99708e7c5abaaf9ca44c5f41864ce9559a05f36",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p134.c1.overall_phonological_control.001",
+            "cefr.cv2020.p134.c1.prosodic_features.002",
+            "cefr.cv2020.p134.c1.sound_articulation.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+          "profile_claim_id": "c2.language_control.pronunciation",
+          "evidence_count": 3,
+          "evidence_ids_sha256": "2db9ffa36e93974ec5fa28110e9a8bb2614604b18bcdeaa757f089f5f172b658",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p134.c2.overall_phonological_control.001",
+            "cefr.cv2020.p134.c2.prosodic_features.001",
+            "cefr.cv2020.p134.c2.sound_articulation.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.discourse",
+      "strand_code": "discourse",
+      "title": "Discourse and cohesion",
+      "dimension_type": "language_control",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Link words or groups mainly with very basic linear connectors such as and or then.",
+          "profile_claim_id": "a1.language_control.discourse",
+          "evidence_count": 2,
+          "evidence_ids_sha256": "2196c78d16a31b061c01b257489b7c61c3ee53b9e13b952132dfc67cf2b2caf3",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p141.a1.coherence_and_cohesion.001",
+            "cefr.cv2020.p142.a1.propositional_precision.001"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Link simple sentences with frequent connectors such as and, but, and because.",
+          "profile_claim_id": "a2.language_control.discourse",
+          "evidence_count": 7,
+          "evidence_ids_sha256": "2af4bfe18ca189591fc438721c79bb392b89f57150b7a8eeb78a06cde7c79418",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p138.a2.flexibility.001",
+            "cefr.cv2020.p140.a2.thematic_development.002",
+            "cefr.cv2020.p142.a2.propositional_precision.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Link shorter elements into a connected linear sequence with simple paragraphing and chronological control.",
+          "profile_claim_id": "b1.language_control.discourse",
+          "evidence_count": 13,
+          "evidence_ids_sha256": "9d3331becb48c6c6027eace70377f2f9b086093b0b9240e92514a02ccd684ab0",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p138.b1.flexibility.001",
+            "cefr.cv2020.p141.b1.coherence_and_cohesion.001",
+            "cefr.cv2020.p142.b1.propositional_precision.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Use varied linking expressions, cohesive devices, supporting detail, and clear logical paragraphs.",
+          "profile_claim_id": "b2.language_control.discourse",
+          "evidence_count": 17,
+          "evidence_ids_sha256": "80fe94943dd38efbfc3a38aae7ad34076bb42e159f01b28f61a5cead6129991c",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p138.b2.flexibility.001",
+            "cefr.cv2020.p140.b2.thematic_development.005",
+            "cefr.cv2020.p141.b2.propositional_precision.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Produce smooth, well-structured language with controlled organisational patterns and cohesive devices.",
+          "profile_claim_id": "c1.language_control.discourse",
+          "evidence_count": 10,
+          "evidence_ids_sha256": "677fd3c60f142a705c30d8620493a72827836813634ee4ff0ed9fdb9c440a073",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p138.c1.flexibility.001",
+            "cefr.cv2020.p140.c1.thematic_development.004",
+            "cefr.cv2020.p141.c1.propositional_precision.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Create fully coherent and cohesive communication using flexible organisational and rhetorical patterns.",
+          "profile_claim_id": "c2.language_control.discourse",
+          "evidence_count": 5,
+          "evidence_ids_sha256": "327f4d71ca42f23127f2c51a3799ccb3f0eb209b9f70286b488b7f6c902bb176",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p138.c2.flexibility.001",
+            "cefr.cv2020.p141.c2.coherence_and_cohesion.001",
+            "cefr.cv2020.p141.c2.propositional_precision.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.fluency",
+      "strand_code": "fluency",
+      "title": "Fluency",
+      "dimension_type": "language_control",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Manage very short pre-packaged utterances with substantial pausing and repair.",
+          "profile_claim_id": "a1.language_control.fluency",
+          "evidence_count": 1,
+          "evidence_ids_sha256": "6f007efa8f483c8ada1e154e84885a2f5e95ff75c3f63db24d531b401dbece31",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p142.a1.fluency.001"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Make short understandable contributions with visible hesitation, false starts, and reformulation.",
+          "profile_claim_id": "a2.language_control.fluency",
+          "evidence_count": 2,
+          "evidence_ids_sha256": "51137cafa4fc824e87588ceb0687bee6429c07d2c164bb29878d996926d7124d",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p142.a2.fluency.001",
+            "cefr.cv2020.p142.a2.fluency.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Keep going comprehensibly despite evident pauses for planning and repair.",
+          "profile_claim_id": "b1.language_control.fluency",
+          "evidence_count": 2,
+          "evidence_ids_sha256": "ba8b363ad1498558e147c96c165dac41f7770ab0642c32223e15f1553f018a14",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p142.b1.fluency.001",
+            "cefr.cv2020.p142.b1.fluency.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Sustain longer stretches at a fairly even tempo with few conspicuously long pauses.",
+          "profile_claim_id": "b2.language_control.fluency",
+          "evidence_count": 3,
+          "evidence_ids_sha256": "7679ffc8a6e60ca2b71cc3a605fc9c8cd576db356a32fa3ad2b7770295006a9c",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p142.b2.fluency.001",
+            "cefr.cv2020.p142.b2.fluency.002",
+            "cefr.cv2020.p142.b2.fluency.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Express complex thought almost effortlessly, with only conceptually difficult material affecting flow.",
+          "profile_claim_id": "c1.language_control.fluency",
+          "evidence_count": 1,
+          "evidence_ids_sha256": "fbe84535e482a14b5065a9094f7fc0bf1c787197693393f258224694b4bfd3fb",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p142.c1.fluency.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Sustain natural effortless flow, pausing mainly to select the most precise formulation or example.",
+          "profile_claim_id": "c2.language_control.fluency",
+          "evidence_count": 1,
+          "evidence_ids_sha256": "f16d2ec119c411c66627ea703aa882f0f94007aa6abb58e0a0cf122ec4b28df6",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p142.c2.fluency.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.communication_strategy",
+      "strand_code": "communication_strategy",
+      "title": "Communication strategy",
+      "dimension_type": "strategy",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Signal a basic problem and request simple repetition or clarification with support.",
+          "profile_claim_id": null,
+          "evidence_count": 3,
+          "evidence_ids_sha256": "d0f2e06d14d352c4e80ed4dd35b477efa7df9b776d252a6c860e8a12733b9a6b",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p069.a1.compensating.001",
+            "cefr.cv2020.p089.a1.asking_for_clarification.001",
+            "cefr.cv2020.p089.a1.asking_for_clarification.002"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Use simple clarification, repetition, gesture, and basic compensating phrases in routine situations.",
+          "profile_claim_id": null,
+          "evidence_count": 14,
+          "evidence_ids_sha256": "c6cb2c8d7353eb086dbead1b67577a8b6f5826be16dffd6114655e4f26c99d02",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p069.a2.compensating.001",
+            "cefr.cv2020.p089.a2.asking_for_clarification.002",
+            "cefr.cv2020.p139.a2.turntaking.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Keep going through circumlocution, checking, confirmation, and repair on familiar topics.",
+          "profile_claim_id": null,
+          "evidence_count": 19,
+          "evidence_ids_sha256": "7f05450f84bee77145759f4dd53d86aff284e7fd2bebb461e9cd4f35b14f4e75",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p069.b1.compensating.001",
+            "cefr.cv2020.p088.b1.turntaking.001",
+            "cefr.cv2020.p139.b1.turntaking.002"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Paraphrase, manage turns, and repair most breakdowns while sustaining an independent exchange.",
+          "profile_claim_id": null,
+          "evidence_count": 22,
+          "evidence_ids_sha256": "75150d0bc8cac6f787747be942b3ca75de7ceb68a3ce91d57e7433b3e8f5a4e7",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p069.b2.compensating.001",
+            "cefr.cv2020.p088.b2.turntaking.003",
+            "cefr.cv2020.p139.b2.turntaking.004"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Reformulate flexibly, manage interaction, and resolve ambiguity with little disruption.",
+          "profile_claim_id": null,
+          "evidence_count": 8,
+          "evidence_ids_sha256": "9fb9efcc66ae0f18330bf9a38d4e04ee9134de7fcbb9b8c3bc0709cc6cab61a7",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p069.c1.compensating.001",
+            "cefr.cv2020.p088.c1.co_operating.001",
+            "cefr.cv2020.p139.c1.turntaking.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Backtrack, restructure, and repair so smoothly that difficulty is unobtrusive.",
+          "profile_claim_id": null,
+          "evidence_count": 3,
+          "evidence_ids_sha256": "0cb53250e46cc1054820b94d39bde52f9f95af2a240689efea7ca630ca12c3a3",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p069.c2.compensating.001",
+            "cefr.cv2020.p070.c2.monitoring_and_repair.001",
+            "cefr.cv2020.p088.c2.co_operating.001"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    },
+    {
+      "strand_id": "performance.sociolinguistic",
+      "strand_code": "sociolinguistic",
+      "title": "Sociolinguistic appropriateness",
+      "dimension_type": "language_control",
+      "stages": [
+        {
+          "level": "a1",
+          "expectation": "Use basic greetings, leave-taking, thanks, and simple politeness formulas.",
+          "profile_claim_id": null,
+          "evidence_count": 1,
+          "evidence_ids_sha256": "e81ad76cc18ca6d60339a491ff140c9751135f64f1d756f8f124ec903965dd17",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p137.a1.sociolinguistic_appropriateness.001"
+          ],
+          "lifecycle_states": [
+            "introduce",
+            "practise",
+            "consolidate"
+          ]
+        },
+        {
+          "level": "a2",
+          "expectation": "Use common social conventions and routine polite language in predictable contexts.",
+          "profile_claim_id": null,
+          "evidence_count": 4,
+          "evidence_ids_sha256": "db61ecbebca60a300a5cf80a873df48980e34d6991ed473eab6d9fed4b9433ee",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p137.a2.sociolinguistic_appropriateness.001",
+            "cefr.cv2020.p137.a2.sociolinguistic_appropriateness.003",
+            "cefr.cv2020.p137.a2.sociolinguistic_appropriateness.004"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b1",
+          "expectation": "Use a wider neutral repertoire and common politeness conventions across familiar contexts.",
+          "profile_claim_id": null,
+          "evidence_count": 3,
+          "evidence_ids_sha256": "c3fa920986759d07064a1386b69f3757a408d1d76c9700ab5951e7767a0977fe",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p137.b1.sociolinguistic_appropriateness.001",
+            "cefr.cv2020.p137.b1.sociolinguistic_appropriateness.002",
+            "cefr.cv2020.p137.b1.sociolinguistic_appropriateness.003"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "b2",
+          "expectation": "Select suitable formality and sustain social relationships without significant strain.",
+          "profile_claim_id": null,
+          "evidence_count": 6,
+          "evidence_ids_sha256": "a0b45db24947bef73d25e46e872afba146eec790840643bae27981213a2bfb28",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p137.b2.sociolinguistic_appropriateness.001",
+            "cefr.cv2020.p137.b2.sociolinguistic_appropriateness.004",
+            "cefr.cv2020.p137.b2.sociolinguistic_appropriateness.006"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c1",
+          "expectation": "Adapt register flexibly and interpret common idiomatic, cultural, and interpersonal signals.",
+          "profile_claim_id": null,
+          "evidence_count": 6,
+          "evidence_ids_sha256": "4838eb04a6acfa0573b12e737a4bf36150c5cbb3bb4ef6643a66601380fb11cb",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p137.c1.sociolinguistic_appropriateness.001",
+            "cefr.cv2020.p137.c1.sociolinguistic_appropriateness.004",
+            "cefr.cv2020.p137.c1.sociolinguistic_appropriateness.006"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        },
+        {
+          "level": "c2",
+          "expectation": "Handle register, connotation, humour, and sociocultural implications with precise sensitivity.",
+          "profile_claim_id": null,
+          "evidence_count": 4,
+          "evidence_ids_sha256": "06bfa6cb816242c60ab2fdb44b16e786646f1880ee94adde5daaa0c71d0cc2af",
+          "representative_evidence_ids": [
+            "cefr.cv2020.p137.c2.sociolinguistic_appropriateness.001",
+            "cefr.cv2020.p137.c2.sociolinguistic_appropriateness.003",
+            "cefr.cv2020.p137.c2.sociolinguistic_appropriateness.004"
+          ],
+          "lifecycle_states": [
+            "recycle",
+            "consolidate",
+            "extend"
+          ]
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "review_basis": "approved_exit_claim_plus_cefr_strand_evidence"
+      }
+    }
+  ],
+  "audit": {
+    "strand_count": 15,
+    "stage_count": 90,
+    "cefr_evidence_links": 1177,
+    "empty_stages": [],
+    "duplicate_stage_expectations": [],
+    "invalid_level_order": []
+  },
+  "review": {
+    "status": "accepted",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T13:37:25+03:00",
+    "method": "claim_text_and_complete_cefr_strand_review",
+    "limitations": [
+      "These are exit-performance boundaries; lesson load and within-level sequencing remain separate decisions.",
+      "Pronunciation here defines intelligibility boundaries, not the English-specific teaching sequence."
+    ]
+  }
+}

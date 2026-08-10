@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-course.local/schemas/curriculum/performance-complexity-strands.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "dataset_id", "version", "inputs", "strands", "audit", "review"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "dataset_id": {"const": "performance_complexity_progression_strands"},
+    "version": {"const": 1},
+    "inputs": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"$ref": "#/$defs/input"}},
+    "strands": {"type": "array", "minItems": 15, "maxItems": 15, "items": {"$ref": "#/$defs/strand"}},
+    "audit": {"$ref": "#/$defs/audit"},
+    "review": {"$ref": "#/$defs/review"}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "level": {"enum": ["a1", "a2", "b1", "b2", "c1", "c2"]},
+    "input": {
+      "type": "object", "additionalProperties": false, "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "pattern": "^data/reviewed/"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "stage": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "level", "expectation", "profile_claim_id", "evidence_count",
+        "evidence_ids_sha256", "representative_evidence_ids", "lifecycle_states"
+      ],
+      "properties": {
+        "level": {"$ref": "#/$defs/level"},
+        "expectation": {"$ref": "#/$defs/text"},
+        "profile_claim_id": {"type": ["string", "null"]},
+        "evidence_count": {"type": "integer", "minimum": 1},
+        "evidence_ids_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "representative_evidence_ids": {
+          "type": "array", "minItems": 1, "maxItems": 3,
+          "items": {"$ref": "#/$defs/text"}, "uniqueItems": true
+        },
+        "lifecycle_states": {
+          "type": "array", "uniqueItems": true,
+          "items": {"enum": ["introduce", "practise", "recycle", "consolidate", "extend"]}
+        }
+      }
+    },
+    "strand": {
+      "type": "object", "additionalProperties": false,
+      "required": ["strand_id", "strand_code", "title", "dimension_type", "stages", "review"],
+      "properties": {
+        "strand_id": {"type": "string", "pattern": "^performance\\.[a-z0-9_]+$"},
+        "strand_code": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+        "title": {"$ref": "#/$defs/text"},
+        "dimension_type": {"enum": ["input", "output", "interaction", "language_control", "strategy"]},
+        "stages": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"$ref": "#/$defs/stage"}},
+        "review": {
+          "type": "object", "additionalProperties": false,
+          "required": ["status", "review_basis"],
+          "properties": {
+            "status": {"const": "accepted"},
+            "review_basis": {"const": "approved_exit_claim_plus_cefr_strand_evidence"}
+          }
+        }
+      }
+    },
+    "audit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["strand_count", "stage_count", "cefr_evidence_links", "empty_stages", "duplicate_stage_expectations", "invalid_level_order"],
+      "properties": {
+        "strand_count": {"const": 15}, "stage_count": {"const": 90},
+        "cefr_evidence_links": {"type": "integer", "minimum": 1},
+        "empty_stages": {"type": "array", "maxItems": 0},
+        "duplicate_stage_expectations": {"type": "array", "maxItems": 0},
+        "invalid_level_order": {"type": "array", "maxItems": 0}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "reviewer", "reviewed_at", "method", "limitations"],
+      "properties": {
+        "status": {"const": "accepted"}, "reviewer": {"const": "codex_primary_curriculum_agent"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "method": {"const": "claim_text_and_complete_cefr_strand_review"},
+        "limitations": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/text"}}
+      }
+    }
+  }
+}
