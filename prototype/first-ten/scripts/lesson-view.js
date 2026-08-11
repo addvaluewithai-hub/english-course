@@ -1,5 +1,6 @@
 import { bindActivity, renderActivity } from "./activity-view.js";
 import { cleanTranscript, escapeHtml, list } from "./dom.js";
+import { friendlyLabel, MASTERY_GUIDES } from "./learner-support.js";
 
 function videoStep(pkg) {
   const player = pkg.videoUrl
@@ -16,16 +17,33 @@ function videoStep(pkg) {
   </div>`;
 }
 
+function masteryGuide(lessonId) {
+  const guide = MASTERY_GUIDES[lessonId];
+  if (!guide) return "";
+  return `<div class="mastery-helper" data-mastery-helper>
+    <strong>كوّن المحادثة في 4 ضغطات</strong>
+    <p class="partner-bubble">${escapeHtml(guide.partner)}</p>
+    ${guide.rows.map((row, rowIndex) => `<div class="guide-row" data-mastery-row>
+      <span>${escapeHtml(row.prompt)}</span><div class="choice-row">${row.options.map((option, optionIndex) =>
+        `<button class="choice" type="button" data-mastery-option data-correct="${row.answers.includes(optionIndex)}">${escapeHtml(option)}</button>`
+      ).join("")}</div>
+    </div>`).join("")}
+    <div class="conversation-preview" data-mastery-preview>اختياراتك هتظهر هنا.</div>
+  </div>`;
+}
+
 function masteryStep(pkg) {
   const task = pkg.assessment.mastery_task;
   return `<div class="flow-step challenge-step">
-    <p class="step-kicker">التحدي الأخير</p>
     <h3>${escapeHtml(task.scenario_ar)}</h3>
-    <p class="english challenge-prompt">${escapeHtml(task.prompt_en)}</p>
-    ${list(task.required.map(item => item.replaceAll("_", " ")), "required-list")}
-    <p class="privacy-inline">استخدم معلومات خيالية. الإجابة لا تُحفظ.</p>
-    <textarea data-mastery-response placeholder="اكتب هنا أو نفّذ المهمة بصوتك…"></textarea>
-    <label class="oral-check"><input type="checkbox" data-mastery-oral> نفّذت التحدي بصوتي</label>
+    <p class="challenge-brief">ابدأ الكلام، اسأل عن الحال، رد بما يناسب، ثم اختم.</p>
+    ${masteryGuide(pkg.contract.lesson_id)}
+    <details class="independent-route"><summary>أفضّل أجاوب بطريقتي</summary>
+      ${list(task.required.map(friendlyLabel), "required-list")}
+      <textarea data-mastery-response placeholder="اكتب هنا أو نفّذ المهمة بصوتك…"></textarea>
+      <label class="oral-check"><input type="checkbox" data-mastery-oral> نفّذت التحدي بصوتي</label>
+    </details>
+    <p class="privacy-inline">استخدم معلومات خيالية. إجابتك لا تُحفظ.</p>
     <div class="activity-feedback" data-mastery-feedback role="status"></div>
     <button class="button primary large-action" type="button" data-mastery-done>أنهيت التحدي</button>
   </div>`;
@@ -80,6 +98,27 @@ function bindFeedback(screen, callbacks) {
   };
 }
 
+function bindMasteryGuide(screen) {
+  const helper = screen.querySelector("[data-mastery-helper]");
+  if (!helper) return;
+  helper.querySelectorAll("[data-mastery-option]").forEach(button => button.onclick = () => {
+    button.closest("[data-mastery-row]").querySelectorAll(".choice").forEach(item => item.classList.remove("selected"));
+    button.classList.add("selected");
+    const lines = [...helper.querySelectorAll(".choice.selected")].map(item => item.textContent.trim());
+    helper.querySelector("[data-mastery-preview]").innerHTML = lines.map(line => `<span>${escapeHtml(line)}</span>`).join("");
+  });
+}
+
+function masteryComplete(screen) {
+  const helper = screen.querySelector("[data-mastery-helper]");
+  if (helper) {
+    const selected = [...helper.querySelectorAll("[data-mastery-row]")].map(row => row.querySelector(".selected"));
+    if (selected.every(Boolean) && selected.every(button => button.dataset.correct === "true")) return true;
+  }
+  const written = screen.querySelector("[data-mastery-response]").value.trim();
+  return Boolean(written || screen.querySelector("[data-mastery-oral]").checked);
+}
+
 function bindStep(screen, pkg, step, callbacks) {
   const count = pkg.activities.activities.length;
   screen.querySelector("[data-back]").onclick = () => step > 0 ? callbacks.step(step - 1) : callbacks.previous();
@@ -94,11 +133,10 @@ function bindStep(screen, pkg, step, callbacks) {
     return;
   }
   if (step === count + 1) {
+    bindMasteryGuide(screen);
     screen.querySelector("[data-mastery-done]").onclick = () => {
-      const written = screen.querySelector("[data-mastery-response]").value.trim();
-      const oral = screen.querySelector("[data-mastery-oral]").checked;
-      if (!written && !oral) {
-        screen.querySelector("[data-mastery-feedback]").textContent = "نفّذ التحدي كتابة أو بصوتك الأول.";
+      if (!masteryComplete(screen)) {
+        screen.querySelector("[data-mastery-feedback]").textContent = "كمّل الأربع خطوات وراجع الرد على الخبر، أو جاوب بطريقتك.";
         screen.querySelector("[data-mastery-feedback]").className = "activity-feedback retry";
         return;
       }

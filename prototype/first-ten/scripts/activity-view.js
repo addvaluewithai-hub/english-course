@@ -1,10 +1,11 @@
 import { escapeHtml } from "./dom.js";
+import { friendlyLabel, GUIDED_ACTIVITIES } from "./learner-support.js";
 
 const encoded = value => encodeURIComponent(JSON.stringify(value));
 
 function choiceButtons(values, group, answer) {
   return `<div class="choice-row">${values.map((value, index) =>
-    `<button class="choice" type="button" data-choice-group="${group}" data-correct="${index === answer}">${escapeHtml(value)}</button>`
+    `<button class="choice" type="button" data-choice-group="${group}" data-guide-text="${escapeHtml(value)}" data-correct="${Array.isArray(answer) ? answer.includes(index) : index === answer}">${escapeHtml(value)}</button>`
   ).join("")}</div>`;
 }
 
@@ -22,12 +23,18 @@ function multiSelect(activity) {
   ).join("")}</div>`;
 }
 
+function orderSlots(count) {
+  const labels = ["الأول", "الثاني", "الثالث", "الرابع", "الخامس", "السادس"];
+  return labels.slice(0, count).map((label, index) =>
+    `<div class="order-slot" data-order-slot><span>${index + 1}</span><em>${label}</em></div>`).join("");
+}
+
 function order(activity) {
-  return `<div class="order-task" data-order-answer="${encoded(activity.answer)}">
+  return `<div class="order-task" data-order-answer="${encoded(activity.answer)}" data-order-count="${activity.items.length}">
     <div class="order-bank">${activity.items.map(value =>
-      `<button class="choice" type="button" data-order-value="${escapeHtml(value)}">${escapeHtml(value)}</button>`
+      `<button class="choice order-card" type="button" data-order-value="${escapeHtml(value)}"><b>${escapeHtml(friendlyLabel(value))}</b><small>${escapeHtml(value)}</small></button>`
     ).join("")}</div>
-    <div class="order-result"><span>اضغط العناصر بالترتيب الصحيح</span></div>
+    <div class="order-result">${orderSlots(activity.items.length)}</div>
     <button class="text-button" type="button" data-order-reset>ابدأ الترتيب من جديد</button>
   </div>`;
 }
@@ -45,7 +52,15 @@ function supportItems(activity) {
   const values = activity.fields || activity.support || activity.targets || activity.classes ||
     activity.first_pass_fields || activity.minimum_detail_categories;
   if (!Array.isArray(values)) return "";
-  return `<div class="chip-grid">${values.map(value => `<span class="chip">${escapeHtml(value)}</span>`).join("")}</div>`;
+  return `<div class="chip-grid">${values.map(value => `<span class="chip">${escapeHtml(friendlyLabel(value))}</span>`).join("")}</div>`;
+}
+
+function guidedBuilder(activity, guide) {
+  return `<div class="guided-builder" data-guided-builder>
+    <p>${escapeHtml(guide.intro)}</p>
+    ${guide.rows.map((row, index) => `<div class="guide-row"><strong>${escapeHtml(row.prompt)}</strong>${choiceButtons(row.options, `${activity.id}-guide-${index}`, row.answers)}</div>`).join("")}
+    <div class="conversation-preview" data-guide-preview>اختياراتك هتظهر هنا كمحادثة قصيرة.</div>
+  </div>`;
 }
 
 function freeResponse(activity) {
@@ -62,6 +77,7 @@ function freeResponse(activity) {
 }
 
 function body(activity) {
+  if (GUIDED_ACTIVITIES[activity.id]) return guidedBuilder(activity, GUIDED_ACTIVITIES[activity.id]);
   if (activity.type === "multi_select" && activity.options && activity.answer) return multiSelect(activity);
   if (activity.type === "order" && activity.answer) return order(activity);
   if (activity.type === "match" && activity.pairs) return match(activity);
@@ -86,6 +102,11 @@ function bindChoices(host) {
     host.querySelectorAll(`[data-choice-group="${CSS.escape(button.dataset.choiceGroup)}"]`)
       .forEach(item => item.classList.remove("selected"));
     button.classList.add("selected");
+    const preview = host.querySelector("[data-guide-preview]");
+    if (preview) {
+      const lines = [...host.querySelectorAll("[data-guided-builder] .choice.selected")].map(item => item.dataset.guideText);
+      preview.innerHTML = lines.length ? lines.map(line => `<span>${escapeHtml(line)}</span>`).join("") : "اختياراتك هتظهر هنا كمحادثة قصيرة.";
+    }
   });
   host.querySelectorAll("[data-multi-value]").forEach(button => button.onclick = () => button.classList.toggle("selected"));
 }
@@ -96,11 +117,15 @@ function bindOrder(host) {
   const result = task.querySelector(".order-result");
   task.querySelectorAll("[data-order-value]").forEach(button => button.onclick = () => {
     if (button.disabled) return;
+    const slot = result.querySelector("[data-order-slot]:not(.filled)");
+    if (!slot) return;
     button.disabled = true;
-    result.insertAdjacentHTML("beforeend", `<b data-picked="${escapeHtml(button.dataset.orderValue)}">${escapeHtml(button.dataset.orderValue)}</b>`);
+    slot.classList.add("filled");
+    slot.dataset.picked = button.dataset.orderValue;
+    slot.insertAdjacentHTML("beforeend", `<b>${escapeHtml(friendlyLabel(button.dataset.orderValue))}</b>`);
   });
   task.querySelector("[data-order-reset]").onclick = () => {
-    result.innerHTML = "<span>اضغط العناصر بالترتيب الصحيح</span>";
+    result.innerHTML = orderSlots(Number(task.dataset.orderCount));
     task.querySelectorAll("[data-order-value]").forEach(button => { button.disabled = false; });
   };
 }
@@ -117,7 +142,7 @@ function result(host) {
   const orderTask = host.querySelector("[data-order-answer]");
   if (orderTask) {
     const expected = JSON.parse(decodeURIComponent(orderTask.dataset.orderAnswer));
-    const actual = [...orderTask.querySelectorAll("[data-picked]")].map(item => item.dataset.picked);
+    const actual = [...orderTask.querySelectorAll("[data-order-slot][data-picked]")].map(item => item.dataset.picked);
     return JSON.stringify(expected) === JSON.stringify(actual);
   }
   const matches = [...host.querySelectorAll("[data-match]")];

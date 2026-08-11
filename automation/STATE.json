@@ -6,7 +6,7 @@
   "active_phase": "phase_5_ten_lesson_pilot",
   "last_completed_task": "PILOT10-003",
   "next_task": "TEST-002",
-  "updated_at": "2026-08-11T13:35:00+03:00",
+  "updated_at": "2026-08-11T13:42:00+03:00",
   "phase_gates": {
     "phase_0_foundation": "passed",
     "phase_1_learning_model": "passed",
@@ -281,6 +281,7 @@
     "content_qa": "pass_for_continuous_prototype_pending_external_learner_evidence",
     "learner_prototype": "prototype/first-ten/index.html",
     "learner_experience": "video_or_placeholder_then_stepwise_application_then_fresh_challenge_then_controlled_feedback_then_next_lesson",
+    "u1_l01_usability_revision": "visual_order_slots_guided_four_tap_conversation_chat_like_final_task",
     "observer_instrument": "prototype/first-ten/observer.html",
     "progression_protocol": "research/first-ten-pilot-v1/PROTOCOL.md",
     "rendered_media": "not_yet_generated_or_listened_to",
@@ -296,6 +297,6 @@
   "last_full_validation": {
     "passed_tests": 408,
     "failed_tests": 0,
-    "validated_at": "2026-08-11T13:34:00+03:00"
+    "validated_at": "2026-08-11T13:44:00+03:00"
   }
 }

@@ -19,6 +19,7 @@ REQUIRED = {
     "scripts/config.js",
     "scripts/dom.js",
     "scripts/lesson-view.js",
+    "scripts/learner-support.js",
     "scripts/observer-app.js",
     "scripts/observer-config.js",
     "scripts/observer-record.js",

@@ -44,11 +44,14 @@ class Pilot10PrototypeTests(unittest.TestCase):
         index = (PROTOTYPE / "index.html").read_text(encoding="utf-8")
         lesson = (PROTOTYPE / "scripts/lesson-view.js").read_text(encoding="utf-8")
         activity = (PROTOTYPE / "scripts/activity-view.js").read_text(encoding="utf-8")
+        support = (PROTOTYPE / "scripts/learner-support.js").read_text(encoding="utf-8")
         catalog = (PROTOTYPE / "scripts/catalog-view.js").read_text(encoding="utf-8")
         self.assertNotIn('href="observer.html"', index)
         for phrase in ("Video Placeholder", "data-video-done", "data-mastery-done", "data-save-feedback"):
             self.assertIn(phrase, lesson)
         self.assertIn("data-check-activity", activity)
+        self.assertIn("guided_exchange", support)
+        self.assertIn('"U1-L01"', support)
         self.assertIn("data-copy-feedback", catalog)
 
     def test_optional_video_drop_folder_is_documented(self):

@@ -335,7 +335,8 @@
         "2026-08-11: pre-registered a six-visit 8-12 day protocol with target eight, minimum six complete eligible journeys, controlled split triggers, and stop/insufficient/revise/go precedence.",
         "2026-08-11: added a de-identified longitudinal observer instrument, JSON Schema, semantic and private-directory validators, consent, facilitation, and analysis boundaries. Synthetic fixtures retain zero gate effect.",
         "2026-08-11: real collection remains prohibited until all ten videos are rendered from the approved transcripts, transcript-matched, and listened to.",
-        "2026-08-11: simplified the ordinary local route into the intended learner journey: auto-detected local video or placeholder, one post-video activity at a time, immediate checks where answers exist, final fresh challenge, controlled impression, and next lesson. Research controls remain off the learner route."
+        "2026-08-11: simplified the ordinary local route into the intended learner journey: auto-detected local video or placeholder, one post-video activity at a time, immediate checks where answers exist, final fresh challenge, controlled impression, and next lesson. Research controls remain off the learner route.",
+        "2026-08-11: revised the three highest-friction U1-L01 screens from owner screenshots: bilingual visual order cards with numbered slots, a four-tap conversation builder for guided production, and a chat-like final task with optional independent response."
       ]
     },
     {
