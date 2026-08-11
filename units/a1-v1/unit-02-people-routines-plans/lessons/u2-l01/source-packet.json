@@ -1,0 +1,183 @@
+{
+  "schema_version": 2,
+  "packet_id": "a1.pilot10.U2-L01.sources",
+  "lesson_id": "U2-L01",
+  "unit_id": "a1.unit02.people_routines_plans",
+  "candidate_id": "lesson_candidate.understand_talk_about_people_and_family",
+  "inputs": [
+    {
+      "path": "data/reviewed/a1-first-10-lessons-pilot-v1.json",
+      "sha256": "cb408fd8aa17678b35924efb3b87f44438eb7f0014128ac20af971a3e085520f"
+    },
+    {
+      "path": "data/reviewed/a1-scope-and-sequence-v1.json",
+      "sha256": "fa2e07fc4d7fc6727625777a835ea7ebff12d4759cb70090368292864a4a7a7a"
+    },
+    {
+      "path": "data/reviewed/a1-final-candidate-decisions-v1.json",
+      "sha256": "11b68e1653c726f611aa4052aafe314894169670d943c46ee0d6a76c79a48e15"
+    },
+    {
+      "path": "data/reviewed/a1-grammar-coverage-ownership-v1.json",
+      "sha256": "460556945fa7fc31e5f20eab50477f59dbfe9fc781f7f1b45db210470584ea4d"
+    },
+    {
+      "path": "data/reviewed/a1-lexical-chunk-ownership-v1.json",
+      "sha256": "35601d0831d7c2c0dd069a9cf6b5dc4e64c89b6ef9a840154475ea232dbdd4eb"
+    },
+    {
+      "path": "data/reviewed/a1-pronunciation-ownership-v1.json",
+      "sha256": "9cb0f2b8ce3d041053e67086d8e821c699f57504bfd006252e1970389cb353e8"
+    }
+  ],
+  "outcome_statement": "In a fresh slow conversation, the learner can identify basic facts about a person or family.",
+  "source_candidate_ids": [
+    "lesson_candidate.understand_talk_about_people_and_family",
+    "lesson_candidate.identify_familiar_referents_from_spoken_clues"
+  ],
+  "prior_lesson_ids": [
+    "U1-L08"
+  ],
+  "exact_introductions": [
+    {
+      "item_id": "lexical.basic_people",
+      "label": "basic people words",
+      "bounded_scope": "Choose and produce the fitting people word from a fresh visual or profile.",
+      "source_refs": [
+        "oxford.o3000.p01.011",
+        "oxford.o3000.p01.098",
+        "oxford.o3000.p01.140",
+        "oxford.o3000.p02.081",
+        "oxford.o3000.p02.214",
+        "oxford.o3000.p03.056",
+        "oxford.o3000.p03.060",
+        "oxford.o3000.p04.081",
+        "cefr.cv2020.p049.a1.understanding_conversation_between_other_people.001",
+        "cefr.cv2020.p062.a1.overall_oral_production.001",
+        "gse.adult.2022.a1.p09.002",
+        "gse.adult.2022.a1.p09.003",
+        "gse.adult.2022.a1.p24.004"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "lexical.people_appearance_manner",
+      "label": "basic people appearance and manner",
+      "bounded_scope": "Choose only evidence-supported features needed to identify a fresh person.",
+      "source_refs": [
+        "oxford.o3000.p01.086",
+        "oxford.o3000.p01.110",
+        "oxford.o3000.p02.069",
+        "oxford.o3000.p02.075",
+        "oxford.o3000.p02.099",
+        "oxford.o3000.p02.274",
+        "oxford.o3000.p03.021",
+        "oxford.o3000.p03.107",
+        "oxford.o3000.p03.165",
+        "oxford.o3000.p03.235",
+        "oxford.o3000.p04.098",
+        "cefr.cv2020.p049.a1.understanding_conversation_between_other_people.001",
+        "cefr.cv2020.p062.a1.overall_oral_production.001",
+        "gse.adult.2022.a1.p14.008",
+        "gse.adult.2022.a1.p15.013",
+        "gse.adult.2022.a1.p15.017",
+        "gse.adult.2022.a1.p24.004"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "a1_pronunciation.f_v_contrast",
+      "label": "/f/ and /v/",
+      "bounded_scope": "Keep /f/ and /v/ distinct in family, number, and high-utility description words.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "later_boundary": "Do not assume the issue from the learner's Arabic dialect or identity."
+    },
+    {
+      "item_id": "a1_pronunciation.front_central_vowels",
+      "label": "Selected /æ/, /ɛ/, and /ʌ/ categories",
+      "bounded_scope": "Keep selected front and central vowel categories distinct in practical A1 words.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "later_boundary": "Learner-specific stable intelligible variants are accepted; no native-vowel target is imposed."
+    }
+  ],
+  "exact_recycles": [
+    {
+      "item_id": "lexical.family_core",
+      "label": "core family relationships",
+      "bounded_scope": "Name only the relationships relevant to a fresh voluntary family or fictional profile.",
+      "source_refs": [
+        "oxford.o3000.p01.104",
+        "oxford.o3000.p01.140",
+        "oxford.o3000.p01.189",
+        "oxford.o3000.p02.022",
+        "oxford.o3000.p02.030",
+        "oxford.o3000.p02.139",
+        "oxford.o3000.p02.250",
+        "oxford.o3000.p03.046",
+        "oxford.o3000.p03.173",
+        "oxford.o3000.p03.192",
+        "oxford.o3000.p04.073",
+        "cefr.cv2020.p049.a1.understanding_conversation_between_other_people.001",
+        "cefr.cv2020.p066.a1.overall_written_production.001",
+        "cefr.cv2020.p074.a1.conversation.002",
+        "cefr.cv2020.p079.a1.information_exchange.003",
+        "gse.adult.2022.a1.p22.002",
+        "gse.adult.2022.a1.p23.013",
+        "gse.adult.2022.a1.p24.007",
+        "gse.adult.2022.a1.p37.005",
+        "gse.adult.2022.a1.p37.014"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "lexical.extended_family_life",
+      "label": "extended family and personal life",
+      "bounded_scope": "Use only personally relevant or task-provided words; no learner must disclose private family status.",
+      "source_refs": [
+        "oxford.o3000.p01.048",
+        "oxford.o3000.p01.083",
+        "oxford.o3000.p01.094",
+        "oxford.o3000.p01.099",
+        "oxford.o3000.p01.174",
+        "oxford.o3000.p02.082",
+        "oxford.o3000.p02.088",
+        "oxford.o3000.p02.089",
+        "oxford.o3000.p02.090",
+        "oxford.o3000.p02.219",
+        "oxford.o3000.p03.049",
+        "oxford.o3000.p04.027",
+        "cefr.cv2020.p049.a1.understanding_conversation_between_other_people.001",
+        "cefr.cv2020.p067.a1.creative_writing.001",
+        "cefr.cv2020.p074.a1.conversation.002",
+        "cefr.cv2020.p079.a1.information_exchange.003",
+        "gse.adult.2022.a1.p22.002",
+        "gse.adult.2022.a1.p23.013",
+        "gse.adult.2022.a1.p24.007",
+        "gse.adult.2022.a1.p37.004",
+        "gse.adult.2022.a1.p37.010"
+      ],
+      "later_boundary": "Consolidation: a1"
+    }
+  ],
+  "exact_consolidations": [],
+  "mastery": {
+    "construct_id": "a1.u2.l01.family_talk_comprehension",
+    "fresh_task": "Choose the correct people map and record two facts about each named person.",
+    "support_boundary": "Two full plays and unlabeled fictional people visuals only; no transcript or answer labels.",
+    "critical_meaning": "Each relationship, name, and basic fact is attributed to the correct fictional person."
+  },
+  "prototype_lineage": null,
+  "review": {
+    "status": "accepted_for_pilot10_package_qa",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-11"
+  }
+}

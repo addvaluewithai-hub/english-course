@@ -1,0 +1,91 @@
+{
+  "situation": {
+    "title_ar": "موقف اليوم",
+    "prompt_ar": "تقرأ رسالة خيالية، ترد بما طُلب، وتسأل عن المعلومة الناقصة.",
+    "success_ar": "كل رسالة تحقق غرضها، وكل البيانات محفوظة بدقة."
+  },
+  "model": {
+    "incoming": "Hi! What's your name, and where are you from?",
+    "reply": "Hi! I'm Omar, and I'm from Egypt.",
+    "follow_up": "Where do you live?",
+    "gist_question_ar": "ما الذي طلبته الرسالة وما الذي قدمه الرد؟",
+    "gist_answer": [
+      "name",
+      "origin"
+    ]
+  },
+  "notice": [
+    {
+      "move": "request",
+      "example": "Where do you live?"
+    },
+    {
+      "move": "reply",
+      "example": "I live in Amman."
+    },
+    {
+      "move": "repair",
+      "example": "Can you spell your last name, please?"
+    },
+    {
+      "move": "confirm",
+      "example": "Yes, that's right."
+    },
+    {
+      "move": "close",
+      "example": "Thanks. See you in class."
+    }
+  ],
+  "explanation_ar": [
+    "حدد هل دورك طلب معلومة أم تقديمها قبل الكتابة.",
+    "رد فقط على التفاصيل المطلوبة، ثم اسأل عن الناقص.",
+    "الجملة الصحيحة لغويًا قد تفشل لو لم تجب عن غرض الرسالة.",
+    "استخدم التأكيد أو التهجئة عندما تكون الدقة مهمة."
+  ],
+  "toolkit": {
+    "requests": [
+      "What's your name?",
+      "Where are you from?",
+      "Where do you live?",
+      "What's your job?"
+    ],
+    "replies": [
+      "I'm …",
+      "I'm from …",
+      "I live in …",
+      "I'm a …"
+    ],
+    "repair_and_close": [
+      "Can you spell that?",
+      "Is that …?",
+      "Yes, that's right.",
+      "Thanks. See you in class."
+    ]
+  },
+  "pronunciation": [],
+  "schema_version": 2,
+  "delivery": {
+    "primary_explanation": "video/single-teacher",
+    "scene": "video/scene.txt",
+    "sample_context": "video/sample-context.txt",
+    "transcript": "video/transcript.txt",
+    "readable_equivalent": true,
+    "interaction_starts_after_video": true
+  },
+  "curriculum_alignment": {
+    "introduce_item_ids": [],
+    "fresh_recycle_item_ids": [],
+    "consolidate_item_ids": [],
+    "bounded_scope_notes": [
+      "Integrate previously taught personal-detail questions, replies, spelling repair, and short coordination.",
+      "Select content by message purpose; do not add a new exact language-system target.",
+      "Use a simulated exchange and fictional data only."
+    ],
+    "not_yet": [
+      "extended correspondence",
+      "formal email conventions",
+      "unmoderated real online interaction"
+    ],
+    "target_coverage": {}
+  }
+}

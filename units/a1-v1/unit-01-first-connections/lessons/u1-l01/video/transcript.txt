@@ -1,0 +1,93 @@
+Speaker 1: [WARM] أهلًا بيك في أول درس. هدفنا النهاردة صغير وعملي: تبدأ محادثة بسيطة، تكملها لثواني، وتقفلها بشكل طبيعي.
+
+Speaker 1: تخيّل إنك وصلت مجموعة دراسة، وقابلت شخص لأول مرة. اسمع المحادثة دي كوحدة واحدة.
+
+Speaker 1: [FRIENDLY, NATURAL PACE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="haɪ | haʊ ɑr juː">Hi. How are you?</phoneme></lang>
+
+Speaker 1: [CALM] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ɡʊd | θæŋks | ænd juː">I'm good, thanks. And you?</phoneme></lang>
+
+Speaker 1: [FRIENDLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ɡreɪt | θæŋk juː">I'm great, thank you.</phoneme></lang>
+
+Speaker 1: [WARM CLOSE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="baɪ | siː ju suːn">Bye. See you soon.</phoneme></lang>
+
+Speaker 1: المحادثة دي فيها ثلاث حركات، مش سبع جمل لازم تحفظهم. بداية، سؤال ورد، وبعدها نهاية.
+
+Speaker 1: البداية ممكن تكون:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="haɪ">Hi.</phoneme></lang>
+
+Speaker 1: أو:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="həˈloʊ">Hello.</phoneme></lang>
+
+Speaker 1: وبعدها سؤال الاطمئنان:
+
+Speaker 1: [FRIENDLY QUESTION] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="haʊ ɑr juː">How are you?</phoneme></lang>
+
+Speaker 1: مش لازم تكون الإجابة واحدة كل مرة. لو أنت كويس، ممكن تقول:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm faɪn | θæŋks">I'm fine, thanks.</phoneme></lang>
+
+Speaker 1: أو:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ɡʊd">I'm good.</phoneme></lang>
+
+Speaker 1: ولو يومك عادي:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm oʊˈkeɪ">I'm okay.</phoneme></lang>
+
+Speaker 1: ولو تعبان، قول الحقيقة البسيطة:
+
+Speaker 1: [TIRED BUT CLEAR] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ˈtaɪɚd">I'm tired.</phoneme></lang>
+
+Speaker 1: الرد لازم يناسب المعلومة. لو الشخص قال إنه بخير، رد بسيط ممكن يكون:
+
+Speaker 1: [LIGHT] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ðæts ɡʊd">That's good.</phoneme></lang>
+
+Speaker 1: ولو قال إنه حزين أو تعبان، ما نردش بنفس الجملة المبهجة. ممكن نقول:
+
+Speaker 1: [GENTLE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="oʊ | aɪm ˈsɑri">Oh, I'm sorry.</phoneme></lang>
+
+Speaker 1: عشان ترجع السؤال للطرف الثاني، استخدم:
+
+Speaker 1: [FRIENDLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ænd juː">And you?</phoneme></lang>
+
+Speaker 1: وفي النهاية اختار قفلة واحدة مناسبة:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ɡʊdˈbaɪ">Goodbye.</phoneme></lang>
+
+Speaker 1: أو:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="siː ju suːn">See you soon.</phoneme></lang>
+
+Speaker 1: خد بالك من كلمتين مهمين. في <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="θæŋks">thanks</phoneme></lang>، طرف اللسان قريب من الأسنان والهواء خارج بهدوء. وفي <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ðæts">that's</phoneme></lang>، المكان قريب لكن الصوت شغال. مش هدفنا نمسح لهجتك؛ هدفنا الكلمتين يفضلوا مفهومين.
+
+Speaker 1: وكمان اسمع الاختصار في:
+
+Speaker 1: [ONE SMOOTH BEAT] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm">I'm.</phoneme></lang>
+
+Speaker 1: دي نفس معنى:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ æm">I am.</phoneme></lang>
+
+Speaker 1: في السؤال، خلّي المستمع يحس إنك مستني رد:
+
+Speaker 1: [FRIENDLY QUESTION] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="haʊ ɑr juː">How are you?</phoneme></lang>
+
+Speaker 1: وفي الإجابة، اقفل المعنى بهدوء:
+
+Speaker 1: [CALM ANSWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ɡʊd | θæŋks">I'm good, thanks.</phoneme></lang>
+
+Speaker 1: اسمع نموذج أخير مختلف.
+
+Speaker 1: [FRIENDLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="həˈloʊ | haʊ ɑr juː">Hello. How are you?</phoneme></lang>
+
+Speaker 1: [LOW ENERGY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ˈtaɪɚd">I'm tired.</phoneme></lang>
+
+Speaker 1: [GENTLE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="oʊ | aɪm ˈsɑri">Oh, I'm sorry.</phoneme></lang>
+
+Speaker 1: [WARM CLOSE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="baɪ | siː ju suːn">Bye. See you soon.</phoneme></lang>
+
+Speaker 1: بعد الفيديو هتختار ردود تناسب المعنى، وبعدها تبني محادثة جديدة. افتكر الحركات الثلاث: ابدأ، اسأل ورد، واقفل.
+
+Speaker 1: [ENCOURAGING] مش محتاج كلام كتير عشان تعمل أول تواصل ناجح. محتاج كلام مناسب في مكانه.

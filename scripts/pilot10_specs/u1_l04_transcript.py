@@ -1,0 +1,85 @@
+TRANSCRIPT = """Speaker 1: [WARM] أنت دلوقتي تقدر تفهم تقديم بسيط وتقدّم نفسك. النهاردة هنحوّل ده لمحادثة: تسأل عن معلومة واحدة، تسمع الإجابة، وترد على السؤال اللي اتسألك فعلًا.
+
+Speaker 1: نبدأ بالاسم.
+
+Speaker 1: [FRIENDLY QUESTION] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="wʌts jɚ neɪm">What's your name?</phoneme></lang>
+
+Speaker 1: [CLEAR ANSWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ˈmoʊnə">I'm Mona.</phoneme></lang>
+
+Speaker 1: السؤال طلب الاسم، فالإجابة قدمت الاسم فقط. بعده ممكن نسأل عن الأصل.
+
+Speaker 1: [FRIENDLY QUESTION] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="wɛr ɑr ju frəm">Where are you from?</phoneme></lang>
+
+Speaker 1: [CLEAR ANSWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm frəm ˈiːdʒɪpt">I'm from Egypt.</phoneme></lang>
+
+Speaker 1: ولو عايز مكان السكن الحالي:
+
+Speaker 1: [FRIENDLY QUESTION] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="wɛr də ju lɪv">Where do you live?</phoneme></lang>
+
+Speaker 1: [CLEAR ANSWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ lɪv ɪn əlɪɡˈzændriə">I live in Alexandria.</phoneme></lang>
+
+Speaker 1: ما تبدلش السؤالين. <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="frəm">from</phoneme></lang> تسأل عن الأصل، و<lang xml:lang="en-US"><phoneme alphabet="ipa" ph="lɪv">live</phoneme></lang> هنا عن السكن.
+
+Speaker 1: للسؤال عن الوظيفة، عندنا شكل مباشر:
+
+Speaker 1: [FRIENDLY QUESTION] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="wʌts jɚ dʒɑb">What's your job?</phoneme></lang>
+
+Speaker 1: [CLEAR ANSWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ə ˈnɝs">I'm a nurse.</phoneme></lang>
+
+Speaker 1: ومن الوظائف الشائعة اللي ممكن تحتاجها:
+
+Speaker 1: [EVEN PACE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈtiːtʃɚ | ˈdɑktɚ | ˈnɝs | ˈdraɪvɚ | ˈmænɪdʒɚ | ˈkʊk">teacher, doctor, nurse, driver, manager, cook.</phoneme></lang>
+
+Speaker 1: مش مطلوب تستخدم القائمة كلها. اختار شغلك الحقيقي، أو شغل شخصية خيالية آمنة.
+
+Speaker 1: ولو بتتأكد من معلومة، ممكن تسأل سؤال إجابته قصيرة.
+
+Speaker 1: [CHECKING] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ɑr ju ə ˈtiːtʃɚ">Are you a teacher?</phoneme></lang>
+
+Speaker 1: [CLEAR ANSWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="noʊ | aɪm nɑt | aɪm ə ˈnɝs">No, I'm not. I'm a nurse.</phoneme></lang>
+
+Speaker 1: أو:
+
+Speaker 1: [CHECKING] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ɑr ju frəm ˈdʒɔrdən">Are you from Jordan?</phoneme></lang>
+
+Speaker 1: [SHORT ANSWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="jɛs | aɪ æm">Yes, I am.</phoneme></lang>
+
+Speaker 1: دلوقتي اسمع حوار قصير. المدرس نفسه هيقرأ الدورين، لكن ترتيب السؤال والإجابة واضح.
+
+Speaker 1: [FRIENDLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="haɪ | aɪm ˈniːnə | wʌts jɚ neɪm">Hi. I'm Nina. What's your name?</phoneme></lang>
+
+Speaker 1: [ANSWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ˈmoʊnə">I'm Mona.</phoneme></lang>
+
+Speaker 1: [QUESTION] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="wɛr ɑr ju frəm">Where are you from?</phoneme></lang>
+
+Speaker 1: [ANSWER] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm frəm ˈiːdʒɪpt">I'm from Egypt.</phoneme></lang>
+
+Speaker 1: لو الاسم ما وصلش بوضوح، ما تخمّنش. اطلب تهجئته.
+
+Speaker 1: [POLITE REPAIR] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="kæn ju spɛl ðæt">Can you spell that?</phoneme></lang>
+
+Speaker 1: [CLEAR LETTER NAMES] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ɛm | oʊ | ɛn | eɪ">M-O-N-A.</phoneme></lang>
+
+Speaker 1: أسماء الحروف مش دايمًا نفس صوت الحرف جوه الكلمة. عشان كده نسمع اسم الحرف نفسه بدل ما نخمن من الكتابة.
+
+Speaker 1: ولو السؤال كله ما وصلش، استخدم:
+
+Speaker 1: [POLITE REPAIR] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="pliːz seɪ ðæt əˈɡɛn">Please say that again.</phoneme></lang>
+
+Speaker 1: أو اتأكد من اللي سمعته:
+
+Speaker 1: [CHECKING] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ɪz ðæt ˈmoʊnə">Is that Mona?</phoneme></lang>
+
+Speaker 1: [CONFIRMING] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="jɛs | ðæts raɪt">Yes, that's right.</phoneme></lang>
+
+Speaker 1: وقت التصحيح، خلّي المعلومة الجديدة أوضح شوية.
+
+Speaker 1: [KEY DETAIL PROMINENT] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="maɪ ˈneɪm ɪz ˈmoʊnə">My NAME is MONA.</phoneme></lang>
+
+Speaker 1: مش معنى كده نصرخ. فقط نخلي الاسم أهم جزء مسموع لأنه الجزء اللي بنصلحه.
+
+Speaker 1: السؤال له إحساس إنه يفتح دور للطرف الثاني، والإجابة تقفل المعلومة. لكن نقبل اختلاف النبر الطبيعي طالما الوظيفة مفهومة.
+
+Speaker 1: بعد الفيديو هتطابق السؤال بالمعلومة، تصلح سوء سماع، وبعدها تدخل محادثة جديدة بمعلومات حقيقية أو خيالية.
+
+Speaker 1: [ENCOURAGING] اسأل عن حاجة واحدة، اسمعها، ولو ضاعت اطلب تكرار أو تهجئة. كده المحادثة تفضل شغالة."""

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "study_id": "a1_first_10_progression_pilot_v1",
+  "sample": {
+    "target_complete_journeys": 8,
+    "minimum_eligible_complete_journeys": 6,
+    "maximum_recruited": 10,
+    "minimum_double_rated_complete_journeys": 2
+  },
+  "schedule": {
+    "visit_count": 6,
+    "window_days_min": 8,
+    "window_days_max": 12,
+    "maximum_visit_minutes": 60
+  },
+  "hard_gates": {
+    "valid_consent_ratio": 1.0,
+    "private_records_committed": 0,
+    "unapproved_or_mismatched_media_count": 0,
+    "answer_leakage_before_fresh_mastery_count": 0,
+    "eligible_complete_journey_ratio_min": 0.75,
+    "unit1_station_success_ratio_min": 0.7,
+    "lesson_fresh_mastery_ratio_min": 0.7,
+    "delayed_retention_ratio_min": 0.6,
+    "median_perceived_value_min_1_to_5": 4,
+    "median_boredom_max_1_to_5": 3,
+    "evaluator_exact_agreement_ratio_min": 0.8
+  },
+  "split_review": {
+    "lessons": ["U1-L05", "U1-L08"],
+    "conditions_required": 2,
+    "duration_over_upper_hypothesis_ratio": 1.1,
+    "fatigue_4_or_5_ratio": 0.4,
+    "two_construct_repeat_failure_ratio": 0.5,
+    "answer_revealing_help_ratio": 0.35,
+    "delayed_gap_below_unit_median_points": 20
+  },
+  "decisions_in_precedence_order": [
+    "stop_and_repair",
+    "insufficient_evidence",
+    "revise_and_repilot",
+    "go_to_system_revision"
+  ],
+  "synthetic_evidence_decision": "simulation_only_no_gate_effect"
+}

@@ -1,0 +1,168 @@
+{
+  "situation": {
+    "title_ar": "موقف اليوم",
+    "prompt_ar": "تقابل شخص لأول مرة في مجموعة دراسة وتريد بدء كلام بسيط.",
+    "success_ar": "تبدأ، تسأل عن الحال، ترد بما يناسب، ثم تنهي الكلام."
+  },
+  "model": {
+    "roles": [
+      "new learner",
+      "group member"
+    ],
+    "lines": [
+      "Hi. How are you?",
+      "I'm good, thanks. And you?",
+      "I'm great, thank you.",
+      "Bye. See you soon."
+    ],
+    "gist_question_ar": "ما الحركات الثلاث الكبيرة في المحادثة؟",
+    "gist_answer": [
+      "opening",
+      "wellbeing exchange",
+      "closing"
+    ]
+  },
+  "notice": [
+    {
+      "chunk": "Hi / Hello",
+      "meaning_ar": "بداية بسيطة"
+    },
+    {
+      "chunk": "How are you?",
+      "meaning_ar": "سؤال عن الحال"
+    },
+    {
+      "chunk": "I'm fine, thanks.",
+      "meaning_ar": "رد إيجابي"
+    },
+    {
+      "chunk": "Oh, I'm sorry.",
+      "meaning_ar": "رد متعاطف على خبر غير جيد"
+    },
+    {
+      "chunk": "Bye / See you soon.",
+      "meaning_ar": "إنهاء الكلام"
+    }
+  ],
+  "explanation_ar": [
+    "الرد المناسب أهم من طول الرد.",
+    "استخدم And you? لإعادة السؤال للطرف الآخر.",
+    "I'm اختصار طبيعي لـ I am، والشكلان مقبولان.",
+    "نطق thanks وthat's يجب أن يظل مفهومًا؛ لا نطلب تغيير اللهجة."
+  ],
+  "toolkit": {
+    "greetings": [
+      "Hi.",
+      "Hello.",
+      "Good morning."
+    ],
+    "wellbeing": [
+      "How are you?",
+      "I'm fine, thanks.",
+      "I'm okay.",
+      "I'm tired."
+    ],
+    "reactions": [
+      "That's good.",
+      "Oh, I'm sorry.",
+      "And you?"
+    ],
+    "closings": [
+      "Goodbye.",
+      "Bye.",
+      "See you soon."
+    ]
+  },
+  "pronunciation": [
+    {
+      "focus": "thanks / that's",
+      "tip_ar": "مكان اللسان قريب؛ الفرق في وجود الصوت."
+    },
+    {
+      "focus": "I'm",
+      "tip_ar": "اسمعها كوحدة واحدة بدل فصل الكلمتين."
+    },
+    {
+      "focus": "question versus response",
+      "tip_ar": "اجعل السؤال يطلب دورًا جديدًا بوضوح."
+    }
+  ],
+  "schema_version": 2,
+  "delivery": {
+    "primary_explanation": "video/single-teacher",
+    "scene": "video/scene.txt",
+    "sample_context": "video/sample-context.txt",
+    "transcript": "video/transcript.txt",
+    "readable_equivalent": true,
+    "interaction_starts_after_video": true
+  },
+  "curriculum_alignment": {
+    "introduce_item_ids": [
+      "lexical.basic_feelings",
+      "lexical.greeting_wellbeing_closing",
+      "a1_pronunciation.dental_fricatives",
+      "a1_pronunciation.frequent_contractions",
+      "a1_pronunciation.question_social_contours"
+    ],
+    "fresh_recycle_item_ids": [],
+    "consolidate_item_ids": [],
+    "bounded_scope_notes": [
+      "Use a small greeting, wellbeing, feeling, reaction, and closing repertoire.",
+      "Introduce I'm as a frequent heard and optional spoken contraction.",
+      "Practise /θ/ and /ð/ only in selected high-value social words."
+    ],
+    "not_yet": [
+      "personal-detail questions",
+      "full present-be paradigm explanation",
+      "free discussion of emotions"
+    ],
+    "target_coverage": {
+      "lexical.basic_feelings": {
+        "role": "introduce",
+        "video_anchor": "I'm tired.",
+        "post_video_activity_ids": [
+          "fitting_reaction",
+          "guided_exchange"
+        ],
+        "mastery_evidence": "Choose a fitting feeling or reaction in the fresh exchange."
+      },
+      "lexical.greeting_wellbeing_closing": {
+        "role": "introduce",
+        "video_anchor": "Hi. How are you?",
+        "post_video_activity_ids": [
+          "exchange_shape",
+          "choose_close",
+          "guided_exchange"
+        ],
+        "mastery_evidence": "Complete all four social moves."
+      },
+      "a1_pronunciation.dental_fricatives": {
+        "role": "introduce",
+        "video_anchor": "thanks",
+        "post_video_activity_ids": [
+          "fitting_reaction",
+          "guided_exchange"
+        ],
+        "mastery_evidence": "Repair only if the selected social word loses meaning."
+      },
+      "a1_pronunciation.frequent_contractions": {
+        "role": "introduce",
+        "video_anchor": "I'm.",
+        "post_video_activity_ids": [
+          "fitting_reaction",
+          "guided_exchange"
+        ],
+        "mastery_evidence": "Recognise I'm and allow either contracted or full production."
+      },
+      "a1_pronunciation.question_social_contours": {
+        "role": "introduce",
+        "video_anchor": "How are you?",
+        "post_video_activity_ids": [
+          "exchange_shape",
+          "guided_exchange"
+        ],
+        "mastery_evidence": "The partner recognises the question and turn opening."
+      }
+    }
+  }
+}

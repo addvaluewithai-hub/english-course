@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="تجربة أول عشرة دروس فعلية من منهج الإنجليزية للمبتدئين العرب.">
+  <title>أول 10 دروس | English with purpose</title>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="brand" id="homeButton" type="button">English <span>with purpose</span></button>
+    <div class="top-actions">
+      <a class="quiet quiet-link" href="observer.html" target="_blank">سجل الميسّر</a>
+      <button class="quiet" id="privacyButton" type="button">الخصوصية</button>
+      <button class="quiet" id="resetButton" type="button">مسح تقدّم الجهاز</button>
+      <span class="level">A1 · PILOT 10</span>
+    </div>
+  </header>
+
+  <main class="shell">
+    <aside class="course-rail" aria-label="دروس الإصدار التجريبي">
+      <p class="eyebrow">FIRST 10 · ACTUAL SEQUENCE</p>
+      <h1>أول عشر دروس</h1>
+      <p class="muted">الوحدة الأولى كاملة، ثم أول درس من الوحدة الثانية.</p>
+      <div class="progress-track" aria-hidden="true"><span id="courseProgress"></span></div>
+      <p class="progress-copy" id="courseProgressText">0 من 10 تمّت تجربتهم</p>
+      <nav id="lessonRail" class="lesson-rail"></nav>
+      <p class="safe-note">التقدّم فقط يُحفظ على هذا الجهاز. لا تُحفظ إجاباتك أو بياناتك الشخصية.</p>
+    </aside>
+
+    <section id="screen" class="screen" aria-live="polite">
+      <div class="loading">جارٍ تجهيز الدروس الفعلية…</div>
+    </section>
+  </main>
+
+  <dialog id="privacyDialog" aria-labelledby="privacyTitle">
+    <h2 id="privacyTitle">خصوصيتك في النسخة التجريبية</h2>
+    <p>الواجهة تحفظ فقط أرقام الدروس التي فتحتها أو جرّبتها على جهازك. لا تحفظ ما تكتبه في التدريبات، ولا ترسله لأي خادم.</p>
+    <p>استخدم أسماء وعائلات وعناوين وأرقام خيالية. هذه معاينة محتوى وليست اختبار متعلم رسمي.</p>
+    <button class="button primary" id="closePrivacy" type="button">فهمت</button>
+  </dialog>
+
+  <dialog id="resetDialog" aria-labelledby="resetTitle">
+    <h2 id="resetTitle">مسح التقدّم المحلي؟</h2>
+    <p>سيُمسح فقط سجل فتح وتجربة الدروس من هذا المتصفح. ملفات المنهج لن تتغير.</p>
+    <div class="dialog-actions">
+      <button class="button secondary" id="cancelReset" type="button">إلغاء</button>
+      <button class="button danger" id="confirmReset" type="button">مسح</button>
+    </div>
+  </dialog>
+
+  <noscript>هذه التجربة تحتاج JavaScript لقراءة حزم الدروس المحلية.</noscript>
+  <script type="module" src="scripts/app.js"></script>
+</body>
+</html>

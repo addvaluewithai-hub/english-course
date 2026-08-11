@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "delivery": {
+    "placement": "after_video_explanation",
+    "interaction_during_video": false,
+    "sequence": "comprehension_then_application_then_production"
+  },
+  "activities": [
+    {
+      "id": "subject_verb",
+      "type": "choice_set",
+      "prompt_ar": "اختر الفعل الذي يناسب الشخص.",
+      "items": [
+        {
+          "prompt": "She ___ in Amman.",
+          "options": [
+            "live",
+            "lives"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "I ___ a cat.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "quantity_phrase",
+      "type": "build",
+      "prompt_ar": "كوّن عبارات مفهومة من عدد ووصف واسم.",
+      "targets": [
+        "two brothers",
+        "two children",
+        "a friendly dog"
+      ]
+    },
+    {
+      "id": "connector_meaning",
+      "type": "choice_set",
+      "prompt_ar": "اختر and أو but أو or حسب العلاقة.",
+      "answer_reveal_after_attempt": true
+    },
+    {
+      "id": "false_fact_repair",
+      "type": "edit",
+      "prompt_ar": "انفِ المعلومة الخاطئة ثم اكتب الحقيقة الصحيحة.",
+      "requires_be_negative": true
+    },
+    {
+      "id": "guided_profile_plan",
+      "type": "fields",
+      "prompt_ar": "جهّز كلمات ست خانات فقط، ثم اكتب من غير نموذج كامل.",
+      "fields": [
+        "person",
+        "place_or_job",
+        "present_fact",
+        "family_or_pet",
+        "quantity",
+        "connection"
+      ],
+      "allow_fictional": true
+    }
+  ],
+  "curriculum_rule": "Application follows the video; mastery is a fresh unsupported task."
+}

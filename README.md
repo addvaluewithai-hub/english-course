@@ -15,12 +15,14 @@ The learning loop is: understand, practice, use, explain, review, and retain.
 - The owner-approved `Introduce Yourself` gold lesson is migrated and re-QA'd as final
   `U1-L03` under the versioned A1 path; the older gold and Unit 1 packages are preserved
   as prototype lineage, not the final course sequence.
-- The local learner prototype, Arabic consent, observer form, pre-registered thresholds,
-  private-record validator, and de-identified TEST-002 analysis pipeline are ready.
-- TEST-001 passed. TEST-002 remains open because zero real learner sessions have been
-  collected; synthetic fixtures are forced to have no phase-gate effect.
-- Rendered final video, reusable system contracts, architecture, final Unit 1, and
-  remaining course content stay behind their recorded gates.
+- The owner's next validation release is the actual first ten lessons: all nine lessons
+  in Unit 1 plus Unit 2 Lesson 1, not a hand-picked showcase set.
+- All ten final-source lesson packages are authored and batch-QA'd: 120 package files,
+  49 exact introductions, and 16 fresh recycles. U1-L03 remains the accepted reference.
+- A continuous local learner interface, Unit 1 transition, Arabic consent, longitudinal
+  observer form, JSON Schema, private-record validator, and six-visit protocol are ready.
+- Final Gemini videos are not rendered or listened to, and no real learner journey has
+  been collected. TEST-002, reusable system decisions, and later production remain gated.
 
 Read [HANDOFF.md](HANDOFF.md) before continuing the project.
 
@@ -32,10 +34,10 @@ From the repository root:
 python -m http.server 8765 --bind 127.0.0.1
 ```
 
-Then open
-<http://127.0.0.1:8765/prototype/gold-lesson/index.html?variant=teachback>.
-The Arabic real-session guide is
-[`research/learner-test-v1/START_HERE_AR.md`](research/learner-test-v1/START_HERE_AR.md).
+Then open <http://127.0.0.1:8765/prototype/first-ten/>. The facilitator route is
+<http://127.0.0.1:8765/prototype/first-ten/observer.html>. Use it only for synthetic
+rehearsal until the final videos pass listening QA. The Arabic guide is
+[`research/first-ten-pilot-v1/START_HERE_AR.md`](research/first-ten-pilot-v1/START_HERE_AR.md).
 
 ## Validate the repository
 
@@ -60,7 +62,12 @@ There is no scheduled task or background curriculum agent.
 - `docs/SPINE_004_COMPLETION_AUDIT.md` - completed all-level spine gate audit
 - `docs/VERTICAL_SPINE_EXECUTION_PLAN.md` - work packages and approval gates
 - `docs/A1_SCOPE_AND_SEQUENCE_V1.md` - locked six-unit, 45-capability A1 sequence
+- `docs/PILOT_10_PRODUCTION_PLAN_V1.md` - owner-approved first-ten production milestone
+- `data/reviewed/a1-first-10-lessons-pilot-v1.json` - machine release contract
+- `data/reviewed/a1-first-10-lessons-content-qa-v1.json` - deterministic batch QA
 - `units/a1-v1/` - versioned final A1 content packages as they pass their gates
+- `prototype/first-ten/` - continuous first-ten learner and observer routes
+- `research/first-ten-pilot-v1/` - six-visit progression protocol and record contract
 - `units/unit-01-first-connections/` - preserved pre-v1 Unit 1 prototype packages
 - `gold/introduce-yourself/` - preserved accepted gold prototype lineage
 - `research/learner-test-v1/` - TEST-001 kit and TEST-002 analysis runbook

@@ -299,17 +299,58 @@
       ]
     },
     {
+      "id": "PILOT10-001",
+      "phase": "phase_5_ten_lesson_pilot",
+      "title": "Lock the actual first-ten production release",
+      "status": "complete",
+      "dependencies": ["SPINE-006", "GOLD-003", "TEST-001"],
+      "acceptance": "Positions 1-10, outcomes, exact item roles, content paths, package rules, and downstream gates are deterministic and approved.",
+      "notes": [
+        "2026-08-11: owner expanded validation from one isolated gold lesson to the actual first ten final lessons.",
+        "2026-08-11: locked U1-L01 through U1-L09 plus U2-L01 with 49 exact introductions, 16 fresh recycles, unique capability ownership, source hashes, and deterministic validation."
+      ]
+    },
+    {
+      "id": "PILOT10-002",
+      "phase": "phase_5_ten_lesson_pilot",
+      "title": "Author and QA the first ten final lesson packages",
+      "status": "complete",
+      "dependencies": ["PILOT10-001"],
+      "acceptance": "All ten sequence-authentic packages pass source, progression, Arabic, SSML, pedagogy, accessibility, privacy, and mastery QA.",
+      "notes": [
+        "2026-08-11: U1-L03 remains the accepted quality reference; the other nine sequence-authentic packages were authored or rebuilt against the locked release.",
+        "2026-08-11: all ten packages pass the common source, progression, Arabic, one-teacher, SSML-plus-IPA, post-video application, accessibility, privacy, and fresh-mastery contract.",
+        "2026-08-11: the batch contains 120 package files and all 65 exact introduction/recycle roles. U1-L08 is the primary observed split candidate and U1-L05 the secondary; the count of 45 A1 capabilities is not protected from evidence."
+      ]
+    },
+    {
+      "id": "PILOT10-003",
+      "phase": "phase_5_ten_lesson_pilot",
+      "title": "Build the continuous ten-lesson prototype and progression protocol",
+      "status": "complete",
+      "dependencies": ["PILOT10-002"],
+      "acceptance": "The prototype and ethical protocol observe progression, delayed return, recycling, Unit 1 mastery, load, and attrition without collecting unnecessary personal data.",
+      "notes": [
+        "2026-08-11: built a dependency-free continuous local interface that reads the actual release and package sources; Unit 1 mastery occurs between U1-L09 and U2-L01, and device progress never stores learner answers.",
+        "2026-08-11: pre-registered a six-visit 8-12 day protocol with target eight, minimum six complete eligible journeys, controlled split triggers, and stop/insufficient/revise/go precedence.",
+        "2026-08-11: added a de-identified longitudinal observer instrument, JSON Schema, semantic and private-directory validators, consent, facilitation, and analysis boundaries. Synthetic fixtures retain zero gate effect.",
+        "2026-08-11: real collection remains prohibited until all ten videos are rendered from the approved transcripts, transcript-matched, and listened to."
+      ]
+    },
+    {
       "id": "TEST-002",
-      "phase": "phase_5_learner_test",
-      "title": "Run learner tests and synthesize evidence",
+      "phase": "phase_5_ten_lesson_pilot",
+      "title": "Run the first-ten progression pilot and synthesize evidence",
       "status": "in_progress",
-      "dependencies": ["TEST-001"],
-      "acceptance": "Observed results, failures, revisions, and go/no-go decision are documented.",
+      "dependencies": ["PILOT10-003"],
+      "acceptance": "Observed progression results, attrition, failures, revisions, and go/revise/stop/insufficient decision are documented.",
       "notes": [
         "2026-08-11: collection gate opened. Only consented observations from real Arabic-speaking adult beginners count; simulated or agent-generated records are test fixtures only.",
         "2026-08-11: private-record validation, nine-metric aggregation, condition summaries, evaluator agreement, and de-identified report rendering are implemented and tested.",
         "2026-08-11: synthetic analysis is forced to simulation_only_no_gate_effect; 383 repository tests pass. Real learner sessions remain at 0, so TEST-002 is correctly still in progress.",
-        "2026-08-11: refreshed README and handoff against machine state and reran all 383 repository tests. This does not alter the real-learner gate."
+        "2026-08-11: refreshed README and handoff against machine state and reran all 383 repository tests.",
+        "2026-08-11: owner superseded immediate single-lesson collection with a first-ten progression pilot. Existing privacy and evidence rules remain; collection reopens after PILOT10-003.",
+        "2026-08-11: PILOT10-003 passed. TEST-002 now waits on rendered and listened-to media followed by six consented visits per participant; real complete journeys remain 0."
       ]
     },
     {

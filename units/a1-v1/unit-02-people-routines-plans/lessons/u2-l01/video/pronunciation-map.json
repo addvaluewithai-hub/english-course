@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "accent": "General American",
+  "usage": "Meaning-preserving reference; accept intelligible stable varieties.",
+  "entries": [
+    {
+      "text": "five / very",
+      "ipa": "/faɪv/ /ˈvɛri/",
+      "director_hint": "voiceless versus voiced onset"
+    },
+    {
+      "text": "family / seven",
+      "ipa": "/ˈfæməli/ /ˈsɛvən/",
+      "director_hint": "retain key consonant"
+    },
+    {
+      "text": "man / men",
+      "ipa": "/mæn/ /mɛn/",
+      "director_hint": "meaning-bearing vowel contrast"
+    }
+  ],
+  "curriculum_target_ids": [
+    "a1_pronunciation.f_v_contrast",
+    "a1_pronunciation.front_central_vowels"
+  ]
+}

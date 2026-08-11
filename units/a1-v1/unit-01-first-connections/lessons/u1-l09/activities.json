@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "delivery": {
+    "placement": "after_video_explanation",
+    "interaction_during_video": false,
+    "sequence": "comprehension_then_application_then_production"
+  },
+  "activities": [
+    {
+      "id": "request_or_reply",
+      "type": "classify",
+      "prompt_ar": "حدد هل الرسالة تطلب معلومة أم تقدمها.",
+      "classes": [
+        "request",
+        "reply"
+      ]
+    },
+    {
+      "id": "relevance_repair",
+      "type": "edit",
+      "prompt_ar": "أصلح ردًا صحيح الكلمات لكنه لا يجيب عن المطلوب.",
+      "critical_rule": "message purpose"
+    },
+    {
+      "id": "missing_detail",
+      "type": "choice",
+      "prompt_ar": "اختر سؤال المتابعة الذي يطلب المعلومة الناقصة.",
+      "answer_reveal_after_attempt": true
+    },
+    {
+      "id": "simulated_exchange",
+      "type": "written_interaction",
+      "prompt_ar": "أكمل تبادلًا خياليًا: رد، اسأل، أكد، واقفل.",
+      "real_network": false,
+      "store_responses": false,
+      "model_hidden": true
+    }
+  ],
+  "curriculum_rule": "Application follows the video; mastery is a fresh unsupported task."
+}

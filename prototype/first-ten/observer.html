@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="سجل ميسّر منزوع الهوية لتجربة أول عشرة دروس.">
+  <title>سجل الميسّر | أول 10 دروس</title>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/observer.css">
+</head>
+<body>
+  <header class="observer-topbar">
+    <a href="index.html">English <span>with purpose</span></a>
+    <span>A1 · PILOT 10 · OBSERVER</span>
+  </header>
+  <main class="observer-shell">
+    <header class="observer-intro">
+      <p class="eyebrow">PROGRESSION RECORD V1</p>
+      <h1>سجل تجربة منزوع الهوية</h1>
+      <p>لا تكتب اسمًا، وسيلة تواصل، إجابة المتعلم، اقتباسًا، أو وصفًا حرًا. ابدأ سجلًا جديدًا مرة واحدة، ثم استورده في كل زيارة وأضف الزيارة الجديدة.</p>
+    </header>
+
+    <form id="observerForm">
+      <section>
+        <h2>السجل والمشارك</h2>
+        <div class="form-grid">
+          <label>الكود العشوائي<input id="participantCode" value="P10-A7K2" pattern="P10-[A-Z0-9]{4,8}" required></label>
+          <label>نوع الدليل<select id="evidenceMode"><option>real_observation</option><option>synthetic_fixture</option></select></label>
+          <label>دفعة الفيديو<input id="renderBatch" value="P10-MEDIA-V01" pattern="P10-MEDIA-[A-Z0-9._-]{3,32}" required></label>
+          <label class="file-label">استيراد السجل السابق<input id="recordFile" type="file" accept="application/json,.json"></label>
+        </div>
+        <div class="check-grid">
+          <label><input id="adult" type="checkbox"> بالغ 18+</label>
+          <label><input id="arabicDominant" type="checkbox"> العربية هي اللغة الغالبة</label>
+          <label><input id="beginner" type="checkbox"> عند حد المبتدئ</label>
+          <label><input id="noExposure" type="checkbox"> لم ير مواد الإجابة</label>
+          <label><input id="notAuthor" type="checkbox"> ليس المالك أو المؤلف</label>
+          <label><input id="voluntary" type="checkbox"> المشاركة طوعية</label>
+          <label><input id="dataBoundary" type="checkbox"> فهم حدود البيانات</label>
+          <label><input id="withdrawalRoute" type="checkbox"> فهم حق الانسحاب</label>
+          <label><input id="agreed" type="checkbox"> وافق على المشاركة</label>
+          <label><input id="transcriptMatched" type="checkbox"> كل الفيديو مطابق للنص</label>
+          <label><input id="allListened" type="checkbox"> تم الاستماع لكل الفيديوهات</label>
+        </div>
+      </section>
+
+      <section>
+        <h2>الزيارة الحالية</h2>
+        <div class="form-grid">
+          <label>رقم الزيارة<select id="visitNumber"></select></label>
+          <label>اليوم من بداية المسار<input id="dayNumber" type="number" min="1" max="12" value="1" required></label>
+          <label>حالة الزيارة<select id="visitCompletion"><option>completed</option><option>paused</option><option>stopped</option><option>withdrawn</option><option>safety_paused</option></select></label>
+          <label>مدة الزيارة بالثواني<input id="visitSeconds" type="number" min="0" max="3600" value="0" required></label>
+        </div>
+        <label class="single-check"><input id="reconsent" type="checkbox"> أُعيد تأكيد الموافقة قبل الزيارة</label>
+        <p id="visitPlan" class="plan-note"></p>
+      </section>
+
+      <section>
+        <h2>الدروس</h2>
+        <p class="section-note">الدرجات: 0 لم يظهر، 1 بمساعدة/جزئي، 2 مستقل. لا تكتب ما قاله المتعلم.</p>
+        <div id="lessonRecords"></div>
+      </section>
+
+      <section id="stationSection" hidden>
+        <h2>محطات إتقان الوحدة الأولى</h2>
+        <div id="stationRecords" class="form-grid"></div>
+      </section>
+
+      <section>
+        <h2>اختبار مؤجل اختياري</h2>
+        <div class="form-grid">
+          <label>درس المصدر<select id="probeLesson"><option value="">لا يوجد</option></select></label>
+          <label>عدد الأيام<input id="probeDays" type="number" min="1" max="12"></label>
+          <label>القرار<select id="probeDecision"><option>not_rated</option><option>demonstrated</option><option>practiced</option><option>needs_review</option></select></label>
+        </div>
+      </section>
+
+      <section>
+        <h2>حالة المسار</h2>
+        <div class="form-grid">
+          <label>الحالة<select id="journeyStatus"><option>active</option><option>completed</option><option>withdrew</option></select></label>
+          <label>سبب الانسحاب المنضبط<select id="withdrawalReason"><option value="">لا يوجد</option><option>participant_choice</option><option>schedule</option><option>fatigue</option><option>safety</option><option>eligibility</option><option>technical</option></select></label>
+        </div>
+      </section>
+
+      <div class="actions">
+        <button class="button secondary" id="previewButton" type="button">راجع السجل</button>
+        <button class="button primary" id="downloadButton" type="button">نزّل السجل المحدّث</button>
+      </div>
+      <p id="formError" class="form-error" role="alert"></p>
+      <pre id="recordPreview" class="record-preview" dir="ltr"></pre>
+    </form>
+  </main>
+  <script type="module" src="scripts/observer-app.js"></script>
+</body>
+</html>

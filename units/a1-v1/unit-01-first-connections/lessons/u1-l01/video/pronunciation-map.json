@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "accent": "General American",
+  "usage": "Production reference; transcript IPA remains the synthesis control.",
+  "entries": [
+    {
+      "text": "thanks",
+      "ipa": "/θæŋks/",
+      "director_hint": "audible voiceless dental start"
+    },
+    {
+      "text": "that's",
+      "ipa": "/ðæts/",
+      "director_hint": "audible voiced dental start"
+    },
+    {
+      "text": "I'm",
+      "ipa": "/aɪm/",
+      "director_hint": "one smooth beat"
+    },
+    {
+      "text": "How are you?",
+      "ipa": "/haʊ ɑr juː/",
+      "director_hint": "friendly question contour"
+    }
+  ],
+  "curriculum_target_ids": [
+    "a1_pronunciation.dental_fricatives",
+    "a1_pronunciation.frequent_contractions",
+    "a1_pronunciation.question_social_contours"
+  ]
+}

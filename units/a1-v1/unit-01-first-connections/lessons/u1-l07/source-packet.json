@@ -1,0 +1,251 @@
+{
+  "schema_version": 2,
+  "packet_id": "a1.pilot10.U1-L07.sources",
+  "lesson_id": "U1-L07",
+  "unit_id": "a1.unit01.first_connections",
+  "candidate_id": "lesson_candidate.complete_a_simple_information_form",
+  "inputs": [
+    {
+      "path": "data/reviewed/a1-first-10-lessons-pilot-v1.json",
+      "sha256": "cb408fd8aa17678b35924efb3b87f44438eb7f0014128ac20af971a3e085520f"
+    },
+    {
+      "path": "data/reviewed/a1-scope-and-sequence-v1.json",
+      "sha256": "fa2e07fc4d7fc6727625777a835ea7ebff12d4759cb70090368292864a4a7a7a"
+    },
+    {
+      "path": "data/reviewed/a1-final-candidate-decisions-v1.json",
+      "sha256": "11b68e1653c726f611aa4052aafe314894169670d943c46ee0d6a76c79a48e15"
+    },
+    {
+      "path": "data/reviewed/a1-grammar-coverage-ownership-v1.json",
+      "sha256": "460556945fa7fc31e5f20eab50477f59dbfe9fc781f7f1b45db210470584ea4d"
+    },
+    {
+      "path": "data/reviewed/a1-lexical-chunk-ownership-v1.json",
+      "sha256": "35601d0831d7c2c0dd069a9cf6b5dc4e64c89b6ef9a840154475ea232dbdd4eb"
+    },
+    {
+      "path": "data/reviewed/a1-pronunciation-ownership-v1.json",
+      "sha256": "9cb0f2b8ce3d041053e67086d8e821c699f57504bfd006252e1970389cb353e8"
+    },
+    {
+      "path": "units/unit-01-first-connections/lessons/u1-l06/source-packet.json",
+      "sha256": "d3acee948f364222e195f44f8e24ca8eb30517ff5b37f9d607be5f7cf9128bba"
+    }
+  ],
+  "outcome_statement": "Complete a fresh very simple paper or digital personal application form under clear labels without copying a completed model.",
+  "source_candidate_ids": [
+    "lesson_candidate.complete_a_simple_information_form",
+    "lesson_candidate.complete_a_very_simple_online_purchase_or_application"
+  ],
+  "prior_lesson_ids": [
+    "U1-L04",
+    "U1-L06"
+  ],
+  "exact_introductions": [
+    {
+      "item_id": "lexical.months",
+      "label": "months of the year",
+      "bounded_scope": "Retrieve and write the required month in a fresh date.",
+      "source_refs": [
+        "oxford.o3000.p01.036",
+        "oxford.o3000.p01.047",
+        "oxford.o3000.p01.192",
+        "oxford.o3000.p02.032",
+        "oxford.o3000.p02.162",
+        "oxford.o3000.p02.168",
+        "oxford.o3000.p02.169",
+        "oxford.o3000.p02.217",
+        "oxford.o3000.p02.221",
+        "oxford.o3000.p03.008",
+        "oxford.o3000.p03.014",
+        "oxford.o3000.p03.154",
+        "cefr.cv2020.p048.a1.overall_oral_comprehension.002",
+        "cefr.cv2020.p079.a1.information_exchange.004",
+        "cefr.cv2020.p084.a1.notes_messages_and_forms.001",
+        "gse.adult.2022.a1.p14.003",
+        "gse.adult.2022.a1.p14.004",
+        "gse.adult.2022.a1.p14.015",
+        "gse.adult.2022.a1.p15.005",
+        "gse.adult.2022.a1.p15.008",
+        "gse.adult.2022.a1.p22.003",
+        "gse.adult.2022.a1.p22.014",
+        "gse.adult.2022.a1.p22.016",
+        "gse.adult.2022.a1.p22.019",
+        "gse.adult.2022.a1.p37.001",
+        "gse.adult.2022.a1.p37.011"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "lexical.digital_objects",
+      "label": "basic digital objects",
+      "bounded_scope": "Select the correct device or field label in a fresh simple digital task.",
+      "source_refs": [
+        "oxford.o3000.p01.119",
+        "oxford.o3000.p01.163",
+        "oxford.o3000.p01.238",
+        "oxford.o3000.p02.154",
+        "oxford.o3000.p03.062",
+        "oxford.o3000.p04.059",
+        "cefr.cv2020.p053.a1.watching_tv_film_and_video.001",
+        "cefr.cv2020.p086.a1.online_conversation_and_discussion.002",
+        "cefr.cv2020.p087.a1.goal_oriented_online_transactions_and_collaboration.001"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "lexical.form_digital_actions",
+      "label": "simple form and digital actions",
+      "bounded_scope": "Carry out the requested action in a fresh simulated interface.",
+      "source_refs": [
+        "oxford.o3000.p01.113",
+        "oxford.o3000.p01.137",
+        "oxford.o3000.p01.142",
+        "oxford.o3000.p01.150",
+        "oxford.o3000.p01.162",
+        "oxford.o3000.p02.061",
+        "oxford.o3000.p03.028",
+        "oxford.o3000.p03.053",
+        "oxford.o3000.p03.152",
+        "oxford.o3000.p04.088",
+        "cefr.cv2020.p087.a1.goal_oriented_online_transactions_and_collaboration.001",
+        "cefr.cv2020.p101.a1.processing_text_in_writing.001",
+        "cefr.cv2020.p104.a1.translating_a_written_text_in_writing.001",
+        "gse.adult.2022.a1.p09.008",
+        "gse.adult.2022.a1.p09.013"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "lexical.form_fields",
+      "label": "common form fields",
+      "bounded_scope": "Enter the matching value under each fresh familiar label.",
+      "source_refs": [
+        "oxford.o3000.p01.010",
+        "oxford.o3000.p01.124",
+        "oxford.o3000.p01.172",
+        "oxford.o3000.p01.188",
+        "oxford.o3000.p01.238",
+        "oxford.o3000.p02.047",
+        "oxford.o3000.p02.180",
+        "oxford.o3000.p02.262",
+        "oxford.o3000.p03.010",
+        "oxford.o3000.p03.062",
+        "cefr.cv2020.p084.a1.notes_messages_and_forms.001",
+        "cefr.cv2020.p087.a1.goal_oriented_online_transactions_and_collaboration.001",
+        "cefr.cv2020.p101.a1.processing_text_in_writing.001",
+        "cefr.cv2020.p104.a1.translating_a_written_text_in_writing.001",
+        "gse.adult.2022.a1.p37.001",
+        "gse.adult.2022.a1.p37.011"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "lexical.online_form_frames",
+      "label": "simple online form and purchase prompts",
+      "bounded_scope": "Carry out the fresh prompt and enter only the requested simulated detail.",
+      "source_refs": [
+        "oxford.o3000.p01.124",
+        "oxford.o3000.p01.137",
+        "oxford.o3000.p01.142",
+        "oxford.o3000.p01.199",
+        "oxford.o3000.p02.117",
+        "oxford.o3000.p03.053",
+        "oxford.o3000.p03.152",
+        "cefr.cv2020.p087.a1.goal_oriented_online_transactions_and_collaboration.001",
+        "cefr.cv2020.p101.a1.processing_text_in_writing.001",
+        "cefr.cv2020.p104.a1.translating_a_written_text_in_writing.001",
+        "gse.adult.2022.a1.p09.008",
+        "gse.adult.2022.a1.p09.013"
+      ],
+      "later_boundary": "Consolidation: a1"
+    }
+  ],
+  "exact_recycles": [
+    {
+      "item_id": "lexical.personal_detail_labels",
+      "label": "personal-detail labels",
+      "bounded_scope": "Supply and retrieve the learner's own required details without copying.",
+      "source_refs": [
+        "oxford.o3000.p01.010",
+        "oxford.o3000.p01.017",
+        "oxford.o3000.p01.188",
+        "oxford.o3000.p01.238",
+        "oxford.o3000.p02.047",
+        "oxford.o3000.p02.180",
+        "oxford.o3000.p02.262",
+        "oxford.o3000.p03.010",
+        "oxford.o3000.p03.062",
+        "cefr.cv2020.p082.a1.overall_written_interaction.001",
+        "cefr.cv2020.p084.a1.notes_messages_and_forms.001",
+        "gse.adult.2022.a1.p09.009",
+        "gse.adult.2022.a1.p37.001",
+        "gse.adult.2022.a1.p37.011"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "lexical.own_country_nationality",
+      "label": "own country and nationality",
+      "bounded_scope": "Accurately say and write the learner's own country and nationality forms.",
+      "source_refs": [
+        "oxford.o3000.p01.172",
+        "cefr.cv2020.p063.a1.sustained_monologue_describing_experience.001",
+        "cefr.cv2020.p082.a1.overall_written_interaction.001",
+        "cefr.cv2020.p084.a1.notes_messages_and_forms.001",
+        "cefr.cv2020.p142.a1.propositional_precision.001",
+        "gse.adult.2022.a1.p22.006",
+        "gse.adult.2022.a1.p22.009",
+        "gse.adult.2022.a1.p22.023",
+        "gse.adult.2022.a1.p22.027",
+        "gse.adult.2022.a1.p37.001",
+        "gse.adult.2022.a1.p37.011"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "lexical.personal_question_frames",
+      "label": "personal-information question frames",
+      "bounded_scope": "Select and ask the frame that retrieves the missing detail in a fresh information gap.",
+      "source_refs": [
+        "oxford.o3000.p02.135",
+        "oxford.o3000.p02.164",
+        "oxford.o3000.p02.202",
+        "oxford.o3000.p02.262",
+        "oxford.o3000.p03.010",
+        "oxford.o3000.p03.021",
+        "oxford.o3000.p03.062",
+        "oxford.o3000.p04.066",
+        "oxford.o3000.p04.068",
+        "cefr.cv2020.p079.a1.information_exchange.003",
+        "cefr.cv2020.p080.a1.interviewing_and_being_interviewed.001",
+        "cefr.cv2020.p082.a1.overall_written_interaction.001",
+        "cefr.cv2020.p084.a1.notes_messages_and_forms.001",
+        "gse.adult.2022.a1.p23.004",
+        "gse.adult.2022.a1.p23.008",
+        "gse.adult.2022.a1.p37.001",
+        "gse.adult.2022.a1.p37.011"
+      ],
+      "later_boundary": "Consolidation: a1"
+    }
+  ],
+  "exact_consolidations": [],
+  "mastery": {
+    "construct_id": "a1.u1.l07.simple_form_completion",
+    "fresh_task": "Enter the required values, choose country and nationality, check, and submit.",
+    "support_boundary": "Field labels and interface instructions only; no prefilled answers.",
+    "critical_meaning": "Every required fictional value is entered under the matching field and survives review."
+  },
+  "prototype_lineage": {
+    "path": "units/unit-01-first-connections/lessons/u1-l06/source-packet.json",
+    "sha256": "d3acee948f364222e195f44f8e24ca8eb30517ff5b37f9d607be5f7cf9128bba",
+    "status": "traceable_prototype_input_not_automatically_accepted"
+  },
+  "review": {
+    "status": "accepted_for_pilot10_package_qa",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-11"
+  }
+}

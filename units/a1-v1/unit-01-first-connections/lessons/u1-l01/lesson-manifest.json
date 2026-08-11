@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "lesson_id": "U1-L01",
+  "status": "pilot10_v1_qa_ready",
+  "candidate_id": "lesson_candidate.open_and_close_a_basic_social_exchange",
+  "source_packet": "source-packet.json",
+  "title": {
+    "en": "Start and End a Conversation",
+    "ar": "ابدأ وأنهِ محادثة بسيطة"
+  },
+  "goal": {
+    "en": "In a fresh short social exchange, the learner can greet someone, ask how they are, react to simple news, and say goodbye.",
+    "ar": "أن تبدأ محادثة اجتماعية قصيرة، ترد بما يناسب المعنى، وتنهيها بشكل طبيعي."
+  },
+  "learner": "Arabic-speaking adult beginner at A1",
+  "scope": {
+    "required_moves": [
+      "greeting",
+      "wellbeing question",
+      "fitting response",
+      "closing"
+    ],
+    "performance": "one fresh four-move exchange",
+    "time_hypothesis_minutes": "20-30"
+  },
+  "section_order": [
+    "video_explanation",
+    "applied_questions",
+    "guided_practice",
+    "ai_practice",
+    "fresh_mastery",
+    "teach_back_variant",
+    "review"
+  ],
+  "video": {
+    "provider": "Gemini TTS",
+    "format": "bilingual_single_teacher_video",
+    "directory": "video",
+    "speaker_count": 1,
+    "arabic_voice": "natural Egyptian Arabic",
+    "english_pronunciation": "General American with inline SSML IPA",
+    "interaction_during_video": false,
+    "interaction_starts_after_video": true
+  },
+  "variants": {
+    "teach_back": "One short contrast between a fitting and mismatched reaction.",
+    "omit": "Matched close without teach-back."
+  },
+  "non_goals": [
+    "Exchanging personal details",
+    "Memorising one fixed dialogue",
+    "Diagnosing emotion from intonation alone",
+    "Accent removal"
+  ],
+  "privacy": [
+    "The learner may use fictional safe information.",
+    "No microphone permission or raw-answer retention is required."
+  ],
+  "accessibility": [
+    "Every spoken model has visible text.",
+    "All controls are keyboard reachable.",
+    "Colour is never the only feedback signal.",
+    "Arabic and English reading directions are explicit."
+  ],
+  "unit_id": "a1.unit01.first_connections",
+  "global_sequence_position": 1,
+  "scope_sequence_ref": "data/reviewed/a1-scope-and-sequence-v1.json",
+  "pilot_release_ref": "data/reviewed/a1-first-10-lessons-pilot-v1.json",
+  "prototype_lineage": {
+    "old_lesson_id": null,
+    "old_content_path": null,
+    "reuse_status": "author_new_package"
+  },
+  "prerequisites": [],
+  "curriculum_boundary": {
+    "introduce_item_ids": [
+      "lexical.basic_feelings",
+      "lexical.greeting_wellbeing_closing",
+      "a1_pronunciation.dental_fricatives",
+      "a1_pronunciation.frequent_contractions",
+      "a1_pronunciation.question_social_contours"
+    ],
+    "fresh_recycle_item_ids": [],
+    "consolidate_item_ids": [],
+    "bounded_scope_notes": [
+      "Use a small greeting, wellbeing, feeling, reaction, and closing repertoire.",
+      "Introduce I'm as a frequent heard and optional spoken contraction.",
+      "Practise /θ/ and /ð/ only in selected high-value social words."
+    ],
+    "not_yet": [
+      "personal-detail questions",
+      "full present-be paradigm explanation",
+      "free discussion of emotions"
+    ]
+  }
+}

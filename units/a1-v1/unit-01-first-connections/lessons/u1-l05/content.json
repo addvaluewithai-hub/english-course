@@ -1,0 +1,216 @@
+{
+  "situation": {
+    "title_ar": "موقف اليوم",
+    "prompt_ar": "رسالة صوتية تعطي اسمًا وعمرًا ورقم هاتف ويومًا مناسبًا.",
+    "success_ar": "تسجل كل تفصيلة في خانتها وبنفس الترتيب."
+  },
+  "model": {
+    "speaker": "Sara Khalil",
+    "fields": {
+      "age": 30,
+      "phone": "555-01-19",
+      "day": "Thursday"
+    },
+    "gist_question_ar": "ما أنواع التفاصيل الأربع؟",
+    "gist_answer": [
+      "name",
+      "age",
+      "phone",
+      "day"
+    ]
+  },
+  "notice": [
+    {
+      "chunk": "My name is …",
+      "field": "name"
+    },
+    {
+      "chunk": "I'm thirty.",
+      "field": "age"
+    },
+    {
+      "chunk": "My phone number is …",
+      "field": "phone"
+    },
+    {
+      "chunk": "Call me on Thursday.",
+      "field": "day"
+    }
+  ],
+  "explanation_ar": [
+    "رقم الهاتف يُسجل رقمًا رقمًا؛ العدد الآخر يُفهم كوحدة.",
+    "قسّم الأرقام الطويلة إلى مجموعات قصيرة من غير تغيير ترتيبها.",
+    "في teen/ty استمع للكلمة كاملة والنبر، ثم اطلب تأكيدًا عند الشك.",
+    "zero وoh قد يعنيان صفرًا في رقم الهاتف."
+  ],
+  "toolkit": {
+    "digits": [
+      "zero",
+      "one",
+      "two",
+      "three",
+      "four",
+      "five",
+      "six",
+      "seven",
+      "eight",
+      "nine"
+    ],
+    "number_landmarks": [
+      "thirteen/thirty",
+      "fifteen/fifty",
+      "forty-two",
+      "one hundred"
+    ],
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "repair": [
+      "Can you spell that?",
+      "Please say that again.",
+      "Thirteen or thirty?"
+    ]
+  },
+  "pronunciation": [
+    {
+      "focus": "grouping",
+      "tip_ar": "قسّم الهاتف إلى مجموعات مسموعة قصيرة."
+    },
+    {
+      "focus": "teen versus ty",
+      "tip_ar": "استمع لمكان الجزء الأوضح وطول الصوت الأخير."
+    },
+    {
+      "focus": "three / six",
+      "tip_ar": "حافظ على وضوح الرقم واصلحه لو فُهم كرقم آخر."
+    },
+    {
+      "focus": "phone number",
+      "tip_ar": "اسمع العبارة كوحدة مع وضوح الكلمة الأولى."
+    }
+  ],
+  "schema_version": 2,
+  "delivery": {
+    "primary_explanation": "video/single-teacher",
+    "scene": "video/scene.txt",
+    "sample_context": "video/sample-context.txt",
+    "transcript": "video/transcript.txt",
+    "readable_equivalent": true,
+    "interaction_starts_after_video": true
+  },
+  "curriculum_alignment": {
+    "introduce_item_ids": [
+      "lexical.numbers_zero_to_hundred",
+      "lexical.days_of_week",
+      "a1_pronunciation.name_number_segmentation",
+      "a1_pronunciation.high_vowel_contrasts",
+      "a1_pronunciation.teen_ty_stress",
+      "a1_pronunciation.compound_chunk_stress"
+    ],
+    "fresh_recycle_item_ids": [
+      "lexical.contact_repair_frames",
+      "a1_pronunciation.spelling_sound_verification",
+      "a1_pronunciation.dental_fricatives"
+    ],
+    "consolidate_item_ids": [],
+    "bounded_scope_notes": [
+      "Retrieve numbers 0-100; preserve individual digit order in phone numbers.",
+      "Recognise and retrieve all seven day names in a fresh contact message.",
+      "Use grouping, selected high-vowel contrasts, and teen/ty stress only to preserve key detail.",
+      "Recycle spelling, repair, and selected dental sounds in names, three, and Thursday."
+    ],
+    "not_yet": [
+      "dates and months",
+      "prices and arithmetic",
+      "unrestricted fast number strings"
+    ],
+    "target_coverage": {
+      "lexical.numbers_zero_to_hundred": {
+        "role": "introduce",
+        "video_anchor": "forty-two, one hundred",
+        "post_video_activity_ids": [
+          "teen_ty",
+          "number_range",
+          "phone_grouping",
+          "guided_contact_capture"
+        ],
+        "mastery_evidence": "Preserve a fresh age and every phone digit."
+      },
+      "lexical.days_of_week": {
+        "role": "introduce",
+        "video_anchor": "Monday, Tuesday, Wednesday",
+        "post_video_activity_ids": [
+          "day_match",
+          "guided_contact_capture"
+        ],
+        "mastery_evidence": "Retrieve the correct day from a fresh contact message."
+      },
+      "a1_pronunciation.name_number_segmentation": {
+        "role": "introduce",
+        "video_anchor": "five five five | zero one",
+        "post_video_activity_ids": [
+          "phone_grouping",
+          "guided_contact_capture"
+        ],
+        "mastery_evidence": "Segment and preserve fresh digit groups."
+      },
+      "a1_pronunciation.high_vowel_contrasts": {
+        "role": "introduce",
+        "video_anchor": "three",
+        "post_video_activity_ids": [
+          "number_range",
+          "phone_grouping"
+        ],
+        "mastery_evidence": "Repair only when a key digit changes."
+      },
+      "a1_pronunciation.teen_ty_stress": {
+        "role": "introduce",
+        "video_anchor": "thirteen or thirty?",
+        "post_video_activity_ids": [
+          "teen_ty",
+          "guided_contact_capture"
+        ],
+        "mastery_evidence": "Distinguish the fresh age or request confirmation."
+      },
+      "a1_pronunciation.compound_chunk_stress": {
+        "role": "introduce",
+        "video_anchor": "phone number",
+        "post_video_activity_ids": [
+          "guided_contact_capture"
+        ],
+        "mastery_evidence": "Recognise the field-introducing chunk in fresh audio."
+      },
+      "lexical.contact_repair_frames": {
+        "role": "fresh_recycle",
+        "video_anchor": "Can you spell that?",
+        "post_video_activity_ids": [
+          "guided_contact_capture"
+        ],
+        "mastery_evidence": "Use one fitting check instead of guessing."
+      },
+      "a1_pronunciation.spelling_sound_verification": {
+        "role": "fresh_recycle",
+        "video_anchor": "K-H-A-L-I-L",
+        "post_video_activity_ids": [
+          "guided_contact_capture"
+        ],
+        "mastery_evidence": "Verify a changed fictional name when needed."
+      },
+      "a1_pronunciation.dental_fricatives": {
+        "role": "fresh_recycle",
+        "video_anchor": "Thursday",
+        "post_video_activity_ids": [
+          "day_match",
+          "guided_contact_capture"
+        ],
+        "mastery_evidence": "Repair only if the number or day becomes unclear."
+      }
+    }
+  }
+}

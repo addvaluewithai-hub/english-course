@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "delivery": {
+    "placement": "after_video_explanation",
+    "interaction_during_video": false,
+    "sequence": "comprehension_then_application_then_production"
+  },
+  "activities": [
+    {
+      "id": "gist_before_detail",
+      "type": "two_pass_listening",
+      "prompt_ar": "في المرة الأولى اختر الشخص والموضوع؛ في الثانية املأ التفاصيل.",
+      "first_pass_fields": [
+        "person",
+        "topic"
+      ],
+      "second_pass_fields": [
+        "name",
+        "origin",
+        "location",
+        "role"
+      ],
+      "transcript_hidden": true
+    },
+    {
+      "id": "referent_match",
+      "type": "choice_set",
+      "prompt_ar": "لمن تخص المعلومة؟",
+      "items": [
+        {
+          "prompt": "I'm from Canada.",
+          "options": [
+            "speaker",
+            "Omar"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "This is Omar. He's a student.",
+          "options": [
+            "speaker",
+            "Omar"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "contraction_meaning",
+      "type": "match",
+      "prompt_ar": "طابق الاختصار بالمعنى الكامل.",
+      "pairs": [
+        [
+          "I'm",
+          "I am"
+        ],
+        [
+          "He's",
+          "He is"
+        ],
+        [
+          "She's",
+          "She is"
+        ]
+      ]
+    },
+    {
+      "id": "guided_fresh_listen",
+      "type": "listening_capture",
+      "prompt_ar": "اسمع رسالة جديدة مرتين وسجل الاسم وثلاث تفاصيل.",
+      "fields": [
+        "name",
+        "detail_1",
+        "detail_2",
+        "detail_3"
+      ],
+      "transcript_hidden": true,
+      "answer_reveal_after_attempt": true
+    }
+  ],
+  "curriculum_rule": "Application follows the video; mastery is a fresh unsupported task."
+}

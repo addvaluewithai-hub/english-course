@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "accent": "General American",
+  "usage": "Production reference; prominence serves meaning, not performance theatre.",
+  "entries": [
+    {
+      "text": "What's your name?",
+      "ipa": "/wʌts jɚ neɪm/",
+      "director_hint": "friendly question"
+    },
+    {
+      "text": "M-O-N-A",
+      "ipa": "/ɛm oʊ ɛn eɪ/",
+      "director_hint": "separate letter names"
+    },
+    {
+      "text": "My NAME is MONA.",
+      "ipa": "/maɪ ˈneɪm ɪz ˈmoʊnə/",
+      "director_hint": "key detail prominent, not shouted"
+    },
+    {
+      "text": "Please say that again.",
+      "ipa": "/pliːz seɪ ðæt əˈɡɛn/",
+      "director_hint": "polite repair"
+    }
+  ],
+  "curriculum_target_ids": [
+    "a1_pronunciation.spelling_sound_verification",
+    "a1_pronunciation.key_information_prominence",
+    "a1_pronunciation.pronunciation_repair",
+    "a1_pronunciation.question_social_contours"
+  ]
+}

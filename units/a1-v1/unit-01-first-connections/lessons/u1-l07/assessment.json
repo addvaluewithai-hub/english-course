@@ -1,0 +1,92 @@
+{
+  "schema_version": 2,
+  "lesson_id": "U1-L07",
+  "mastery_task": {
+    "scenario_en": "You register a fictional learner for a community class in a simulated form.",
+    "scenario_ar": "تسجّل متعلمًا خياليًا في دورة مجتمعية داخل نموذج محاكي.",
+    "prompt_en": "Enter the required values, choose country and nationality, check, and submit.",
+    "required": [
+      "first_name",
+      "last_name",
+      "country",
+      "nationality",
+      "date_of_birth",
+      "email",
+      "review_before_submit"
+    ],
+    "support": "Field labels and interface instructions only; no prefilled answers.",
+    "freshness": "The person, layout, field order, month, and selection controls differ from practice.",
+    "safe_identity": true,
+    "construct_id": "a1.u1.l07.simple_form_completion"
+  },
+  "replacement_mastery_task": {
+    "scenario_en": "You complete a simulated volunteer form for a different fictional person.",
+    "scenario_ar": "تكمل نموذج تطوع محاكي لشخص خيالي مختلف.",
+    "prompt_en": "Transfer the same detail types, check the new layout, and submit.",
+    "required": [
+      "first_name",
+      "last_name",
+      "country",
+      "nationality",
+      "date_of_birth",
+      "email",
+      "review_before_submit"
+    ],
+    "support": "Field labels and interface instructions only; no prefilled answers.",
+    "freshness": "New values and controls preserve the construct without repeating the first form.",
+    "safe_identity": true,
+    "construct_id": "a1.u1.l07.simple_form_completion"
+  },
+  "rubric": [
+    {
+      "dimension": "comprehension",
+      "level_2": "Field labels and action prompts are interpreted correctly."
+    },
+    {
+      "dimension": "outcome_performance",
+      "level_2": "All required values are entered accurately and submitted after review."
+    },
+    {
+      "dimension": "context_transfer",
+      "level_2": "A changed layout and month are handled without fixed-position memory."
+    },
+    {
+      "dimension": "control_or_repair",
+      "level_2": "A missing or swapped field is found and corrected before submit."
+    }
+  ],
+  "decision": {
+    "demonstrated": "Level 2 or above on every required dimension.",
+    "needs_review": "Any required dimension below level 2; use targeted practice and a new task.",
+    "completion_rule": "Opening sections or finishing exercises never grants mastery."
+  },
+  "teach_back_variant": {
+    "position": "after the fresh performance",
+    "prompt_ar": "اشرح الفرق بين Enter your first name وSelect your nationality، وليه المراجعة قبل Submit مهمة.",
+    "scored_separately": true,
+    "cannot_rescue_failed_mastery": true
+  },
+  "omit_variant": {
+    "position": "after the fresh performance",
+    "content": "Proceed directly to the matched close and review card."
+  },
+  "delayed_review": [
+    {
+      "when": "next day",
+      "task": "Complete four fields in a changed layout."
+    },
+    {
+      "when": "three days",
+      "task": "Repair swapped country and nationality values."
+    },
+    {
+      "when": "seven days",
+      "task": "Complete and check a fresh simulated form."
+    }
+  ],
+  "mastery_attempt_policy": {
+    "maximum_fresh_attempts": 2,
+    "replacement_required_after_answer_revealing_help": true,
+    "second_failure_result": "practiced_or_needs_review_not_demonstrated"
+  }
+}

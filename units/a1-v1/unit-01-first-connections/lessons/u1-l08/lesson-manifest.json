@@ -1,0 +1,112 @@
+{
+  "schema_version": 2,
+  "lesson_id": "U1-L08",
+  "status": "pilot10_v1_qa_ready",
+  "candidate_id": "lesson_candidate.write_short_personal_profile",
+  "source_packet": "source-packet.json",
+  "title": {
+    "en": "Write a Short Profile",
+    "ar": "اكتب نبذة شخصية قصيرة"
+  },
+  "goal": {
+    "en": "Write two or three short factual sentences about self or one familiar or fictional person without copying.",
+    "ar": "أن تكتب نبذة قصيرة مترابطة عن شخصية خيالية وعلاقة أو حيوان، مع حقائق واضحة."
+  },
+  "learner": "Arabic-speaking adult beginner at A1",
+  "scope": {
+    "required_length": "five to seven short sentences",
+    "required_content": [
+      "main person",
+      "place or role",
+      "family or pet",
+      "connected facts",
+      "one correction"
+    ],
+    "time_hypothesis_minutes": "40-50"
+  },
+  "section_order": [
+    "video_explanation",
+    "applied_questions",
+    "guided_practice",
+    "ai_practice",
+    "fresh_mastery",
+    "teach_back_variant",
+    "review"
+  ],
+  "video": {
+    "provider": "Gemini TTS",
+    "format": "bilingual_single_teacher_video",
+    "directory": "video",
+    "speaker_count": 1,
+    "arabic_voice": "natural Egyptian Arabic",
+    "english_pronunciation": "General American with inline SSML IPA",
+    "interaction_during_video": false,
+    "interaction_starts_after_video": true
+  },
+  "variants": {
+    "teach_back": "Explain one subject-verb choice and why and differs from but.",
+    "omit": "Matched close without teach-back."
+  },
+  "non_goals": [
+    "A full family history",
+    "Mandatory personal disclosure",
+    "Complex tense use",
+    "Long composition"
+  ],
+  "privacy": [
+    "The learner may use fictional safe information.",
+    "No microphone permission or raw-answer retention is required."
+  ],
+  "accessibility": [
+    "Every spoken model has visible text.",
+    "All controls are keyboard reachable.",
+    "Colour is never the only feedback signal.",
+    "Arabic and English reading directions are explicit."
+  ],
+  "unit_id": "a1.unit01.first_connections",
+  "global_sequence_position": 8,
+  "scope_sequence_ref": "data/reviewed/a1-scope-and-sequence-v1.json",
+  "pilot_release_ref": "data/reviewed/a1-first-10-lessons-pilot-v1.json",
+  "prototype_lineage": {
+    "old_lesson_id": "U1-L07",
+    "old_content_path": "units/unit-01-first-connections/lessons/u1-l07",
+    "reuse_status": "prototype_requires_rebuild_to_v1_scope"
+  },
+  "prerequisites": [
+    "U1-L03",
+    "U1-L06",
+    "U1-L07"
+  ],
+  "curriculum_boundary": {
+    "introduce_item_ids": [
+      "grammar.be_negative",
+      "grammar.present_simple_affirmative",
+      "grammar.have_possession",
+      "grammar.noun_number_quantity",
+      "grammar.basic_noun_phrase",
+      "grammar.coordination",
+      "lexical.family_core",
+      "lexical.pets_animals",
+      "lexical.extended_family_life",
+      "lexical.family_profile_frames"
+    ],
+    "fresh_recycle_item_ids": [
+      "grammar.basic_clause_order",
+      "lexical.familiar_jobs",
+      "lexical.self_introduction_frames"
+    ],
+    "consolidate_item_ids": [],
+    "bounded_scope_notes": [
+      "Use present be negatives only to correct or deny a current fact.",
+      "Use present simple for current facts and familiar actions with bounded third-person agreement.",
+      "Use have/has, singular/plural quantity, compact noun phrases, and and/but/or inside one short profile.",
+      "Select only family, personal-life, and pet words needed by the voluntary or fictional task."
+    ],
+    "not_yet": [
+      "past biography",
+      "extended relationship disclosure",
+      "complex noun phrases",
+      "paragraph-level cohesion"
+    ]
+  }
+}

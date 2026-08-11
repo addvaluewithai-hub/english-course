@@ -1,0 +1,67 @@
+TRANSCRIPT = """Speaker 1: [WARM] في الدرس اللي فات بدأت محادثة قصيرة. النهاردة دورك الأساسي مش الكلام؛ دورك تسمع تقديم شخص وتطلع منه المعلومات المهمة.
+
+Speaker 1: تخيّل إن عضو جديد بعت رسالة صوتية لمجموعة الدراسة. اسمع الرسالة كوحدة واحدة.
+
+Speaker 1: [CLEAR, NATURAL A1 PACE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="haɪ | aɪm ˈælɪks | aɪm frəm ˈkænədə | aɪ lɪv ɪn ˈkaɪroʊ | aɪm ən ˌɛndʒəˈnɪr">Hi. I'm Alex. I'm from Canada. I live in Cairo. I'm an engineer.</phoneme></lang>
+
+Speaker 1: لو حاولت تترجم كل كلمة أثناء السماع، الرسالة ممكن تسبقك. المطلوب أبسط: اعرف الشخص، وبعدها التقط مكان أو دور.
+
+Speaker 1: أول إشارة كانت:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ˈælɪks">I'm Alex.</phoneme></lang>
+
+Speaker 1: الضمير <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ">I</phoneme></lang> معناه إن الشخص بيتكلم عن نفسه، و<lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm">I'm</phoneme></lang> هي الصورة المختصرة من <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ æm">I am</phoneme></lang>.
+
+Speaker 1: بعد كده سمعنا البلد:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm frəm ˈkænədə">I'm from Canada.</phoneme></lang>
+
+Speaker 1: وبعدها المدينة اللي عايش فيها:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ lɪv ɪn ˈkaɪroʊ">I live in Cairo.</phoneme></lang>
+
+Speaker 1: وآخر معلومة كانت دوره أو شغله:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ən ˌɛndʒəˈnɪr">I'm an engineer.</phoneme></lang>
+
+Speaker 1: إذن عرفنا الاسم والبلد والمدينة والعمل. ما احتجناش نفهم كل صوت عشان نفهم الصورة الأساسية.
+
+Speaker 1: أحيانًا المتكلم يقدم شخص تاني. اسمع النموذج ده.
+
+Speaker 1: [CLEAR, NATURAL A1 PACE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ðɪs ɪz ˈoʊmɑr | hiːz frəm ˈiːdʒɪpt | hiːz ɪn ˈɡiːzə | hiːz ə ˈstuːdənt">This is Omar. He's from Egypt. He's in Giza. He's a student.</phoneme></lang>
+
+Speaker 1: هنا البداية قالت:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ðɪs ɪz ˈoʊmɑr">This is Omar.</phoneme></lang>
+
+Speaker 1: وبعدها سمعنا <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="hiː">he</phoneme></lang>، يعني المعلومات عن عمر، مش عن المتكلم.
+
+Speaker 1: والاختصار:
+
+Speaker 1: [ONE SMOOTH BEAT] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="hiːz">He's.</phoneme></lang>
+
+Speaker 1: معناه هنا:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="hiː ɪz">He is.</phoneme></lang>
+
+Speaker 1: ولو الشخص بنت، ممكن تسمع:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ðɪs ɪz ˈleɪlə | ʃiːz frəm ˈdʒɔrdən | ʃiːz ə ˈtiːtʃɚ">This is Layla. She's from Jordan. She's a teacher.</phoneme></lang>
+
+Speaker 1: الضمير <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ʃiː">she</phoneme></lang> يربط المعلومات بليلى، والاختصار <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ʃiːz">she's</phoneme></lang> معناه هنا <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ʃiː ɪz">she is</phoneme></lang>.
+
+Speaker 1: في الدرس ده ركّز على <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪ | hiː | ʃiː">I, he, she</phoneme></lang> عشان تعرف المعلومة تخص مين. باقي الضمائر هتظهر بالتدريج في مواقف تحتاجها.
+
+Speaker 1: كمان الكلمات اللي تدل على المكان تساعدك. <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈkʌntri">country</phoneme></lang> بلد، و<lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈsɪti">city</phoneme></lang> مدينة. مش مطلوب تحفظ قائمة أماكن؛ المطلوب تعرف نوع المعلومة.
+
+Speaker 1: استراتيجية السماع هنا من مرتين. في المرة الأولى: مين الشخص وإيه الموضوع؟ في المرة الثانية: التقط معلومتين أو ثلاثة وتأكد إنك نسبتهم للشخص الصح.
+
+Speaker 1: اسمع نموذج أخير.
+
+Speaker 1: [CLEAR, NATURAL A1 PACE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="həˈloʊ | aɪm ˈnuːrə | aɪm frəm ˈmoʊrækoʊ | aɪm ɪn dəˈbaɪ | aɪm ə ˈnɝs">Hello. I'm Noura. I'm from Morocco. I'm in Dubai. I'm a nurse.</phoneme></lang>
+
+Speaker 1: المتكلمة هي نورة، أصلها المغرب، موجودة في دبي، ودورها ممرضة.
+
+Speaker 1: بعد الفيديو هتسمع رسائل جديدة من غير نص مكتوب. أول مرة خُد الصورة، وثاني مرة خُد التفاصيل. ما تطاردش كل كلمة.
+
+Speaker 1: [ENCOURAGING] الاستماع الناجح مش إنك تسمع كل شيء. هو إنك تخرج بالمعلومات اللي المهمة طلبتها منك."""

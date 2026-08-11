@@ -5,13 +5,17 @@ These are project memory and a gated checklist. They do not schedule agents.
 
 ## Current checkpoint
 
-The curriculum architecture and A1 syllabus are locked. The delivery path is waiting
-for real learner evidence before reusable system and application decisions.
+The curriculum architecture and A1 syllabus are locked. Production and internal QA of
+the actual first ten lessons are complete, together with the continuous progression
+prototype and ethical six-visit instrument.
 
-- Last completed task: `TEST-001`.
+- Last completed task: `PILOT10-003`.
 - Active task: `TEST-002`.
 - Real learner sessions collected: 0.
-- Next phase remains locked until TEST-002 produces a reviewed aggregate decision.
+- The release is U1-L01 through U1-L09 followed by U2-L01; it is not a showcase set.
+- All ten packages and the continuous instrument are ready. Real collection cannot
+  begin until the ten final videos are rendered, transcript-matched, and listened to.
+- Reusable system decisions remain locked until TEST-002 has real progression evidence.
 - The current workflow uses one continuing primary agent; no scheduled or hourly agent
   team exists.
 
@@ -82,17 +86,44 @@ Browser verification passed consent, all nine learner steps, the omit route, no-
 timing, observer consent enforcement, and zero console errors after the discovered
 planning-index defect was fixed.
 
+This kit is retained as the method prototype. It does not approve the first-ten
+progression release on its own.
+
+## First-ten release
+
+`PILOT10-001` is complete. The machine contract at
+`data/reviewed/a1-first-10-lessons-pilot-v1.json` contains the exact A1 positions 1–10:
+nine Unit 1 lessons and Unit 2 Lesson 1. It assigns 49 introductions and 16 fresh
+recycles without duplicate capability ownership.
+
+The human plan is `docs/PILOT_10_PRODUCTION_PLAN_V1.md`. Every package must use the
+accepted one-teacher bilingual presentation style, SSML plus IPA for spoken English,
+post-video application, fresh mastery, safe fictional identities, and source hashes.
+
+`PILOT10-002` and `PILOT10-003` are also complete:
+
+- all ten packages pass the shared contract and contain 120 source files;
+- the batch owns all 65 exact introduction and fresh-recycle roles;
+- the learner route is `prototype/first-ten/index.html`;
+- the facilitator route is `prototype/first-ten/observer.html`;
+- the six-visit protocol and consent kit are in `research/first-ten-pilot-v1/`;
+- private longitudinal records have schema and semantic validation; and
+- synthetic fixtures are explicitly unable to satisfy TEST-002.
+
+The content QA names U1-L08 as the primary load/split candidate and U1-L05 as the
+secondary. This is an observation priority, not a pre-decided split.
+
 ## Exact next work
 
-1. Recruit six to eight real Arabic-speaking adult beginners using
-   `research/learner-test-v1/START_HERE_AR.md`.
-2. Run consented sessions and keep `LT1-*.json` records in a restricted directory
-   outside this repository.
-3. Validate and aggregate them with `research/learner-test-v1/ANALYSIS_RUNBOOK.md`.
-4. Publish only the de-identified aggregate, lesson revisions, and the recorded
-   go/revise/stop/insufficient decision.
-5. If the gate passes, complete `SYSTEM-001`, then `ARCH-001`, then rebuild and pilot
-   final Unit 1 before controlled full-A1 production.
+1. Generate one-teacher Gemini media from each approved `video/scene.txt`,
+   `video/sample-context.txt`, and `video/transcript.txt` source.
+2. Listen to every rendered lesson and verify speaker count, transcript match, English
+   pronunciation, Arabic naturalness, pacing, and absence of in-video applied questions.
+3. Rehearse the six-visit route with a `synthetic_fixture`; it remains non-evidence.
+4. Run consented real-learner journeys, publish only de-identified aggregates and named
+   revisions, and record the go/revise/stop/insufficient decision.
+5. If that gate passes, complete `SYSTEM-001`, then `ARCH-001`, then controlled
+   production of the remaining A1 lessons.
 
 Synthetic, agent-generated, owner, or previously exposed records cannot replace the
 required beginner observations. Do not unlock later gates merely because tooling or
@@ -101,8 +132,7 @@ fixtures pass.
 ## Preserved historical work
 
 - `units/unit-01-first-connections/` contains eight pre-v1 source packages. They are
-  useful content prototypes, but the final A1 v1 Unit 1 has nine capabilities and must
-  be rebuilt in `units/a1-v1/` after its gates pass.
+  useful lineage only; the nine final Unit 1 packages now exist in `units/a1-v1/`.
 - `data/reviewed/a1-lesson-map.json` contains the 81-candidate source audit. It remains
   traceable input, not the final learner syllabus.
 - `references/legacy/` contains recovered planning conversations. They establish

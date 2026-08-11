@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "release_id": "a1.first_10_lessons.pilot_v1",
+  "status": "locked_for_content_production",
+  "owner_decision": "Produce and evaluate the actual first ten final lessons, not a detached showcase set.",
+  "inputs": [
+    {
+      "path": "data/reviewed/a1-scope-and-sequence-v1.json",
+      "sha256": "fa2e07fc4d7fc6727625777a835ea7ebff12d4759cb70090368292864a4a7a7a"
+    },
+    {
+      "path": "data/reviewed/a1-final-candidate-decisions-v1.json",
+      "sha256": "11b68e1653c726f611aa4052aafe314894169670d943c46ee0d6a76c79a48e15"
+    },
+    {
+      "path": "data/reviewed/a1-grammar-coverage-ownership-v1.json",
+      "sha256": "460556945fa7fc31e5f20eab50477f59dbfe9fc781f7f1b45db210470584ea4d"
+    },
+    {
+      "path": "data/reviewed/a1-lexical-chunk-ownership-v1.json",
+      "sha256": "35601d0831d7c2c0dd069a9cf6b5dc4e64c89b6ef9a840154475ea232dbdd4eb"
+    },
+    {
+      "path": "data/reviewed/a1-pronunciation-ownership-v1.json",
+      "sha256": "9cb0f2b8ce3d041053e67086d8e821c699f57504bfd006252e1970389cb353e8"
+    }
+  ],
+  "policy": {
+    "scope_sequence": "locked A1 v1 positions 1-10",
+    "composition": "all nine Unit 1 lessons followed by Unit 2 Lesson 1",
+    "delivery": "single-teacher bilingual explanation video; application starts after video",
+    "english_voice_markup": "every spoken English span requires en-US SSML and IPA",
+    "mastery": "fresh performance; completion and coached practice never imply mastery",
+    "pilot_question": "Does the teaching design work across progression, recycling, review, and transition—not only in one gold lesson?",
+    "downstream_gate": "Reusable system and architecture decisions remain after the ten-lesson learner pilot."
+  },
+  "lessons": [
+    {
+      "lesson_id": "U1-L01",
+      "global_sequence_position": 1,
+      "unit_id": "a1.unit01.first_connections",
+      "final_owner_id": "lesson_candidate.open_and_close_a_basic_social_exchange",
+      "title": {
+        "en": "Start and End a Conversation",
+        "ar": "ابدأ وأنهِ محادثة بسيطة"
+      },
+      "outcome_statement": "In a fresh short social exchange, the learner can greet someone, ask how they are, react to simple news, and say goodbye.",
+      "mastery_action": "Retain the current fresh mastery construct.",
+      "source_candidate_ids": [
+        "lesson_candidate.accept_a_simple_offer",
+        "lesson_candidate.open_and_close_a_basic_social_exchange",
+        "lesson_candidate.respond_politely_to_an_introduction",
+        "lesson_candidate.show_basic_sympathy_during_a_problem_or_disagreement"
+      ],
+      "content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l01",
+      "prototype_lineage": {
+        "old_lesson_id": null,
+        "old_content_path": null,
+        "reuse_status": "author_new_package"
+      },
+      "mapped_prerequisites": [],
+      "exact_item_roles": {
+        "introduce": [
+          "lexical.basic_feelings",
+          "lexical.greeting_wellbeing_closing",
+          "a1_pronunciation.dental_fricatives",
+          "a1_pronunciation.frequent_contractions",
+          "a1_pronunciation.question_social_contours"
+        ],
+        "fresh_recycle": [],
+        "consolidate": []
+      },
+      "production_requirement": "author_final_pilot_package"
+    },
+    {
+      "lesson_id": "U1-L02",
+      "global_sequence_position": 2,
+      "unit_id": "a1.unit01.first_connections",
+      "final_owner_id": "lesson_candidate.understand_spoken_personal_introductions",
+      "title": {
+        "en": "Understand an Introduction",
+        "ar": "افهم تقديم شخص لنفسه"
+      },
+      "outcome_statement": "In a fresh clear introduction, the learner can identify the speaker's main personal information without a transcript.",
+      "mastery_action": "Retain the current fresh mastery construct.",
+      "source_candidate_ids": [
+        "lesson_candidate.understand_spoken_personal_introductions"
+      ],
+      "content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l02",
+      "prototype_lineage": {
+        "old_lesson_id": "U1-L02",
+        "old_content_path": "units/unit-01-first-connections/lessons/u1-l02",
+        "reuse_status": "prototype_requires_rebuild_to_v1_scope"
+      },
+      "mapped_prerequisites": [],
+      "exact_item_roles": {
+        "introduce": [
+          "grammar.be_affirmative",
+          "grammar.personal_pronouns",
+          "lexical.identity_place_labels"
+        ],
+        "fresh_recycle": [
+          "a1_pronunciation.frequent_contractions"
+        ],
+        "consolidate": []
+      },
+      "production_requirement": "author_final_pilot_package"
+    },
+    {
+      "lesson_id": "U1-L03",
+      "global_sequence_position": 3,
+      "unit_id": "a1.unit01.first_connections",
+      "final_owner_id": "lesson_candidate.give_short_self_introduction",
+      "title": {
+        "en": "Introduce Yourself",
+        "ar": "قدّم نفسك"
+      },
+      "outcome_statement": "In a fresh first-meeting situation, the learner can give a short self-introduction with essential personal details without a complete model.",
+      "mastery_action": "Retain the current fresh mastery construct.",
+      "source_candidate_ids": [
+        "lesson_candidate.give_short_self_introduction"
+      ],
+      "content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03",
+      "prototype_lineage": {
+        "old_lesson_id": "U1-L01",
+        "old_content_path": "gold/introduce-yourself",
+        "reuse_status": "gold_reference_preserved_requires_id_rebind"
+      },
+      "mapped_prerequisites": [
+        {
+          "owner_id": "lesson_candidate.understand_spoken_personal_introductions",
+          "relationship": "helpful_before"
+        }
+      ],
+      "exact_item_roles": {
+        "introduce": [
+          "grammar.basic_clause_order",
+          "grammar.possessive_forms",
+          "grammar.articles",
+          "lexical.own_country_nationality",
+          "lexical.self_introduction_frames",
+          "a1_pronunciation.lesson_critical_word_stress",
+          "a1_pronunciation.sense_group_chunking"
+        ],
+        "fresh_recycle": [
+          "grammar.be_affirmative",
+          "grammar.personal_pronouns",
+          "lexical.identity_place_labels"
+        ],
+        "consolidate": []
+      },
+      "production_requirement": "preserve_accepted_gold_and_validate_against_batch_contract"
+    },
+    {
+      "lesson_id": "U1-L04",
+      "global_sequence_position": 4,
+      "unit_id": "a1.unit01.first_connections",
+      "final_owner_id": "lesson_candidate.exchange_personal_details_orally",
+      "title": {
+        "en": "Ask and Answer Personal Questions",
+        "ar": "اسأل وأجب عن معلومات شخصية"
+      },
+      "outcome_statement": "In a fresh short exchange, the learner can ask and answer direct personal-detail questions without a dialogue model.",
+      "mastery_action": "Retain the current fresh mastery construct.",
+      "source_candidate_ids": [
+        "lesson_candidate.exchange_personal_details_orally"
+      ],
+      "content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l04",
+      "prototype_lineage": {
+        "old_lesson_id": "U1-L03",
+        "old_content_path": "units/unit-01-first-connections/lessons/u1-l03",
+        "reuse_status": "prototype_requires_rebuild_to_v1_scope"
+      },
+      "mapped_prerequisites": [
+        {
+          "owner_id": "lesson_candidate.give_short_self_introduction",
+          "relationship": "helpful_before"
+        }
+      ],
+      "exact_item_roles": {
+        "introduce": [
+          "grammar.be_questions",
+          "grammar.information_question_frames",
+          "lexical.familiar_jobs",
+          "lexical.personal_question_frames",
+          "lexical.contact_repair_frames",
+          "a1_pronunciation.spelling_sound_verification",
+          "a1_pronunciation.key_information_prominence",
+          "a1_pronunciation.pronunciation_repair"
+        ],
+        "fresh_recycle": [
+          "a1_pronunciation.question_social_contours"
+        ],
+        "consolidate": []
+      },
+      "production_requirement": "author_final_pilot_package"
+    },
+    {
+      "lesson_id": "U1-L05",
+      "global_sequence_position": 5,
+      "unit_id": "a1.unit01.first_connections",
+      "final_owner_id": "lesson_candidate.understand_spoken_contact_details",
+      "title": {
+        "en": "Hear Names and Phone Numbers",
+        "ar": "افهم الأسماء وأرقام الهاتف"
+      },
+      "outcome_statement": "In a fresh short phone context, identify a name and phone number without a transcript; confirm by selection or oral check.",
+      "mastery_action": "Score the heard identity details; do not require written recording for mastery.",
+      "source_candidate_ids": [
+        "lesson_candidate.understand_spoken_contact_details",
+        "lesson_candidate.locate_names_places_and_times_in_slow_recordings"
+      ],
+      "content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l05",
+      "prototype_lineage": {
+        "old_lesson_id": "U1-L04",
+        "old_content_path": "units/unit-01-first-connections/lessons/u1-l04",
+        "reuse_status": "prototype_requires_rebuild_to_v1_scope"
+      },
+      "mapped_prerequisites": [],
+      "exact_item_roles": {
+        "introduce": [
+          "lexical.numbers_zero_to_hundred",
+          "lexical.days_of_week",
+          "a1_pronunciation.name_number_segmentation",
+          "a1_pronunciation.high_vowel_contrasts",
+          "a1_pronunciation.teen_ty_stress",
+          "a1_pronunciation.compound_chunk_stress"
+        ],
+        "fresh_recycle": [
+          "lexical.contact_repair_frames",
+          "a1_pronunciation.spelling_sound_verification",
+          "a1_pronunciation.dental_fricatives"
+        ],
+        "consolidate": []
+      },
+      "production_requirement": "author_final_pilot_package"
+    },
+    {
+      "lesson_id": "U1-L06",
+      "global_sequence_position": 6,
+      "unit_id": "a1.unit01.first_connections",
+      "final_owner_id": "lesson_candidate.locate_written_personal_details",
+      "title": {
+        "en": "Find Personal Details",
+        "ar": "استخرج المعلومات الشخصية"
+      },
+      "outcome_statement": "In a fresh short text, the learner can locate requested personal details without answer-revealing support.",
+      "mastery_action": "Retain the current fresh mastery construct.",
+      "source_candidate_ids": [
+        "lesson_candidate.locate_written_personal_details"
+      ],
+      "content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l06",
+      "prototype_lineage": {
+        "old_lesson_id": "U1-L05",
+        "old_content_path": "units/unit-01-first-connections/lessons/u1-l05",
+        "reuse_status": "prototype_requires_rebuild_to_v1_scope"
+      },
+      "mapped_prerequisites": [],
+      "exact_item_roles": {
+        "introduce": [
+          "lexical.personal_detail_labels"
+        ],
+        "fresh_recycle": [],
+        "consolidate": []
+      },
+      "production_requirement": "author_final_pilot_package"
+    },
+    {
+      "lesson_id": "U1-L07",
+      "global_sequence_position": 7,
+      "unit_id": "a1.unit01.first_connections",
+      "final_owner_id": "lesson_candidate.complete_a_simple_information_form",
+      "title": {
+        "en": "Complete a Simple Form",
+        "ar": "املأ نموذج بسيط"
+      },
+      "outcome_statement": "Complete a fresh very simple paper or digital personal application form under clear labels without copying a completed model.",
+      "mastery_action": "Use fictional details and changed field order; score required entries, not interface navigation speed.",
+      "source_candidate_ids": [
+        "lesson_candidate.complete_a_simple_information_form",
+        "lesson_candidate.complete_a_very_simple_online_purchase_or_application"
+      ],
+      "content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l07",
+      "prototype_lineage": {
+        "old_lesson_id": "U1-L06",
+        "old_content_path": "units/unit-01-first-connections/lessons/u1-l06",
+        "reuse_status": "prototype_requires_rebuild_to_v1_scope"
+      },
+      "mapped_prerequisites": [
+        {
+          "owner_id": "lesson_candidate.locate_written_personal_details",
+          "relationship": "helpful_before"
+        }
+      ],
+      "exact_item_roles": {
+        "introduce": [
+          "lexical.months",
+          "lexical.digital_objects",
+          "lexical.form_digital_actions",
+          "lexical.form_fields",
+          "lexical.online_form_frames"
+        ],
+        "fresh_recycle": [
+          "lexical.personal_detail_labels",
+          "lexical.own_country_nationality",
+          "lexical.personal_question_frames"
+        ],
+        "consolidate": []
+      },
+      "production_requirement": "author_final_pilot_package"
+    },
+    {
+      "lesson_id": "U1-L08",
+      "global_sequence_position": 8,
+      "unit_id": "a1.unit01.first_connections",
+      "final_owner_id": "lesson_candidate.write_short_personal_profile",
+      "title": {
+        "en": "Write a Short Profile",
+        "ar": "اكتب نبذة شخصية قصيرة"
+      },
+      "outcome_statement": "Write two or three short factual sentences about self or one familiar or fictional person without copying.",
+      "mastery_action": "Use a changed person and required facts; an absent or misattributed fact is critical.",
+      "source_candidate_ids": [
+        "lesson_candidate.write_short_personal_profile",
+        "lesson_candidate.write_simple_people_profile_cards"
+      ],
+      "content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l08",
+      "prototype_lineage": {
+        "old_lesson_id": "U1-L07",
+        "old_content_path": "units/unit-01-first-connections/lessons/u1-l07",
+        "reuse_status": "prototype_requires_rebuild_to_v1_scope"
+      },
+      "mapped_prerequisites": [
+        {
+          "owner_id": "lesson_candidate.give_short_self_introduction",
+          "relationship": "helpful_before"
+        }
+      ],
+      "exact_item_roles": {
+        "introduce": [
+          "grammar.be_negative",
+          "grammar.present_simple_affirmative",
+          "grammar.have_possession",
+          "grammar.noun_number_quantity",
+          "grammar.basic_noun_phrase",
+          "grammar.coordination",
+          "lexical.family_core",
+          "lexical.pets_animals",
+          "lexical.extended_family_life",
+          "lexical.family_profile_frames"
+        ],
+        "fresh_recycle": [
+          "grammar.basic_clause_order",
+          "lexical.familiar_jobs",
+          "lexical.self_introduction_frames"
+        ],
+        "consolidate": []
+      },
+      "production_requirement": "author_final_pilot_package"
+    },
+    {
+      "lesson_id": "U1-L09",
+      "global_sequence_position": 9,
+      "unit_id": "a1.unit01.first_connections",
+      "final_owner_id": "lesson_candidate.exchange_personal_details_in_writing",
+      "title": {
+        "en": "Exchange Details in Writing",
+        "ar": "تبادل المعلومات كتابة"
+      },
+      "outcome_statement": "In a fresh short written exchange, the learner can ask for or pass on basic personal details without copying a model.",
+      "mastery_action": "Retain the current fresh mastery construct.",
+      "source_candidate_ids": [
+        "lesson_candidate.exchange_personal_details_in_writing"
+      ],
+      "content_path": "units/a1-v1/unit-01-first-connections/lessons/u1-l09",
+      "prototype_lineage": {
+        "old_lesson_id": "U1-L08",
+        "old_content_path": "units/unit-01-first-connections/lessons/u1-l08",
+        "reuse_status": "prototype_requires_rebuild_to_v1_scope"
+      },
+      "mapped_prerequisites": [
+        {
+          "owner_id": "lesson_candidate.write_short_personal_profile",
+          "relationship": "helpful_before"
+        }
+      ],
+      "exact_item_roles": {
+        "introduce": [],
+        "fresh_recycle": [],
+        "consolidate": []
+      },
+      "production_requirement": "author_final_pilot_package"
+    },
+    {
+      "lesson_id": "U2-L01",
+      "global_sequence_position": 10,
+      "unit_id": "a1.unit02.people_routines_plans",
+      "final_owner_id": "lesson_candidate.understand_talk_about_people_and_family",
+      "title": {
+        "en": "Understand Talk about Family",
+        "ar": "افهم كلام عن العائلة"
+      },
+      "outcome_statement": "In a fresh slow conversation, the learner can identify basic facts about a person or family.",
+      "mastery_action": "Retain the current fresh mastery construct.",
+      "source_candidate_ids": [
+        "lesson_candidate.understand_talk_about_people_and_family",
+        "lesson_candidate.identify_familiar_referents_from_spoken_clues"
+      ],
+      "content_path": "units/a1-v1/unit-02-people-routines-plans/lessons/u2-l01",
+      "prototype_lineage": {
+        "old_lesson_id": null,
+        "old_content_path": null,
+        "reuse_status": "author_new_package"
+      },
+      "mapped_prerequisites": [],
+      "exact_item_roles": {
+        "introduce": [
+          "lexical.basic_people",
+          "lexical.people_appearance_manner",
+          "a1_pronunciation.f_v_contrast",
+          "a1_pronunciation.front_central_vowels"
+        ],
+        "fresh_recycle": [
+          "lexical.family_core",
+          "lexical.extended_family_life"
+        ],
+        "consolidate": []
+      },
+      "production_requirement": "author_final_pilot_package"
+    }
+  ],
+  "audit": {
+    "lesson_count": 10,
+    "unit1_lesson_count": 9,
+    "unit2_lesson_count": 1,
+    "global_positions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "lesson_ids": [
+      "U1-L01",
+      "U1-L02",
+      "U1-L03",
+      "U1-L04",
+      "U1-L05",
+      "U1-L06",
+      "U1-L07",
+      "U1-L08",
+      "U1-L09",
+      "U2-L01"
+    ],
+    "exact_item_role_counts": {
+      "introduce": 49,
+      "fresh_recycle": 16,
+      "consolidate": 0
+    },
+    "duplicate_owner_count": 0
+  },
+  "review": {
+    "status": "approved_for_pilot_content_production",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-11"
+  }
+}

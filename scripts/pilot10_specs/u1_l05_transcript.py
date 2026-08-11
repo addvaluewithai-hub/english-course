@@ -1,0 +1,83 @@
+TRANSCRIPT = """Speaker 1: [WARM] النهاردة عندنا رسالة صوتية قصيرة، لكن أي اسم أو رقم أو يوم يتسجل غلط ممكن يغيّر التواصل كله. هدفنا نسمع التفاصيل ونحافظ على ترتيبها.
+
+Speaker 1: اسمع الرسالة مرة كاملة.
+
+Speaker 1: [CLEAR, NATURAL A1 PACE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="haɪ | maɪ neɪm ɪz ˈsɑrə kəˈliːl | aɪm ˈθɝti | maɪ ˈfoʊn ˌnʌmbɚ ɪz faɪv faɪv faɪv | ˈzɪroʊ wʌn | wʌn naɪn | kɔl mi ɑn ˈθɝzdeɪ">Hi. My name is Sara Khalil. I'm thirty. My phone number is five five five, zero one, one nine. Call me on Thursday.</phoneme></lang>
+
+Speaker 1: الرسالة فيها أربع خانات: الاسم، العمر، رقم الهاتف، واليوم المناسب.
+
+Speaker 1: الاسم بدأ بإشارة واضحة:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="maɪ neɪm ɪz ˈsɑrə kəˈliːl">My name is Sara Khalil.</phoneme></lang>
+
+Speaker 1: لو الاسم مش واضح، نقدر نطلب تهجئته بدل التخمين.
+
+Speaker 1: [POLITE REPAIR] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="kæn ju spɛl ðæt">Can you spell that?</phoneme></lang>
+
+Speaker 1: [SEPARATE LETTER NAMES] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="keɪ | eɪtʃ | eɪ | ɛl | aɪ | ɛl">K-H-A-L-I-L.</phoneme></lang>
+
+Speaker 1: بعد الاسم سمعنا العمر:
+
+Speaker 1: [FINAL STRESS] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="aɪm ˈθɝti">I'm thirty.</phoneme></lang>
+
+Speaker 1: وهنا لازم نفرّق بين عددين قريبين في الشكل.
+
+Speaker 1: [CONTRAST, FINAL STRESS] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˌθɝˈtiːn">thirteen.</phoneme></lang>
+
+Speaker 1: [CONTRAST, FIRST STRESS] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈθɝti">thirty.</phoneme></lang>
+
+Speaker 1: في الأول، الجزء الأخير أوضح وأطول. في الثاني، أول جزء هو الأوضح. لو الرقم مهم وما وصلش، اطلب تكراره.
+
+Speaker 1: [REPAIR] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈsɑri | ˌθɝˈtiːn ɔr ˈθɝti">Sorry, thirteen or thirty?</phoneme></lang>
+
+Speaker 1: مش بنستخدم النبر كقاعدة سحرية وحدها؛ نسمع الكلمة كاملة ونتأكد لو المعنى مهم.
+
+Speaker 1: رقم الهاتف بدأ بالعبارة:
+
+Speaker 1: [CLEAR CHUNK] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="maɪ ˈfoʊn ˌnʌmbɚ ɪz">My phone number is.</phoneme></lang>
+
+Speaker 1: عبارة <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈfoʊn ˌnʌmbɚ">phone number</phoneme></lang> تُسمع كوحدة، وأول كلمة فيها أوضح شوية.
+
+Speaker 1: في الهاتف، كل رقم يظل رقمًا منفصلًا.
+
+Speaker 1: [CLEAR, EVEN PACE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈzɪroʊ | wʌn | tuː | θriː | fɔr | faɪv | sɪks | ˈsɛvən | eɪt | naɪn">zero, one, two, three, four, five, six, seven, eight, nine.</phoneme></lang>
+
+Speaker 1: خد بالك من <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="θriː">three</phoneme></lang> بصوت طويل واضح، ومن <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="sɪks">six</phoneme></lang> بصوت أقصر. الهدف إن الرقم المقصود يوصل، ولو ما وصلش نصلحه.
+
+Speaker 1: الصفر ممكن تسمعه:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈzɪroʊ">zero.</phoneme></lang>
+
+Speaker 1: أو داخل رقم هاتف:
+
+Speaker 1: [CLEARLY] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="oʊ">oh.</phoneme></lang>
+
+Speaker 1: أفضل طريقة تحافظ على الترتيب هي المجموعات القصيرة.
+
+Speaker 1: [GROUPED] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="faɪv faɪv faɪv | ˈzɪroʊ wʌn | wʌn naɪn">five five five | zero one | one nine.</phoneme></lang>
+
+Speaker 1: أما خارج رقم الهاتف، الأعداد من عشرين لتسعة وتسعين غالبًا تتبني من عشرات وبعدها رقم.
+
+Speaker 1: [CLEAR CONTRAST] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈfɔrti | ˈfɔrti tuː | wʌn ˈhʌndrəd">forty, forty-two, one hundred.</phoneme></lang>
+
+Speaker 1: لكن جوه الهاتف ما نقولش اثنين وأربعين بدل أربعة اثنين. نسجل كل خانة زي ما اتقالت.
+
+Speaker 1: آخر تفصيلة هي اليوم. اسمع أيام الأسبوع كوحدات معروفة.
+
+Speaker 1: [EVEN PACE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈmʌndeɪ | ˈtuːzdeɪ | ˈwɛnzdeɪ | ˈθɝzdeɪ | ˈfraɪdeɪ | ˈsætɚdeɪ | ˈsʌndeɪ">Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.</phoneme></lang>
+
+Speaker 1: الرسالة قالت:
+
+Speaker 1: [KEY DAY CLEAR] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="kɔl mi ɑn ˈθɝzdeɪ">Call me on Thursday.</phoneme></lang>
+
+Speaker 1: صوت بداية <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ˈθɝzdeɪ">Thursday</phoneme></lang> قريب من صوت <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="θriː">three</phoneme></lang>. لو اتبدل الصوت لكن اليوم ما زال واضحًا، ما نوقفش التواصل. نطلب إصلاحًا فقط لو التفصيلة ضاعت.
+
+Speaker 1: نسمع رسالة ثانية.
+
+Speaker 1: [NATURAL A1 PACE] <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="ðɪs ɪz ˈoʊmɑr | aɪm ˌfɪfˈtiːn | maɪ ˈfoʊn ˌnʌmbɚ ɪz tuː oʊ sɪks | fɔr eɪt | ˈsɛvən θriː | kɔl mi ɑn ˈmʌndeɪ">This is Omar. I'm fifteen. My phone number is two oh six, four eight, seven three. Call me on Monday.</phoneme></lang>
+
+Speaker 1: العمر خمسة عشر، مش خمسين. والصفر اتقال <lang xml:lang="en-US"><phoneme alphabet="ipa" ph="oʊ">oh</phoneme></lang>. واليوم هو الاثنين.
+
+Speaker 1: بعد الفيديو هتتدرب على الأعداد المتقاربة والمجموعات، ثم تسجل اسم وعمر ورقم ويوم من رسالة جديدة من غير نص.
+
+Speaker 1: [ENCOURAGING] اسمع نوع التفصيلة، خزنها في مجموعات، واتأكد بدل ما تخمّن. الدقة أهم من السرعة."""

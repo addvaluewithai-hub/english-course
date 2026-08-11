@@ -1,0 +1,12 @@
+{
+  "schema_version": 2,
+  "accent": "General American",
+  "usage": "Synthesis reference only; no pronunciation target is assessed.",
+  "entries": [
+    {
+      "text": "Can you spell your last name, please?",
+      "ipa": "/kæn ju spɛl jɚ læst neɪm pliːz/"
+    }
+  ],
+  "curriculum_target_ids": []
+}

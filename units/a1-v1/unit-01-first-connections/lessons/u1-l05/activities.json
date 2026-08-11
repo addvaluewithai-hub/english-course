@@ -1,0 +1,63 @@
+{
+  "schema_version": 2,
+  "delivery": {
+    "placement": "after_video_explanation",
+    "interaction_during_video": false,
+    "sequence": "comprehension_then_application_then_production"
+  },
+  "activities": [
+    {
+      "id": "teen_ty",
+      "type": "listening_choice",
+      "prompt_ar": "اختر العدد المسموع.",
+      "contrasts": [
+        [
+          "thirteen",
+          "thirty"
+        ],
+        [
+          "fifteen",
+          "fifty"
+        ]
+      ]
+    },
+    {
+      "id": "number_range",
+      "type": "dictation",
+      "prompt_ar": "سجل أعدادًا جديدة من صفر إلى مئة.",
+      "items": [
+        6,
+        13,
+        30,
+        42,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "phone_grouping",
+      "type": "capture",
+      "prompt_ar": "اسمع مجموعات هاتف واكتب كل رقم بالترتيب.",
+      "transcript_hidden": true
+    },
+    {
+      "id": "day_match",
+      "type": "listening_choice",
+      "prompt_ar": "اختر اليوم المذكور من أيام متجاورة.",
+      "transcript_hidden": true
+    },
+    {
+      "id": "guided_contact_capture",
+      "type": "listening_capture",
+      "prompt_ar": "اسمع رسالة خيالية وسجل الاسم والعمر والهاتف واليوم.",
+      "fields": [
+        "name",
+        "age",
+        "phone",
+        "day"
+      ],
+      "model_hidden": true
+    }
+  ],
+  "curriculum_rule": "Application follows the video; mastery is a fresh unsupported task."
+}

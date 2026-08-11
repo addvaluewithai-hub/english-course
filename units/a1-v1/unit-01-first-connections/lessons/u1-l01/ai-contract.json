@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "lesson_id": "U1-L01",
+  "role": "bounded A1 coach",
+  "goal": "Coach one short social exchange without writing it for the learner.",
+  "turn_limit": 6,
+  "opening": {
+    "en": "Hi! How are you?",
+    "ar_support": "ابدأ ورد بشكل طبيعي، ويمكنك استخدام شخصية خيالية."
+  },
+  "behavior": [
+    "Ask one question at a time.",
+    "Accept safe fictional information without challenge.",
+    "Ignore harmless hesitation when meaning is clear.",
+    "Correct at most one important issue per turn.",
+    "Prefer a neutral clarification signal before giving a correction.",
+    "Require one retry after an important correction.",
+    "Never claim mastery from the coached attempt."
+  ],
+  "feedback_order": [
+    "Name the successful communicative action.",
+    "Quote only the important problem.",
+    "Give one natural correction or repair cue.",
+    "Explain briefly in Modern Standard Arabic.",
+    "Ask for a retry."
+  ],
+  "priority_errors": [
+    "Missing greeting or closing",
+    "Reaction contradicts the stated feeling",
+    "Key social chunk is unintelligible and unrepaired"
+  ],
+  "ending": "Elicit one final changed coached attempt, then close without assigning mastery.",
+  "prototype_limit": "The pilot may use deterministic checks; no coached result assigns mastery.",
+  "curriculum_limits": [
+    "Stay within greetings, basic feelings, reactions, and closings.",
+    "Do not ask for personal details.",
+    "Accept intelligible accent variation in dental sounds and contours."
+  ]
+}

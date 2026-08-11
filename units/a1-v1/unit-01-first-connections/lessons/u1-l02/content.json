@@ -1,0 +1,148 @@
+{
+  "situation": {
+    "title_ar": "موقف اليوم",
+    "prompt_ar": "تسمع رسالة صوتية من عضو جديد وتحتاج معرفة الشخص وأهم تفاصيله.",
+    "success_ar": "تعرف الشخص وتستخرج ثلاث معلومات من غير ترجمة كل كلمة."
+  },
+  "model": {
+    "speaker": "Alex",
+    "lines": [
+      "Hi. I'm Alex.",
+      "I'm from Canada.",
+      "I live in Cairo.",
+      "I'm an engineer."
+    ],
+    "gist_question_ar": "من الشخص، وما أنواع المعلومات التي قالها؟",
+    "gist_answer": [
+      "Alex",
+      "origin",
+      "residence",
+      "role"
+    ]
+  },
+  "notice": [
+    {
+      "chunk": "I'm Alex.",
+      "meaning_ar": "المتكلم يذكر اسمه",
+      "referent": "I"
+    },
+    {
+      "chunk": "He's from Egypt.",
+      "meaning_ar": "المعلومة عن رجل مذكور",
+      "referent": "he"
+    },
+    {
+      "chunk": "She's a teacher.",
+      "meaning_ar": "المعلومة عن امرأة مذكورة",
+      "referent": "she"
+    },
+    {
+      "chunk": "country / city",
+      "meaning_ar": "نوع المكان المطلوب"
+    }
+  ],
+  "explanation_ar": [
+    "في السماع الأول التقط الشخص والموضوع، وفي الثاني التقط التفاصيل.",
+    "I تعني أن المتكلم يتحدث عن نفسه؛ he وshe يربطان المعلومة بشخص مذكور.",
+    "I'm وhe's وshe's اختصارات شائعة يجب التعرف عليها كوحدة.",
+    "وجود معلومة صحيحة مع الشخص الخطأ يُعد خطأ معنى أساسي."
+  ],
+  "toolkit": {
+    "self_signals": [
+      "I'm …",
+      "I'm from …",
+      "I'm in …"
+    ],
+    "other_person_signals": [
+      "This is …",
+      "He's …",
+      "She's …"
+    ],
+    "detail_types": [
+      "name",
+      "country",
+      "city",
+      "job"
+    ]
+  },
+  "pronunciation": [
+    {
+      "focus": "I'm",
+      "tip_ar": "اسمعها كوحدة واحدة تدل على I am."
+    },
+    {
+      "focus": "he's / she's",
+      "tip_ar": "الصوت الأخير جزء من is هنا، وليس كلمة جديدة."
+    }
+  ],
+  "schema_version": 2,
+  "delivery": {
+    "primary_explanation": "video/single-teacher",
+    "scene": "video/scene.txt",
+    "sample_context": "video/sample-context.txt",
+    "transcript": "video/transcript.txt",
+    "readable_equivalent": true,
+    "interaction_starts_after_video": true
+  },
+  "curriculum_alignment": {
+    "introduce_item_ids": [
+      "grammar.be_affirmative",
+      "grammar.personal_pronouns",
+      "lexical.identity_place_labels"
+    ],
+    "fresh_recycle_item_ids": [
+      "a1_pronunciation.frequent_contractions"
+    ],
+    "consolidate_item_ids": [],
+    "bounded_scope_notes": [
+      "Introduce present be in clear identity, state, role, and location chunks.",
+      "Use I, he, and she to establish reference; other pronouns remain supported exposure.",
+      "Recognise I'm, he's, and she's in slow connected speech.",
+      "Recognise country, city, and familiar place labels as information types."
+    ],
+    "not_yet": [
+      "full pronoun paradigm production",
+      "present-simple third-person instruction",
+      "unsupported fast or noisy listening"
+    ],
+    "target_coverage": {
+      "grammar.be_affirmative": {
+        "role": "introduce",
+        "video_anchor": "I'm Alex.",
+        "post_video_activity_ids": [
+          "gist_before_detail",
+          "referent_match",
+          "guided_fresh_listen"
+        ],
+        "mastery_evidence": "Recover identity, role, and location from fresh be chunks."
+      },
+      "grammar.personal_pronouns": {
+        "role": "introduce",
+        "video_anchor": "I, he, she",
+        "post_video_activity_ids": [
+          "referent_match",
+          "guided_fresh_listen"
+        ],
+        "mastery_evidence": "Attribute each detail to the correct speaker or named person."
+      },
+      "lexical.identity_place_labels": {
+        "role": "introduce",
+        "video_anchor": "country",
+        "post_video_activity_ids": [
+          "gist_before_detail",
+          "guided_fresh_listen"
+        ],
+        "mastery_evidence": "Capture origin and location as the requested detail types."
+      },
+      "a1_pronunciation.frequent_contractions": {
+        "role": "fresh_recycle",
+        "video_anchor": "he's",
+        "post_video_activity_ids": [
+          "contraction_meaning",
+          "guided_fresh_listen"
+        ],
+        "mastery_evidence": "Recognise clear fresh I'm, he's, or she's chunks."
+      }
+    }
+  }
+}

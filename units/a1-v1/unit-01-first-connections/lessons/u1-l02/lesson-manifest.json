@@ -1,0 +1,98 @@
+{
+  "schema_version": 2,
+  "lesson_id": "U1-L02",
+  "status": "pilot10_v1_qa_ready",
+  "candidate_id": "lesson_candidate.understand_spoken_personal_introductions",
+  "source_packet": "source-packet.json",
+  "title": {
+    "en": "Understand an Introduction",
+    "ar": "افهم تقديم شخص لنفسه"
+  },
+  "goal": {
+    "en": "In a fresh clear introduction, the learner can identify the speaker's main personal information without a transcript.",
+    "ar": "أن تفهم تقديم صوتي جديد وتلتقط المعلومات الأساسية من غير نص مكتوب."
+  },
+  "learner": "Arabic-speaking adult beginner at A1",
+  "scope": {
+    "required_details": [
+      "person",
+      "name",
+      "three personal facts"
+    ],
+    "performance": "two full listens without transcript",
+    "time_hypothesis_minutes": "20-30"
+  },
+  "section_order": [
+    "video_explanation",
+    "applied_questions",
+    "guided_practice",
+    "ai_practice",
+    "fresh_mastery",
+    "teach_back_variant",
+    "review"
+  ],
+  "video": {
+    "provider": "Gemini TTS",
+    "format": "bilingual_single_teacher_video",
+    "directory": "video",
+    "speaker_count": 1,
+    "arabic_voice": "natural Egyptian Arabic",
+    "english_pronunciation": "General American with inline SSML IPA",
+    "interaction_during_video": false,
+    "interaction_starts_after_video": true
+  },
+  "variants": {
+    "teach_back": "Explain how I, he, or she identifies whose information follows.",
+    "omit": "Matched close without teach-back."
+  },
+  "non_goals": [
+    "Producing a complete self-introduction",
+    "Understanding every word",
+    "Fast reduced speech",
+    "Full productive control of all personal pronouns"
+  ],
+  "privacy": [
+    "The learner may use fictional safe information.",
+    "No microphone permission or raw-answer retention is required."
+  ],
+  "accessibility": [
+    "Every spoken model has visible text.",
+    "All controls are keyboard reachable.",
+    "Colour is never the only feedback signal.",
+    "Arabic and English reading directions are explicit."
+  ],
+  "unit_id": "a1.unit01.first_connections",
+  "global_sequence_position": 2,
+  "scope_sequence_ref": "data/reviewed/a1-scope-and-sequence-v1.json",
+  "pilot_release_ref": "data/reviewed/a1-first-10-lessons-pilot-v1.json",
+  "prototype_lineage": {
+    "old_lesson_id": "U1-L02",
+    "old_content_path": "units/unit-01-first-connections/lessons/u1-l02",
+    "reuse_status": "prototype_requires_rebuild_to_v1_scope"
+  },
+  "prerequisites": [
+    "U1-L01"
+  ],
+  "curriculum_boundary": {
+    "introduce_item_ids": [
+      "grammar.be_affirmative",
+      "grammar.personal_pronouns",
+      "lexical.identity_place_labels"
+    ],
+    "fresh_recycle_item_ids": [
+      "a1_pronunciation.frequent_contractions"
+    ],
+    "consolidate_item_ids": [],
+    "bounded_scope_notes": [
+      "Introduce present be in clear identity, state, role, and location chunks.",
+      "Use I, he, and she to establish reference; other pronouns remain supported exposure.",
+      "Recognise I'm, he's, and she's in slow connected speech.",
+      "Recognise country, city, and familiar place labels as information types."
+    ],
+    "not_yet": [
+      "full pronoun paradigm production",
+      "present-simple third-person instruction",
+      "unsupported fast or noisy listening"
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "situation": {
+    "title_ar": "موقف اليوم",
+    "prompt_ar": "تسمع شخصًا يصف أفرادًا خياليين وتحتاج ترتيب الحقائق.",
+    "success_ar": "كل علاقة واسم ووصف أو عمل يظل مع صاحبه الصحيح."
+  },
+  "model": {
+    "family_size": 5,
+    "people": [
+      {
+        "relationship": "mother",
+        "name": "Huda",
+        "facts": [
+          "doctor",
+          "friendly"
+        ]
+      },
+      {
+        "relationship": "brother",
+        "name": "Karim",
+        "facts": [
+          "tall and quiet",
+          "has a dog"
+        ]
+      }
+    ],
+    "gist_question_ar": "من الشخصان المذكوران وما حقيقتان عن كل واحد؟"
+  },
+  "notice": [
+    {
+      "signal": "This is my mother.",
+      "action": "open mother card"
+    },
+    {
+      "signal": "Her name is Huda.",
+      "action": "attach name to mother"
+    },
+    {
+      "signal": "This is my brother Karim.",
+      "action": "open brother card"
+    },
+    {
+      "signal": "He's tall and quiet.",
+      "action": "attach descriptions to Karim"
+    }
+  ],
+  "explanation_ar": [
+    "افتح بطاقة ذهنية جديدة عند علاقة أو اسم جديد.",
+    "استخدم person/people وman/men وchild/children عندما لا تُذكر علاقة محددة.",
+    "لا تستنتج صفات الشخصية من الصورة؛ اعتمد على ما قيل أو ظهر بوضوح في المهمة.",
+    "اطلب في كل استماع اسمًا أو علاقة ثم حقيقتين، بدل مطاردة كل كلمة."
+  ],
+  "toolkit": {
+    "people": [
+      "person",
+      "people",
+      "man",
+      "woman",
+      "adult",
+      "child",
+      "children"
+    ],
+    "relationships": [
+      "mother",
+      "father",
+      "brother",
+      "sister",
+      "cousin",
+      "grandparent",
+      "partner"
+    ],
+    "descriptions": [
+      "tall",
+      "short",
+      "young",
+      "old",
+      "friendly",
+      "quiet",
+      "busy",
+      "funny",
+      "nice",
+      "blonde hair"
+    ]
+  },
+  "pronunciation": [
+    {
+      "focus": "f / v",
+      "tip_ar": "حافظ على وضوح family/five وvery/seven عندما تتغير التفصيلة."
+    },
+    {
+      "focus": "man / men",
+      "tip_ar": "اسمع الكلمة مع العدد والسياق ولا تعتمد على حركة واحدة فقط."
+    }
+  ],
+  "schema_version": 2,
+  "delivery": {
+    "primary_explanation": "video/single-teacher",
+    "scene": "video/scene.txt",
+    "sample_context": "video/sample-context.txt",
+    "transcript": "video/transcript.txt",
+    "readable_equivalent": true,
+    "interaction_starts_after_video": true
+  },
+  "curriculum_alignment": {
+    "introduce_item_ids": [
+      "lexical.basic_people",
+      "lexical.people_appearance_manner",
+      "a1_pronunciation.f_v_contrast",
+      "a1_pronunciation.front_central_vowels"
+    ],
+    "fresh_recycle_item_ids": [
+      "lexical.family_core",
+      "lexical.extended_family_life"
+    ],
+    "consolidate_item_ids": [],
+    "bounded_scope_notes": [
+      "Introduce basic people words and evidence-supported appearance or manner descriptions for identification.",
+      "Recycle only task-provided or voluntary family and personal-life vocabulary.",
+      "Use /f/-/v/ and selected front/central vowels only where a key person, family word, or number could change."
+    ],
+    "not_yet": [
+      "free family interview",
+      "detailed appearance production",
+      "personality inference",
+      "fast overlapping talk"
+    ],
+    "target_coverage": {
+      "lexical.basic_people": {
+        "role": "introduce",
+        "video_anchor": "person, people, man, woman",
+        "post_video_activity_ids": [
+          "people_word",
+          "person_cards",
+          "guided_map"
+        ],
+        "mastery_evidence": "Choose the people map and keep all people distinct."
+      },
+      "lexical.people_appearance_manner": {
+        "role": "introduce",
+        "video_anchor": "tall, short, young, old",
+        "post_video_activity_ids": [
+          "evidence_only_description",
+          "person_cards",
+          "guided_map"
+        ],
+        "mastery_evidence": "Use only supplied descriptions to identify a fresh person."
+      },
+      "a1_pronunciation.f_v_contrast": {
+        "role": "introduce",
+        "video_anchor": "five, very, family, seven",
+        "post_video_activity_ids": [
+          "sound_meaning",
+          "guided_map"
+        ],
+        "mastery_evidence": "Repair only if a key person, family word, or number changes."
+      },
+      "a1_pronunciation.front_central_vowels": {
+        "role": "introduce",
+        "video_anchor": "man, men",
+        "post_video_activity_ids": [
+          "people_word",
+          "sound_meaning",
+          "guided_map"
+        ],
+        "mastery_evidence": "Use context or repair to preserve the person/people distinction."
+      },
+      "lexical.family_core": {
+        "role": "fresh_recycle",
+        "video_anchor": "This is my mother.",
+        "post_video_activity_ids": [
+          "person_cards",
+          "guided_map"
+        ],
+        "mastery_evidence": "Map fresh core relationships to the right people."
+      },
+      "lexical.extended_family_life": {
+        "role": "fresh_recycle",
+        "video_anchor": "This is my cousin Layla.",
+        "post_video_activity_ids": [
+          "person_cards",
+          "guided_map"
+        ],
+        "mastery_evidence": "Map a supplied extended relationship without personal disclosure."
+      }
+    }
+  }
+}

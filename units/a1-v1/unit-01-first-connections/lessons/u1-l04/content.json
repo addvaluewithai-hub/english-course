@@ -1,0 +1,209 @@
+{
+  "situation": {
+    "title_ar": "موقف اليوم",
+    "prompt_ar": "تحتاج تبادل أربع معلومات مع زميل جديد، واسم واحد قد لا يكون واضحًا.",
+    "success_ar": "كل سؤال يستخرج المعلومة المقصودة وأي سوء سماع يتم إصلاحه."
+  },
+  "model": {
+    "roles": [
+      "Nina",
+      "Mona"
+    ],
+    "lines": [
+      "What's your name?",
+      "I'm Mona.",
+      "Where are you from?",
+      "I'm from Egypt."
+    ],
+    "gist_question_ar": "أي معلومة طلبها كل سؤال؟",
+    "gist_answer": [
+      "name",
+      "origin"
+    ]
+  },
+  "notice": [
+    {
+      "chunk": "What's your name?",
+      "field": "name"
+    },
+    {
+      "chunk": "Where are you from?",
+      "field": "origin"
+    },
+    {
+      "chunk": "Where do you live?",
+      "field": "residence"
+    },
+    {
+      "chunk": "What's your job?",
+      "field": "job"
+    },
+    {
+      "chunk": "Can you spell that?",
+      "field": "repair_name"
+    }
+  ],
+  "explanation_ar": [
+    "اختر السؤال حسب المعلومة الناقصة، ولا تقدم فقرة كاملة بدل إجابة محددة.",
+    "Are you ...? مناسب للتأكد، وتأتي معه إجابة قصيرة واضحة.",
+    "طلب التكرار أو التهجئة مهارة تواصل، وليس فشلًا.",
+    "في التصحيح اجعل التفصيلة المصححة أوضح من بقية الجملة من غير صراخ."
+  ],
+  "toolkit": {
+    "questions": [
+      "What's your name?",
+      "Where are you from?",
+      "Where do you live?",
+      "What's your job?"
+    ],
+    "checks": [
+      "Are you a teacher?",
+      "Is that Mona?"
+    ],
+    "repair": [
+      "Can you spell that?",
+      "Please say that again.",
+      "Yes, that's right."
+    ],
+    "jobs": [
+      "teacher",
+      "doctor",
+      "nurse",
+      "driver",
+      "manager",
+      "cook"
+    ]
+  },
+  "pronunciation": [
+    {
+      "focus": "letter names",
+      "tip_ar": "استخدم اسم الحرف لتأكيد الاسم بدل تخمين صوته."
+    },
+    {
+      "focus": "key detail",
+      "tip_ar": "اجعل الاسم أو المعلومة المصححة أوضح فقط."
+    },
+    {
+      "focus": "repair",
+      "tip_ar": "أعد الجزء المهم أبطأ أو هجّئه إذا لم يصل."
+    }
+  ],
+  "schema_version": 2,
+  "delivery": {
+    "primary_explanation": "video/single-teacher",
+    "scene": "video/scene.txt",
+    "sample_context": "video/sample-context.txt",
+    "transcript": "video/transcript.txt",
+    "readable_equivalent": true,
+    "interaction_starts_after_video": true
+  },
+  "curriculum_alignment": {
+    "introduce_item_ids": [
+      "grammar.be_questions",
+      "grammar.information_question_frames",
+      "lexical.familiar_jobs",
+      "lexical.personal_question_frames",
+      "lexical.contact_repair_frames",
+      "a1_pronunciation.spelling_sound_verification",
+      "a1_pronunciation.key_information_prominence",
+      "a1_pronunciation.pronunciation_repair"
+    ],
+    "fresh_recycle_item_ids": [
+      "a1_pronunciation.question_social_contours"
+    ],
+    "consolidate_item_ids": [],
+    "bounded_scope_notes": [
+      "Use selected be questions and short answers for identity, job, and origin checks.",
+      "Treat high-utility wh-questions as usable frames, not a full auxiliary lesson.",
+      "Repair one unclear key detail by repetition, confirmation, or spelling.",
+      "Use prominence only to highlight the corrected detail."
+    ],
+    "not_yet": [
+      "open-ended interviewing",
+      "full do/does contrast",
+      "complete alphabet instruction"
+    ],
+    "target_coverage": {
+      "grammar.be_questions": {
+        "role": "introduce",
+        "video_anchor": "Are you a teacher?",
+        "post_video_activity_ids": [
+          "short_answer_check",
+          "guided_information_gap"
+        ],
+        "mastery_evidence": "Ask or answer a fresh identity or origin check."
+      },
+      "grammar.information_question_frames": {
+        "role": "introduce",
+        "video_anchor": "Where do you live?",
+        "post_video_activity_ids": [
+          "question_to_field",
+          "guided_information_gap"
+        ],
+        "mastery_evidence": "Retrieve the intended missing detail."
+      },
+      "lexical.familiar_jobs": {
+        "role": "introduce",
+        "video_anchor": "teacher, doctor, nurse",
+        "post_video_activity_ids": [
+          "short_answer_check",
+          "guided_information_gap"
+        ],
+        "mastery_evidence": "Use the fitting supplied or personally required job."
+      },
+      "lexical.personal_question_frames": {
+        "role": "introduce",
+        "video_anchor": "What's your name?",
+        "post_video_activity_ids": [
+          "question_to_field",
+          "guided_information_gap"
+        ],
+        "mastery_evidence": "Select four fitting questions for the new gap."
+      },
+      "lexical.contact_repair_frames": {
+        "role": "introduce",
+        "video_anchor": "Can you spell that?",
+        "post_video_activity_ids": [
+          "repair_choice",
+          "guided_information_gap"
+        ],
+        "mastery_evidence": "Use one repair if a key detail is unclear."
+      },
+      "a1_pronunciation.spelling_sound_verification": {
+        "role": "introduce",
+        "video_anchor": "M-O-N-A",
+        "post_video_activity_ids": [
+          "repair_choice",
+          "guided_information_gap"
+        ],
+        "mastery_evidence": "Spell or verify a fresh unclear name."
+      },
+      "a1_pronunciation.key_information_prominence": {
+        "role": "introduce",
+        "video_anchor": "My NAME is MONA.",
+        "post_video_activity_ids": [
+          "guided_information_gap"
+        ],
+        "mastery_evidence": "Make the corrected detail prominent without shouting."
+      },
+      "a1_pronunciation.pronunciation_repair": {
+        "role": "introduce",
+        "video_anchor": "Please say that again.",
+        "post_video_activity_ids": [
+          "repair_choice",
+          "guided_information_gap"
+        ],
+        "mastery_evidence": "Repeat, slow, or spell a key item after a signal."
+      },
+      "a1_pronunciation.question_social_contours": {
+        "role": "fresh_recycle",
+        "video_anchor": "What's your name?",
+        "post_video_activity_ids": [
+          "question_to_field",
+          "guided_information_gap"
+        ],
+        "mastery_evidence": "A partner identifies the fresh utterance as a question."
+      }
+    }
+  }
+}

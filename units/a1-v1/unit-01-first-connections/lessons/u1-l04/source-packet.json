@@ -1,0 +1,221 @@
+{
+  "schema_version": 2,
+  "packet_id": "a1.pilot10.U1-L04.sources",
+  "lesson_id": "U1-L04",
+  "unit_id": "a1.unit01.first_connections",
+  "candidate_id": "lesson_candidate.exchange_personal_details_orally",
+  "inputs": [
+    {
+      "path": "data/reviewed/a1-first-10-lessons-pilot-v1.json",
+      "sha256": "cb408fd8aa17678b35924efb3b87f44438eb7f0014128ac20af971a3e085520f"
+    },
+    {
+      "path": "data/reviewed/a1-scope-and-sequence-v1.json",
+      "sha256": "fa2e07fc4d7fc6727625777a835ea7ebff12d4759cb70090368292864a4a7a7a"
+    },
+    {
+      "path": "data/reviewed/a1-final-candidate-decisions-v1.json",
+      "sha256": "11b68e1653c726f611aa4052aafe314894169670d943c46ee0d6a76c79a48e15"
+    },
+    {
+      "path": "data/reviewed/a1-grammar-coverage-ownership-v1.json",
+      "sha256": "460556945fa7fc31e5f20eab50477f59dbfe9fc781f7f1b45db210470584ea4d"
+    },
+    {
+      "path": "data/reviewed/a1-lexical-chunk-ownership-v1.json",
+      "sha256": "35601d0831d7c2c0dd069a9cf6b5dc4e64c89b6ef9a840154475ea232dbdd4eb"
+    },
+    {
+      "path": "data/reviewed/a1-pronunciation-ownership-v1.json",
+      "sha256": "9cb0f2b8ce3d041053e67086d8e821c699f57504bfd006252e1970389cb353e8"
+    },
+    {
+      "path": "units/unit-01-first-connections/lessons/u1-l03/source-packet.json",
+      "sha256": "4929047c068a5da12eadcc52373e7d17d22308bb5da3afdba1c8c3694368b065"
+    }
+  ],
+  "outcome_statement": "In a fresh short exchange, the learner can ask and answer direct personal-detail questions without a dialogue model.",
+  "source_candidate_ids": [
+    "lesson_candidate.exchange_personal_details_orally"
+  ],
+  "prior_lesson_ids": [
+    "U1-L01",
+    "U1-L02",
+    "U1-L03"
+  ],
+  "exact_introductions": [
+    {
+      "item_id": "grammar.be_questions",
+      "label": "Present be: questions and short answers",
+      "bounded_scope": "Ask and answer direct questions about identity, state, description, and location.",
+      "source_refs": [
+        "1741163708336x928067678664856700",
+        "1741163713867x150062658595893500",
+        "gse.grammar.2023.p07.011",
+        "gse.grammar.2023.p07.012",
+        "gse.grammar.2023.p08.005"
+      ],
+      "later_boundary": "Embedded questions and question tags wait for later levels."
+    },
+    {
+      "item_id": "grammar.information_question_frames",
+      "label": "High-utility information question frames",
+      "bounded_scope": "Obtain the identity, place, time, price, or quantity needed in a predictable exchange.",
+      "source_refs": [
+        "1741163713867x609205291409504700",
+        "gse.grammar.2023.p07.001",
+        "gse.grammar.2023.p07.011",
+        "gse.grammar.2023.p07.012",
+        "gse.grammar.2023.p08.005",
+        "gse.grammar.2023.p08.009",
+        "gse.grammar.2023.p09.001",
+        "gse.grammar.2023.p09.002"
+      ],
+      "later_boundary": "Why, which, whose, how long, and open-ended follow-up systems wait."
+    },
+    {
+      "item_id": "lexical.familiar_jobs",
+      "label": "familiar adult jobs",
+      "bounded_scope": "Use a fitting job from the set or the learner's personally required job label.",
+      "source_refs": [
+        "oxford.o3000.p01.166",
+        "oxford.o3000.p01.212",
+        "oxford.o3000.p01.222",
+        "oxford.o3000.p02.164",
+        "oxford.o3000.p03.011",
+        "oxford.o3000.p03.079",
+        "oxford.o3000.p03.239",
+        "oxford.o3000.p04.046",
+        "oxford.o3000.p04.085",
+        "cefr.cv2020.p066.a1.overall_written_production.001",
+        "cefr.cv2020.p074.a1.conversation.003",
+        "cefr.cv2020.p079.a1.information_exchange.003",
+        "cefr.cv2020.p080.a1.interviewing_and_being_interviewed.001",
+        "gse.adult.2022.a1.p22.022",
+        "gse.adult.2022.a1.p23.002",
+        "gse.adult.2022.a1.p23.004",
+        "gse.adult.2022.a1.p23.005",
+        "gse.adult.2022.a1.p23.008",
+        "gse.adult.2022.a1.p23.012",
+        "gse.adult.2022.a1.p37.005",
+        "gse.adult.2022.a1.p37.014"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "lexical.personal_question_frames",
+      "label": "personal-information question frames",
+      "bounded_scope": "Select and ask the frame that retrieves the missing detail in a fresh information gap.",
+      "source_refs": [
+        "oxford.o3000.p02.135",
+        "oxford.o3000.p02.164",
+        "oxford.o3000.p02.202",
+        "oxford.o3000.p02.262",
+        "oxford.o3000.p03.010",
+        "oxford.o3000.p03.021",
+        "oxford.o3000.p03.062",
+        "oxford.o3000.p04.066",
+        "oxford.o3000.p04.068",
+        "cefr.cv2020.p079.a1.information_exchange.003",
+        "cefr.cv2020.p080.a1.interviewing_and_being_interviewed.001",
+        "cefr.cv2020.p082.a1.overall_written_interaction.001",
+        "cefr.cv2020.p084.a1.notes_messages_and_forms.001",
+        "gse.adult.2022.a1.p23.004",
+        "gse.adult.2022.a1.p23.008",
+        "gse.adult.2022.a1.p37.001",
+        "gse.adult.2022.a1.p37.011"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "lexical.contact_repair_frames",
+      "label": "contact-detail and spelling repair",
+      "bounded_scope": "Use one fitting repair frame when a fresh name or number is unclear.",
+      "source_refs": [
+        "oxford.o3000.p01.016",
+        "oxford.o3000.p01.122",
+        "oxford.o3000.p02.190",
+        "oxford.o3000.p02.279",
+        "oxford.o3000.p03.129",
+        "oxford.o3000.p03.142",
+        "oxford.o3000.p03.183",
+        "oxford.o3000.p03.202",
+        "oxford.o3000.p03.203",
+        "oxford.o3000.p04.095",
+        "cefr.cv2020.p079.a1.information_exchange.003",
+        "cefr.cv2020.p080.a1.interviewing_and_being_interviewed.001",
+        "cefr.cv2020.p084.a1.notes_messages_and_forms.001",
+        "gse.adult.2022.a1.p14.005",
+        "gse.adult.2022.a1.p15.011",
+        "gse.adult.2022.a1.p23.004",
+        "gse.adult.2022.a1.p23.008",
+        "gse.adult.2022.a1.p37.001",
+        "gse.adult.2022.a1.p37.011"
+      ],
+      "later_boundary": "Consolidation: a1"
+    },
+    {
+      "item_id": "a1_pronunciation.spelling_sound_verification",
+      "label": "Letter names and spelling-sound verification",
+      "bounded_scope": "Recognise the English letter name and check a heard model or IPA for irregular high-value spellings rather than applying one fixed letter-sound rule.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "later_boundary": "No full phonics or spelling-to-sound system is promised at A1."
+    },
+    {
+      "item_id": "a1_pronunciation.key_information_prominence",
+      "label": "Hear and highlight the key detail",
+      "bounded_scope": "Notice and imitate prominence on the name, number, price, time, destination, item, or need that carries the contrast.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "later_boundary": "Natural English rhythm, reductions, and native-like timing are not A1 mastery demands."
+    },
+    {
+      "item_id": "a1_pronunciation.pronunciation_repair",
+      "label": "Repeat, slow, or spell a key item to repair",
+      "bounded_scope": "Notice a listener signal and repair the key item through slower repetition, contrast, or spelling.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "later_boundary": "Repair success matters more than producing the reference model on the first attempt."
+    }
+  ],
+  "exact_recycles": [
+    {
+      "item_id": "a1_pronunciation.question_social_contours",
+      "label": "Recognisable social and question contours",
+      "bounded_scope": "Use or imitate a recognisable contour for a greeting, wh-question, yes/no check, and polite response while accepting variety.",
+      "source_refs": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ],
+      "later_boundary": "No single universal rise/fall pattern or emotion-reading claim is imposed."
+    }
+  ],
+  "exact_consolidations": [],
+  "mastery": {
+    "construct_id": "a1.u1.l04.personal_detail_exchange",
+    "fresh_task": "Ask for name, origin, residence, and job; answer the partner's changed questions.",
+    "support_boundary": "Detail icons only; no full question or answer frames.",
+    "critical_meaning": "Each question retrieves its intended detail and unclear key information is repaired."
+  },
+  "prototype_lineage": {
+    "path": "units/unit-01-first-connections/lessons/u1-l03/source-packet.json",
+    "sha256": "4929047c068a5da12eadcc52373e7d17d22308bb5da3afdba1c8c3694368b065",
+    "status": "traceable_prototype_input_not_automatically_accepted"
+  },
+  "review": {
+    "status": "accepted_for_pilot10_package_qa",
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-11"
+  }
+}

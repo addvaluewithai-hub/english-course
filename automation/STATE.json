@@ -3,17 +3,18 @@
   "project_status": "active",
   "execution_mode": "single_primary_agent_continuous",
   "scheduled_execution": "disabled_by_owner",
-  "active_phase": "phase_5_learner_test",
-  "last_completed_task": "TEST-001",
+  "active_phase": "phase_5_ten_lesson_pilot",
+  "last_completed_task": "PILOT10-003",
   "next_task": "TEST-002",
-  "updated_at": "2026-08-11T09:26:12+03:00",
+  "updated_at": "2026-08-11T13:10:00+03:00",
   "phase_gates": {
     "phase_0_foundation": "passed",
     "phase_1_learning_model": "passed",
     "phase_2_curriculum_audit": "passed",
     "phase_3_lesson_normalization": "passed",
     "phase_4_gold_lesson": "passed",
-    "phase_5_learner_test": "open",
+    "phase_5_learner_test": "expanded_by_owner_to_first_ten_progression_pilot",
+    "phase_5_ten_lesson_pilot": "instrument_ready_waiting_for_rendered_media_and_real_evidence",
     "phase_6_lesson_system": "locked",
     "phase_7_architecture": "locked",
     "phase_8_unit_1": "locked",
@@ -246,7 +247,7 @@
     "next_gate": "TEST-001_passed"
   },
   "learner_test_v1": {
-    "status": "complete_TEST_001_passed_ready_for_real_sessions",
+    "status": "complete_TEST_001_single_lesson_method_kit_retained",
     "study_id": "gold_lesson_u1_l03_pilot_v1",
     "target_completed_sessions": 8,
     "minimum_eligible_completed_sessions": 6,
@@ -263,17 +264,37 @@
     "synthetic_analysis_gate_effect": "simulation_only_no_gate_effect",
     "real_learner_sessions_completed": 0,
     "synthetic_records_cannot_satisfy_TEST_002": true,
-    "next_gate": "TEST-002"
+    "next_gate": "TEST-002_first_ten_progression_evidence"
+  },
+  "first_ten_lesson_pilot": {
+    "status": "PILOT10_003_complete_TEST_002_in_progress",
+    "release_contract": "data/reviewed/a1-first-10-lessons-pilot-v1.json",
+    "human_plan": "docs/PILOT_10_PRODUCTION_PLAN_V1.md",
+    "lesson_count": 10,
+    "unit1_lessons": 9,
+    "unit2_lessons": 1,
+    "exact_introductions": 49,
+    "fresh_recycles": 16,
+    "accepted_packages": 10,
+    "package_files": 120,
+    "packages_to_author_or_rebuild": 0,
+    "content_qa": "pass_for_continuous_prototype_pending_external_learner_evidence",
+    "learner_prototype": "prototype/first-ten/index.html",
+    "observer_instrument": "prototype/first-ten/observer.html",
+    "progression_protocol": "research/first-ten-pilot-v1/PROTOCOL.md",
+    "rendered_media": "not_yet_generated_or_listened_to",
+    "real_learner_sessions_completed": 0,
+    "downstream_system_gate": "locked_until_first_ten_progression_pilot_decision"
   },
   "repository_handoff": {
     "status": "current",
     "readme_and_handoff_match_machine_state": true,
-    "last_local_validation": "383_passed_0_failed",
+    "last_local_validation": "406_passed_0_failed",
     "scheduled_content_work": false
   },
   "last_full_validation": {
-    "passed_tests": 383,
+    "passed_tests": 406,
     "failed_tests": 0,
-    "validated_at": "2026-08-11T09:26:12+03:00"
+    "validated_at": "2026-08-11T13:14:00+03:00"
   }
 }

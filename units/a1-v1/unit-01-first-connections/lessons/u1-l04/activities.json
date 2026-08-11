@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "delivery": {
+    "placement": "after_video_explanation",
+    "interaction_during_video": false,
+    "sequence": "comprehension_then_application_then_production"
+  },
+  "activities": [
+    {
+      "id": "question_to_field",
+      "type": "match",
+      "prompt_ar": "طابق السؤال بالمعلومة التي يستخرجها.",
+      "pairs": [
+        [
+          "What's your name?",
+          "name"
+        ],
+        [
+          "Where are you from?",
+          "origin"
+        ],
+        [
+          "Where do you live?",
+          "residence"
+        ],
+        [
+          "What's your job?",
+          "job"
+        ]
+      ]
+    },
+    {
+      "id": "short_answer_check",
+      "type": "choice_set",
+      "prompt_ar": "اختر الإجابة المناسبة لسؤال التأكد.",
+      "items": [
+        {
+          "prompt": "Are you a nurse?",
+          "options": [
+            "Yes, I am.",
+            "Yes, you are."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Are you from Jordan?",
+          "options": [
+            "No, I'm not.",
+            "No, he isn't."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "repair_choice",
+      "type": "choice",
+      "prompt_ar": "لم تسمع الاسم. ماذا تقول؟",
+      "options": [
+        "Can you spell that?",
+        "Where do you live?",
+        "I'm a teacher."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "guided_information_gap",
+      "type": "production",
+      "prompt_ar": "اسأل شخصية خيالية عن أربع خانات وأجب عن أسئلتها. استخدم إصلاحًا واحدًا عند الحاجة.",
+      "fields": [
+        "name",
+        "origin",
+        "residence",
+        "job",
+        "repair"
+      ],
+      "model_hidden": true
+    }
+  ],
+  "curriculum_rule": "Application follows the video; mastery is a fresh unsupported task."
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "accent": "General American",
+  "usage": "Synthesis reference only; no pronunciation target is assessed.",
+  "entries": [
+    {
+      "text": "family",
+      "ipa": "/ˈfæməli/"
+    },
+    {
+      "text": "children",
+      "ipa": "/ˈtʃɪldrən/"
+    },
+    {
+      "text": "have / has",
+      "ipa": "/hæv/ /hæz/"
+    }
+  ],
+  "curriculum_target_ids": []
+}

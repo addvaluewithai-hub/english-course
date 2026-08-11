@@ -1,0 +1,100 @@
+{
+  "schema_version": 2,
+  "lesson_id": "U2-L01",
+  "status": "pilot10_v1_qa_ready",
+  "candidate_id": "lesson_candidate.understand_talk_about_people_and_family",
+  "source_packet": "source-packet.json",
+  "title": {
+    "en": "Understand Talk about Family",
+    "ar": "افهم كلام عن العائلة"
+  },
+  "goal": {
+    "en": "In a fresh slow conversation, the learner can identify basic facts about a person or family.",
+    "ar": "أن تفهم وصفًا صوتيًا بسيطًا لأشخاص أو عائلة وتنسب كل حقيقة للشخص الصحيح."
+  },
+  "learner": "Arabic-speaking adult beginner at A1",
+  "scope": {
+    "required_capture": [
+      "person or relationship",
+      "name",
+      "two basic facts"
+    ],
+    "performance": "three-person slow conversation or message without transcript",
+    "time_hypothesis_minutes": "30-40"
+  },
+  "section_order": [
+    "video_explanation",
+    "applied_questions",
+    "guided_practice",
+    "ai_practice",
+    "fresh_mastery",
+    "teach_back_variant",
+    "review"
+  ],
+  "video": {
+    "provider": "Gemini TTS",
+    "format": "bilingual_single_teacher_video",
+    "directory": "video",
+    "speaker_count": 1,
+    "arabic_voice": "natural Egyptian Arabic",
+    "english_pronunciation": "General American with inline SSML IPA",
+    "interaction_during_video": false,
+    "interaction_starts_after_video": true
+  },
+  "variants": {
+    "teach_back": "Explain how a new relationship or name starts a new person card.",
+    "omit": "Matched close without teach-back."
+  },
+  "non_goals": [
+    "Personal family disclosure",
+    "Judging personality from appearance",
+    "Detailed physical description",
+    "Fast multi-speaker audio"
+  ],
+  "privacy": [
+    "The learner may use fictional safe information.",
+    "No microphone permission or raw-answer retention is required."
+  ],
+  "accessibility": [
+    "Every spoken model has visible text.",
+    "All controls are keyboard reachable.",
+    "Colour is never the only feedback signal.",
+    "Arabic and English reading directions are explicit."
+  ],
+  "unit_id": "a1.unit02.people_routines_plans",
+  "global_sequence_position": 10,
+  "scope_sequence_ref": "data/reviewed/a1-scope-and-sequence-v1.json",
+  "pilot_release_ref": "data/reviewed/a1-first-10-lessons-pilot-v1.json",
+  "prototype_lineage": {
+    "old_lesson_id": null,
+    "old_content_path": null,
+    "reuse_status": "author_new_package"
+  },
+  "prerequisites": [
+    "U1-L08"
+  ],
+  "curriculum_boundary": {
+    "introduce_item_ids": [
+      "lexical.basic_people",
+      "lexical.people_appearance_manner",
+      "a1_pronunciation.f_v_contrast",
+      "a1_pronunciation.front_central_vowels"
+    ],
+    "fresh_recycle_item_ids": [
+      "lexical.family_core",
+      "lexical.extended_family_life"
+    ],
+    "consolidate_item_ids": [],
+    "bounded_scope_notes": [
+      "Introduce basic people words and evidence-supported appearance or manner descriptions for identification.",
+      "Recycle only task-provided or voluntary family and personal-life vocabulary.",
+      "Use /f/-/v/ and selected front/central vowels only where a key person, family word, or number could change."
+    ],
+    "not_yet": [
+      "free family interview",
+      "detailed appearance production",
+      "personality inference",
+      "fast overlapping talk"
+    ]
+  }
+}

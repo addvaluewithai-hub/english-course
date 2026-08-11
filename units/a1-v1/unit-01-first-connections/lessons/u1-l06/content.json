@@ -1,0 +1,109 @@
+{
+  "situation": {
+    "title_ar": "موقف اليوم",
+    "prompt_ar": "تحتاج معلومة محددة من بطاقة عضو خيالية.",
+    "success_ar": "تجد القيمة الصحيحة من الخانة الصحيحة من غير ترجمة النص كله."
+  },
+  "model": {
+    "profile": {
+      "name": "Lina Haddad",
+      "age": 29,
+      "nationality": "Syrian",
+      "address": "12 Green Street, Amman",
+      "email": "lina.haddad@example.com"
+    },
+    "gist_question_ar": "ما أنواع المعلومات الموجودة؟",
+    "gist_answer": [
+      "name",
+      "age",
+      "nationality",
+      "address",
+      "email"
+    ]
+  },
+  "notice": [
+    {
+      "label": "First name",
+      "meaning_ar": "الاسم الأول"
+    },
+    {
+      "label": "Last name",
+      "meaning_ar": "اسم العائلة"
+    },
+    {
+      "label": "Address",
+      "meaning_ar": "العنوان"
+    },
+    {
+      "label": "Email address",
+      "meaning_ar": "البريد الإلكتروني"
+    },
+    {
+      "label": "Date of birth",
+      "meaning_ar": "تاريخ الميلاد"
+    }
+  ],
+  "explanation_ar": [
+    "ابدأ بالخانة المطلوبة لا ببداية النص.",
+    "القيمة الصحيحة من الخانة الخطأ لا تحقق المهمة.",
+    "اقرأ القيم الإنجليزية من اليسار لليمين وحافظ على ترتيبها.",
+    "غيّر استراتيجية البحث عندما يتحول الجدول إلى نبذة، ولا تحفظ مكانًا ثابتًا."
+  ],
+  "toolkit": {
+    "identity": [
+      "name",
+      "first name",
+      "last name",
+      "nationality"
+    ],
+    "contact": [
+      "address",
+      "phone number",
+      "email address"
+    ],
+    "date": [
+      "age",
+      "date of birth"
+    ]
+  },
+  "pronunciation": [],
+  "schema_version": 2,
+  "delivery": {
+    "primary_explanation": "video/single-teacher",
+    "scene": "video/scene.txt",
+    "sample_context": "video/sample-context.txt",
+    "transcript": "video/transcript.txt",
+    "readable_equivalent": true,
+    "interaction_starts_after_video": true
+  },
+  "curriculum_alignment": {
+    "introduce_item_ids": [
+      "lexical.personal_detail_labels"
+    ],
+    "fresh_recycle_item_ids": [],
+    "consolidate_item_ids": [],
+    "bounded_scope_notes": [
+      "Recognise personal-detail labels and retrieve the value attached to each one.",
+      "Distinguish first name, last name, address, and email address.",
+      "Preserve left-to-right order in English names, email addresses, and numbers."
+    ],
+    "not_yet": [
+      "form completion",
+      "free profile writing",
+      "complex document navigation"
+    ],
+    "target_coverage": {
+      "lexical.personal_detail_labels": {
+        "role": "introduce",
+        "video_anchor": "First name.",
+        "post_video_activity_ids": [
+          "label_meaning",
+          "field_value",
+          "wrong_row_repair",
+          "changed_layout"
+        ],
+        "mastery_evidence": "Retrieve each requested value from its correct fresh field."
+      }
+    }
+  }
+}
