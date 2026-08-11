@@ -92,6 +92,7 @@ def _document_errors() -> list[str]:
     consent = " ".join((KIT / "CONSENT_AR.md").read_text(encoding="utf-8").split())
     checklist = " ".join((KIT / "FACILITATOR_CHECKLIST.md").read_text(encoding="utf-8").split())
     runbook = " ".join((KIT / "ANALYSIS_RUNBOOK.md").read_text(encoding="utf-8").split())
+    start_ar = " ".join((KIT / "START_HERE_AR.md").read_text(encoding="utf-8").split())
     errors: list[str] = []
     for phrase in ("eight completed", "six is the minimum", "teachback", "omit",
                    "without a complete answer model", "Double-rate at least two"):
@@ -106,6 +107,9 @@ def _document_errors() -> list[str]:
     for phrase in ("simulation_only_no_gate_effect", "real_consented_sessions", "outside this repository"):
         if phrase not in runbook:
             errors.append(f"analysis runbook omits a data or evidence boundary: {phrase}")
+    for phrase in ("8 جلسات", "6 جلسات", "المعلومات الخيالية", "مشاركة الشاشة", "خارج المشروع"):
+        if phrase not in start_ar:
+            errors.append(f"Arabic start guide omits an execution boundary: {phrase}")
     return errors
 
 

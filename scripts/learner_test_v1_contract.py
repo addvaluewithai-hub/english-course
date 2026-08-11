@@ -17,6 +17,7 @@ KIT_ARTIFACTS = {
     "research/learner-test-v1/CONSENT_AR.md",
     "research/learner-test-v1/FACILITATOR_CHECKLIST.md",
     "research/learner-test-v1/ANALYSIS_RUNBOOK.md",
+    "research/learner-test-v1/START_HERE_AR.md",
     "research/learner-test-v1/success-thresholds.json",
     "research/learner-test-v1/session-record.schema.json",
     "research/learner-test-v1/session-record.template.json",

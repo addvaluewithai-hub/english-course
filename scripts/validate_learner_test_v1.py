@@ -8,7 +8,8 @@ def main() -> int:
     if errors:
         print("FAIL learner-test v1 readiness")
         for error in errors:
-            print(f"  - {error}")
+            safe_error = error.encode("ascii", "backslashreplace").decode("ascii")
+            print(f"  - {safe_error}")
         return 1
     print("PASS learner-test v1 readiness (TEST-001)")
     return 0
