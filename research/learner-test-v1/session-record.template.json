@@ -47,6 +47,12 @@
     "important_corrections": 0,
     "successful_immediate_retries": 0
   },
+  "reliability": {
+    "double_rated": false,
+    "secondary_ratings": null,
+    "secondary_decision": null,
+    "exact_decision_agreement": null
+  },
   "experience": {
     "arabic_clarity": null,
     "difficulty": null,

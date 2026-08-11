@@ -22,6 +22,7 @@ function optionalIssue() {
   return [{
     type: byId("issueType").value,
     severity: byId("issueSeverity").value,
+    resolved: checked("issueResolved"),
     note: byId("issueNote").value.trim()
   }];
 }
@@ -33,12 +34,30 @@ function buildRecord() {
   }
   const sessionId = byId("sessionId").value.trim();
   if (!/^LT1-[0-9]{3}$/.test(sessionId)) throw new Error("رقم الجلسة يجب أن يكون مثل LT1-001.");
+  const expectedCondition = Number(sessionId.slice(-3)) % 2 ? "teachback" : "omit";
+  if (byId("postPerformance").value !== expectedCondition) {
+    throw new Error("الجلسات الفردية teachback والجلسات الزوجية omit حسب البروتوكول.");
+  }
   const ratings = {
     comprehension: numberOrNull("comprehension"),
     outcome_performance: numberOrNull("outcomePerformance"),
     context_transfer: numberOrNull("contextTransfer"),
     control_or_repair: numberOrNull("controlRepair")
   };
+  const secondaryRatings = {
+    comprehension: numberOrNull("secondaryComprehension"),
+    outcome_performance: numberOrNull("secondaryOutcome"),
+    context_transfer: numberOrNull("secondaryTransfer"),
+    control_or_repair: numberOrNull("secondaryControl")
+  };
+  const doubleRated = checked("doubleRated");
+  const secondaryDecision = byId("secondaryDecision").value || null;
+  if (doubleRated && (!secondaryDecision || Object.values(secondaryRatings).some(value => value === null))) {
+    throw new Error("الجلسة المزدوجة تحتاج درجات وقرار المقيم الثاني كاملة.");
+  }
+  if (!doubleRated && (secondaryDecision || Object.values(secondaryRatings).some(value => value !== null))) {
+    throw new Error("امسح تقييم المقيم الثاني أو فعّل خيار الجلسة المزدوجة.");
+  }
   if (byId("masteryDecision").value === "demonstrated") {
     if (!checked("evidenceValid") || checked("fullModelVisible") || Object.values(ratings).some(value => value !== 2)) {
       throw new Error("demonstrated يحتاج دليلًا صالحًا، نموذجًا مخفيًا، ودرجة 2 في الأبعاد الأربعة.");
@@ -82,6 +101,12 @@ function buildRecord() {
     correction: {
       important_corrections: Number(byId("corrections").value),
       successful_immediate_retries: Number(byId("retries").value)
+    },
+    reliability: {
+      double_rated: doubleRated,
+      secondary_ratings: doubleRated ? secondaryRatings : null,
+      secondary_decision: doubleRated ? secondaryDecision : null,
+      exact_decision_agreement: doubleRated ? secondaryDecision === byId("masteryDecision").value : null
     },
     experience: {
       arabic_clarity: numberOrNull("arabicClarity"),

@@ -7,7 +7,7 @@
   "required": [
     "schema_version", "study_id", "session_id", "lesson_id", "condition",
     "participant", "consent", "completion", "timing", "supports", "mastery",
-    "correction", "experience", "issues", "data_controls"
+    "correction", "reliability", "experience", "issues", "data_controls"
   ],
   "properties": {
     "schema_version": {"const": 1},
@@ -108,6 +108,27 @@
         "successful_immediate_retries": {"type": "integer", "minimum": 0, "maximum": 10}
       }
     },
+    "reliability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["double_rated", "secondary_ratings", "secondary_decision", "exact_decision_agreement"],
+      "properties": {
+        "double_rated": {"type": "boolean"},
+        "secondary_ratings": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["comprehension", "outcome_performance", "context_transfer", "control_or_repair"],
+          "properties": {
+            "comprehension": {"type": "integer", "minimum": 0, "maximum": 2},
+            "outcome_performance": {"type": "integer", "minimum": 0, "maximum": 2},
+            "context_transfer": {"type": "integer", "minimum": 0, "maximum": 2},
+            "control_or_repair": {"type": "integer", "minimum": 0, "maximum": 2}
+          }
+        },
+        "secondary_decision": {"type": ["string", "null"], "enum": ["demonstrated", "practiced", "needs_review", "not_rated", null]},
+        "exact_decision_agreement": {"type": ["boolean", "null"]}
+      }
+    },
     "experience": {
       "type": "object",
       "additionalProperties": false,
@@ -126,10 +147,11 @@
       "type": "array", "maxItems": 12,
       "items": {
         "type": "object", "additionalProperties": false,
-        "required": ["type", "severity", "note"],
+        "required": ["type", "severity", "resolved", "note"],
         "properties": {
           "type": {"enum": ["instruction_confusion", "arabic_clarity", "level_fit", "video_value", "navigation", "correction", "retry", "mastery_construct", "teachback", "accessibility", "privacy", "safety"]},
           "severity": {"enum": ["info", "minor", "major", "severe"]},
+          "resolved": {"type": "boolean"},
           "note": {"type": "string", "maxLength": 240}
         }
       }

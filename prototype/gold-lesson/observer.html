@@ -40,6 +40,18 @@
       </section>
 
       <section>
+        <h2>اتفاق المقيمين — لجلسات العينة المزدوجة فقط</h2>
+        <label class="standalone-check"><input id="doubleRated" type="checkbox"> قيّم ملاحظ ثانٍ الجلسة مباشرة وبشكل مستقل</label>
+        <div class="form-grid ratings">
+          <label>فهم الموقف — المقيم 2<select id="secondaryComprehension"><option value="">غير مقيّم</option><option>0</option><option>1</option><option>2</option></select></label>
+          <label>تحقيق النتيجة — المقيم 2<select id="secondaryOutcome"><option value="">غير مقيّم</option><option>0</option><option>1</option><option>2</option></select></label>
+          <label>النقل — المقيم 2<select id="secondaryTransfer"><option value="">غير مقيّم</option><option>0</option><option>1</option><option>2</option></select></label>
+          <label>التحكم أو الإصلاح — المقيم 2<select id="secondaryControl"><option value="">غير مقيّم</option><option>0</option><option>1</option><option>2</option></select></label>
+          <label>قرار المقيم 2<select id="secondaryDecision"><option value="">غير مقيّم</option><option>demonstrated</option><option>practiced</option><option>needs_review</option><option>not_rated</option></select></label>
+        </div>
+      </section>
+
+      <section>
         <h2>الإكمال والتوقيت</h2>
         <div class="form-grid">
           <label>النتيجة<select id="completion"><option>completed</option><option>stopped_incomplete</option><option>safety_paused</option></select></label>
@@ -97,6 +109,7 @@
           <label>النوع<select id="issueType"><option value="">لا توجد</option><option>instruction_confusion</option><option>arabic_clarity</option><option>level_fit</option><option>video_value</option><option>navigation</option><option>correction</option><option>retry</option><option>mastery_construct</option><option>teachback</option><option>accessibility</option><option>privacy</option><option>safety</option></select></label>
           <label>الخطورة<select id="issueSeverity"><option>info</option><option>minor</option><option>major</option><option>severe</option></select></label>
         </div>
+        <label class="standalone-check"><input id="issueResolved" type="checkbox"> عولجت المشكلة داخل نسخة الدرس الحالية</label>
         <label>ملاحظة منزوعة الهوية، 240 حرفًا كحد أقصى<textarea id="issueNote" maxlength="240"></textarea></label>
         <label class="standalone-check"><input id="withdrawal" type="checkbox"> أُعطي المشارك رقم الجلسة وطريق الانسحاب</label>
       </section>

@@ -91,6 +91,7 @@ def _document_errors() -> list[str]:
     protocol = " ".join((KIT / "PROTOCOL.md").read_text(encoding="utf-8").split())
     consent = " ".join((KIT / "CONSENT_AR.md").read_text(encoding="utf-8").split())
     checklist = " ".join((KIT / "FACILITATOR_CHECKLIST.md").read_text(encoding="utf-8").split())
+    runbook = " ".join((KIT / "ANALYSIS_RUNBOOK.md").read_text(encoding="utf-8").split())
     errors: list[str] = []
     for phrase in ("eight completed", "six is the minimum", "teachback", "omit",
                    "without a complete answer model", "Double-rate at least two"):
@@ -102,6 +103,9 @@ def _document_errors() -> list[str]:
     for phrase in ("Do not start raw", "Ask for the final response aloud", "cannot by itself prove"):
         if phrase not in checklist:
             errors.append(f"facilitator checklist omits a safety or construct rule: {phrase}")
+    for phrase in ("simulation_only_no_gate_effect", "real_consented_sessions", "outside this repository"):
+        if phrase not in runbook:
+            errors.append(f"analysis runbook omits a data or evidence boundary: {phrase}")
     return errors
 
 
@@ -137,6 +141,9 @@ def _prototype_errors() -> list[str]:
         errors.append("timing export does not declare both privacy boundaries")
     if "raw_capture: false" not in observer or "contains_raw_answer: false" not in observer:
         errors.append("observer export does not hard-code the no-raw-data boundary")
+    for phrase in ("double_rated", "secondary_ratings", "exact_decision_agreement", "resolved:"):
+        if phrase not in observer:
+            errors.append(f"observer export omits TEST-002 evidence: {phrase}")
     for path in PROTOTYPE.rglob("*"):
         if path.is_file() and path.suffix in {".html", ".css", ".js"}:
             if len(path.read_text(encoding="utf-8").splitlines()) > 200:

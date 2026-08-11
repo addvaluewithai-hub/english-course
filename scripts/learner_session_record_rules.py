@@ -34,6 +34,16 @@ def semantic_errors(record: dict) -> list[str]:
     correction = record["correction"]
     if correction["successful_immediate_retries"] > correction["important_corrections"]:
         errors.append("successful retries exceed important corrections")
+    reliability = record["reliability"]
+    if reliability["double_rated"]:
+        if reliability["secondary_ratings"] is None or reliability["secondary_decision"] is None:
+            errors.append("double-rated session lacks the second evaluator record")
+        expected_agreement = reliability["secondary_decision"] == mastery["decision"]
+        if reliability["exact_decision_agreement"] != expected_agreement:
+            errors.append("double-rated agreement flag does not match the two decisions")
+    elif any(reliability[key] is not None for key in (
+            "secondary_ratings", "secondary_decision", "exact_decision_agreement")):
+        errors.append("single-rated session contains secondary evaluator data")
     controls = record["data_controls"]
     if controls["contains_raw_answer"] or controls["contains_direct_identifier"]:
         errors.append("record contains prohibited raw or identifying data")

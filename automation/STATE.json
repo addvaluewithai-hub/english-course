@@ -6,7 +6,7 @@
   "active_phase": "phase_5_learner_test",
   "last_completed_task": "TEST-001",
   "next_task": "TEST-002",
-  "updated_at": "2026-08-11T09:01:50+03:00",
+  "updated_at": "2026-08-11T09:14:06+03:00",
   "phase_gates": {
     "phase_0_foundation": "passed",
     "phase_1_learning_model": "passed",
@@ -259,13 +259,15 @@
     "clickable_lesson_steps": 9,
     "browser_routes_verified": ["learner", "observer"],
     "browser_console_errors_after_fix": 0,
+    "analysis_pipeline": "ready_validates_private_records_and_emits_deidentified_aggregate",
+    "synthetic_analysis_gate_effect": "simulation_only_no_gate_effect",
     "real_learner_sessions_completed": 0,
     "synthetic_records_cannot_satisfy_TEST_002": true,
     "next_gate": "TEST-002"
   },
   "last_full_validation": {
-    "passed_tests": 375,
+    "passed_tests": 383,
     "failed_tests": 0,
-    "validated_at": "2026-08-11T09:01:50+03:00"
+    "validated_at": "2026-08-11T09:14:06+03:00"
   }
 }

@@ -7,6 +7,7 @@ This folder contains the minimum ethical kit needed before a real learner sessio
 - `PROTOCOL.md`: participant, allocation, facilitation, scoring, and decision rules;
 - `CONSENT_AR.md`: plain-Arabic information and consent script;
 - `FACILITATOR_CHECKLIST.md`: the before/during/after-session checklist;
+- `ANALYSIS_RUNBOOK.md`: validation, dry-run, real-evidence, and aggregate commands;
 - `success-thresholds.json`: the numeric hypotheses that must be fixed before data;
 - `session-record.schema.json`: the de-identified record contract; and
 - `session-record.template.json`: a blank, non-answer-bearing record.

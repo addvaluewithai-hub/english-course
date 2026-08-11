@@ -65,6 +65,16 @@ class LearnerTestV1Tests(unittest.TestCase):
         record["condition"]["post_performance"] = "omit"
         self.assertIn("post-performance condition violates odd/even allocation", semantic_errors(record))
 
+    def test_double_rating_requires_consistent_agreement(self) -> None:
+        record = self._valid_record()
+        record["reliability"] = {
+            "double_rated": True,
+            "secondary_ratings": dict(record["mastery"]["ratings"]),
+            "secondary_decision": "practiced",
+            "exact_decision_agreement": True,
+        }
+        self.assertIn("double-rated agreement flag does not match the two decisions", semantic_errors(record))
+
     def test_all_nine_gating_metrics_are_fixed(self) -> None:
         metrics = {row["metric_id"] for row in self.thresholds["gating_metrics"]}
         self.assertEqual(GATING_METRICS, metrics)
