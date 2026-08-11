@@ -3,6 +3,7 @@ const lessonData = {
     { id: "video", title: "شاهد الشرح" },
     { id: "comprehension", title: "افهم النموذج" },
     { id: "meaning", title: "طبّق الفرق" },
+    { id: "forms", title: "طبّق الصيغ الجديدة" },
     { id: "practice", title: "رتّب مقدمة" },
     { id: "plan", title: "كوّن مقدمتك" },
     { id: "coach", title: "تدرّب مع المدرّب" },

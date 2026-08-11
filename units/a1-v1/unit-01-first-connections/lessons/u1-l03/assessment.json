@@ -62,5 +62,25 @@
       "task": "New first-meeting context with a different final detail."
     }
   ],
-  "lesson_id": "U1-L03"
+  "lesson_id": "U1-L03",
+  "replacement_mastery_task": {
+    "scenario_en": "You have just joined a local community event.",
+    "scenario_ar": "انضممت الآن إلى فعالية محلية وتقابل شخصًا للمرة الأولى.",
+    "prompt_en": "Introduce yourself in four or five short sentences.",
+    "required": [
+      "name",
+      "origin",
+      "residence_or_role",
+      "family_or_interest"
+    ],
+    "support": "Field icons or labels only; no sentence frames or model.",
+    "freshness": "The setting, listener, and field order differ from both practice and the primary task.",
+    "safe_identity": true,
+    "use_only_when": "The primary attempt became practice after answer-revealing correction or help."
+  },
+  "mastery_attempt_policy": {
+    "maximum_fresh_attempts": 2,
+    "replacement_required_after_answer_revealing_help": true,
+    "second_failure_result": "practiced_or_needs_review_not_demonstrated"
+  }
 }

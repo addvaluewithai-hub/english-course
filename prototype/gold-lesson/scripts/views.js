@@ -10,7 +10,7 @@ function lessonViews(state) {
         <span class="video-icon" aria-hidden="true">▶</span>
         <div><b>فيديو المدرّس الواحد</b><small>سيُضاف الفيديو النهائي بعد اعتماد تجربة الصوت.</small></div>
       </div>
-      <a class="button secondary" href="../../gold/introduce-yourself/video/transcript.txt" target="_blank">عرض النص التجريبي</a>
+      <a class="button secondary" href="../../units/a1-v1/unit-01-first-connections/lessons/u1-l03/video/transcript.txt" target="_blank">عرض النص المعتمد</a>
       <p class="mini-note">ستتوفر ترجمة مرئية ومسار نصي مكافئ في النسخة النهائية.</p>`),
 
     () => panel("QUESTION 1", "ماذا عرفت عن Maya؟", `
@@ -28,6 +28,13 @@ function lessonViews(state) {
         ${choice("<span dir='ltr'>I'm from Syria. I live in Cairo.</span>", true, "quiz")}
         ${choice("<span dir='ltr'>I'm from Cairo. I live in Syria.</span>", false, "quiz")}
       </div><div id="meaningFeedback" class="feedback"></div>`),
+
+    () => panel("QUESTION 3", "My name is و a / an", `
+      <p class="lead">اختر الصيغة الطبيعية في كل حالة. نتعلم <b dir="ltr">my</b> مع الاسم فقط، و<b dir="ltr">a / an</b> مع الوظيفة.</p>
+      <div class="choice-list">
+        ${choice("<span dir='ltr'>My name is Sara. / I'm an engineer.</span>", true, "form-choice")}
+        ${choice("<span dir='ltr'>I name is Sara. / I'm a engineer.</span>", false, "form-choice")}
+      </div><div id="formsFeedback" class="feedback"></div>`),
 
     () => panel("APPLIED PRACTICE", "ابنِ مقدمة Omar", `
       <p class="lead">اختر الترتيب الذي يصنع مقدمة قصيرة وطبيعية.</p>
@@ -56,8 +63,9 @@ function lessonViews(state) {
       <p class="lead">هذا أول يوم لك في مجموعة دراسة عبر الإنترنت.</p>
       <div class="prompt-card english"><p>Introduce yourself in four or five short sentences.</p></div>
       <p>اذكر: الاسم، الأصل، السكن أو الدور، واهتمام أو تفصيلة أسرية.</p>
-      <textarea id="masteryAnswer" aria-label="تحدي الإتقان" placeholder="Write or dictate your fresh answer…"></textarea>
-      <button id="masteryCheck" class="button primary" type="button">افحص اكتمال المهمة</button>
+      <p><b>قل إجابتك بصوتك أولًا.</b> الكتابة بالأسفل اختيارية لمساعدة النموذج، ولا تثبت إتقان التحدث.</p>
+      <textarea id="masteryAnswer" aria-label="تحدي الإتقان" placeholder="Optional practice note — do not save the learner's answer"></textarea>
+      <button id="masteryCheck" class="button primary" type="button">افحص عناصر التدريب فقط</button>
       <div id="masteryFeedback" class="feedback"></div>`),
 
     () => closeView(state.variant)

@@ -48,6 +48,13 @@ class GoldLessonV1Tests(unittest.TestCase):
         self.assertIn("no complete introduction", task["prior_lesson_support"])
         self.assertTrue(task["safe_identity"])
 
+    def test_mastery_has_one_equivalent_replacement(self) -> None:
+        primary = self.assessment["mastery_task"]
+        replacement = self.assessment["replacement_mastery_task"]
+        self.assertNotEqual(primary["scenario_en"], replacement["scenario_en"])
+        self.assertEqual(primary["required"], replacement["required"])
+        self.assertEqual(2, self.assessment["mastery_attempt_policy"]["maximum_fresh_attempts"])
+
 
 if __name__ == "__main__":
     unittest.main()

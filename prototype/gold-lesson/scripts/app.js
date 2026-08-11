@@ -12,21 +12,23 @@ function render() {
   document.querySelector("#progressBar").style.width = `${percent}%`;
   document.querySelector("#progressText").textContent = `الخطوة ${step + 1} من ${views.length}`;
   document.querySelector("#stepList").innerHTML = lessonData.steps.map((item, index) => `<li class="${index === step ? "active" : ""} ${index < step ? "done" : ""}">${item.title}</li>`).join("");
-  backButton.disabled = step === 0 || step === 6;
+  backButton.disabled = step === 0 || step === 7;
   nextButton.textContent = step === views.length - 1 ? "ابدأ من جديد" : "التالي";
   bindStep();
+  lessonResearch.stepChanged(step + 1);
 }
 
 function bindStep() {
   host.querySelectorAll("[data-speech]").forEach(button => button.onclick = () => speak(button.dataset.speech));
-  host.querySelectorAll(".quiz, .order-choice").forEach(button => button.onclick = () => checkChoice(button));
+  host.querySelectorAll(".quiz, .form-choice, .order-choice").forEach(button => button.onclick = () => checkChoice(button));
   host.querySelectorAll("[data-field]").forEach(input => input.oninput = updatePlan);
   document.querySelector("#coachCheck")?.addEventListener("click", checkCoach);
   document.querySelector("#masteryCheck")?.addEventListener("click", checkMastery);
-  if (step === 4) updatePlan();
+  if (step === 5) updatePlan();
 }
 
 function checkChoice(button) {
+  lessonResearch.mark("choice_attempt");
   button.parentElement.querySelectorAll(".choice").forEach(item => item.classList.remove("correct", "wrong"));
   const correct = button.dataset.correct === "true";
   button.classList.add(correct ? "correct" : "wrong");
@@ -42,11 +44,13 @@ function updatePlan() {
 }
 
 function checkCoach() {
+  lessonResearch.mark("coach_check");
   const text = document.querySelector("#coachAnswer").value;
   showFeedback("coachFeedback", feedbackFor(text), isCompleteAttempt(text));
 }
 
 function checkMastery() {
+  lessonResearch.mark("mastery_check");
   const text = document.querySelector("#masteryAnswer").value;
   const ok = isCompleteAttempt(text);
   showFeedback("masteryFeedback", ok ? "عناصر المهمة موجودة. في الاختبار الحقيقي سنقيّم الوضوح والإصلاح بصوت جديد." : feedbackFor(text), ok);
@@ -69,7 +73,8 @@ nextButton.onclick = () => {
   step = step === lessonData.steps.length - 1 ? 0 : step + 1;
   render();
 };
-backButton.onclick = () => { if (step > 0 && step !== 6) step -= 1; render(); };
+backButton.onclick = () => { if (step > 0 && step !== 7) step -= 1; render(); };
 document.querySelector("#privacyButton").onclick = () => document.querySelector("#privacyDialog").showModal();
 document.querySelector("#closePrivacy").onclick = () => document.querySelector("#privacyDialog").close();
+lessonResearch.init({ variant });
 render();

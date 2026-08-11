@@ -12,14 +12,16 @@
   <header class="topbar">
     <a class="brand" href="#">English <span>with purpose</span></a>
     <div class="top-actions">
+      <a class="observer-link" href="observer.html" target="_blank">سجل الميسّر</a>
       <button class="quiet" id="privacyButton" type="button">الخصوصية</button>
+      <button class="quiet" id="timingButton" type="button">ملخص الوقت</button>
       <span class="level">A1</span>
     </div>
   </header>
 
   <main class="shell">
     <aside class="rail" aria-label="تقدّم الدرس">
-      <p class="eyebrow">GOLD LESSON · 01</p>
+      <p class="eyebrow">GOLD LESSON · U1-L03</p>
       <h1>قدّم نفسك</h1>
       <p class="muted">Introduce yourself</p>
       <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
@@ -43,12 +45,34 @@
     <button class="button primary" id="closePrivacy" type="button">فهمت</button>
   </dialog>
 
+  <dialog id="consentDialog" aria-labelledby="consentTitle">
+    <h2 id="consentTitle">قبل اختبار الدرس</h2>
+    <p>نحن نختبر الدرس، ولسنا نختبرك. يمكنك التوقف في أي وقت واستخدام معلومات خيالية.</p>
+    <p>لا يحفظ هذا النموذج إجابتك أو صوتك. سيسجل الميسّر فقط توقيتات وتقييمات منزوعة الهوية.</p>
+    <label class="consent-check">
+      <input id="consentCheck" type="checkbox">
+      <span>عمري 18 سنة أو أكثر، قرأت المعلومات، وأوافق على المشاركة طوعًا.</span>
+    </label>
+    <button class="button primary" id="startLesson" type="button" disabled>ابدأ الجلسة</button>
+  </dialog>
+
+  <dialog id="timingDialog" aria-labelledby="timingTitle">
+    <h2 id="timingTitle">ملخص محلي للميسّر</h2>
+    <p>لا يحتوي هذا الملخص على إجابات الطالب أو أي بيانات تعريفية.</p>
+    <pre id="timingSummary" class="timing-summary" dir="ltr"></pre>
+    <div class="dialog-actions">
+      <button class="button secondary" id="downloadTiming" type="button">تنزيل JSON</button>
+      <button class="button primary" id="closeTiming" type="button">إغلاق</button>
+    </div>
+  </dialog>
+
   <template id="choiceTemplate">
     <button class="choice" type="button"><span></span><b aria-hidden="true">○</b></button>
   </template>
   <script src="scripts/data.js"></script>
   <script src="scripts/checks.js"></script>
   <script src="scripts/views.js"></script>
+  <script src="scripts/research.js"></script>
   <script src="scripts/app.js"></script>
 </body>
 </html>

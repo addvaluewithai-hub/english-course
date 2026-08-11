@@ -287,17 +287,27 @@
       "id": "TEST-001",
       "phase": "phase_5_learner_test",
       "title": "Create prototype, protocol, consent, and success thresholds",
-      "status": "in_progress",
+      "status": "complete",
       "dependencies": ["GOLD-003"],
-      "acceptance": "A clickable test and ethical observation protocol can evaluate the important hypotheses."
+      "acceptance": "A clickable test and ethical observation protocol can evaluate the important hypotheses.",
+      "notes": [
+        "2026-08-11: aligned the clickable prototype to final U1-L03, including nine tested sections, the bounded my + name and a/an + job application, and one equivalent replacement mastery task.",
+        "2026-08-11: added plain-Arabic consent, facilitator and safety protocol, de-identified observer form, local no-answer timing, a JSON Schema, and per-record semantic validation.",
+        "2026-08-11: pre-registered target n=8, minimum eligible completed n=6, teachback/omit allocation, nine gating metrics, and go/revise/stop/insufficient decision precedence.",
+        "2026-08-11: browser verification passed consent, all nine learner steps, omit routing, no-answer timing, observer consent enforcement, and zero console errors after fixing one stale planning-step index.",
+        "2026-08-11: all 375 repository tests passed. TEST-001 complete; synthetic sessions are explicitly prohibited from satisfying TEST-002."
+      ]
     },
     {
       "id": "TEST-002",
       "phase": "phase_5_learner_test",
       "title": "Run learner tests and synthesize evidence",
-      "status": "locked",
+      "status": "in_progress",
       "dependencies": ["TEST-001"],
-      "acceptance": "Observed results, failures, revisions, and go/no-go decision are documented."
+      "acceptance": "Observed results, failures, revisions, and go/no-go decision are documented.",
+      "notes": [
+        "2026-08-11: collection gate opened. Only consented observations from real Arabic-speaking adult beginners count; simulated or agent-generated records are test fixtures only."
+      ]
     },
     {
       "id": "SYSTEM-001",

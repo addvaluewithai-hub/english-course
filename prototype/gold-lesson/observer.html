@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="سجل ميسّر منزوع الهوية لاختبار الدرس U1-L03.">
+  <title>سجل الميسّر | U1-L03</title>
+  <link rel="stylesheet" href="styles/foundation.css">
+  <link rel="stylesheet" href="styles/observer.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">English <span>learner test</span></a>
+    <span class="level">U1-L03</span>
+  </header>
+  <main class="observer-shell">
+    <header>
+      <p class="eyebrow">TEST-001 · OBSERVER RECORD</p>
+      <h1>سجل جلسة منزوع الهوية</h1>
+      <p>لا تكتب اسمًا، إجابة كاملة، اقتباسًا، رقم هاتف، عنوانًا، تشخيصًا، أو تفاصيل أزمة.</p>
+    </header>
+    <form id="observerForm">
+      <section>
+        <h2>الجلسة والموافقة</h2>
+        <div class="form-grid">
+          <label>رقم الجلسة<input id="sessionId" value="LT1-001" pattern="LT1-[0-9]{3}" required></label>
+          <label>نسخة ما بعد الأداء<select id="postPerformance"><option>teachback</option><option>omit</option></select></label>
+          <label>الوسيط<select id="medium"><option>video</option><option>readable_equivalent</option></select></label>
+          <label>نسخة المهمة<select id="taskVariant"><option>study_group_primary</option><option>community_event_replacement</option></select></label>
+          <label>مستوى الدخول<select id="entryBand"><option>pre_a1</option><option selected>a1</option><option>a2_or_higher</option><option>unknown</option></select></label>
+        </div>
+        <div class="check-grid">
+          <label><input id="adult" type="checkbox"> بالغ 18+</label>
+          <label><input id="arabic" type="checkbox"> متحدث بالعربية</label>
+          <label><input id="eligible" type="checkbox"> داخل العينة الأساسية</label>
+          <label><input id="voluntary" type="checkbox"> فهم الاختيار والتوقف</label>
+          <label><input id="dataBoundary" type="checkbox"> فهم حدود البيانات</label>
+          <label><input id="agreed" type="checkbox"> وافق على المشاركة</label>
+        </div>
+      </section>
+
+      <section>
+        <h2>الإكمال والتوقيت</h2>
+        <div class="form-grid">
+          <label>النتيجة<select id="completion"><option>completed</option><option>stopped_incomplete</option><option>safety_paused</option></select></label>
+          <label>آخر خطوة<input id="lastStep" type="number" min="1" max="9" value="9"></label>
+          <label>إجمالي الثواني<input id="totalSeconds" type="number" min="0" max="7200" value="0"></label>
+          <label>ثواني الخطوات، مفصولة بفاصلة<input id="sectionSeconds" value="0,0,0,0,0,0,0,0,0"></label>
+        </div>
+        <div class="check-grid">
+          <label><input id="freshAttempt" type="checkbox"> حاول المهمة الجديدة</label>
+        </div>
+        <fieldset><legend>الدعم المستخدم</legend><div class="check-grid" id="supports">
+          <label><input type="checkbox" value="none" checked> none</label>
+          <label><input type="checkbox" value="repeat_prompt"> repeat prompt</label>
+          <label><input type="checkbox" value="extra_time"> extra time</label>
+          <label><input type="checkbox" value="navigation"> navigation</label>
+          <label><input type="checkbox" value="simplified_instruction"> simpler instruction</label>
+          <label><input type="checkbox" value="readable_equivalent"> readable route</label>
+          <label><input type="checkbox" value="construct_changed"> construct changed</label>
+        </div></fieldset>
+      </section>
+
+      <section>
+        <h2>المهمة الجديدة</h2>
+        <div class="check-grid">
+          <label><input id="evidenceValid" type="checkbox"> الدليل صالح</label>
+          <label><input id="fullModelVisible" type="checkbox"> كان النموذج الكامل ظاهرًا</label>
+        </div>
+        <div class="form-grid ratings">
+          <label>فهم الموقف<select id="comprehension"><option value="">غير مقيّم</option><option>0</option><option>1</option><option>2</option></select></label>
+          <label>تحقيق النتيجة<select id="outcomePerformance"><option value="">غير مقيّم</option><option>0</option><option>1</option><option>2</option></select></label>
+          <label>النقل للموقف الجديد<select id="contextTransfer"><option value="">غير مقيّم</option><option>0</option><option>1</option><option>2</option></select></label>
+          <label>التحكم أو الإصلاح<select id="controlRepair"><option value="">غير مقيّم</option><option>0</option><option>1</option><option>2</option></select></label>
+          <label>قرار الإتقان<select id="masteryDecision"><option>not_rated</option><option>demonstrated</option><option>practiced</option><option>needs_review</option></select></label>
+          <label>تصحيحات مهمة<input id="corrections" type="number" min="0" max="10" value="0"></label>
+          <label>إعادات ناجحة<input id="retries" type="number" min="0" max="10" value="0"></label>
+        </div>
+      </section>
+
+      <section>
+        <h2>رأي المتعلم من 1 إلى 5</h2>
+        <div class="form-grid" id="experienceRatings">
+          <label>وضوح العربي<input id="arabicClarity" type="number" min="1" max="5"></label>
+          <label>الصعوبة<input id="difficulty" type="number" min="1" max="5"></label>
+          <label>الملل<input id="boredom" type="number" min="1" max="5"></label>
+          <label>القيمة المتصورة<input id="perceivedValue" type="number" min="1" max="5"></label>
+          <label>فائدة الفيديو<input id="videoHelpfulness" type="number" min="1" max="5"></label>
+          <label>فائدة الشرح العكسي<input id="teachbackHelpfulness" type="number" min="1" max="5"></label>
+          <label>إرهاق الشرح العكسي<input id="teachbackFatigue" type="number" min="1" max="5"></label>
+        </div>
+      </section>
+
+      <section>
+        <h2>مشكلة واحدة مهمة — اختيارية</h2>
+        <div class="form-grid">
+          <label>النوع<select id="issueType"><option value="">لا توجد</option><option>instruction_confusion</option><option>arabic_clarity</option><option>level_fit</option><option>video_value</option><option>navigation</option><option>correction</option><option>retry</option><option>mastery_construct</option><option>teachback</option><option>accessibility</option><option>privacy</option><option>safety</option></select></label>
+          <label>الخطورة<select id="issueSeverity"><option>info</option><option>minor</option><option>major</option><option>severe</option></select></label>
+        </div>
+        <label>ملاحظة منزوعة الهوية، 240 حرفًا كحد أقصى<textarea id="issueNote" maxlength="240"></textarea></label>
+        <label class="standalone-check"><input id="withdrawal" type="checkbox"> أُعطي المشارك رقم الجلسة وطريق الانسحاب</label>
+      </section>
+
+      <div class="actions">
+        <button class="button secondary" id="previewRecord" type="button">راجع JSON</button>
+        <button class="button primary" id="downloadRecord" type="button">نزّل السجل</button>
+      </div>
+      <p id="formError" class="form-error" role="alert"></p>
+      <pre id="recordPreview" class="record-preview" dir="ltr"></pre>
+    </form>
+  </main>
+  <script src="scripts/observer.js"></script>
+</body>
+</html>

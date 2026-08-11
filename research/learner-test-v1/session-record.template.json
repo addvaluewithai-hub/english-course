@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "study_id": "gold_lesson_u1_l03_pilot_v1",
+  "session_id": "LT1-001",
+  "lesson_id": "U1-L03",
+  "condition": {
+    "post_performance": "teachback",
+    "medium": "video",
+    "task_variant": "study_group_primary"
+  },
+  "participant": {
+    "adult_confirmed": false,
+    "arabic_speaking": false,
+    "entry_band": "a1",
+    "eligible_primary_sample": false
+  },
+  "consent": {
+    "voluntary_confirmed": false,
+    "data_boundary_confirmed": false,
+    "participation_agreed": false,
+    "raw_capture": false
+  },
+  "completion": {
+    "outcome": "stopped_incomplete",
+    "last_step": 1,
+    "fresh_task_attempted": false
+  },
+  "timing": {
+    "total_seconds": 0,
+    "section_seconds": [
+      {"step": 1, "seconds": 0}
+    ]
+  },
+  "supports": ["none"],
+  "mastery": {
+    "evidence_valid": false,
+    "full_model_visible": false,
+    "ratings": {
+      "comprehension": null,
+      "outcome_performance": null,
+      "context_transfer": null,
+      "control_or_repair": null
+    },
+    "decision": "not_rated"
+  },
+  "correction": {
+    "important_corrections": 0,
+    "successful_immediate_retries": 0
+  },
+  "experience": {
+    "arabic_clarity": null,
+    "difficulty": null,
+    "boredom": null,
+    "perceived_value": null,
+    "video_helpfulness": null,
+    "teachback_helpfulness": null,
+    "teachback_fatigue": null
+  },
+  "issues": [],
+  "data_controls": {
+    "contains_raw_answer": false,
+    "contains_direct_identifier": false,
+    "withdrawal_route_given": false
+  }
+}

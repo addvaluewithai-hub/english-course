@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "study_id": "gold_lesson_u1_l03_pilot_v1",
+  "lesson_id": "U1-L03",
+  "status": "TEST_001_ready_for_real_sessions",
+  "source_inputs": [
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/lesson-manifest.json",
+      "sha256": "e60c4fe8ce596bccdab0def487b3d3803053e46c9beb1afa8f378e8e98b920b8"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/source-packet.json",
+      "sha256": "c95b2ec5525b77e119c1c077de1bc5bd2d9876c51de64a4c5e26d6c7b0199bf3"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/assessment.json",
+      "sha256": "093d2272ec577d0a20d04c49fd9800d67854a8336c4db82d6dd8292228223c88"
+    },
+    {
+      "path": "units/a1-v1/unit-01-first-connections/lessons/u1-l03/ai-contract.json",
+      "sha256": "55c75f1ab33ed1e7089c16244c1794768e19eaf490987b5375827daeeb891af4"
+    },
+    {
+      "path": "docs/PRIVACY_ACCESSIBILITY_POLICY.md",
+      "sha256": "5ad19beaa7177633963361defef4926a6bb71221aabccb2db72d9b9601deafd8"
+    },
+    {
+      "path": "docs/MASTERY_PROGRESS_POLICY.md",
+      "sha256": "15f269f68bf2d269169045b6cada61d57730b9aed18101fe5a02db3ba7aae604"
+    }
+  ],
+  "artifacts": [
+    "research/learner-test-v1/PROTOCOL.md",
+    "research/learner-test-v1/CONSENT_AR.md",
+    "research/learner-test-v1/FACILITATOR_CHECKLIST.md",
+    "research/learner-test-v1/success-thresholds.json",
+    "research/learner-test-v1/session-record.schema.json",
+    "research/learner-test-v1/session-record.template.json",
+    "prototype/gold-lesson/index.html",
+    "prototype/gold-lesson/observer.html"
+  ],
+  "data_boundary": {
+    "default_raw_capture": false,
+    "direct_identifiers_allowed": false,
+    "individual_record_location": "restricted_external_pilot_location_not_public_repo",
+    "individual_record_retention_days_after_TEST_002": 90
+  },
+  "review": {
+    "reviewer": "codex_primary_curriculum_agent",
+    "reviewed_at": "2026-08-10T16:54:34+03:00"
+  }
+}

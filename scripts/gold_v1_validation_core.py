@@ -96,6 +96,15 @@ def _learning_errors(files: dict) -> list[str]:
         errors.append("fresh mastery support may reveal an answer-bearing model")
     if assessment["lesson_id"] != LESSON_ID:
         errors.append("assessment retains a stale lesson id")
+    replacement = assessment.get("replacement_mastery_task", {})
+    if replacement.get("scenario_en") == assessment["mastery_task"]["scenario_en"]:
+        errors.append("replacement mastery task repeats the primary situation")
+    if replacement.get("required") != assessment["mastery_task"]["required"]:
+        errors.append("replacement mastery task changes the assessed construct")
+    if "no sentence frames or model" not in replacement.get("support", "").lower():
+        errors.append("replacement mastery task may reveal an answer-bearing model")
+    if assessment.get("mastery_attempt_policy", {}).get("maximum_fresh_attempts") != 2:
+        errors.append("fresh mastery attempts are not bounded to primary plus replacement")
     ai_text = " ".join(ai["behavior"] + [ai["ending"]]).lower()
     if "never claim mastery" not in ai_text or "without assigning mastery" not in ai_text:
         errors.append("AI contract may assign mastery from coached practice")

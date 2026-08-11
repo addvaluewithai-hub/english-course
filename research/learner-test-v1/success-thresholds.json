@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "study_id": "gold_lesson_u1_l03_pilot_v1",
+  "status": "pre_registered_hypotheses",
+  "sample": {
+    "target_completed_sessions": 8,
+    "minimum_eligible_completed_sessions": 6,
+    "minimum_double_rated_sessions": 2
+  },
+  "gating_metrics": [
+    {
+      "metric_id": "informed_consent_compliance",
+      "definition": "Eligible sessions with all four consent confirmations before lesson start.",
+      "operator": ">=",
+      "threshold": 1.0,
+      "minimum_denominator": 6,
+      "action_if_missed": "stop_and_redesign"
+    },
+    {
+      "metric_id": "privacy_or_safety_incidents",
+      "definition": "Sessions with a preventable privacy breach or mishandled safety pause.",
+      "operator": "==",
+      "threshold": 0,
+      "minimum_denominator": 6,
+      "action_if_missed": "stop_and_redesign"
+    },
+    {
+      "metric_id": "severe_accessibility_blockers",
+      "definition": "Learners unable to proceed because a required accessible route or permitted support was unavailable.",
+      "operator": "==",
+      "threshold": 0,
+      "minimum_denominator": 6,
+      "action_if_missed": "stop_and_redesign"
+    },
+    {
+      "metric_id": "completed_fresh_attempt_without_full_model",
+      "definition": "Eligible learners who reach and attempt the fresh task without an answer-bearing model.",
+      "operator": ">=",
+      "threshold": 0.75,
+      "minimum_denominator": 6,
+      "action_if_missed": "revise_and_retest"
+    },
+    {
+      "metric_id": "demonstrated_full_outcome",
+      "definition": "Valid fresh spoken attempts rated level 2 on all four required dimensions.",
+      "operator": ">=",
+      "threshold": 0.6,
+      "minimum_denominator": 5,
+      "action_if_missed": "revise_and_retest"
+    },
+    {
+      "metric_id": "major_instruction_confusion",
+      "definition": "Eligible sessions with a major instruction misunderstanding that requires facilitator teaching outside authored support.",
+      "operator": "<=",
+      "threshold": 0.15,
+      "minimum_denominator": 6,
+      "action_if_missed": "revise_and_retest"
+    },
+    {
+      "metric_id": "severe_arabic_or_level_clarity_issues",
+      "definition": "Sessions with a severe Arabic clarity or A1 level-fit issue left unresolved.",
+      "operator": "==",
+      "threshold": 0,
+      "minimum_denominator": 6,
+      "action_if_missed": "stop_and_redesign"
+    },
+    {
+      "metric_id": "important_correction_retry_success",
+      "definition": "Important corrected targets produced successfully on the configured immediate retry.",
+      "operator": ">=",
+      "threshold": 0.7,
+      "minimum_denominator": 3,
+      "action_if_missed": "revise_and_retest"
+    },
+    {
+      "metric_id": "mastery_decision_agreement",
+      "definition": "Double-rated sessions with exact agreement on demonstrated versus not demonstrated.",
+      "operator": ">=",
+      "threshold": 0.8,
+      "minimum_denominator": 2,
+      "action_if_missed": "revise_and_retest"
+    }
+  ],
+  "descriptive_metrics": [
+    "section_seconds_and_total_minutes",
+    "drop_off_step",
+    "arabic_clarity_rating_1_to_5",
+    "difficulty_rating_1_to_5",
+    "boredom_rating_1_to_5",
+    "perceived_value_rating_1_to_5",
+    "video_helpfulness_rating_1_to_5",
+    "teachback_helpfulness_and_fatigue_by_condition",
+    "one_day_and_seven_day_fresh_retention_when_available"
+  ],
+  "decision_precedence": [
+    "stop_and_redesign",
+    "insufficient_evidence",
+    "revise_and_retest",
+    "go_to_system_revision"
+  ]
+}

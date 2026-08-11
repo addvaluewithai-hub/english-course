@@ -79,6 +79,21 @@ def assessment(legacy: dict) -> dict:
     data["schema_version"] = 2
     data["lesson_id"] = LESSON_ID
     data["mastery_task"]["prior_lesson_support"] = "U1-L01 greetings and U1-L02 listening input may be recalled, but no complete introduction is shown."
+    data["replacement_mastery_task"] = {
+        "scenario_en": "You have just joined a local community event.",
+        "scenario_ar": "انضممت الآن إلى فعالية محلية وتقابل شخصًا للمرة الأولى.",
+        "prompt_en": "Introduce yourself in four or five short sentences.",
+        "required": list(data["mastery_task"]["required"]),
+        "support": "Field icons or labels only; no sentence frames or model.",
+        "freshness": "The setting, listener, and field order differ from both practice and the primary task.",
+        "safe_identity": True,
+        "use_only_when": "The primary attempt became practice after answer-revealing correction or help.",
+    }
+    data["mastery_attempt_policy"] = {
+        "maximum_fresh_attempts": 2,
+        "replacement_required_after_answer_revealing_help": True,
+        "second_failure_result": "practiced_or_needs_review_not_demonstrated",
+    }
     for row in data["rubric"]:
         if row["dimension"] == "interaction_or_transfer":
             row["dimension"] = "context_transfer"
