@@ -9,7 +9,12 @@ The interface stores only opened/practiced lesson IDs and Unit 1 review preview 
 in browser local storage. It never stores activity or mastery answers. "Practiced" is
 not a mastery decision.
 
-The learner route currently previews source content; final Gemini voice and video are
-not rendered. `observer.html` is the de-identified longitudinal facilitator instrument.
-It can be rehearsed with synthetic fixtures now, but real sessions must wait until all
-ten videos are rendered, transcript-matched, and listened to.
+The learner route is a simple end-user demo: video or placeholder, one application at
+a time, a final challenge, controlled feedback, and the next lesson. Put optional local
+videos in `media/` with names such as `U1-L01.mp4`; the matching lesson loads them
+automatically. Without a video, the learner can continue through the placeholder.
+
+Controlled lesson feedback is stored only in this browser and can be copied from the
+home screen. Activity and challenge responses are never stored. The separate direct
+route `observer.html` remains available for a later formal study, but is not shown in
+the ordinary learner interface.

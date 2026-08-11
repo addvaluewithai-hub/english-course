@@ -19,8 +19,9 @@ The learning loop is: understand, practice, use, explain, review, and retain.
   in Unit 1 plus Unit 2 Lesson 1, not a hand-picked showcase set.
 - All ten final-source lesson packages are authored and batch-QA'd: 120 package files,
   49 exact introductions, and 16 fresh recycles. U1-L03 remains the accepted reference.
-- A continuous local learner interface, Unit 1 transition, Arabic consent, longitudinal
-  observer form, JSON Schema, private-record validator, and six-visit protocol are ready.
+- A simple continuous learner experience is ready: local video or placeholder, one
+  application at a time, a final challenge, controlled feedback, and the next lesson.
+  Formal consent and observer tools remain available only on their separate direct route.
 - Final Gemini videos are not rendered or listened to, and no real learner journey has
   been collected. TEST-002, reusable system decisions, and later production remain gated.
 

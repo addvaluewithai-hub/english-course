@@ -77,8 +77,8 @@ def _observer_errors() -> list[str]:
     observer = (PROTOTYPE / "observer.html").read_text(encoding="utf-8")
     scripts = "\n".join((PROTOTYPE / name).read_text(encoding="utf-8")
                         for name in REQUIRED_OBSERVER_FILES if name.startswith("scripts/"))
-    if 'href="observer.html"' not in index:
-        errors.append("learner interface lacks observer route")
+    if not (PROTOTYPE / "observer.html").is_file():
+        errors.append("direct facilitator instrument is missing")
     for phrase in ("لا تكتب اسمًا", "data-lesson", "observer-app.js"):
         if phrase not in observer and phrase not in scripts:
             errors.append(f"observer instrument lacks: {phrase}")

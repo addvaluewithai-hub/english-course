@@ -31,7 +31,7 @@ class Pilot10PrototypeTests(unittest.TestCase):
             server.shutdown()
             thread.join(timeout=2)
             server.server_close()
-        self.assertIn("أول عشر دروس", html)
+        self.assertIn("أول 10 دروس", html)
         self.assertIn('"lesson_id": "U2-L01"', release)
         self.assertIn("observer-app.js", observer)
 
@@ -39,6 +39,22 @@ class Pilot10PrototypeTests(unittest.TestCase):
         for path in (PROTOTYPE / "scripts").glob("*.js"):
             with self.subTest(path=path.name):
                 self.assertLessEqual(len(path.read_text(encoding="utf-8").splitlines()), 200)
+
+    def test_ordinary_route_is_a_simple_student_journey(self):
+        index = (PROTOTYPE / "index.html").read_text(encoding="utf-8")
+        lesson = (PROTOTYPE / "scripts/lesson-view.js").read_text(encoding="utf-8")
+        activity = (PROTOTYPE / "scripts/activity-view.js").read_text(encoding="utf-8")
+        catalog = (PROTOTYPE / "scripts/catalog-view.js").read_text(encoding="utf-8")
+        self.assertNotIn('href="observer.html"', index)
+        for phrase in ("Video Placeholder", "data-video-done", "data-mastery-done", "data-save-feedback"):
+            self.assertIn(phrase, lesson)
+        self.assertIn("data-check-activity", activity)
+        self.assertIn("data-copy-feedback", catalog)
+
+    def test_optional_video_drop_folder_is_documented(self):
+        media_readme = PROTOTYPE / "media/README.md"
+        self.assertTrue(media_readme.is_file())
+        self.assertIn("U1-L01.mp4", media_readme.read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":

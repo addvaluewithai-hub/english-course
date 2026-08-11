@@ -106,6 +106,8 @@ post-video application, fresh mastery, safe fictional identities, and source has
 - the batch owns all 65 exact introduction and fresh-recycle roles;
 - the learner route is `prototype/first-ten/index.html`;
 - the facilitator route is `prototype/first-ten/observer.html`;
+- the ordinary learner route hides research controls and runs video/placeholder,
+  stepwise application, final challenge, controlled feedback, and next lesson;
 - the six-visit protocol and consent kit are in `research/first-ten-pilot-v1/`;
 - private longitudinal records have schema and semantic validation; and
 - synthetic fixtures are explicitly unable to satisfy TEST-002.

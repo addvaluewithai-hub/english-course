@@ -9,6 +9,7 @@ from scripts.pilot10_package_contract import ROOT, release
 PROTOTYPE = ROOT / "prototype/first-ten"
 REQUIRED = {
     "index.html",
+    "media/README.md",
     "observer.html",
     "README.md",
     "scripts/activity-view.js",
@@ -58,6 +59,10 @@ def validate() -> list[str]:
     api = (PROTOTYPE / "scripts/api.js").read_text(encoding="utf-8")
     if "a1-first-10-lessons-pilot-v1.json" not in api:
         errors.append("prototype does not read the locked release")
+    lesson_view = (PROTOTYPE / "scripts/lesson-view.js").read_text(encoding="utf-8")
+    for phrase in ("data-video-done", "renderActivity", "data-mastery-done", "data-save-feedback"):
+        if phrase not in lesson_view:
+            errors.append(f"student flow omits required stage: {phrase}")
     for lesson in release()["lessons"]:
         if not (ROOT / lesson["content_path"] / "lesson-manifest.json").is_file():
             errors.append(f"prototype release package is missing: {lesson['lesson_id']}")

@@ -1,98 +1,133 @@
-import { SECTION_LABELS, RELEASE_WARNING } from "./config.js";
-import { bindActivities, renderActivities } from "./activity-view.js";
-import { cleanTranscript, collectStrings, escapeHtml, list, speak } from "./dom.js";
+import { bindActivity, renderActivity } from "./activity-view.js";
+import { cleanTranscript, escapeHtml, list } from "./dom.js";
 
-
-function overview(pkg) {
-  const intro = pkg.packet.exact_introductions.map(row => row.label);
-  const recycle = pkg.packet.exact_recycles.map(row => row.label);
-  return `<div class="content-stack">
-    <p class="lead">${escapeHtml(pkg.manifest.goal.ar)}</p>
-    <p class="release-note">${escapeHtml(RELEASE_WARNING)}</p>
-    <div class="info-card"><strong>النتيجة القابلة للملاحظة</strong><span class="english">${escapeHtml(pkg.contract.outcome_statement)}</span></div>
-    <div class="info-card"><strong>الجديد في مكانه</strong>${intro.length ? list(intro) : "لا يوجد عنصر نظام جديد؛ هذا درس دمج وتطبيق."}</div>
-    <div class="info-card"><strong>إعادة استخدام مقصودة</strong>${recycle.length ? list(recycle) : "المهمة تعتمد على القدرة نفسها أو تمهّد لتكرار لاحق."}</div>
+function videoStep(pkg) {
+  const player = pkg.videoUrl
+    ? `<video class="lesson-video" controls preload="metadata"><source src="${pkg.videoUrl}" type="video/mp4">متصفحك لا يدعم الفيديو.</video>`
+    : `<div class="video-placeholder student-video">
+        <span class="play-mark">▶</span>
+        <b>فيديو ${escapeHtml(pkg.contract.lesson_id)}</b>
+        <p>Video Placeholder — اعتبر الفيديو موجودًا وكمل التجربة.</p>
+      </div>`;
+  return `<div class="flow-step video-step">
+    ${player}
+    <details><summary>اقرأ Transcript الفيديو بدل المشاهدة</summary><div class="transcript">${escapeHtml(cleanTranscript(pkg.transcript))}</div></details>
+    <button class="button primary large-action" type="button" data-video-done>شاهدت الفيديو — ابدأ التطبيق</button>
   </div>`;
 }
 
-function video(pkg) {
-  return `<div class="content-stack">
-    <div class="video-placeholder"><b>مصدر الفيديو جاهز · الرندر النهائي غير موجود</b><p>نص مدرس واحد كامل، وكل إنجليزي منطوق له لغة ونطق محددان. استمع للرندر النهائي لاحقًا قبل اختبار البشر.</p></div>
-    <details><summary>Scene</summary><pre class="context-source">${escapeHtml(pkg.scene)}</pre></details>
-    <details><summary>Sample Context</summary><pre class="context-source">${escapeHtml(pkg.context)}</pre></details>
-    <details open><summary>نص الفيديو المقروء</summary><div class="transcript">${escapeHtml(cleanTranscript(pkg.transcript))}</div></details>
-  </div>`;
-}
-
-function contentMap(pkg) {
-  const content = pkg.content;
-  const situation = content.situation || {};
-  const modelLines = collectStrings(content.model).filter(value => /[A-Za-z]/.test(value)).slice(0, 14);
-  const notices = (content.notice || []).map(row =>
-    `<div class="info-card">${Object.values(row).filter(value => typeof value === "string").map(escapeHtml).join(" · ")}</div>`
-  ).join("");
-  const toolkit = collectStrings(content.toolkit).slice(0, 40);
-  return `<div class="content-stack">
-    <div class="info-card"><strong>${escapeHtml(situation.title_ar || "موقف اليوم")}</strong>${escapeHtml(situation.prompt_ar || "")}</div>
-    <div class="model-box">${modelLines.map((line, index) => `<button class="choice english" type="button" data-speak="${index}">${escapeHtml(line)} 🔊</button>`).join("")}</div>
-    <h3>لاحظ المعنى والشكل</h3>${notices}
-    <h3>الشرح المختصر</h3>${list(content.explanation_ar || [])}
-    <h3>صندوق الأدوات</h3><div class="chip-grid">${toolkit.map(item => `<span class="chip">${escapeHtml(item)}</span>`).join("")}</div>
-  </div>`;
-}
-
-function mastery(pkg) {
+function masteryStep(pkg) {
   const task = pkg.assessment.mastery_task;
-  return `<div class="content-stack">
-    <div class="mastery-card">
-      <strong>${escapeHtml(task.scenario_ar)}</strong>
-      <p class="english">${escapeHtml(task.prompt_en)}</p>
-      <p>${escapeHtml(task.support)}</p>
-      ${list(task.required.map(item => item.replaceAll("_", " ")), "required-list")}
-    </div>
-    <label class="privacy-inline">محاولة مستقلة بمعلومات خيالية — لا تُحفظ
-      <textarea id="masteryDraft" placeholder="خطّط أو اكتب هنا…"></textarea>
-    </label>
-    <button class="button primary" id="attemptButton" type="button">سجل أنني جرّبت المهمة</button>
-    <div class="status-message" id="attemptStatus">تم تسجيل التجربة على هذا الجهاز فقط. هذا لا يعني إتقانًا؛ التقييم الحقيقي يحتاج ملاحظًا ومهمة جديدة.</div>
+  return `<div class="flow-step challenge-step">
+    <p class="step-kicker">التحدي الأخير</p>
+    <h3>${escapeHtml(task.scenario_ar)}</h3>
+    <p class="english challenge-prompt">${escapeHtml(task.prompt_en)}</p>
+    ${list(task.required.map(item => item.replaceAll("_", " ")), "required-list")}
+    <p class="privacy-inline">استخدم معلومات خيالية. الإجابة لا تُحفظ.</p>
+    <textarea data-mastery-response placeholder="اكتب هنا أو نفّذ المهمة بصوتك…"></textarea>
+    <label class="oral-check"><input type="checkbox" data-mastery-oral> نفّذت التحدي بصوتي</label>
+    <div class="activity-feedback" data-mastery-feedback role="status"></div>
+    <button class="button primary large-action" type="button" data-mastery-done>أنهيت التحدي</button>
   </div>`;
 }
 
-function review(pkg) {
-  return `<div class="content-stack">
-    <p class="lead">المراجعة تغيّر المحتوى ولا تعيد نفس الإجابة.</p>
-    ${pkg.assessment.delayed_review.map(row => `<div class="info-card"><strong>${escapeHtml(row.when)}</strong>${escapeHtml(row.task)}</div>`).join("")}
-    <div class="info-card"><strong>محاولة بديلة</strong>${escapeHtml(pkg.assessment.replacement_mastery_task.scenario_ar)}<p class="english">${escapeHtml(pkg.assessment.replacement_mastery_task.prompt_en)}</p></div>
+const FEEDBACK = {
+  clarity: ["واضح", "واضح جزئيًا", "محتاج تبسيط"],
+  enjoyment: ["ممتع", "عادي", "ممل"],
+  pace: ["قصير", "مناسب", "طويل"],
+  confidence: ["أقدر أستخدمه", "محتاج تدريب", "مش فاهمه بعد"],
+};
+
+function feedbackStep(pkg, saved = {}) {
+  const rows = Object.entries(FEEDBACK).map(([key, values]) => `<div class="feedback-row" data-feedback-group="${key}">
+    <strong>${{ clarity: "الشرح", enjoyment: "التجربة", pace: "مدة الدرس", confidence: "بعد الدرس" }[key]}</strong>
+    <div class="choice-row">${values.map(value => `<button class="choice ${saved[key] === value ? "selected" : ""}" type="button" data-feedback-value="${escapeHtml(value)}">${escapeHtml(value)}</button>`).join("")}</div>
+  </div>`).join("");
+  return `<div class="flow-step feedback-step">
+    <div class="success-mark">✓</div>
+    <h3>خلصت ${escapeHtml(pkg.contract.title.ar)}</h3>
+    <p>قول لنا انطباعك السريع. لا يوجد تسجيل دخول ولا بيانات شخصية.</p>
+    ${rows}
+    <div class="activity-feedback" data-feedback-message role="status"></div>
+    <button class="button primary large-action" type="button" data-save-feedback>احفظ الانطباع وانتقل</button>
   </div>`;
 }
 
-function sectionBody(pkg, section) {
-  if (section === "video") return video(pkg);
-  if (section === "content") return contentMap(pkg);
-  if (section === "practice") return `<div class="content-stack">${renderActivities(pkg.activities.activities)}<p class="privacy-inline">الإجابات في المساحات النصية لا تُحفظ.</p></div>`;
-  if (section === "mastery") return mastery(pkg);
-  if (section === "review") return review(pkg);
-  return overview(pkg);
+function stepName(step, activityCount) {
+  if (step === 0) return "فيديو الدرس";
+  if (step <= activityCount) return `تطبيق ${step} من ${activityCount}`;
+  if (step === activityCount + 1) return "التحدي الأخير";
+  return "انطباعك";
 }
 
-export function renderLesson(screen, pkg, section, callbacks) {
-  const sections = Object.keys(SECTION_LABELS);
-  screen.innerHTML = `<article class="panel">
-    <div class="lesson-meta"><span>${escapeHtml(pkg.contract.lesson_id)}</span><span>الموقع ${pkg.contract.global_sequence_position} من 10</span></div>
+function bindFeedback(screen, callbacks) {
+  screen.querySelectorAll("[data-feedback-value]").forEach(button => button.onclick = () => {
+    button.closest("[data-feedback-group]").querySelectorAll(".choice").forEach(item => item.classList.remove("selected"));
+    button.classList.add("selected");
+  });
+  screen.querySelector("[data-save-feedback]").onclick = () => {
+    const result = {};
+    screen.querySelectorAll("[data-feedback-group]").forEach(group => {
+      result[group.dataset.feedbackGroup] = group.querySelector(".selected")?.dataset.feedbackValue;
+    });
+    if (Object.values(result).some(value => !value)) {
+      screen.querySelector("[data-feedback-message]").textContent = "اختار إجابة واحدة في كل سطر.";
+      screen.querySelector("[data-feedback-message]").className = "activity-feedback retry";
+      return;
+    }
+    callbacks.saveFeedback(result);
+    callbacks.next();
+  };
+}
+
+function bindStep(screen, pkg, step, callbacks) {
+  const count = pkg.activities.activities.length;
+  screen.querySelector("[data-back]").onclick = () => step > 0 ? callbacks.step(step - 1) : callbacks.previous();
+  if (step === 0) {
+    screen.querySelector("[data-video-done]").onclick = () => callbacks.step(1);
+    return;
+  }
+  if (step <= count) {
+    const next = screen.querySelector("[data-flow-next]");
+    bindActivity(screen, () => { next.disabled = false; });
+    next.onclick = () => callbacks.step(step + 1);
+    return;
+  }
+  if (step === count + 1) {
+    screen.querySelector("[data-mastery-done]").onclick = () => {
+      const written = screen.querySelector("[data-mastery-response]").value.trim();
+      const oral = screen.querySelector("[data-mastery-oral]").checked;
+      if (!written && !oral) {
+        screen.querySelector("[data-mastery-feedback]").textContent = "نفّذ التحدي كتابة أو بصوتك الأول.";
+        screen.querySelector("[data-mastery-feedback]").className = "activity-feedback retry";
+        return;
+      }
+      callbacks.practiced();
+      callbacks.step(step + 1);
+    };
+    return;
+  }
+  bindFeedback(screen, callbacks);
+}
+
+export function renderLesson(screen, pkg, requestedStep, callbacks) {
+  const activities = pkg.activities.activities;
+  const lastStep = activities.length + 2;
+  const step = Math.max(0, Math.min(Number(requestedStep) || 0, lastStep));
+  let body = videoStep(pkg);
+  if (step > 0 && step <= activities.length) body = renderActivity(activities[step - 1], step - 1, activities.length);
+  if (step === activities.length + 1) body = masteryStep(pkg);
+  if (step === lastStep) body = feedbackStep(pkg, callbacks.savedFeedback);
+  const nextButton = step > 0 && step <= activities.length
+    ? `<button class="button primary" type="button" data-flow-next disabled>الخطوة التالية</button>` : "";
+  screen.innerHTML = `<article class="panel lesson-flow">
+    <div class="lesson-meta"><span>${escapeHtml(pkg.contract.lesson_id)}</span><span>الدرس ${pkg.contract.global_sequence_position} من 10</span></div>
     <h2>${escapeHtml(pkg.contract.title.ar)}</h2>
     <p class="english lead">${escapeHtml(pkg.contract.title.en)}</p>
-    <nav class="section-tabs" aria-label="أجزاء الدرس">${sections.map(key => `<button class="tab ${key === section ? "active" : ""}" type="button" data-section="${key}">${SECTION_LABELS[key]}</button>`).join("")}</nav>
-    <section>${sectionBody(pkg, section)}</section>
-    <div class="lesson-actions"><button class="button secondary" type="button" data-prev>الدرس السابق</button><button class="button primary" type="button" data-next>الدرس التالي</button></div>
+    <div class="flow-progress"><span style="width:${((step + 1) / (lastStep + 1)) * 100}%"></span></div>
+    <p class="flow-label">${stepName(step, activities.length)}</p>
+    ${body}
+    <div class="lesson-actions"><button class="button secondary" type="button" data-back>رجوع</button>${nextButton}</div>
   </article>`;
-  screen.querySelectorAll("[data-section]").forEach(button => button.addEventListener("click", () => callbacks.section(button.dataset.section)));
-  screen.querySelector("[data-prev]").addEventListener("click", callbacks.previous);
-  screen.querySelector("[data-next]").addEventListener("click", callbacks.next);
-  const modelLines = collectStrings(pkg.content.model).filter(value => /[A-Za-z]/.test(value)).slice(0, 14);
-  screen.querySelectorAll("[data-speak]").forEach(button => button.addEventListener("click", () => speak(modelLines[Number(button.dataset.speak)])));
-  bindActivities(screen);
-  screen.querySelector("#attemptButton")?.addEventListener("click", () => {
-    callbacks.practiced();
-    screen.querySelector("#attemptStatus").classList.add("show");
-  });
+  bindStep(screen, pkg, step, callbacks);
 }

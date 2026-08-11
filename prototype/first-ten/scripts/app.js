@@ -2,7 +2,7 @@ import { loadLesson, loadRelease, loadScope } from "./api.js";
 import { renderCatalog } from "./catalog-view.js";
 import { escapeHtml } from "./dom.js";
 import { renderLesson } from "./lesson-view.js";
-import { markOpened, markPracticed, markUnitReview, readProgress, resetProgress } from "./state.js";
+import { markOpened, markPracticed, markUnitReview, readProgress, resetProgress, saveFeedback } from "./state.js";
 import { UNIT_LABELS } from "./config.js";
 import { renderUnitReview } from "./unit-review.js";
 
@@ -18,7 +18,7 @@ function route() {
   const params = new URLSearchParams(location.search);
   return {
     lesson: params.get("lesson"),
-    section: params.get("section") || "overview",
+    step: Number(params.get("step") || 0),
     review: params.get("review"),
   };
 }
@@ -46,7 +46,7 @@ function updateRail(activeLesson) {
   rail.querySelectorAll("[data-rail-lesson]").forEach(button => button.addEventListener("click", () => navigate({ lesson: button.dataset.railLesson })));
   const count = release.lessons.filter(lesson => progress.practiced.includes(lesson.lesson_id)).length;
   document.querySelector("#courseProgress").style.width = `${(count / 10) * 100}%`;
-  document.querySelector("#courseProgressText").textContent = `${count} من 10 تمّت تجربتهم`;
+  document.querySelector("#courseProgressText").textContent = `${count} من 10 مكتملين`;
 }
 
 async function getLesson(contract) {
@@ -96,10 +96,12 @@ async function renderRoute() {
   screen.innerHTML = `<div class="loading">جارٍ تحميل ${escapeHtml(contract.title.ar)}…</div>`;
   const pkg = await getLesson(contract);
   const adjacent = adjacentCallbacks(index, contract.lesson_id);
-  renderLesson(screen, pkg, current.section, {
+  renderLesson(screen, pkg, current.step, {
     ...adjacent,
-    section: section => navigate({ lesson: contract.lesson_id, section }),
+    step: step => navigate({ lesson: contract.lesson_id, step }),
     practiced: () => { progress = markPracticed(contract.lesson_id); updateRail(contract.lesson_id); },
+    savedFeedback: progress.feedback[contract.lesson_id] || {},
+    saveFeedback: feedback => { progress = saveFeedback(contract.lesson_id, feedback); updateRail(contract.lesson_id); },
   });
 }
 

@@ -20,9 +20,19 @@ export function loadScope() {
   return json("data/reviewed/a1-scope-and-sequence-v1.json");
 }
 
+async function optionalVideo(lessonId) {
+  const url = new URL(`../media/${lessonId}.mp4`, import.meta.url);
+  try {
+    const response = await fetch(url, { method: "HEAD" });
+    return response.ok ? url.href : null;
+  } catch {
+    return null;
+  }
+}
+
 export async function loadLesson(contract) {
   const base = `${contract.content_path}/`;
-  const [manifest, content, activities, assessment, packet, transcript, scene, context] =
+  const [manifest, content, activities, assessment, packet, transcript, scene, context, videoUrl] =
     await Promise.all([
       json(`${base}lesson-manifest.json`),
       json(`${base}content.json`),
@@ -32,6 +42,7 @@ export async function loadLesson(contract) {
       text(`${base}video/transcript.txt`),
       text(`${base}video/scene.txt`),
       text(`${base}video/sample-context.txt`),
+      optionalVideo(contract.lesson_id),
     ]);
-  return { contract, manifest, content, activities, assessment, packet, transcript, scene, context };
+  return { contract, manifest, content, activities, assessment, packet, transcript, scene, context, videoUrl };
 }
