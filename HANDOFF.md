@@ -1,80 +1,128 @@
 # Project Handoff
 
-## What is complete
+Authoritative machine state: `automation/STATE.json` and `automation/TASKS.json`.
+These are project memory and a gated checklist. They do not schedule agents.
 
-The project has a reviewed A1 curriculum foundation and one complete content unit.
+## Current checkpoint
 
-- 218 reviewed CEFR/GSE source records feed 81 source-audited A1 candidates. They are
-  evidence-backed working material, not an owner-approved lesson count or syllabus.
-- The gold lesson is `Introduce Yourself` under `gold/introduce-yourself/`.
-- The owner tested and accepted the one-teacher Arabic/English presentation style.
-- Every English expression in the video scripts has pronunciation guidance for
-  mixed-language voice generation.
-- Unit 1 contains eight sequenced lessons, lesson-level practice and assessment,
-  accessibility requirements, review routing, and a unit mastery experience.
-- The static prototype demonstrates the gold lesson without an app or database.
-- The owner has directed the project to build an A1-C2 vertical curriculum before mass
-  production. The approved architecture, exit profiles, source audit, and execution plan are in
-  `docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md`,
-  `docs/LEVEL_EXIT_PROFILES_V1.md`, and `docs/VERTICAL_SPINE_EXECUTION_PLAN.md`.
-- All cross-level source inventories are normalized under `data/derived/`: 1,050 GSE
-  objectives, 1,224 CEFR descriptors, 1,222 EGP features, 456 GSE Grammar entries,
-  3,307 Oxford 3000 entry lines, and 2,015 Oxford 5000 entry lines. They are derived
-  evidence, not approved syllabuses.
-- Every one of the 9,274 normalized records has a reviewed source-use disposition.
-  The approved exit contract contains 102 evidence-linked claims across A1-C2; the
-  completion audit is `docs/SPINE_003_REVIEW_AUDIT.md`.
+The curriculum architecture and A1 syllabus are locked. The delivery path is waiting
+for real learner evidence before reusable system and application decisions.
 
-## Important boundary
+- Last completed task: `TEST-001`.
+- Active task: `TEST-002`.
+- Real learner sessions collected: 0.
+- Next phase remains locked until TEST-002 produces a reviewed aggregate decision.
+- The current workflow uses one continuing primary agent; no scheduled or hourly agent
+  team exists.
 
-The authored content package is complete; the product is not production-ready.
-There is no rendered media pipeline, learner account system, production database,
-analytics layer, or external learner-pilot result yet.
+## Completed curriculum work
 
-`automation/STATE.json` and `automation/TASKS.json` preserve the gated factory history
-and now act only as project memory and a checklist. They do not create scheduled tasks.
-Later owner-directed work produced Unit 1 before the earlier pilot,
-system, and architecture gates were formally closed. Treat this as an explicit
-exception, not proof that those gates passed.
+- All 9,274 normalized CEFR, GSE, EGP, GSE Grammar, Oxford 3000, and Oxford 5000
+  records have a reviewed disposition and retained source provenance.
+- The A1-C2 spine contains 41 communicative-function strands, 91 grammar families, 10
+  lexical-resource strands, 10 pronunciation strands, and 15 performance dimensions:
+  167 families/strands and 1,015 lifecycle stages in total.
+- All 1,222 EGP features and 456 GSE Grammar records are crosswalked. Oxford entries
+  remain level-aware resources, not an arbitrary word-count promise.
+- No unexplained source orphan or invalid level regression remains in SPINE-004.
+- All 81 historical A1 source candidates were reviewed: 23 keep, 22 revise, 21 merge,
+  14 support-only, and 1 split decision.
+- The final learner-facing A1 v1 has 45 capabilities in six units with lesson counts
+  `[9, 9, 7, 7, 5, 8]`.
+- All 158 exact grammar, lexical/chunk, and pronunciation items have a final
+  introduction, fresh recycle, and later consolidation placement.
+- All 24 mapped prerequisite edges are aligned. Nineteen unit mastery stations cover
+  all 45 capabilities, and seven exit stations cover all seven A1 exit dimensions.
 
-## Recommended next work
+The locked human and machine sources are:
 
-1. Build reviewed progression strands and lifecycle ownership across all levels.
-2. Reconcile, replace, or retire the 81 A1 candidates and Unit 1 as needed, then lock
-   A1 scope and sequence v1 without preserving the current lesson count by default.
-3. In parallel, run a small consent-based gold-lesson pilot and record delivery evidence.
-4. Resume mass A1 production only after the vertical-spine and delivery gates pass.
+- `docs/SPINE_004_COMPLETION_AUDIT.md`;
+- `data/reviewed/a1-final-candidate-decisions-v1.json`;
+- `docs/A1_FINAL_CANDIDATE_DECISIONS_V1.md`;
+- `data/reviewed/a1-scope-and-sequence-v1.json`; and
+- `docs/A1_SCOPE_AND_SEQUENCE_V1.md`.
 
-## Content locations
+## Completed gold-lesson work
 
-- Gold lesson: `gold/introduce-yourself/`
-- Gold video inputs: `gold/introduce-yourself/video/`
-- Unit 1 manifest: `units/unit-01-first-connections/unit-manifest.json`
-- Lessons 2-8: `units/unit-01-first-connections/lessons/`
-- Unit mastery: `units/unit-01-first-connections/unit-mastery-experience.json`
-- A1 lesson map: `data/reviewed/a1-lesson-map.json`
-- Prototype: `prototype/gold-lesson/`
+The owner-approved one-teacher Egyptian-Arabic/English lesson is final `U1-L03`, after
+a social opening and a listening-input lesson.
 
-Lesson 1 intentionally remains in `gold/introduce-yourself/`; the Unit 1 manifest
-references it instead of duplicating it.
+- Final package: `units/a1-v1/unit-01-first-connections/lessons/u1-l03/`.
+- Seven exact items are introduced and three are freshly recycled with source hashes.
+- Every spoken English span in the transcript uses the required English-language and
+  phoneme markup for mixed-language voice generation.
+- The explanation video contains one teacher and no applied interaction; questions
+  start after the video.
+- Conversational Arabic avoids artificial tanween forms while retaining natural
+  `مثلًا`.
+- Fresh mastery has one equivalent replacement task and at most two fresh attempts.
+- `gold/introduce-yourself/` is preserved as accepted prototype lineage, not the final
+  sequence location.
 
-## Repository hygiene
+QA evidence is in `data/reviewed/gold-lesson-v1-qa.json` and
+`docs/GOLD_LESSON_V1_QA.md`.
 
-This private repository includes verified third-party source files, extracted text
-mirrors, and recovered legacy planning inputs. The legacy inputs are historical
-context, not approved curriculum evidence. Historic per-agent run logs, caches, and
-temporary files remain excluded. Review each publisher's reuse terms before sharing.
+## Learner-test readiness
 
-For the next curriculum phase, read `docs/VERTICAL_CURRICULUM_SPINE_BRIEF.md` and
-`docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md` before designing A2 or revising A1.
+TEST-001 is complete:
 
-No repository-wide open-source license has been selected. The new team should choose
-one deliberately before accepting outside contributions.
+- learner route: `prototype/gold-lesson/index.html`;
+- observer route: `prototype/gold-lesson/observer.html`;
+- Arabic start guide: `research/learner-test-v1/START_HERE_AR.md`;
+- consent, facilitator, privacy, and accessibility controls;
+- target eight and minimum six eligible completed real sessions;
+- odd/even `teachback` and `omit` allocation;
+- nine pre-registered gating metrics;
+- two or more live double-rated sessions;
+- versioned JSON Schema and semantic validation for private records; and
+- a guarded aggregate pipeline that forces synthetic fixtures to
+  `simulation_only_no_gate_effect`.
+
+Browser verification passed consent, all nine learner steps, the omit route, no-answer
+timing, observer consent enforcement, and zero console errors after the discovered
+planning-index defect was fixed.
+
+## Exact next work
+
+1. Recruit six to eight real Arabic-speaking adult beginners using
+   `research/learner-test-v1/START_HERE_AR.md`.
+2. Run consented sessions and keep `LT1-*.json` records in a restricted directory
+   outside this repository.
+3. Validate and aggregate them with `research/learner-test-v1/ANALYSIS_RUNBOOK.md`.
+4. Publish only the de-identified aggregate, lesson revisions, and the recorded
+   go/revise/stop/insufficient decision.
+5. If the gate passes, complete `SYSTEM-001`, then `ARCH-001`, then rebuild and pilot
+   final Unit 1 before controlled full-A1 production.
+
+Synthetic, agent-generated, owner, or previously exposed records cannot replace the
+required beginner observations. Do not unlock later gates merely because tooling or
+fixtures pass.
+
+## Preserved historical work
+
+- `units/unit-01-first-connections/` contains eight pre-v1 source packages. They are
+  useful content prototypes, but the final A1 v1 Unit 1 has nine capabilities and must
+  be rebuilt in `units/a1-v1/` after its gates pass.
+- `data/reviewed/a1-lesson-map.json` contains the 81-candidate source audit. It remains
+  traceable input, not the final learner syllabus.
+- `references/legacy/` contains recovered planning conversations. They establish
+  historical product intent, never curriculum authority.
+
+## Repository and publication boundaries
+
+- The repository contains publisher source snapshots and has no selected open-source
+  license. Review reuse rights before public redistribution.
+- Never commit private participant records, contacts, raw answers, audio, video, or
+  screen recordings.
+- No production app, account system, database, or media factory has been authorized.
+- Direct push to `main` remains the owner's standing publication instruction.
 
 ## Working rules
 
-- Read `AGENTS.md` before modifying the project.
+- Read `AGENTS.md` and `automation/AGENT_RUNBOOK.md` before modifying the project.
 - Keep implementation files modular and normally below 200 lines, never above 300.
-- Preserve source traceability and distinguish sourced facts from hypotheses.
-- Do not treat activity completion as demonstrated mastery.
-- Do not introduce infrastructure before a validated product need requires it.
+- Preserve source traceability and separate sourced facts from course policy.
+- Never equate viewing, section completion, recognition questions, or coached practice
+  with demonstrated mastery.
+- Continue the active gate; do not work around missing human evidence by silently
+  changing the definition of completion.

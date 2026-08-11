@@ -5,20 +5,22 @@ The learning loop is: understand, practice, use, explain, review, and retain.
 
 ## Current delivery
 
-- The A1 curriculum map contains 81 source-audited lesson candidates. They passed an
-  internal contract, but the owner has not approved them as the final A1 syllabus.
-- The gold lesson, `Introduce Yourself`, is complete and owner-approved.
-- Unit 1, `First Connections`, has eight complete lesson source packages.
-- A browser prototype is available for the gold lesson.
-- The A1-C2 level-exit contract is approved internally: 102 reviewed claims across
-  reception, production, interaction, language control, and fresh assessment evidence.
-- All-level CEFR, GSE objectives, EGP, GSE Grammar, Oxford 3000, and Oxford 5000
-  source records are normalized with page or row provenance. All 9,274 records have
-  reviewed source-use dispositions; exact lifecycle ownership remains pending.
-- SPINE-004 is in progress: all 2,274 communicative records now feed 41 reviewed
-  function strands, all 1,222 EGP features feed 91 reviewed grammar-family strands,
-  and 15 performance/complexity dimensions define 90 evidence-linked level stages.
-- Rendered voice/video assets and external learner-pilot evidence are still pending.
+- The evidence-backed A1-C2 vertical spine is complete: all 9,274 normalized source
+  records are dispositioned across 167 reviewed families/strands and 1,015 lifecycle
+  stages, with no unexplained orphan or level regression.
+- The former 81 A1 source candidates remain traceable inputs. They were reconciled into
+  a locked learner-facing A1 v1 syllabus of 45 capabilities in six units.
+- All 158 exact A1 grammar, lexical/chunk, and pronunciation items have an ordered
+  introduction, fresh recycle, and later consolidation location.
+- The owner-approved `Introduce Yourself` gold lesson is migrated and re-QA'd as final
+  `U1-L03` under the versioned A1 path; the older gold and Unit 1 packages are preserved
+  as prototype lineage, not the final course sequence.
+- The local learner prototype, Arabic consent, observer form, pre-registered thresholds,
+  private-record validator, and de-identified TEST-002 analysis pipeline are ready.
+- TEST-001 passed. TEST-002 remains open because zero real learner sessions have been
+  collected; synthetic fixtures are forced to have no phase-gate effect.
+- Rendered final video, reusable system contracts, architecture, final Unit 1, and
+  remaining course content stay behind their recorded gates.
 
 Read [HANDOFF.md](HANDOFF.md) before continuing the project.
 
@@ -27,10 +29,13 @@ Read [HANDOFF.md](HANDOFF.md) before continuing the project.
 From the repository root:
 
 ```powershell
-python -m http.server 8765 --directory prototype/gold-lesson
+python -m http.server 8765 --bind 127.0.0.1
 ```
 
-Then open <http://127.0.0.1:8765>.
+Then open
+<http://127.0.0.1:8765/prototype/gold-lesson/index.html?variant=teachback>.
+The Arabic real-session guide is
+[`research/learner-test-v1/START_HERE_AR.md`](research/learner-test-v1/START_HERE_AR.md).
 
 ## Validate the repository
 
@@ -43,6 +48,7 @@ python -m unittest discover -s tests -p "test_*.py"
 
 Source-extraction tests are skipped when the external reference files have not been
 downloaded. All curriculum, lesson-package, and Unit 1 tests still run.
+There is no scheduled task or background curriculum agent.
 
 ## Start here
 
@@ -51,10 +57,13 @@ downloaded. All curriculum, lesson-package, and Unit 1 tests still run.
 - `docs/LEARNING_PRINCIPLES.md` - product and pedagogy contract
 - `docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md` - approved A1-C2 architecture foundation
 - `docs/LEVEL_EXIT_PROFILES_V1.md` - approved human-readable level boundaries
-- `docs/SPINE_003_REVIEW_AUDIT.md` - source-disposition and exit-profile gate audit
+- `docs/SPINE_004_COMPLETION_AUDIT.md` - completed all-level spine gate audit
 - `docs/VERTICAL_SPINE_EXECUTION_PLAN.md` - work packages and approval gates
-- `units/unit-01-first-connections/` - complete first-unit source package
-- `gold/introduce-yourself/` - accepted reference lesson and video script
+- `docs/A1_SCOPE_AND_SEQUENCE_V1.md` - locked six-unit, 45-capability A1 sequence
+- `units/a1-v1/` - versioned final A1 content packages as they pass their gates
+- `units/unit-01-first-connections/` - preserved pre-v1 Unit 1 prototype packages
+- `gold/introduce-yourself/` - preserved accepted gold prototype lineage
+- `research/learner-test-v1/` - TEST-001 kit and TEST-002 analysis runbook
 - `sources/registry/SOURCES.md` - source URLs, roles, and verified hashes
 - `automation/AGENT_RUNBOOK.md` - single-primary-agent operating contract
 

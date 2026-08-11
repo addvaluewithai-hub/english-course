@@ -308,7 +308,8 @@
       "notes": [
         "2026-08-11: collection gate opened. Only consented observations from real Arabic-speaking adult beginners count; simulated or agent-generated records are test fixtures only.",
         "2026-08-11: private-record validation, nine-metric aggregation, condition summaries, evaluator agreement, and de-identified report rendering are implemented and tested.",
-        "2026-08-11: synthetic analysis is forced to simulation_only_no_gate_effect; 383 repository tests pass. Real learner sessions remain at 0, so TEST-002 is correctly still in progress."
+        "2026-08-11: synthetic analysis is forced to simulation_only_no_gate_effect; 383 repository tests pass. Real learner sessions remain at 0, so TEST-002 is correctly still in progress.",
+        "2026-08-11: refreshed README and handoff against machine state and reran all 383 repository tests. This does not alter the real-learner gate."
       ]
     },
     {

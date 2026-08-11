@@ -23,7 +23,8 @@ Inspect historical reports in `logs/runs/` only when needed for the current task
 
 ## 2. Respect the phase gate
 
-Work on the first task whose status is `ready` and whose dependencies are complete.
+Continue the task whose status is `in_progress`; otherwise work on the first `ready`
+task whose dependencies are complete.
 Do not work ahead of the active phase. If no task is ready, diagnose and correct the
 dependency state or explain the genuine owner decision that is required.
 
