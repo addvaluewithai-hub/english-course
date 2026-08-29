@@ -3,7 +3,7 @@
 
 This deliberately exports only course-authored curriculum fields. Publisher/source
 snapshots, source_refs, Oxford headword reconciliation, and review internals stay in
-this private curriculum repository.
+this private curriculum repository. The CI contract verifies the locked A1 counts.
 """
 
 from __future__ import annotations
