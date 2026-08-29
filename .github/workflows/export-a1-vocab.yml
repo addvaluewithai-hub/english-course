@@ -1,0 +1,46 @@
+name: A1 vocab app export
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/export-a1-vocab-app.py'
+      - 'data/reviewed/a1-lexical-chunk-ownership-v1.json'
+      - 'data/reviewed/a1-scope-and-sequence-v1.json'
+      - '.github/workflows/export-a1-vocab.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Export locked A1 vocabulary catalog
+        run: python scripts/export-a1-vocab-app.py
+      - name: Validate safe export boundary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('dist/app/a1-vocab-catalog-v1.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          text = path.read_text(encoding='utf-8')
+          assert data['stats']['unitCount'] == 6
+          assert data['stats']['courseItemCount'] == 104
+          assert data['stats']['memberLineCount'] == 923
+          assert data['stats']['distinctMemberCount'] == 760
+          for forbidden in ('source_refs', 'oxford_source_headwords', 'unmatched_source_headwords', 'source_record_id'):
+              assert forbidden not in text, f'private/source field leaked into app export: {forbidden}'
+          print(data['stats'])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: a1-vocab-app-catalog
+          path: dist/app/a1-vocab-catalog-v1.json
+          if-no-files-found: error
