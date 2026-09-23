@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import urllib.parse
 import urllib.request
 from collections import Counter
@@ -68,6 +69,13 @@ def normalize_record(source: dict[str, Any]) -> dict[str, Any]:
     return {key: source[key] for key in keep if key in source}
 
 
+def numeric_gse(value: Any) -> int:
+    match = re.match(r"\s*(\d+)", str(value))
+    if not match:
+        raise ValueError(f"Cannot parse GSE score: {value!r}")
+    return int(match.group(1))
+
+
 def main() -> None:
     first = fetch_page(1)
     expected = int(first["count"])
@@ -99,9 +107,9 @@ def main() -> None:
     for row in records:
         if row.get("audience") != "GL":
             raise SystemExit(f"Non-GL record leaked into C2 snapshot: {row.get('itemId')}")
-        gse = int(row["gse"])
+        gse = numeric_gse(row["gse"])
         if not 85 <= gse <= 90:
-            raise SystemExit(f"Out-of-range GSE record: {row.get('itemId')}={gse}")
+            raise SystemExit(f"Out-of-range GSE record: {row.get('itemId')}={row.get('gse')}")
         if not str(row.get("cefr", "")).startswith("C2"):
             raise SystemExit(f"Non-C2 CEFR record: {row.get('itemId')}={row.get('cefr')}")
 
@@ -110,6 +118,8 @@ def main() -> None:
     records_with_collos = 0
     collation_rows = 0
     distinct_collos: set[str] = set()
+    temporary_rows = 0
+    marked_score_rows = 0
     for row in records:
         for category in row.get("grammaticalCategories", []):
             pos[category] += 1
@@ -127,6 +137,10 @@ def main() -> None:
                 text = collo.get("expression") or collo.get("collocation") or collo.get("text")
                 if text:
                     distinct_collos.add(str(text).casefold().strip())
+        if row.get("temporaryGse") is True:
+            temporary_rows += 1
+        if str(row.get("gse", "")).strip() != str(numeric_gse(row.get("gse"))):
+            marked_score_rows += 1
 
     canonical = json.dumps(records, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
     dataset_hash = hashlib.sha256(canonical).hexdigest().upper()
@@ -147,25 +161,29 @@ def main() -> None:
         },
         "record_count": len(records),
         "normalized_records_sha256": dataset_hash,
-        "status": "official_api_snapshot_pending_inventory_reconciliation",
+        "status": "official_api_snapshot_pending_inventory_reconciliation_and_license_gate",
         "records": records,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    scores = [numeric_gse(r["gse"]) for r in records]
     audit = {
         "schema_version": 1,
         "dataset_id": payload["dataset_id"],
         "record_count": len(records),
-        "gse_min": min(int(r["gse"]) for r in records),
-        "gse_max": max(int(r["gse"]) for r in records),
+        "gse_min": min(scores),
+        "gse_max": max(scores),
         "grammatical_category_counts": dict(pos.most_common()),
         "multiword_expression_records": multiword,
         "single_token_expression_records": len(records) - multiword,
         "records_with_collocations": records_with_collos,
         "collocation_rows": collation_rows,
         "distinct_collocation_strings_detected": len(distinct_collos),
+        "temporary_gse_flagged_records": temporary_rows,
+        "marked_gse_score_records": marked_score_rows,
         "normalized_records_sha256": dataset_hash,
+        "license_gate": "Pearson permission/contact required before commercial use of GSE components",
     }
     AUDIT.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(audit, ensure_ascii=False, indent=2))
