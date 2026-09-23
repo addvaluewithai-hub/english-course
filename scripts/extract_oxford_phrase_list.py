@@ -15,6 +15,10 @@ LEVELS = {"A1", "A2", "B1", "B2", "C1"}
 ENTRY_FONT = "MyriadPro-Regular"
 
 
+def normalize_phrase(text: str) -> str:
+    return " ".join(text.casefold().replace("…", "...").split())
+
+
 def main() -> None:
     doc = fitz.open(PDF)
     current_level: str | None = None
@@ -57,11 +61,21 @@ def main() -> None:
             })
 
     counts = Counter(r["level"] for r in records)
+    phrase_counts = Counter(normalize_phrase(r["phrase"]) for r in records)
+    duplicate_keys = {phrase for phrase, count in phrase_counts.items() if count > 1}
+    duplicates = [
+        (r["level"], r["phrase"], r["source_page"], r["source_x"], r["source_y"])
+        for r in records if normalize_phrase(r["phrase"]) in duplicate_keys
+    ]
     print("fonts:", dict(font_counts))
     print("level counts:", dict(counts), "total:", len(records))
+    print("unique normalized phrases:", len(phrase_counts))
+    print("duplicate phrase records:", duplicates)
     if len(records) != 750:
-        tail = [(r["level"], r["phrase"]) for r in records[-30:]]
-        raise SystemExit(f"Expected 750 phrase entries, extracted {len(records)}. Tail: {tail}")
+        raise SystemExit(
+            f"Expected 750 phrase entries, extracted {len(records)}; "
+            f"unique={len(phrase_counts)}; duplicates={duplicates}"
+        )
     if set(counts) != LEVELS:
         raise SystemExit(f"Missing expected levels: {LEVELS - set(counts)}")
 
