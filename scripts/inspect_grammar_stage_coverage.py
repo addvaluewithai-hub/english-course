@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Report the exact reviewed grammar-family lifecycle stage coverage."""
 from __future__ import annotations
 
 import json
