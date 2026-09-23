@@ -21,10 +21,7 @@ def write(path: Path, data: dict[str, Any]) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def crosscheck_item(
-    source: dict[str, Any],
-    mapping: dict[str, Any],
-) -> dict[str, Any]:
+def crosscheck_item(source: dict[str, Any], mapping: dict[str, Any]) -> dict[str, Any]:
     facts = source["source_facts"]
     other = facts.get("other_verbatim") or {}
     return {
@@ -49,8 +46,13 @@ def crosscheck_item(
     }
 
 
-def family_stage(family: dict[str, Any], level: str) -> dict[str, Any]:
-    stage = next(stage for stage in family["lifecycle"]["stages"] if stage["level"] == level)
+def family_stage(family: dict[str, Any], level: str) -> dict[str, Any] | None:
+    stage = next(
+        (stage for stage in family["lifecycle"]["stages"] if stage["level"] == level),
+        None,
+    )
+    if stage is None:
+        return None
     return {
         "family_id": family["family_id"],
         "supercategory": family["supercategory"],
@@ -86,7 +88,8 @@ def main() -> None:
         grammar = json.loads(path.read_text(encoding="utf-8"))
         level_mappings = [row for row in mappings if row["source_level_codes"] == [level]]
         evidence = [crosscheck_item(gse_by_id[row["source_record_id"]], row) for row in level_mappings]
-        stages = [family_stage(family, level) for family in families]
+        stage_candidates = [family_stage(family, level) for family in families]
+        stages = [stage for stage in stage_candidates if stage is not None]
 
         grammar["status"] = "canonical_egp_with_reviewed_gse_crosscheck_pending_inventory_lock"
         grammar["canonical_source"] = "English Grammar Profile"
@@ -96,6 +99,10 @@ def main() -> None:
             "it does not create a second independent target inventory."
         )
         grammar["grammar_family_policy"] = reviewed["feature_use_policy"]
+        grammar["grammar_family_stage_policy"] = (
+            "Only lifecycle stages explicitly present in the reviewed grammar-family source are copied; "
+            "missing early-level stages are not invented."
+        )
         grammar["counts"] = {
             "canonical_egp_features": len(grammar["items"]),
             "gse_crosscheck_records": len(evidence),
@@ -110,7 +117,7 @@ def main() -> None:
             level.upper(),
             "EGP", len(grammar["items"]),
             "GSE-crosscheck", len(evidence),
-            "families", len(stages),
+            "family-stages", len(stages),
             "GSE-levels", dict(Counter(row["published_level"] for row in evidence)),
         )
 
