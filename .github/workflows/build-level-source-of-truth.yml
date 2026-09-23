@@ -1,0 +1,45 @@
+name: Build level source of truth
+
+on:
+  push:
+    branches:
+      - curriculum/level-source-of-truth-v1
+    paths:
+      - 'scripts/build_level_source_of_truth.py'
+      - 'curriculum/levels/**'
+      - 'data/derived/egp-all-levels.json'
+      - 'data/derived/oxford-3000-all.json'
+      - 'data/derived/oxford-5000-all.json'
+      - 'data/reviewed/level-exit-profiles-v1.json'
+      - 'data/reviewed/pronunciation-progression-strands-v1.json'
+      - '.github/workflows/build-level-source-of-truth.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: curriculum/level-source-of-truth-v1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build inventories
+        run: python scripts/build_level_source_of_truth.py
+      - name: Validate level source of truth
+        run: python -m unittest tests.test_level_source_of_truth
+      - name: Commit generated inventories
+        run: |
+          if git diff --quiet -- curriculum/levels; then
+            echo 'Generated inventories already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add curriculum/levels
+          git commit -m 'curriculum: generate level inventory candidates'
+          git push
