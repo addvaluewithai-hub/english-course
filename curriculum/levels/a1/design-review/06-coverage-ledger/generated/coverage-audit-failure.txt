@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/english-course/english-course/scripts/build_a1_coverage_ledger.py", line 412, in <module>
-    main()
-  File "/home/runner/work/english-course/english-course/scripts/build_a1_coverage_ledger.py", line 328, in main
-    raise ValueError(f"lifecycle gaps: no_fresh={no_fresh[:30]} no_exit={no_exit[:30]}")
-ValueError: lifecycle gaps: no_fresh=['ability.gse_all_objectives.gse.adult.2022.a1.p09.014', 'ability.gse_all_objectives.gse.adult.2022.a1.p15.016', 'oxford.o3000.p01.125', 'oxford.o3000.p01.149', 'oxford.o3000.p01.152', 'oxford.o3000.p01.225', 'oxford.o3000.p01.242', 'oxford.o3000.p02.027', 'oxford.o3000.p02.058', 'oxford.o3000.p02.098', 'oxford.o3000.p02.100', 'oxford.o3000.p02.233', 'oxford.o3000.p02.255', 'oxford.o3000.p02.276', 'oxford.o3000.p03.050', 'oxford.o3000.p03.067', 'oxford.o3000.p03.079', 'oxford.o3000.p03.081', 'oxford.o3000.p03.088', 'oxford.o3000.p03.157', 'oxford.o3000.p03.193', 'oxford.o3000.p03.240', 'oxford.o3000.p04.022', 'oxford.o3000.p04.085'] no_exit=[]
