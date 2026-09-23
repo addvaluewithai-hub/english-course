@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/runner/work/english-course/english-course/scripts/build_a1_coverage_ledger.py", line 412, in <module>
+    main()
+  File "/home/runner/work/english-course/english-course/scripts/build_a1_coverage_ledger.py", line 247, in main
+    grammar_intro = invert_exact(plan["grammar_intro"], grammar_rows, "grammar")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/english-course/english-course/scripts/build_a1_coverage_ledger.py", line 65, in invert_exact
+    raise ValueError(
+ValueError: grammar intro map invalid: duplicates=[] missing=[803] extra=[]
