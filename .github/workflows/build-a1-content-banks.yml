@@ -1,0 +1,38 @@
+name: Build A1 content banks
+
+on:
+  push:
+    branches:
+      - curriculum/level-source-of-truth-v1
+    paths:
+      - 'scripts/build_a1_content_banks.py'
+      - 'curriculum/levels/a1/curriculum-map/cluster-map-v0.json'
+      - '.github/workflows/build-a1-content-banks.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: curriculum/level-source-of-truth-v1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build content banks
+        run: python scripts/build_a1_content_banks.py
+      - name: Commit generated banks
+        run: |
+          git add curriculum/levels/a1/curriculum-map/content-banks-v0.json curriculum/levels/a1/curriculum-map/content-bank-report-v0.json
+          if git diff --cached --quiet; then
+            echo 'Content banks already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'curriculum: generate A1 content banks v0'
+          git push
