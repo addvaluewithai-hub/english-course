@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "level": "A1",
+  "status": "content_bank_v0_needs_architecture_review",
+  "lesson_design_authorized": false,
+  "architecture": {
+    "performance_spine": "119 required abilities mapped to reviewed capability clusters",
+    "language_coverage_lane": "900 words + 199 phrases + 109 EGP features mapped to content banks",
+    "lesson_design_rule": "Future lessons must combine a performance purpose with bounded language-bank load; neither lane may silently drop items."
+  },
+  "coverage": {
+    "words": {
+      "total": 900,
+      "with_bank": 900,
+      "fallback_needs_review": 18
+    },
+    "phrases": {
+      "total": 199,
+      "with_bank": 199,
+      "fallback_needs_review": 39
+    },
+    "grammar": {
+      "total": 109,
+      "with_bank": 109
+    },
+    "abilities": {
+      "total": 119,
+      "with_performance_cluster": 119
+    }
+  },
+  "bank_loads": [
+    {
+      "bank_id": "routines_time_leisure",
+      "words": 227,
+      "phrases": 43,
+      "grammar": 61,
+      "total_language_refs": 331
+    },
+    {
+      "bank_id": "food_shopping_services",
+      "words": 254,
+      "phrases": 16,
+      "grammar": 58,
+      "total_language_refs": 328
+    },
+    {
+      "bank_id": "places_directions_travel",
+      "words": 225,
+      "phrases": 29,
+      "grammar": 17,
+      "total_language_refs": 271
+    },
+    {
+      "bank_id": "messages_signs_forms",
+      "words": 183,
+      "phrases": 15,
+      "grammar": 30,
+      "total_language_refs": 228
+    },
+    {
+      "bank_id": "people_relationships",
+      "words": 140,
+      "phrases": 13,
+      "grammar": 70,
+      "total_language_refs": 223
+    },
+    {
+      "bank_id": "language_foundations",
+      "words": 188,
+      "phrases": 16,
+      "grammar": 9,
+      "total_language_refs": 213
+    },
+    {
+      "bank_id": "communication_strategies",
+      "words": 166,
+      "phrases": 19,
+      "grammar": 10,
+      "total_language_refs": 195
+    },
+    {
+      "bank_id": "home_objects_descriptions",
+      "words": 130,
+      "phrases": 11,
+      "grammar": 52,
+      "total_language_refs": 193
+    },
+    {
+      "bank_id": "identity_personal_information",
+      "words": 102,
+      "phrases": 9,
+      "grammar": 43,
+      "total_language_refs": 154
+    },
+    {
+      "bank_id": "thinking_actions_information",
+      "words": 98,
+      "phrases": 51,
+      "grammar": 0,
+      "total_language_refs": 149
+    },
+    {
+      "bank_id": "social_contact_collaboration",
+      "words": 92,
+      "phrases": 22,
+      "grammar": 28,
+      "total_language_refs": 142
+    },
+    {
+      "bank_id": "description_opinion_comparison",
+      "words": 43,
+      "phrases": 10,
+      "grammar": 0,
+      "total_language_refs": 53
+    },
+    {
+      "bank_id": "arts_media_culture",
+      "words": 27,
+      "phrases": 0,
+      "grammar": 0,
+      "total_language_refs": 27
+    },
+    {
+      "bank_id": "study_work_learning",
+      "words": 14,
+      "phrases": 13,
+      "grammar": 0,
+      "total_language_refs": 27
+    },
+    {
+      "bank_id": "nature_animals_environment",
+      "words": 18,
+      "phrases": 2,
+      "grammar": 0,
+      "total_language_refs": 20
+    },
+    {
+      "bank_id": "numbers_quantity_measurement",
+      "words": 5,
+      "phrases": 9,
+      "grammar": 0,
+      "total_language_refs": 14
+    },
+    {
+      "bank_id": "health_body_wellbeing",
+      "words": 8,
+      "phrases": 0,
+      "grammar": 0,
+      "total_language_refs": 8
+    }
+  ],
+  "fallback_review": {
+    "word_ids": [
+      "oxford.o3000.p01.012",
+      "oxford.o3000.p01.023",
+      "oxford.o3000.p01.050",
+      "oxford.o3000.p01.055",
+      "oxford.o3000.p01.109",
+      "oxford.o3000.p01.191",
+      "oxford.o3000.p02.118",
+      "oxford.o3000.p02.120",
+      "oxford.o3000.p03.059",
+      "oxford.o3000.p03.076",
+      "oxford.o3000.p03.081",
+      "oxford.o3000.p03.101",
+      "oxford.o3000.p03.114",
+      "oxford.o3000.p03.171",
+      "oxford.o3000.p03.196",
+      "oxford.o3000.p03.210",
+      "oxford.o3000.p04.004",
+      "oxford.o3000.p04.072"
+    ],
+    "phrase_ids": [
+      "oxford.phrase.online.0020",
+      "oxford.phrase.online.0076",
+      "oxford.phrase.online.0090",
+      "oxford.phrase.online.0108",
+      "oxford.phrase.online.0112",
+      "oxford.phrase.online.0113",
+      "oxford.phrase.online.0124",
+      "oxford.phrase.online.0143",
+      "oxford.phrase.online.0165",
+      "oxford.phrase.online.0177",
+      "oxford.phrase.online.0216",
+      "oxford.phrase.online.0273",
+      "oxford.phrase.online.0282",
+      "oxford.phrase.online.0306",
+      "oxford.phrase.online.0317",
+      "oxford.phrase.online.0319",
+      "oxford.phrase.online.0325",
+      "oxford.phrase.online.0328",
+      "oxford.phrase.online.0334",
+      "oxford.phrase.online.0347",
+      "oxford.phrase.online.0388",
+      "oxford.phrase.online.0411",
+      "oxford.phrase.online.0414",
+      "oxford.phrase.online.0419",
+      "oxford.phrase.online.0427",
+      "oxford.phrase.online.0433",
+      "oxford.phrase.online.0436",
+      "oxford.phrase.online.0440",
+      "oxford.phrase.online.0454",
+      "oxford.phrase.online.0478",
+      "oxford.phrase.online.0493",
+      "oxford.phrase.online.0514",
+      "oxford.phrase.online.0571",
+      "oxford.phrase.online.0628",
+      "oxford.phrase.online.0641",
+      "oxford.phrase.online.0642",
+      "oxford.phrase.online.0644",
+      "oxford.phrase.online.0685",
+      "oxford.phrase.online.0717"
+    ],
+    "note": "Fallback items are covered structurally but need a better natural home before unit sequencing is locked."
+  },
+  "next_gate": "No units yet. First reduce fallback items and resolve overloaded/ambiguous banks; then create unit architecture and lesson-load limits."
+}
