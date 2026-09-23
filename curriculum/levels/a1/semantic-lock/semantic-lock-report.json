@@ -1,0 +1,383 @@
+{
+  "level": "A1",
+  "status": "semantic_lock_candidate_pending_review",
+  "summary": {
+    "total_primary_items": 1337,
+    "auto_locked_from_existing_reviewed_evidence": 850,
+    "human_review_queue": 487,
+    "words": {
+      "total": 900,
+      "roles": {
+        "grammar_owned_required": 87,
+        "productive_required": 537,
+        "receptive_required": 276
+      }
+    },
+    "phrases": {
+      "total": 199,
+      "roles": {
+        "productive_required": 18,
+        "receptive_required": 181
+      }
+    },
+    "grammar": {
+      "total": 109,
+      "roles": {
+        "productive_control_required": 77,
+        "receptive_control_required": 2,
+        "required_control_pending_review": 24,
+        "required_feature_pending_control_decision": 6
+      }
+    },
+    "abilities": {
+      "total": 119,
+      "roles": {
+        "interactive_performance_required": 23,
+        "productive_performance_required": 50,
+        "receptive_performance_required": 46
+      }
+    },
+    "pronunciation": {
+      "total": 10,
+      "roles": {
+        "supporting_intelligibility_required": 10
+      }
+    }
+  },
+  "review_queue_by_category": {
+    "grammar": 30,
+    "phrases": 181,
+    "words": 276
+  },
+  "review_queue_examples": [
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.007",
+      "display": "actor",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.008",
+      "display": "actress",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.009",
+      "display": "add",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.012",
+      "display": "advice",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.018",
+      "display": "ago",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.020",
+      "display": "air",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.023",
+      "display": "also",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.025",
+      "display": "amazing",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.027",
+      "display": "angry",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.041",
+      "display": "art",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.042",
+      "display": "article",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.043",
+      "display": "artist",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.050",
+      "display": "away",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.051",
+      "display": "baby",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.055",
+      "display": "ball",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.057",
+      "display": "band",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.065",
+      "display": "become",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.068",
+      "display": "beer",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.070",
+      "display": "begin",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.071",
+      "display": "beginning",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.073",
+      "display": "believe",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.076",
+      "display": "better",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.080",
+      "display": "bike",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.085",
+      "display": "blog",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.088",
+      "display": "boat",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.089",
+      "display": "body",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.091",
+      "display": "boot",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.092",
+      "display": "bored",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.101",
+      "display": "break",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.106",
+      "display": "build",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.109",
+      "display": "business",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.112",
+      "display": "butter",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.125",
+      "display": "career",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.126",
+      "display": "carrot",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.129",
+      "display": "CD",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.130",
+      "display": "cent",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.132",
+      "display": "century",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.134",
+      "display": "change",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.135",
+      "display": "chart",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    },
+    {
+      "category": "words",
+      "item_id": "oxford.o3000.p01.138",
+      "display": "cheese",
+      "current_role": "receptive_required",
+      "question": "Which A1 sense/function is required, and should the learner produce it independently?",
+      "reason": "reference_pool_not_selected_v1"
+    }
+  ],
+  "invariants": {
+    "words_complete": true,
+    "phrases_complete": true,
+    "grammar_complete": true,
+    "abilities_complete": true,
+    "pronunciation_complete": true,
+    "all_primary_items_required_at_exit": true,
+    "lesson_design_authorized": false
+  }
+}
