@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   audit:
@@ -21,13 +21,45 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build and audit exact source-record ledger
+      - name: Build exact source-record ledger
+        id: ledger
+        shell: bash
         run: |
+          set +e
           python scripts/build_a1_coverage_ledger.py \
             --output /tmp/a1-coverage-ledger.json \
-            --report /tmp/a1-coverage-report.md
+            --report /tmp/a1-coverage-report.md \
+            > /tmp/a1-coverage-run.log 2>&1
+          status=$?
+          set -e
+          cat /tmp/a1-coverage-run.log
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+
+          out=curriculum/levels/a1/design-review/06-coverage-ledger/generated
+          mkdir -p "$out"
+          rm -f "$out/coverage-ledger.json" "$out/coverage-report.md" "$out/coverage-audit-failure.txt"
+          if [[ -f /tmp/a1-coverage-ledger.json ]]; then
+            cp /tmp/a1-coverage-ledger.json "$out/coverage-ledger.json"
+          fi
+          if [[ -f /tmp/a1-coverage-report.md ]]; then
+            cp /tmp/a1-coverage-report.md "$out/coverage-report.md"
+          else
+            cp /tmp/a1-coverage-run.log "$out/coverage-audit-failure.txt"
+          fi
+
+      - name: Commit deterministic audit snapshot
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add curriculum/levels/a1/design-review/06-coverage-ledger/generated
+          if ! git diff --cached --quiet; then
+            git commit -m "Update A1 coverage ledger audit snapshot [skip ci]"
+            git push
+          fi
+
       - name: Upload deterministic ledger
-        if: success()
+        if: steps.ledger.outputs.status == '0'
         uses: actions/upload-artifact@v4
         with:
           name: a1-coverage-ledger
@@ -35,3 +67,7 @@ jobs:
             /tmp/a1-coverage-ledger.json
             /tmp/a1-coverage-report.md
           if-no-files-found: error
+
+      - name: Enforce audit result
+        shell: bash
+        run: exit ${{ steps.ledger.outputs.status }}
