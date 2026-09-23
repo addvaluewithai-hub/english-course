@@ -6,17 +6,13 @@ import json
 from collections import Counter
 from pathlib import Path
 
-import fitz
+import pymupdf as fitz
 
 ROOT = Path(__file__).resolve().parents[1]
 PDF = ROOT / "sources/raw/vocabulary/oxford-phrase-list.pdf"
 OUT = ROOT / "data/derived/oxford-phrase-list-all.json"
 LEVELS = {"A1", "A2", "B1", "B2", "C1"}
-
-
-def bold(span: dict) -> bool:
-    font = span.get("font", "").lower()
-    return bool(span.get("flags", 0) & 16) or "bold" in font or "semibold" in font
+ENTRY_FONT = "MyriadPro-Regular"
 
 
 def main() -> None:
@@ -39,19 +35,17 @@ def main() -> None:
                 x0 = min(s["bbox"][0] for s in spans)
                 y0 = min(s["bbox"][1] for s in spans)
                 col = min(3, max(0, int(x0 / (width / 4))))
-                is_bold = all(bold(s) for s in spans)
-                size = max(float(s.get("size", 0)) for s in spans)
-                rows.append((col, y0, x0, text, is_bold, size))
+                fonts = {s.get("font", "") for s in spans}
+                is_entry = ENTRY_FONT in fonts
+                rows.append((col, y0, x0, text, is_entry, fonts))
 
-        for col, y0, x0, text, is_bold, size in sorted(rows, key=lambda x: (x[0], x[1], x[2])):
+        for col, y0, x0, text, is_entry, fonts in sorted(rows, key=lambda x: (x[0], x[1], x[2])):
             if text in LEVELS:
                 current_level = text
                 continue
-            if not current_level or not is_bold:
+            if not current_level or not is_entry:
                 continue
             if "Oxford Phrase List" in text or "Oxford University Press" in text:
-                continue
-            if size > 14:
                 continue
             records.append({
                 "record_id": f"oxford.phrase.p{page_index + 1:02d}.{len(records) + 1:03d}",
@@ -66,8 +60,8 @@ def main() -> None:
     print("fonts:", dict(font_counts))
     print("level counts:", dict(counts), "total:", len(records))
     if len(records) != 750:
-        sample = [r["phrase"] for r in records[:30]]
-        raise SystemExit(f"Expected 750 phrase entries, extracted {len(records)}. Sample: {sample}")
+        tail = [(r["level"], r["phrase"]) for r in records[-30:]]
+        raise SystemExit(f"Expected 750 phrase entries, extracted {len(records)}. Tail: {tail}")
     if set(counts) != LEVELS:
         raise SystemExit(f"Missing expected levels: {LEVELS - set(counts)}")
 
