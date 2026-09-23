@@ -1,3 +1,4 @@
+# A1 semantic-lock generation is intentionally isolated from lesson production.
 name: Build A1 semantic lock candidate
 
 on:
