@@ -1,5 +1,6 @@
 name: Build level source of truth
 
+# Generation order matters: base inventories -> grammar enrichment -> granular abilities.
 on:
   push:
     branches:
