@@ -9,6 +9,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LEVELS = ("a1", "a2", "b1", "b2", "c1", "c2")
 CATEGORIES = ("words", "phrases", "grammar", "abilities", "pronunciation")
+ABILITY_ROLES = (
+    "include_for_spine",
+    "supporting_evidence",
+    "duplicate_or_overlap",
+)
 
 
 def read(path: str):
@@ -82,7 +87,7 @@ def main() -> None:
             f"Pearson C2 primary ownership mismatch: missing={len(source_ids-primary_ids)} extra={len(primary_ids-source_ids)}"
         )
 
-    # EGP coverage diagnostic: every source row should appear exactly once in grammar inventories.
+    # EGP: every source row must appear exactly once in the six grammar inventories.
     egp = read("data/derived/egp-all-levels.json")["records"]
     egp_rows = {row["_source"]["spreadsheet_row"] for row in egp}
     inventory_egp_rows: list[int] = []
@@ -106,6 +111,76 @@ def main() -> None:
     if inventory_egp_set != egp_rows:
         errors.append(
             f"EGP grammar source not fully partitioned: source={len(egp_rows)} inventory={len(inventory_egp_set)} missing={len(egp_rows-inventory_egp_set)}"
+        )
+
+    # Abilities: every reviewed A1-C2 communicative assignment must have exactly one
+    # explicit curriculum disposition; Pre-A1 remains intentionally outside the six folders.
+    assignments = read("data/reviewed/communicative-tag-assignments-v1.json")["records"]
+    valid_strands = {
+        strand["strand_id"]
+        for strand in read("data/reviewed/communicative-function-strands-v1.json")["strands"]
+    }
+    expected_by_level_role: dict[tuple[str, str], set[str]] = {}
+    pre_a1 = 0
+    for row in assignments:
+        level_codes = row["source_level_codes"]
+        if len(level_codes) != 1:
+            errors.append(f"Ability source has non-singleton level assignment: {row['source_record_id']}")
+            continue
+        level = level_codes[0]
+        if level == "pre_a1":
+            pre_a1 += 1
+            continue
+        role = row["source_disposition"]
+        if level not in LEVELS or role not in ABILITY_ROLES:
+            errors.append(f"Unexpected ability level/role: {level}/{role}/{row['source_record_id']}")
+            continue
+        expected_by_level_role.setdefault((level, role), set()).add(row["source_record_id"])
+
+    ability_report: dict[str, dict] = {}
+    inventory_total = 0
+    for level in LEVELS:
+        data = read(f"curriculum/levels/{level}/abilities.json")
+        actual_groups = {
+            "include_for_spine": data["items"],
+            "supporting_evidence": data["supporting_evidence"],
+            "duplicate_or_overlap": data["excluded_duplicate_or_overlap"],
+        }
+        level_counts: dict[str, int] = {}
+        seen_ids: list[str] = []
+        for role, items in actual_groups.items():
+            actual_ids = {item["source_record_id"] for item in items}
+            expected_ids = expected_by_level_role.get((level, role), set())
+            level_counts[role] = len(items)
+            inventory_total += len(items)
+            seen_ids.extend(item["source_record_id"] for item in items)
+            if actual_ids != expected_ids or len(actual_ids) != len(items):
+                errors.append(
+                    f"{level} ability {role} mismatch: expected={len(expected_ids)} actual={len(items)} unique={len(actual_ids)}"
+                )
+            for item in items:
+                if not item.get("source_text"):
+                    errors.append(f"{level} ability missing source text: {item['source_record_id']}")
+                if not set(item.get("strand_ids", [])).issubset(valid_strands):
+                    errors.append(f"{level} ability has unknown strand: {item['source_record_id']}")
+                if item.get("published_level") != level.upper():
+                    errors.append(f"{level} ability level mismatch: {item['source_record_id']}")
+        if len(seen_ids) != len(set(seen_ids)):
+            errors.append(f"{level} ability source record appears in multiple disposition buckets")
+        ability_report[level] = level_counts
+
+    expected_six_level_total = len(assignments) - pre_a1
+    report["cross_source"]["abilities"] = {
+        "reviewed_assignments_total": len(assignments),
+        "pre_a1_intentionally_outside_six_levels": pre_a1,
+        "expected_a1_c2_records": expected_six_level_total,
+        "inventory_disposition_records": inventory_total,
+        "by_level": ability_report,
+        "valid_function_strands": len(valid_strands),
+    }
+    if inventory_total != expected_six_level_total:
+        errors.append(
+            f"Ability disposition coverage mismatch: expected={expected_six_level_total} actual={inventory_total}"
         )
 
     print(json.dumps(report, indent=2))
