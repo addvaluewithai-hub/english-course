@@ -18,6 +18,13 @@ def write(path: Path, data: dict[str, Any]) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def clean(value: Any) -> str | None:
+    if value is None:
+        return None
+    text = str(value).strip()
+    return text or None
+
+
 def collect_claims(node: Any) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     if isinstance(node, dict):
@@ -50,12 +57,12 @@ def word_item(record: dict[str, Any]) -> dict[str, Any]:
 def grammar_item(record: dict[str, Any]) -> dict[str, Any]:
     return {
         "item_id": f"egp.{record['id']}",
-        "super_category": record["SuperCategory"],
-        "sub_category": record["SubCategory"],
-        "guideword": record["Guideword"].strip(),
-        "can_do": record["Can-do statement"].strip(),
-        "lexical_range": record["Lexical Range"],
-        "published_level": record["Level"].strip(),
+        "super_category": clean(record.get("SuperCategory")),
+        "sub_category": clean(record.get("SubCategory")),
+        "guideword": clean(record.get("Guideword")),
+        "can_do": clean(record.get("Can-do statement")),
+        "lexical_range": clean(record.get("Lexical Range")),
+        "published_level": clean(record.get("Level")),
         "source_ref": {"dataset": "egp_all_levels", "spreadsheet_row": record["_source"]["spreadsheet_row"]},
     }
 
@@ -84,7 +91,7 @@ def main() -> None:
             "items": [word_item(r) for r in word_records],
         })
 
-        grammar = [grammar_item(r) for r in egp if r["Level"].strip().lower() == level]
+        grammar = [grammar_item(r) for r in egp if (clean(r.get("Level")) or "").lower() == level]
         write(folder / "grammar.json", {
             "schema_version": 1, "level": level_upper, "category": "grammar",
             "inventory_semantics": "new_at_level", "status": "extracted_pending_inventory_review",
