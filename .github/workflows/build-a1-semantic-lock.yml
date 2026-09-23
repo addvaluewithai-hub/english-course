@@ -34,7 +34,7 @@ jobs:
         run: python scripts/build_a1_semantic_lock.py
       - name: Commit generated semantic lock
         run: |
-          if git diff --quiet -- curriculum/levels/a1/semantic-lock; then
+          if [ -z "$(git status --porcelain -- curriculum/levels/a1/semantic-lock)" ]; then
             echo 'Semantic lock candidate already current.'
             exit 0
           fi
