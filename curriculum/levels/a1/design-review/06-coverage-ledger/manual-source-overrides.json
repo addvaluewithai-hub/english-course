@@ -40,7 +40,7 @@
       "C06": {"fresh_retrieval": ["U9-L04"]},
       "C08": {"fresh_retrieval": ["U9-L06"]},
       "C10": {"fresh_retrieval": ["U6-L07"]},
-      "C12": {"fresh_retrieval": ["U7-L05", "U8-L06"]}
+      "C12": {"fresh_retrieval": ["U7-L05", "U8-L06", "U9-L05"]}
     },
     "cross_cutting": {
       "X08": {"fresh_retrieval": ["U9-L06"]}
