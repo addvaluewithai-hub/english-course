@@ -140,7 +140,7 @@ def parse_word_memberships(markdown: str, words: list[dict], overrides: dict) ->
             current = "LX-GENERAL"
         elif line.startswith("## 3. Grammar/function vocabulary"):
             current = "X10"
-        elif line.startswith("# Required lexical/content sets"):
+        elif line.startswith("# "):
             current = None
 
         if not current:
@@ -151,8 +151,7 @@ def parse_word_memberships(markdown: str, words: list[dict], overrides: dict) ->
 
     for home, labels in overrides.items():
         for label in labels:
-            matches = index.get(canon(label), set())
-            for item_id in matches:
+            for item_id in index.get(canon(label), set()):
                 memberships[item_id].add(home)
 
     return {key: sorted(values) for key, values in memberships.items()}
@@ -176,7 +175,7 @@ def union_stage(plan: dict, homes: list[str], stage: str, order: dict, after: in
     )
 
 
-def balanced_assign(items: list, homes_by_id: dict, plan: dict, order: dict) -> dict:
+def balanced_assign(items: list, homes_by_id: dict, plan: dict, order: dict):
     primary = {}
     groups = defaultdict(list)
     for item in items:
@@ -251,13 +250,19 @@ def main():
 
     ability_sources = parse_ability_sources(text(REVIEW / "01-abilities/manual-review-log.md"))
     ability_homes_by_row = parse_ability_homes(text(REVIEW / "01-abilities/final-capability-map.md"))
-    ability_ids = {x["item_id"] for x in abilities}
-    if set(ability_sources.values()) != ability_ids:
-        raise ValueError("ability manual log does not exactly match abilities.json")
+    source_to_item = {x["source_record_id"]: x["item_id"] for x in abilities}
+    if set(ability_sources.values()) != set(source_to_item):
+        missing = sorted(set(source_to_item) - set(ability_sources.values()))
+        extra = sorted(set(ability_sources.values()) - set(source_to_item))
+        raise ValueError(f"ability source join mismatch: missing={missing[:20]} extra={extra[:20]}")
     missing_ability_homes = sorted(set(ability_sources) - set(ability_homes_by_row))
     if missing_ability_homes:
         raise ValueError(f"abilities without final homes: {missing_ability_homes}")
-    ability_homes = {ability_sources[row]: ability_homes_by_row[row] for row in ability_sources}
+    ability_homes = {
+        source_to_item[ability_sources[row]]: ability_homes_by_row[row]
+        for row in ability_sources
+    }
+    ability_ids = {x["item_id"] for x in abilities}
     ability_intro, _ = balanced_assign(abilities, ability_homes, plan, order)
 
     word_homes = parse_word_memberships(
@@ -276,14 +281,14 @@ def main():
     ability_by_id = {x["item_id"]: x for x in abilities}
     for iid in sorted(ability_ids):
         item = ability_by_id[iid]
-        label = item.get("text") or item.get("can_do") or iid
+        label = item.get("source_text") or iid
         records.append(build_record("ability", iid, label, ability_homes[iid], ability_intro[iid], plan, order))
 
     phrase_by_id = {x["item_id"]: x for x in phrases}
     for iid in sorted(phrase_ids):
         item = phrase_by_id[iid]
-        label = item.get("phrase") or item.get("text") or iid
-        records.append(build_record("phrase", iid, label, phrase_homes[iid], phrase_intro[iid], plan, order))
+        records.append(build_record("phrase", iid, item.get("phrase") or iid,
+                                    phrase_homes[iid], phrase_intro[iid], plan, order))
 
     grammar_by_row = {int(x["source_ref"]["spreadsheet_row"]): x for x in grammar}
     for row in sorted(grammar_rows):
@@ -312,8 +317,10 @@ def main():
         raise ValueError("pronunciation plan does not exactly match source inventory")
     for iid, pplan in plan["pronunciation"].items():
         intro = pplan["introduce"][0]
-        records.append(build_record("pronunciation", iid, pron_by_id[iid]["title"], [iid], intro,
-                                    {**plan, "lexical_sets": {**plan["lexical_sets"], iid: pplan}}, order))
+        pron_plan = {**plan, "lexical_sets": {**plan["lexical_sets"], iid: pplan}}
+        records.append(build_record(
+            "pronunciation", iid, pron_by_id[iid]["title"], [iid], intro, pron_plan, order
+        ))
 
     no_fresh = [r["item_id"] for r in records if not r["lifecycle"]["fresh_retrieval"]]
     no_exit = [r["item_id"] for r in records if not r["lifecycle"]["exit_verify"]]
@@ -328,8 +335,12 @@ def main():
 
     overloads = []
     threshold_key = {
-        "word": "words_introduced", "phrase": "phrases_introduced", "grammar": "grammar_introduced",
-        "ability": "abilities_introduced", "pronunciation": "pronunciation_introduced", "total": "total_source_introductions"
+        "word": "words_introduced",
+        "phrase": "phrases_introduced",
+        "grammar": "grammar_introduced",
+        "ability": "abilities_introduced",
+        "pronunciation": "pronunciation_introduced",
+        "total": "total_source_introductions",
     }
     for lesson, counts in intro_counts.items():
         for category, count in counts.items():
@@ -366,7 +377,8 @@ def main():
     for lesson in lessons:
         c = intro_counts[lesson]
         report_lines.append(
-            f"| {lesson} | {c['ability']} | {c['phrase']} | {c['grammar']} | {c['word']} | {c['pronunciation']} | {c['total']} |"
+            f"| {lesson} | {c['ability']} | {c['phrase']} | {c['grammar']} | "
+            f"{c['word']} | {c['pronunciation']} | {c['total']} |"
         )
     report_lines += ["", "## Threshold result", ""]
     if overloads:
