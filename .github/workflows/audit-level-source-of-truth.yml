@@ -10,6 +10,8 @@ on:
       - 'data/derived/egp-all-levels.json'
       - 'data/derived/oxford-phrase-list-online.json'
       - 'data/derived/gse-vocabulary-c2-gl.json'
+      - 'data/reviewed/communicative-tag-assignments-v1.json'
+      - 'data/reviewed/communicative-function-strands-v1.json'
       - '.github/workflows/audit-level-source-of-truth.yml'
   workflow_dispatch:
 
