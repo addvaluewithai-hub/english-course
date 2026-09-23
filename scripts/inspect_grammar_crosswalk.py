@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Inspect the reviewed EGP/GSE Grammar family crosswalk compactly."""
+"""Inspect the reviewed EGP/GSE Grammar family crosswalk compactly.
+
+Diagnostic only; prints schema, counts, and crosswalk-related field paths.
+"""
 from __future__ import annotations
 
 import json
