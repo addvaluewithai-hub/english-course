@@ -1,24 +1,24 @@
 # A1 Manual Phrase Review
 
-Status: **MANUAL REVIEW COMPLETE — READY FOR CRITIC**  
+Status: **LOCKED — MANUAL REVIEW AND CRITIC COMPLETE**  
 Stage: **02 — Phrases**  
 Input: `curriculum/levels/a1/phrases.json`  
 Oxford A1 phrases manually read: **199/199**
 
-This is a manual semantic review. No automated clustering or string-matching result is authoritative here. Every Oxford A1 phrase was read and given a primary natural home, a cross-cutting role, or an architecture flag. A primary home is not an exclusive-use rule; phrases may later recycle across several capabilities.
+This is the final Stage-02 phrase result. No automated clustering or string-matching result is authoritative. Every Oxford A1 phrase was read manually and has a primary capability home or a named cross-cutting home. Primary home does not mean exclusive use; recycling across capabilities is expected.
 
-## Review result
+## Final review result
 
-- Phrases with a natural primary home in the locked 21-capability map: **173**
-- Phrases owned by existing cross-cutting possession/reference language: **3**
-- Phrases that expose a new function/gap or require explicit later architectural treatment: **23**
+- Phrases with a primary top-level capability home: **190**
+- Phrases with a primary cross-cutting/reference home: **9**
+- Unresolved/orphan phrases: **0**
 - Phrases silently discarded: **0**
 
-The main architecture signals are:
-1. a substantial **simple opinion / evaluation / agreement / suggestion** cluster;
-2. a smaller but clear **plans / future intention** cluster;
-3. several **discourse/expansion** phrases that look cross-cutting rather than like a new capability;
-4. one explicit **comparison** phrase that should be revisited with grammar evidence rather than creating a capability from one phrase alone.
+Phrase evidence changed the capability architecture in two places:
+1. added **C22 — Express a simple opinion/evaluation and respond to a simple suggestion**;
+2. expanded **C13** from receptive arrangements to **Understand arrangements and talk about simple plans**.
+
+Phrase evidence also established/strengthened cross-cutting discourse/expansion (X08) and comparison language (X09). Grammar review later confirmed these decisions.
 
 # Primary phrase homes
 
@@ -41,8 +41,6 @@ Count: **15**
 - `oxford.phrase.online.0720` — **welcome to sth**
 - `oxford.phrase.online.0750` — **You're welcome**
 
-Manual note: these phrases strengthen the decision to keep greeting, wellbeing, simple reaction, introductions and leave-taking inside one first-contact capability family.
-
 ## C02 — Exchange basic personal information
 Count: **11**
 
@@ -57,8 +55,6 @@ Count: **11**
 - `oxford.phrase.online.0729` — **work as sth**
 - `oxford.phrase.online.0730` — **work for sb/sth**
 - `oxford.phrase.online.0748` — **X years old**
-
-Manual note: phone-related phrases are treated as personal/contact-information context, not as evidence for a separate telephone capability.
 
 ## C03 — Exchange information about family and friends
 Count: **6**
@@ -77,7 +73,7 @@ Count: **3**
 - `oxford.phrase.online.0471` — **living room**
 - `oxford.phrase.online.0685` — **there is**
 
-`there is` will almost certainly cross-link to C10 and grammar review.
+`there is` also cross-links strongly to C10 and grammar.
 
 ## C05 — Talk about preferences and interests
 Count: **2**
@@ -85,7 +81,7 @@ Count: **2**
 - `oxford.phrase.online.0598` — **really enjoy**
 - `oxford.phrase.online.0600` — **really like**
 
-## C06 — Talk about routines and free-time activities
+## C06 — Talk about routines, free-time activities, and what is happening now
 Count: **39**
 
 - `oxford.phrase.online.0085` — **at school**
@@ -128,7 +124,7 @@ Count: **39**
 - `oxford.phrase.online.0744` — **X hours a day**
 - `oxford.phrase.online.0745` — **X times a…**
 
-Manual note: this is a dense phrase family, but density alone is not a reason to split the capability. Later lesson-load design will distribute these across contexts and recycling cycles.
+Phrase density here is natural; grammar review later added the happening-now branch through present continuous rather than splitting the phrase family.
 
 ## C07 — Talk about ability and inability
 Count: **3**
@@ -147,7 +143,7 @@ Count: **6**
 - `oxford.phrase.online.0478` — **look like sb/sth**
 - `oxford.phrase.online.0691` — **this kind of…**
 
-Manual note: C08 remains somewhat generic. Grammar and word review must still test whether it deserves top-level status or should become a receptive requirement spread across domain capabilities.
+C08 remains top-level because the ability evidence for receptive description/identification is substantial; phrase count alone does not determine capability status.
 
 ## C09 — Exchange basic information about objects
 Count: **2**
@@ -226,21 +222,24 @@ Count: **36**
 - `oxford.phrase.online.0746` — **X years ago**
 - `oxford.phrase.online.0747` — **X years later**
 
-Manual note: this confirms that separating time/dates from general numbers was the right Stage-01 critic decision. Some past/future references will need grammar review before we decide how productively they are used.
+Past/future references cross-link to C13/C23; their presence alone does not imply unrestricted tense-system mastery.
 
-## C13 — Understand simple arrangements and event details
-Count: **3**
+## C13 — Understand arrangements and talk about simple plans
+Count: **6**
 
 - `oxford.phrase.online.0055` — **arrive at…**
 - `oxford.phrase.online.0056` — **arrive in…**
+- `oxford.phrase.online.0124` — **be going to do sth**
+- `oxford.phrase.online.0427` — **in the future**
+- `oxford.phrase.online.0570` — **plan for sth**
 - `oxford.phrase.online.0717` — **wait for sb/sth**
 
-Important: phrase evidence below suggests C13 may eventually need to expand from only *understanding* arrangements to include simple plans/intentions.
+Final critic decision: expand C13 rather than create a separate future capability. Grammar review later confirmed A1 `will/'ll` for plans/intentions and bounded full `be going to` grammar-system control.
 
 ## C14 — Understand basic signs and notices
 Count: **0**
 
-No primary Oxford A1 Phrase List item maps naturally here. This does **not** weaken C14; the capability comes from the ability evidence, and signs/notices may rely mainly on lexical/form language rather than listed phrases.
+No primary Oxford A1 phrase maps uniquely here. The capability remains source-required and is mainly supplied by lexical/form language.
 
 ## C15 — Follow simple instructions and procedures
 Count: **5**
@@ -269,9 +268,9 @@ Count: **11**
 ## C17 — Repair a basic communication problem
 Count: **0**
 
-No primary Oxford A1 Phrase List phrase directly supplies the required repair language such as asking for spelling/written form. This is a **content-supply flag**, not a reason to remove the capability: the ability source requires the performance, so later phrase authoring/other source evidence must supply the actual repair expressions.
+No primary Oxford A1 Phrase List item directly supplies the source-required repair language (for example asking for spelling/written form). This remains an explicit later content-supply requirement rather than a reason to remove the capability.
 
-## C18 — Express immediate needs; make and respond to basic requests/offers
+## C18 — Express immediate needs; make and respond to basic requests, offers, and invitations
 Count: **7**
 
 - `oxford.phrase.online.0049` — **anything else**
@@ -282,48 +281,28 @@ Count: **7**
 - `oxford.phrase.online.0738` — **would like**
 - `oxford.phrase.online.0741` — **Would you like…?**
 
-Several of these will also be mandatory in service transactions.
+Grammar review later added a simple invitation branch from EGP evidence.
 
 ## C19 — Handle basic service transactions
 Count: **1 primary**
 
 - `oxford.phrase.online.0565` — **pay for sth**
 
-Strong cross-links from C18: `anything else`, `excuse me`, `would like`, `Would you like…?`, `Thank you`, `You're welcome`, `No problem`, and `of course` are likely to recycle heavily here. Low primary count does not mean weak language support; much of the transaction language is shared interaction language.
+Strong cross-links from C01/C18 include `anything else`, `excuse me`, `would like`, `Would you like…?`, `Thank you`, `You're welcome`, `No problem`, and `of course`. Low primary count does not mean weak language support.
 
 ## C20 — Complete basic forms
 Count: **0**
 
-No primary Oxford A1 Phrase List item is naturally owned here. Form completion is primarily a task using personal details, numbers, dates, spelling and writing mechanics already sourced elsewhere.
+Form completion is mainly a task using personal details, numbers, dates, spelling and writing mechanics sourced elsewhere.
 
 ## C21 — Write a simple personal message
 Count: **0**
 
-No primary Oxford phrase is uniquely owned by this writing task. Many social/time/personal phrases will be reused here. This capability remains task-defined rather than phrase-defined.
+Many social/time/personal phrases recycle here; no Oxford phrase is uniquely owned by the writing task.
 
-# Existing cross-cutting / reference language
-
-## X01 — Possession and ownership
-Count: **2**
-
-- `oxford.phrase.online.0328` — **have got**
-- `oxford.phrase.online.0344` — **his or her**
-
-These reinforce the Stage-01 decision that possession/ownership is cross-cutting across personal information, family, home and objects rather than a separate capability.
-
-## General reference language
-Count: **1**
-
-- `oxford.phrase.online.0336` — **he or she**
-
-This is reference/grammar language used across capabilities, not a real-world performance by itself. Grammar review should own the structural treatment.
-
-# Architecture flags raised by phrase review
-
-## P-GAP-01 — Simple opinion, evaluation, agreement and suggestion
+## C22 — Express a simple opinion/evaluation and respond to a simple suggestion
 Count: **14**
 
-### Opinion / agreement / suggestion signals
 - `oxford.phrase.online.0007` — **a good idea**
 - `oxford.phrase.online.0032` — **agree with sb**
 - `oxford.phrase.online.0113` — **bad thing**
@@ -332,8 +311,6 @@ Count: **14**
 - `oxford.phrase.online.0688` — **think about sb/sth**
 - `oxford.phrase.online.0689` — **think of sb/sth**
 - `oxford.phrase.online.0722` — **What about…?**
-
-### Evaluation / importance / difficulty signals
 - `oxford.phrase.online.0111` — **bad for sb/sth**
 - `oxford.phrase.online.0208` — **difficult for sb**
 - `oxford.phrase.online.0312` — **good for sb/sth**
@@ -341,24 +318,27 @@ Count: **14**
 - `oxford.phrase.online.0366` — **important for sb/sth**
 - `oxford.phrase.online.0453` — **It is important to do sth**
 
-Manual conclusion: this is too coherent and too large to dismiss as random leftovers. The locked ability map currently has preferences, but **preference is not the same as opinion/evaluation/agreement/suggestion**. Stage-02 critic should decide between:
-- adding a new capability such as **Express a simple opinion/evaluation and respond to a simple suggestion**; or
-- proving that these phrases can be naturally distributed without losing the communicative function.
+Final critic decision: the cluster is coherent and large enough to represent a real missing learner performance; preference alone does not cover opinion/evaluation/agreement/suggestion.
 
-Current reviewer preference: **likely add/expand a capability**, but do not change Stage 01 before critic.
+## C23 — Talk about simple past events and states
+Count: **0 primary at Stage 02**
 
-## P-GAP-02 — Plans and future intention
-Count: **3 direct phrases**, with additional future-time support in C12.
+Phrase support is cross-linked from C03/C12, especially `get married`, `grow up`, `in the past`, `last year`, `the next day`, `X years ago`, and `X years later`. C23 itself was added later by decisive canonical grammar evidence, not invented from phrase density.
 
-- `oxford.phrase.online.0124` — **be going to do sth**
-- `oxford.phrase.online.0427` — **in the future**
-- `oxford.phrase.online.0570` — **plan for sth**
+# Cross-cutting / reference phrase homes
 
-Supporting C12 phrases include `next year` and `one day`.
+## X01 — Possession and ownership
+Count: **2**
 
-Manual conclusion: these do not fit comfortably inside the current C13 because C13 is receptive: *understand arrangements/event details*. Phrase evidence suggests a productive function: **talk about a simple plan/future intention**. The cleaner possible revision may be to expand C13 into a two-way **plans and arrangements** capability rather than add an unrelated new capability. Grammar review of `be going to` should strongly inform the final decision.
+- `oxford.phrase.online.0328` — **have got**
+- `oxford.phrase.online.0344` — **his or her**
 
-## P-X08 — Discourse, reason and expansion language
+## X10/general reference grammar
+Count: **1**
+
+- `oxford.phrase.online.0336` — **he or she**
+
+## X08 — Simple discourse, reason, contrast, and answer expansion
 Count: **5**
 
 - `oxford.phrase.online.0136` — **because of**
@@ -367,46 +347,39 @@ Count: **5**
 - `oxford.phrase.online.0649` — **such as**
 - `oxford.phrase.online.0665` — **talk about sb/sth**
 
-Manual conclusion: these look more like **cross-cutting discourse/expansion resources** than a standalone A1 capability. They should help learners extend a short answer, give an example/reason, or frame a topic across several capabilities. Grammar review should decide exact control expectations.
+Final critic decision: these are cross-cutting resources for extending/framing answers, not a separate real-world capability. Grammar review later strengthened X08 with `because`, `and`, `but`, and `or`.
 
-## P-GAP-03 — Comparison
+## X09 — Basic comparison language
 Count: **1**
 
 - `oxford.phrase.online.0207` — **differences between A and B**
 
-Manual conclusion: one phrase is not enough evidence to create a comparison capability. Hold this as an explicit flag for the grammar stage; if comparative grammar/features also appear strongly, comparison may need a real communicative home.
+Final critic/grammar decision: keep comparison cross-cutting at A1. One phrase does not create a capability, and the canonical A1 EGP inventory contains no comparative-system feature.
 
-# Cross-links that must not be lost later
+# Important cross-links
 
-These primary assignments are intentionally not exclusive:
+Primary assignments are intentionally not exclusive:
 
-- `How much…?` — C11 numbers/quantities **and** C19 service transactions.
-- `phone number` — C02 personal/contact information **and** C11 number handling.
-- `there is` — C04 home/residence **and** C10 location/position.
-- `excuse me` — C18 requests/attention **and** C16 directions/C19 service encounters.
-- `would like` / `Would you like…?` — C18 requests/offers **and** C19 service transactions; `would like` may also touch C05 preference.
-- `get on` / `get off` — C16 route/transport language and the transport-ticket branch of C19.
+- `How much…?` — C11 numbers/quantities and C19 service transactions.
+- `phone number` — C02 personal/contact information and C11 number handling.
+- `there is` — C04 home/residence and C10 location/position.
+- `excuse me` — C18 requests/attention plus C16 directions/C19 service encounters.
+- `would like` / `Would you like…?` — C18 requests/offers/invitations and C19 service transactions; `would like` can also touch C05 preference.
+- `get on` / `get off` — C16 route/transport language and the transport branch of C19.
 - `Thank you`, `You're welcome`, `No problem`, `of course` — C01 social politeness and C18/C19 interaction.
 - `How often…?`, `once a…`, `X times a…`, `X hours a day` — C06 routines with C12 time/frequency support.
-- `next year`, `one day` — C12 time references and P-GAP-02 future plans.
-- `get married`, `grow up`, `X years ago/later` — family/life-event content plus time-reference support; productive past narration should not be assumed until grammar review.
+- `next year`, `one day` — C12 time references and C13 future plans.
+- `get married`, `grow up`, `X years ago/later` — family/life-event content plus C23 past-event support.
 
-# Stage-02 critic questions
-
-1. Should P-GAP-01 become a new final capability for simple opinion/evaluation/agreement/suggestion, or can it be integrated cleanly without losing the function?
-2. Should C13 be expanded from receptive arrangements to **make/understand simple plans and arrangements**, using P-GAP-02, or should future intention be separate?
-3. Does C08 still deserve top-level status after phrase mapping, or is it really a receptive cross-cutting requirement across people/place/object domains?
-4. C06 has 39 primary phrases and C12 has 36. Is this simply natural density, or is either capability hiding two materially different learner performances?
-5. What exact functional phrases must be added for C17 repair, since Oxford A1 Phrase List provides no direct repair expression despite the ability requirement?
-6. Should discourse phrases in P-X08 become a named cross-cutting requirement in the final architecture?
-7. Does comparison remain a minor language point, or does grammar evidence make it a real A1 performance requirement?
-
-# Stage status
+# Stage result
 
 - Oxford A1 phrases manually read: **199/199**.
-- Every phrase has a recorded primary home or explicit architecture/cross-cutting flag.
-- No phrase was forced into a capability merely to make coverage look complete.
-- No phrase was silently dropped.
-- No unit or lesson design has begun.
+- Primary capability homes: **190**.
+- Primary cross-cutting/reference homes: **9**.
+- Unresolved/orphan phrases: **0**.
+- Phrases silently dropped: **0**.
+- Architecture changes caused by phrase evidence: **C22 added; C13 expanded; X08/X09 established/strengthened**.
+- Automated semantic clustering used for these decisions: **No**.
+- Stage 02 critic result: **LOCKED**.
 
-Next action: **Critic this phrase-stage result, resolve the architecture flags, update the single authoritative capability map only if evidence requires it, then proceed to manual grammar review.**
+Later grammar and word stages may refine the architecture, but this phrase mapping remains the authoritative phrase-stage evidence.
