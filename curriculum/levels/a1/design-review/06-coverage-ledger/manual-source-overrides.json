@@ -57,7 +57,10 @@
       }
     },
     "cross_cutting": {
-      "X05": {"introduce": ["U1-L03", "U2-L02", "U3-L02", "U4-L01"]},
+      "X05": {
+        "introduce": ["U1-L03", "U2-L02", "U3-L02", "U4-L01"],
+        "fresh_retrieval": ["U4-L07"]
+      },
       "X06": {"introduce": ["U1-L05"]},
       "X07": {"introduce": ["U1-L04"]},
       "X08": {"fresh_retrieval": ["U9-L06"]}
@@ -65,7 +68,10 @@
     "lexical_sets": {
       "L01": {"introduce": ["U1-L06"]},
       "L02": {"introduce": ["U2-L02", "U2-L03"]},
-      "L03": {"introduce": ["U4-L04"]},
+      "L03": {
+        "introduce": ["U4-L04"],
+        "fresh_retrieval": ["U7-L05"]
+      },
       "L04": {"introduce": ["U3-L03", "U3-L05"]},
       "L06": {"introduce": ["U2-L02", "U2-L04", "U3-L02", "U5-L03"]},
       "L07": {"introduce": ["U2-L04", "U5-L02", "U5-L04"]},
@@ -74,19 +80,25 @@
       "L11": {"introduce": ["U3-L04", "U5-L05"]},
       "L12": {
         "introduce": ["U3-L04", "U3-L05", "U9-L02"],
-        "fresh_retrieval": ["U5-L07"]
+        "fresh_retrieval": ["U5-L07", "U9-L06"]
       },
       "L15": {
         "introduce": ["U4-L02", "U4-L03"],
         "fresh_retrieval": ["U7-L05", "U8-L06"]
       },
-      "L16": {"introduce": ["U1-L05", "U4-L01", "U6-L05"]},
+      "L16": {
+        "introduce": ["U1-L05", "U4-L01", "U6-L05"],
+        "fresh_retrieval": ["U6-L07"]
+      },
       "L17": {
         "introduce": ["U4-L02"],
         "fresh_retrieval": ["U9-L06"]
       },
       "L18": {"fresh_retrieval": ["U9-L06"]},
-      "L19": {"introduce": ["U2-L05", "U8-L06"]},
+      "L19": {
+        "introduce": ["U2-L05", "U8-L06"],
+        "fresh_retrieval": ["U9-L05"]
+      },
       "L20": {"introduce": ["U4-L03", "U4-L04", "U4-L05"]},
       "L25": {"introduce": ["U3-L02", "U5-L03"]},
       "L26": {
