@@ -18,7 +18,7 @@
   },
   "inventory_obligations": {
     "words": "extracted_pending_inventory_review",
-    "phrases": "blocked_pending_official_phrase_source_extract",
+    "phrases": "extracted_from_current_official_oxford_pending_inventory_review",
     "grammar": "extracted_pending_inventory_review",
     "abilities": "reviewed_exit_profile_v1",
     "pronunciation": "reviewed_progression_v1"

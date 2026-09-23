@@ -4,5 +4,7 @@
   "category": "phrases",
   "inventory_semantics": "new_at_level",
   "status": "blocked_pending_gse_vocabulary_extract",
+  "canonical_source": "pending C2 lexical source",
+  "source_sha256": null,
   "items": []
 }

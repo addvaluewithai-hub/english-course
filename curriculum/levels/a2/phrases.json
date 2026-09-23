@@ -3,6 +3,1593 @@
   "level": "A2",
   "category": "phrases",
   "inventory_semantics": "new_at_level",
-  "status": "blocked_pending_official_phrase_source_extract",
-  "items": []
+  "status": "extracted_from_current_official_oxford_pending_inventory_review",
+  "canonical_source": "Oxford Phrase List online snapshot",
+  "source_sha256": "20C59670CDA661B48B8B88205A19C77FAD5ACCB252D164DAAE939DAF4BE893C1",
+  "items": [
+    {
+      "item_id": "oxford.phrase.online.0001",
+      "phrase": "a bit",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/bit_1#bit_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0005",
+      "phrase": "a couple of sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/couple_1#couple_sng_3"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0013",
+      "phrase": "a long time ago",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/time_1#time_sng_6"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0014",
+      "phrase": "a long way",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/long_1#long_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0019",
+      "phrase": "a number of sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/number_1#number_sng_4"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0023",
+      "phrase": "able to do sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/able_1#able_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0029",
+      "phrase": "add to sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/add-to#add_sng_18"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0031",
+      "phrase": "again and again",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/again#again_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0036",
+      "phrase": "all about…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/about_1#about_sng_9"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0039",
+      "phrase": "all kinds of…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/kind_1#kind_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0041",
+      "phrase": "all over…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/over_1#over_sng_21"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0042",
+      "phrase": "all sorts of…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/sort_1#sort_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0044",
+      "phrase": "all the time",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/time_1#time_sng_17"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0052",
+      "phrase": "apply for sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/apply#apply_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0057",
+      "phrase": "art gallery",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/art-gallery#artgallery_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0058",
+      "phrase": "as a result",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/result_1#result_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0069",
+      "phrase": "as part of sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/part_1#part_sng_3"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0070",
+      "phrase": "as soon as",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/soon#soon_sng_2"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0075",
+      "phrase": "as well",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/well_1#well_sng_7"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0078",
+      "phrase": "at first",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/first_2#first_sng_8"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0081",
+      "phrase": "at least",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/least_2#least_sng_5"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0087",
+      "phrase": "at the age of…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/age_1#age_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0096",
+      "phrase": "at the start of sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/start_2#start_sng_28"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0097",
+      "phrase": "at the time",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/time_1#time_sng_4"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0098",
+      "phrase": "at the time of sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/time_1#time_sng_7"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0099",
+      "phrase": "at the top",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/top_1#top_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0114",
+      "phrase": "based on sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/based#based_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0116",
+      "phrase": "be allowed to do sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/allow#allow_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0127",
+      "phrase": "be made of sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/make_1#make_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0138",
+      "phrase": "believe in sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/believe-in#believein2_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0139",
+      "phrase": "belong to sb",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/belong-to#belong_sng_3"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0140",
+      "phrase": "belong to sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/belong-to#belong_sng_9"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0153",
+      "phrase": "by the end of sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/end_1#end_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0159",
+      "phrase": "care about sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/care_2#care_sng_12"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0161",
+      "phrase": "carry on",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/carry-on_1#carryon3_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0162",
+      "phrase": "carry sth out",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/carry-out_1#carry_sng_56"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0166",
+      "phrase": "check in",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/check-in_1#checkin3_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0167",
+      "phrase": "check out",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/check-out#check_sng_40"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0173",
+      "phrase": "climate change",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/climate-change#climatechange_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0174",
+      "phrase": "close to sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/close2_1#close2_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0176",
+      "phrase": "come back",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/come-back#comeback3_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0179",
+      "phrase": "Come on!",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/come-on_1#come_sng_235"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0187",
+      "phrase": "connected to sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/connected#connected_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0188",
+      "phrase": "connected with sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/connected#connected_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0194",
+      "phrase": "credit card",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/credit-card#creditcard_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0195",
+      "phrase": "deal with sb",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/deal-with#deal_sng_28"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0196",
+      "phrase": "deal with sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/deal-with#deal_sng_30"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0200",
+      "phrase": "depend on sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/depend-on#depend_sng_7"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0201",
+      "phrase": "depend on sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/depend-on#depend_sng_10"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0210",
+      "phrase": "do well",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/well_1#well_sng_13"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0213",
+      "phrase": "each one",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/each#each_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0218",
+      "phrase": "end with sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/end_2#end_sng_32"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0222",
+      "phrase": "even more…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/even_1#even_sng_2"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0226",
+      "phrase": "everyone else",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/everyone#everyone_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0228",
+      "phrase": "except for",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/except_1#except_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0234",
+      "phrase": "fall in love",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/love_1#love_sng_2"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0235",
+      "phrase": "fall off",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/fall_1#fall_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0237",
+      "phrase": "far away",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/far_1#far_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0242",
+      "phrase": "feel good",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/feel_1#feel_sng_13"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0243",
+      "phrase": "feel like sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/feel_1#feel_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0245",
+      "phrase": "fill sth in",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/fill-in_1#fill_sng_28"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0246",
+      "phrase": "find it difficult to do sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/difficult#difficult_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0249",
+      "phrase": "first of all",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/first_2#first_sng_13"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0250",
+      "phrase": "focus on sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/focus_1#focus_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0252",
+      "phrase": "followed by sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/follow#follow_sng_2"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0267",
+      "phrase": "for the rest of sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/rest_1#rest_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0269",
+      "phrase": "for this reason",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/reason_1#reason_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0271",
+      "phrase": "get back",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/get-back#getback2_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0272",
+      "phrase": "get better",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/better_1#better_sng_4"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0275",
+      "phrase": "get lost",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/lost_1#lost_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0280",
+      "phrase": "get out",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/get-out_1#get_sng_230"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0289",
+      "phrase": "give sth up",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/give-up#give_sng_88"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0290",
+      "phrase": "give up",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/give-up#giveup2_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0294",
+      "phrase": "go and…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/go_1#go_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0295",
+      "phrase": "go away",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/go-away#goaway2_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0297",
+      "phrase": "go down",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/go-down#godown3_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0298",
+      "phrase": "go down sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/down_2#down_sng_22"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0299",
+      "phrase": "go for sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/go_1#go_sng_9"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0309",
+      "phrase": "go up",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/go-up#goup2_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0313",
+      "phrase": "good luck",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/luck_1#luck_sng_2"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0323",
+      "phrase": "happen to sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/happen-to#happen_sng_15"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0324",
+      "phrase": "happy with sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/happy#happy_sng_4"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0326",
+      "phrase": "have a look",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/look_2#look_sng_55"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0329",
+      "phrase": "have got to",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/have-to#haveto_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0335",
+      "phrase": "Have you ever…?",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/ever#ever_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0337",
+      "phrase": "health problems",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/problem_1#problem_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0338",
+      "phrase": "hear about sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/hear#hear_sng_3"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0353",
+      "phrase": "I don't care",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/care_2#care_sng_12"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0354",
+      "phrase": "I guess",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/guess_1#guess_sng_3"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0356",
+      "phrase": "I mean",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/mean_1#mean_sng_8"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0357",
+      "phrase": "I think so",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/think_1#think_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0360",
+      "phrase": "I'm afraid…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/afraid#afraid_sng_4"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0363",
+      "phrase": "if necessary",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/necessary#necessary_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0365",
+      "phrase": "if you want to",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/want_1#want_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0377",
+      "phrase": "in business",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/business#business_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0384",
+      "phrase": "in danger",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/danger#danger_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0391",
+      "phrase": "in history",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/history#history_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0392",
+      "phrase": "in hospital",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/hospital#hospital_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0394",
+      "phrase": "in love",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/love_1#love_sng_2"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0403",
+      "phrase": "in prison",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/prison#prison_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0410",
+      "phrase": "in some cases",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/case_1#case_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0417",
+      "phrase": "in the air",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/air_1#air_sng_2"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0422",
+      "phrase": "in the end",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/end_1#end_sng_22"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0431",
+      "phrase": "in the middle",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/middle_1#middle_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0438",
+      "phrase": "in the same way",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/way_1#way_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0444",
+      "phrase": "in this way",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/way_1#way_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0449",
+      "phrase": "instead of",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/instead-of#insteadof_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0452",
+      "phrase": "it depends",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/depend#depend_sng_2"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0459",
+      "phrase": "lead to sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/lead1_1#lead1_sng_4"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0462",
+      "phrase": "less than…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/less_3#less_sng_6"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0464",
+      "phrase": "let me know",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/know_1#know_sng_34"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0465",
+      "phrase": "Let me…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/let_1#let_sng_5"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0473",
+      "phrase": "look after sb/sth/yourself",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/look-after#look_sng_64"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0475",
+      "phrase": "look back at sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/look-back#look_sng_76"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0480",
+      "phrase": "look sth up",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/look-up#look_sng_103"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0483",
+      "phrase": "make a mistake",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/mistake_1#mistake_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0484",
+      "phrase": "make money",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/money#money_sng_11"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0485",
+      "phrase": "make sense",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/sense_1#sense_sng_8"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0487",
+      "phrase": "make sure",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/sure_1#sure_sng_8"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0498",
+      "phrase": "much better",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/better_1#better_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0506",
+      "phrase": "no way",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/way_1#way_sng_63"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0507",
+      "phrase": "not at all",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/all_2#all_sng_18"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0515",
+      "phrase": "Oh dear",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/dear_2#dear_sng_6"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0517",
+      "phrase": "Oh well",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/well_3#well_sng_32"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0519",
+      "phrase": "old friend",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/friend_1#friend_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0523",
+      "phrase": "on earth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/earth_1#earth_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0531",
+      "phrase": "on the ground",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/ground_1#ground_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0536",
+      "phrase": "on the other side",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/side_1#side_sng_2"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0540",
+      "phrase": "on the wall",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/wall_1#wall_sng_2"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0542",
+      "phrase": "on time",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/time_1#"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0543",
+      "phrase": "on top of sth/sb",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/top_1#top_sng_22"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0549",
+      "phrase": "one or two",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/one_1#one_sng_22"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0554",
+      "phrase": "ordinary people",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/ordinary#ordinary_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0564",
+      "phrase": "pay attention",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/attention_1#attention_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0566",
+      "phrase": "per hour",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/per#per_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0569",
+      "phrase": "pick sb/sth up",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/pick-up#pick_sng_91"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0574",
+      "phrase": "police officer",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/police-officer#policeofficer_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0575",
+      "phrase": "police station",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/police-station#policestation_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0585",
+      "phrase": "public transport",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/public-transport#publictransport_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0588",
+      "phrase": "put sth on",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/put-on_1#put_sng_193"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0592",
+      "phrase": "quite a lot",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/quite#quite_sng_6"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0601",
+      "phrase": "reasons why",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/reason_1#reason2_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0602",
+      "phrase": "refer to sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/refer-to#refer_sng_7"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0608",
+      "phrase": "report on sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/report_2#report_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0610",
+      "phrase": "respond to sth/sb",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/respond#respond_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0617",
+      "phrase": "save money",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/save_1#save_sng_5"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0618",
+      "phrase": "science fiction",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/science-fiction#sciencefiction_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0620",
+      "phrase": "search for sth/sb",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/search_2#search_sng_3"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0632",
+      "phrase": "so that…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/so_3#so_sng_22"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0633",
+      "phrase": "solution to sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/solution#solution_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0637",
+      "phrase": "sort of sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/sort_1#sort_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0639",
+      "phrase": "sound like sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/sound_2#sound_sng_9"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0643",
+      "phrase": "start with sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/start_1#start_sng_8"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0648",
+      "phrase": "such a/an…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/such#such_sng_3"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0655",
+      "phrase": "take care of sb/sth/yourself",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/care_1#care_sng_9"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0656",
+      "phrase": "take off",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/take-off_1#takeoff3_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0658",
+      "phrase": "take part",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/part_1#part_sng_27"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0659",
+      "phrase": "take place",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/place_1#place_sng_36"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0661",
+      "phrase": "take sth off",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/take-off_1#take_sng_170"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0674",
+      "phrase": "the best thing",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/thing#thing_sng_7"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0678",
+      "phrase": "the first thing",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/thing#thing_sng_5"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0679",
+      "phrase": "the following…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/following_1#following_sng_2"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0680",
+      "phrase": "the important thing",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/important#important_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0682",
+      "phrase": "the other side of sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/side_1#side_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0683",
+      "phrase": "the rest of sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/rest_1#rest_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0686",
+      "phrase": "these days",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/day#day_sng_36"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0687",
+      "phrase": "they say…",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/they#they_sng_3"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0697",
+      "phrase": "throw sth away",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/throw-away#throw_sng_55"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0708",
+      "phrase": "turn sth off",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/turn-off_1#turn_sng_130"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0709",
+      "phrase": "turn sth on",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/turn-on_1#turn_sng_136"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0714",
+      "phrase": "up and down",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/up_1#up_sng_16"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0725",
+      "phrase": "Why not…?",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/why_1#why_sng_5"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0733",
+      "phrase": "work out",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/work-out#workout3_e"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0737",
+      "phrase": "worried about sb/sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/worried#worried_sng_1"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0739",
+      "phrase": "would love to do sth",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/love_2#love_sng_17"
+      }
+    },
+    {
+      "item_id": "oxford.phrase.online.0742",
+      "phrase": "write sth down",
+      "published_level": "A2",
+      "source_ref": {
+        "dataset": "oxford_phrase_list_online",
+        "href": "/definition/english/write-down_1#write_sng_31"
+      }
+    }
+  ]
 }

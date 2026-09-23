@@ -14,12 +14,10 @@
   "lesson_design_authorized": false,
   "counts": {
     "words": 809,
-    "phrases": 0,
+    "phrases": 175,
     "grammar": 338,
     "abilities": 17,
     "pronunciation": 10
   },
-  "blocking_categories": [
-    "phrases"
-  ]
+  "blocking_categories": []
 }
