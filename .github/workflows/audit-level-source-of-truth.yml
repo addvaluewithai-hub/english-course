@@ -7,6 +7,7 @@ on:
     paths:
       - 'scripts/audit_level_source_of_truth.py'
       - 'scripts/audit_level_source_of_truth_v2.py'
+      - 'scripts/audit_level_source_of_truth_v3.py'
       - 'curriculum/levels/**'
       - 'data/derived/egp-all-levels.json'
       - 'data/derived/gse-grammar-all.json'
@@ -36,4 +37,4 @@ jobs:
         with:
           python-version: '3.12'
       - name: Audit complete source coverage
-        run: python scripts/audit_level_source_of_truth_v2.py
+        run: python scripts/audit_level_source_of_truth_v3.py
