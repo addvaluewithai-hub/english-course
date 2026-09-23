@@ -7,9 +7,10 @@ builder, then restores reviewed source files before exiting.
 """
 from __future__ import annotations
 
+import importlib.util
 import json
-import subprocess
 import sys
+from collections import defaultdict
 from copy import deepcopy
 from pathlib import Path
 
@@ -62,6 +63,58 @@ def merge(base: dict, overrides: dict) -> dict:
     return result
 
 
+def load_builder():
+    spec = importlib.util.spec_from_file_location("a1_coverage_builder", BUILDER)
+    if spec is None or spec.loader is None:
+        raise RuntimeError("Could not load A1 coverage ledger builder")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def install_word_intro_overrides(builder, overrides: dict) -> None:
+    manual = overrides.get("word_intro_label_overrides", {})
+    if not manual:
+        return
+
+    original = builder.balanced_assign
+
+    def patched(items: list, homes_by_id: dict, plan: dict, order: dict):
+        assigned, primary = original(items, homes_by_id, plan, order)
+        if not items or "headword_source" not in items[0]:
+            return assigned, primary
+
+        source_index = defaultdict(set)
+        head_index = defaultdict(set)
+        for item in items:
+            if item.get("headword_source"):
+                source_index[builder.canon(item["headword_source"])].add(item["item_id"])
+            if item.get("headword"):
+                head_index[builder.canon(item["headword"])].add(item["item_id"])
+
+        seen = {}
+        for lesson, labels in manual.items():
+            if lesson not in order:
+                raise ValueError(f"word intro override references unknown lesson: {lesson}")
+            for label in labels:
+                key = builder.canon(label)
+                matches = source_index.get(key) or head_index.get(key) or set()
+                if not matches:
+                    raise ValueError(f"word intro override label not found: {label}")
+                if len(matches) != 1:
+                    raise ValueError(f"word intro override label is ambiguous: {label} -> {sorted(matches)}")
+                item_id = next(iter(matches))
+                if item_id in seen and seen[item_id] != lesson:
+                    raise ValueError(
+                        f"word intro override assigns {item_id} twice: {seen[item_id]} and {lesson}"
+                    )
+                seen[item_id] = lesson
+                assigned[item_id] = lesson
+        return assigned, primary
+
+    builder.balanced_assign = patched
+
+
 def main() -> int:
     base_plan_text = PLAN.read_text(encoding="utf-8")
     base_word_review_text = WORD_REVIEW.read_text(encoding="utf-8")
@@ -77,8 +130,13 @@ def main() -> int:
     PLAN.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     WORD_REVIEW.write_text(compatible_word_review, encoding="utf-8")
     try:
-        completed = subprocess.run([sys.executable, str(BUILDER), *sys.argv[1:]], cwd=ROOT)
-        return completed.returncode
+        builder = load_builder()
+        install_word_intro_overrides(builder, overrides)
+        try:
+            builder.main()
+            return 0
+        except SystemExit as exc:
+            return int(exc.code or 0)
     finally:
         PLAN.write_text(base_plan_text, encoding="utf-8")
         WORD_REVIEW.write_text(base_word_review_text, encoding="utf-8")
