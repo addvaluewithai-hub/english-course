@@ -6,6 +6,7 @@
   "status": "extracted_from_current_official_oxford_pending_inventory_review",
   "canonical_source": "Oxford Phrase List online snapshot",
   "source_sha256": "20C59670CDA661B48B8B88205A19C77FAD5ACCB252D164DAAE939DAF4BE893C1",
+  "license_gate": null,
   "items": [
     {
       "item_id": "oxford.phrase.online.0024",

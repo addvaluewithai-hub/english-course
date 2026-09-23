@@ -22,6 +22,7 @@
     "abilities": "reviewed_exit_profile_v1",
     "pronunciation": "reviewed_progression_v1"
   },
+  "production_gates": [],
   "assessment_requirements": [
     {
       "claim_id": "b1.assessment.01",

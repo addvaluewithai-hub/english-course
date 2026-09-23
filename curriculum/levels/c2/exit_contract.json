@@ -19,12 +19,15 @@
     "retention_requires_later_fresh_evidence": true
   },
   "inventory_obligations": {
-    "words": "blocked_pending_gse_vocabulary_extract",
-    "phrases": "blocked_pending_gse_vocabulary_extract",
+    "words": "extracted_from_official_gse_pending_inventory_review_and_license_gate",
+    "phrases": "extracted_from_official_gse_pending_inventory_review_and_license_gate",
     "grammar": "extracted_pending_inventory_review",
     "abilities": "reviewed_exit_profile_v1",
     "pronunciation": "reviewed_progression_v1"
   },
+  "production_gates": [
+    "commercial_permission_required"
+  ],
   "assessment_requirements": [
     {
       "claim_id": "c2.assessment.01",

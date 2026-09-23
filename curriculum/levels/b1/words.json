@@ -4,6 +4,8 @@
   "category": "words",
   "inventory_semantics": "new_at_level",
   "status": "extracted_pending_inventory_review",
+  "canonical_source": "Oxford 3000/5000",
+  "license_gate": null,
   "items": [
     {
       "item_id": "oxford.o3000.p07.136",

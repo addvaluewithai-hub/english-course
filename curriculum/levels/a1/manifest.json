@@ -19,5 +19,6 @@
     "abilities": 17,
     "pronunciation": 10
   },
-  "blocking_categories": []
+  "blocking_categories": [],
+  "production_gates": []
 }

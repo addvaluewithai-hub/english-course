@@ -13,14 +13,14 @@
   ],
   "lesson_design_authorized": false,
   "counts": {
-    "words": 0,
-    "phrases": 0,
+    "words": 609,
+    "phrases": 41,
     "grammar": 112,
     "abilities": 17,
     "pronunciation": 10
   },
-  "blocking_categories": [
-    "words",
-    "phrases"
+  "blocking_categories": [],
+  "production_gates": [
+    "commercial_permission_required"
   ]
 }

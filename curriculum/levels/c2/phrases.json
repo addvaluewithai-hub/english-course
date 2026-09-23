@@ -3,8 +3,720 @@
   "level": "C2",
   "category": "phrases",
   "inventory_semantics": "new_at_level",
-  "status": "blocked_pending_gse_vocabulary_extract",
-  "canonical_source": "pending C2 lexical source",
-  "source_sha256": null,
-  "items": []
+  "status": "extracted_from_official_gse_pending_inventory_review_and_license_gate",
+  "canonical_source": "Pearson GSE Vocabulary C2 General Learner",
+  "source_sha256": "65DF05986C56F4AF17D058DF73C6D8AF1C12AD21BD767E0888A38425AFEBC1B7",
+  "license_gate": "commercial_permission_required",
+  "items": [
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b7193eb1.-73cf",
+      "phrase": "(I'm) much obliged (to you)",
+      "subtype": "source_phrase",
+      "definition": "used to thank someone very politely",
+      "example": "",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b7193eb1.-73cf"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71306a8.7b49.1",
+      "phrase": "elocution lessons",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71306a8.7b49",
+      "owner_expression": "elocution",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71306a8.7b49",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b7193eb1.bea.1",
+      "phrase": "prattle on about",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b7193eb1.bea",
+      "owner_expression": "prattle",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b7193eb1.bea",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71b45b7.2a50.1",
+      "phrase": "sportsmanlike behaviour",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.2a50",
+      "owner_expression": "sportsmanlike",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.2a50",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71d3748.f47.1",
+      "phrase": "wangle your way into something",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.f47",
+      "owner_expression": "wangle",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.f47",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71d3748.f47.2",
+      "phrase": "wangle your way out of something",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.f47",
+      "owner_expression": "wangle",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.f47",
+        "collocation_index": 2
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71d3748.33f5.1",
+      "phrase": "become withdrawn",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.33f5",
+      "owner_expression": "withdrawn",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.33f5",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b710ae86.161e",
+      "phrase": "beaver away",
+      "subtype": "source_phrasal_verb",
+      "definition": "to work hard in a very busy way",
+      "example": "Haven't you finished? You've been beavering away on that report all morning.",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b710ae86.161e"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71717ca.7d9b.1",
+      "phrase": "a non-aggression pact",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71717ca.7d9b",
+      "owner_expression": "non-aggression",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71717ca.7d9b",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71717ca.7d9b.2",
+      "phrase": "a non-aggression treaty",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71717ca.7d9b",
+      "owner_expression": "non-aggression",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71717ca.7d9b",
+        "collocation_index": 2
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71717ca.7d9b.3",
+      "phrase": "a non-aggression agreement",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71717ca.7d9b",
+      "owner_expression": "non-aggression",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71717ca.7d9b",
+        "collocation_index": 3
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71514aa.-3e29.1",
+      "phrase": "looks... fetching",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71514aa.-3e29",
+      "owner_expression": "fetching",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71514aa.-3e29",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b71514aa.72b3",
+      "phrase": "hot up",
+      "subtype": "source_phrasal_verb",
+      "definition": "if something hots up, there is more activity or excitement",
+      "example": "The election campaign is hotting up.",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b71514aa.72b3"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b71717ca.-27b5",
+      "phrase": "in the know",
+      "subtype": "source_phrase",
+      "definition": "having more information about something than most people",
+      "example": "People in the know go to beaches on the south of the island.",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b71717ca.-27b5"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.u90d4eb40be6a8af1.323a5a4a.1503895adad.-16d9",
+      "phrase": "you are not obliged to...",
+      "subtype": "source_phrase",
+      "definition": "used to say that you do not have to do something",
+      "example": "You are not obliged to join the company pension scheme.",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "u90d4eb40be6a8af1.323a5a4a.1503895adad.-16d9"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71d3748.18d3.1",
+      "phrase": "get waylaid",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.18d3",
+      "owner_expression": "waylay",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.18d3",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b71d3748.11e7",
+      "phrase": "be on the warpath",
+      "subtype": "source_phrase",
+      "definition": "to be angry and looking for someone to fight or punish",
+      "example": "",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.11e7"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b71b45b7.-2ab1",
+      "phrase": "shack up with ",
+      "subtype": "source_phrasal_verb",
+      "definition": "to live with your sexual partner, without being married. This is used to show disapproval.",
+      "example": "",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-2ab1"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.u90d4eb40be6a8af1.323a5a4a.1503895adad.-16d3",
+      "phrase": "I feel obliged to...",
+      "subtype": "source_phrase",
+      "definition": "used to say that you feel that you must do something",
+      "example": "I feel obliged to invite my parents to my party but I don't really want to.",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "u90d4eb40be6a8af1.323a5a4a.1503895adad.-16d3"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b71306a8.5279",
+      "phrase": "do the donkey work",
+      "subtype": "source_phrase",
+      "definition": "to do the hard or boring part of a job",
+      "example": "",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b71306a8.5279"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b710ae86.-3742.1",
+      "phrase": "all-out war",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b710ae86.-3742",
+      "owner_expression": "all-out",
+      "gse": "85*",
+      "cefr": "C2 (85-90)*",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b710ae86.-3742",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b710ae86.-3742.2",
+      "phrase": "all-out attack",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b710ae86.-3742",
+      "owner_expression": "all-out",
+      "gse": "85*",
+      "cefr": "C2 (85-90)*",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b710ae86.-3742",
+        "collocation_index": 2
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b710ae86.-3742.3",
+      "phrase": "all-out offensive",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b710ae86.-3742",
+      "owner_expression": "all-out",
+      "gse": "85*",
+      "cefr": "C2 (85-90)*",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b710ae86.-3742",
+        "collocation_index": 3
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71717ca.6b4a.1",
+      "phrase": "have a natter",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71717ca.6b4a",
+      "owner_expression": "natter",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71717ca.6b4a",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71514aa.39d9.1",
+      "phrase": "have the gumption to do sth",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71514aa.39d9",
+      "owner_expression": "gumption",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71514aa.39d9",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71514aa.5371.1",
+      "phrase": "have a heart-to-heart with sb",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71514aa.5371",
+      "owner_expression": "heart-to-heart",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71514aa.5371",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71b45b7.-5867.1",
+      "phrase": "a sallow face",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-5867",
+      "owner_expression": "sallow",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-5867",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71b45b7.-5867.2",
+      "phrase": "a sallow skin",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-5867",
+      "owner_expression": "sallow",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-5867",
+        "collocation_index": 2
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71b45b7.-5867.3",
+      "phrase": "a sallow complexion",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-5867",
+      "owner_expression": "sallow",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-5867",
+        "collocation_index": 3
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71b45b7.232e.1",
+      "phrase": "hold sb spellbound",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.232e",
+      "owner_expression": "spellbound",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.232e",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b71d3748.-72a7",
+      "phrase": "be on tenterhooks",
+      "subtype": "source_phrase",
+      "definition": "to feel nervous and excited because you are waiting for something to happen",
+      "example": "",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.-72a7"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b71306a8.-1660",
+      "phrase": "cotton on",
+      "subtype": "source_phrasal_verb",
+      "definition": "to begin to understand something",
+      "example": "I soon cottoned on to what he was doing.",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b71306a8.-1660"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71514aa.5cdd.1",
+      "phrase": "get het up",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71514aa.5cdd",
+      "owner_expression": "het up",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71514aa.5cdd",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71b45b7.-2864.1",
+      "phrase": "a shamefaced grin",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-2864",
+      "owner_expression": "shamefaced",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-2864",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71b45b7.-2864.2",
+      "phrase": "a shamefaced smile",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-2864",
+      "owner_expression": "shamefaced",
+      "gse": "85",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-2864",
+        "collocation_index": 2
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b71b45b7.74b8",
+      "phrase": "swot up",
+      "subtype": "source_phrasal_verb",
+      "definition": "to learn as much as you can about something",
+      "example": "Swot up on the company before your interview.",
+      "gse": "86",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.74b8"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b7193eb1.-58d9",
+      "phrase": "the (great) outdoors",
+      "subtype": "source_phrase",
+      "definition": "the countryside",
+      "example": "",
+      "gse": "86",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b7193eb1.-58d9"
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71306a8.-843.1",
+      "phrase": "looking crestfallen",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71306a8.-843",
+      "owner_expression": "crestfallen",
+      "gse": "86",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71306a8.-843",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71306a8.5077.1",
+      "phrase": "general dogsbody",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71306a8.5077",
+      "owner_expression": "dogsbody",
+      "gse": "86",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71306a8.5077",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.c2.collocation.ua8444abd28d0e715.-5299d1a3.145b71d3748.266b.1",
+      "phrase": "have a whip-round",
+      "subtype": "collocation",
+      "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.266b",
+      "owner_expression": "whip-round",
+      "gse": "86",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "level_inheritance": "owner_record",
+      "independent_gse_score": false,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "owner_item_id": "ua8444abd28d0e715.-5299d1a3.145b71d3748.266b",
+        "collocation_index": 1
+      },
+      "license_gate": "commercial_permission_required"
+    },
+    {
+      "item_id": "gse.vocab.ua8444abd28d0e715.-5299d1a3.145b7193eb1.-9ba",
+      "phrase": "the pluperfect",
+      "subtype": "source_phrase",
+      "definition": "the past perfect",
+      "example": "",
+      "gse": "86",
+      "cefr": "C2 (85-90)",
+      "published_level": "C2",
+      "independent_gse_score": true,
+      "source_ref": {
+        "dataset": "pearson_gse_vocabulary_c2_general_learner",
+        "item_id": "ua8444abd28d0e715.-5299d1a3.145b7193eb1.-9ba"
+      },
+      "license_gate": "commercial_permission_required"
+    }
+  ]
 }
