@@ -1,0 +1,2715 @@
+{
+  "schema_version": 1,
+  "level": "A1",
+  "status": "cluster_map_v0_needs_architecture_review",
+  "lesson_design_authorized": false,
+  "principles": {
+    "inventory_is_fixed_input": true,
+    "mapping_is_two_way": true,
+    "legacy_candidate_sequence_is_not_binding": true,
+    "unmapped_items_must_not_be_silently_dropped": true,
+    "review_lessons_are_not_default_orphan_dump": true,
+    "recycling_is_not_designed_yet": true
+  },
+  "coverage": {
+    "abilities": {
+      "total": 119,
+      "mapped": 119,
+      "unmapped": 0,
+      "ambiguous_multiple_homes": 31,
+      "mapping_basis_counts": {
+        "exact_reviewed_candidate_source_evidence": 99,
+        "same_reviewed_communicative_function": 20
+      }
+    },
+    "words": {
+      "total": 900,
+      "mapped": 537,
+      "unmapped": 363,
+      "ambiguous_multiple_homes": 440,
+      "mapping_basis_counts": {
+        "grammar_owned_cross_cutting": 87,
+        "reviewed_lexical_owner_to_candidate_cluster": 537,
+        "unmapped": 276
+      }
+    },
+    "phrases": {
+      "total": 199,
+      "mapped": 55,
+      "unmapped": 144,
+      "ambiguous_multiple_homes": 38,
+      "mapping_basis_counts": {
+        "normalized_exact_reviewed_chunk_member": 18,
+        "source_headword_natural_home": 37,
+        "unmapped": 144
+      }
+    },
+    "grammar": {
+      "total": 109,
+      "mapped": 103,
+      "unmapped": 6,
+      "ambiguous_multiple_homes": 100,
+      "mapping_basis_counts": {
+        "reviewed_grammar_owner_to_candidate_cluster": 103,
+        "unmapped": 6
+      }
+    }
+  },
+  "cluster_count": 10,
+  "cluster_loads": [
+    {
+      "cluster_id": "routines_time_leisure",
+      "abilities": 41,
+      "words": 215,
+      "phrases": 25,
+      "grammar": 60,
+      "total_mapped_refs": 341
+    },
+    {
+      "cluster_id": "food_shopping_services",
+      "abilities": 27,
+      "words": 237,
+      "phrases": 12,
+      "grammar": 58,
+      "total_mapped_refs": 334
+    },
+    {
+      "cluster_id": "places_directions_travel",
+      "abilities": 27,
+      "words": 214,
+      "phrases": 18,
+      "grammar": 17,
+      "total_mapped_refs": 276
+    },
+    {
+      "cluster_id": "messages_signs_forms",
+      "abilities": 15,
+      "words": 180,
+      "phrases": 15,
+      "grammar": 30,
+      "total_mapped_refs": 240
+    },
+    {
+      "cluster_id": "people_relationships",
+      "abilities": 33,
+      "words": 125,
+      "phrases": 8,
+      "grammar": 69,
+      "total_mapped_refs": 235
+    },
+    {
+      "cluster_id": "home_objects_descriptions",
+      "abilities": 29,
+      "words": 125,
+      "phrases": 7,
+      "grammar": 52,
+      "total_mapped_refs": 213
+    },
+    {
+      "cluster_id": "communication_strategies",
+      "abilities": 3,
+      "words": 166,
+      "phrases": 11,
+      "grammar": 10,
+      "total_mapped_refs": 190
+    },
+    {
+      "cluster_id": "identity_personal_information",
+      "abilities": 26,
+      "words": 102,
+      "phrases": 9,
+      "grammar": 43,
+      "total_mapped_refs": 180
+    },
+    {
+      "cluster_id": "social_contact_collaboration",
+      "abilities": 11,
+      "words": 92,
+      "phrases": 16,
+      "grammar": 28,
+      "total_mapped_refs": 147
+    },
+    {
+      "cluster_id": "language_foundations",
+      "abilities": 9,
+      "words": 101,
+      "phrases": 13,
+      "grammar": 5,
+      "total_mapped_refs": 128
+    }
+  ],
+  "orphans": {
+    "abilities": [],
+    "words": [
+      {
+        "item_id": "oxford.o3000.p01.001",
+        "display": "a, an",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.003",
+        "display": "above",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.004",
+        "display": "across",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.007",
+        "display": "actor",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.008",
+        "display": "actress",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.009",
+        "display": "add",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.012",
+        "display": "advice",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.018",
+        "display": "ago",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.020",
+        "display": "air",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.023",
+        "display": "also",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.025",
+        "display": "amazing",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.026",
+        "display": "and",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.027",
+        "display": "angry",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.029",
+        "display": "another",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.031",
+        "display": "any",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.032",
+        "display": "anyone",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.039",
+        "display": "around",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.041",
+        "display": "art",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.042",
+        "display": "article",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.043",
+        "display": "artist",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.044",
+        "display": "as",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.046",
+        "display": "at",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.050",
+        "display": "away",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.051",
+        "display": "baby",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.055",
+        "display": "ball",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.057",
+        "display": "band",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.061",
+        "display": "be",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.064",
+        "display": "because",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.065",
+        "display": "become",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.068",
+        "display": "beer",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.070",
+        "display": "begin",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.071",
+        "display": "beginning",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.073",
+        "display": "believe",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.074",
+        "display": "below",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.076",
+        "display": "better",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.080",
+        "display": "bike",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.085",
+        "display": "blog",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.088",
+        "display": "boat",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.089",
+        "display": "body",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.091",
+        "display": "boot",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.092",
+        "display": "bored",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.095",
+        "display": "both",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.101",
+        "display": "break",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.106",
+        "display": "build",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.109",
+        "display": "business",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.111",
+        "display": "but",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.112",
+        "display": "butter",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.114",
+        "display": "by",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.121",
+        "display": "cannot",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.125",
+        "display": "career",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.126",
+        "display": "carrot",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.129",
+        "display": "CD",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.130",
+        "display": "cent",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.132",
+        "display": "century",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.134",
+        "display": "change",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.135",
+        "display": "chart",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.138",
+        "display": "cheese",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.141",
+        "display": "chocolate",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.146",
+        "display": "classroom",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.148",
+        "display": "climb",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.152",
+        "display": "club",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.159",
+        "display": "common",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.160",
+        "display": "company",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.161",
+        "display": "compare",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.167",
+        "display": "cooking",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.168",
+        "display": "cool",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.169",
+        "display": "correct",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.171",
+        "display": "could",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.175",
+        "display": "cow",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.176",
+        "display": "cream",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.177",
+        "display": "create",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.178",
+        "display": "culture",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.181",
+        "display": "cut",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.182",
+        "display": "dad",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.184",
+        "display": "dancer",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.185",
+        "display": "dancing",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.186",
+        "display": "dangerous",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.191",
+        "display": "dear",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.193",
+        "display": "decide",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.195",
+        "display": "describe",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.196",
+        "display": "description",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.197",
+        "display": "design",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.200",
+        "display": "dialogue",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.202",
+        "display": "die",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.203",
+        "display": "diet",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.204",
+        "display": "difference",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.209",
+        "display": "discuss",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.210",
+        "display": "dish",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.211",
+        "display": "do",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.216",
+        "display": "down",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.217",
+        "display": "downstairs",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.218",
+        "display": "draw",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.223",
+        "display": "during",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.224",
+        "display": "DVD",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.225",
+        "display": "each",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p01.228",
+        "display": "east",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.235",
+        "display": "elephant",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.240",
+        "display": "enjoy",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p01.241",
+        "display": "enough",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.001",
+        "display": "even",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.004",
+        "display": "ever",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.006",
+        "display": "everybody",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.007",
+        "display": "everyone",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.008",
+        "display": "everything",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.009",
+        "display": "exam",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.011",
+        "display": "excited",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.012",
+        "display": "exciting",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.013",
+        "display": "exercise",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.015",
+        "display": "explain",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.016",
+        "display": "extra",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.019",
+        "display": "fact",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.020",
+        "display": "fall",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.023",
+        "display": "famous",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.024",
+        "display": "fantastic",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.027",
+        "display": "farmer",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.028",
+        "display": "fast",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.029",
+        "display": "fat",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.034",
+        "display": "feeling",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.036",
+        "display": "few",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.040",
+        "display": "fill",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.042",
+        "display": "final",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.046",
+        "display": "fire",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.053",
+        "display": "flower",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.054",
+        "display": "fly",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.059",
+        "display": "for",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.060",
+        "display": "forget",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.073",
+        "display": "full",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.076",
+        "display": "future",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.079",
+        "display": "geography",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.095",
+        "display": "grow",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.096",
+        "display": "guess",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.097",
+        "display": "guitar",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.102",
+        "display": "happen",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.104",
+        "display": "hard",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.106",
+        "display": "hate",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.108",
+        "display": "have to",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.109",
+        "display": "he",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.111",
+        "display": "health",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.112",
+        "display": "healthy",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.116",
+        "display": "her",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.118",
+        "display": "hey",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.120",
+        "display": "high",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.121",
+        "display": "him",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.122",
+        "display": "his",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.123",
+        "display": "history",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.128",
+        "display": "hope",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.136",
+        "display": "however",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.140",
+        "display": "I",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.141",
+        "display": "ice",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.142",
+        "display": "ice cream",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.144",
+        "display": "if",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.145",
+        "display": "imagine",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.146",
+        "display": "important",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.147",
+        "display": "improve",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.148",
+        "display": "in",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.149",
+        "display": "include",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.151",
+        "display": "interest",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.152",
+        "display": "interested",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.155",
+        "display": "interview",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.156",
+        "display": "into",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.157",
+        "display": "introduce",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.159",
+        "display": "it",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.160",
+        "display": "its",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.165",
+        "display": "join",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.170",
+        "display": "just",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.173",
+        "display": "kilometre",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.174",
+        "display": "kind",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.176",
+        "display": "know",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.177",
+        "display": "land",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.183",
+        "display": "laugh",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.189",
+        "display": "let",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.192",
+        "display": "lie",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.193",
+        "display": "life",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.197",
+        "display": "line",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.198",
+        "display": "lion",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.201",
+        "display": "little",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.203",
+        "display": "local",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.207",
+        "display": "lot",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.210",
+        "display": "machine",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.211",
+        "display": "magazine",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.212",
+        "display": "main",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.222",
+        "display": "maybe",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.223",
+        "display": "me",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.230",
+        "display": "member",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.233",
+        "display": "metre",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.234",
+        "display": "midnight",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.235",
+        "display": "mile",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.237",
+        "display": "million",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.239",
+        "display": "miss",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.240",
+        "display": "mistake",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.241",
+        "display": "model",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.242",
+        "display": "modern",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.243",
+        "display": "moment",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.249",
+        "display": "most",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.251",
+        "display": "mountain",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.252",
+        "display": "mouse",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.254",
+        "display": "move",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.255",
+        "display": "movie",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.257",
+        "display": "mum",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.260",
+        "display": "must",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.261",
+        "display": "my",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p02.263",
+        "display": "natural",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.266",
+        "display": "negative",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.268",
+        "display": "never",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p02.271",
+        "display": "newspaper",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.001",
+        "display": "no one",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.002",
+        "display": "nobody",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.003",
+        "display": "north",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.004",
+        "display": "nose",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.005",
+        "display": "not",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.007",
+        "display": "nothing",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.012",
+        "display": "object",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.015",
+        "display": "of",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.016",
+        "display": "off",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.018",
+        "display": "often",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.022",
+        "display": "on",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.023",
+        "display": "once",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.025",
+        "display": "onion",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.026",
+        "display": "online",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.027",
+        "display": "only",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.029",
+        "display": "opinion",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.031",
+        "display": "or",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.035",
+        "display": "our",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.036",
+        "display": "out",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.038",
+        "display": "over",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.039",
+        "display": "own",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.041",
+        "display": "paint",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.042",
+        "display": "painting",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.043",
+        "display": "pair",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.044",
+        "display": "paper",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.045",
+        "display": "paragraph",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.048",
+        "display": "part",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.057",
+        "display": "pepper",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.058",
+        "display": "perfect",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.059",
+        "display": "period",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.061",
+        "display": "personal",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.064",
+        "display": "photograph",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.066",
+        "display": "piano",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.069",
+        "display": "pig",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.072",
+        "display": "plan",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.074",
+        "display": "plant",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.076",
+        "display": "player",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.078",
+        "display": "point",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.080",
+        "display": "policeman",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.081",
+        "display": "pool",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.082",
+        "display": "poor",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.083",
+        "display": "popular",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.084",
+        "display": "positive",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.085",
+        "display": "possible",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.087",
+        "display": "potato",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.089",
+        "display": "practice",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.091",
+        "display": "prefer",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.092",
+        "display": "prepare",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.093",
+        "display": "present",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.094",
+        "display": "pretty",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.096",
+        "display": "probably",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.099",
+        "display": "programme",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.100",
+        "display": "project",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.101",
+        "display": "purple",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.105",
+        "display": "quick",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.106",
+        "display": "quickly",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.108",
+        "display": "quite",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.112",
+        "display": "reader",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.113",
+        "display": "reading",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.114",
+        "display": "ready",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.115",
+        "display": "real",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.116",
+        "display": "really",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.117",
+        "display": "reason",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.119",
+        "display": "relax",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.120",
+        "display": "remember",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.122",
+        "display": "report",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.124",
+        "display": "result",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.127",
+        "display": "rich",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.128",
+        "display": "ride",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.134",
+        "display": "rule",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.144",
+        "display": "science",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.145",
+        "display": "scientist",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.149",
+        "display": "section",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.151",
+        "display": "sell",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.158",
+        "display": "share",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.159",
+        "display": "she",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.160",
+        "display": "sheep",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.164",
+        "display": "shopping",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.166",
+        "display": "should",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.167",
+        "display": "show",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.170",
+        "display": "similar",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.171",
+        "display": "sing",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.172",
+        "display": "singer",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.175",
+        "display": "situation",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.179",
+        "display": "skill",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.182",
+        "display": "slow",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.184",
+        "display": "snake",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.186",
+        "display": "so",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.188",
+        "display": "somebody",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.189",
+        "display": "someone",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.190",
+        "display": "something",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.193",
+        "display": "song",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.196",
+        "display": "sound",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.198",
+        "display": "south",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.199",
+        "display": "space",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.201",
+        "display": "special",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.204",
+        "display": "spend",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.208",
+        "display": "star",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.210",
+        "display": "statement",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.213",
+        "display": "still",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.217",
+        "display": "strong",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.220",
+        "display": "style",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.221",
+        "display": "subject",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.222",
+        "display": "success",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.234",
+        "display": "talk",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.238",
+        "display": "teach",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.241",
+        "display": "teenager",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.242",
+        "display": "telephone",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.247",
+        "display": "terrible",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.248",
+        "display": "test",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.250",
+        "display": "than",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.253",
+        "display": "that",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.254",
+        "display": "the",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.255",
+        "display": "theatre",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.256",
+        "display": "their",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.257",
+        "display": "them",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.260",
+        "display": "they",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.268",
+        "display": "thousand",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.270",
+        "display": "through",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.275",
+        "display": "title",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p03.276",
+        "display": "to",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p03.278",
+        "display": "together",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.001",
+        "display": "tomato",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.004",
+        "display": "too",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.012",
+        "display": "tree",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.023",
+        "display": "twice",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.025",
+        "display": "type",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.026",
+        "display": "umbrella",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.030",
+        "display": "university",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.031",
+        "display": "until",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.032",
+        "display": "up",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.033",
+        "display": "upstairs",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.034",
+        "display": "us",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.036",
+        "display": "useful",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.037",
+        "display": "usually",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.038",
+        "display": "vacation",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.040",
+        "display": "very",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.044",
+        "display": "visitor",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.056",
+        "display": "we",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.065",
+        "display": "west",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.067",
+        "display": "when",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.069",
+        "display": "which",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.071",
+        "display": "who",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.072",
+        "display": "why",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.074",
+        "display": "will",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.075",
+        "display": "win",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.077",
+        "display": "wine",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.079",
+        "display": "with",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.080",
+        "display": "without",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.082",
+        "display": "wonderful",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.086",
+        "display": "world",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.087",
+        "display": "would",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.089",
+        "display": "writer",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.090",
+        "display": "writing",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.092",
+        "display": "yeah",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.o3000.p04.097",
+        "display": "you",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.099",
+        "display": "your",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      },
+      {
+        "item_id": "oxford.o3000.p04.100",
+        "display": "yourself",
+        "mapping_basis": "grammar_owned_cross_cutting"
+      }
+    ],
+    "phrases": [
+      {
+        "item_id": "oxford.phrase.online.0006",
+        "display": "a few",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0010",
+        "display": "a little",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0015",
+        "display": "a lot",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0017",
+        "display": "a lot of sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0020",
+        "display": "a period of time",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0040",
+        "display": "all over the world",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0054",
+        "display": "around the world",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0076",
+        "display": "ask for sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0079",
+        "display": "at home",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0085",
+        "display": "at school",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0088",
+        "display": "at the beginning of sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0090",
+        "display": "at the end of sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0094",
+        "display": "at the moment",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0095",
+        "display": "at the same time",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0100",
+        "display": "at the weekend",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0104",
+        "display": "at university",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0105",
+        "display": "at work",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0108",
+        "display": "away from sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0111",
+        "display": "bad for sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0112",
+        "display": "bad news",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0113",
+        "display": "bad thing",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0124",
+        "display": "be going to do sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0136",
+        "display": "because of",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0137",
+        "display": "begin with sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0143",
+        "display": "black and white",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0158",
+        "display": "car park",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0165",
+        "display": "cell phone",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0177",
+        "display": "come from…",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0178",
+        "display": "come into sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0207",
+        "display": "differences between A and B",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0214",
+        "display": "each other",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0216",
+        "display": "end in sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0236",
+        "display": "family member",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0247",
+        "display": "find out",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0253",
+        "display": "for a long time",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0254",
+        "display": "for a moment",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0261",
+        "display": "for lunch",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0266",
+        "display": "for the first time",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0273",
+        "display": "get home",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0282",
+        "display": "get ready",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0296",
+        "display": "go back",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0300",
+        "display": "go home",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0301",
+        "display": "go into sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0304",
+        "display": "go out",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0306",
+        "display": "go to bed",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0307",
+        "display": "go to school",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0308",
+        "display": "go to work",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0311",
+        "display": "good at sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0312",
+        "display": "good for sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0314",
+        "display": "Good morning",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0317",
+        "display": "grow up",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0319",
+        "display": "Guess what…",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0325",
+        "display": "hard work",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0327",
+        "display": "have fun",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0328",
+        "display": "have got",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0334",
+        "display": "have time",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0336",
+        "display": "he or she",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0341",
+        "display": "high school",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0344",
+        "display": "his or her",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0347",
+        "display": "How long…?",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0349",
+        "display": "How much…?",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0350",
+        "display": "How often…?",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0366",
+        "display": "important for sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0376",
+        "display": "in bed",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0380",
+        "display": "in class",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0386",
+        "display": "in fact",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0388",
+        "display": "in front of",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0395",
+        "display": "in my opinion",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0409",
+        "display": "in school",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0411",
+        "display": "in space",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0414",
+        "display": "in summer",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0419",
+        "display": "in the centre",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0427",
+        "display": "in the future",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0433",
+        "display": "in the morning",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0435",
+        "display": "in the north",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0436",
+        "display": "in the past",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0439",
+        "display": "in the street",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0440",
+        "display": "in the summer",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0453",
+        "display": "It is important to do sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0454",
+        "display": "It takes …",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0455",
+        "display": "kind of sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0456",
+        "display": "know how",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0457",
+        "display": "last time",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0467",
+        "display": "listen to sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0470",
+        "display": "live with sb",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0474",
+        "display": "look at sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0476",
+        "display": "look for sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0478",
+        "display": "look like sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0481",
+        "display": "lots of…",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0492",
+        "display": "millions of…",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0493",
+        "display": "mobile phone",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0496",
+        "display": "more than…",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0499",
+        "display": "next time",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0505",
+        "display": "No problem",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0514",
+        "display": "of course",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0518",
+        "display": "Oh yes",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0524",
+        "display": "on holiday",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0529",
+        "display": "on the beach",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0530",
+        "display": "on the floor",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0533",
+        "display": "on the left",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0538",
+        "display": "on the phone",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0545",
+        "display": "once a…",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0557",
+        "display": "out of sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0561",
+        "display": "over there",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0565",
+        "display": "pay for sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0567",
+        "display": "phone call",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0570",
+        "display": "plan for sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0571",
+        "display": "play with sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0579",
+        "display": "pretty good",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0598",
+        "display": "really enjoy",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0599",
+        "display": "really good",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0600",
+        "display": "really like",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0612",
+        "display": "right now",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0622",
+        "display": "See you",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0628",
+        "display": "sit down",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0635",
+        "display": "someone else",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0640",
+        "display": "speak to sb",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0641",
+        "display": "spend time",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0642",
+        "display": "stand up",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0644",
+        "display": "stay in",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0649",
+        "display": "such as",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0653",
+        "display": "swimming pool",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0665",
+        "display": "talk about sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0673",
+        "display": "the 20th century",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0685",
+        "display": "there is",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0688",
+        "display": "think about sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0689",
+        "display": "think of sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0691",
+        "display": "this kind of…",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0692",
+        "display": "this morning",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0693",
+        "display": "this time",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0696",
+        "display": "thousands of…",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0702",
+        "display": "too long",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0703",
+        "display": "too much",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0704",
+        "display": "town centre",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0717",
+        "display": "wait for sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0720",
+        "display": "welcome to sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0729",
+        "display": "work as sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0730",
+        "display": "work for sb/sth",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0731",
+        "display": "work hard",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0735",
+        "display": "work together",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0736",
+        "display": "work with sb",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0738",
+        "display": "would like",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0741",
+        "display": "Would you like…?",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "oxford.phrase.online.0745",
+        "display": "X times a…",
+        "mapping_basis": "unmapped"
+      }
+    ],
+    "grammar": [
+      {
+        "item_id": "egp.1741163706532x162687205151185180",
+        "display": "FORM: 'MY BEST FRIEND'",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "egp.1741163706537x909158263292138100",
+        "display": "USE: TIME",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "egp.1741163711539x458750897089793800",
+        "display": "FORM: NOUN + NOUN",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "egp.1741163711816x743806450459332500",
+        "display": "FORM: PROPER NOUNS",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "egp.1741163711816x756476872948352000",
+        "display": "FORM: COMMON NOUNS",
+        "mapping_basis": "unmapped"
+      },
+      {
+        "item_id": "egp.1741163711817x590984810392161200",
+        "display": "FORM: COMPOUND NOUNS",
+        "mapping_basis": "unmapped"
+      }
+    ]
+  }
+}
