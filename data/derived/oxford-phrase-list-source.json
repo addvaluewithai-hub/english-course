@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "source_id": "oup.oxford_phrase_list",
+  "official_url": "https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-phrase-list/Oxford%20Phrase%20List.pdf",
+  "raw_file": "sources/raw/vocabulary/oxford-phrase-list.pdf",
+  "sha256": "35DA430C8C0353D4A44C6293CA0D05AE00787488562BEAED1FF2835C6E37E118",
+  "bytes": 63334,
+  "published_scope": "750 common phrases; A1-C1",
+  "status": "official_snapshot_acquired_pending_structured_extraction"
+}
