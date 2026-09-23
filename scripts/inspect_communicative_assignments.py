@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Inspect reviewed communicative assignments without dumping the full dataset."""
+"""Inspect reviewed communicative assignments without dumping the full dataset.
+
+Diagnostic only: prints compact schema/count summaries for the reviewed A1-C2 ability layer.
+"""
 from __future__ import annotations
 
 import json
