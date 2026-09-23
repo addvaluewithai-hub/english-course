@@ -1,4 +1,4 @@
-name: Acquire Oxford Phrase List
+name: Archive legacy Oxford Phrase List PDF
 
 on:
   push:
@@ -6,7 +6,6 @@ on:
       - curriculum/level-source-of-truth-v1
     paths:
       - 'scripts/acquire_oxford_phrase_list.py'
-      - 'scripts/extract_oxford_phrase_list.py'
       - '.github/workflows/acquire-oxford-phrase-list.yml'
   workflow_dispatch:
 
@@ -14,7 +13,7 @@ permissions:
   contents: write
 
 jobs:
-  acquire:
+  archive:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,7 +22,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Acquire official PDF
+      - name: Acquire official legacy PDF
         run: python scripts/acquire_oxford_phrase_list.py
       - name: Create searchable text mirror
         run: |
@@ -31,23 +30,16 @@ jobs:
           sudo apt-get install -y -qq poppler-utils
           mkdir -p data/derived/source-text
           pdftotext -layout sources/raw/vocabulary/oxford-phrase-list.pdf data/derived/source-text/oxford-phrase-list.txt
-      - name: Verify published scope marker
-        run: |
-          grep -F '750 common phrases' data/derived/source-text/oxford-phrase-list.txt
-          grep -F 'A1' data/derived/source-text/oxford-phrase-list.txt
-          grep -F 'C1' data/derived/source-text/oxford-phrase-list.txt
-      - name: Extract structured phrase entries
-        run: |
-          python -m pip install --quiet pymupdf
-          python scripts/extract_oxford_phrase_list.py
-      - name: Commit verified source and extraction
+      - name: Verify legacy document marker
+        run: grep -F 'Oxford Phrase List' data/derived/source-text/oxford-phrase-list.txt
+      - name: Commit legacy source snapshot only
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add sources/raw/vocabulary/oxford-phrase-list.pdf data/derived/oxford-phrase-list-source.json data/derived/source-text/oxford-phrase-list.txt data/derived/oxford-phrase-list-all.json
+          git add sources/raw/vocabulary/oxford-phrase-list.pdf data/derived/oxford-phrase-list-source.json data/derived/source-text/oxford-phrase-list.txt
           if git diff --cached --quiet; then
-            echo 'Source snapshot and extraction already current.'
+            echo 'Legacy source snapshot already current.'
             exit 0
           fi
-          git commit -m 'sources: extract Oxford Phrase List records'
+          git commit -m 'sources: refresh legacy Oxford Phrase List snapshot'
           git push
