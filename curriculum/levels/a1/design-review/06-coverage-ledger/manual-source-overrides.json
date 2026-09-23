@@ -1,7 +1,17 @@
 {
   "schema_version": 1,
   "grammar_intro_additions": {
-    "U4-L02": [803]
+    "U1-L06": [81, 1029],
+    "U2-L02": [35, 86],
+    "U3-L04": [287, 749, 752, 781],
+    "U4-L02": [803],
+    "U5-L01": [1184],
+    "U8-L04": [1192]
+  },
+  "grammar_intro_removals": {
+    "U1-L01": [35, 81, 86, 1029],
+    "U2-L05": [1184, 1192],
+    "U3-L02": [287, 749, 752, 781]
   },
   "word_home_additions": {
     "X10": [
@@ -35,22 +45,61 @@
   },
   "family_stage_additions": {
     "capabilities": {
+      "C01": {"introduce": ["U1-L03"]},
       "C02": {"fresh_retrieval": ["U2-L03"]},
       "C03": {"fresh_retrieval": ["U9-L04"]},
       "C06": {"fresh_retrieval": ["U9-L04"]},
       "C08": {"fresh_retrieval": ["U9-L06"]},
       "C10": {"fresh_retrieval": ["U6-L07"]},
-      "C12": {"fresh_retrieval": ["U7-L05", "U8-L06", "U9-L05"]}
+      "C12": {
+        "introduce": ["U4-L03"],
+        "fresh_retrieval": ["U7-L05", "U8-L06", "U9-L05"]
+      }
     },
     "cross_cutting": {
+      "X05": {"introduce": ["U1-L03", "U2-L02", "U3-L02", "U4-L01"]},
+      "X06": {"introduce": ["U1-L05"]},
+      "X07": {"introduce": ["U1-L04"]},
       "X08": {"fresh_retrieval": ["U9-L06"]}
     },
     "lexical_sets": {
-      "L12": {"fresh_retrieval": ["U5-L07"]},
-      "L15": {"fresh_retrieval": ["U7-L05", "U8-L06"]},
-      "L17": {"fresh_retrieval": ["U9-L06"]},
+      "L01": {"introduce": ["U1-L06"]},
+      "L02": {"introduce": ["U2-L02", "U2-L03"]},
+      "L03": {"introduce": ["U4-L04"]},
+      "L04": {"introduce": ["U3-L03", "U3-L05"]},
+      "L06": {"introduce": ["U2-L02", "U2-L04", "U3-L02", "U5-L03"]},
+      "L07": {"introduce": ["U2-L04", "U5-L02", "U5-L04"]},
+      "L08": {"introduce": ["U5-L04"]},
+      "L10": {"introduce": ["U6-L04"]},
+      "L11": {"introduce": ["U3-L04", "U5-L05"]},
+      "L12": {
+        "introduce": ["U3-L04", "U3-L05", "U9-L02"],
+        "fresh_retrieval": ["U5-L07"]
+      },
+      "L15": {
+        "introduce": ["U4-L02", "U4-L03"],
+        "fresh_retrieval": ["U7-L05", "U8-L06"]
+      },
+      "L16": {"introduce": ["U1-L05", "U4-L01", "U6-L05"]},
+      "L17": {
+        "introduce": ["U4-L02"],
+        "fresh_retrieval": ["U9-L06"]
+      },
       "L18": {"fresh_retrieval": ["U9-L06"]},
-      "L26": {"fresh_retrieval": ["U8-L06"]}
+      "L19": {"introduce": ["U2-L05", "U8-L06"]},
+      "L20": {"introduce": ["U4-L03", "U4-L04", "U4-L05"]},
+      "L25": {"introduce": ["U3-L02", "U5-L03"]},
+      "L26": {
+        "introduce": ["U1-L06", "U5-L02", "U6-L03"],
+        "fresh_retrieval": ["U8-L06"]
+      },
+      "LX-GENERAL": {
+        "introduce": [
+          "U1-L04", "U1-L06", "U2-L05", "U3-L05", "U4-L04", "U4-L06",
+          "U5-L02", "U5-L06", "U6-L04", "U6-L06", "U7-L02", "U7-L04",
+          "U8-L03", "U8-L05", "U9-L03", "U9-L05"
+        ]
+      }
     }
   },
   "phrase_intro_additions": {}
