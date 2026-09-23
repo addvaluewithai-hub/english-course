@@ -16,11 +16,19 @@
     "words": 609,
     "phrases": 41,
     "grammar": 112,
-    "abilities": 17,
+    "abilities": 19,
     "pronunciation": 10
   },
   "blocking_categories": [],
   "production_gates": [
     "commercial_permission_required"
-  ]
+  ],
+  "ability_evidence_counts": {
+    "required": 19,
+    "supporting": 89,
+    "excluded_duplicate_or_overlap": 0,
+    "reviewed_total": 108,
+    "function_stages": 41
+  },
+  "ability_inventory_status": "reviewed_granular_source_assignments_v1"
 }

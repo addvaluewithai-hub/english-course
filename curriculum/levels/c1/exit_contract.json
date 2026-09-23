@@ -56,5 +56,191 @@
         "docs/LEARNING_PRINCIPLES.md#mastery"
       ]
     }
-  ]
+  ],
+  "exit_profile_source": "data/reviewed/level-exit-profiles-v1.json",
+  "exit_profile_claims": [
+    {
+      "claim_id": "c1.exit_promise",
+      "claim_type": "synthesis",
+      "text": "Use English flexibly for complex social, academic, and professional purposes, including implicit meaning.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.listening_reception",
+        "cefr_all_descriptors.c1.mediation",
+        "cefr_all_descriptors.c1.oral_interaction",
+        "cefr_all_descriptors.c1.reading_reception",
+        "cefr_all_descriptors.c1.speaking_production",
+        "cefr_all_descriptors.c1.writing_production",
+        "cefr_all_descriptors.c1.written_online_interaction",
+        "gse_all_objectives.c1.listening_reception",
+        "gse_all_objectives.c1.reading_reception",
+        "gse_all_objectives.c1.speaking_production",
+        "gse_all_objectives.c1.writing_production"
+      ],
+      "decision_refs": [
+        "docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md#supported-progression"
+      ]
+    },
+    {
+      "claim_id": "c1.reception.listening",
+      "claim_type": "source_boundary",
+      "text": "Understand extended discourse with implicit relationships and demanding media without excessive effort.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.listening_reception",
+        "gse_all_objectives.c1.listening_reception"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.reception.reading",
+      "claim_type": "source_boundary",
+      "text": "Understand long complex factual, literary, specialised, and technical texts while appreciating style distinctions.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.reading_reception",
+        "gse_all_objectives.c1.reading_reception"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.production.speaking",
+      "claim_type": "source_boundary",
+      "text": "Present complex subjects with integrated sub-themes, developed points, and an appropriate conclusion.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.speaking_production",
+        "gse_all_objectives.c1.speaking_production"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.production.writing",
+      "claim_type": "source_boundary",
+      "text": "Produce clear well-structured detailed texts on complex subjects in a style appropriate to the reader.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.writing_production",
+        "gse_all_objectives.c1.writing_production"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.interaction.oral",
+      "claim_type": "source_boundary",
+      "text": "Express ideas fluently and precisely, adapt register, and relate contributions skilfully to others.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.oral_interaction"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.interaction.written_online",
+      "claim_type": "source_boundary",
+      "text": "Handle complex abstract interaction and communication problems through flexible register, clarification, and exemplification.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.written_online_interaction"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.interaction.mediation",
+      "claim_type": "source_boundary",
+      "text": "Convey significant ideas from long complex texts and evaluate and connect multiple perspectives.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.mediation"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.language_control.range",
+      "claim_type": "source_boundary",
+      "text": "Broad complex language selected flexibly for clear social, academic, and professional communication.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.language_range"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.language_control.grammar",
+      "claim_type": "source_boundary",
+      "text": "Consistently high accuracy; errors are rare and difficult to notice.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.grammar",
+        "egp_all_levels.c1.grammar",
+        "gse_grammar_all.c1.grammar"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.language_control.vocabulary",
+      "claim_type": "source_boundary",
+      "text": "Broad lexical and idiomatic command with effective circumlocution and little obvious searching.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.vocabulary",
+        "oxford_5000_all.c1.lexical_pool"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.language_control.pronunciation",
+      "claim_type": "source_boundary",
+      "text": "Full phonological range with intelligibility throughout; retained accent does not affect effectiveness.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.pronunciation"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.language_control.discourse",
+      "claim_type": "source_boundary",
+      "text": "Produce smooth, well-structured language with controlled organisational patterns and cohesive devices.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.discourse"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.language_control.fluency",
+      "claim_type": "source_boundary",
+      "text": "Express complex thought almost effortlessly, with only conceptually difficult material affecting flow.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c1.fluency"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c1.assessment.01",
+      "claim_type": "product_policy",
+      "text": "Synthesis of demanding input",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "c1.assessment.02",
+      "claim_type": "product_policy",
+      "text": "A complex position in multiple domains",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "c1.assessment.03",
+      "claim_type": "product_policy",
+      "text": "Audience and register adaptation without rehearsed wording",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    }
+  ],
+  "ability_inventory": {
+    "required_new_at_level": 59,
+    "supporting_evidence_at_level": 152,
+    "excluded_duplicates_at_level": 6,
+    "reviewed_source_records_at_level": 217,
+    "required_items_file": "abilities.json",
+    "exit_obligation": "cumulative_required_abilities_through_level"
+  }
 }

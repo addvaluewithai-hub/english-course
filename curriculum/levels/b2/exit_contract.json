@@ -55,5 +55,192 @@
         "docs/LEARNING_PRINCIPLES.md#mastery"
       ]
     }
-  ]
+  ],
+  "exit_profile_source": "data/reviewed/level-exit-profiles-v1.json",
+  "exit_profile_claims": [
+    {
+      "claim_id": "b2.exit_promise",
+      "claim_type": "synthesis",
+      "text": "Understand and produce clear detailed language, sustain viewpoints, and interact with useful spontaneity.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.listening_reception",
+        "cefr_all_descriptors.b2.mediation",
+        "cefr_all_descriptors.b2.oral_interaction",
+        "cefr_all_descriptors.b2.reading_reception",
+        "cefr_all_descriptors.b2.speaking_production",
+        "cefr_all_descriptors.b2.writing_production",
+        "cefr_all_descriptors.b2.written_online_interaction",
+        "gse_all_objectives.b2.listening_reception",
+        "gse_all_objectives.b2.reading_reception",
+        "gse_all_objectives.b2.speaking_production",
+        "gse_all_objectives.b2.writing_production"
+      ],
+      "decision_refs": [
+        "docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md#supported-progression"
+      ]
+    },
+    {
+      "claim_id": "b2.reception.listening",
+      "claim_type": "source_boundary",
+      "text": "Follow extended talk and complex argument on reasonably familiar topics and understand most standard-language news and film.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.listening_reception",
+        "gse_all_objectives.b2.listening_reception"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.reception.reading",
+      "claim_type": "source_boundary",
+      "text": "Understand articles and reports with viewpoints, contemporary prose, and relevant technical discussion.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.reading_reception",
+        "gse_all_objectives.b2.reading_reception"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.production.speaking",
+      "claim_type": "source_boundary",
+      "text": "Give clear detailed descriptions and explain a viewpoint with advantages, disadvantages, and supporting detail.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.speaking_production",
+        "gse_all_objectives.b2.speaking_production"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.production.writing",
+      "claim_type": "source_boundary",
+      "text": "Produce clear detailed texts, essays, and reports that present information or support a position.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.writing_production",
+        "gse_all_objectives.b2.writing_production"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.interaction.oral",
+      "claim_type": "source_boundary",
+      "text": "Participate actively with useful fluency and spontaneity, sustain views, and manage routine disagreement.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.oral_interaction"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.interaction.written_online",
+      "claim_type": "source_boundary",
+      "text": "Collaborate in multi-person tasks and handle misunderstanding when others remain reasonably cooperative.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.written_online_interaction"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.interaction.mediation",
+      "claim_type": "source_boundary",
+      "text": "Relay detailed information and arguments reliably, clarify complex points, and develop or connect others' ideas.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.mediation"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.language_control.range",
+      "claim_type": "source_boundary",
+      "text": "Broad general and field-related language, viewpoints, argument, and some complex sentence forms without much restriction.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.language_range"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.language_control.grammar",
+      "claim_type": "source_boundary",
+      "text": "Relatively high control with occasional slips and some rigid or inaccurate use of complex forms.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.grammar",
+        "egp_all_levels.b2.grammar",
+        "gse_grammar_all.b2.grammar"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.language_control.vocabulary",
+      "claim_type": "source_boundary",
+      "text": "Good general and field-related range with systematic use of many appropriate collocations.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.vocabulary",
+        "oxford_3000_all.b2.lexical_pool",
+        "oxford_5000_all.b2.lexical_pool"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.language_control.pronunciation",
+      "claim_type": "source_boundary",
+      "text": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.pronunciation"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.language_control.discourse",
+      "claim_type": "source_boundary",
+      "text": "Use varied linking expressions, cohesive devices, supporting detail, and clear logical paragraphs.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.discourse"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.language_control.fluency",
+      "claim_type": "source_boundary",
+      "text": "Sustain longer stretches at a fairly even tempo with few conspicuously long pauses.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b2.fluency"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b2.assessment.01",
+      "claim_type": "product_policy",
+      "text": "Interpretation of complex input",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "b2.assessment.02",
+      "claim_type": "product_policy",
+      "text": "Spontaneous contribution",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "b2.assessment.03",
+      "claim_type": "product_policy",
+      "text": "A supported viewpoint for a new audience and topic",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    }
+  ],
+  "ability_inventory": {
+    "required_new_at_level": 270,
+    "supporting_evidence_at_level": 262,
+    "excluded_duplicates_at_level": 18,
+    "reviewed_source_records_at_level": 550,
+    "required_items_file": "abilities.json",
+    "exit_obligation": "cumulative_required_abilities_through_level"
+  }
 }

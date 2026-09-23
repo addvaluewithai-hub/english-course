@@ -16,9 +16,17 @@
     "words": 809,
     "phrases": 175,
     "grammar": 338,
-    "abilities": 17,
+    "abilities": 249,
     "pronunciation": 10
   },
   "blocking_categories": [],
-  "production_gates": []
+  "production_gates": [],
+  "ability_evidence_counts": {
+    "required": 249,
+    "supporting": 277,
+    "excluded_duplicate_or_overlap": 16,
+    "reviewed_total": 542,
+    "function_stages": 40
+  },
+  "ability_inventory_status": "reviewed_granular_source_assignments_v1"
 }
