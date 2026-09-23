@@ -1,28 +1,36 @@
 # A1 Final Capability Map
 
-Status: **LOCKED THROUGH MANUAL PHRASE REVIEW**  
-Stages reflected: **01 — Manual Ability Review + 02 — Manual Phrase Review**  
+Status: **LOCKED THROUGH MANUAL GRAMMAR REVIEW**  
+Stages reflected: **01 — Abilities + 02 — Phrases + 03 — Grammar**  
 Ability input reviewed manually: **119/119 required A1 source abilities**.  
-Phrase input reviewed manually: **199/199 Oxford A1 phrases**.
+Phrase input reviewed manually: **199/199 Oxford A1 phrases**.  
+Canonical grammar input reviewed manually: **109/109 A1 EGP features**.
 
-This is the single authoritative A1 capability architecture. The detailed ability evidence remains in `manual-review-log.md`; the phrase-by-phrase mapping remains in `../02-phrases/phrase-review.md`.
+This is the single authoritative A1 capability architecture. Detailed evidence remains in the stage files under `design-review/`.
 
-The phrase stage changed the architecture only where the new evidence was strong enough to justify it:
-- one new capability was added for simple opinion/evaluation/agreement/suggestion;
-- C13 was expanded to include productive plans/future intention as well as receptive arrangements;
-- discourse/expansion and basic comparison were added as cross-cutting requirements rather than artificial standalone capabilities.
+Changes forced by phrase evidence:
+- C22 added for simple opinion/evaluation/agreement/suggestion;
+- C13 expanded to include productive simple plans/future intention;
+- discourse/expansion and basic comparison added as cross-cutting requirements.
+
+Changes forced by grammar evidence:
+- C23 added for simple past events/states;
+- C06 expanded to include events/actions happening now;
+- C18 expanded to include simple invitations;
+- core grammar infrastructure and simple possibility with `can` added as cross-cutting requirements;
+- C13, C22, X08 and X09 decisions confirmed/refined by canonical grammar evidence.
 
 ## Design rules
 
 1. Final capabilities represent meaningful learner performances, not grammar labels, lexical topics, delivery conditions, or mechanics.
 2. Reception, production, interaction, reading, listening, speaking, and writing evidence may live inside one semantic capability, but their assessment boundaries must remain visible.
 3. A capability is not a lesson. One capability may require multiple lessons; one lesson may support multiple capabilities.
-4. A source ability or phrase may support more than one capability when it genuinely serves multiple performances.
+4. A source ability, phrase, or grammar feature may support more than one capability when it genuinely serves multiple performances.
 5. Cross-cutting requirements remain mandatory even when they are not top-level capabilities.
-6. Later grammar/word review may refine this map only when new evidence exposes a genuine missing or badly shaped learner performance.
+6. Later word review may refine this map only when lexical evidence exposes a genuine missing or badly shaped learner performance.
 7. No unit count or lesson count may be used as a reason to merge or split capabilities.
 
-# Final A1 Capabilities — 22
+# Final A1 Capabilities — 23
 
 ## C01 — Meet, greet, and introduce people
 Learner can open, sustain briefly, and close a very simple first-contact exchange: greet, ask/answer basic wellbeing, state a simple feeling, react simply, introduce themself, introduce another person, understand/respond to a basic introduction, and leave politely.
@@ -71,10 +79,18 @@ Ability-review rows: **22, 27, 69(part), 89, 90, 108**.
 
 Reception and production are both mandatory.
 
-## C06 — Talk about routines and free-time activities
-Learner can understand questions/information about familiar routines or leisure and give simple spoken/written information about their own or another person's routine.
+## C06 — Talk about routines, free-time activities, and what is happening now
+Learner can understand questions/information about familiar routines or leisure, give simple spoken/written information about habitual activity, and say what a person is doing or what is happening now in a simple familiar situation.
 
-Ability-review rows: **36, 37, 91, 99, 115**.
+Ability-review rows: **36, 37, 91, 99, 115**.  
+Canonical grammar evidence: EGP present simple for habits/general facts and present continuous for events in progress. Supporting GSE Grammar explicitly contrasts present simple and present continuous at A1.
+
+Mandatory branches:
+- repeated routines/habits;
+- free-time activities;
+- frequency;
+- simple current activity/event in progress;
+- distinguish habitual vs happening-now meaning in simple familiar contexts.
 
 The high phrase density in this capability is treated as natural language density, not evidence that the learner performance itself must be split.
 
@@ -82,7 +98,8 @@ The high phrase density in this capability is treated as natural language densit
 Learner can understand and state what they or another person can or cannot do in basic familiar activities.
 
 Ability-review rows: **45, 81**.  
-Supporting form-perception row: **23** (`can` vs `can't`).
+Supporting form-perception row: **23** (`can` vs `can't`).  
+Canonical grammar evidence includes affirmative/question/negative `can` and `can` for ability.
 
 ## C08 — Understand simple descriptions and identify familiar referents
 Learner can understand or identify familiar people, places, objects, or animals from short simple written or spoken descriptions with A1-appropriate support.
@@ -90,7 +107,7 @@ Learner can understand or identify familiar people, places, objects, or animals 
 Ability-review rows: **2, 3, 6, 40, 44**.  
 Supporting processing row: **39**.
 
-This remains a receptive capability because the ability evidence is substantial. Productive object/location description is handled elsewhere. Grammar and word review may still refine its boundaries, but it is not demoted merely because the phrase inventory is relatively generic.
+This remains a receptive capability because the ability evidence is substantial. Productive object/location description is handled elsewhere.
 
 ## C09 — Exchange basic information about objects
 Learner can ask and answer simple questions about familiar objects and describe/write basic properties such as colour and size.
@@ -107,7 +124,8 @@ Mandatory branches:
 ## C10 — Talk about location and position
 Learner can understand, state, answer questions about, and write where familiar people/things are or where objects are positioned.
 
-Ability-review rows: **24, 47, 54, 84, 117**.
+Ability-review rows: **24, 47, 54, 84, 117**.  
+Grammar support includes place adverbs, basic prepositions, and `there is/there are`.
 
 This is spatial location, not route navigation.
 
@@ -135,20 +153,21 @@ Mandatory subdomains:
 - basic time references such as `next week`, `last Friday`, `in November`;
 - written and spoken forms.
 
-Phrase evidence adds a wide set of duration, frequency, past-reference, and future-reference expressions. Productive past narration is **not** implied unless grammar evidence later requires it.
+Phrase evidence adds duration, frequency, past-reference, and future-reference expressions. Past-event communication itself is owned by C23 rather than being implied by time vocabulary alone.
 
 ## C13 — Understand arrangements and talk about simple plans
 Learner can understand basic written/spoken information about when and where a simple meeting or familiar event happens, and can state a very simple plan or future intention using A1 language.
 
 Ability-review rows: **10, 32** for receptive arrangements.  
-Phrase evidence: **`be going to do sth`, `in the future`, `plan for sth`**, supported by future-time expressions such as `next year` and `one day`.
+Phrase evidence: **`be going to do sth`, `in the future`, `plan for sth`**, supported by `next year`, `one day`, and other future-time expressions.  
+Canonical grammar evidence: A1 EGP **`will/'ll` for plans and intentions**.
 
 Mandatory branches:
 - understand when/where a simple meeting or familiar event happens;
 - understand basic event timing/place details;
 - state a simple future intention or plan.
 
-This does **not** yet require extended future narration or complex negotiation of arrangements.
+Important boundary: full productive control of the `be going to` grammar family is planned at A2 in the reviewed grammar progression. At A1, the Oxford-listed `be going to do sth` may be taught/used as a limited source-evidenced phrase/chunk, while canonical productive plan grammar can rely on A1 `will/'ll`. Do not infer broad future-system mastery.
 
 ## C14 — Understand basic signs and notices
 Learner can understand short simple notices, signs, and visually supported public instructions.
@@ -160,7 +179,8 @@ The Oxford A1 Phrase List provides no unique primary phrase for this capability;
 ## C15 — Follow simple instructions and procedures
 Learner can follow short simple written or spoken instructions/commands for familiar straightforward tasks.
 
-Ability-review rows: **8, 13, 19, 30**.
+Ability-review rows: **8, 13, 19, 30**.  
+Supporting GSE Grammar evidence includes imperative forms at A1.
 
 Mandatory branches:
 - written procedure;
@@ -188,10 +208,11 @@ Supporting mechanics: **66, 70** (repeat/read familiar language intelligibly).
 
 The Oxford A1 Phrase List does not directly provide the required repair expressions. This is a content-supply requirement for later lesson language authoring, not a reason to remove the capability.
 
-## C18 — Express immediate needs; make and respond to basic requests/offers
-Learner can state a simple immediate want/need, request a basic thing or help, and give a simple response to a request or offer.
+## C18 — Express immediate needs; make and respond to basic requests, offers, and invitations
+Learner can state a simple immediate want/need, request a basic thing or help, make/respond to a simple offer, and make/respond to a very simple invitation.
 
-Ability-review rows: **58, 67, 74, 76, 82, 86, 92(part), 95**.
+Ability-review rows: **58, 67, 74, 76, 82, 86, 92(part), 95**.  
+Canonical grammar evidence includes `can` for requests/offers and `would like to invite` for invitations.
 
 Mandatory branches:
 - express an immediate want/need;
@@ -199,7 +220,8 @@ Mandatory branches:
 - request help;
 - get attention appropriately where needed;
 - respond/agree to a simple request;
-- accept a simple offer.
+- make/respond to a simple offer;
+- make/respond to a simple invitation.
 
 Food ordering is owned by C19 as a service transaction.
 
@@ -231,7 +253,7 @@ Ability-review row: **116**.
 ## C22 — Express a simple opinion/evaluation and respond to a simple suggestion
 Learner can give a very simple opinion or evaluation, express basic agreement, make a simple suggestion, and respond briefly to a simple suggestion in familiar contexts.
 
-This capability is added from coherent Stage-02 phrase evidence rather than from a single ability descriptor.
+This capability was added from coherent Stage-02 phrase evidence and is independently supported by GSE Grammar evidence for present simple opinions/likes/dislikes plus canonical A1 reason/contrast/linking grammar.
 
 Primary Oxford A1 phrase evidence:
 - `a good idea`;
@@ -258,23 +280,40 @@ Mandatory branches:
 
 This is distinct from C05: preference (`I like…`) is not the same learner performance as opinion/evaluation/suggestion.
 
+## C23 — Talk about simple past events and states
+Learner can give very simple information about a familiar past event or past state using a limited A1 past-simple repertoire.
+
+Canonical grammar evidence:
+- EGP row **887** — past simple affirmative with a limited range of regular and irregular verbs;
+- EGP row **889** — past simple used to talk about everyday events or states.
+
+Natural phrase support already present includes `last year`, `in the past`, `X years ago`, `X years later`, `get married`, `grow up`, and `the next day`.
+
+Mandatory boundary:
+- simple familiar past event/state only;
+- limited source-supported verb range;
+- no assumption of extended narration, detailed storytelling, or broad past-system mastery.
+
+GSE Grammar provides supporting A1 evidence for negative past forms; this informs examples/mastery design but does not replace the canonical EGP feature inventory.
+
 # Cross-cutting requirements — mandatory, not standalone capabilities
 
 ## X01 — Possession and ownership
 Ability-review rows: **79(part), 83(part), 100, 105**.  
-Phrase evidence includes **`have got`** and **`his or her`**.
+Phrase evidence includes **`have got`** and **`his or her`**.  
+Grammar evidence includes possessive determiners; GSE cross-check adds possessive `'s`/`have got` support.
 
-Learner must be able to understand/use basic possession and ownership language inside relevant personal-information, family, home, and object tasks. It must appear in more than one context and must not become a fake standalone lesson solely because it has grammar/lexical forms.
+Learner must understand/use basic possession and ownership language inside relevant personal-information, family, home, and object tasks.
 
 ## X02 — Weather as a required content context
 Ability-review row: **93**.
 
-Learner must be able to describe common basic weather conditions. Weather is a required content/lexical context, not a top-level capability. Grammar/word mapping will decide its most natural homes.
+Learner must be able to describe common basic weather conditions. Weather is a required content/lexical context, not a top-level capability. Grammar such as linking `be`, adjectives, and simple possibility with `can` may naturally support it.
 
 ## X03 — Initiate basic questions, not only answer them
 Ability-review row: **92(part)** plus concrete question evidence across C02, C09, C11, C16, and others.
 
-Every relevant interaction capability must include learner-initiated questions where source-supported.
+Every relevant interaction capability must include learner-initiated questions where source-supported. Grammar support includes interrogatives with `be`, modal questions, and GSE wh-/yes-no question evidence.
 
 ## X04 — Understand basic questions
 Ability-review rows: **16, 21, 64** plus domain-specific question abilities.
@@ -292,7 +331,8 @@ Ability-review rows: **66, 70**.
 Learner must be able to repeat/read familiar short language intelligibly enough to support learning and communication. This is supporting performance, not a top-level communicative endpoint.
 
 ## X07 — Writing mechanics and spelling
-Ability-review rows: **102, 103, 106, 109, 113, 114**.
+Ability-review rows: **102, 103, 106, 109, 113, 114**.  
+Grammar evidence includes proper-noun capitalisation.
 
 Required mechanics include:
 - copy simple language when needed;
@@ -300,34 +340,52 @@ Required mechanics include:
 - basic punctuation;
 - spell common names, greetings, jobs, and other taught high-frequency items to the A1 standard.
 
-## X08 — Simple discourse and answer expansion
-Phrase evidence:
-- `because of`;
-- `for example`;
-- `in fact`;
-- `such as`;
-- `talk about sb/sth`.
+## X08 — Simple discourse, reason, contrast, and answer expansion
+Phrase evidence includes `because of`, `for example`, `in fact`, `such as`, and `talk about sb/sth`.  
+Canonical grammar adds `because` clauses and coordination with `and`, `but`, and `or`, including simple contrast with `but`.
 
-These are cross-cutting resources for framing a topic, adding a simple reason/example, or slightly extending an answer. They do not define a separate real-world capability. Grammar review will determine the exact structural control expected.
+These are cross-cutting resources for framing a topic, adding a simple reason/example/contrast, joining short ideas, or slightly extending an answer. They do not define a separate real-world capability.
 
 ## X09 — Basic comparison language
 Phrase evidence: **`differences between A and B`**.
 
-Comparison remains a cross-cutting semantic requirement rather than a top-level capability on phrase evidence alone. Grammar review must explicitly revisit this requirement; if comparative grammar creates a substantial communicative performance, this architecture may be strengthened then.
+Grammar review confirms that this should remain cross-cutting at A1: there is **no canonical A1 EGP comparative feature** in the 109-item inventory, and reviewed comparative families place first productive control at A2. Do not create a top-level comparison capability at A1 from the phrase alone.
 
-# Architecture result after phrase review
+## X10 — Core grammar infrastructure
+The following canonical A1 systems are mandatory across capabilities but are not communicative endpoints by themselves:
+- simple affirmative and negative declarative clauses;
+- linking/auxiliary `be`;
+- articles and basic noun-phrase building;
+- regular plural marking;
+- subject/object pronouns and basic reference;
+- noun phrases as subjects/objects/complements;
+- common main-verb and verb-pattern infrastructure;
+- basic negation;
+- general present-simple form where required by the communicative home.
+
+Every canonical EGP feature assigned here must still be practised and verified through meaningful capability tasks; `cross-cutting` does not mean optional.
+
+## X11 — Simple possibility with `can`
+Canonical EGP A1 includes **`can` for possibility**.
+
+This is mandatory semantic control but too small to justify a standalone top-level capability. It may naturally appear in weather, places, activities, plans, and simple factual descriptions. Word/task evidence may refine its most natural homes later.
+
+# Architecture result after grammar review
 
 - Required source abilities manually read: **119/119**.
 - Oxford A1 phrases manually read: **199/199**.
-- Final top-level capabilities: **22**.
-- Cross-cutting requirement families: **9**.
+- Canonical A1 EGP grammar features manually read: **109/109**.
+- Final top-level capabilities: **23**.
+- Cross-cutting requirement families: **11**.
 - Phrases assigned to top-level capability homes: **190**.
 - Phrases assigned to cross-cutting requirements/reference language: **9**.
 - Unresolved/orphan A1 phrases: **0**.
-- Source abilities or phrases silently discarded: **0**.
+- Canonical EGP features assigned to a capability or cross-cutting grammar home: **109/109**.
+- Unresolved/orphan canonical grammar features: **0**.
+- Source abilities, phrases, or canonical grammar features silently discarded: **0**.
 - Old lesson sequence used as a design constraint: **No**.
-- Automated clustering/content-bank experiments used to make these decisions: **No**.
+- Automated semantic clustering used to make these decisions: **No**.
 
 ## Next stage
 
-**03 — Manual Grammar Review.** Read the A1 grammar inventory feature by feature, map each feature to one or more capabilities/cross-cutting requirements, and allow grammar evidence to modify this single authoritative map only if it exposes a genuine missing or badly shaped learner performance.
+**04 — Manual Word Review.** Start from all A1 word records. First identify words already given a natural teaching home by the accepted phrases, grammar structures, and capability tasks. Then manually organise the remaining lexical content into coherent sets/contexts attached to capabilities or required content contexts. Appearance inside a phrase/grammar example counts as a natural home, not as permission to lose later retrieval/recycling coverage.
