@@ -1,1 +1,184 @@
-{"schema_version":1,"level":"A2","category":"abilities","status":"pending_population","items":[]}
+{
+  "schema_version": 1,
+  "level": "A2",
+  "category": "abilities",
+  "status": "reviewed_exit_profile_v1",
+  "source_ref": "data/reviewed/level-exit-profiles-v1.json",
+  "items": [
+    {
+      "claim_id": "a2.exit_promise",
+      "claim_type": "synthesis",
+      "text": "Complete simple routine exchanges and describe the immediate world through linked simple language.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.listening_reception",
+        "cefr_all_descriptors.a2.mediation",
+        "cefr_all_descriptors.a2.oral_interaction",
+        "cefr_all_descriptors.a2.reading_reception",
+        "cefr_all_descriptors.a2.speaking_production",
+        "cefr_all_descriptors.a2.writing_production",
+        "cefr_all_descriptors.a2.written_online_interaction",
+        "gse_all_objectives.a2.listening_reception",
+        "gse_all_objectives.a2.reading_reception",
+        "gse_all_objectives.a2.speaking_production",
+        "gse_all_objectives.a2.writing_production"
+      ],
+      "decision_refs": [
+        "docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md#supported-progression"
+      ]
+    },
+    {
+      "claim_id": "a2.reception.listening",
+      "claim_type": "source_boundary",
+      "text": "Understand high-frequency language of immediate relevance and the main point of short clear messages.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.listening_reception",
+        "gse_all_objectives.a2.listening_reception"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.reception.reading",
+      "claim_type": "source_boundary",
+      "text": "Read short simple texts and locate predictable information in everyday materials and personal correspondence.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.reading_reception",
+        "gse_all_objectives.a2.reading_reception"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.production.speaking",
+      "claim_type": "source_boundary",
+      "text": "Use a series of simple phrases and sentences to describe family, background, routines, and immediate surroundings.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.speaking_production",
+        "gse_all_objectives.a2.speaking_production"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.production.writing",
+      "claim_type": "source_boundary",
+      "text": "Produce a series of simple phrases and sentences linked by frequent connectors.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.writing_production",
+        "gse_all_objectives.a2.writing_production"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.interaction.oral",
+      "claim_type": "source_boundary",
+      "text": "Complete routine tasks and short social exchanges through direct familiar information exchange.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.oral_interaction"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.interaction.written_online",
+      "claim_type": "source_boundary",
+      "text": "Handle basic social interaction, routine transactions, simple instructions, and supported collaboration.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.written_online_interaction"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.interaction.mediation",
+      "claim_type": "source_boundary",
+      "text": "Convey main points of short simple everyday texts and collaborate on practical tasks with occasional repetition.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.mediation"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.language_control.range",
+      "claim_type": "source_boundary",
+      "text": "Basic patterns and memorised phrases for predictable everyday content, with message compromise outside routine situations.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.language_range"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.language_control.grammar",
+      "claim_type": "source_boundary",
+      "text": "Some simple structures are correct, though systematic basic mistakes remain and meaning is usually clear.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.grammar",
+        "egp_all_levels.a2.grammar",
+        "gse_grammar_all.a2.grammar"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.language_control.vocabulary",
+      "claim_type": "source_boundary",
+      "text": "Sufficient for routine transactions, basic communicative needs, and simple survival situations.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.vocabulary",
+        "oxford_3000_all.a2.lexical_pool"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.language_control.pronunciation",
+      "claim_type": "source_boundary",
+      "text": "Generally understandable in familiar situations, though repetition and listener effort may be needed.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.pronunciation"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.language_control.discourse",
+      "claim_type": "source_boundary",
+      "text": "Link simple sentences with frequent connectors such as and, but, and because.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.discourse"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.language_control.fluency",
+      "claim_type": "source_boundary",
+      "text": "Make short understandable contributions with visible hesitation, false starts, and reformulation.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.a2.fluency"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "a2.assessment.01",
+      "claim_type": "product_policy",
+      "text": "A new routine transaction",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "a2.assessment.02",
+      "claim_type": "product_policy",
+      "text": "A short linked description",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "a2.assessment.03",
+      "claim_type": "product_policy",
+      "text": "Successful repair after a bounded misunderstanding",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    }
+  ]
+}

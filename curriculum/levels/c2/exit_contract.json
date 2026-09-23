@@ -1,1 +1,60 @@
-{"schema_version":1,"level":"C2","status":"pending_population","principles":{"completion_is_not_mastery":true,"retention_requires_later_fresh_evidence":true},"requirements":[]}
+{
+  "schema_version": 1,
+  "level": "C2",
+  "status": "draft_pending_full_inventory_lock",
+  "inventory_semantics": {
+    "level_files": "new_at_level",
+    "exit_obligation": "cumulative_through_level"
+  },
+  "cumulative_levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "principles": {
+    "completion_is_not_mastery": true,
+    "retention_requires_later_fresh_evidence": true
+  },
+  "inventory_obligations": {
+    "words": "blocked_pending_gse_vocabulary_extract",
+    "phrases": "blocked_pending_gse_vocabulary_extract",
+    "grammar": "extracted_pending_inventory_review",
+    "abilities": "reviewed_exit_profile_v1",
+    "pronunciation": "reviewed_progression_v1"
+  },
+  "assessment_requirements": [
+    {
+      "claim_id": "c2.assessment.01",
+      "claim_type": "product_policy",
+      "text": "Synthesis of unfamiliar complex sources",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "c2.assessment.02",
+      "claim_type": "product_policy",
+      "text": "Precise nuance under realistic cognitive load",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "c2.assessment.03",
+      "claim_type": "product_policy",
+      "text": "Audience, register, and sociocultural appropriateness",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    }
+  ]
+}

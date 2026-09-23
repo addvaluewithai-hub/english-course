@@ -1,1 +1,1466 @@
-{"schema_version":1,"level":"C2","category":"grammar","status":"pending_population","items":[]}
+{
+  "schema_version": 1,
+  "level": "C2",
+  "category": "grammar",
+  "inventory_semantics": "new_at_level",
+  "status": "extracted_pending_inventory_review",
+  "canonical_source": "English Grammar Profile",
+  "items": [
+    {
+      "item_id": "egp.1741163706322x308841091964953600",
+      "super_category": "ADJECTIVES",
+      "sub_category": "combining",
+      "guideword": "USE: FOCUS",
+      "can_do": "Can use a list of adjectives in ellipted clauses before and after a noun, to give focus. ► focus",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 12
+      }
+    },
+    {
+      "item_id": "egp.1741163706322x402656530651300600",
+      "super_category": "ADJECTIVES",
+      "sub_category": "combining",
+      "guideword": "FORM: COMBINING MULTIPLE ADJECTIVES",
+      "can_do": "Can combine more complex, lengthy strings of adjectives, joining the last two adjectives with 'and'.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 13
+      }
+    },
+    {
+      "item_id": "egp.1741163706325x499920484410304700",
+      "super_category": "ADJECTIVES",
+      "sub_category": "comparatives",
+      "guideword": "FORM/USE: WITH 'NO' OR 'NOT ANY'",
+      "can_do": "Can use 'no' / 'not any' with comparative adjectives to limit the scale of comparison. ► comparative clauses",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 27
+      }
+    },
+    {
+      "item_id": "egp.1741163706325x710438084625442200",
+      "super_category": "ADJECTIVES",
+      "sub_category": "comparatives",
+      "guideword": "FORM/USE: WITH 'NOT THAT MUCH'",
+      "can_do": "Can use 'not that much' to modify comparative adjectives to a small degree. ► comparative clauses",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 30
+      }
+    },
+    {
+      "item_id": "egp.1741163706530x588030046772396400",
+      "super_category": "ADJECTIVES",
+      "sub_category": "modifying",
+      "guideword": "FORM: COMPARISON",
+      "can_do": "Can use adjectives in 'as … as' and 'so … that' in comparative structures. ► comparative clauses",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 46
+      }
+    },
+    {
+      "item_id": "egp.1741163706532x467634628716204740",
+      "super_category": "ADJECTIVES",
+      "sub_category": "position",
+      "guideword": "FORM/USE: DEGREE ADJECTIVES BEFORE NOUNS",
+      "can_do": "Can use an increasing range of adjectives before a noun to express intensity.",
+      "lexical_range": "2",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 54
+      }
+    },
+    {
+      "item_id": "egp.1741163706537x792815461768504600",
+      "super_category": "ADJECTIVES",
+      "sub_category": "superlatives",
+      "guideword": "FORM/USE: 'SLIGHTEST', 'FAINTEST'",
+      "can_do": "Can use 'the slightest', 'the faintest' with a specific range of nouns to express the least amount possible, most frequently following a negative verb form.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 79
+      }
+    },
+    {
+      "item_id": "egp.1741163706726x984406879710985100",
+      "super_category": "ADVERBS",
+      "sub_category": "adverbs and adverb phrases: types and meanings",
+      "guideword": "USE: DISTANCING",
+      "can_do": "Can use adverbs mid clause, to distance the writer from what they are saying.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 111
+      }
+    },
+    {
+      "item_id": "egp.1741163708146x257734591646491700",
+      "super_category": "ADVERBS",
+      "sub_category": "position",
+      "guideword": "FORM/USE: MID POSITION, DISTANCING",
+      "can_do": "Can use adverbs in mid position, to distance the writer from what they are saying.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 139
+      }
+    },
+    {
+      "item_id": "egp.1741163708146x422722508652768400",
+      "super_category": "ADVERBS",
+      "sub_category": "position",
+      "guideword": "FORM/USE: FRONT POSITION, INVERSION, WITH 'HARDLY'",
+      "can_do": "Can use 'hardly' in front position followed by an inverted subject and verb, to give focus.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 142
+      }
+    },
+    {
+      "item_id": "egp.1741163708149x973970498543633300",
+      "super_category": "ADVERBS",
+      "sub_category": "adverb phrases - form",
+      "guideword": "FORM: PRE- AND POST-MODIFIED ADVERBS",
+      "can_do": "Can form adverb phrases with modifiers before, and complements after, adverbs.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 149
+      }
+    },
+    {
+      "item_id": "egp.1741163708152x610028410376589400",
+      "super_category": "CLAUSES",
+      "sub_category": "comparatives",
+      "guideword": "FORM/USE: 'SO ...  AS TO', FORMAL",
+      "can_do": "Can use 'so' + adjective + 'as' + 'to'-infinitive clause, usually in formal contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 168
+      }
+    },
+    {
+      "item_id": "egp.1741163708153x262593982426201800",
+      "super_category": "CLAUSES",
+      "sub_category": "comparatives",
+      "guideword": "FORM: 'AS IF' + NON-FINITE CLAUSE",
+      "can_do": "Can use 'as if' + non-finite clause to introduce a second clause as a comparison.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 169
+      }
+    },
+    {
+      "item_id": "egp.1741163708329x546836553751250300",
+      "super_category": "CLAUSES",
+      "sub_category": "coordinated",
+      "guideword": "FORM/USE: NEGATIVE CLAUSE +  'NOR', FOCUS",
+      "can_do": "Can combine a negative clause with an inverted clause with 'nor', to give focus.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 180
+      }
+    },
+    {
+      "item_id": "egp.1741163708335x133935596064802990",
+      "super_category": "CLAUSES",
+      "sub_category": "imperatives",
+      "guideword": "FORM/USE: 'LET' + THIRD PERSON PRONOUN, DEVOLVING RESPONSIBILITY",
+      "can_do": "Can use an imperative clause with 'let' + 'him/her/them' + base form of a main verb, to devolve responsibility.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 198
+      }
+    },
+    {
+      "item_id": "egp.1741163708336x234249756391385900",
+      "super_category": "CLAUSES",
+      "sub_category": "imperatives",
+      "guideword": "FORM/USE: 'DON'T YOU …'",
+      "can_do": "Can use you with an imperative form to make an instruction stronger.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 204
+      }
+    },
+    {
+      "item_id": "egp.1741163708563x629778718895767000",
+      "super_category": "CLAUSES",
+      "sub_category": "phrases/exclamations",
+      "guideword": "FORM: 'HOW' + CLAUSE",
+      "can_do": "Can use 'How' + clause.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 224
+      }
+    },
+    {
+      "item_id": "egp.1741163708563x872592345857643000",
+      "super_category": "CLAUSES",
+      "sub_category": "phrases/exclamations",
+      "guideword": "FORM: 'HOW' + ADVERB + CLAUSE",
+      "can_do": "Can use 'How' + adverb + clause.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 226
+      }
+    },
+    {
+      "item_id": "egp.1741163708570x297785508495203460",
+      "super_category": "CLAUSES",
+      "sub_category": "subordinated",
+      "guideword": "FORM/USE: 'WERE' + PRONOUN + 'TO' INFINITIVE, FORMAL",
+      "can_do": "Can use 'Were' + pronoun + 'to' infinitive to introduce a condition, in formal contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 252
+      }
+    },
+    {
+      "item_id": "egp.1741163708570x407214749191681340",
+      "super_category": "CLAUSES",
+      "sub_category": "subordinated",
+      "guideword": "FORM/USE: NON-FINITE AFTER 'ALTHOUGH', 'THOUGH'",
+      "can_do": "Can use non-finite clauses after subordinating conjunctions '(although, though)', to express contrast.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 254
+      }
+    },
+    {
+      "item_id": "egp.1741163715813x104521611350361970",
+      "super_category": "CLAUSES",
+      "sub_category": "conditional",
+      "guideword": "FORM/USE: INVERTED PAST PERFECT, IMAGINED PAST",
+      "can_do": "Can use past perfect +  inverted subject, and a modal verb + 'have' + '-ed' in the main clause  to talk about imagined situations in the past.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 276
+      }
+    },
+    {
+      "item_id": "egp.1741163715813x134565574339758690",
+      "super_category": "CLAUSES",
+      "sub_category": "conditional",
+      "guideword": "USE: INVERTED 'SHOULD', FUTURE, POSSIBLE OUTCOME, FORMAL, POLITE",
+      "can_do": "Can use inverted 'should', + 'would' in the main clause to talk about possible future outcomes, in polite or formal contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 277
+      }
+    },
+    {
+      "item_id": "egp.1741163715813x225051382084452860",
+      "super_category": "CLAUSES",
+      "sub_category": "conditional",
+      "guideword": "FORM/USE: 'WERE IT NOT FOR', FORMAL",
+      "can_do": "Can use 'Were it not for' + noun phrase to introduce conditions in formal contexts. ► past simple",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 278
+      }
+    },
+    {
+      "item_id": "egp.1741163715813x251667317407443520",
+      "super_category": "CLAUSES",
+      "sub_category": "conditional",
+      "guideword": "FORM/USE: INVERTED 'WERE' + 'TO' INFINITIVE, FORMAL",
+      "can_do": "Can use 'were' with an inverted subject + 'to' infinitive, to introduce conditions in formal contexts. ► past simple",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 279
+      }
+    },
+    {
+      "item_id": "egp.1741163715813x668177836402207500",
+      "super_category": "CLAUSES",
+      "sub_category": "conditional",
+      "guideword": "FORM/USE: SUBORDINATING CONJUNCTIONS, CONDITIONS",
+      "can_do": "Can use conditional subordinate clauses with a range of conjunctions ('so long as', 'on condition that', 'in the event that') with past, present or future reference.|",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 280
+      }
+    },
+    {
+      "item_id": "egp.1741163715814x475016379352568560",
+      "super_category": "CLAUSES",
+      "sub_category": "conditional",
+      "guideword": "FORM/USE: 'IF IT WERE NOT FOR', FORMAL",
+      "can_do": "Can use 'If it weren’t / were not for' + noun phrase to introduce conditions in formal contexts. ► past simple",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 282
+      }
+    },
+    {
+      "item_id": "egp.1741163715814x629362533174766300",
+      "super_category": "CLAUSES",
+      "sub_category": "conditional",
+      "guideword": "FORM/USE: 'IF IT WERE' + 'TO'-INFINITIVE FORM, FORMAL",
+      "can_do": "Can use 'If it were' + 'to-' infinitive to introduce conditions in formal contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 283
+      }
+    },
+    {
+      "item_id": "egp.1741163715814x878379023593554300",
+      "super_category": "CLAUSES",
+      "sub_category": "conditional",
+      "guideword": "FORM/USE: 'WHETHER OR NOT', FORMAL",
+      "can_do": "Can use 'whether or not' to introduce conditions in formal contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 284
+      }
+    },
+    {
+      "item_id": "egp.1741163708784x444948210386186400",
+      "super_category": "CONJUNCTIONS",
+      "sub_category": "coordinating",
+      "guideword": "FORM/USE: 'NEITHER'",
+      "can_do": "Can use 'Neither' or 'Nor' + inverted auxiliary or 'be' + subject to add to a previous related negative clause, to focus on an additional negative factor.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 298
+      }
+    },
+    {
+      "item_id": "egp.1741163708784x977839839085230600",
+      "super_category": "CONJUNCTIONS",
+      "sub_category": "coordinating",
+      "guideword": "FORM/USE: 'AND YET', CONCESSIVE",
+      "can_do": "Can use 'And yet' to combine sentences to introduce a contrast, often unexpected, sometimes in a formal context.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 302
+      }
+    },
+    {
+      "item_id": "egp.1741163708789x914655436588860800",
+      "super_category": "CONJUNCTIONS",
+      "sub_category": "subordinating",
+      "guideword": "FORM/USE: 'IN THAT'",
+      "can_do": "Can use 'in that' as a subordinating conjunction, to give greater in-depth explanation, often in formal contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 310
+      }
+    },
+    {
+      "item_id": "egp.1741163709001x295581166797130900",
+      "super_category": "DETERMINERS",
+      "sub_category": "demonstratives",
+      "guideword": "USE: 'THIS', IN NARRATIVES",
+      "can_do": "Can use 'this' with nouns and noun phrases in a narrative to create a sense of immediacy.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 339
+      }
+    },
+    {
+      "item_id": "egp.1741163709001x827143402527184000",
+      "super_category": "DETERMINERS",
+      "sub_category": "demonstratives",
+      "guideword": "FORM/USE: 'THIS' WITH NOUN AND POSSESSIVE",
+      "can_do": "Can use 'this' + noun + 'of' + possessive pronoun to highlight something, often in a positive way.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 343
+      }
+    },
+    {
+      "item_id": "egp.1741163709005x786738476096090000",
+      "super_category": "DETERMINERS",
+      "sub_category": "demonstratives",
+      "guideword": "USE: EMOTIONAL DISTANCE",
+      "can_do": "Can use 'that' and 'those' to convey emotional distance, often to express disapproval.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 348
+      }
+    },
+    {
+      "item_id": "egp.1741163709011x101004395816580500",
+      "super_category": "DETERMINERS",
+      "sub_category": "possessives",
+      "guideword": "FORM: SINGULAR NOUN ENDING IN 'S' + APOSTROPHE",
+      "can_do": "Can use an apostrophe after singular nouns ending in 's', to indicate possession.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 355
+      }
+    },
+    {
+      "item_id": "egp.1741163709012x469636454463137700",
+      "super_category": "DETERMINERS",
+      "sub_category": "possessives",
+      "guideword": "FORM: ''S + 'S'",
+      "can_do": "Can use two possessive ''s' constructions in the same noun phrase.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 363
+      }
+    },
+    {
+      "item_id": "egp.1741163709012x498407182012378100",
+      "super_category": "DETERMINERS",
+      "sub_category": "possessives",
+      "guideword": "FORM: ''S' WITH ELLIPTED NOUN",
+      "can_do": "Can use ''s' without a following noun when the noun has already been mentioned or is obvious in the context.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 364
+      }
+    },
+    {
+      "item_id": "egp.1741163709234x899400819655924500",
+      "super_category": "DETERMINERS",
+      "sub_category": "quantity",
+      "guideword": "FORM/USE: 'MANY A' WITH SINGULAR NOUNS, FOR FOCUS",
+      "can_do": "Can use 'many a' or 'many an' + singular noun for emphasis and focus.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 380
+      }
+    },
+    {
+      "item_id": "egp.1741163716065x120095405121205090",
+      "super_category": "FOCUS",
+      "sub_category": "focus",
+      "guideword": "FORM/USE: 'NOT A' + NOUN",
+      "can_do": "Can use 'Not a' + noun with a passive verb or inverted auxiliary and subject for focus.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 398
+      }
+    },
+    {
+      "item_id": "egp.1741163716065x880428316136173400",
+      "super_category": "FOCUS",
+      "sub_category": "focus",
+      "guideword": "FORM/USE: 'THE' + PREMODIFIER + 'THING, FACT etc.' + 'IS (THAT)'",
+      "can_do": "Can use 'The' + premodifier + 'thing, fact, point, problem or reason' + 'is (that)' for focus.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 403
+      }
+    },
+    {
+      "item_id": "egp.1741163716065x984349956970362600",
+      "super_category": "FOCUS",
+      "sub_category": "focus",
+      "guideword": "FORM/USE: 'WH-'CLEFT  CLAUSE",
+      "can_do": "Can use 'How', 'Why', or 'Where' cleft clauses as subject, for focus",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 404
+      }
+    },
+    {
+      "item_id": "egp.1741163716067x147000311893029860",
+      "super_category": "FOCUS",
+      "sub_category": "focus",
+      "guideword": "FORM/USE: 'IT' CLEFT",
+      "can_do": "Can use 'It' + 'be' + noun + 'that' clause for focus.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 405
+      }
+    },
+    {
+      "item_id": "egp.1741163716067x243366578638317700",
+      "super_category": "FOCUS",
+      "sub_category": "focus",
+      "guideword": "FORM/USE: MULTIPLE FIXED EXPRESSIONS",
+      "can_do": "Can use more than one fixed expression in the front position for added focus.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 406
+      }
+    },
+    {
+      "item_id": "egp.1741163709241x531655376865656240",
+      "super_category": "FUTURE",
+      "sub_category": "future in the past",
+      "guideword": "USE: 'BE DUE TO'",
+      "can_do": "Can use the simple past form of 'be' + 'due to' to talk about scheduled events in the future from a point in the past.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 426
+      }
+    },
+    {
+      "item_id": "egp.1741163709241x694975673678065400",
+      "super_category": "FUTURE",
+      "sub_category": "future perfect continuous",
+      "guideword": "USE: ASSUMPTIONS",
+      "can_do": "Can use the future perfect continuous to make assumptions about the present.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 427
+      }
+    },
+    {
+      "item_id": "egp.1741163709453x606798789385971200",
+      "super_category": "FUTURE",
+      "sub_category": "future perfect simple",
+      "guideword": "FORM: QUESTIONS",
+      "can_do": "Can use the question form of the future perfect simple.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 433
+      }
+    },
+    {
+      "item_id": "egp.1741163709462x743053516670709100",
+      "super_category": "FUTURE",
+      "sub_category": "future simple (with will and shall)",
+      "guideword": "USE: LONG-TERM INTENTIONS WITH 'SHALL'",
+      "can_do": "Can use 'shall' to talk about long-term intentions.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 448
+      }
+    },
+    {
+      "item_id": "egp.1741163709469x456116392447661900",
+      "super_category": "FUTURE",
+      "sub_category": "future simple (with will and shall)",
+      "guideword": "USE: PREDICTIONS WITH 'SHALL'",
+      "can_do": "Can use 'shall' to make predictions, usually in formal contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 453
+      }
+    },
+    {
+      "item_id": "egp.1741163709472x588484642713553900",
+      "super_category": "FUTURE",
+      "sub_category": "future with be going to",
+      "guideword": "FORM: WITH ADVERBS",
+      "can_do": "Can use 'be' + 'going to' with a wide range of adverbs before the main verb.",
+      "lexical_range": "3",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 464
+      }
+    },
+    {
+      "item_id": "egp.1741163710385x778921051041153500",
+      "super_category": "FUTURE",
+      "sub_category": "present simple for future use",
+      "guideword": "FORM: INVERSION WITH 'ONLY WHEN'",
+      "can_do": "Can use the present simple with 'only when' (followed by 'will' and inverted subject) to refer to the future.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 478
+      }
+    },
+    {
+      "item_id": "egp.1741163710394x264223806244499500",
+      "super_category": "MODALITY",
+      "sub_category": "can",
+      "guideword": "USE: REFLECTIONS",
+      "can_do": "Can use 'how can' to reflect, through rhetorical questions.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 507
+      }
+    },
+    {
+      "item_id": "egp.1741163710609x732138645679422100",
+      "super_category": "MODALITY",
+      "sub_category": "dare",
+      "guideword": "FORM/USE: NEGATIVE WITH 'DIDN'T'",
+      "can_do": "Can use the negative form 'didn't dare' + infinitive without 'to' to talk about not being brave enough to do something.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 519
+      }
+    },
+    {
+      "item_id": "egp.1741163710613x411995420006495200",
+      "super_category": "MODALITY",
+      "sub_category": "expressions with be",
+      "guideword": "FORM: NEGATIVE",
+      "can_do": "Can use 'be' + 'not' + adjective + 'to' + infinitive.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 538
+      }
+    },
+    {
+      "item_id": "egp.1741163710614x791981949538591400",
+      "super_category": "MODALITY",
+      "sub_category": "expressions with be",
+      "guideword": "FORM/USE: 'BE' + ADJECTIVE + 'NOT' + 'TO'",
+      "can_do": "Can use 'be' + adjective + 'not' + 'to' + infinitive for emphasis.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 544
+      }
+    },
+    {
+      "item_id": "egp.1741163710618x128533111434523170",
+      "super_category": "MODALITY",
+      "sub_category": "have (got) to",
+      "guideword": "USE: OBLIGATION",
+      "can_do": "Can use present and past forms of 'have to' + '-ed' to talk about obligations in the past.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 545
+      }
+    },
+    {
+      "item_id": "egp.1741163710618x284270552774544600",
+      "super_category": "MODALITY",
+      "sub_category": "have (got) to",
+      "guideword": "USE: DEDUCTIONS AND CONCLUSIONS",
+      "can_do": "Can use a range of present and past forms of 'have (got) to' to talk about deductions and conclusions.  ► must  ► had to",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 547
+      }
+    },
+    {
+      "item_id": "egp.1741163710618x543611533546182200",
+      "super_category": "MODALITY",
+      "sub_category": "have (got) to",
+      "guideword": "FORM: PAST",
+      "can_do": "Can use 'have to have' + '-ed'.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 550
+      }
+    },
+    {
+      "item_id": "egp.1741163710841x403556143145239230",
+      "super_category": "MODALITY",
+      "sub_category": "may",
+      "guideword": "FORM/USE: 'MAY AS WELL'",
+      "can_do": "Can use 'may as well' to talk about what we think is the easiest or most logical course of action, often when we cannot see a better alternative or when it will not spoil the situation if you do that thing. ► might",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 565
+      }
+    },
+    {
+      "item_id": "egp.1741163710841x706837420800042400",
+      "super_category": "MODALITY",
+      "sub_category": "may",
+      "guideword": "USE: HEDGING",
+      "can_do": "Can use 'it may be' + '-ed' that as a hedging device when drawing conclusions and summarising, particularly in academic contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 566
+      }
+    },
+    {
+      "item_id": "egp.1741163710841x848786099914337500",
+      "super_category": "MODALITY",
+      "sub_category": "may",
+      "guideword": "USE: CONCESSION",
+      "can_do": "Can use 'may' in a subordinate clause expressing concession with 'however', 'whatever', 'whoever' … + 'it or this may be or seem'.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 567
+      }
+    },
+    {
+      "item_id": "egp.1741163710844x664690208940296400",
+      "super_category": "MODALITY",
+      "sub_category": "might",
+      "guideword": "USE: EMPHASIS",
+      "can_do": "Can use 'try as I might' for emphasis at the beginning of a sentence.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 583
+      }
+    },
+    {
+      "item_id": "egp.1741163710844x795406964176839600",
+      "super_category": "MODALITY",
+      "sub_category": "might",
+      "guideword": "FORM: 'MIGHT AS WELL'",
+      "can_do": "Can use 'might as well', mostly to talk about or suggest what we think is the easiest or most logical course of action, often when we cannot see a better alternative. ► 'may'",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 584
+      }
+    },
+    {
+      "item_id": "egp.1741163711029x580434283031923800",
+      "super_category": "MODALITY",
+      "sub_category": "must",
+      "guideword": "FORM: ELLIPSIS",
+      "can_do": "Can use ellipted 'must have' + '-ed' without a subject. ► ellipsis",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 597
+      }
+    },
+    {
+      "item_id": "egp.1741163711030x333448797717017540",
+      "super_category": "MODALITY",
+      "sub_category": "must",
+      "guideword": "FORM: PAST, NEGATIVE",
+      "can_do": "Can use 'must not have been' (especially with 'easy').",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 602
+      }
+    },
+    {
+      "item_id": "egp.1741163711030x411652772454090800",
+      "super_category": "MODALITY",
+      "sub_category": "must",
+      "guideword": "FORM: WITH ADVERBS",
+      "can_do": "Can use 'must' with a wide range of adverbs in the normal mid position after the modal verb. ► adverbs|",
+      "lexical_range": "3",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 603
+      }
+    },
+    {
+      "item_id": "egp.1741163711030x504903793194680900",
+      "super_category": "MODALITY",
+      "sub_category": "must",
+      "guideword": "FORM: INVERSION",
+      "can_do": "Can invert 'must' and the subject after negative phrases, e.g. 'not only', 'never', 'nor', to change the focus and give prominence/emphasis.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 604
+      }
+    },
+    {
+      "item_id": "egp.1741163711031x683368301481546160",
+      "super_category": "MODALITY",
+      "sub_category": "need",
+      "guideword": "FORM: QUESTIONS",
+      "can_do": "Can use the question form.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 608
+      }
+    },
+    {
+      "item_id": "egp.1741163711031x889528493173510800",
+      "super_category": "MODALITY",
+      "sub_category": "need",
+      "guideword": "USE: IN DISCUSSION",
+      "can_do": "Can use the question form rhetorically in discussion, typically in formal contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 611
+      }
+    },
+    {
+      "item_id": "egp.1741163711055x131146939288121260",
+      "super_category": "MODALITY",
+      "sub_category": "ought",
+      "guideword": "FORM: CONTRACTED FORM, NEGATIVE",
+      "can_do": "Can use 'oughtn't' (without 'to') + verb.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 616
+      }
+    },
+    {
+      "item_id": "egp.1741163711055x530884409098289800",
+      "super_category": "MODALITY",
+      "sub_category": "ought",
+      "guideword": "FORM: QUESTIONS, NEGATIVE",
+      "can_do": "Can use 'ought' + subject + 'not to' + verb to form (rhetorical) questions, often in formal contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 622
+      }
+    },
+    {
+      "item_id": "egp.1741163711055x585919331905116800",
+      "super_category": "MODALITY",
+      "sub_category": "ought",
+      "guideword": "FORM: NEGATIVE",
+      "can_do": "Can use the negative form 'ought not to'.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 623
+      }
+    },
+    {
+      "item_id": "egp.1741163711057x158399813598145700",
+      "super_category": "MODALITY",
+      "sub_category": "shall",
+      "guideword": "USE: AFTER 'IF' CLAUSES",
+      "can_do": "Can use 'shall' in the main clause after an 'if-' clause  ► conditionals",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 626
+      }
+    },
+    {
+      "item_id": "egp.1741163711057x361262241051185400",
+      "super_category": "MODALITY",
+      "sub_category": "shall",
+      "guideword": "USE: PREDICTIONS",
+      "can_do": "Can use 'shall' to make predictions.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 629
+      }
+    },
+    {
+      "item_id": "egp.1741163711295x478982689806013000",
+      "super_category": "MODALITY",
+      "sub_category": "used to",
+      "guideword": "FORM/USE: WITH 'AS' + PRONOUN, NARRATIVE",
+      "can_do": "Can use 'as' + pronoun + 'used to' … to add background to a narrative, often to highlight something unusual.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 655
+      }
+    },
+    {
+      "item_id": "egp.1741163711296x829671541616373600",
+      "super_category": "MODALITY",
+      "sub_category": "used to",
+      "guideword": "FORM: 'USED NOT TO'",
+      "can_do": "Can use negative form 'used not to'",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 662
+      }
+    },
+    {
+      "item_id": "egp.1741163711299x818480809453484800",
+      "super_category": "MODALITY",
+      "sub_category": "will",
+      "guideword": "USE: WILLFULNESS OR DISAPPROVAL",
+      "can_do": "Can use 'will' to talk about general behaviour, often disapprovingly.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 667
+      }
+    },
+    {
+      "item_id": "egp.1741163711534x901809977839047200",
+      "super_category": "MODALITY",
+      "sub_category": "would",
+      "guideword": "FORM: WITH ADVERBS",
+      "can_do": "Can use a wide range of adverbs with 'would', including 'undoubtedly', 'possibly', 'normally', 'personally', 'eventually', 'obviously', 'significantly', 'inevitably'. ► adverbs",
+      "lexical_range": "3",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 692
+      }
+    },
+    {
+      "item_id": "egp.1741163711538x400045316322393600",
+      "super_category": "MODALITY",
+      "sub_category": "adverbs",
+      "guideword": "FORM/USE, RESPONSE TOKENS",
+      "can_do": "Can use adverbs expressing certainty as short responses.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 696
+      }
+    },
+    {
+      "item_id": "egp.1741163716295x549939411550883300",
+      "super_category": "MODALITY",
+      "sub_category": "could",
+      "guideword": "USE: SPECULATION",
+      "can_do": "Can use 'couldn’t have' + '-ed' to speculate about the past.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 717
+      }
+    },
+    {
+      "item_id": "egp.1741163716073x696199339681962600",
+      "super_category": "NEGATION",
+      "sub_category": "negation",
+      "guideword": "FORM/USE: 'NOT A' + NOUN, EMPHASIS",
+      "can_do": "Can use 'not a' + noun, often with a following  passive structure, for emphasis.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 745
+      }
+    },
+    {
+      "item_id": "egp.1741163716291x581144268274536400",
+      "super_category": "NEGATION",
+      "sub_category": "negation",
+      "guideword": "FORM/USE: 'DON'T YOU …', WARNING",
+      "can_do": "Can use a negative imperative form with 'you' to give a warning or reprimand.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 746
+      }
+    },
+    {
+      "item_id": "egp.1741163716292x111486420070027630",
+      "super_category": "NEGATION",
+      "sub_category": "negation",
+      "guideword": "FORM/USE: 'NEITHER'",
+      "can_do": "Can use 'Neither' or 'Nor' + with 'do' or 'be' + inverted subject to add to a previous related negative clause, to focus on an additional negative factor.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 747
+      }
+    },
+    {
+      "item_id": "egp.1741163716292x392889013913381400",
+      "super_category": "NEGATION",
+      "sub_category": "negation",
+      "guideword": "FORM/USE: 'IN THE LEAST', EMPHASIS",
+      "can_do": "Can use 'in the least' after a negative form for emphasis.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 748
+      }
+    },
+    {
+      "item_id": "egp.1741163711816x759292923161605000",
+      "super_category": "NOUNS",
+      "sub_category": "noun phrases",
+      "guideword": "FORM: COMPLEX NOUN PHRASES WITH 'LITTLE OR NO'  + NOUN",
+      "can_do": "Can form complex noun phrases with 'little or no' + noun.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 779
+      }
+    },
+    {
+      "item_id": "egp.1741163712056x185610578351898660",
+      "super_category": "PASSIVES",
+      "sub_category": "passives: form",
+      "guideword": "FORM/USE: NON-FINITE PERFECT CLAUSES",
+      "can_do": "Can use passive non-finite '-ing' perfect forms in subordinate clauses to give explanatory background information.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 834
+      }
+    },
+    {
+      "item_id": "egp.1741163712056x220763356502948540",
+      "super_category": "PASSIVES",
+      "sub_category": "passives: form",
+      "guideword": "FORM: NON-FINITE PERFECT COMPLEMENTS",
+      "can_do": "Can use non-finite '-ing' perfect forms of the passive as the complement of prepositions.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 835
+      }
+    },
+    {
+      "item_id": "egp.1741163712056x976576319443112100",
+      "super_category": "PASSIVES",
+      "sub_category": "passives: form",
+      "guideword": "PRESENT PERFECT CONTINUOUS COMMENT",
+      "can_do": null,
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 838
+      }
+    },
+    {
+      "item_id": "egp.1741163712321x355132007254578300",
+      "super_category": "PASSIVES",
+      "sub_category": "get and have",
+      "guideword": "FORM/USE: 'HAVE' + OBJECT + INFINITIVE",
+      "can_do": "Can use 'have' + object + infinitive without 'to' to talk about asking or causing someone to do something, often in formal contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 844
+      }
+    },
+    {
+      "item_id": "egp.1741163712327x107883069547981780",
+      "super_category": "PAST",
+      "sub_category": "past continuous",
+      "guideword": "USE: UNDESIRED EVENTS",
+      "can_do": "Can use the past continuous with 'always' or 'constantly' to talk about repeated events which are undesired or uncontrolled.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 853
+      }
+    },
+    {
+      "item_id": "egp.1741163712332x868931903135236100",
+      "super_category": "PAST",
+      "sub_category": "past perfect continuous",
+      "guideword": "FORM: QUESTIONS",
+      "can_do": "Can use the question form.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 868
+      }
+    },
+    {
+      "item_id": "egp.1741163712739x117068598667129380",
+      "super_category": "PAST",
+      "sub_category": "past perfect simple",
+      "guideword": "FORM: FIXED EXPRESSIONS 'HAD IT NOT BEEN FOR', 'IF IT HADN'T BEEN FOR'",
+      "can_do": "Can use 'had it not been for' … and 'if it hadn’t been for' with a modal form for giving reasons.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 883
+      }
+    },
+    {
+      "item_id": "egp.1741163712739x168032886753128670",
+      "super_category": "PAST",
+      "sub_category": "past perfect simple",
+      "guideword": "FORM/USE: AFTER 'IF ONLY', IMAGINED PAST",
+      "can_do": "Can use the negative form after 'if only' to express regret.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 884
+      }
+    },
+    {
+      "item_id": "egp.1741163712739x551343528482470600",
+      "super_category": "PAST",
+      "sub_category": "past perfect simple",
+      "guideword": "FORM: INVERSION WITH 'HARDLY …WHEN'",
+      "can_do": "Can invert the subject and affirmative auxiliary verb with 'hardly … when' to talk about something that happened immediately before something else, in formal contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 888
+      }
+    },
+    {
+      "item_id": "egp.1741163712747x212368838412682500",
+      "super_category": "PAST",
+      "sub_category": "present perfect continuous",
+      "guideword": "FORM/USE: INVERSION",
+      "can_do": "Can invert the subject and affirmative auxiliary verb with 'not only … but' as a focusing device. ► focus ► inversion",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 916
+      }
+    },
+    {
+      "item_id": "egp.1741163713112x784244213132092200",
+      "super_category": "PAST",
+      "sub_category": "present perfect simple",
+      "guideword": "USE: NEWSWORTHY",
+      "can_do": "Can use the present perfect simple to introduce news.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 937
+      }
+    },
+    {
+      "item_id": "egp.1741163713625x476438924071697100",
+      "super_category": "PRESENT",
+      "sub_category": "present continuous",
+      "guideword": "USE: POLITENESS",
+      "can_do": "Can use the present continuous with verbs that are not usually used in this form to make statements and requests sound less direct.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 963
+      }
+    },
+    {
+      "item_id": "egp.1741163713625x540058676609126000",
+      "super_category": "PRESENT",
+      "sub_category": "present continuous",
+      "guideword": "FORM/USE: WITH ADVERBS OF INDEFINITE FREQUENCY",
+      "can_do": "Can use the present continuous with a wide range of adverbs of indefinite frequency, often to talk about surprising or undesirable situations or events.",
+      "lexical_range": "3",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 964
+      }
+    },
+    {
+      "item_id": "egp.1741163713861x378989306596738050",
+      "super_category": "PRONOUNS",
+      "sub_category": "possessive",
+      "guideword": "FORM/USE: WITH 'THAT … OF'",
+      "can_do": "Can use 'that … of' + possessive pronouns to express an attitude about someone or something, often in humorous or sarcastic contexts.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1004
+      }
+    },
+    {
+      "item_id": "egp.1741163713862x157795078394705100",
+      "super_category": "PRONOUNS",
+      "sub_category": "possessive",
+      "guideword": "FORM: 'HIS'",
+      "can_do": "Can use the possessive pronoun 'his', with singular and plural reference, in subject and object position, and complement positions after 'be' and after prepositions.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1007
+      }
+    },
+    {
+      "item_id": "egp.1741163713862x246016696032147480",
+      "super_category": "PRONOUNS",
+      "sub_category": "possessive",
+      "guideword": "FORM: 'THEIRS' AS SUBJECT",
+      "can_do": "Can use the possessive pronoun 'theirs', with singular and plural reference, in subject position.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1008
+      }
+    },
+    {
+      "item_id": "egp.1741163713862x281101637978056000",
+      "super_category": "PRONOUNS",
+      "sub_category": "possessive",
+      "guideword": "FORM: 'HERS' AS SUBJECT",
+      "can_do": "Can use the possessive pronoun 'hers' with singular reference, in subject position.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1009
+      }
+    },
+    {
+      "item_id": "egp.1741163713862x925885380518367700",
+      "super_category": "PRONOUNS",
+      "sub_category": "possessive",
+      "guideword": "FORM: OF 'THEIRS', 'HERS', 'HIS'",
+      "can_do": "Can use the possessive pronouns 'hers', 'theirs' and 'his' after noun + 'of'.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1012
+      }
+    },
+    {
+      "item_id": "egp.1741163713867x574702813002478900",
+      "super_category": "PRONOUNS",
+      "sub_category": "reflexive",
+      "guideword": "USE: DISCOURSE MARKERS",
+      "can_do": "Can use 'as for myself' as a discourse marker to introduce or focus on a personal opinion.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1026
+      }
+    },
+    {
+      "item_id": "egp.1741163713875x914428795342302700",
+      "super_category": "PRONOUNS",
+      "sub_category": "subject/ object",
+      "guideword": "FORM: (SUBJECT) CLEFT CONSTRUCTIONS WITH 'IT'",
+      "can_do": "Can form a cleft construction beginning with 'it' to emphasise the subject of the main clause. ► clauses",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1039
+      }
+    },
+    {
+      "item_id": "egp.1741163714104x359859718563069000",
+      "super_category": "PRONOUNS",
+      "sub_category": "quantity",
+      "guideword": "FORM: 'A LOT' AND 'MUCH'",
+      "can_do": "Can use 'a lot' and 'much' as a subject pronouns. ► focus",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1070
+      }
+    },
+    {
+      "item_id": "egp.1741163714104x425497348594013000",
+      "super_category": "PRONOUNS",
+      "sub_category": "quantity",
+      "guideword": "FORM/USE: 'MANY ARE THE' + NOUN, FOR FOCUS",
+      "can_do": "Can form complex noun phrases using an inverted form 'Many' + 'are' + noun phrase, followed by a relative clause, as a focusing device.  ► focus",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1071
+      }
+    },
+    {
+      "item_id": "egp.1741163714316x658765118459248000",
+      "super_category": "PRONOUNS",
+      "sub_category": "substitution, one, ones, none",
+      "guideword": "FORM/USE: 'THE ONE(S) THAT', FOR FOCUS",
+      "can_do": "Can use 'The one(s) that' + clause in subject position, for focus. ► focus",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1085
+      }
+    },
+    {
+      "item_id": "egp.1741163715026x505796493500260540",
+      "super_category": "PRONOUNS",
+      "sub_category": "reciprocal",
+      "guideword": "FORM: 'EACH … THE OTHER(S)', AS OBJECT",
+      "can_do": "Can use 'each' (+ noun or pronoun) as subject followed by 'the other(s)' as object , to refer to two related things. ► pronouns: quantity",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1109
+      }
+    },
+    {
+      "item_id": "egp.1741163715029x597656273954143700",
+      "super_category": "QUESTIONS",
+      "sub_category": "alternatives",
+      "guideword": "FORM: ELLIPSIS",
+      "can_do": "Can form alternative questions with two or more clauses and ellipsis in the second or third clause.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1118
+      }
+    },
+    {
+      "item_id": "egp.1741163715034x601077874617532500",
+      "super_category": "QUESTIONS",
+      "sub_category": "yes/no",
+      "guideword": "FORM/USE: NEGATIVE QUESTIONS WITH 'NOT', EMPHASIS",
+      "can_do": "Can form negative questions with uncontracted 'not' to emphasise a point in an argument.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1144
+      }
+    },
+    {
+      "item_id": "egp.1741163715275x957741138272661000",
+      "super_category": "VERBS",
+      "sub_category": "phrasal-prepositional",
+      "guideword": "FORM: VERB + DIRECT OBJECT + PARTICLE + PREPOSITION + OBJECT",
+      "can_do": "Can use a direct object with some prepositional verbs as well as an object of the preposition.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1171
+      }
+    },
+    {
+      "item_id": "egp.1741163715607x852787378805638700",
+      "super_category": "VERBS",
+      "sub_category": "patterns_with to and -ing",
+      "guideword": "FORM/USE: 'WOULD HATE' + 'TO'",
+      "can_do": "Can use 'would hate' + 'to' infinitive, for emphasis.",
+      "lexical_range": "N/A",
+      "published_level": "C2",
+      "source_ref": {
+        "dataset": "egp_all_levels",
+        "spreadsheet_row": 1215
+      }
+    }
+  ]
+}

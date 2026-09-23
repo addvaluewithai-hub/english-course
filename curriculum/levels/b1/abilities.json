@@ -1,1 +1,184 @@
-{"schema_version":1,"level":"B1","category":"abilities","status":"pending_population","items":[]}
+{
+  "schema_version": 1,
+  "level": "B1",
+  "category": "abilities",
+  "status": "reviewed_exit_profile_v1",
+  "source_ref": "data/reviewed/level-exit-profiles-v1.json",
+  "items": [
+    {
+      "claim_id": "b1.exit_promise",
+      "claim_type": "synthesis",
+      "text": "Operate independently in familiar life, travel, work, and personal-interest situations using connected language.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.listening_reception",
+        "cefr_all_descriptors.b1.mediation",
+        "cefr_all_descriptors.b1.oral_interaction",
+        "cefr_all_descriptors.b1.reading_reception",
+        "cefr_all_descriptors.b1.speaking_production",
+        "cefr_all_descriptors.b1.writing_production",
+        "cefr_all_descriptors.b1.written_online_interaction",
+        "gse_all_objectives.b1.listening_reception",
+        "gse_all_objectives.b1.reading_reception",
+        "gse_all_objectives.b1.speaking_production",
+        "gse_all_objectives.b1.writing_production"
+      ],
+      "decision_refs": [
+        "docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md#supported-progression"
+      ]
+    },
+    {
+      "claim_id": "b1.reception.listening",
+      "claim_type": "source_boundary",
+      "text": "Understand main points of clear standard input and relatively clear media on familiar or personally relevant topics.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.listening_reception",
+        "gse_all_objectives.b1.listening_reception"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.reception.reading",
+      "claim_type": "source_boundary",
+      "text": "Understand high-frequency everyday or job-related texts and descriptions of events, feelings, and wishes.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.reading_reception",
+        "gse_all_objectives.b1.reading_reception"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.production.speaking",
+      "claim_type": "source_boundary",
+      "text": "Connect phrases to narrate experiences and events and give brief reasons for opinions, hopes, and plans.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.speaking_production",
+        "gse_all_objectives.b1.speaking_production"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.production.writing",
+      "claim_type": "source_boundary",
+      "text": "Produce straightforward connected text on familiar or personally interesting topics.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.writing_production",
+        "gse_all_objectives.b1.writing_production"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.interaction.oral",
+      "claim_type": "source_boundary",
+      "text": "Enter unprepared conversation on familiar topics and handle most common situations while travelling.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.oral_interaction"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.interaction.written_online",
+      "claim_type": "source_boundary",
+      "text": "Interact about experiences and feelings, ask for clarification, and answer comments in some detail.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.written_online_interaction"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.interaction.mediation",
+      "claim_type": "source_boundary",
+      "text": "Convey familiar information from clear texts, seek simple compromise, and support shared communication.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.mediation"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.language_control.range",
+      "claim_type": "source_boundary",
+      "text": "Sufficient familiar-topic language for some unpredictable situations, with hesitation and circumlocution when limits appear.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.language_range"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.language_control.grammar",
+      "claim_type": "source_boundary",
+      "text": "Reasonable accuracy in familiar contexts; errors and first-language influence remain but intended meaning is clear.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.grammar",
+        "egp_all_levels.b1.grammar",
+        "gse_grammar_all.b1.grammar"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.language_control.vocabulary",
+      "claim_type": "source_boundary",
+      "text": "Good range for familiar topics and everyday life, with limitations on unfamiliar or complex ideas.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.vocabulary",
+        "oxford_3000_all.b1.lexical_pool"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.language_control.pronunciation",
+      "claim_type": "source_boundary",
+      "text": "Generally intelligible despite regular mispronunciation and noticeable first-language influence.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.pronunciation"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.language_control.discourse",
+      "claim_type": "source_boundary",
+      "text": "Link shorter elements into a connected linear sequence with simple paragraphing and chronological control.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.discourse"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.language_control.fluency",
+      "claim_type": "source_boundary",
+      "text": "Keep going comprehensibly despite evident pauses for planning and repair.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.b1.fluency"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "b1.assessment.01",
+      "claim_type": "product_policy",
+      "text": "An unscripted familiar problem",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "b1.assessment.02",
+      "claim_type": "product_policy",
+      "text": "A connected narrative",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "b1.assessment.03",
+      "claim_type": "product_policy",
+      "text": "A reasoned response in more than one context",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,8 @@
-{"schema_version":1,"level":"C2","category":"phrases","status":"pending_population","items":[]}
+{
+  "schema_version": 1,
+  "level": "C2",
+  "category": "phrases",
+  "inventory_semantics": "new_at_level",
+  "status": "blocked_pending_gse_vocabulary_extract",
+  "items": []
+}

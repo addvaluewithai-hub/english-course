@@ -1,1 +1,8 @@
-{"schema_version":1,"level":"A2","category":"phrases","status":"pending_population","items":[]}
+{
+  "schema_version": 1,
+  "level": "A2",
+  "category": "phrases",
+  "inventory_semantics": "new_at_level",
+  "status": "blocked_pending_official_phrase_source_extract",
+  "items": []
+}

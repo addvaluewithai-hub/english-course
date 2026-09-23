@@ -1,1 +1,186 @@
-{"schema_version":1,"level":"A1","category":"pronunciation","status":"pending_population","items":[]}
+{
+  "schema_version": 1,
+  "level": "A1",
+  "category": "pronunciation",
+  "status": "reviewed_progression_v1",
+  "source_ref": "data/reviewed/pronunciation-progression-strands-v1.json",
+  "items": [
+    {
+      "item_id": "pronunciation.sound_perception.a1",
+      "strand_id": "pronunciation.sound_perception",
+      "title": "Sound perception and word recognition",
+      "expectation": "Distinguish selected high-value sounds, word boundaries, names, numbers, and learnt chunks in very clear speech.",
+      "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "introduce",
+        "practise"
+      ],
+      "profile_claim_id": "a1.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.consonant_clarity.a1",
+      "strand_id": "pronunciation.consonant_clarity",
+      "title": "Consonant contrasts and place or manner clarity",
+      "expectation": "Produce selected high-impact consonant contrasts clearly enough in names, numbers, key nouns, verbs, and chunks.",
+      "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "introduce",
+        "practise"
+      ],
+      "profile_claim_id": "a1.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.vowel_clarity.a1",
+      "strand_id": "pronunciation.vowel_clarity",
+      "title": "Vowel contrasts and reduced vowels",
+      "expectation": "Produce selected meaning-changing vowel contrasts in a bounded learnt repertoire with modelling and repair.",
+      "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "introduce",
+        "practise"
+      ],
+      "profile_claim_id": "a1.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.syllable_shape.a1",
+      "strand_id": "pronunciation.syllable_shape",
+      "title": "Syllable shape, consonant clusters, and word endings",
+      "expectation": "Preserve selected final consonants and simple clusters when they carry essential word identity or meaning.",
+      "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "introduce",
+        "practise"
+      ],
+      "profile_claim_id": "a1.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.grammatical_endings.a1",
+      "strand_id": "pronunciation.grammatical_endings",
+      "title": "Audible grammatical endings",
+      "expectation": "Make selected plural, possessive, and simple verb endings audible when omission changes immediate meaning.",
+      "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "introduce",
+        "practise"
+      ],
+      "profile_claim_id": "a1.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.word_stress.a1",
+      "strand_id": "pronunciation.word_stress",
+      "title": "Word stress and stress-sensitive recognition",
+      "expectation": "Place recognisable stress in selected names, numbers, nationalities, jobs, and other lesson-critical words.",
+      "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "introduce",
+        "practise"
+      ],
+      "profile_claim_id": "a1.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.prominence_rhythm.a1",
+      "strand_id": "pronunciation.prominence_rhythm",
+      "title": "Sentence prominence and rhythm",
+      "expectation": "Notice and imitate prominence inside short learnt chunks without a natural-rhythm mastery demand.",
+      "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+      "control_focus": "receptive",
+      "lifecycle_states": [
+        "expose"
+      ],
+      "profile_claim_id": "a1.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.connected_speech.a1",
+      "strand_id": "pronunciation.connected_speech",
+      "title": "Connected-speech perception and production",
+      "expectation": "Recognise a small set of frequent linked or reduced forms inside familiar, very clear chunks.",
+      "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+      "control_focus": "receptive",
+      "lifecycle_states": [
+        "expose"
+      ],
+      "profile_claim_id": "a1.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.intonation_stance.a1",
+      "strand_id": "pronunciation.intonation_stance",
+      "title": "Intonation, interaction, and stance",
+      "expectation": "Use recognisable contours in a few learnt greetings, questions, checks, and polite responses.",
+      "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+      "control_focus": "receptive",
+      "lifecycle_states": [
+        "expose"
+      ],
+      "profile_claim_id": "a1.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.chunking_monitoring_repair.a1",
+      "strand_id": "pronunciation.chunking_monitoring_repair",
+      "title": "Chunking, pausing, monitoring, and pronunciation repair",
+      "expectation": "Deliver short learnt sense groups, pause safely, and repeat or spell a key item when not understood.",
+      "exit_boundary": "A limited learnt repertoire is intelligible with effort and collaborative support.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "introduce",
+        "practise"
+      ],
+      "profile_claim_id": "a1.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p135.a1.overall_phonological_control.001",
+        "cefr.cv2020.p135.a1.sound_articulation.001",
+        "cefr.cv2020.p135.a1.sound_articulation.002"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,182 @@
-{"schema_version":1,"level":"C2","category":"abilities","status":"pending_population","items":[]}
+{
+  "schema_version": 1,
+  "level": "C2",
+  "category": "abilities",
+  "status": "reviewed_exit_profile_v1",
+  "source_ref": "data/reviewed/level-exit-profiles-v1.json",
+  "items": [
+    {
+      "claim_id": "c2.exit_promise",
+      "claim_type": "synthesis",
+      "text": "Synthesize complex sources and communicate precise nuances with consistently appropriate language.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.listening_reception",
+        "cefr_all_descriptors.c2.mediation",
+        "cefr_all_descriptors.c2.oral_interaction",
+        "cefr_all_descriptors.c2.reading_reception",
+        "cefr_all_descriptors.c2.speaking_production",
+        "cefr_all_descriptors.c2.writing_production",
+        "cefr_all_descriptors.c2.written_online_interaction",
+        "gse_all_objectives.c2.listening_reception",
+        "gse_all_objectives.c2.reading_reception",
+        "gse_all_objectives.c2.speaking_production",
+        "gse_all_objectives.c2.writing_production"
+      ],
+      "decision_refs": [
+        "docs/CROSS_LEVEL_CURRICULUM_ARCHITECTURE.md#supported-progression"
+      ]
+    },
+    {
+      "claim_id": "c2.reception.listening",
+      "claim_type": "source_boundary",
+      "text": "Understand with ease virtually any kind of live or recorded language, including delivery at fast natural speed.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.listening_reception",
+        "gse_all_objectives.c2.listening_reception"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.reception.reading",
+      "claim_type": "source_boundary",
+      "text": "Read with ease virtually all abstract, structurally complex, specialised, and literary written language.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.reading_reception",
+        "gse_all_objectives.c2.reading_reception"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.production.speaking",
+      "claim_type": "source_boundary",
+      "text": "Deliver smooth logically structured communication that highlights significant points and fine shades of meaning.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.speaking_production",
+        "gse_all_objectives.c2.speaking_production"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.production.writing",
+      "claim_type": "source_boundary",
+      "text": "Create complex letters, reports, articles, summaries, and reviews in an effective reader-appropriate style.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.writing_production",
+        "gse_all_objectives.c2.writing_production"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.interaction.oral",
+      "claim_type": "source_boundary",
+      "text": "Participate effortlessly, use idiomatic language appropriately, and repair so smoothly that difficulty is unobtrusive.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.oral_interaction"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.interaction.written_online",
+      "claim_type": "source_boundary",
+      "text": "Use an appropriate tone in virtually any interaction and anticipate cultural, emotional, or communication problems.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.written_online_interaction"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.interaction.mediation",
+      "claim_type": "source_boundary",
+      "text": "Reconstruct and evaluate arguments, convey nuance and sociocultural implications, and guide complex discussion sensitively.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.mediation"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.language_control.range",
+      "claim_type": "source_boundary",
+      "text": "Comprehensive precise language that differentiates, emphasises, and eliminates ambiguity without visible restriction.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.language_range"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.language_control.grammar",
+      "claim_type": "source_boundary",
+      "text": "Consistent control of complex language even while attention is divided across planning and interaction.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.grammar",
+        "egp_all_levels.c2.grammar"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.language_control.vocabulary",
+      "claim_type": "source_boundary",
+      "text": "Very broad idiomatic and colloquial repertoire with awareness of connotation and fine meaning distinctions.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.vocabulary"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.language_control.pronunciation",
+      "claim_type": "source_boundary",
+      "text": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.pronunciation"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.language_control.discourse",
+      "claim_type": "source_boundary",
+      "text": "Create fully coherent and cohesive communication using flexible organisational and rhetorical patterns.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.discourse"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.language_control.fluency",
+      "claim_type": "source_boundary",
+      "text": "Sustain natural effortless flow, pausing mainly to select the most precise formulation or example.",
+      "evidence_bundle_ids": [
+        "cefr_all_descriptors.c2.fluency"
+      ],
+      "decision_refs": []
+    },
+    {
+      "claim_id": "c2.assessment.01",
+      "claim_type": "product_policy",
+      "text": "Synthesis of unfamiliar complex sources",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "c2.assessment.02",
+      "claim_type": "product_policy",
+      "text": "Precise nuance under realistic cognitive load",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "c2.assessment.03",
+      "claim_type": "product_policy",
+      "text": "Audience, register, and sociocultural appropriateness",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    }
+  ]
+}

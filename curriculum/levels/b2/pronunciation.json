@@ -1,1 +1,189 @@
-{"schema_version":1,"level":"B2","category":"pronunciation","status":"pending_population","items":[]}
+{
+  "schema_version": 1,
+  "level": "B2",
+  "category": "pronunciation",
+  "status": "reviewed_progression_v1",
+  "source_ref": "data/reviewed/pronunciation-progression-strands-v1.json",
+  "items": [
+    {
+      "item_id": "pronunciation.sound_perception.b2",
+      "strand_id": "pronunciation.sound_perception",
+      "title": "Sound perception and word recognition",
+      "expectation": "Resolve most sound, stress, and reduction variation in standard familiar and field-related input.",
+      "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "b2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.b2.overall_phonological_control.001",
+        "cefr.cv2020.p134.b2.sound_articulation.001",
+        "cefr.cv2020.p134.b2.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.consonant_clarity.b2",
+      "strand_id": "pronunciation.consonant_clarity",
+      "title": "Consonant contrasts and place or manner clarity",
+      "expectation": "Sustain consonant clarity throughout extended speech so accent has little effect on understanding.",
+      "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "b2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.b2.overall_phonological_control.001",
+        "cefr.cv2020.p134.b2.sound_articulation.001",
+        "cefr.cv2020.p134.b2.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.vowel_clarity.b2",
+      "strand_id": "pronunciation.vowel_clarity",
+      "title": "Vowel contrasts and reduced vowels",
+      "expectation": "Use stable stressed vowels and functional reductions so pronunciation remains intelligible throughout.",
+      "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "b2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.b2.overall_phonological_control.001",
+        "cefr.cv2020.p134.b2.sound_articulation.001",
+        "cefr.cv2020.p134.b2.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.syllable_shape.b2",
+      "strand_id": "pronunciation.syllable_shape",
+      "title": "Syllable shape, consonant clusters, and word endings",
+      "expectation": "Preserve syllable structure reliably at natural speed, including less familiar and field-related words.",
+      "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "b2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.b2.overall_phonological_control.001",
+        "cefr.cv2020.p134.b2.sound_articulation.001",
+        "cefr.cv2020.p134.b2.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.grammatical_endings.b2",
+      "strand_id": "pronunciation.grammatical_endings",
+      "title": "Audible grammatical endings",
+      "expectation": "Integrate endings naturally into clusters and connected speech without loss of grammatical information.",
+      "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "b2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.b2.overall_phonological_control.001",
+        "cefr.cv2020.p134.b2.sound_articulation.001",
+        "cefr.cv2020.p134.b2.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.word_stress.b2",
+      "strand_id": "pronunciation.word_stress",
+      "title": "Word stress and stress-sensitive recognition",
+      "expectation": "Control stress reliably in broad general and field-related vocabulary, including many derived words.",
+      "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "b2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.b2.overall_phonological_control.001",
+        "cefr.cv2020.p134.b2.sound_articulation.001",
+        "cefr.cv2020.p134.b2.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.prominence_rhythm.b2",
+      "strand_id": "pronunciation.prominence_rhythm",
+      "title": "Sentence prominence and rhythm",
+      "expectation": "Use prominence and rhythm consistently to support focus, contrast, turn structure, and intelligibility.",
+      "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "consolidate"
+      ],
+      "profile_claim_id": "b2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.b2.overall_phonological_control.001",
+        "cefr.cv2020.p134.b2.sound_articulation.001",
+        "cefr.cv2020.p134.b2.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.connected_speech.b2",
+      "strand_id": "pronunciation.connected_speech",
+      "title": "Connected-speech perception and production",
+      "expectation": "Handle common connected-speech processes at a natural pace with intelligibility throughout.",
+      "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "consolidate"
+      ],
+      "profile_claim_id": "b2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.b2.overall_phonological_control.001",
+        "cefr.cv2020.p134.b2.sound_articulation.001",
+        "cefr.cv2020.p134.b2.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.intonation_stance.b2",
+      "strand_id": "pronunciation.intonation_stance",
+      "title": "Intonation, interaction, and stance",
+      "expectation": "Control intonation consistently enough to support viewpoint, stance, turn management, and social meaning.",
+      "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "consolidate"
+      ],
+      "profile_claim_id": "b2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.b2.overall_phonological_control.001",
+        "cefr.cv2020.p134.b2.sound_articulation.001",
+        "cefr.cv2020.p134.b2.sound_articulation.002"
+      ]
+    },
+    {
+      "item_id": "pronunciation.chunking_monitoring_repair.b2",
+      "strand_id": "pronunciation.chunking_monitoring_repair",
+      "title": "Chunking, pausing, monitoring, and pronunciation repair",
+      "expectation": "Manage pausing and repair smoothly enough to sustain extended independent interaction.",
+      "exit_boundary": "Intelligible throughout; accent has little effect and prosody generally supports the intended message.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "b2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.b2.overall_phonological_control.001",
+        "cefr.cv2020.p134.b2.sound_articulation.001",
+        "cefr.cv2020.p134.b2.sound_articulation.002"
+      ]
+    }
+  ]
+}

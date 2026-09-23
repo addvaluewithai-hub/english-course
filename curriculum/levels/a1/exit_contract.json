@@ -1,1 +1,55 @@
-{"schema_version":1,"level":"A1","status":"pending_population","principles":{"completion_is_not_mastery":true,"retention_requires_later_fresh_evidence":true},"requirements":[]}
+{
+  "schema_version": 1,
+  "level": "A1",
+  "status": "draft_pending_full_inventory_lock",
+  "inventory_semantics": {
+    "level_files": "new_at_level",
+    "exit_obligation": "cumulative_through_level"
+  },
+  "cumulative_levels": [
+    "A1"
+  ],
+  "principles": {
+    "completion_is_not_mastery": true,
+    "retention_requires_later_fresh_evidence": true
+  },
+  "inventory_obligations": {
+    "words": "extracted_pending_inventory_review",
+    "phrases": "blocked_pending_official_phrase_source_extract",
+    "grammar": "extracted_pending_inventory_review",
+    "abilities": "reviewed_exit_profile_v1",
+    "pronunciation": "reviewed_progression_v1"
+  },
+  "assessment_requirements": [
+    {
+      "claim_id": "a1.assessment.01",
+      "claim_type": "product_policy",
+      "text": "A new concrete personal or immediate-need task",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "a1.assessment.02",
+      "claim_type": "product_policy",
+      "text": "No copying of a complete model",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    },
+    {
+      "claim_id": "a1.assessment.03",
+      "claim_type": "product_policy",
+      "text": "Support may clarify but not supply the response",
+      "evidence_bundle_ids": [],
+      "decision_refs": [
+        "docs/LEARNING_PRINCIPLES.md#core-learning-loop",
+        "docs/LEARNING_PRINCIPLES.md#mastery"
+      ]
+    }
+  ]
+}

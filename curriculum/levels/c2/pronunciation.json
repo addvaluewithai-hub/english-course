@@ -1,1 +1,189 @@
-{"schema_version":1,"level":"C2","category":"pronunciation","status":"pending_population","items":[]}
+{
+  "schema_version": 1,
+  "level": "C2",
+  "category": "pronunciation",
+  "status": "reviewed_progression_v1",
+  "source_ref": "data/reviewed/pronunciation-progression-strands-v1.json",
+  "items": [
+    {
+      "item_id": "pronunciation.sound_perception.c2",
+      "strand_id": "pronunciation.sound_perception",
+      "title": "Sound perception and word recognition",
+      "expectation": "Interpret fine phonological detail, marked delivery, and subtle prosodic meaning across demanding input.",
+      "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "c2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.c2.overall_phonological_control.001",
+        "cefr.cv2020.p134.c2.prosodic_features.001",
+        "cefr.cv2020.p134.c2.sound_articulation.001"
+      ]
+    },
+    {
+      "item_id": "pronunciation.consonant_clarity.c2",
+      "strand_id": "pronunciation.consonant_clarity",
+      "title": "Consonant contrasts and place or manner clarity",
+      "expectation": "Use precise articulation deliberately where it supports subtle contrast, emphasis, or rhetorical effect.",
+      "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "c2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.c2.overall_phonological_control.001",
+        "cefr.cv2020.p134.c2.prosodic_features.001",
+        "cefr.cv2020.p134.c2.sound_articulation.001"
+      ]
+    },
+    {
+      "item_id": "pronunciation.vowel_clarity.c2",
+      "strand_id": "pronunciation.vowel_clarity",
+      "title": "Vowel contrasts and reduced vowels",
+      "expectation": "Adjust vowel and reduction detail precisely when it contributes to nuance, contrast, or performance effect.",
+      "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "c2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.c2.overall_phonological_control.001",
+        "cefr.cv2020.p134.c2.prosodic_features.001",
+        "cefr.cv2020.p134.c2.sound_articulation.001"
+      ]
+    },
+    {
+      "item_id": "pronunciation.syllable_shape.c2",
+      "strand_id": "pronunciation.syllable_shape",
+      "title": "Syllable shape, consonant clusters, and word endings",
+      "expectation": "Use precise syllable shaping and deliberate simplification only when context and style make it appropriate.",
+      "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "c2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.c2.overall_phonological_control.001",
+        "cefr.cv2020.p134.c2.prosodic_features.001",
+        "cefr.cv2020.p134.c2.sound_articulation.001"
+      ]
+    },
+    {
+      "item_id": "pronunciation.grammatical_endings.c2",
+      "strand_id": "pronunciation.grammatical_endings",
+      "title": "Audible grammatical endings",
+      "expectation": "Use grammatical sound detail precisely while varying reduction appropriately for style and emphasis.",
+      "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "c2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.c2.overall_phonological_control.001",
+        "cefr.cv2020.p134.c2.prosodic_features.001",
+        "cefr.cv2020.p134.c2.sound_articulation.001"
+      ]
+    },
+    {
+      "item_id": "pronunciation.word_stress.c2",
+      "strand_id": "pronunciation.word_stress",
+      "title": "Word stress and stress-sensitive recognition",
+      "expectation": "Manipulate normal and contrastive lexical stress precisely for meaning and stylistic effect.",
+      "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "c2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.c2.overall_phonological_control.001",
+        "cefr.cv2020.p134.c2.prosodic_features.001",
+        "cefr.cv2020.p134.c2.sound_articulation.001"
+      ]
+    },
+    {
+      "item_id": "pronunciation.prominence_rhythm.c2",
+      "strand_id": "pronunciation.prominence_rhythm",
+      "title": "Sentence prominence and rhythm",
+      "expectation": "Shape rhythm and prominence precisely for subtle meaning, rhetorical design, and interpersonal effect.",
+      "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "c2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.c2.overall_phonological_control.001",
+        "cefr.cv2020.p134.c2.prosodic_features.001",
+        "cefr.cv2020.p134.c2.sound_articulation.001"
+      ]
+    },
+    {
+      "item_id": "pronunciation.connected_speech.c2",
+      "strand_id": "pronunciation.connected_speech",
+      "title": "Connected-speech perception and production",
+      "expectation": "Use or resist connected-speech processes deliberately for precision, clarity, style, and audience.",
+      "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "c2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.c2.overall_phonological_control.001",
+        "cefr.cv2020.p134.c2.prosodic_features.001",
+        "cefr.cv2020.p134.c2.sound_articulation.001"
+      ]
+    },
+    {
+      "item_id": "pronunciation.intonation_stance.c2",
+      "strand_id": "pronunciation.intonation_stance",
+      "title": "Intonation, interaction, and stance",
+      "expectation": "Use fine intonational choices precisely for implication, humour, tact, ambiguity, and rhetorical effect.",
+      "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "c2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.c2.overall_phonological_control.001",
+        "cefr.cv2020.p134.c2.prosodic_features.001",
+        "cefr.cv2020.p134.c2.sound_articulation.001"
+      ]
+    },
+    {
+      "item_id": "pronunciation.chunking_monitoring_repair.c2",
+      "strand_id": "pronunciation.chunking_monitoring_repair",
+      "title": "Chunking, pausing, monitoring, and pronunciation repair",
+      "expectation": "Backtrack, rechunk, and adjust articulation or prosody so smoothly that difficulty is unobtrusive.",
+      "exit_boundary": "Precise articulation and prosody enhance subtle meaning; retained accent does not reduce intelligibility or effectiveness.",
+      "control_focus": "both",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "profile_claim_id": "c2.language_control.pronunciation",
+      "representative_cefr_evidence_ids": [
+        "cefr.cv2020.p134.c2.overall_phonological_control.001",
+        "cefr.cv2020.p134.c2.prosodic_features.001",
+        "cefr.cv2020.p134.c2.sound_articulation.001"
+      ]
+    }
+  ]
+}

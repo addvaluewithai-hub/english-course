@@ -1,1 +1,25 @@
-{"schema_version":1,"level":"C1","status":"scaffold_pending_population","source_of_truth_version":"v1","categories":["words","phrases","grammar","abilities","pronunciation"],"lesson_design_authorized":false,"counts":{"words":0,"phrases":0,"grammar":0,"abilities":0,"pronunciation":0}}
+{
+  "schema_version": 1,
+  "level": "C1",
+  "status": "generated_pending_inventory_review",
+  "source_of_truth_version": "v1",
+  "inventory_semantics": "new_at_level_with_cumulative_exit_contract",
+  "categories": [
+    "words",
+    "phrases",
+    "grammar",
+    "abilities",
+    "pronunciation"
+  ],
+  "lesson_design_authorized": false,
+  "counts": {
+    "words": 1315,
+    "phrases": 0,
+    "grammar": 129,
+    "abilities": 17,
+    "pronunciation": 10
+  },
+  "blocking_categories": [
+    "phrases"
+  ]
+}
