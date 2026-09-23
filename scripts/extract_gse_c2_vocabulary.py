@@ -76,6 +76,18 @@ def numeric_gse(value: Any) -> int:
     return int(match.group(1))
 
 
+def collo_text(collo: Any) -> str | None:
+    if isinstance(collo, str):
+        text = collo.strip()
+        return text or None
+    if isinstance(collo, dict):
+        for key in ("expression", "collocation", "text", "value", "word"):
+            value = collo.get(key)
+            if value:
+                return str(value).strip() or None
+    return None
+
+
 def main() -> None:
     first = fetch_page(1)
     expected = int(first["count"])
@@ -120,23 +132,56 @@ def main() -> None:
     distinct_collos: set[str] = set()
     temporary_rows = 0
     marked_score_rows = 0
+    phrase_records: list[dict[str, Any]] = []
+    collocation_samples: list[dict[str, Any]] = []
+    multiword_variants: list[dict[str, Any]] = []
+
     for row in records:
-        for category in row.get("grammaticalCategories", []):
+        categories = row.get("grammaticalCategories", [])
+        for category in categories:
             pos[category] += 1
         expression = str(row.get("expression", "")).strip()
         if len(expression.split()) > 1:
             multiword += 1
+        if any(category in {"phrase", "phrasal verb"} for category in categories):
+            phrase_records.append({
+                "itemId": row["itemId"],
+                "expression": expression,
+                "gse": row.get("gse"),
+                "categories": categories,
+                "definition": row.get("definition", ""),
+            })
+
         collos = row.get("collos") or []
         if collos:
             records_with_collos += 1
+            collocation_samples.append({
+                "owner_itemId": row["itemId"],
+                "owner_expression": expression,
+                "gse": row.get("gse"),
+                "collos": collos,
+            })
         collation_rows += len(collos)
         for collo in collos:
-            if isinstance(collo, str):
-                distinct_collos.add(collo.casefold().strip())
-            elif isinstance(collo, dict):
-                text = collo.get("expression") or collo.get("collocation") or collo.get("text")
-                if text:
-                    distinct_collos.add(str(text).casefold().strip())
+            text = collo_text(collo)
+            if text:
+                distinct_collos.add(text.casefold())
+
+        for variant in row.get("variants") or []:
+            if isinstance(variant, str):
+                variant_text = variant.strip()
+            elif isinstance(variant, dict):
+                variant_text = str(variant.get("variant") or variant.get("expression") or "").strip()
+            else:
+                variant_text = ""
+            if variant_text and len(variant_text.split()) > 1:
+                multiword_variants.append({
+                    "owner_itemId": row["itemId"],
+                    "owner_expression": expression,
+                    "gse": row.get("gse"),
+                    "variant": variant_text,
+                })
+
         if row.get("temporaryGse") is True:
             temporary_rows += 1
         if str(row.get("gse", "")).strip() != str(numeric_gse(row.get("gse"))):
@@ -182,11 +227,21 @@ def main() -> None:
         "distinct_collocation_strings_detected": len(distinct_collos),
         "temporary_gse_flagged_records": temporary_rows,
         "marked_gse_score_records": marked_score_rows,
+        "source_phrase_or_phrasal_verb_records": phrase_records,
+        "collocation_owner_records": collocation_samples,
+        "multiword_variants": multiword_variants,
         "normalized_records_sha256": dataset_hash,
         "license_gate": "Pearson permission/contact required before commercial use of GSE components",
     }
     AUDIT.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps(audit, ensure_ascii=False, indent=2))
+    print(json.dumps({
+        "record_count": len(records),
+        "phrase_records": len(phrase_records),
+        "records_with_collocations": records_with_collos,
+        "collocation_rows": collation_rows,
+        "multiword_variants": len(multiword_variants),
+        "dataset_hash": dataset_hash,
+    }, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
