@@ -8,6 +8,7 @@ on:
       - curriculum/levels/a1/**
       - scripts/build_a1_coverage_ledger.py
       - scripts/run_a1_coverage_ledger.py
+      - scripts/analyze_a1_coverage_load.py
       - .github/workflows/audit-a1-coverage-ledger.yml
   workflow_dispatch:
 
@@ -38,7 +39,11 @@ jobs:
 
           out=curriculum/levels/a1/design-review/06-coverage-ledger/generated
           mkdir -p "$out"
-          rm -f "$out/coverage-ledger.json" "$out/coverage-report.md" "$out/coverage-audit-failure.txt"
+          rm -f \
+            "$out/coverage-ledger.json" \
+            "$out/coverage-report.md" \
+            "$out/coverage-audit-failure.txt" \
+            "$out/load-attribution.md"
           if [[ -f /tmp/a1-coverage-ledger.json ]]; then
             cp /tmp/a1-coverage-ledger.json "$out/coverage-ledger.json"
           fi
@@ -46,6 +51,9 @@ jobs:
             cp /tmp/a1-coverage-report.md "$out/coverage-report.md"
           else
             cp /tmp/a1-coverage-run.log "$out/coverage-audit-failure.txt"
+          fi
+          if [[ -f "$out/coverage-ledger.json" ]]; then
+            python scripts/analyze_a1_coverage_load.py
           fi
 
       - name: Commit deterministic audit snapshot
