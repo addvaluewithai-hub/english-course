@@ -1,3 +1,4 @@
+# A1 content-bank build is intentionally separate from lesson authoring.
 name: Build A1 content banks
 
 on:
