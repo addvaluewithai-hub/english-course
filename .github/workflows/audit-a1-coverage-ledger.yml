@@ -7,6 +7,7 @@ on:
     paths:
       - curriculum/levels/a1/**
       - scripts/build_a1_coverage_ledger.py
+      - scripts/run_a1_coverage_ledger.py
       - .github/workflows/audit-a1-coverage-ledger.yml
   workflow_dispatch:
 
@@ -26,7 +27,7 @@ jobs:
         shell: bash
         run: |
           set +e
-          python scripts/build_a1_coverage_ledger.py \
+          python scripts/run_a1_coverage_ledger.py \
             --output /tmp/a1-coverage-ledger.json \
             --report /tmp/a1-coverage-report.md \
             > /tmp/a1-coverage-run.log 2>&1
