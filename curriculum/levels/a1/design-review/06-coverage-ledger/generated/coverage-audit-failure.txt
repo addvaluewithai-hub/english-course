@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/english-course/english-course/scripts/build_a1_coverage_ledger.py", line 412, in <module>
-    main()
-  File "/home/runner/work/english-course/english-course/scripts/build_a1_coverage_ledger.py", line 328, in main
-    raise ValueError(f"lifecycle gaps: no_fresh={no_fresh[:30]} no_exit={no_exit[:30]}")
-ValueError: lifecycle gaps: no_fresh=['oxford.phrase.online.0414', 'oxford.phrase.online.0440'] no_exit=[]
