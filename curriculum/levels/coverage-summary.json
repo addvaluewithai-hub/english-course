@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "source_coverage_audit_passed_semantic_inventory_lock_pending",
+  "branch": "curriculum/level-source-of-truth-v1",
+  "validated_at": "2026-09-23",
+  "audit": {
+    "script": "scripts/audit_level_source_of_truth_v3.py",
+    "github_actions_run_id": 35884440343,
+    "result": "pass"
+  },
+  "inventory_semantics": {
+    "level_files": "new_at_level",
+    "exit_contract": "cumulative_through_level",
+    "lesson_design_authorized": false
+  },
+  "levels": {
+    "A1": {"words": 900, "phrases": 199, "grammar_features": 109, "required_abilities": 119, "pronunciation_strands": 10},
+    "A2": {"words": 871, "phrases": 176, "grammar_features": 291, "required_abilities": 269, "pronunciation_strands": 10},
+    "B1": {"words": 809, "phrases": 175, "grammar_features": 338, "required_abilities": 249, "pronunciation_strands": 10},
+    "B2": {"words": 1427, "phrases": 125, "grammar_features": 243, "required_abilities": 270, "pronunciation_strands": 10},
+    "C1": {"words": 1315, "phrases": 75, "grammar_features": 129, "required_abilities": 59, "pronunciation_strands": 10},
+    "C2": {"words": 609, "phrases": 41, "grammar_features": 112, "required_abilities": 19, "pronunciation_strands": 10}
+  },
+  "coverage": {
+    "oxford_words": {"source_records": 5322, "represented": 5322, "status": "complete"},
+    "oxford_phrases_current_online": {"source_records": 750, "represented": 750, "status": "complete"},
+    "pearson_gse_c2_primary_lexical_records": {"source_records": 623, "represented": 623, "status": "complete_with_license_gate"},
+    "egp_grammar_features": {"source_records": 1222, "represented": 1222, "status": "complete"},
+    "gse_grammar_crosscheck_records": {"source_records": 456, "represented": 456, "status": "complete"},
+    "grammar_families": {"families": 91, "reviewed_a1_c2_stages": 528, "represented_stages": 528, "status": "complete"},
+    "communicative_assignments": {"reviewed_total": 2274, "pre_a1_outside_six_levels": 106, "a1_c2_dispositioned": 2168, "required_a1_c2": 985, "supporting_a1_c2": 1128, "duplicate_or_overlap_a1_c2": 55, "status": "complete"},
+    "pronunciation": {"strands": 10, "a1_c2_stages": 60, "represented": 60, "status": "complete"},
+    "exit_profiles": {"claims": 102, "represented": 102, "claims_per_level": 17, "status": "complete"}
+  },
+  "open_gates": [
+    "semantic_inventory_review_and_lock_per_level",
+    "pearson_gse_commercial_permission_for_c2_lexical_product_use",
+    "lesson_mapping_and_lifecycle_audit_after_level_lock"
+  ],
+  "non_goals": [
+    "does_not_modify_TEST_002",
+    "does_not_merge_to_main",
+    "does_not_authorize_mass_lesson_design"
+  ]
+}
