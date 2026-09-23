@@ -1,5 +1,6 @@
 import json
 import unittest
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -60,11 +61,39 @@ class LevelSourceOfTruthTests(unittest.TestCase):
             total += len(phrases["items"])
         self.assertEqual(total, 750)
 
-    def test_c2_lexical_gap_is_not_hidden(self):
+    def test_c2_pearson_lexical_partition_is_complete(self):
         words = self.load("c2", "words.json")
         phrases = self.load("c2", "phrases.json")
-        self.assertTrue(words["status"].startswith("blocked_"))
-        self.assertTrue(phrases["status"].startswith("blocked_"))
+        manifest = self.load("c2", "manifest.json")
+        self.assertEqual(len(words["items"]), 609)
+        self.assertEqual(len(phrases["items"]), 41)
+        self.assertEqual(manifest["counts"]["words"], 609)
+        self.assertEqual(manifest["counts"]["phrases"], 41)
+        self.assertEqual(manifest["blocking_categories"], [])
+        self.assertIn("commercial_permission_required", manifest["production_gates"])
+        self.assertFalse(words["status"].startswith("blocked_"))
+        self.assertFalse(phrases["status"].startswith("blocked_"))
+
+    def test_c2_phrase_partition_preserves_source_semantics(self):
+        phrases = self.load("c2", "phrases.json")["items"]
+        subtype_counts = Counter(item["subtype"] for item in phrases)
+        self.assertEqual(subtype_counts["source_phrase"], 9)
+        self.assertEqual(subtype_counts["source_phrasal_verb"], 5)
+        self.assertEqual(subtype_counts["collocation"], 27)
+        for item in phrases:
+            self.assertEqual(item["license_gate"], "commercial_permission_required")
+            if item["subtype"] == "collocation":
+                self.assertFalse(item["independent_gse_score"])
+                self.assertEqual(item["level_inheritance"], "owner_record")
+            else:
+                self.assertTrue(item["independent_gse_score"])
+
+    def test_c2_words_exclude_source_phrase_categories(self):
+        words = self.load("c2", "words.json")["items"]
+        for item in words:
+            categories = set(item["grammatical_categories"])
+            self.assertFalse({"phrase", "phrasal verb"}.intersection(categories))
+            self.assertEqual(item["license_gate"], "commercial_permission_required")
 
 
 if __name__ == "__main__":
