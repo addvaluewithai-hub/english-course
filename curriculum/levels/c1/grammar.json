@@ -3,7 +3,7 @@
   "level": "C1",
   "category": "grammar",
   "inventory_semantics": "new_at_level",
-  "status": "extracted_pending_inventory_review",
+  "status": "canonical_egp_with_reviewed_gse_crosscheck_pending_inventory_lock",
   "canonical_source": "English Grammar Profile",
   "items": [
     {
@@ -1682,6 +1682,1368 @@
         "dataset": "egp_all_levels",
         "spreadsheet_row": 1213
       }
+    }
+  ],
+  "crosscheck_source": "Pearson GSE Grammar for adult learners 2023",
+  "crosscheck_policy": "GSE Grammar is supporting/cross-check evidence mapped to reviewed grammar supercategories; it does not create a second independent target inventory.",
+  "grammar_family_policy": "family_range_evidence_not_one_feature_one_target",
+  "grammar_family_stage_policy": "Only lifecycle stages explicitly present in the reviewed grammar-family source are copied; missing early-level stages are not invented.",
+  "counts": {
+    "canonical_egp_features": 129,
+    "gse_crosscheck_records": 3,
+    "grammar_family_stages": 91,
+    "source_evidenced_family_stages": 63
+  },
+  "gse_crosscheck_evidence": [
+    {
+      "evidence_id": "gse.grammar.2023.p38.001",
+      "source_text": "Can add information using appended clauses with ‘being’ and/or passive participles.",
+      "published_level": "C1",
+      "gse_score_or_range": "76",
+      "mode": "Productive use",
+      "structure": "appended participle clauses (present and passive)",
+      "example": "Being a student, he gets a discount. Given enough time, she’ll do it eventually.",
+      "grammatical_categories": "Clause | Appended (participle) Clause | Dependent Clause | Result/cause",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PASSIVES",
+        "PRESENT"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_present"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 38,
+          "page_end": 38,
+          "printed_page": "38",
+          "section": "C1 (76-84)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "fa3739b22534d00e0ab2adb2036b84d90cc2eba355a1ca821846a2e930898059"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p38.002",
+      "source_text": "Can replace past conditionals with ‘but for’ in formal statements.",
+      "published_level": "C1",
+      "gse_score_or_range": "77",
+      "mode": "Productive use",
+      "structure": "‘but for’ + NP, ‘would have’ clause (third conditional)",
+      "example": "But for their support, I would never have succeeded. He would have died but for the doctor’s prompt action.",
+      "grammatical_categories": "Clause | Conditional Preposition | Logical",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PAST",
+        "PREPOSITIONS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_prepositions"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 38,
+          "page_end": 38,
+          "printed_page": "38",
+          "section": "C1 (76-84)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "990cbf0bf86f9141aececf2930384641228d5e819dc0afdaf0ff7bc4078887a4"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p38.003",
+      "source_text": "Can make very polite requests with ‘would you be so kind as to’ + verbs in the infinitive.",
+      "published_level": "C1",
+      "gse_score_or_range": "80",
+      "mode": "Productive use",
+      "structure": "‘Would you be so kind as to’ + VPinf ...?",
+      "example": "Would you be so kind as to lend me some money?",
+      "grammatical_categories": "Modal verb | Requests, offers and permission Phrase | With infinitive",
+      "supercategory_codes": [
+        "CLAUSES",
+        "MODALITY",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_modality",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 38,
+          "page_end": 38,
+          "printed_page": "38",
+          "section": "C1 (76-84)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "617e06624be0ad0e1349a7a6efa252c0a5db3970cc3c6bedd68a4e144504503b"
+      }
+    }
+  ],
+  "grammar_family_stages": [
+    {
+      "family_id": "grammar.adjectives.combining",
+      "supercategory": "ADJECTIVES",
+      "subcategory": "combining",
+      "title": "Adjectives: combining",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adjectives.comparatives",
+      "supercategory": "ADJECTIVES",
+      "subcategory": "comparatives",
+      "title": "Adjectives: comparatives",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.adjectives.modifying",
+      "supercategory": "ADJECTIVES",
+      "subcategory": "modifying",
+      "title": "Adjectives: modifying",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adjectives.position",
+      "supercategory": "ADJECTIVES",
+      "subcategory": "position",
+      "title": "Adjectives: position",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adjectives.superlatives",
+      "supercategory": "ADJECTIVES",
+      "subcategory": "superlatives",
+      "title": "Adjectives: superlatives",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adverbs.adverb_phrases_form",
+      "supercategory": "ADVERBS",
+      "subcategory": "adverb phrases - form",
+      "title": "Adverbs: adverb phrases - form",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adverbs.adverbs_and_adverb_phrases_types_and_meanings",
+      "supercategory": "ADVERBS",
+      "subcategory": "adverbs and adverb phrases: types and meanings",
+      "title": "Adverbs: adverbs and adverb phrases: types and meanings",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adverbs.adverbs_as_modifiers",
+      "supercategory": "ADVERBS",
+      "subcategory": "adverbs as modifiers",
+      "title": "Adverbs: adverbs as modifiers",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adverbs.position",
+      "supercategory": "ADVERBS",
+      "subcategory": "position",
+      "title": "Adverbs: position",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.clauses.comparatives",
+      "supercategory": "CLAUSES",
+      "subcategory": "comparatives",
+      "title": "Clauses: comparatives",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.clauses.conditional",
+      "supercategory": "CLAUSES",
+      "subcategory": "conditional",
+      "title": "Clauses: conditional",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.clauses.coordinated",
+      "supercategory": "CLAUSES",
+      "subcategory": "coordinated",
+      "title": "Clauses: coordinated",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.clauses.declarative",
+      "supercategory": "CLAUSES",
+      "subcategory": "declarative",
+      "title": "Clauses: declarative",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.clauses.imperatives",
+      "supercategory": "CLAUSES",
+      "subcategory": "imperatives",
+      "title": "Clauses: imperatives",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.clauses.interrogatives",
+      "supercategory": "CLAUSES",
+      "subcategory": "interrogatives",
+      "title": "Clauses: interrogatives",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.clauses.phrases_exclamations",
+      "supercategory": "CLAUSES",
+      "subcategory": "phrases/exclamations",
+      "title": "Clauses: phrases/exclamations",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.clauses.relative",
+      "supercategory": "CLAUSES",
+      "subcategory": "relative",
+      "title": "Clauses: relative",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.clauses.subordinated",
+      "supercategory": "CLAUSES",
+      "subcategory": "subordinated",
+      "title": "Clauses: subordinated",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.conjunctions.coordinating",
+      "supercategory": "CONJUNCTIONS",
+      "subcategory": "coordinating",
+      "title": "Conjunctions: coordinating",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.conjunctions.subordinating",
+      "supercategory": "CONJUNCTIONS",
+      "subcategory": "subordinating",
+      "title": "Conjunctions: subordinating",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.determiners.articles",
+      "supercategory": "DETERMINERS",
+      "subcategory": "articles",
+      "title": "Determiners: articles",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.determiners.demonstratives",
+      "supercategory": "DETERMINERS",
+      "subcategory": "demonstratives",
+      "title": "Determiners: demonstratives",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.determiners.possessives",
+      "supercategory": "DETERMINERS",
+      "subcategory": "possessives",
+      "title": "Determiners: possessives",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.determiners.quantity",
+      "supercategory": "DETERMINERS",
+      "subcategory": "quantity",
+      "title": "Determiners: quantity",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.discourse_markers.discourse_markers_in_writing",
+      "supercategory": "DISCOURSE MARKERS",
+      "subcategory": "discourse markers in writing",
+      "title": "Discourse Markers: discourse markers in writing",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.focus.focus",
+      "supercategory": "FOCUS",
+      "subcategory": "focus",
+      "title": "Focus: focus",
+      "feature_count": 5,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.future.future_continuous",
+      "supercategory": "FUTURE",
+      "subcategory": "future continuous",
+      "title": "Future: future continuous",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.future.future_expressions_with_be",
+      "supercategory": "FUTURE",
+      "subcategory": "future expressions with be",
+      "title": "Future: future expressions with be",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "b2",
+      "consolidation_level": "b2"
+    },
+    {
+      "family_id": "grammar.future.future_in_the_past",
+      "supercategory": "FUTURE",
+      "subcategory": "future in the past",
+      "title": "Future: future in the past",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.future.future_perfect_continuous",
+      "supercategory": "FUTURE",
+      "subcategory": "future perfect continuous",
+      "title": "Future: future perfect continuous",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "b2",
+      "consolidation_level": "b2"
+    },
+    {
+      "family_id": "grammar.future.future_perfect_simple",
+      "supercategory": "FUTURE",
+      "subcategory": "future perfect simple",
+      "title": "Future: future perfect simple",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b2",
+      "consolidation_level": "b2"
+    },
+    {
+      "family_id": "grammar.future.future_simple_with_will_and_shall",
+      "supercategory": "FUTURE",
+      "subcategory": "future simple (with will and shall)",
+      "title": "Future: future simple (with will and shall)",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.future.future_with_be_going_to",
+      "supercategory": "FUTURE",
+      "subcategory": "future with be going to",
+      "title": "Future: future with be going to",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.future.present_continuous_for_future_use",
+      "supercategory": "FUTURE",
+      "subcategory": "present continuous for future use",
+      "title": "Future: present continuous for future use",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.future.present_simple_for_future_use",
+      "supercategory": "FUTURE",
+      "subcategory": "present simple for future use",
+      "title": "Future: present simple for future use",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.adjectives",
+      "supercategory": "MODALITY",
+      "subcategory": "adjectives",
+      "title": "Modality: adjectives",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.adverbs",
+      "supercategory": "MODALITY",
+      "subcategory": "adverbs",
+      "title": "Modality: adverbs",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.can",
+      "supercategory": "MODALITY",
+      "subcategory": "can",
+      "title": "Modality: can",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.modality.could",
+      "supercategory": "MODALITY",
+      "subcategory": "could",
+      "title": "Modality: could",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.dare",
+      "supercategory": "MODALITY",
+      "subcategory": "dare",
+      "title": "Modality: dare",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b2",
+      "consolidation_level": "b2"
+    },
+    {
+      "family_id": "grammar.modality.expressions_with_be",
+      "supercategory": "MODALITY",
+      "subcategory": "expressions with be",
+      "title": "Modality: expressions with be",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.have_got_to",
+      "supercategory": "MODALITY",
+      "subcategory": "have (got) to",
+      "title": "Modality: have (got) to",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.may",
+      "supercategory": "MODALITY",
+      "subcategory": "may",
+      "title": "Modality: may",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.might",
+      "supercategory": "MODALITY",
+      "subcategory": "might",
+      "title": "Modality: might",
+      "feature_count": 5,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.must",
+      "supercategory": "MODALITY",
+      "subcategory": "must",
+      "title": "Modality: must",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.need",
+      "supercategory": "MODALITY",
+      "subcategory": "need",
+      "title": "Modality: need",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b2",
+      "consolidation_level": "b2"
+    },
+    {
+      "family_id": "grammar.modality.ought",
+      "supercategory": "MODALITY",
+      "subcategory": "ought",
+      "title": "Modality: ought",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.modality.shall",
+      "supercategory": "MODALITY",
+      "subcategory": "shall",
+      "title": "Modality: shall",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.should",
+      "supercategory": "MODALITY",
+      "subcategory": "should",
+      "title": "Modality: should",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.used_to",
+      "supercategory": "MODALITY",
+      "subcategory": "used to",
+      "title": "Modality: used to",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.modality.will",
+      "supercategory": "MODALITY",
+      "subcategory": "will",
+      "title": "Modality: will",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.modality.would",
+      "supercategory": "MODALITY",
+      "subcategory": "would",
+      "title": "Modality: would",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.negation.negation",
+      "supercategory": "NEGATION",
+      "subcategory": "negation",
+      "title": "Negation: negation",
+      "feature_count": 6,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.nouns.noun_phrases",
+      "supercategory": "NOUNS",
+      "subcategory": "noun phrases",
+      "title": "Nouns: noun phrases",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.nouns.noun_phrases_grammatical_functions",
+      "supercategory": "NOUNS",
+      "subcategory": "noun phrases - grammatical functions",
+      "title": "Nouns: noun phrases - grammatical functions",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.nouns.plural",
+      "supercategory": "NOUNS",
+      "subcategory": "plural",
+      "title": "Nouns: plural",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.nouns.types",
+      "supercategory": "NOUNS",
+      "subcategory": "types",
+      "title": "Nouns: types",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.nouns.uncountable",
+      "supercategory": "NOUNS",
+      "subcategory": "uncountable",
+      "title": "Nouns: uncountable",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.passives.get_and_have",
+      "supercategory": "PASSIVES",
+      "subcategory": "get and have",
+      "title": "Passives: get and have",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.passives.passives_form",
+      "supercategory": "PASSIVES",
+      "subcategory": "passives: form",
+      "title": "Passives: passives: form",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.past.past_continuous",
+      "supercategory": "PAST",
+      "subcategory": "past continuous",
+      "title": "Past: past continuous",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.past.past_perfect_continuous",
+      "supercategory": "PAST",
+      "subcategory": "past perfect continuous",
+      "title": "Past: past perfect continuous",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.past.past_perfect_simple",
+      "supercategory": "PAST",
+      "subcategory": "past perfect simple",
+      "title": "Past: past perfect simple",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.past.past_simple",
+      "supercategory": "PAST",
+      "subcategory": "past simple",
+      "title": "Past: past simple",
+      "feature_count": 5,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.past.present_perfect_continuous",
+      "supercategory": "PAST",
+      "subcategory": "present perfect continuous",
+      "title": "Past: present perfect continuous",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.past.present_perfect_simple",
+      "supercategory": "PAST",
+      "subcategory": "present perfect simple",
+      "title": "Past: present perfect simple",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.prepositions.prepostions",
+      "supercategory": "PREPOSITIONS",
+      "subcategory": "prepostions",
+      "title": "Prepositions: prepostions",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.present.present_continuous",
+      "supercategory": "PRESENT",
+      "subcategory": "present continuous",
+      "title": "Present: present continuous",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.present.present_simple",
+      "supercategory": "PRESENT",
+      "subcategory": "present simple",
+      "title": "Present: present simple",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.pronouns.demonstratives",
+      "supercategory": "PRONOUNS",
+      "subcategory": "demonstratives",
+      "title": "Pronouns: demonstratives",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.pronouns.generic_use",
+      "supercategory": "PRONOUNS",
+      "subcategory": "generic use",
+      "title": "Pronouns: generic use",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.pronouns.indefinite_thing_one_body_etc",
+      "supercategory": "PRONOUNS",
+      "subcategory": "indefinite - thing, -one, -body etc",
+      "title": "Pronouns: indefinite - thing, -one, -body etc",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.pronouns.possessive",
+      "supercategory": "PRONOUNS",
+      "subcategory": "possessive",
+      "title": "Pronouns: possessive",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.pronouns.quantity",
+      "supercategory": "PRONOUNS",
+      "subcategory": "quantity",
+      "title": "Pronouns: quantity",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.pronouns.reciprocal",
+      "supercategory": "PRONOUNS",
+      "subcategory": "reciprocal",
+      "title": "Pronouns: reciprocal",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.pronouns.reflexive",
+      "supercategory": "PRONOUNS",
+      "subcategory": "reflexive",
+      "title": "Pronouns: reflexive",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.pronouns.subject_object",
+      "supercategory": "PRONOUNS",
+      "subcategory": "subject/ object",
+      "title": "Pronouns: subject/ object",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.pronouns.substitution_one_ones_none",
+      "supercategory": "PRONOUNS",
+      "subcategory": "substitution, one, ones, none",
+      "title": "Pronouns: substitution, one, ones, none",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.questions.alternatives",
+      "supercategory": "QUESTIONS",
+      "subcategory": "alternatives",
+      "title": "Questions: alternatives",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.questions.tags",
+      "supercategory": "QUESTIONS",
+      "subcategory": "tags",
+      "title": "Questions: tags",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.questions.wh",
+      "supercategory": "QUESTIONS",
+      "subcategory": "wh-",
+      "title": "Questions: wh-",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.questions.yes_no",
+      "supercategory": "QUESTIONS",
+      "subcategory": "yes/no",
+      "title": "Questions: yes/no",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.reported_speech.reported_speech",
+      "supercategory": "REPORTED SPEECH",
+      "subcategory": "reported speech",
+      "title": "Reported Speech: reported speech",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.verbs.linking",
+      "supercategory": "VERBS",
+      "subcategory": "linking",
+      "title": "Verbs: linking",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.verbs.patterns_that_clauses",
+      "supercategory": "VERBS",
+      "subcategory": "patterns_that clauses",
+      "title": "Verbs: patterns_that clauses",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.verbs.patterns_with_to_and_ing",
+      "supercategory": "VERBS",
+      "subcategory": "patterns_with to and -ing",
+      "title": "Verbs: patterns_with to and -ing",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.verbs.phrasal",
+      "supercategory": "VERBS",
+      "subcategory": "phrasal",
+      "title": "Verbs: phrasal",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.verbs.phrasal_prepositional",
+      "supercategory": "VERBS",
+      "subcategory": "phrasal-prepositional",
+      "title": "Verbs: phrasal-prepositional",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.verbs.prepositional",
+      "supercategory": "VERBS",
+      "subcategory": "prepositional",
+      "title": "Verbs: prepositional",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.verbs.there_is_are",
+      "supercategory": "VERBS",
+      "subcategory": "there is/are",
+      "title": "Verbs: there is/are",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.verbs.types",
+      "supercategory": "VERBS",
+      "subcategory": "types",
+      "title": "Verbs: types",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
     }
   ]
 }

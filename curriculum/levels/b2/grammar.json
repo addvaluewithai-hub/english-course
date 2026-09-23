@@ -3,7 +3,7 @@
   "level": "B2",
   "category": "grammar",
   "inventory_semantics": "new_at_level",
-  "status": "extracted_pending_inventory_review",
+  "status": "canonical_egp_with_reviewed_gse_crosscheck_pending_inventory_lock",
   "canonical_source": "English Grammar Profile",
   "items": [
     {
@@ -3164,6 +3164,3502 @@
         "dataset": "egp_all_levels",
         "spreadsheet_row": 1222
       }
+    }
+  ],
+  "crosscheck_source": "Pearson GSE Grammar for adult learners 2023",
+  "crosscheck_policy": "GSE Grammar is supporting/cross-check evidence mapped to reviewed grammar supercategories; it does not create a second independent target inventory.",
+  "grammar_family_policy": "family_range_evidence_not_one_feature_one_target",
+  "grammar_family_stage_policy": "Only lifecycle stages explicitly present in the reviewed grammar-family source are copied; missing early-level stages are not invented.",
+  "counts": {
+    "canonical_egp_features": 243,
+    "gse_crosscheck_records": 64,
+    "grammar_family_stages": 91,
+    "source_evidenced_family_stages": 78
+  },
+  "gse_crosscheck_evidence": [
+    {
+      "evidence_id": "gse.grammar.2023.p33.002",
+      "source_text": "Can use a range of modals with passive infinitives referring to the present or future.",
+      "published_level": "B2",
+      "gse_score_or_range": "59",
+      "mode": "Productive use",
+      "structure": "modals + passive",
+      "example": "It could be done. It could be improved. The train might be delayed.",
+      "grammatical_categories": "Modal verb | Likelihood Modal verb | Ability Verb | Passive",
+      "supercategory_codes": [
+        "FUTURE",
+        "MODALITY",
+        "PASSIVES",
+        "PRESENT",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_future",
+        "gse_grammar_keyword_modality",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_present",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 33,
+          "page_end": 33,
+          "printed_page": "33",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "71b2b6c8966eb4dd5d4eb16f6264248e22327c68654a39a0d081c5a0926b4308"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p33.003",
+      "source_text": "Can refer to certainty and probability using ‘certain/likely/due to’ with verb phrases.",
+      "published_level": "B2",
+      "gse_score_or_range": "59",
+      "mode": "Productive use",
+      "structure": "‘certain/likely/due’ + ‘to’ + VPinf",
+      "example": "He’s certain to pass the exam. The train is likely to be late. When are they due to arrive?",
+      "grammatical_categories": "Phrase | With ‘be’ Phrase | With infinitive",
+      "supercategory_codes": [
+        "CLAUSES",
+        "MODALITY",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_modality",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 33,
+          "page_end": 33,
+          "printed_page": "33",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "77e96916675d442e41cbc5055b9a3ab43e651c988e6c530f45740c5fbceade8c"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p33.004",
+      "source_text": "Can omit the relative pronoun in defining (restrictive) relative clauses.",
+      "published_level": "B2",
+      "gse_score_or_range": "59",
+      "mode": "Productive use",
+      "structure": "omission of relative pronoun in defining/ restrictive clause",
+      "example": "He’s the friend (who) I told you about. That’s the movie (that) I wanted to see.",
+      "grammatical_categories": "Clause | Relative",
+      "supercategory_codes": [
+        "CLAUSES",
+        "NOUNS",
+        "PRONOUNS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_nouns",
+        "gse_grammar_keyword_pronouns"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 33,
+          "page_end": 33,
+          "printed_page": "33",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "4c943acf075137d80ec3a2d35e2885c6135cdd21ca6179b2cdb228711fd10567"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p33.005",
+      "source_text": "Can use ‘need’ with the passive infinitive to express necessity.",
+      "published_level": "B2",
+      "gse_score_or_range": "59",
+      "mode": "Productive use",
+      "structure": "‘need’ + passive infinitive",
+      "example": "The report needs to be completed this week. Homework needs to be handed in today.",
+      "grammatical_categories": "Modal verb | Obligation Phrase | With infinitive Verb | Passive",
+      "supercategory_codes": [
+        "CLAUSES",
+        "MODALITY",
+        "PASSIVES",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_modality",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 33,
+          "page_end": 33,
+          "printed_page": "33",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "ab0ce12d2925096266f53724fc1ce885682a0052b70814ca7715be21524fa544"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p33.006",
+      "source_text": "Can express alternative conditions with ‘whether … or not’.",
+      "published_level": "B2",
+      "gse_score_or_range": "59",
+      "mode": "Productive use",
+      "structure": "‘whether + VP1 + ‘or’ VP2/’whether or not’ +VP",
+      "example": "Whether she likes it or not, she’s coming with us. The show starts tomorrow, whether or not it rains.",
+      "grammatical_categories": "Conjunction | Coordinating Clause | Conditional",
+      "supercategory_codes": [
+        "CLAUSES",
+        "CONJUNCTIONS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 33,
+          "page_end": 33,
+          "printed_page": "33",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "0fa371a7fc084d660d09ac7bf640d1a73020fac1a6c68e6b41f3f967014281e0"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p33.007",
+      "source_text": "Can describe beliefs and opinions using verbs of judgement and evaluation in the passive.",
+      "published_level": "B2",
+      "gse_score_or_range": "59",
+      "mode": "Productive use",
+      "structure": "‘it’s thought/believed/considered/etc. + that’ + complement clause",
+      "example": "It’s believed that he died in Iraq. It’s expected that students will graduate in three years.",
+      "grammatical_categories": "Verb | Passive Clause | Dependent Clause | Reported speech and ideas",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PASSIVES",
+        "REPORTED SPEECH",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_reported_speech",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 33,
+          "page_end": 33,
+          "printed_page": "33",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "8f568848627dee22de62d353ffd48c8d3c16da64879c3ed7861d52ccb9cfe775"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p33.008",
+      "source_text": "Can use clauses with ‘It’ + ‘be’ … to emphasise the topic or main point.",
+      "published_level": "B2",
+      "gse_score_or_range": "59",
+      "mode": "Productive use",
+      "structure": "fronting: cleft sentences with ‘it + be’",
+      "example": "It’s the money that keeps me in this job. It was his accent that made him hard to understand.",
+      "grammatical_categories": "Clause | Clefting and fronting Phrase | With ‘be’",
+      "supercategory_codes": [
+        "CLAUSES",
+        "FOCUS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_focus"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 33,
+          "page_end": 33,
+          "printed_page": "33",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "003c5b40b57f1339b3c85a3c9fdee07fe3508a5185195de23ef850b84f226f09"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p33.009",
+      "source_text": "Can use verb phrases with ‘to’ + infinitive as subject and complement.",
+      "published_level": "B2",
+      "gse_score_or_range": "59",
+      "mode": "Productive use",
+      "structure": "VPinf as subject and complement",
+      "example": "My dream is to live in New York. The effect of the drug was to give him a headache.",
+      "grammatical_categories": "Phrase | With infinitive",
+      "supercategory_codes": [
+        "CLAUSES",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 33,
+          "page_end": 33,
+          "printed_page": "33",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "11cdf8de972f8657ddf78ad6f3b0f41c7af77c6b478037a3c7f2e94dae1dd1d0"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p33.010",
+      "source_text": "Can use clauses with ‘What ...’ to emphasise the topic or main point.",
+      "published_level": "B2",
+      "gse_score_or_range": "59",
+      "mode": "Productive use",
+      "structure": "fronting: cleft sentences with ‘What ...’",
+      "example": "What we need now is a good night’s sleep. What I said was that I don’t need your help.",
+      "grammatical_categories": "Clause | Clefting and fronting Clause | Relative",
+      "supercategory_codes": [
+        "CLAUSES",
+        "FOCUS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_focus"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 33,
+          "page_end": 33,
+          "printed_page": "33",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "fb42306dabdddfef69f51437d5b68deb735ae4c6d3ce4df7dda5aee702a8b742"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p33.011",
+      "source_text": "Can soften orders and requests by using verbs like ‘thought’, ‘wondered’, etc. in the past tense.",
+      "published_level": "B2",
+      "gse_score_or_range": "59",
+      "mode": "Productive use",
+      "structure": "softening orders and requests with past tense",
+      "example": "I thought perhaps you could help me. We hoped you’d come to our party. I was wondering if you could get me a ticket for the concert?",
+      "grammatical_categories": "Verb | Tense",
+      "supercategory_codes": [
+        "PAST",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 33,
+          "page_end": 33,
+          "printed_page": "33",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "578524494e5fd8ad62d12bf52d8b1f715d0c6b072b6b9064cb02ea028206eded"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p33.012",
+      "source_text": "Can use ‘while’, ‘whereas’ and ‘whilst’ (Br Eng) to contrast and compare actions and situations.",
+      "published_level": "B2",
+      "gse_score_or_range": "60",
+      "mode": "Productive use",
+      "structure": "‘while/whilst/whereas’ for contrast",
+      "example": "You enjoy running, whereas I find it very boring. While(st) I sympathise with you, I can’t forget about what you did.",
+      "grammatical_categories": "Conjunction | Concession and contrast Clause | Comparison",
+      "supercategory_codes": [
+        "ADJECTIVES",
+        "CLAUSES",
+        "CONJUNCTIONS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adjectives",
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 33,
+          "page_end": 33,
+          "printed_page": "33",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "bba3998878a3d9d7a8b0af4771f894dc780b0b4b0ed34e97b1f1d0a769467c08"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.001",
+      "source_text": "Can talk about past plans and intentions using ‘(not) meant/supposed to’ + infinitive.",
+      "published_level": "B2",
+      "gse_score_or_range": "60",
+      "mode": "Productive use",
+      "structure": "‘(not) meant/supposed to’ + infinitive",
+      "example": "It was meant to be fun. He wasn’t supposed to do that.",
+      "grammatical_categories": "Verb | Passive Phrase | With infinitive",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PASSIVES",
+        "PAST",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "87418f7cd2fddc5e050bda1e953a8dd5762fbee1088380b059f89de8d21abab8"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.002",
+      "source_text": "Can express prohibition in the present or future with ‘forbid’ and ‘(not) allow’.",
+      "published_level": "B2",
+      "gse_score_or_range": "60",
+      "mode": "Productive use",
+      "structure": "‘forbid/not allow’ + person + ‘to’ + VPinf",
+      "example": "I forbid you to speak to him. We won’t be allowed to take pictures.",
+      "grammatical_categories": "Phrase | With infinitive Verb | Passive",
+      "supercategory_codes": [
+        "CLAUSES",
+        "FUTURE",
+        "PASSIVES",
+        "PRESENT",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_future",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_present",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "a33d6a9389d6d277b2d1ec55ab814226e8c46c579a031fb5b761902b7d78fada"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.003",
+      "source_text": "Can report orders, requests and advice with infinitive clauses.",
+      "published_level": "B2",
+      "gse_score_or_range": "60",
+      "mode": "Productive use",
+      "structure": "reported orders/requests/advice with ‘to’ + VPinf+ VPinf",
+      "example": "She told me not to do it. He warned us not to be late. She encouraged him to study.",
+      "grammatical_categories": "Phrase | With infinitive Clause | Reported speech and ideas",
+      "supercategory_codes": [
+        "CLAUSES",
+        "REPORTED SPEECH",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_reported_speech",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "4fcdf497fd3ab32abc997835adda83ebbe87517ee6ec070db2a1d8c11e916e8b"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.004",
+      "source_text": "Can express negative purpose with ‘so as/ in order not to’.",
+      "published_level": "B2",
+      "gse_score_or_range": "60",
+      "mode": "Productive use",
+      "structure": "so as/in order’ + ‘not to’ + VPinf for negative purpose",
+      "example": "In order not to seem stupid, he didn’t say anything. I came in very quietly, so as not to wake anyone.",
+      "grammatical_categories": "Conjunction | Cause and result Phrase | With infinitive Clause | Negation",
+      "supercategory_codes": [
+        "CLAUSES",
+        "CONJUNCTIONS",
+        "NEGATION",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions",
+        "gse_grammar_keyword_negation",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "8b54ea838a2f41aba756212af7694315008ccfac97411b21e61d0a1e23c658c9"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.005",
+      "source_text": "Can correctly use defining (restrictive) and non-defining (non- restrictive) relative clauses.",
+      "published_level": "B2",
+      "gse_score_or_range": "60",
+      "mode": "Productive use",
+      "structure": "defining (restrictive) vs. non-defining (non- restrictive) relative clauses",
+      "example": "I told my sister, who already knew what happened. Tell only the people who need the information.",
+      "grammatical_categories": "Clause | Relative",
+      "supercategory_codes": [
+        "CLAUSES"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "e883685b227cd5ddf4bbe2e0675294a9b99619afd5e7ad06f735b88924fbc9fb"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.006",
+      "source_text": "Can use the future continuous with reference to actions in progress at a specific time in the future.",
+      "published_level": "B2",
+      "gse_score_or_range": "60",
+      "mode": "Productive use",
+      "structure": "future continuous",
+      "example": "This time tomorrow I’ll be flying to Rio. I’ll be driving home from work at 5 p.m. this evening.",
+      "grammatical_categories": "Verb | Tense Adverb | Time",
+      "supercategory_codes": [
+        "ADVERBS",
+        "FUTURE",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adverbs",
+        "gse_grammar_keyword_future",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "17cd003072c826f9c7d3d15e1fbcebcd8744c70678755c8b3b42ea58c8a3f76d"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.007",
+      "source_text": "Can use adverbials such as ‘however’, ‘on the other hand’, and ‘though’ to express concession.",
+      "published_level": "B2",
+      "gse_score_or_range": "61",
+      "mode": "Productive use",
+      "structure": "concessive adverbials",
+      "example": "I don’t earn much - however, I have plenty of free time. We’ll get there quicker by train. On the other hand, the bus is much cheaper.",
+      "grammatical_categories": "Conjunction | Concession and contrast Clause | Dependent",
+      "supercategory_codes": [
+        "ADVERBS",
+        "CLAUSES",
+        "CONJUNCTIONS",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adverbs",
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "26a45a5567b62ce1a435b5db5a4412417e72f38ca5fcdab6b72337220756fe5d"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.008",
+      "source_text": "Can make statements about appearance using ‘seem/appear’ (+ ‘like/that’) with complement clauses.",
+      "published_level": "B2",
+      "gse_score_or_range": "61",
+      "mode": "Productive use",
+      "structure": "‘seems/appears/looks’ (+ ‘like/that’) + complement clause",
+      "example": "It looks like he isn’t coming. It appears that John has misunderstood.",
+      "grammatical_categories": "Clause | Dependent Clause | Reported speech and ideas",
+      "supercategory_codes": [
+        "CLAUSES",
+        "REPORTED SPEECH"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_reported_speech"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "9c393220f7e08d25fba9abfaf8c68d32c16c191eded0082d3f5eabdd41160cdf"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.009",
+      "source_text": "Can construct phrases with ‘(not) worth ...’ and ‘(no) point ...’ to express the (lack of) usefulness or value of an action or suggestion.",
+      "published_level": "B2",
+      "gse_score_or_range": "61",
+      "mode": "Productive use",
+      "structure": "expressing (lack of) use or value in an action with ‘(not) worth/(no) point (in)’ + VPgerund",
+      "example": "There’s no point in talking about it. It’s not worth repairing such an old car.",
+      "grammatical_categories": "Phrase | With gerund (-ing)",
+      "supercategory_codes": [
+        "CLAUSES"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "0375841d1bceb8f93175faccd456e02838ad5f4d987dc896fe345ac3628fba67"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.010",
+      "source_text": "Can emphasise a statement by adding ‘do’ or ‘did’.",
+      "published_level": "B2",
+      "gse_score_or_range": "61",
+      "mode": "Productive use",
+      "structure": "additional auxiliary ‘do’ or ‘did’ for stress or emphasis",
+      "example": "He does look nice in his new suit. I didn’t get to see John, but I did see his mother.",
+      "grammatical_categories": "Verb | Auxiliary",
+      "supercategory_codes": [
+        "FOCUS",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_focus",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "a100db1e377c099abbb7d3cfa8d0584206fb0949925972612a9cd614f4dd2185"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.011",
+      "source_text": "Can express past intentions and plans with ‘thinking of’ and verbs in the gerund.",
+      "published_level": "B2",
+      "gse_score_or_range": "61",
+      "mode": "Productive use",
+      "structure": "NP + ‘was/were thinking of’ + VPgerund",
+      "example": "We were thinking of selling the house. Were you thinking of driving there?",
+      "grammatical_categories": "Phrase | With gerund (-ing) Preposition | Complementiser Verb | Tense",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PAST",
+        "PREPOSITIONS",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_prepositions",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "542e68f5e8a70626cc549e11dc0d8ba80debc5a0e40389dae50ac11cef18101f"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.012",
+      "source_text": "Can use non-defining (non-restrictive) relative clauses to make a comment.",
+      "published_level": "B2",
+      "gse_score_or_range": "61",
+      "mode": "Productive use",
+      "structure": "non-defining relative clause for comment",
+      "example": "He was late, which was unusual. It’s raining, which is really annoying.",
+      "grammatical_categories": "Clause | Relative",
+      "supercategory_codes": [
+        "CLAUSES"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "3d1baec8f5273347d8c7e76fecec94193de00085f5eb28a140856424fe2e75ff"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.013",
+      "source_text": "Can describe past beliefs and opinions using ‘it was’ + passive forms of verbs of judgement and evaluation.",
+      "published_level": "B2",
+      "gse_score_or_range": "61",
+      "mode": "Productive use",
+      "structure": "it’s/it was thought/believed/considered/ etc.(that)’ + complement clause",
+      "example": "It was expected that women would get married in their 20s. It was thought that all the records had been destroyed.",
+      "grammatical_categories": "Verb | Passive Clause | Dependent Verb | Tense",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PASSIVES",
+        "PAST",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "5edd3bb018e0814ebad47c57abbd523f4f4bd80485452b0b8b12d0f07e598339"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p34.014",
+      "source_text": "Can speak about information acquired from others using ‘hear’ + ‘(that +)’ complement clause.",
+      "published_level": "B2",
+      "gse_score_or_range": "62",
+      "mode": "Productive use",
+      "structure": "‘hear’ + ‘(that)’ + complement clause",
+      "example": "I hear that John and Susie are getting married. I’ve heard that Martin’s lost his job.",
+      "grammatical_categories": "Clause | Reported speech and ideas Conjunction | Coordinating",
+      "supercategory_codes": [
+        "CLAUSES",
+        "CONJUNCTIONS",
+        "REPORTED SPEECH"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions",
+        "gse_grammar_keyword_reported_speech"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 34,
+          "page_end": 34,
+          "printed_page": "34",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "117f4af65d99effe1c7450cf2440dd1772a6ead87bb690d40745139b4ed03e61"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.001",
+      "source_text": "Can use ‘ought(n’t) to’ to offer or ask for advice or suggestions.",
+      "published_level": "B2",
+      "gse_score_or_range": "62",
+      "mode": "Productive use",
+      "structure": "‘ought(n’t)’ to for advice or suggestions",
+      "example": "You ought to go to a doctor. He oughtn’t to drink so much. Where ought we to go?",
+      "grammatical_categories": "Modal verb | Obligation Phrase | With infinitive",
+      "supercategory_codes": [
+        "CLAUSES",
+        "MODALITY",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_modality",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "5c54da85858cfb55c83c2a0ea5ec4ad55792ee73e46135bc281393bc1bbbf729"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.002",
+      "source_text": "Can use ‘as soon as’ with the past simple and past perfect.",
+      "published_level": "B2",
+      "gse_score_or_range": "62",
+      "mode": "Productive use",
+      "structure": "‘as soon as’ + past simple + past perfect",
+      "example": "I handed the work in as soon as I had finished it. As soon as she’d eaten, she fell asleep.",
+      "grammatical_categories": "Conjunction | Time Verb | Tense",
+      "supercategory_codes": [
+        "CONJUNCTIONS",
+        "PAST",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_conjunctions",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "2ccaa33dbab0fa92cd95f198efdeaa9a6fbb1486c3beb44ccc6e85d71e41b626"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.003",
+      "source_text": "Can use the past perfect continuous in a range of common situations.",
+      "published_level": "B2",
+      "gse_score_or_range": "62",
+      "mode": "Productive use",
+      "structure": "past perfect continuous",
+      "example": "I’d been living in London for three years when I met her. How long had you been waiting when I arrived?",
+      "grammatical_categories": "Verb | Tense Verb | Auxiliary",
+      "supercategory_codes": [
+        "PAST",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "5209908e833d73418dd5612edf47c0cfa58e8a2f4f702357f40011cc52bdefec"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.004",
+      "source_text": "Can use a range of common reporting verbs with ‘that’ + complement clause.",
+      "published_level": "B2",
+      "gse_score_or_range": "62",
+      "mode": "Productive use",
+      "structure": "reporting verbs + ‘that’ + complement clause",
+      "example": "He suggested that we come back later. She warned me that she would have to tell her father.",
+      "grammatical_categories": "Clause | Reported speech and ideas Conjunction | Coordinating Clause | Dependent",
+      "supercategory_codes": [
+        "CLAUSES",
+        "CONJUNCTIONS",
+        "REPORTED SPEECH",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions",
+        "gse_grammar_keyword_reported_speech",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "4f0920e2e0ee4c7a9cb66abedbab7444111662acd264cae77f38262d3bf35d32"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.005",
+      "source_text": "Can use ‘I wish/if only …’ to express regrets and wishes about the past.",
+      "published_level": "B2",
+      "gse_score_or_range": "62",
+      "mode": "Productive use",
+      "structure": "past regrets with ‘I wish/if only’",
+      "example": "If only I’d worked harder. I wish we’d bought that house.",
+      "grammatical_categories": "Modal verb | Wishes and intentions Verb | Tense",
+      "supercategory_codes": [
+        "MODALITY",
+        "PAST",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_modality",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "eecec93d9f990eacdc5c7b22e1dda6024c44120af4d026c7f7c2df92dbf10250"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.006",
+      "source_text": "Can make complex comparisons between verb/noun phrases.",
+      "published_level": "B2",
+      "gse_score_or_range": "62",
+      "mode": "Productive use",
+      "structure": "VP1/NP1 + comparative adjective + ‘than’ + VP2/NP1",
+      "example": "Being happy is more important than making money. The loss of his job made a bigger difference than the end of his marriage.",
+      "grammatical_categories": "Adjective | Comparison Conjunction | Coordinating",
+      "supercategory_codes": [
+        "ADJECTIVES",
+        "CLAUSES",
+        "CONJUNCTIONS",
+        "NOUNS",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adjectives",
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions",
+        "gse_grammar_keyword_nouns",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "e037572605bef62b3b71a1f4bfa2fd91391490f8f3465eadab19378cde819174"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.007",
+      "source_text": "Can use ‘need’ with verbs in the gerund to express necessity.",
+      "published_level": "B2",
+      "gse_score_or_range": "63",
+      "mode": "Productive use",
+      "structure": "‘need’ + VPgerund",
+      "example": "My hair needs cutting. The children need picking up.",
+      "grammatical_categories": "Modal verb | Obligation Phrase | With gerund (-ing)",
+      "supercategory_codes": [
+        "CLAUSES",
+        "MODALITY",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_modality",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "10856c915ab1286237ac45f949cf9a5e86df5dafe26c9f3358ce4c94eb3ae357"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.008",
+      "source_text": "Can use the past perfect with adverbial clauses of time.",
+      "published_level": "B2",
+      "gse_score_or_range": "63",
+      "mode": "Productive use",
+      "structure": "past perfect with adverbial clauses of time",
+      "example": "I remembered it after I’d already left home. By the time I got there she’d gone.",
+      "grammatical_categories": "Clause | Time Verb | Tense Adverb | Time",
+      "supercategory_codes": [
+        "ADVERBS",
+        "CLAUSES",
+        "PAST",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adverbs",
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "c60d6fcc68cd4bc35b7b780123d8855eb481f11d4b3f08d407f4b0c13ad02b61"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.009",
+      "source_text": "Can use the past perfect passive.",
+      "published_level": "B2",
+      "gse_score_or_range": "64",
+      "mode": "Productive use",
+      "structure": "past perfect passive",
+      "example": "The goods had already been stolen. It had all been said before. The show had been cancelled.",
+      "grammatical_categories": "Verb | Passive Verb | Tense",
+      "supercategory_codes": [
+        "PASSIVES",
+        "PAST",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "c6140fe6b45490b289f914d60bf9a01dd99d0df9774649255d5362e6c55e01f0"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.010",
+      "source_text": "Can use noun phrases in place of verb phrases in formal written language.",
+      "published_level": "B2",
+      "gse_score_or_range": "64",
+      "mode": "Productive use",
+      "structure": "noun phrases to verb phrases (nominalisation)",
+      "example": "The weather has changed, which surprised us. vs. The change in the weather surprised us. The money disappeared, which puzzled Marian. vs. Marian was puzzled by the disappearance of the money.",
+      "grammatical_categories": "Clause | Basic construction hrase | Clefting and fronting",
+      "supercategory_codes": [
+        "CLAUSES",
+        "FOCUS",
+        "NOUNS",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_focus",
+        "gse_grammar_keyword_nouns",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "2535fe35d0f993fcef0e74cfdfa2abcb893bd23d8b90f1f1818f7e3255526257"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.011",
+      "source_text": "Can use gerunds in the passive form as complement.",
+      "published_level": "B2",
+      "gse_score_or_range": "64",
+      "mode": "Productive use",
+      "structure": "NP + VP +VPgerund (passive)",
+      "example": "My mother loves being taken out. Children enjoy being read to.",
+      "grammatical_categories": "Phrase | With gerund (-ing) Verb | Passive",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PASSIVES",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "c0bfe9650f31d959e9ebd97e566a3c3f9a8f545084639965e69f40eef2c2ed98"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.012",
+      "source_text": "Can use a range of complex conjunctions in conditional statements (all three types).",
+      "published_level": "B2",
+      "gse_score_or_range": "64",
+      "mode": "Productive use",
+      "structure": "clause1 (action or event) + ‘on condition that/as long as/ providing that/provided that’ + clause 2 (condition)",
+      "example": "on condition that as long as providing/provided that",
+      "grammatical_categories": "Clause | Conditional Conjunction | Cause and result",
+      "supercategory_codes": [
+        "CLAUSES",
+        "CONJUNCTIONS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "7cb92469a70d68dca415691795d92cce3722800af4df9df7510f0a457bc04ebb"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.013",
+      "source_text": "Can use ‘will’ + infinitive for orders and instructions.",
+      "published_level": "B2",
+      "gse_score_or_range": "65",
+      "mode": "Productive use",
+      "structure": "‘he/you/they will’ + VPinf for instructions",
+      "example": "You will do as you are told. They will wait till they’re called.",
+      "grammatical_categories": "Modal verb | Obligation Verb | Imperative Verb | Tense",
+      "supercategory_codes": [
+        "MODALITY",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_modality",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "f093e3f50440b3cf15158c1f8cf5a039bcc3be5b5533c515c82c4476343b92aa"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p35.014",
+      "source_text": "Can make complex comparisons between clauses.",
+      "published_level": "B2",
+      "gse_score_or_range": "66",
+      "mode": "Productive use",
+      "structure": "clause1 + comparative adjective + ‘than’ + clause2",
+      "example": "There’s more work to do than we have time for. She was more concerned with getting the job done than with doing it well.",
+      "grammatical_categories": "Adjective | Comparison Conjunction | Coordinating",
+      "supercategory_codes": [
+        "ADJECTIVES",
+        "CLAUSES",
+        "CONJUNCTIONS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adjectives",
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 35,
+          "page_end": 35,
+          "printed_page": "35",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "59547f1d5ebec06a973d37e1e4b6279470499a5c760ebe71b9ff23568eb8f173"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.001",
+      "source_text": "Can express purpose using ‘so as to’ with infinitive clauses.",
+      "published_level": "B2",
+      "gse_score_or_range": "66",
+      "mode": "Productive use",
+      "structure": "‘so as to’ + VPinf for purpose",
+      "example": "I got up at 6:00 so as to be on time. So as to keep fit, I go for a run every morning.",
+      "grammatical_categories": "Conjunction | Cause and result Phrase | With infinitive",
+      "supercategory_codes": [
+        "CLAUSES",
+        "CONJUNCTIONS",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "2b893ee37765b6b4a900247fb62c58478176fec69f8178eb992760e210961f13"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.002",
+      "source_text": "Can express regrets and preferences with ‘would rather/it’s time’ with past tense clauses.",
+      "published_level": "B2",
+      "gse_score_or_range": "66",
+      "mode": "Productive use",
+      "structure": "‘would rather/it’s time’ + VP (past)",
+      "example": "I’d rather we stayed in tonight. I’d rather we went to the cinema. It’s time we left.",
+      "grammatical_categories": "Modal verb | Wishes and intentions",
+      "supercategory_codes": [
+        "CLAUSES",
+        "MODALITY",
+        "PAST",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_modality",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "e4c9fd256ceada3a5b0d990b5d463ed9fa1eaca45f397b6f96874fe256b34018"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.003",
+      "source_text": "Can use ‘as if/as though’ with the present simple to refer to what appears to be the case.",
+      "published_level": "B2",
+      "gse_score_or_range": "66",
+      "mode": "Productive use",
+      "structure": "‘as if/as though’ + complement clause (present; equivalent to first conditional)",
+      "example": "It looks as though they’re not coming.",
+      "grammatical_categories": "Clause | Conditional Verb | Tense",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PRESENT",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_present",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "fc097ab607e45ab55a1d2d223ce1bfddf18eabb89786122611f0934479e61456"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.004",
+      "source_text": "Can omit subject + ‘be’ after ‘if’ in fixed expressions.",
+      "published_level": "B2",
+      "gse_score_or_range": "66",
+      "mode": "Productive use",
+      "structure": "‘if’ + adjective/NP/PP with omission of pronoun + ‘be’",
+      "example": "if necessary, if any, if anything, if in doubt",
+      "grammatical_categories": "Clause | Conditional Phrase | Basic construction",
+      "supercategory_codes": [
+        "ADJECTIVES",
+        "CLAUSES",
+        "NOUNS",
+        "PRONOUNS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adjectives",
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_nouns",
+        "gse_grammar_keyword_pronouns"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "1e257f2197685d76b27d0815e298f6f0960349752429a22ec3b6722eaa5714b7"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.005",
+      "source_text": "Can use ‘shall’ + infinitive for formal first- person statements about the future.",
+      "published_level": "B2",
+      "gse_score_or_range": "66",
+      "mode": "Productive use",
+      "structure": "‘I/we shall’ + VPinf",
+      "example": "I shall do my best.",
+      "grammatical_categories": "Modal verb | Wishes and intentions Verb | Tense",
+      "supercategory_codes": [
+        "FUTURE",
+        "MODALITY",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_future",
+        "gse_grammar_keyword_modality",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "21d9f2a0cf10febee52fa862d7bb964a491c89fe80ffe6db65da2d53d4d69100"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.006",
+      "source_text": "Can use the future perfect with reference to actions to be completed by a specific time in the future.",
+      "published_level": "B2",
+      "gse_score_or_range": "66",
+      "mode": "Productive use",
+      "structure": "future perfect",
+      "example": "I’ll have finished it by Saturday. The match won’t have finished by 8 p.m.",
+      "grammatical_categories": "Verb | Tense Adverb | Time Preposition | Time",
+      "supercategory_codes": [
+        "ADVERBS",
+        "FUTURE",
+        "PREPOSITIONS",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adverbs",
+        "gse_grammar_keyword_future",
+        "gse_grammar_keyword_prepositions",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "a047b3d313de4a3064f4bee4fd2f9b1df4720ab1029588af1d222a6cad8cac01"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.007",
+      "source_text": "Can use adverbial phrases to make comments.",
+      "published_level": "B2",
+      "gse_score_or_range": "66",
+      "mode": "Productive use",
+      "structure": "adverbial phrases for comment",
+      "example": "Practically speaking … At the end of the day... Taking the long view…",
+      "grammatical_categories": "Adverb | Modifier Phrase | Clefting and fronting",
+      "supercategory_codes": [
+        "ADVERBS",
+        "CLAUSES",
+        "FOCUS",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adverbs",
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_focus",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2 (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "b07f02dca32e775db01cc6ae8e954ca0de26a7513f86f2d5943d165e9ba44935"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.008",
+      "source_text": "Can use the future perfect passive.",
+      "published_level": "B2",
+      "gse_score_or_range": "67",
+      "mode": "Productive use",
+      "structure": "future perfect passive",
+      "example": "The job will have been completed by next month. The package will have been delivered before you get home.",
+      "grammatical_categories": "Verb | Passive Verb | Tense",
+      "supercategory_codes": [
+        "FUTURE",
+        "PASSIVES",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_future",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "fef8ccffb905e1b58cbc582a5ff0e8146459b393f8cb80bc879d2797e8f19ec9"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.009",
+      "source_text": "Can use ‘it is/was believed/reported that’ + VP to report beliefs, reportes, rumours, etc.",
+      "published_level": "B2",
+      "gse_score_or_range": "67",
+      "mode": "Productive use",
+      "structure": "passive reporting structures: ‘it’ + ‘be’ + ‘believed/reported that’ + VP",
+      "example": "It’s now believed that over 300 people died in the fire. It was reported that the army had taken control of the capital.",
+      "grammatical_categories": "Clause | Reported speech and ideas",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PASSIVES",
+        "REPORTED SPEECH"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_reported_speech"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "8c4143e175352c7033b8c0fe56ffc09991183a4d842fd3b44453636cb2f097a0"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.010",
+      "source_text": "Can describe hypothetical current results of a past action or situation using ‘would …’ with the third conditional.",
+      "published_level": "B2",
+      "gse_score_or_range": "67",
+      "mode": "Productive use",
+      "structure": "‘if’ + past perfect, hypothetical with ‘would’ + VPinf (present)",
+      "example": "If I’d worked harder at school, I’d have a better job now. She would be here now if anyone had told her about the party.",
+      "grammatical_categories": "Clause | Conditional Clause | Result/cause Verb | Tense",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PAST",
+        "PRESENT",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_present",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "d7b0c5a4199f7004fe18941dce83f3762284c046af16ea95bcb8f27aec4eb152"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.011",
+      "source_text": "Can use initial ‘No matter’ with relative pronouns for emphatic statements about the present and near future.",
+      "published_level": "B2",
+      "gse_score_or_range": "68",
+      "mode": "Productive use",
+      "structure": "‘No matter’ + relative pronoun + clause",
+      "example": "No matter what you say, I’m coming. No matter how much it costs, we’re buying it.",
+      "grammatical_categories": "Clause | Clefting and fronting Clause | Relative",
+      "supercategory_codes": [
+        "CLAUSES",
+        "FOCUS",
+        "FUTURE",
+        "NOUNS",
+        "PRESENT",
+        "PRONOUNS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_focus",
+        "gse_grammar_keyword_future",
+        "gse_grammar_keyword_nouns",
+        "gse_grammar_keyword_present",
+        "gse_grammar_keyword_pronouns"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "24f322fc5ad78f5cd6966c4f692d7d64f7fe9bfc1de89ee2541545c5d6366ed5"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p36.012",
+      "source_text": "Can express beliefs and opinions with ‘is/ are/was/were’ + ‘thought/believed to…’.",
+      "published_level": "B2",
+      "gse_score_or_range": "69",
+      "mode": "Productive use",
+      "structure": "NP + ‘be’ + ‘thought/considered/believed/ etc. to’ + VPinf",
+      "example": "He’s thought to be about 50. Everyone was believed to have died in the fire.",
+      "grammatical_categories": "Verb | Passive Phrase | With infinitive Clause | Reported speech and ideas",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PASSIVES",
+        "REPORTED SPEECH",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_reported_speech",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 36,
+          "page_end": 36,
+          "printed_page": "36",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "ddc5055d9fcbc2d6e2339c96c9a439d80a1a662d3e668b6ddc0f34e6a812813f"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.001",
+      "source_text": "Can use ‘should’ in hypothetical statements about the present and near future with inversion and omission of ‘if’.",
+      "published_level": "B2",
+      "gse_score_or_range": "70",
+      "mode": "Productive use",
+      "structure": "‘should’ + NP + VP. ‘would’ clause (second conditional)",
+      "example": "Should you wish to invest in the business, please contact our office.",
+      "grammatical_categories": "Clause | Conditional Verb | Tags and question forms",
+      "supercategory_codes": [
+        "CLAUSES",
+        "FUTURE",
+        "PRESENT",
+        "QUESTIONS",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_future",
+        "gse_grammar_keyword_present",
+        "gse_grammar_keyword_questions",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "4f74610a989c94de9b3b0e1f9ece137dc95905c0aeb7d51f70fe54dc41bb90b9"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.002",
+      "source_text": "Can use ‘as if/as though’ with the past simple to refer to hypothetical or counterfactual circumstances.",
+      "published_level": "B2",
+      "gse_score_or_range": "71",
+      "mode": "Productive use",
+      "structure": "‘as if/as though’ + complement clause (past simple; equivalent to second conditional)",
+      "example": "You talk as though we didn’t know each other.",
+      "grammatical_categories": "Clause | Conditional Verb | Tense",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PAST",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "df2cfd3f92abeb1e8f9311ef28493381ebd83d3b1b1953effd31265dbf36a830"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.003",
+      "source_text": "Can ask questions with ‘is it/was it’ and complement clauses.",
+      "published_level": "B2",
+      "gse_score_or_range": "71",
+      "mode": "Productive use",
+      "structure": "‘wh-’ word + ‘is/was it’ + complement clause (question)",
+      "example": "What was it you wanted? Where is it that you were brought up?",
+      "grammatical_categories": "Phrase | Clefting and fronting Clause | Relative",
+      "supercategory_codes": [
+        "CLAUSES",
+        "FOCUS",
+        "QUESTIONS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_focus",
+        "gse_grammar_keyword_questions"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "7573828bd1d294b6a3d0aa0d3f850f8fc2e39bbb37ecd0a449e77715d8a5dba7"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.004",
+      "source_text": "Can use a range of cleft sentences in the present, past and future.",
+      "published_level": "B2",
+      "gse_score_or_range": "71",
+      "mode": "Productive use",
+      "structure": "cleft sentences (fronting)",
+      "example": "The fact is that we can’t go. What we’ll do is call the airport. What we did in the end was to apologise.",
+      "grammatical_categories": "Phrase | Clefting and fronting",
+      "supercategory_codes": [
+        "CLAUSES",
+        "FOCUS",
+        "FUTURE",
+        "PAST",
+        "PRESENT"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_focus",
+        "gse_grammar_keyword_future",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_present"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "25ec0d39377587000f1339c3ebb349fc497a696998d51590d993ee214a66ad0b"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.005",
+      "source_text": "Can add information using ‘not only … but also …’",
+      "published_level": "B2",
+      "gse_score_or_range": "71",
+      "mode": "Productive use",
+      "structure": "‘not only’ + ‘but also’",
+      "example": "The information is not only poorly presented, but also inaccurate.",
+      "grammatical_categories": "Clause | Result/cause",
+      "supercategory_codes": [
+        "CLAUSES"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "a501434b47a75c762b631f876e30b932e9576e3b19eabffe9267c2c862c8c673"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.006",
+      "source_text": "Can order a sequence of events using an appended clause with present participle or ‘having’ + past participle.",
+      "published_level": "B2",
+      "gse_score_or_range": "71",
+      "mode": "Productive use",
+      "structure": "reduced adverbial clauses with present participle or ‘having’ + past participle",
+      "example": "Walking into the room, I bumped into Hiro. Having bought the tickets, we went for a coffee.",
+      "grammatical_categories": "Clause | Appended (participle) Clause | Dependent",
+      "supercategory_codes": [
+        "ADVERBS",
+        "CLAUSES",
+        "PAST",
+        "PRESENT",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adverbs",
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_present",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "54313cae7a6c6217ed3658a2bf2865f8f37fdaf40cebf41786a8e7e0db2a9c39"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.007",
+      "source_text": "Can describe present or future outcomes of a hypothetical situation using initial ‘only if’ with inversion of subject and object.",
+      "published_level": "B2",
+      "gse_score_or_range": "71",
+      "mode": "Productive use",
+      "structure": "‘Only if’ + first/second conditional with inversion",
+      "example": "Only if you pay now will you avoid prosecution. Only if the weather conditions became much worse would they turn back.",
+      "grammatical_categories": "Clause | Conditional Clause | Clefting and fronting",
+      "supercategory_codes": [
+        "CLAUSES",
+        "FOCUS",
+        "FUTURE",
+        "PRESENT"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_focus",
+        "gse_grammar_keyword_future",
+        "gse_grammar_keyword_present"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "9057bd5d224cb585453289b4df12957ecc7f123439407895b83e5cea8ccc2bfa"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.008",
+      "source_text": "Can use ‘one’s’ as an impersonal possessive adjective.",
+      "published_level": "B2",
+      "gse_score_or_range": "71",
+      "mode": "Productive use",
+      "structure": "‘one’s’ as generic possessive adjective",
+      "example": "One should always do one’s best.",
+      "grammatical_categories": "Pronoun | Generic/impersonal Noun | Possessive (genitive)",
+      "supercategory_codes": [
+        "ADJECTIVES",
+        "NOUNS",
+        "PRONOUNS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adjectives",
+        "gse_grammar_keyword_nouns",
+        "gse_grammar_keyword_pronouns"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "2aba148f8836cf9e9cd9e44bfb6fbdce0752656c20e77bc258f235032e1b1c1d"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.009",
+      "source_text": "Can use ‘on the point of’ (Br Eng) to talk about imminent events in the present and past.",
+      "published_level": "B2",
+      "gse_score_or_range": "71",
+      "mode": "Productive use",
+      "structure": "immediate future with ‘on the point of’ + VPgerund",
+      "example": "She’s on the point of leaving her job. We were on the point of going out when Jane called.",
+      "grammatical_categories": "Adverb | Time Phrase | With gerund (-ing)",
+      "supercategory_codes": [
+        "ADVERBS",
+        "CLAUSES",
+        "FUTURE",
+        "PAST",
+        "PRESENT",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adverbs",
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_future",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_present",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "f7cbaa8c73b08b250e98bd97272e9866a9b3cf9348a16048306b62664b96adbd"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.010",
+      "source_text": "Can use ‘as if/as though’ with the past perfect to refer to hypothetical (counterfactual) circumstances in the past.",
+      "published_level": "B2",
+      "gse_score_or_range": "71",
+      "mode": "Productive use",
+      "structure": "‘as if/as though’ + complement clause (past perfect; equivalent to third conditional)",
+      "example": "The house looked as though no one had lived there for years.",
+      "grammatical_categories": "Clause | Conditional Conjunction | Coordinating Verb | Tense",
+      "supercategory_codes": [
+        "CLAUSES",
+        "CONJUNCTIONS",
+        "PAST",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions",
+        "gse_grammar_keyword_past",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "a3ce1932f510e2cf387c5b1f041681e620fbc90668df539fbb2a3a1897e1fa70"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.011",
+      "source_text": "Can use ‘since …’ to talk about reasons, causes and explanations.",
+      "published_level": "B2",
+      "gse_score_or_range": "72",
+      "mode": "Productive use",
+      "structure": "‘since’ (=because) + sub-clause",
+      "example": "Since you don’t need your car today, can I borrow it? I assumed that you were out, since the lights were off.",
+      "grammatical_categories": "Clause | Result/cause Conjunction | Cause and result",
+      "supercategory_codes": [
+        "CLAUSES",
+        "CONJUNCTIONS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_conjunctions"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "4d3d0267affd6b4059ed8d7475939ca2cdf2b5842f75e3e73a5aabff3828f37e"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.012",
+      "source_text": "Can express impersonal belief and opinion using ‘thought/believed to …’",
+      "published_level": "B2",
+      "gse_score_or_range": "73",
+      "mode": "Productive use",
+      "structure": "‘thought/considered/believed/etc.’ +’ to’ + VPinf",
+      "example": "Leonardo is often thought to be the greatest artist who ever lived. This is believed to be the most valuable diamond in the world.",
+      "grammatical_categories": "Phrase | With infinitive Verb | Passive",
+      "supercategory_codes": [
+        "CLAUSES",
+        "PASSIVES",
+        "PRONOUNS",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_passives",
+        "gse_grammar_keyword_pronouns",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "d66b9ed440749b4c78b4be346ec7e854b0a4d2b58e7e6a0ad9aaa43cd9c2461a"
+      }
+    },
+    {
+      "evidence_id": "gse.grammar.2023.p37.013",
+      "source_text": "Can invert subject and verb after initial complex adverbials.",
+      "published_level": "B2",
+      "gse_score_or_range": "74",
+      "mode": "Productive use",
+      "structure": "inversion with negative adverbials",
+      "example": "In no way do I approve of the way he talked to you. Under no circumstances should you approach him.",
+      "grammatical_categories": "Clause | Clefting and fronting",
+      "supercategory_codes": [
+        "ADVERBS",
+        "CLAUSES",
+        "FOCUS",
+        "NEGATION",
+        "VERBS"
+      ],
+      "mapping_rule_ids": [
+        "gse_grammar_keyword_adverbs",
+        "gse_grammar_keyword_clauses",
+        "gse_grammar_keyword_focus",
+        "gse_grammar_keyword_negation",
+        "gse_grammar_keyword_verbs"
+      ],
+      "source_ref": {
+        "source_id": "pearson.gse_grammar_adult_2023",
+        "source_version": "2023",
+        "location": {
+          "kind": "pdf_page",
+          "page": 37,
+          "page_end": 37,
+          "printed_page": "37",
+          "section": "B2+ (59-66)"
+        },
+        "raw_file": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+        "source_file_sha256": "5F25E7603BD03DFA3D771BBFDCD36C123CA971DA34F81B29457A1D35C45B6BA9",
+        "source_text_sha256": "ff0e057f737c0158699901269d287c73a6752b0fc6f75c187b8fd7e9027a94b1"
+      }
+    }
+  ],
+  "grammar_family_stages": [
+    {
+      "family_id": "grammar.adjectives.combining",
+      "supercategory": "ADJECTIVES",
+      "subcategory": "combining",
+      "title": "Adjectives: combining",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adjectives.comparatives",
+      "supercategory": "ADJECTIVES",
+      "subcategory": "comparatives",
+      "title": "Adjectives: comparatives",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.adjectives.modifying",
+      "supercategory": "ADJECTIVES",
+      "subcategory": "modifying",
+      "title": "Adjectives: modifying",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adjectives.position",
+      "supercategory": "ADJECTIVES",
+      "subcategory": "position",
+      "title": "Adjectives: position",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adjectives.superlatives",
+      "supercategory": "ADJECTIVES",
+      "subcategory": "superlatives",
+      "title": "Adjectives: superlatives",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adverbs.adverb_phrases_form",
+      "supercategory": "ADVERBS",
+      "subcategory": "adverb phrases - form",
+      "title": "Adverbs: adverb phrases - form",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adverbs.adverbs_and_adverb_phrases_types_and_meanings",
+      "supercategory": "ADVERBS",
+      "subcategory": "adverbs and adverb phrases: types and meanings",
+      "title": "Adverbs: adverbs and adverb phrases: types and meanings",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adverbs.adverbs_as_modifiers",
+      "supercategory": "ADVERBS",
+      "subcategory": "adverbs as modifiers",
+      "title": "Adverbs: adverbs as modifiers",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.adverbs.position",
+      "supercategory": "ADVERBS",
+      "subcategory": "position",
+      "title": "Adverbs: position",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.clauses.comparatives",
+      "supercategory": "CLAUSES",
+      "subcategory": "comparatives",
+      "title": "Clauses: comparatives",
+      "feature_count": 6,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.clauses.conditional",
+      "supercategory": "CLAUSES",
+      "subcategory": "conditional",
+      "title": "Clauses: conditional",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.clauses.coordinated",
+      "supercategory": "CLAUSES",
+      "subcategory": "coordinated",
+      "title": "Clauses: coordinated",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.clauses.declarative",
+      "supercategory": "CLAUSES",
+      "subcategory": "declarative",
+      "title": "Clauses: declarative",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.clauses.imperatives",
+      "supercategory": "CLAUSES",
+      "subcategory": "imperatives",
+      "title": "Clauses: imperatives",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.clauses.interrogatives",
+      "supercategory": "CLAUSES",
+      "subcategory": "interrogatives",
+      "title": "Clauses: interrogatives",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.clauses.phrases_exclamations",
+      "supercategory": "CLAUSES",
+      "subcategory": "phrases/exclamations",
+      "title": "Clauses: phrases/exclamations",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.clauses.relative",
+      "supercategory": "CLAUSES",
+      "subcategory": "relative",
+      "title": "Clauses: relative",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.clauses.subordinated",
+      "supercategory": "CLAUSES",
+      "subcategory": "subordinated",
+      "title": "Clauses: subordinated",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.conjunctions.coordinating",
+      "supercategory": "CONJUNCTIONS",
+      "subcategory": "coordinating",
+      "title": "Conjunctions: coordinating",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.conjunctions.subordinating",
+      "supercategory": "CONJUNCTIONS",
+      "subcategory": "subordinating",
+      "title": "Conjunctions: subordinating",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.determiners.articles",
+      "supercategory": "DETERMINERS",
+      "subcategory": "articles",
+      "title": "Determiners: articles",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.determiners.demonstratives",
+      "supercategory": "DETERMINERS",
+      "subcategory": "demonstratives",
+      "title": "Determiners: demonstratives",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.determiners.possessives",
+      "supercategory": "DETERMINERS",
+      "subcategory": "possessives",
+      "title": "Determiners: possessives",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.determiners.quantity",
+      "supercategory": "DETERMINERS",
+      "subcategory": "quantity",
+      "title": "Determiners: quantity",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.discourse_markers.discourse_markers_in_writing",
+      "supercategory": "DISCOURSE MARKERS",
+      "subcategory": "discourse markers in writing",
+      "title": "Discourse Markers: discourse markers in writing",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.focus.focus",
+      "supercategory": "FOCUS",
+      "subcategory": "focus",
+      "title": "Focus: focus",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.future.future_continuous",
+      "supercategory": "FUTURE",
+      "subcategory": "future continuous",
+      "title": "Future: future continuous",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.future.future_expressions_with_be",
+      "supercategory": "FUTURE",
+      "subcategory": "future expressions with be",
+      "title": "Future: future expressions with be",
+      "feature_count": 6,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "introduce",
+        "practise",
+        "consolidate"
+      ],
+      "first_productive_control_level": "b2",
+      "consolidation_level": "b2"
+    },
+    {
+      "family_id": "grammar.future.future_in_the_past",
+      "supercategory": "FUTURE",
+      "subcategory": "future in the past",
+      "title": "Future: future in the past",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.future.future_perfect_continuous",
+      "supercategory": "FUTURE",
+      "subcategory": "future perfect continuous",
+      "title": "Future: future perfect continuous",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "introduce",
+        "practise",
+        "consolidate"
+      ],
+      "first_productive_control_level": "b2",
+      "consolidation_level": "b2"
+    },
+    {
+      "family_id": "grammar.future.future_perfect_simple",
+      "supercategory": "FUTURE",
+      "subcategory": "future perfect simple",
+      "title": "Future: future perfect simple",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "introduce",
+        "practise",
+        "consolidate"
+      ],
+      "first_productive_control_level": "b2",
+      "consolidation_level": "b2"
+    },
+    {
+      "family_id": "grammar.future.future_simple_with_will_and_shall",
+      "supercategory": "FUTURE",
+      "subcategory": "future simple (with will and shall)",
+      "title": "Future: future simple (with will and shall)",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.future.future_with_be_going_to",
+      "supercategory": "FUTURE",
+      "subcategory": "future with be going to",
+      "title": "Future: future with be going to",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.future.present_continuous_for_future_use",
+      "supercategory": "FUTURE",
+      "subcategory": "present continuous for future use",
+      "title": "Future: present continuous for future use",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.future.present_simple_for_future_use",
+      "supercategory": "FUTURE",
+      "subcategory": "present simple for future use",
+      "title": "Future: present simple for future use",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.adjectives",
+      "supercategory": "MODALITY",
+      "subcategory": "adjectives",
+      "title": "Modality: adjectives",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.adverbs",
+      "supercategory": "MODALITY",
+      "subcategory": "adverbs",
+      "title": "Modality: adverbs",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.can",
+      "supercategory": "MODALITY",
+      "subcategory": "can",
+      "title": "Modality: can",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.modality.could",
+      "supercategory": "MODALITY",
+      "subcategory": "could",
+      "title": "Modality: could",
+      "feature_count": 5,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.dare",
+      "supercategory": "MODALITY",
+      "subcategory": "dare",
+      "title": "Modality: dare",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "introduce",
+        "practise",
+        "consolidate"
+      ],
+      "first_productive_control_level": "b2",
+      "consolidation_level": "b2"
+    },
+    {
+      "family_id": "grammar.modality.expressions_with_be",
+      "supercategory": "MODALITY",
+      "subcategory": "expressions with be",
+      "title": "Modality: expressions with be",
+      "feature_count": 13,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.have_got_to",
+      "supercategory": "MODALITY",
+      "subcategory": "have (got) to",
+      "title": "Modality: have (got) to",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.may",
+      "supercategory": "MODALITY",
+      "subcategory": "may",
+      "title": "Modality: may",
+      "feature_count": 6,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.might",
+      "supercategory": "MODALITY",
+      "subcategory": "might",
+      "title": "Modality: might",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.must",
+      "supercategory": "MODALITY",
+      "subcategory": "must",
+      "title": "Modality: must",
+      "feature_count": 8,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.need",
+      "supercategory": "MODALITY",
+      "subcategory": "need",
+      "title": "Modality: need",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "introduce",
+        "practise",
+        "consolidate"
+      ],
+      "first_productive_control_level": "b2",
+      "consolidation_level": "b2"
+    },
+    {
+      "family_id": "grammar.modality.ought",
+      "supercategory": "MODALITY",
+      "subcategory": "ought",
+      "title": "Modality: ought",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.modality.shall",
+      "supercategory": "MODALITY",
+      "subcategory": "shall",
+      "title": "Modality: shall",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.should",
+      "supercategory": "MODALITY",
+      "subcategory": "should",
+      "title": "Modality: should",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.modality.used_to",
+      "supercategory": "MODALITY",
+      "subcategory": "used to",
+      "title": "Modality: used to",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.modality.will",
+      "supercategory": "MODALITY",
+      "subcategory": "will",
+      "title": "Modality: will",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.modality.would",
+      "supercategory": "MODALITY",
+      "subcategory": "would",
+      "title": "Modality: would",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.negation.negation",
+      "supercategory": "NEGATION",
+      "subcategory": "negation",
+      "title": "Negation: negation",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.nouns.noun_phrases",
+      "supercategory": "NOUNS",
+      "subcategory": "noun phrases",
+      "title": "Nouns: noun phrases",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.nouns.noun_phrases_grammatical_functions",
+      "supercategory": "NOUNS",
+      "subcategory": "noun phrases - grammatical functions",
+      "title": "Nouns: noun phrases - grammatical functions",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.nouns.plural",
+      "supercategory": "NOUNS",
+      "subcategory": "plural",
+      "title": "Nouns: plural",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.nouns.types",
+      "supercategory": "NOUNS",
+      "subcategory": "types",
+      "title": "Nouns: types",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.nouns.uncountable",
+      "supercategory": "NOUNS",
+      "subcategory": "uncountable",
+      "title": "Nouns: uncountable",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.passives.get_and_have",
+      "supercategory": "PASSIVES",
+      "subcategory": "get and have",
+      "title": "Passives: get and have",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.passives.passives_form",
+      "supercategory": "PASSIVES",
+      "subcategory": "passives: form",
+      "title": "Passives: passives: form",
+      "feature_count": 15,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.past.past_continuous",
+      "supercategory": "PAST",
+      "subcategory": "past continuous",
+      "title": "Past: past continuous",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.past.past_perfect_continuous",
+      "supercategory": "PAST",
+      "subcategory": "past perfect continuous",
+      "title": "Past: past perfect continuous",
+      "feature_count": 5,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.past.past_perfect_simple",
+      "supercategory": "PAST",
+      "subcategory": "past perfect simple",
+      "title": "Past: past perfect simple",
+      "feature_count": 11,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.past.past_simple",
+      "supercategory": "PAST",
+      "subcategory": "past simple",
+      "title": "Past: past simple",
+      "feature_count": 6,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.past.present_perfect_continuous",
+      "supercategory": "PAST",
+      "subcategory": "present perfect continuous",
+      "title": "Past: present perfect continuous",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.past.present_perfect_simple",
+      "supercategory": "PAST",
+      "subcategory": "present perfect simple",
+      "title": "Past: present perfect simple",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.prepositions.prepostions",
+      "supercategory": "PREPOSITIONS",
+      "subcategory": "prepostions",
+      "title": "Prepositions: prepostions",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.present.present_continuous",
+      "supercategory": "PRESENT",
+      "subcategory": "present continuous",
+      "title": "Present: present continuous",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.present.present_simple",
+      "supercategory": "PRESENT",
+      "subcategory": "present simple",
+      "title": "Present: present simple",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.pronouns.demonstratives",
+      "supercategory": "PRONOUNS",
+      "subcategory": "demonstratives",
+      "title": "Pronouns: demonstratives",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.pronouns.generic_use",
+      "supercategory": "PRONOUNS",
+      "subcategory": "generic use",
+      "title": "Pronouns: generic use",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.pronouns.indefinite_thing_one_body_etc",
+      "supercategory": "PRONOUNS",
+      "subcategory": "indefinite - thing, -one, -body etc",
+      "title": "Pronouns: indefinite - thing, -one, -body etc",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.pronouns.possessive",
+      "supercategory": "PRONOUNS",
+      "subcategory": "possessive",
+      "title": "Pronouns: possessive",
+      "feature_count": 6,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.pronouns.quantity",
+      "supercategory": "PRONOUNS",
+      "subcategory": "quantity",
+      "title": "Pronouns: quantity",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.pronouns.reciprocal",
+      "supercategory": "PRONOUNS",
+      "subcategory": "reciprocal",
+      "title": "Pronouns: reciprocal",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "b1",
+      "consolidation_level": "b1"
+    },
+    {
+      "family_id": "grammar.pronouns.reflexive",
+      "supercategory": "PRONOUNS",
+      "subcategory": "reflexive",
+      "title": "Pronouns: reflexive",
+      "feature_count": 8,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.pronouns.subject_object",
+      "supercategory": "PRONOUNS",
+      "subcategory": "subject/ object",
+      "title": "Pronouns: subject/ object",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.pronouns.substitution_one_ones_none",
+      "supercategory": "PRONOUNS",
+      "subcategory": "substitution, one, ones, none",
+      "title": "Pronouns: substitution, one, ones, none",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.questions.alternatives",
+      "supercategory": "QUESTIONS",
+      "subcategory": "alternatives",
+      "title": "Questions: alternatives",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.questions.tags",
+      "supercategory": "QUESTIONS",
+      "subcategory": "tags",
+      "title": "Questions: tags",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.questions.wh",
+      "supercategory": "QUESTIONS",
+      "subcategory": "wh-",
+      "title": "Questions: wh-",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.questions.yes_no",
+      "supercategory": "QUESTIONS",
+      "subcategory": "yes/no",
+      "title": "Questions: yes/no",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.reported_speech.reported_speech",
+      "supercategory": "REPORTED SPEECH",
+      "subcategory": "reported speech",
+      "title": "Reported Speech: reported speech",
+      "feature_count": 7,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.verbs.linking",
+      "supercategory": "VERBS",
+      "subcategory": "linking",
+      "title": "Verbs: linking",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.verbs.patterns_that_clauses",
+      "supercategory": "VERBS",
+      "subcategory": "patterns_that clauses",
+      "title": "Verbs: patterns_that clauses",
+      "feature_count": 0,
+      "evidence_status": "planned_recycle",
+      "lifecycle_states": [
+        "recycle"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.verbs.patterns_with_to_and_ing",
+      "supercategory": "VERBS",
+      "subcategory": "patterns_with to and -ing",
+      "title": "Verbs: patterns_with to and -ing",
+      "feature_count": 4,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.verbs.phrasal",
+      "supercategory": "VERBS",
+      "subcategory": "phrasal",
+      "title": "Verbs: phrasal",
+      "feature_count": 3,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.verbs.phrasal_prepositional",
+      "supercategory": "VERBS",
+      "subcategory": "phrasal-prepositional",
+      "title": "Verbs: phrasal-prepositional",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a2",
+      "consolidation_level": "a2"
+    },
+    {
+      "family_id": "grammar.verbs.prepositional",
+      "supercategory": "VERBS",
+      "subcategory": "prepositional",
+      "title": "Verbs: prepositional",
+      "feature_count": 2,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.verbs.there_is_are",
+      "supercategory": "VERBS",
+      "subcategory": "there is/are",
+      "title": "Verbs: there is/are",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
+    },
+    {
+      "family_id": "grammar.verbs.types",
+      "supercategory": "VERBS",
+      "subcategory": "types",
+      "title": "Verbs: types",
+      "feature_count": 1,
+      "evidence_status": "source_evidenced",
+      "lifecycle_states": [
+        "recycle",
+        "extend"
+      ],
+      "first_productive_control_level": "a1",
+      "consolidation_level": "a1"
     }
   ]
 }
