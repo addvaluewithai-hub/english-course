@@ -29,20 +29,33 @@ It is evidence/history, not the canonical structured phrase input: its document 
 a different main-entry partition from the current online list. No rows are silently deleted to
 force the legacy PDF to match the current source.
 
-## C2 lexical completion source: open
+## Pearson GSE Vocabulary: C2 lexical completion evidence
 
-Oxford 3000/5000 and the Oxford Phrase List stop before C2. Pearson GSE Vocabulary is the
-preferred completion candidate because the official Toolkit reaches C2 and supplies levelled word
-meanings, functional phrases and collocations. Pearson documents a searchable vocabulary database
-with tens of thousands of word meanings plus collocations and phrases.
+Oxford 3000/5000 and the Oxford Phrase List stop before C2. The C2 lexical layer therefore uses
+the official Pearson GSE Teacher Toolkit General Learner vocabulary search for GSE 85-90 / C2.
 
-- Framework: `https://www.pearson.com/languages/why-pearson/the-global-scale-of-english.html`
 - Toolkit: `https://www.english.com/gse/teacher-toolkit/user/vocabulary`
+- API endpoint used by the Toolkit: `https://www.english.com/gse/teacher-toolkit/user/api/v1/vocabulary/search`
+- Structured snapshot: `data/derived/gse-vocabulary-c2-gl.json`
+- Audit: `data/derived/gse-vocabulary-c2-gl-audit.json`
+- Query: audience `GL`, GSE `85-90`, wildcard vocabulary search.
+- Records: 623 unique source records.
+- Normalized records SHA-256: `65DF05986C56F4AF17D058DF73C6D8AF1C12AD21BD767E0888A38425AFEBC1B7`.
 
-A reproducible structured C2 extract has not yet been locked. The Toolkit supports result downloads,
-but large downloads are limited, so C2 words and phrases stay explicitly blocked until acquisition
-and licensing/provenance checks pass. CEFR-J/Octanove C1-C2 data may be evaluated as an open
-cross-check, not silently substituted as authority.
+The curriculum partition is deliberately conservative:
+
+- 609 records remain lexical word/meaning items because Pearson does not classify them as
+  `phrase` or `phrasal verb`, even when the expression itself contains spaces.
+- 14 records explicitly classified by Pearson as `phrase` or `phrasal verb` become direct phrase
+  inventory items with their own GSE scores.
+- 27 published collocation rows become phrase/chunk items linked to their lexical owner. Their C2
+  placement is inherited from the owner record and is not represented as an independent GSE score.
+- Multiword variants remain attached to their lexical owner and are not silently promoted into
+  separate required phrase items.
+
+Pearson usage is also a production gate: internal curriculum research and architecture may use the
+verified snapshot, but commercial/product use of GSE components requires the applicable Pearson
+permission/license. `lesson_design_authorized` remains false while the inventory review is open.
 
 ## Authority rule
 
