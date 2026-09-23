@@ -1,12 +1,60 @@
 {
   "schema_version": 1,
   "level": "C2",
-  "status": "lexical_source_acquisition_open",
+  "status": "source_roles_assigned_with_commercial_license_gate",
   "sources": [
-    {"source_id":"cefr_companion_2020_en","role":["abilities","exit_boundary","pronunciation_boundary"],"local_path":"sources/raw/frameworks/cefr-companion-2020-en.pdf","derived_path":"data/derived/cefr-all-descriptors.json","acquisition_state":"local_verified"},
-    {"source_id":"gse_adult_general_english_2022","role":["abilities","exit_boundary"],"local_path":"sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf","derived_path":"data/derived/gse-all-objectives.json","acquisition_state":"local_verified"},
-    {"source_id":"english_grammar_profile_online","role":["grammar"],"local_path":"sources/raw/grammar/english-grammar-profile-online.xlsx","derived_path":"data/derived/egp-all-levels.json","acquisition_state":"local_verified"},
-    {"source_id":"gse_grammar_adult_framework","role":["grammar_cross_check"],"local_path":"sources/raw/grammar/gse-grammar-guide-adult-framework.pdf","derived_path":"data/derived/gse-grammar-all.json","acquisition_state":"local_verified"},
-    {"source_id":"pearson_gse_vocabulary","role":["words","phrases","collocations"],"official_url":"https://www.english.com/gse/teacher-toolkit/user/vocabulary","published_scope":"GSE/CEFR through C2","acquisition_state":"official_search_and_download_verified_structured_c2_extract_pending"}
+    {
+      "source_id": "cefr_companion_2020_en",
+      "role": ["abilities", "exit_boundary", "pronunciation_boundary"],
+      "local_path": "sources/raw/frameworks/cefr-companion-2020-en.pdf",
+      "derived_path": "data/derived/cefr-all-descriptors.json",
+      "acquisition_state": "local_verified"
+    },
+    {
+      "source_id": "gse_adult_general_english_2022",
+      "role": ["abilities", "exit_boundary"],
+      "local_path": "sources/raw/frameworks/gse-learning-objectives-adult-general-english-2022.pdf",
+      "derived_path": "data/derived/gse-all-objectives.json",
+      "acquisition_state": "local_verified"
+    },
+    {
+      "source_id": "english_grammar_profile_online",
+      "role": ["grammar"],
+      "local_path": "sources/raw/grammar/english-grammar-profile-online.xlsx",
+      "derived_path": "data/derived/egp-all-levels.json",
+      "acquisition_state": "local_verified"
+    },
+    {
+      "source_id": "gse_grammar_adult_framework",
+      "role": ["grammar_cross_check"],
+      "local_path": "sources/raw/grammar/gse-grammar-guide-adult-framework.pdf",
+      "derived_path": "data/derived/gse-grammar-all.json",
+      "acquisition_state": "local_verified"
+    },
+    {
+      "source_id": "pearson_gse_vocabulary_c2_general_learner",
+      "role": ["words", "phrases", "phrasal_verbs", "collocations"],
+      "official_url": "https://www.english.com/gse/teacher-toolkit/user/vocabulary",
+      "api_endpoint": "https://www.english.com/gse/teacher-toolkit/user/api/v1/vocabulary/search",
+      "derived_path": "data/derived/gse-vocabulary-c2-gl.json",
+      "audit_path": "data/derived/gse-vocabulary-c2-gl-audit.json",
+      "query_scope": {
+        "audience": "GL",
+        "gse_from": 85,
+        "gse_to": 90,
+        "cefr": "C2"
+      },
+      "source_record_count": 623,
+      "normalized_records_sha256": "65DF05986C56F4AF17D058DF73C6D8AF1C12AD21BD767E0888A38425AFEBC1B7",
+      "inventory_partition": {
+        "lexical_meaning_records": 609,
+        "direct_phrase_or_phrasal_verb_records": 14,
+        "collocation_rows": 27,
+        "phrase_inventory_items": 41,
+        "multiword_variants_not_promoted_to_phrase_items": 5
+      },
+      "acquisition_state": "official_api_snapshot_verified",
+      "license_gate": "commercial_permission_required"
+    }
   ]
 }
