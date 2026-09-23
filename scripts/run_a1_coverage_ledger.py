@@ -42,6 +42,15 @@ def merge(base: dict, overrides: dict) -> dict:
     for home, labels in overrides.get("word_home_additions", {}).items():
         extend_unique(result["word_home_overrides"].setdefault(home, []), labels)
 
+    for group, families in overrides.get("family_stage_additions", {}).items():
+        if group not in result:
+            raise KeyError(f"unknown plan group in family_stage_additions: {group}")
+        for family_id, stages in families.items():
+            if family_id not in result[group]:
+                raise KeyError(f"unknown family in family_stage_additions: {group}.{family_id}")
+            for stage, lesson_ids in stages.items():
+                extend_unique(result[group][family_id].setdefault(stage, []), lesson_ids)
+
     for group, families in overrides.get("family_replacements", {}).items():
         if group not in result:
             raise KeyError(f"unknown plan group in family_replacements: {group}")
