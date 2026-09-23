@@ -21,6 +21,328 @@
   "distinct_collocation_strings_detected": 27,
   "temporary_gse_flagged_records": 0,
   "marked_gse_score_records": 7,
+  "source_phrase_or_phrasal_verb_records": [
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b7193eb1.-73cf",
+      "expression": "(I'm) much obliged (to you)",
+      "gse": "85",
+      "categories": [
+        "phrase"
+      ],
+      "definition": "used to thank someone very politely"
+    },
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b710ae86.161e",
+      "expression": "beaver away",
+      "gse": "85",
+      "categories": [
+        "phrasal verb"
+      ],
+      "definition": "to work hard in a very busy way"
+    },
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b71514aa.72b3",
+      "expression": "hot up",
+      "gse": "85",
+      "categories": [
+        "phrasal verb"
+      ],
+      "definition": "if something hots up, there is more activity or excitement"
+    },
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b71717ca.-27b5",
+      "expression": "in the know",
+      "gse": "85",
+      "categories": [
+        "phrase"
+      ],
+      "definition": "having more information about something than most people"
+    },
+    {
+      "itemId": "u90d4eb40be6a8af1.323a5a4a.1503895adad.-16d9",
+      "expression": "you are not obliged to...",
+      "gse": "85",
+      "categories": [
+        "phrase"
+      ],
+      "definition": "used to say that you do not have to do something"
+    },
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b71d3748.11e7",
+      "expression": "be on the warpath",
+      "gse": "85",
+      "categories": [
+        "phrase"
+      ],
+      "definition": "to be angry and looking for someone to fight or punish"
+    },
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-2ab1",
+      "expression": "shack up with",
+      "gse": "85",
+      "categories": [
+        "phrasal verb"
+      ],
+      "definition": "to live with your sexual partner, without being married. This is used to show disapproval."
+    },
+    {
+      "itemId": "u90d4eb40be6a8af1.323a5a4a.1503895adad.-16d3",
+      "expression": "I feel obliged to...",
+      "gse": "85",
+      "categories": [
+        "phrase"
+      ],
+      "definition": "used to say that you feel that you must do something"
+    },
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b71306a8.5279",
+      "expression": "do the donkey work",
+      "gse": "85",
+      "categories": [
+        "phrase"
+      ],
+      "definition": "to do the hard or boring part of a job"
+    },
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b71d3748.-72a7",
+      "expression": "be on tenterhooks",
+      "gse": "85",
+      "categories": [
+        "phrase"
+      ],
+      "definition": "to feel nervous and excited because you are waiting for something to happen"
+    },
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b71306a8.-1660",
+      "expression": "cotton on",
+      "gse": "85",
+      "categories": [
+        "phrasal verb"
+      ],
+      "definition": "to begin to understand something"
+    },
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.74b8",
+      "expression": "swot up",
+      "gse": "86",
+      "categories": [
+        "phrasal verb"
+      ],
+      "definition": "to learn as much as you can about something"
+    },
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b7193eb1.-58d9",
+      "expression": "the (great) outdoors",
+      "gse": "86",
+      "categories": [
+        "phrase"
+      ],
+      "definition": "the countryside"
+    },
+    {
+      "itemId": "ua8444abd28d0e715.-5299d1a3.145b7193eb1.-9ba",
+      "expression": "the pluperfect",
+      "gse": "86",
+      "categories": [
+        "phrase"
+      ],
+      "definition": "the past perfect"
+    }
+  ],
+  "collocation_owner_records": [
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71306a8.7b49",
+      "owner_expression": "elocution",
+      "gse": "85",
+      "collos": [
+        "elocution lessons"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b7193eb1.bea",
+      "owner_expression": "prattle",
+      "gse": "85",
+      "collos": [
+        "prattle on about"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.2a50",
+      "owner_expression": "sportsmanlike",
+      "gse": "85",
+      "collos": [
+        "sportsmanlike behaviour"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71d3748.f47",
+      "owner_expression": "wangle",
+      "gse": "85",
+      "collos": [
+        "wangle your way into something",
+        "wangle your way out of something"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71d3748.33f5",
+      "owner_expression": "withdrawn",
+      "gse": "85",
+      "collos": [
+        "become withdrawn"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71717ca.7d9b",
+      "owner_expression": "non-aggression",
+      "gse": "85",
+      "collos": [
+        "a non-aggression pact",
+        "a non-aggression treaty",
+        "a non-aggression agreement"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71514aa.-3e29",
+      "owner_expression": "fetching",
+      "gse": "85",
+      "collos": [
+        "looks... fetching"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71d3748.18d3",
+      "owner_expression": "waylay",
+      "gse": "85",
+      "collos": [
+        "get waylaid"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b710ae86.-3742",
+      "owner_expression": "all-out",
+      "gse": "85*",
+      "collos": [
+        "all-out war",
+        "all-out attack",
+        "all-out offensive"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71717ca.6b4a",
+      "owner_expression": "natter",
+      "gse": "85",
+      "collos": [
+        "have a natter"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71514aa.39d9",
+      "owner_expression": "gumption",
+      "gse": "85",
+      "collos": [
+        "have the gumption to do sth"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71514aa.5371",
+      "owner_expression": "heart-to-heart",
+      "gse": "85",
+      "collos": [
+        "have a heart-to-heart with sb"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-5867",
+      "owner_expression": "sallow",
+      "gse": "85",
+      "collos": [
+        "a sallow face",
+        "a sallow skin",
+        "a sallow complexion"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.232e",
+      "owner_expression": "spellbound",
+      "gse": "85",
+      "collos": [
+        "hold sb spellbound"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71514aa.5cdd",
+      "owner_expression": "het up",
+      "gse": "85",
+      "collos": [
+        "get het up"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.-2864",
+      "owner_expression": "shamefaced",
+      "gse": "85",
+      "collos": [
+        "a shamefaced grin",
+        "a shamefaced smile"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71306a8.-843",
+      "owner_expression": "crestfallen",
+      "gse": "86",
+      "collos": [
+        "looking crestfallen"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71306a8.5077",
+      "owner_expression": "dogsbody",
+      "gse": "86",
+      "collos": [
+        "general dogsbody"
+      ]
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71d3748.266b",
+      "owner_expression": "whip-round",
+      "gse": "86",
+      "collos": [
+        "have a whip-round"
+      ]
+    }
+  ],
+  "multiword_variants": [
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71d3748.35b6",
+      "owner_expression": "wolf",
+      "gse": "85",
+      "variant": "wolf down"
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71d3748.-3743",
+      "owner_expression": "tsarina",
+      "gse": "85",
+      "variant": "tzarina, czarina"
+    },
+    {
+      "owner_itemId": "ue3c6c12a1515f869.-607e0c4c.14941227fb0.5efb",
+      "owner_expression": "wearable",
+      "gse": "86",
+      "variant": "wearable computer"
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71b45b7.171f",
+      "owner_expression": "sopping",
+      "gse": "87",
+      "variant": "sopping wet"
+    },
+    {
+      "owner_itemId": "ua8444abd28d0e715.-5299d1a3.145b71514aa.-3048",
+      "owner_expression": "fist bump",
+      "gse": "87",
+      "variant": "fist pound"
+    }
+  ],
   "normalized_records_sha256": "65DF05986C56F4AF17D058DF73C6D8AF1C12AD21BD767E0888A38425AFEBC1B7",
   "license_gate": "Pearson permission/contact required before commercial use of GSE components"
 }
