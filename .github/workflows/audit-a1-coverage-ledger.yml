@@ -1,0 +1,37 @@
+name: Audit A1 coverage ledger
+
+on:
+  push:
+    branches:
+      - curriculum/level-source-of-truth-v1
+    paths:
+      - curriculum/levels/a1/**
+      - scripts/build_a1_coverage_ledger.py
+      - .github/workflows/audit-a1-coverage-ledger.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and audit exact source-record ledger
+        run: |
+          python scripts/build_a1_coverage_ledger.py \
+            --output /tmp/a1-coverage-ledger.json \
+            --report /tmp/a1-coverage-report.md
+      - name: Upload deterministic ledger
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: a1-coverage-ledger
+          path: |
+            /tmp/a1-coverage-ledger.json
+            /tmp/a1-coverage-report.md
+          if-no-files-found: error
