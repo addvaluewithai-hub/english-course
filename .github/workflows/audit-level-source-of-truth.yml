@@ -1,0 +1,30 @@
+name: Audit level source of truth
+
+on:
+  push:
+    branches:
+      - curriculum/level-source-of-truth-v1
+    paths:
+      - 'scripts/audit_level_source_of_truth.py'
+      - 'curriculum/levels/**'
+      - 'data/derived/egp-all-levels.json'
+      - 'data/derived/oxford-phrase-list-online.json'
+      - 'data/derived/gse-vocabulary-c2-gl.json'
+      - '.github/workflows/audit-level-source-of-truth.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: curriculum/level-source-of-truth-v1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit complete source coverage
+        run: python scripts/audit_level_source_of_truth.py
