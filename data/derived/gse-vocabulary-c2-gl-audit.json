@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "dataset_id": "pearson_gse_vocabulary_c2_general_learner",
+  "record_count": 623,
+  "gse_min": 85,
+  "gse_max": 90,
+  "grammatical_category_counts": {
+    "noun": 306,
+    "adjective": 147,
+    "adverb": 106,
+    "verb": 48,
+    "phrase": 9,
+    "phrasal verb": 5,
+    "interjection": 3,
+    "preposition": 1
+  },
+  "multiword_expression_records": 55,
+  "single_token_expression_records": 568,
+  "records_with_collocations": 19,
+  "collocation_rows": 27,
+  "distinct_collocation_strings_detected": 27,
+  "temporary_gse_flagged_records": 0,
+  "marked_gse_score_records": 7,
+  "normalized_records_sha256": "65DF05986C56F4AF17D058DF73C6D8AF1C12AD21BD767E0888A38425AFEBC1B7",
+  "license_gate": "Pearson permission/contact required before commercial use of GSE components"
+}
