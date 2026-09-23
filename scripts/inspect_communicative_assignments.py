@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Inspect reviewed communicative assignments without dumping the full dataset.
-
-Diagnostic only: prints compact schema/count summaries for the reviewed A1-C2 ability layer.
-"""
+"""Inspect reviewed communicative assignments for the A1-C2 ability inventory."""
 from __future__ import annotations
 
 import json
@@ -13,62 +10,67 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 ASSIGNMENTS = ROOT / "data/reviewed/communicative-tag-assignments-v1.json"
 STRANDS = ROOT / "data/reviewed/communicative-function-strands-v1.json"
+CEFR = ROOT / "data/derived/cefr-all-descriptors.json"
+GSE = ROOT / "data/derived/gse-all-objectives.json"
 
 
-def summarize(value: Any, depth: int = 0) -> Any:
-    if depth >= 2:
+def summarize_record(record: dict[str, Any]) -> dict[str, Any]:
+    out: dict[str, Any] = {}
+    for key, value in record.items():
         if isinstance(value, dict):
-            return {"type": "dict", "keys": sorted(value.keys())}
-        if isinstance(value, list):
-            return {"type": "list", "length": len(value)}
-        return value
-    if isinstance(value, dict):
-        return {k: summarize(v, depth + 1) for k, v in value.items()}
-    if isinstance(value, list):
-        return [summarize(v, depth + 1) for v in value[:3]]
-    return value
+            out[key] = {"type": "dict", "keys": sorted(value.keys())}
+        elif isinstance(value, list):
+            out[key] = {"type": "list", "length": len(value), "sample": value[:2]}
+        else:
+            out[key] = value
+    return out
+
+
+def find_record_list(data: dict[str, Any]) -> tuple[str, list[dict[str, Any]]]:
+    candidates = [(key, value) for key, value in data.items() if isinstance(value, list) and value and isinstance(value[0], dict)]
+    if not candidates:
+        raise SystemExit("No record list found")
+    return max(candidates, key=lambda item: len(item[1]))
 
 
 def main() -> None:
     data = json.loads(ASSIGNMENTS.read_text(encoding="utf-8"))
-    strands = json.loads(STRANDS.read_text(encoding="utf-8"))
-    print("ASSIGNMENT_TOP_KEYS", sorted(data.keys()))
-    print("STRAND_TOP_KEYS", sorted(strands.keys()))
+    records = data["records"]
+    strands = json.loads(STRANDS.read_text(encoding="utf-8"))["strands"]
 
-    list_fields = {k: v for k, v in data.items() if isinstance(v, list)}
-    print("ASSIGNMENT_LIST_FIELDS", {k: len(v) for k, v in list_fields.items()})
-    for key, values in list_fields.items():
-        if not values:
-            continue
-        print("LIST", key, "FIRST_RECORD", json.dumps(summarize(values[0]), ensure_ascii=False, sort_keys=True))
-        if isinstance(values[0], dict):
-            print("LIST", key, "RECORD_KEYS", sorted(values[0].keys()))
-            key_freq: Counter[str] = Counter()
-            for record in values:
-                if isinstance(record, dict):
-                    key_freq.update(record.keys())
-            print("LIST", key, "KEY_FREQ", dict(sorted(key_freq.items())))
-            for candidate in (
-                "level", "cefr", "cefr_level", "stage_level", "source", "source_id",
-                "source_record_id", "record_id", "assignment_id", "function", "function_tag",
-                "function_id", "strand_id", "skill", "mode", "disposition", "expected_control"
-            ):
-                vals = [record.get(candidate) for record in values if isinstance(record, dict) and candidate in record]
-                if vals:
-                    printable = Counter(json.dumps(v, sort_keys=True) if isinstance(v, (dict, list)) else str(v) for v in vals)
-                    print("FIELD", key, candidate, "COUNT", len(vals), "TOP", printable.most_common(30))
+    print("ASSIGNMENT_COUNT", len(records))
+    print("DATASET_COUNTS", dict(Counter(r["source_dataset_id"] for r in records)))
+    print("DISPOSITION_COUNTS", dict(Counter(r["source_disposition"] for r in records)))
+    level_combo_counts = Counter(tuple(r["source_level_codes"]) for r in records)
+    print("LEVEL_COMBO_COUNTS", {"+".join(k): v for k, v in sorted(level_combo_counts.items())})
+    flat_levels = Counter(level for r in records for level in r["source_level_codes"])
+    print("FLAT_LEVEL_COUNTS", dict(sorted(flat_levels.items())))
+    multi_level = [r for r in records if len(r["source_level_codes"]) != 1]
+    print("MULTI_LEVEL_RECORDS", len(multi_level), json.dumps(multi_level[:10], ensure_ascii=False))
+    print("PRE_A1_RECORDS", sum("pre_a1" in r["source_level_codes"] for r in records))
+    print("FUNCTION_COUNTS", dict(Counter(f for r in records for f in r["function_codes"]).most_common()))
+    print("SKILL_COUNTS", dict(Counter(f for r in records for f in r["skill_codes"]).most_common()))
+    print("MODE_COUNTS", dict(Counter(f for r in records for f in r["mode_codes"]).most_common()))
 
-    stage_refs: list[tuple[str, str, str]] = []
-    for strand in strands.get("strands", []):
-        strand_id = strand.get("strand_id")
-        for stage in strand.get("stages", []):
-            level = stage.get("level")
-            for source_id in stage.get("source_record_ids", []):
-                stage_refs.append((strand_id, level, source_id))
-    print("STRAND_STAGE_REF_COUNT", len(stage_refs))
-    print("STRAND_STAGE_REF_UNIQUE", len(set(stage_refs)))
-    print("STRAND_STAGE_LEVEL_COUNTS", dict(Counter(level for _, level, _ in stage_refs)))
-    print("STRAND_STAGE_SAMPLE", stage_refs[:20])
+    function_stage_counts: Counter[tuple[str, str]] = Counter()
+    for strand in strands:
+        function = strand["function_code"]
+        for stage in strand["lifecycle"]["stages"]:
+            function_stage_counts[(function, stage["level"])] = stage["evidence_count"]
+    print("FUNCTION_STAGE_NONZERO", sum(v > 0 for v in function_stage_counts.values()))
+    print("FUNCTION_STAGE_ZERO", sum(v == 0 for v in function_stage_counts.values()))
+    print("FUNCTION_STAGE_SAMPLES", list(function_stage_counts.items())[:30])
+
+    for label, path in (("CEFR", CEFR), ("GSE", GSE)):
+        source = json.loads(path.read_text(encoding="utf-8"))
+        key, source_records = find_record_list(source)
+        print(label, "TOP_KEYS", sorted(source.keys()))
+        print(label, "RECORD_LIST", key, len(source_records))
+        print(label, "FIRST_RECORD", json.dumps(summarize_record(source_records[0]), ensure_ascii=False, sort_keys=True))
+        id_candidates = sorted({k for r in source_records[:50] for k in r.keys() if "id" in k.lower() or "record" in k.lower()})
+        print(label, "ID_CANDIDATE_KEYS", id_candidates)
+        text_candidates = sorted({k for r in source_records[:50] for k in r.keys() if any(t in k.lower() for t in ("text", "statement", "objective", "descriptor"))})
+        print(label, "TEXT_CANDIDATE_KEYS", text_candidates)
 
 
 if __name__ == "__main__":
