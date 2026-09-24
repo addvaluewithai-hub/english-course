@@ -30,11 +30,7 @@
     "U8-L03": ["gse.adult.2022.a1.p22.019"]
   },
   "word_home_additions": {
-    "X10": [
-      "about", "anyone", "anything", "as", "cannot", "else", "have", "let",
-      "no one", "nobody", "not", "nothing", "other", "somebody", "someone",
-      "something", "that", "this", "too", "yourself"
-    ],
+    "X10": ["about", "anyone", "anything", "as", "cannot", "else", "have", "let", "no one", "nobody", "not", "nothing", "other", "somebody", "someone", "something", "that", "this", "too", "yourself"],
     "X08": ["about"],
     "X01": ["own"],
     "L02": ["friendly", "member", "neighbour", "teenager", "miss"],
@@ -67,7 +63,7 @@
       "C11": {"fresh_retrieval": ["U6-L07"]},
       "C12": {
         "practice": ["U6-L06", "U8-L03", "U8-L05"],
-        "fresh_retrieval": ["U7-L05", "U8-L06", "U9-L05"]
+        "fresh_retrieval": ["U6-L07", "U7-L05", "U8-L06", "U9-L05"]
       }
     },
     "cross_cutting": {
@@ -87,7 +83,7 @@
       "L10": {"introduce": ["U6-L04"]},
       "L11": {"introduce": ["U3-L04", "U5-L05"]},
       "L12": {"introduce": ["U3-L04", "U3-L05", "U9-L02"], "fresh_retrieval": ["U5-L07", "U9-L06"]},
-      "L15": {"introduce": ["U4-L02", "U4-L03"], "fresh_retrieval": ["U7-L05", "U8-L06"]},
+      "L15": {"introduce": ["U4-L02", "U4-L03"], "fresh_retrieval": ["U6-L07", "U7-L05", "U8-L06"]},
       "L16": {"introduce": ["U1-L05", "U4-L01", "U6-L05"], "fresh_retrieval": ["U6-L07"]},
       "L17": {"introduce": ["U4-L02"], "fresh_retrieval": ["U9-L06"]},
       "L18": {"fresh_retrieval": ["U9-L06"]},
@@ -95,9 +91,7 @@
       "L20": {"introduce": ["U4-L03", "U4-L04", "U4-L05"]},
       "L25": {"introduce": ["U3-L02", "U5-L03"]},
       "L26": {"introduce": ["U1-L06", "U5-L02", "U6-L03"], "fresh_retrieval": ["U8-L06"]},
-      "LX-GENERAL": {
-        "introduce": ["U1-L04", "U1-L06", "U2-L05", "U3-L05", "U4-L04", "U4-L06", "U5-L02", "U5-L06", "U6-L04", "U6-L06", "U7-L02", "U7-L04", "U8-L03", "U8-L05", "U9-L03", "U9-L05"]
-      }
+      "LX-GENERAL": {"introduce": ["U1-L04", "U1-L06", "U2-L05", "U3-L05", "U4-L04", "U4-L06", "U5-L02", "U5-L06", "U6-L04", "U6-L06", "U7-L02", "U7-L04", "U8-L03", "U8-L05", "U9-L03", "U9-L05"]}
     }
   },
   "word_intro_label_overrides": {
