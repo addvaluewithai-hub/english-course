@@ -8,6 +8,7 @@ on:
     paths:
       - 'scripts/build_a1_semantic_lock.py'
       - 'scripts/apply_a1_semantic_lock_decisions.py'
+      - 'scripts/build_a1_word_review_context.py'
       - 'curriculum/levels/a1/semantic-lock/manual-decisions.json'
       - 'curriculum/levels/a1/semantic-lock/phrase-control-decisions.json'
       - 'curriculum/levels/a1/words.json'
@@ -15,6 +16,7 @@ on:
       - 'curriculum/levels/a1/grammar.json'
       - 'curriculum/levels/a1/abilities.json'
       - 'curriculum/levels/a1/pronunciation.json'
+      - 'curriculum/levels/a1/design-review/06-coverage-ledger/generated/coverage-ledger.json'
       - 'data/reviewed/a1-lexical-chunk-ownership-v1.json'
       - 'data/reviewed/a1-grammar-coverage-ownership-v1.json'
       - '.github/workflows/build-a1-semantic-lock.yml'
@@ -37,6 +39,8 @@ jobs:
         run: python scripts/build_a1_semantic_lock.py
       - name: Apply reviewed semantic decisions
         run: python scripts/apply_a1_semantic_lock_decisions.py
+      - name: Build pending-word review context
+        run: python scripts/build_a1_word_review_context.py
       - name: Commit generated semantic lock
         run: |
           if [ -z "$(git status --porcelain -- curriculum/levels/a1/semantic-lock)" ]; then
@@ -47,6 +51,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add curriculum/levels/a1/semantic-lock/semantic-lock-candidate.json \
                   curriculum/levels/a1/semantic-lock/semantic-lock-report.json \
-                  curriculum/levels/a1/semantic-lock/review-queue-compact.json
+                  curriculum/levels/a1/semantic-lock/review-queue-compact.json \
+                  curriculum/levels/a1/semantic-lock/word-review-context.json
           git commit -m 'curriculum: generate A1 semantic lock candidate'
           git push
