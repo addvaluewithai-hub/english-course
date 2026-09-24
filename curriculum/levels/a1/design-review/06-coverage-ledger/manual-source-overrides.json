@@ -7,13 +7,15 @@
     "U3-L04": [287, 749, 752, 781],
     "U4-L02": [803],
     "U5-L01": [1184],
-    "U8-L04": [1192]
+    "U8-L04": [1192],
+    "U8-L05": [497]
   },
   "grammar_intro_removals": {
     "U1-L01": [35, 81, 86, 1029],
     "U2-L05": [1184, 1192],
     "U3-L02": [287, 749, 752, 781],
-    "U7-L05": [173, 286]
+    "U7-L05": [173, 286],
+    "U8-L06": [497]
   },
   "ability_intro_source_overrides": {
     "U4-L01": ["gse.adult.2022.a1.p14.003", "gse.adult.2022.a1.p14.004", "gse.adult.2022.a1.p22.003", "gse.adult.2022.a1.p22.016", "gse.adult.2022.a1.p37.018"],
@@ -83,6 +85,36 @@
       "LX-GENERAL": {"introduce": ["U1-L04", "U1-L06", "U2-L05", "U3-L05", "U4-L04", "U4-L06", "U5-L02", "U5-L06", "U6-L04", "U6-L06", "U7-L02", "U7-L04", "U8-L03", "U8-L05", "U9-L03", "U9-L05"]}
     }
   },
+  "family_replacements": {
+    "cross_cutting": {
+      "X02": {
+        "introduce": ["U8-L05"],
+        "practice": ["U8-L05"],
+        "fresh_retrieval": ["U8-L06", "U9-L05"],
+        "recycle": ["U10-L03"],
+        "consolidate": ["U10-L03"],
+        "exit_verify": ["U10-L05"]
+      }
+    },
+    "lexical_sets": {
+      "L14": {
+        "introduce": ["U8-L04", "U8-L05"],
+        "practice": ["U8-L05"],
+        "fresh_retrieval": ["U8-L06", "U9-L05"],
+        "recycle": ["U10-L03"],
+        "consolidate": ["U10-L03"],
+        "exit_verify": ["U10-L05"]
+      },
+      "L19": {
+        "introduce": ["U2-L04", "U2-L05", "U4-L05"],
+        "practice": ["U2-L05", "U4-L05"],
+        "fresh_retrieval": ["U4-L07", "U9-L05"],
+        "recycle": ["U8-L06"],
+        "consolidate": ["U10-L01"],
+        "exit_verify": ["U10-L05"]
+      }
+    }
+  },
   "word_intro_label_overrides": {
     "U1-L01": ["thanks", "feeling"],
     "U1-L04": ["a, an", "work"],
@@ -106,7 +138,7 @@
     "U8-L01": ["amazing", "boring", "false", "good", "interesting", "positive", "special", "useful", "believe", "important"],
     "U8-L02": ["perfect", "agree", "funny", "popular", "same"],
     "U8-L03": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "April", "date", "month"],
-    "U8-L06": ["cold", "hot", "air"],
+    "U8-L05": ["cold", "hot", "air"],
     "U9-L01": ["main"],
     "U9-L02": ["exam", "science", "language", "classroom", "test", "open"],
     "U9-L03": ["detail", "example", "section", "statement", "lesson", "begin"],
@@ -124,6 +156,8 @@
     "U6-L04": ["oxford.phrase.online.0178", "oxford.phrase.online.0301"],
     "U7-L02": ["oxford.phrase.online.0266"],
     "U7-L03": ["oxford.phrase.online.0262"],
+    "U8-L02": ["oxford.phrase.online.0136", "oxford.phrase.online.0386", "oxford.phrase.online.0207"],
+    "U8-L05": ["oxford.phrase.online.0414", "oxford.phrase.online.0440", "oxford.phrase.online.0529"],
     "U9-L03": ["oxford.phrase.online.0088", "oxford.phrase.online.0089", "oxford.phrase.online.0090"]
   },
   "phrase_intro_removals": {
@@ -131,6 +165,8 @@
     "U1-L02": ["oxford.phrase.online.0492", "oxford.phrase.online.0496", "oxford.phrase.online.0696"],
     "U3-L03": ["oxford.phrase.online.0178", "oxford.phrase.online.0301"],
     "U4-L01": ["oxford.phrase.online.0020", "oxford.phrase.online.0095", "oxford.phrase.online.0254", "oxford.phrase.online.0334", "oxford.phrase.online.0347", "oxford.phrase.online.0454", "oxford.phrase.online.0693", "oxford.phrase.online.0702"],
-    "U4-L03": ["oxford.phrase.online.0262", "oxford.phrase.online.0266", "oxford.phrase.online.0088", "oxford.phrase.online.0089", "oxford.phrase.online.0090"]
+    "U4-L03": ["oxford.phrase.online.0262", "oxford.phrase.online.0266", "oxford.phrase.online.0088", "oxford.phrase.online.0089", "oxford.phrase.online.0090"],
+    "U8-L01": ["oxford.phrase.online.0136", "oxford.phrase.online.0386", "oxford.phrase.online.0207"],
+    "U8-L06": ["oxford.phrase.online.0414", "oxford.phrase.online.0440", "oxford.phrase.online.0529"]
   }
 }
