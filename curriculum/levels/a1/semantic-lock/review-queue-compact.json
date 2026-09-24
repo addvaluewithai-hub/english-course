@@ -1,7 +1,8 @@
 {
   "schema_version": 1,
   "level": "A1",
-  "status": "semantic_lock_reviewed_ready_for_manifest_authorization",
+  "status": "semantic_lock_reviewed_locked_v1",
+  "lesson_design_authorized": true,
   "pending_total": 0,
   "pending_by_category": {},
   "pending": {

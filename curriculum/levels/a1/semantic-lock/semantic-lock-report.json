@@ -1,6 +1,7 @@
 {
   "level": "A1",
-  "status": "semantic_lock_reviewed_ready_for_manifest_authorization",
+  "status": "semantic_lock_reviewed_locked_v1",
+  "lesson_design_authorized": true,
   "summary": {
     "total_primary_items": 1337,
     "auto_locked_from_existing_reviewed_evidence": 832,
@@ -61,6 +62,6 @@
     "all_primary_items_required_at_exit": true,
     "phrase_control_map_complete": true,
     "word_control_review_complete": true,
-    "lesson_design_authorized": false
+    "authorization_matches_review_state": true
   }
 }
