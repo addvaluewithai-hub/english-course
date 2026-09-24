@@ -11,6 +11,7 @@ on:
       - 'scripts/build_a1_word_review_context.py'
       - 'curriculum/levels/a1/semantic-lock/manual-decisions.json'
       - 'curriculum/levels/a1/semantic-lock/phrase-control-decisions.json'
+      - 'curriculum/levels/a1/semantic-lock/word-control-decisions.json'
       - 'curriculum/levels/a1/words.json'
       - 'curriculum/levels/a1/phrases.json'
       - 'curriculum/levels/a1/grammar.json'
