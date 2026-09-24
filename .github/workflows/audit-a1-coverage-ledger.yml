@@ -67,16 +67,6 @@ jobs:
             git push
           fi
 
-      - name: Upload deterministic ledger
-        if: steps.ledger.outputs.status == '0'
-        uses: actions/upload-artifact@v4
-        with:
-          name: a1-coverage-ledger
-          path: |
-            /tmp/a1-coverage-ledger.json
-            /tmp/a1-coverage-report.md
-          if-no-files-found: error
-
       - name: Enforce audit result
         shell: bash
         run: exit ${{ steps.ledger.outputs.status }}
