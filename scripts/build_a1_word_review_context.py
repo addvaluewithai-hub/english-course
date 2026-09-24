@@ -51,9 +51,22 @@ def main() -> None:
         "group_counts": {key: len(rows) for key, rows in sorted(groups.items())},
         "groups": {key: rows for key, rows in sorted(groups.items())},
     }
-    (LOCK / "word-review-context.json").write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    (LOCK / "word-review-context.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    lines = [
+        "# A1 Pending Word Semantic Review Context",
+        "",
+        f"Pending words: **{len(pending_ids)}**",
+        "",
+        "Generated review aid only. Semantic decisions belong in reviewed decision files.",
+    ]
+    for lesson, rows in sorted(groups.items()):
+        lines.extend(["", f"## {lesson} — {len(rows)}", "", "| Item ID | Headword | POS | Homes |", "| --- | --- | --- | --- |"])
+        for row in rows:
+            homes = ", ".join(row["homes"])
+            lines.append(f"| `{row['item_id']}` | **{row['headword']}** | {row['part_of_speech'] or ''} | {homes} |")
+    (LOCK / "word-review-context.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
     print(json.dumps({"pending_word_count": len(pending_ids), "group_counts": payload["group_counts"]}, indent=2))
 
 
