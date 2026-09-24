@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "level": "A1",
+  "status": "in_progress",
+  "policy": {
+    "manual_decisions_must_reference_existing_pending_items": true,
+    "productive_control_requires_positive_review_evidence": true,
+    "receptive_or_formulaic_control_may_not_be_promoted_by_lesson_home_alone": true,
+    "no_silent_exclusion": true
+  },
+  "decisions": {
+    "grammar": [],
+    "phrases": [],
+    "words": []
+  }
+}
