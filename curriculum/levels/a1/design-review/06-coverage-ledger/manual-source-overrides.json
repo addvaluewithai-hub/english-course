@@ -21,17 +21,13 @@
       "gse.adult.2022.a1.p22.016",
       "gse.adult.2022.a1.p37.018"
     ],
-    "U6-L05": [
-      "gse.adult.2022.a1.p15.008"
-    ],
+    "U6-L05": ["gse.adult.2022.a1.p15.008"],
     "U6-L06": [
       "gse.adult.2022.a1.p14.015",
       "gse.adult.2022.a1.p22.014",
       "gse.adult.2022.a1.p37.012"
     ],
-    "U8-L03": [
-      "gse.adult.2022.a1.p22.019"
-    ]
+    "U8-L03": ["gse.adult.2022.a1.p22.019"]
   },
   "word_home_additions": {
     "X10": [
@@ -53,10 +49,7 @@
     "L17": ["final", "reader"],
     "L18": ["send"],
     "L19": ["match", "member", "pool", "team"],
-    "L20": [
-      "activity", "always", "climb", "fast", "hard", "lie", "never", "often",
-      "once", "routine", "see", "sometimes", "twice", "usually"
-    ],
+    "L20": ["activity", "always", "climb", "fast", "hard", "lie", "never", "often", "once", "routine", "see", "sometimes", "twice", "usually"],
     "L21": ["down", "off", "out", "up"],
     "L22": ["dear", "describe", "reader"],
     "L24": ["meeting"],
@@ -71,16 +64,14 @@
       "C06": {"fresh_retrieval": ["U9-L04"]},
       "C08": {"fresh_retrieval": ["U9-L06"]},
       "C10": {"fresh_retrieval": ["U6-L07"]},
+      "C11": {"fresh_retrieval": ["U6-L07"]},
       "C12": {
         "practice": ["U6-L06", "U8-L03", "U8-L05"],
         "fresh_retrieval": ["U7-L05", "U8-L06", "U9-L05"]
       }
     },
     "cross_cutting": {
-      "X05": {
-        "introduce": ["U1-L03", "U2-L02", "U3-L02", "U4-L01"],
-        "fresh_retrieval": ["U4-L07"]
-      },
+      "X05": {"introduce": ["U1-L03", "U2-L02", "U3-L02", "U4-L01"], "fresh_retrieval": ["U4-L07"]},
       "X06": {"introduce": ["U1-L05"]},
       "X07": {"introduce": ["U1-L04"]},
       "X08": {"fresh_retrieval": ["U9-L06"]}
@@ -105,11 +96,7 @@
       "L25": {"introduce": ["U3-L02", "U5-L03"]},
       "L26": {"introduce": ["U1-L06", "U5-L02", "U6-L03"], "fresh_retrieval": ["U8-L06"]},
       "LX-GENERAL": {
-        "introduce": [
-          "U1-L04", "U1-L06", "U2-L05", "U3-L05", "U4-L04", "U4-L06",
-          "U5-L02", "U5-L06", "U6-L04", "U6-L06", "U7-L02", "U7-L04",
-          "U8-L03", "U8-L05", "U9-L03", "U9-L05"
-        ]
+        "introduce": ["U1-L04", "U1-L06", "U2-L05", "U3-L05", "U4-L04", "U4-L06", "U5-L02", "U5-L06", "U6-L04", "U6-L06", "U7-L02", "U7-L04", "U8-L03", "U8-L05", "U9-L03", "U9-L05"]
       }
     }
   },
@@ -149,7 +136,8 @@
     "U1-L06": ["oxford.phrase.online.0112", "oxford.phrase.online.0315", "oxford.phrase.online.0319", "oxford.phrase.online.0361", "oxford.phrase.online.0516", "oxford.phrase.online.0518", "oxford.phrase.online.0720", "oxford.phrase.online.0750"],
     "U4-L03": ["oxford.phrase.online.0020", "oxford.phrase.online.0254", "oxford.phrase.online.0334", "oxford.phrase.online.0347", "oxford.phrase.online.0454", "oxford.phrase.online.0693", "oxford.phrase.online.0702"],
     "U4-L06": ["oxford.phrase.online.0095"],
-    "U5-L04": ["oxford.phrase.online.0492", "oxford.phrase.online.0496", "oxford.phrase.online.0696"],
+    "U5-L04": ["oxford.phrase.online.0496"],
+    "U6-L01": ["oxford.phrase.online.0492", "oxford.phrase.online.0696"],
     "U6-L04": ["oxford.phrase.online.0178", "oxford.phrase.online.0301"],
     "U7-L02": ["oxford.phrase.online.0266"],
     "U7-L03": ["oxford.phrase.online.0262"],
