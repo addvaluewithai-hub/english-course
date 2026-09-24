@@ -159,10 +159,6 @@
       "oxford.phrase.online.0492",
       "oxford.phrase.online.0496",
       "oxford.phrase.online.0696"
-    ],
-    "U7-L03": [
-      "oxford.phrase.online.0276",
-      "oxford.phrase.online.0317"
     ]
   },
   "phrase_intro_removals": {
@@ -180,10 +176,6 @@
       "oxford.phrase.online.0492",
       "oxford.phrase.online.0496",
       "oxford.phrase.online.0696"
-    ],
-    "U2-L01": [
-      "oxford.phrase.online.0276",
-      "oxford.phrase.online.0317"
     ]
   }
 }
