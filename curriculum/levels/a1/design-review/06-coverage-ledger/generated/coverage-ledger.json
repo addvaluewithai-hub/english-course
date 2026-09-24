@@ -28,7 +28,8 @@
         ],
         "fresh_retrieval": [
           "U1-L07",
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -826,7 +827,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -1210,7 +1212,8 @@
         ],
         "fresh_retrieval": [
           "U1-L07",
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -2458,7 +2461,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -3730,7 +3734,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -3787,7 +3792,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -3816,7 +3822,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -3845,7 +3852,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -6292,7 +6300,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -6321,7 +6330,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -7352,7 +7362,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -7375,16 +7386,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U6-L01"
         ],
-        "practice": [
-          "U5-L04"
-        ],
+        "practice": [],
         "fresh_retrieval": [
-          "U5-L07"
+          "U6-L07"
         ],
         "recycle": [
-          "U5-L05",
           "U6-L05"
         ],
         "consolidate": [
@@ -7440,7 +7448,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -9021,16 +9030,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U6-L01"
         ],
-        "practice": [
-          "U5-L04"
-        ],
+        "practice": [],
         "fresh_retrieval": [
-          "U5-L07"
+          "U6-L07"
         ],
         "recycle": [
-          "U5-L05",
           "U6-L05"
         ],
         "consolidate": [
@@ -9092,7 +9098,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -11547,7 +11554,8 @@
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
@@ -11579,6 +11587,7 @@
         ],
         "fresh_retrieval": [
           "U5-L07",
+          "U6-L07",
           "U9-L04"
         ],
         "recycle": [
@@ -12489,7 +12498,8 @@
         "fresh_retrieval": [
           "U3-L06",
           "U4-L07",
-          "U5-L07"
+          "U5-L07",
+          "U6-L07"
         ],
         "recycle": [
           "U5-L05",
