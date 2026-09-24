@@ -1,6 +1,7 @@
 # A1 Pending Word Semantic Review Context
 
 Pending words: **276**
+Pending-ID SHA-256: `6e746736bfabcdb2f460423f3c2f95d6f43f23443c541fb5437b3a89e3eeb0d2`
 
 Generated review aid only. Semantic decisions belong in reviewed decision files.
 

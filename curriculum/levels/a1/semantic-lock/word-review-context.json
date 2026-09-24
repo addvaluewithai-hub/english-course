@@ -2,6 +2,8 @@
   "schema_version": 1,
   "level": "A1",
   "pending_word_count": 276,
+  "pending_item_ids_sha256": "6e746736bfabcdb2f460423f3c2f95d6f43f23443c541fb5437b3a89e3eeb0d2",
+  "digest_rule": "sha256(newline-joined sorted pending item IDs; no trailing newline)",
   "grouping": "first_introduction_lesson",
   "group_counts": {
     "U1-L01": 4,
