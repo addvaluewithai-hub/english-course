@@ -3,6 +3,7 @@
   "grammar_intro_additions": {
     "U1-L06": [81, 1029],
     "U2-L02": [35, 86],
+    "U2-L03": [173, 286],
     "U3-L04": [287, 749, 752, 781],
     "U4-L02": [803],
     "U5-L01": [1184],
@@ -11,22 +12,13 @@
   "grammar_intro_removals": {
     "U1-L01": [35, 81, 86, 1029],
     "U2-L05": [1184, 1192],
-    "U3-L02": [287, 749, 752, 781]
+    "U3-L02": [287, 749, 752, 781],
+    "U7-L05": [173, 286]
   },
   "ability_intro_source_overrides": {
-    "U4-L01": [
-      "gse.adult.2022.a1.p14.003",
-      "gse.adult.2022.a1.p14.004",
-      "gse.adult.2022.a1.p22.003",
-      "gse.adult.2022.a1.p22.016",
-      "gse.adult.2022.a1.p37.018"
-    ],
+    "U4-L01": ["gse.adult.2022.a1.p14.003", "gse.adult.2022.a1.p14.004", "gse.adult.2022.a1.p22.003", "gse.adult.2022.a1.p22.016", "gse.adult.2022.a1.p37.018"],
     "U6-L05": ["gse.adult.2022.a1.p15.008"],
-    "U6-L06": [
-      "gse.adult.2022.a1.p14.015",
-      "gse.adult.2022.a1.p22.014",
-      "gse.adult.2022.a1.p37.012"
-    ],
+    "U6-L06": ["gse.adult.2022.a1.p14.015", "gse.adult.2022.a1.p22.014", "gse.adult.2022.a1.p37.012"],
     "U8-L03": ["gse.adult.2022.a1.p22.019"]
   },
   "word_home_additions": {
@@ -61,10 +53,7 @@
       "C08": {"fresh_retrieval": ["U9-L06"]},
       "C10": {"fresh_retrieval": ["U6-L07"]},
       "C11": {"fresh_retrieval": ["U6-L07"]},
-      "C12": {
-        "practice": ["U6-L06", "U8-L03", "U8-L05"],
-        "fresh_retrieval": ["U6-L07", "U7-L05", "U8-L06", "U9-L05"]
-      }
+      "C12": {"practice": ["U6-L06", "U8-L03", "U8-L05"], "fresh_retrieval": ["U6-L07", "U7-L05", "U8-L06", "U9-L05"]}
     },
     "cross_cutting": {
       "X05": {"introduce": ["U1-L03", "U2-L02", "U3-L02", "U4-L01"], "fresh_retrieval": ["U4-L07"]},
