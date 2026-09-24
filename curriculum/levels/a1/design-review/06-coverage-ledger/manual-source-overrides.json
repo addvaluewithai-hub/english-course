@@ -13,6 +13,26 @@
     "U2-L05": [1184, 1192],
     "U3-L02": [287, 749, 752, 781]
   },
+  "ability_intro_source_overrides": {
+    "U4-L01": [
+      "gse.adult.2022.a1.p14.003",
+      "gse.adult.2022.a1.p14.004",
+      "gse.adult.2022.a1.p22.003",
+      "gse.adult.2022.a1.p22.016",
+      "gse.adult.2022.a1.p37.018"
+    ],
+    "U6-L05": [
+      "gse.adult.2022.a1.p15.008"
+    ],
+    "U6-L06": [
+      "gse.adult.2022.a1.p14.015",
+      "gse.adult.2022.a1.p22.014",
+      "gse.adult.2022.a1.p37.012"
+    ],
+    "U8-L03": [
+      "gse.adult.2022.a1.p22.019"
+    ]
+  },
   "word_home_additions": {
     "X10": [
       "about", "anyone", "anything", "as", "cannot", "else", "have", "let",
@@ -52,7 +72,7 @@
       "C08": {"fresh_retrieval": ["U9-L06"]},
       "C10": {"fresh_retrieval": ["U6-L07"]},
       "C12": {
-        "introduce": ["U4-L03"],
+        "practice": ["U6-L06", "U8-L03", "U8-L05"],
         "fresh_retrieval": ["U7-L05", "U8-L06", "U9-L05"]
       }
     },
@@ -68,43 +88,22 @@
     "lexical_sets": {
       "L01": {"introduce": ["U1-L06"]},
       "L02": {"introduce": ["U2-L02", "U2-L03"]},
-      "L03": {
-        "introduce": ["U4-L04"],
-        "fresh_retrieval": ["U7-L05"]
-      },
+      "L03": {"introduce": ["U4-L04"], "fresh_retrieval": ["U7-L05"]},
       "L04": {"introduce": ["U3-L03", "U3-L05"]},
       "L06": {"introduce": ["U2-L02", "U2-L04", "U3-L02", "U5-L03"]},
       "L07": {"introduce": ["U2-L04", "U5-L02", "U5-L04"]},
       "L08": {"introduce": ["U5-L04"]},
       "L10": {"introduce": ["U6-L04"]},
       "L11": {"introduce": ["U3-L04", "U5-L05"]},
-      "L12": {
-        "introduce": ["U3-L04", "U3-L05", "U9-L02"],
-        "fresh_retrieval": ["U5-L07", "U9-L06"]
-      },
-      "L15": {
-        "introduce": ["U4-L02", "U4-L03"],
-        "fresh_retrieval": ["U7-L05", "U8-L06"]
-      },
-      "L16": {
-        "introduce": ["U1-L05", "U4-L01", "U6-L05"],
-        "fresh_retrieval": ["U6-L07"]
-      },
-      "L17": {
-        "introduce": ["U4-L02"],
-        "fresh_retrieval": ["U9-L06"]
-      },
+      "L12": {"introduce": ["U3-L04", "U3-L05", "U9-L02"], "fresh_retrieval": ["U5-L07", "U9-L06"]},
+      "L15": {"introduce": ["U4-L02", "U4-L03"], "fresh_retrieval": ["U7-L05", "U8-L06"]},
+      "L16": {"introduce": ["U1-L05", "U4-L01", "U6-L05"], "fresh_retrieval": ["U6-L07"]},
+      "L17": {"introduce": ["U4-L02"], "fresh_retrieval": ["U9-L06"]},
       "L18": {"fresh_retrieval": ["U9-L06"]},
-      "L19": {
-        "introduce": ["U2-L05", "U8-L06"],
-        "fresh_retrieval": ["U9-L05"]
-      },
+      "L19": {"introduce": ["U2-L05", "U8-L06"], "fresh_retrieval": ["U9-L05"]},
       "L20": {"introduce": ["U4-L03", "U4-L04", "U4-L05"]},
       "L25": {"introduce": ["U3-L02", "U5-L03"]},
-      "L26": {
-        "introduce": ["U1-L06", "U5-L02", "U6-L03"],
-        "fresh_retrieval": ["U8-L06"]
-      },
+      "L26": {"introduce": ["U1-L06", "U5-L02", "U6-L03"], "fresh_retrieval": ["U8-L06"]},
       "LX-GENERAL": {
         "introduce": [
           "U1-L04", "U1-L06", "U2-L05", "U3-L05", "U4-L04", "U4-L06",
@@ -131,10 +130,12 @@
     "U5-L06": ["product", "supermarket", "bag", "boot", "hat", "shirt", "apple"],
     "U6-L01": ["beach", "farm", "land", "mountain", "sea"],
     "U6-L04": ["find"],
+    "U6-L06": ["January", "February", "March", "June", "July", "August", "September", "October", "November", "December"],
     "U7-L02": ["fall", "lose"],
     "U7-L03": ["become", "history"],
     "U8-L01": ["amazing", "boring", "false", "good", "interesting", "positive", "special", "useful", "believe", "important"],
     "U8-L02": ["perfect", "agree", "funny", "popular", "same"],
+    "U8-L03": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "April", "date", "month"],
     "U8-L06": ["cold", "hot", "air"],
     "U9-L01": ["main"],
     "U9-L02": ["exam", "science", "language", "classroom", "test", "open"],
@@ -145,45 +146,20 @@
     "U1-L03": ["your"]
   },
   "phrase_intro_additions": {
-    "U1-L06": [
-      "oxford.phrase.online.0112",
-      "oxford.phrase.online.0315",
-      "oxford.phrase.online.0319",
-      "oxford.phrase.online.0361",
-      "oxford.phrase.online.0516",
-      "oxford.phrase.online.0518",
-      "oxford.phrase.online.0720",
-      "oxford.phrase.online.0750"
-    ],
-    "U5-L04": [
-      "oxford.phrase.online.0492",
-      "oxford.phrase.online.0496",
-      "oxford.phrase.online.0696"
-    ],
-    "U6-L04": [
-      "oxford.phrase.online.0178",
-      "oxford.phrase.online.0301"
-    ]
+    "U1-L06": ["oxford.phrase.online.0112", "oxford.phrase.online.0315", "oxford.phrase.online.0319", "oxford.phrase.online.0361", "oxford.phrase.online.0516", "oxford.phrase.online.0518", "oxford.phrase.online.0720", "oxford.phrase.online.0750"],
+    "U4-L03": ["oxford.phrase.online.0020", "oxford.phrase.online.0254", "oxford.phrase.online.0334", "oxford.phrase.online.0347", "oxford.phrase.online.0454", "oxford.phrase.online.0693", "oxford.phrase.online.0702"],
+    "U4-L06": ["oxford.phrase.online.0095"],
+    "U5-L04": ["oxford.phrase.online.0492", "oxford.phrase.online.0496", "oxford.phrase.online.0696"],
+    "U6-L04": ["oxford.phrase.online.0178", "oxford.phrase.online.0301"],
+    "U7-L02": ["oxford.phrase.online.0266"],
+    "U7-L03": ["oxford.phrase.online.0262"],
+    "U9-L03": ["oxford.phrase.online.0088", "oxford.phrase.online.0089", "oxford.phrase.online.0090"]
   },
   "phrase_intro_removals": {
-    "U1-L01": [
-      "oxford.phrase.online.0112",
-      "oxford.phrase.online.0315",
-      "oxford.phrase.online.0319",
-      "oxford.phrase.online.0361",
-      "oxford.phrase.online.0516",
-      "oxford.phrase.online.0518",
-      "oxford.phrase.online.0720",
-      "oxford.phrase.online.0750"
-    ],
-    "U1-L02": [
-      "oxford.phrase.online.0492",
-      "oxford.phrase.online.0496",
-      "oxford.phrase.online.0696"
-    ],
-    "U3-L03": [
-      "oxford.phrase.online.0178",
-      "oxford.phrase.online.0301"
-    ]
+    "U1-L01": ["oxford.phrase.online.0112", "oxford.phrase.online.0315", "oxford.phrase.online.0319", "oxford.phrase.online.0361", "oxford.phrase.online.0516", "oxford.phrase.online.0518", "oxford.phrase.online.0720", "oxford.phrase.online.0750"],
+    "U1-L02": ["oxford.phrase.online.0492", "oxford.phrase.online.0496", "oxford.phrase.online.0696"],
+    "U3-L03": ["oxford.phrase.online.0178", "oxford.phrase.online.0301"],
+    "U4-L01": ["oxford.phrase.online.0020", "oxford.phrase.online.0095", "oxford.phrase.online.0254", "oxford.phrase.online.0334", "oxford.phrase.online.0347", "oxford.phrase.online.0454", "oxford.phrase.online.0693", "oxford.phrase.online.0702"],
+    "U4-L03": ["oxford.phrase.online.0262", "oxford.phrase.online.0266", "oxford.phrase.online.0088", "oxford.phrase.online.0089", "oxford.phrase.online.0090"]
   }
 }
