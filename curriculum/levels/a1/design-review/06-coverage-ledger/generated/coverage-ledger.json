@@ -4505,10 +4505,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U1-L06"
         ],
         "practice": [
-          "U1-L01",
           "U1-L06"
         ],
         "fresh_retrieval": [
@@ -5833,10 +5832,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U1-L06"
         ],
         "practice": [
-          "U1-L01",
           "U1-L06"
         ],
         "fresh_retrieval": [
@@ -5917,10 +5915,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U1-L06"
         ],
         "practice": [
-          "U1-L01",
           "U1-L06"
         ],
         "fresh_retrieval": [
@@ -6391,10 +6388,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U1-L06"
         ],
         "practice": [
-          "U1-L01",
           "U1-L06"
         ],
         "fresh_retrieval": [
@@ -7575,10 +7571,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U1-L06"
         ],
         "practice": [
-          "U1-L01",
           "U1-L06"
         ],
         "fresh_retrieval": [
@@ -7605,10 +7600,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U1-L06"
         ],
         "practice": [
-          "U1-L01",
           "U1-L06"
         ],
         "fresh_retrieval": [
@@ -9210,10 +9204,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U1-L06"
         ],
         "practice": [
-          "U1-L01",
           "U1-L06"
         ],
         "fresh_retrieval": [
@@ -9637,10 +9630,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U1-L06"
         ],
         "practice": [
-          "U1-L01",
           "U1-L06"
         ],
         "fresh_retrieval": [
@@ -22575,7 +22567,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L06"
+          "U1-L01"
         ],
         "practice": [
           "U2-L02",
@@ -38346,7 +38338,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L06"
+          "U1-L01"
         ],
         "practice": [
           "U1-L06",
