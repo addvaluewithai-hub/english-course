@@ -25,7 +25,7 @@ Source records expanded: **1337**
 | U2-L01 | 5 | 6 | 3 | 24 | 2 | 40 |
 | U2-L02 | 5 | 3 | 4 | 24 | 0 | 36 |
 | U2-L03 | 0 | 1 | 2 | 24 | 0 | 27 |
-| U2-L04 | 5 | 2 | 8 | 28 | 0 | 43 |
+| U2-L04 | 5 | 2 | 8 | 24 | 0 | 39 |
 | U2-L05 | 3 | 3 | 8 | 21 | 0 | 35 |
 | U2-L06 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U3-L01 | 2 | 3 | 2 | 20 | 0 | 27 |
@@ -63,8 +63,8 @@ Source records expanded: **1337**
 | U8-L01 | 0 | 8 | 6 | 24 | 0 | 38 |
 | U8-L02 | 0 | 9 | 0 | 13 | 0 | 22 |
 | U8-L03 | 2 | 4 | 0 | 23 | 0 | 29 |
-| U8-L04 | 1 | 5 | 6 | 16 | 0 | 28 |
-| U8-L05 | 1 | 3 | 1 | 22 | 0 | 27 |
+| U8-L04 | 1 | 5 | 6 | 18 | 0 | 30 |
+| U8-L05 | 1 | 3 | 1 | 24 | 0 | 29 |
 | U8-L06 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U9-L01 | 0 | 0 | 0 | 9 | 0 | 9 |
 | U9-L02 | 2 | 3 | 0 | 22 | 0 | 27 |
@@ -80,6 +80,4 @@ Source records expanded: **1337**
 
 ## Threshold result
 
-**OVERLOADS FOUND — manual scheduling revision required.**
-- U2-L04: total=43 > 42
-- U2-L04: word=28 > 24
+**PASS — no introduction-load threshold exceeded.**
