@@ -4829,17 +4829,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L03"
+          "U6-L04"
         ],
-        "practice": [
-          "U3-L04"
-        ],
+        "practice": [],
         "fresh_retrieval": [
-          "U3-L06",
           "U6-L07"
         ],
         "recycle": [
-          "U6-L02",
           "U6-L07"
         ],
         "consolidate": [
@@ -5586,17 +5582,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L03"
+          "U6-L04"
         ],
-        "practice": [
-          "U3-L04"
-        ],
+        "practice": [],
         "fresh_retrieval": [
-          "U3-L06",
           "U6-L07"
         ],
         "recycle": [
-          "U6-L02",
           "U6-L07"
         ],
         "consolidate": [
