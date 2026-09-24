@@ -114,5 +114,32 @@
       }
     }
   },
+  "word_intro_label_overrides": {
+    "U1-L04": ["a, an", "work"],
+    "U1-L05": ["address", "email"],
+    "U1-L06": ["goodbye", "introduce", "oh", "say", "thanks", "friendly", "him", "she", "feeling", "sorry"],
+    "U2-L01": ["her", "their"],
+    "U2-L03": ["who", "your"],
+    "U2-L05": ["exercise", "music", "piano", "sport", "tennis", "strong", "cannot", "not", "do1", "run"],
+    "U3-L01": ["flower", "plant"],
+    "U3-L03": ["over", "under"],
+    "U3-L04": ["them", "us", "it", "camera"],
+    "U4-L04": ["university"],
+    "U4-L05": ["concert", "programme"],
+    "U5-L05": ["bill", "cost", "money"],
+    "U5-L06": ["product", "supermarket", "bag", "boot", "hat", "shirt"],
+    "U6-L01": ["beach", "farm", "land", "mountain", "sea"],
+    "U6-L04": ["find"],
+    "U7-L02": ["fall", "lose"],
+    "U7-L03": ["become", "history"],
+    "U8-L01": ["amazing", "boring", "false", "good", "interesting", "positive", "special", "useful", "believe", "important"],
+    "U8-L02": ["perfect", "agree", "funny", "popular", "why", "same"],
+    "U8-L06": ["cold", "hot", "air"],
+    "U9-L01": ["main"],
+    "U9-L02": ["arm", "leg", "exam", "science", "language", "classroom", "test", "open"],
+    "U9-L03": ["detail", "example", "section", "statement", "lesson", "begin"],
+    "U9-L04": ["cat", "dog", "horse", "natural", "healthy", "head", "nose", "eye", "true"],
+    "U9-L05": ["paragraph", "read", "spelling", "writing", "article", "dear", "letter", "note", "story", "phrase", "reader", "short"]
+  },
   "phrase_intro_additions": {}
 }
