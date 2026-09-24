@@ -9,6 +9,7 @@ on:
       - 'scripts/build_a1_semantic_lock.py'
       - 'scripts/apply_a1_semantic_lock_decisions.py'
       - 'scripts/build_a1_word_review_context.py'
+      - 'scripts/finalize_a1_semantic_lock.py'
       - 'curriculum/levels/a1/semantic-lock/manual-decisions.json'
       - 'curriculum/levels/a1/semantic-lock/phrase-control-decisions.json'
       - 'curriculum/levels/a1/semantic-lock/word-control-decisions.json'
@@ -38,14 +39,16 @@ jobs:
           python-version: '3.12'
       - name: Build conservative semantic lock candidate
         run: python scripts/build_a1_semantic_lock.py
-      - name: Apply reviewed semantic decisions
-        run: python scripts/apply_a1_semantic_lock_decisions.py
       - name: Build pending-word review context
         run: python scripts/build_a1_word_review_context.py
+      - name: Apply reviewed semantic decisions
+        run: python scripts/apply_a1_semantic_lock_decisions.py
+      - name: Finalize A1 manifest and exit contract
+        run: python scripts/finalize_a1_semantic_lock.py
       - name: Commit generated semantic lock
         run: |
-          if [ -z "$(git status --porcelain -- curriculum/levels/a1/semantic-lock)" ]; then
-            echo 'Semantic lock candidate already current.'
+          if [ -z "$(git status --porcelain -- curriculum/levels/a1/semantic-lock curriculum/levels/a1/manifest.json curriculum/levels/a1/exit_contract.json)" ]; then
+            echo 'A1 semantic lock already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
@@ -54,6 +57,8 @@ jobs:
                   curriculum/levels/a1/semantic-lock/semantic-lock-report.json \
                   curriculum/levels/a1/semantic-lock/review-queue-compact.json \
                   curriculum/levels/a1/semantic-lock/word-review-context.json \
-                  curriculum/levels/a1/semantic-lock/word-review-context.md
-          git commit -m 'curriculum: generate A1 semantic lock candidate'
+                  curriculum/levels/a1/semantic-lock/word-review-context.md \
+                  curriculum/levels/a1/manifest.json \
+                  curriculum/levels/a1/exit_contract.json
+          git commit -m 'curriculum: finalize A1 semantic lock'
           git push
