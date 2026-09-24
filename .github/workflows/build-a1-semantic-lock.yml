@@ -7,6 +7,8 @@ on:
       - curriculum/level-source-of-truth-v1
     paths:
       - 'scripts/build_a1_semantic_lock.py'
+      - 'scripts/apply_a1_semantic_lock_decisions.py'
+      - 'curriculum/levels/a1/semantic-lock/manual-decisions.json'
       - 'curriculum/levels/a1/words.json'
       - 'curriculum/levels/a1/phrases.json'
       - 'curriculum/levels/a1/grammar.json'
@@ -32,6 +34,8 @@ jobs:
           python-version: '3.12'
       - name: Build conservative semantic lock candidate
         run: python scripts/build_a1_semantic_lock.py
+      - name: Apply reviewed semantic decisions
+        run: python scripts/apply_a1_semantic_lock_decisions.py
       - name: Commit generated semantic lock
         run: |
           if [ -z "$(git status --porcelain -- curriculum/levels/a1/semantic-lock)" ]; then
@@ -40,6 +44,8 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add curriculum/levels/a1/semantic-lock
+          git add curriculum/levels/a1/semantic-lock/semantic-lock-candidate.json \
+                  curriculum/levels/a1/semantic-lock/semantic-lock-report.json \
+                  curriculum/levels/a1/semantic-lock/review-queue-compact.json
           git commit -m 'curriculum: generate A1 semantic lock candidate'
           git push
