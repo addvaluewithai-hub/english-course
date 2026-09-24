@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "level": "A1",
+  "status": "locked_manual_word_control_v1",
+  "expected_pending_count": 276,
+  "pending_item_ids_sha256": "6e746736bfabcdb2f460423f3c2f95d6f43f23443c541fb5437b3a89e3eeb0d2",
+  "digest_rule": "sha256(newline-joined sorted pending item IDs; no trailing newline)",
+  "evidence_refs": [
+    "curriculum/levels/a1/design-review/04-words/word-review.md",
+    "curriculum/levels/a1/design-review/06-coverage-ledger/generated/coverage-ledger.json",
+    "curriculum/levels/a1/semantic-lock/word-review-context.md"
+  ],
+  "policy": {
+    "reviewed_set_is_frozen_by_digest": true,
+    "reference_pool_does_not_imply_productive_control": true,
+    "receptive_is_the_conservative_default_without_positive_independent_production_need": true,
+    "productive_promotions_are_explicit_and_bounded": true,
+    "productive_role_does_not_imply_all_dictionary_senses": true,
+    "grammar_owned_items_are_not_double_assessed_lexically": true,
+    "silent_exclusion": false
+  },
+  "default_pending_role": {
+    "semantic_role": "receptive_required",
+    "rationale": "The published A1 lexical item remains required for comprehension, but the reviewed A1 capability and lifecycle architecture does not provide enough positive evidence to require independent production of every former reference-pool item.",
+    "control_boundary": "Recognise and interpret the reviewed everyday A1 sense in context. Productive use may be accepted, but independent production is not an A1 exit requirement unless explicitly promoted below."
+  },
+  "productive_promotion": {
+    "semantic_role": "productive_required",
+    "rationale": "Manual review found a clear, reusable A1 production need inside the locked capability and lexical-home architecture. The promotion is limited to the familiar A1 sense used by those tasks.",
+    "control_boundary": "Produce the familiar reviewed A1 sense in simple source-supported contexts; no additional senses, registers or collocational range are implied.",
+    "headwords": [
+      "excited", "feeling", "ready", "baby", "dad", "exciting", "healthy", "nose", "also", "mum",
+      "bored", "interested", "sing", "dancing", "exercise", "paint", "piano", "song", "strong",
+      "angry", "dangerous", "famous", "hard", "wonderful", "upstairs", "downstairs",
+      "climb", "often", "ride", "midnight", "once", "twice", "reading", "university", "usually",
+      "draw", "online", "painting", "pool", "spend", "theatre", "fast", "never", "relax",
+      "body", "health", "slow", "talk", "fantastic", "hate", "reason", "terrible", "cooking", "pair",
+      "purple", "umbrella", "boot", "shopping", "mountain", "west", "local", "north", "east", "south",
+      "bike", "boat", "fly", "amazing", "believe", "important", "opinion", "prefer", "special", "useful",
+      "enjoy", "perfect", "art", "club", "hope", "maybe", "plan", "probably", "vacation", "cool",
+      "decide", "guitar", "movie", "prepare", "show", "know"
+    ]
+  },
+  "grammar_owned": {
+    "semantic_role": "grammar_owned_required",
+    "rationale": "Manual word review classifies this function word as primarily controlled through the grammar/question system rather than as an independently assessed lexical target.",
+    "control_boundary": "Required inside the reviewed A1 grammar/function system; do not add a separate lexical mastery obligation.",
+    "headwords": ["why"]
+  }
+}
