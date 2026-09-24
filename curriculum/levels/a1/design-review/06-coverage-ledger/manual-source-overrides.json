@@ -115,9 +115,10 @@
     }
   },
   "word_intro_label_overrides": {
+    "U1-L01": ["thanks", "feeling"],
     "U1-L04": ["a, an", "work"],
     "U1-L05": ["address", "email"],
-    "U1-L06": ["goodbye", "introduce", "oh", "say", "thanks", "friendly", "him", "she", "feeling", "sorry"],
+    "U1-L06": ["goodbye", "introduce", "oh", "say", "friendly", "him", "she", "sorry"],
     "U2-L01": ["her", "their"],
     "U2-L03": ["who", "why"],
     "U2-L05": ["exercise", "music", "piano", "sport", "tennis", "strong", "cannot", "not", "do1", "run"],
@@ -143,5 +144,28 @@
     "U2-L04": ["bored", "interested", "true"],
     "U1-L03": ["your"]
   },
-  "phrase_intro_additions": {}
+  "phrase_intro_additions": {
+    "U1-L06": [
+      "oxford.phrase.online.0112",
+      "oxford.phrase.online.0315",
+      "oxford.phrase.online.0319",
+      "oxford.phrase.online.0361",
+      "oxford.phrase.online.0516",
+      "oxford.phrase.online.0518",
+      "oxford.phrase.online.0720",
+      "oxford.phrase.online.0750"
+    ]
+  },
+  "phrase_intro_removals": {
+    "U1-L01": [
+      "oxford.phrase.online.0112",
+      "oxford.phrase.online.0315",
+      "oxford.phrase.online.0319",
+      "oxford.phrase.online.0361",
+      "oxford.phrase.online.0516",
+      "oxford.phrase.online.0518",
+      "oxford.phrase.online.0720",
+      "oxford.phrase.online.0750"
+    ]
+  }
 }
