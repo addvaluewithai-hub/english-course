@@ -1,6 +1,6 @@
 # A1 Lesson Authoring Briefs
 
-Status: **IN PROGRESS — UNITS 1–5 MANUALLY BRIEFED**  
+Status: **IN PROGRESS — UNITS 1–6 MANUALLY BRIEFED**  
 Stage: **07 — Lesson Briefs**  
 Authoritative coverage source: `../06-coverage-ledger/generated/coverage-ledger.json`  
 Authoritative unit skeleton: `../05-curriculum-map/curriculum-map.md`
@@ -308,4 +308,90 @@ Transfer: **U5-L07**.
 
 ---
 
-Next Stage-07 work: **Unit 6 — Around Town and Travelling**. The critic must now check three things especially: (1) static place vs route/movement language after the Unit-3 phrase move, (2) `millions/thousands` as supported public-info facts rather than a surprise number lesson, and (3) the manually reassigned date abilities/month vocabulary in ticket/hotel/form tasks so date coverage is real rather than ledger-only.
+# Unit 6 — Around Town and Travelling
+
+Purpose: read basic public information, orient in a town, ask for/follow directions, handle transport/ticket information, provide travel/hotel details, and complete a simple form.  
+Primary: **C14, C16, transport/hotel branches of C19, C20**, with **C10, C11, C12, C17, C18** recycling.  
+Main lexical homes: **L09 travel/transport, L10 places/routes**, plus time/date and personal-detail support.  
+Pronunciation/repair: place-name and key-information intelligibility, word stress, monitoring/repair in direction requests.  
+Transfer: **U6-L07**.
+
+## U6-L01 — What place is this? What does the sign say?
+**Performance:** recognise common places and understand very basic public signs/information in a familiar town/travel context.  
+**Core:** `car park`, `city centre`, `post office`, `town centre`, high-value public-place/sign vocabulary; simple notice/public-information reading with visual support. `millions of` and `thousands of` may appear in a short supported town/city fact panel.  
+**Boundary:** **C14 is receptive**. Do not turn this into a “talk about my town” production lesson. `millions/thousands` are supported large-number phrases in public facts, **not a surprise active population-number chapter**. Their job is to give those A1 phrases a natural semantic home after they were removed from food/shopping.  
+**Pronunciation support:** syllable shape and word stress in public-place names where useful, while the main evidence remains receptive.  
+**Evidence:** unseen mini town map/sign set; identify the place, extract the basic public information, and select the correct interpretation from plausible distractors.  
+**Retrieval:** static orientation L02; directions L03/L04; large-number and sign/public-info fresh retrieval in U6-L07; U9-L01 signs/notices.  
+**Load:** **1 ability / 6 phrases / 0 grammar / 23 words / 0 new pron. records = 30**.
+
+## U6-L02 — Where is it in town?
+**Performance:** understand and state the **static position/orientation** of familiar places in a town.  
+**Core:** `in the centre`, `in the country`, `in the north`, `in the street`, `in town`, `out of sth`, `on the left`; recycle place prepositions and `there is/are` where useful.  
+**Boundary:** this is C10 **static location**, deliberately distinct from L04 movement/route. Do not sneak `turn/go/get to` route instructions into the core evidence.  
+**Lexical handling:** only 8 new words; use a realistic map with contrasting zones/positions rather than a list.  
+**Evidence:** new map; locate/identify several places from short spoken/written clues and give a few static location statements.  
+**Retrieval:** ask for directions L03; follow route L04; mission L07.  
+**Load:** **0 / 7 / 0 / 8 / 0 = 15**.
+
+## U6-L03 — Excuse me, where is …?
+**Performance:** ask for simple directions and repair the exchange when one key item is unclear.  
+**Core:** source phrase `look for sb/sth`, recycled `Excuse me`, `Where is…?`, and authored/source-required direction-request frames such as `How do I get to…?` where appropriate. Recycle request language from Unit 5, but use it for **information/direction**, not service ordering.  
+**Repair:** ask for repetition/clarification or spelling/written support if a place name is unclear; this is planned C17 pronunciation/repair practice, not an optional extra.  
+**Boundary:** learner initiates the request. Do not teach the whole route here; L04 owns following/giving movement steps.  
+**Evidence:** information-gap map: learner must approach/ask for a destination, understand enough of a short answer to choose the next action, and repair once if needed.  
+**Retrieval:** immediate L04 route work; fresh mission L07.  
+**Load:** **2 / 1 / 0 / 13 / 0 = 16**.
+
+## U6-L04 — Follow the route
+**Performance:** follow and use a short sequence of route/movement instructions to reach a destination.  
+**Core:** `get off`, `get on`, `get there`, `get to…`, `go back`, plus manually moved `come into sth` and `go into sth`; route verbs/direction words and familiar place vocabulary.  
+**Human-critic boundary:** `come into/go into` were moved from Unit 3 because they express movement rather than static object position. Here all seven phrase records form a **route/movement system**, not seven unrelated phrasal-verb lessons.  
+**Grammar boundary:** zero new EGP records is desirable—the lesson operationalises known reference/location language in movement. Do not invent imperative grammar beyond the simple instruction forms required by the task.  
+**Evidence:** unfamiliar route/map; follow multi-step directions to the correct destination, then use the same language in a changed route with support reduced.  
+**Retrieval:** transport/ticket L05 where `get on/off` becomes practical; travel mission L07; U9-L01 practical directions/signs.  
+**Load:** **2 / 7 / 0 / 16 / 0 = 25**.
+
+## U6-L05 — A ticket, please
+**Performance:** obtain/understand basic transport/ticket information involving destination, price, departure/arrival time and a familiar date when present.  
+**Core:** transport/travel vocabulary, number/price/clock recycling, source phrases `arrive at…` and `on holiday`, plus simple ticket-request/service language recycled from Unit 5.  
+**Manual date placement:** required ability `p15.008`—understanding simple prices, times and dates in familiar contexts—is pinned here because a ticket/timetable is a natural mixed-information context. This is **receptive date exposure**, not yet the main date-production lesson.  
+**Boundary:** do not create new ticket grammar. The learner is combining known request/service + number/time systems. `arrive at` should be used naturally with station/time context rather than taught as a preposition lecture.  
+**Evidence:** unfamiliar simple ticket/timetable: request/select the needed journey, identify destination/time/price and, where included, the date.  
+**Retrieval:** hotel/form L06; complete mission L07; practical-world integration U10.  
+**Load:** **2 / 2 / 0 / 20 / 0 = 24**.
+
+## U6-L06 — Check in and complete the form
+**Performance:** give/understand basic travel/hotel details, **recognise/say/write a date**, and complete a simple form accurately enough for the purpose.  
+**Core:** recycle name/origin/contact/spelling from Unit 1; travel/hotel/accommodation vocabulary; source phrase `arrive in…`; month/date language; simple arrival/check-in details.  
+**Manual date-production home:** `p14.015` recognise factual time/date information, `p22.014` give dates, and `p37.012` write dates are pinned here. The manually scheduled month set enters through date fields, booking cards and calendars—not ten isolated month flashcards.  
+**Writing/form mechanics:** copy/produce personal details, date fields and other required form entries accurately enough; repair/spelling remains available but the learner must supply the final information.  
+**Boundary:** five ability records + 23 words do **not** mean five independent lesson goals. They converge on one concrete check-in/form performance. Avoid a broad “all months/all forms” chapter.  
+**Evidence:** new booking/hotel card + partially blank check-in form: understand the booking details, state a relevant date, enter it in the form, give required personal information, and handle one short check-in exchange.  
+**Retrieval:** **U6-L07 now explicitly provides fresh retrieval for C12/L15 date language**, then Unit 8 arrangements and later practical/exit tasks add spacing.  
+**Load:** **5 / 1 / 0 / 23 / 0 = 29**.
+
+## U6-L07 — Travel-around-town mission — Transfer
+**Performance:** complete a fresh multi-step town/travel mission by selecting previously learned resources rather than following one repeated script.  
+**Mission design:** learner receives a new town/travel scenario requiring several of the following in changed contexts: interpret a sign/public fact; orient on a map; ask for directions; follow a route; identify/buy a ticket using price/time/date; provide hotel/travel details; complete/check a simple form.  
+**Fresh-retrieval requirement:** deliberately include **one date/month task** from L06 and **one large-number/public-information recognition task** from L01 so the recent C12/L15 and C11 scheduling receives genuine fresh evidence rather than ledger-only status.  
+**Repair:** create a natural opportunity to ask for clarification/repetition, but do not force an identical scripted repair line.  
+**Boundary:** **0 new source records**. No new town vocabulary, route system or booking script may be introduced here as required content.  
+**What it verifies:** C14, C16, transport/hotel C19, C20, plus fresh C10/C11/C12 and C17 repair evidence.  
+**Load:** **0 / 0 / 0 / 0 / 0 = 0**.
+
+### Unit 6 critic — applied
+- kept **static town location (L02)** separate from **movement/route (L04)**;
+- confirmed `come into/go into` belong with route language and retained that earlier move;
+- kept `millions/thousands` as supported public-information phrases rather than active food/shopping or population-number teaching;
+- made date coverage real: mixed date comprehension in L05, explicit recognise/say/write date performance in L06, immediate fresh retrieval in L07;
+- month vocabulary enters through booking/date fields, not a standalone calendar dump;
+- direction requests recycle Unit-5 request/politeness and Unit-1 repair instead of inventing duplicate systems;
+- L07 remains zero-new-content while explicitly retrieving the recent date and large-number branches;
+- latest exact coverage audit after the U6-L07 date-retrieval change completed **successfully**.
+
+**Unit 6 accepted. No split/merge required.**
+
+---
+
+Next Stage-07 work: **Unit 7 — Simple Past: Life and Everyday Events**. The first critic target is already visible in the load report: U7-L05 (the transfer slot) currently shows **2 grammar introductions**. That is suspicious because transfer lessons should not introduce a hidden new system. Before any Unit-7 brief is accepted, those exact grammar rows must be inspected and moved earlier if they are genuinely new past-system content.
