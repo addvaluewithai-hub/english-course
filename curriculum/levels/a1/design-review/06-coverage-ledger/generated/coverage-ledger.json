@@ -7369,14 +7369,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L02"
+          "U5-L04"
         ],
         "practice": [
-          "U1-L02",
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U5-L07"
         ],
         "recycle": [
@@ -7430,14 +7428,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L02"
+          "U5-L04"
         ],
         "practice": [
-          "U1-L02",
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U5-L07"
         ],
         "recycle": [
@@ -8988,14 +8984,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L02"
+          "U5-L04"
         ],
         "practice": [
-          "U1-L02",
           "U5-L04"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U5-L07"
         ],
         "recycle": [
