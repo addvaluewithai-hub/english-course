@@ -65,7 +65,6 @@ def main() -> None:
     pending = {(row["category"], row["item_id"]) for row in candidate["review_queue"]}
     applied_pending: set[tuple[str, str]] = set()
 
-    # Item-specific decisions are used for the manually reviewed grammar partition.
     for category in CATEGORIES:
         by_id = {row["item_id"]: row for row in candidate[category]}
         seen: set[str] = set()
@@ -88,7 +87,6 @@ def main() -> None:
             )
             applied_pending.add((category, item_id))
 
-    # Stage-02 reviewed all phrases; the control map covers every phrase exactly once.
     phrase_map = load(PHRASE_DECISIONS)
     phrase_by_id = {row["item_id"]: row for row in candidate["phrases"]}
     phrase_seen: set[str] = set()
@@ -110,8 +108,6 @@ def main() -> None:
     if len(phrase_seen) != int(phrase_map["expected_item_count"]) or phrase_seen != set(phrase_by_id):
         raise SystemExit("phrase control map must cover all phrases exactly once")
 
-    # Stage-04 reviewed all words. Only the frozen former reference-pool set needs new
-    # productive/receptive decisions; the exact set is protected by a digest.
     if manual.get("decisions", {}).get("words"):
         raise SystemExit("word-specific decisions belong in word-control-decisions.json")
     word_map = load(WORD_DECISIONS)
@@ -178,9 +174,12 @@ def main() -> None:
     candidate["summary"]["human_review_queue"] = len(candidate["review_queue"])
     for category in ("words", "phrases", "grammar", "abilities", "pronunciation"):
         candidate["summary"][category]["roles"] = role_counts(candidate[category])
+
+    authorized = not candidate["review_queue"]
+    candidate["lesson_design_authorized"] = authorized
     candidate["status"] = (
-        "semantic_lock_candidate_pending_review" if candidate["review_queue"]
-        else "semantic_lock_reviewed_ready_for_manifest_authorization"
+        "semantic_lock_reviewed_locked_v1"
+        if authorized else "semantic_lock_candidate_pending_review"
     )
 
     grouped: dict[str, list[dict[str, Any]]] = {category: [] for category in CATEGORIES}
@@ -189,6 +188,7 @@ def main() -> None:
     report = {
         "level": "A1",
         "status": candidate["status"],
+        "lesson_design_authorized": authorized,
         "summary": candidate["summary"],
         "review_queue_by_category": dict(sorted(Counter(row["category"] for row in candidate["review_queue"]).items())),
         "review_queue_examples_by_category": {category: rows[:12] for category, rows in grouped.items()},
@@ -205,16 +205,17 @@ def main() -> None:
             ),
             "phrase_control_map_complete": len(phrase_seen) == 199,
             "word_control_review_complete": word_seen == word_pending_ids,
-            "lesson_design_authorized": False,
+            "authorization_matches_review_state": authorized == (len(candidate["review_queue"]) == 0),
         },
     }
-    if not all(v for k, v in report["invariants"].items() if k != "lesson_design_authorized"):
+    if not all(report["invariants"].values()):
         raise SystemExit(f"semantic lock invariant failed: {report['invariants']}")
 
     compact = {
         "schema_version": 1,
         "level": "A1",
         "status": candidate["status"],
+        "lesson_design_authorized": authorized,
         "pending_total": len(candidate["review_queue"]),
         "pending_by_category": report["review_queue_by_category"],
         "pending": grouped,
@@ -224,6 +225,7 @@ def main() -> None:
     write(COMPACT, compact)
     print(json.dumps({
         "status": candidate["status"],
+        "lesson_design_authorized": authorized,
         "pending": compact["pending_by_category"],
         "manual_locked": manual_locked,
         "word_roles": candidate["summary"]["words"]["roles"],
