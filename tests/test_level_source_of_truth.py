@@ -24,6 +24,9 @@ class LevelSourceOfTruthTests(unittest.TestCase):
             (ROOT / "curriculum" / "levels" / level / name).read_text(encoding="utf-8")
         )
 
+    def load_path(self, path):
+        return json.loads((ROOT / path).read_text(encoding="utf-8"))
+
     def test_all_level_contract_files_exist(self):
         for level in LEVELS:
             for name in FILES:
@@ -32,11 +35,24 @@ class LevelSourceOfTruthTests(unittest.TestCase):
                     f"{level}/{name}",
                 )
 
-    def test_manifests_keep_lesson_design_locked(self):
-        for level in LEVELS:
-            manifest = self.load(level, "manifest.json")
-            self.assertFalse(manifest["lesson_design_authorized"])
-            self.assertEqual(manifest["level"], level.upper())
+    def test_a1_is_authorized_only_after_semantic_lock(self):
+        manifest = self.load("a1", "manifest.json")
+        contract = self.load("a1", "exit_contract.json")
+        report = self.load_path(
+            "curriculum/levels/a1/semantic-lock/semantic-lock-report.json"
+        )
+        self.assertTrue(manifest["lesson_design_authorized"])
+        self.assertFalse(manifest["delivery_content_production_authorized"])
+        self.assertEqual(report["status"], "semantic_lock_reviewed_locked_v1")
+        self.assertTrue(report["lesson_design_authorized"])
+        self.assertEqual(report["summary"]["human_review_queue"], 0)
+        self.assertEqual(contract["status"], "semantic_inventory_locked_v1")
+        self.assertTrue(contract["semantic_lock"]["lesson_design_authorized"])
+
+        for level in LEVELS[1:]:
+            other = self.load(level, "manifest.json")
+            self.assertFalse(other["lesson_design_authorized"])
+            self.assertEqual(other["level"], level.upper())
 
     def test_inventory_semantics_are_explicit(self):
         for level in LEVELS:
