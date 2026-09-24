@@ -54,7 +54,8 @@
       "roles": {
         "supporting_intelligibility_required": 10
       }
-    }
+    },
+    "manually_locked_from_design_review": 0
   },
   "words": [
     {
