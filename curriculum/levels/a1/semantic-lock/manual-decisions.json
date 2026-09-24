@@ -9,7 +9,218 @@
     "no_silent_exclusion": true
   },
   "decisions": {
-    "grammar": [],
+    "grammar": [
+      {
+        "item_id": "egp.1741163706532x162687205151185180",
+        "semantic_role": "formulaic_productive_control_required",
+        "rationale": "The manual grammar review identifies EGP row 52 as the lexicalised fixed superlative phrase 'my best friend', not evidence for a productive comparative/superlative system.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 52"],
+        "control_boundary": "Learner may use the fixed phrase 'my best friend'; do not infer general superlative formation or comparison mastery."
+      },
+      {
+        "item_id": "egp.1741163706537x909158263292138100",
+        "semantic_role": "formulaic_productive_control_required",
+        "rationale": "The reviewed A1 obligation is the sign-off use of 'soon' in fixed social expressions, not broad productive control of time-adverb semantics.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 81"],
+        "control_boundary": "Require source-bounded social sign-off use such as 'See you soon'; no independent time-adverb paradigm is implied."
+      },
+      {
+        "item_id": "egp.1741163708329x286701804737242940",
+        "semantic_role": "embedded_support_required",
+        "rationale": "Simple affirmative declarative clause formation is core X10 grammar infrastructure used across capabilities rather than a standalone communicative target.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 179"],
+        "control_boundary": "Require accurate simple affirmative clauses inside relevant A1 performances; do not assess this as an isolated grammar chapter."
+      },
+      {
+        "item_id": "egp.1741163709453x838199776198091500",
+        "semantic_role": "productive_control_required",
+        "rationale": "Canonical EGP row 436 explicitly supports affirmative will/'ll at A1 and the manual review assigns it to C13 future plans.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 436"],
+        "control_boundary": "Productive affirmative will/'ll only within simple A1 plan/intention uses evidenced by C13."
+      },
+      {
+        "item_id": "egp.1741163709453x862696596004533200",
+        "semantic_role": "productive_control_required",
+        "rationale": "Canonical EGP row 437 explicitly licenses will/'ll for plans and intentions at A1; this is decisive C13 evidence.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 437"],
+        "control_boundary": "Require simple plans/intentions with will/'ll; do not infer a broad future tense system."
+      },
+      {
+        "item_id": "egp.1741163710388x273734335473510240",
+        "semantic_role": "productive_control_required",
+        "rationale": "The manual review maps can question form to C07/C18/X03, where learners must ask simple ability/request questions.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 489"],
+        "control_boundary": "Productive can yes/no questions in source-supported A1 ability/request contexts only."
+      },
+      {
+        "item_id": "egp.1741163710388x540901022788007400",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 491 provides explicit A1 productive evidence for can used to make offers; the manual review assigns it to C18.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 491"],
+        "control_boundary": "Require simple familiar offers with can; keep this semantic use distinct from ability, request and possibility."
+      },
+      {
+        "item_id": "egp.1741163710391x459074403345042000",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 496 explicitly supports can for requests at A1 and the reviewed architecture gives that use to C18.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 496"],
+        "control_boundary": "Require simple immediate-need requests with can; do not merge the meaning with ability control."
+      },
+      {
+        "item_id": "egp.1741163711296x326455472693880200",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 657 independently confirms affirmative will at A1 and is reviewed as C13 plan language.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 657"],
+        "control_boundary": "Same bounded affirmative will/'ll plan system as rows 436/437; no additional future meanings are implied."
+      },
+      {
+        "item_id": "egp.1741163711296x692481066424056800",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 661 confirms plans and intentions with will at A1 and reinforces the reviewed C13 control boundary.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 661"],
+        "control_boundary": "Require simple plan/intention meaning only; unrestricted prediction or future-system mastery is outside this item."
+      },
+      {
+        "item_id": "egp.1741163711300x363892315600628400",
+        "semantic_role": "formulaic_productive_control_required",
+        "rationale": "The review treats EGP row 670 as a bounded invitation branch inside C18, using the source-specific would-like invitation pattern.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 670"],
+        "control_boundary": "Require a simple source-bounded invitation with would like; do not infer general conditional/modal uses of would."
+      },
+      {
+        "item_id": "egp.1741163711300x444537304178034940",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 671 gives affirmative would like at A1 and the manual review assigns productive use across preference/request/service contexts.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 671"],
+        "control_boundary": "Require affirmative would like in familiar A1 wants/preferences/service contexts; no broad would system."
+      },
+      {
+        "item_id": "egp.1741163711300x569087712695511000",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 672 explicitly licenses would like for wishes/preferences at A1 and is reviewed inside C05/C18/C19.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 672"],
+        "control_boundary": "Require simple familiar wishes/preferences with would like; keep other modal meanings out of scope."
+      },
+      {
+        "item_id": "egp.1741163711539x384428957229715900",
+        "semantic_role": "embedded_support_required",
+        "rationale": "Determiner + noun is core noun-phrase infrastructure in X10 and supports many capabilities without needing an independent mastery target.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 751"],
+        "control_boundary": "Require correct basic determiner+noun combinations inside source-supported tasks; no exhaustive determiner system."
+      },
+      {
+        "item_id": "egp.1741163711539x458750897089793800",
+        "semantic_role": "embedded_support_required",
+        "rationale": "Noun+noun compounds are reviewed as core grammar/lexical-interface support and phrase-inventory infrastructure rather than a standalone grammar performance.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 752"],
+        "control_boundary": "Require source-supported familiar noun+noun compounds in context; no open-ended compounding rule mastery."
+      },
+      {
+        "item_id": "egp.1741163711816x743806450459332500",
+        "semantic_role": "embedded_support_required",
+        "rationale": "Proper nouns and capitalisation are reviewed as X07 writing mechanics supporting personal/form/message tasks, not an independent grammar capability.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 777"],
+        "control_boundary": "Require appropriate familiar proper-noun use/capitalisation where the writing task exposes it."
+      },
+      {
+        "item_id": "egp.1741163711816x756476872948352000",
+        "semantic_role": "embedded_support_required",
+        "rationale": "Common nouns are a core grammar/lexical interface requirement and are naturally evidenced across A1 tasks rather than independently assessed.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 778"],
+        "control_boundary": "Require correct basic common-noun use inside relevant performances; no standalone noun-class lesson or exit task."
+      },
+      {
+        "item_id": "egp.1741163711817x590984810392161200",
+        "semantic_role": "embedded_support_required",
+        "rationale": "Compound nouns are reviewed as grammar/lexical-interface support linked to the phrase inventory, not a free productive compounding system.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 781"],
+        "control_boundary": "Require familiar source-supported compounds in context; do not infer unrestricted compound-noun formation."
+      },
+      {
+        "item_id": "egp.1741163711828x633639966955607000",
+        "semantic_role": "embedded_support_required",
+        "rationale": "Noun phrases as subjects are core clause infrastructure in X10 and should be evidenced inside communicative performance rather than as an isolated target.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 798"],
+        "control_boundary": "Require simple noun-phrase subjects inside A1 clauses; no independent syntactic terminology or parsing requirement."
+      },
+      {
+        "item_id": "egp.1741163711829x787492176446619900",
+        "semantic_role": "embedded_support_required",
+        "rationale": "Noun phrases as objects are core clause infrastructure and are already exercised through many capability-owned lexical verbs.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 802"],
+        "control_boundary": "Require simple noun-phrase objects where needed by the task; do not assess abstract object syntax separately."
+      },
+      {
+        "item_id": "egp.1741163712739x256584265013129380",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 887 is canonical decisive evidence for A1 productive affirmative past simple with a limited range of regular and irregular verbs.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 887"],
+        "control_boundary": "Require affirmative simple past with a limited familiar verb range; no general negative/interrogative past requirement is inferred."
+      },
+      {
+        "item_id": "egp.1741163712739x802711964566174800",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 889 is canonical decisive evidence for using simple past for everyday events/states at A1 and defines C23's semantic use boundary.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 889"],
+        "control_boundary": "Require short familiar past event/state information; no extended narration or full past system."
+      },
+      {
+        "item_id": "egp.1741163713121x244049823776565150",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 953 explicitly supports affirmative present continuous at A1 and the manual review places it in C06 current-activity control.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 953"],
+        "control_boundary": "Require simple affirmative present continuous for familiar current activity; no unrestricted aspect system."
+      },
+      {
+        "item_id": "egp.1741163713121x758287721695059000",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 956 explicitly licenses present continuous for events in progress and is decisive evidence for the C06 happening-now branch.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 956"],
+        "control_boundary": "Require familiar happening-now meaning and simple contrast with routine meaning; no broader aspect analysis."
+      },
+      {
+        "item_id": "egp.1741163715032x756418004139892900",
+        "semantic_role": "embedded_support_required",
+        "rationale": "The generic modal-verb feature is reviewed as infrastructure spanning can/will/would; exact semantic control is already owned by the specific A1 modal features.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 1184"],
+        "control_boundary": "Evidence generic modal form inside the specific source-supported can/will/would uses; do not create a separate modal-system mastery target."
+      },
+      {
+        "item_id": "egp.1741163715275x913732212255741200",
+        "semantic_role": "embedded_support_required",
+        "rationale": "Verb + preposition + object is a phrase/grammar-interface feature whose exact control depends on familiar lexical verbs and capability-owned chunks.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 1169"],
+        "control_boundary": "Require only source-supported familiar prepositional-verb combinations; no open productive verb-preposition system."
+      },
+      {
+        "item_id": "egp.1741163715288x262148040901666750",
+        "semantic_role": "embedded_support_required",
+        "rationale": "Auxiliary be is core infrastructure supporting present continuous; the actual productive current-activity obligation is already explicit in EGP rows 953/956.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 1182"],
+        "control_boundary": "Require auxiliary be inside the bounded present-continuous system; do not assess it as a separate grammar objective."
+      },
+      {
+        "item_id": "egp.1741163715299x334716733147188740",
+        "semantic_role": "embedded_support_required",
+        "rationale": "Verb + to-infinitive is reviewed as a bounded lexical-pattern infrastructure across C07/C13/C18; broad productive complementation is not justified at A1.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 1192"],
+        "control_boundary": "Require only familiar source-supported verb+to-infinitive patterns; do not infer unrestricted complementation mastery."
+      },
+      {
+        "item_id": "egp.1741163715300x285261568472368060",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 1196 explicitly supports would like to + infinitive and the manual review assigns it to C18/C19/C05 productive wants/service language.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 1196"],
+        "control_boundary": "Require would like to + familiar infinitive for simple wants/requests/invitations; no broad would system."
+      },
+      {
+        "item_id": "egp.1741163715300x394950798002922750",
+        "semantic_role": "productive_control_required",
+        "rationale": "EGP row 1197 explicitly licenses like + to-infinitive or -ing at A1 and is reviewed as productive preference language in C05.",
+        "evidence_refs": ["curriculum/levels/a1/design-review/03-grammar/manual-grammar-review.md — EGP row 1197"],
+        "control_boundary": "Require simple familiar preference patterns with like + to-infinitive/-ing; do not generalise the pattern to unrestricted verb complementation."
+      }
+    ],
     "phrases": [],
     "words": []
   }
