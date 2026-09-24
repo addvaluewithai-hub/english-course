@@ -9,6 +9,7 @@ on:
       - 'scripts/build_a1_semantic_lock.py'
       - 'scripts/apply_a1_semantic_lock_decisions.py'
       - 'curriculum/levels/a1/semantic-lock/manual-decisions.json'
+      - 'curriculum/levels/a1/semantic-lock/phrase-control-decisions.json'
       - 'curriculum/levels/a1/words.json'
       - 'curriculum/levels/a1/phrases.json'
       - 'curriculum/levels/a1/grammar.json'
