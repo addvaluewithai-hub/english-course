@@ -9,7 +9,6 @@ from __future__ import annotations
 
 import importlib.util
 import json
-import sys
 from collections import defaultdict
 from copy import deepcopy
 from pathlib import Path
@@ -72,6 +71,42 @@ def load_builder():
     return module
 
 
+def install_ability_intro_overrides(builder, overrides: dict) -> None:
+    """Pin reviewed ability source records to explicit lesson introductions.
+
+    This is scheduling only. It does not infer capability homes or alter source meaning.
+    """
+    manual = overrides.get("ability_intro_source_overrides", {})
+    if not manual:
+        return
+
+    original = builder.balanced_assign
+
+    def patched(items: list, homes_by_id: dict, plan: dict, order: dict):
+        assigned, primary = original(items, homes_by_id, plan, order)
+        if not items or "source_record_id" not in items[0]:
+            return assigned, primary
+
+        source_index = {item["source_record_id"]: item["item_id"] for item in items}
+        seen = {}
+        for lesson, source_ids in manual.items():
+            if lesson not in order:
+                raise ValueError(f"ability intro override references unknown lesson: {lesson}")
+            for source_id in source_ids:
+                if source_id not in source_index:
+                    raise ValueError(f"ability intro override source not found: {source_id}")
+                item_id = source_index[source_id]
+                if item_id in seen and seen[item_id] != lesson:
+                    raise ValueError(
+                        f"ability intro override assigns {source_id} twice: {seen[item_id]} and {lesson}"
+                    )
+                seen[item_id] = lesson
+                assigned[item_id] = lesson
+        return assigned, primary
+
+    builder.balanced_assign = patched
+
+
 def install_word_intro_overrides(builder, overrides: dict) -> None:
     manual = overrides.get("word_intro_label_overrides", {})
     if not manual:
@@ -131,6 +166,7 @@ def main() -> int:
     WORD_REVIEW.write_text(compatible_word_review, encoding="utf-8")
     try:
         builder = load_builder()
+        install_ability_intro_overrides(builder, overrides)
         install_word_intro_overrides(builder, overrides)
         try:
             builder.main()
