@@ -2,6 +2,7 @@
 """Build compact semantic-review context for pending A1 word decisions."""
 from __future__ import annotations
 
+import hashlib
 import json
 from collections import defaultdict
 from pathlib import Path
@@ -17,6 +18,11 @@ def load(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def ids_digest(ids: set[str]) -> str:
+    payload = "\n".join(sorted(ids)).encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
+
+
 def main() -> None:
     compact = load(LOCK / "review-queue-compact.json")
     ledger = load(LEDGER)
@@ -28,6 +34,7 @@ def main() -> None:
     if pending_ids - set(word_source) or pending_ids - set(word_ledger):
         raise SystemExit("pending A1 word IDs do not reconcile to source inventory and coverage ledger")
 
+    digest = ids_digest(pending_ids)
     groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for item_id in sorted(pending_ids):
         source = word_source[item_id]
@@ -47,27 +54,45 @@ def main() -> None:
         "schema_version": 1,
         "level": "A1",
         "pending_word_count": len(pending_ids),
+        "pending_item_ids_sha256": digest,
+        "digest_rule": "sha256(newline-joined sorted pending item IDs; no trailing newline)",
         "grouping": "first_introduction_lesson",
         "group_counts": {key: len(rows) for key, rows in sorted(groups.items())},
         "groups": {key: rows for key, rows in sorted(groups.items())},
     }
-    (LOCK / "word-review-context.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (LOCK / "word-review-context.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
 
     lines = [
         "# A1 Pending Word Semantic Review Context",
         "",
         f"Pending words: **{len(pending_ids)}**",
+        f"Pending-ID SHA-256: `{digest}`",
         "",
         "Generated review aid only. Semantic decisions belong in reviewed decision files.",
     ]
     for lesson, rows in sorted(groups.items()):
-        lines.extend(["", f"## {lesson} — {len(rows)}", "", "| Item ID | Headword | POS | Homes |", "| --- | --- | --- | --- |"])
+        lines.extend([
+            "",
+            f"## {lesson} — {len(rows)}",
+            "",
+            "| Item ID | Headword | POS | Homes |",
+            "| --- | --- | --- | --- |",
+        ])
         for row in rows:
             homes = ", ".join(row["homes"])
-            lines.append(f"| `{row['item_id']}` | **{row['headword']}** | {row['part_of_speech'] or ''} | {homes} |")
+            lines.append(
+                f"| `{row['item_id']}` | **{row['headword']}** | "
+                f"{row['part_of_speech'] or ''} | {homes} |"
+            )
     (LOCK / "word-review-context.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-    print(json.dumps({"pending_word_count": len(pending_ids), "group_counts": payload["group_counts"]}, indent=2))
+    print(json.dumps({
+        "pending_word_count": len(pending_ids),
+        "pending_item_ids_sha256": digest,
+        "group_counts": payload["group_counts"],
+    }, indent=2))
 
 
 if __name__ == "__main__":
