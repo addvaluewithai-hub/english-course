@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "level": "A1",
-  "status": "semantic_lock_reviewed_lesson_design_authorized",
+  "status": "generated_pending_inventory_review",
   "source_of_truth_version": "v1",
   "inventory_semantics": "new_at_level_with_cumulative_exit_contract",
   "categories": [
@@ -11,15 +11,7 @@
     "abilities",
     "pronunciation"
   ],
-  "lesson_design_authorized": true,
-  "delivery_content_production_authorized": false,
-  "delivery_gate_note": "Curriculum lesson design is authorized on this independent branch. Mass lesson/media production remains governed by the separate delivery workstream and does not modify or bypass TEST-002.",
-  "semantic_lock": {
-    "status": "reviewed_locked_v1",
-    "report": "curriculum/levels/a1/semantic-lock/semantic-lock-report.json",
-    "human_review_queue": 0,
-    "total_primary_items": 1337
-  },
+  "lesson_design_authorized": false,
   "counts": {
     "words": 900,
     "phrases": 199,
