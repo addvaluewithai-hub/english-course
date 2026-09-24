@@ -10597,7 +10597,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U7-L05"
+          "U2-L03"
         ],
         "practice": [
           "U7-L05",
@@ -10938,18 +10938,27 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U7-L05"
+          "U2-L03"
         ],
         "practice": [
+          "U2-L03",
+          "U3-L04",
+          "U4-L04",
+          "U5-L01",
           "U7-L05",
           "U8-L01",
           "U8-L02"
         ],
         "fresh_retrieval": [
+          "U3-L06",
+          "U4-L07",
           "U8-L06",
           "U9-L06"
         ],
         "recycle": [
+          "U5-L07",
+          "U6-L07",
+          "U7-L05",
           "U8-L06",
           "U9-L03",
           "U9-L04",
