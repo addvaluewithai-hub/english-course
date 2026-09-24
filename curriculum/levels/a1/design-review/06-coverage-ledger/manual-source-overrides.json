@@ -106,10 +106,10 @@
         "exit_verify": ["U10-L05"]
       },
       "L19": {
-        "introduce": ["U2-L04", "U2-L05", "U4-L05"],
-        "practice": ["U2-L05", "U4-L05"],
-        "fresh_retrieval": ["U4-L07", "U9-L05"],
-        "recycle": ["U8-L06"],
+        "introduce": ["U2-L04", "U2-L05", "U4-L05", "U8-L04", "U8-L05"],
+        "practice": ["U2-L05", "U4-L05", "U8-L05"],
+        "fresh_retrieval": ["U4-L07", "U8-L06", "U9-L05"],
+        "recycle": ["U10-L01"],
         "consolidate": ["U10-L01"],
         "exit_verify": ["U10-L05"]
       }
