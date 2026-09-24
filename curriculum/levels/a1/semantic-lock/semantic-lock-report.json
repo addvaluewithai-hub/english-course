@@ -4,7 +4,7 @@
   "summary": {
     "total_primary_items": 1337,
     "auto_locked_from_existing_reviewed_evidence": 850,
-    "human_review_queue": 487,
+    "human_review_queue": 457,
     "words": {
       "total": 900,
       "roles": {
@@ -23,10 +23,10 @@
     "grammar": {
       "total": 109,
       "roles": {
-        "productive_control_required": 77,
-        "receptive_control_required": 2,
-        "required_control_pending_review": 24,
-        "required_feature_pending_control_decision": 6
+        "embedded_support_required": 12,
+        "formulaic_productive_control_required": 3,
+        "productive_control_required": 92,
+        "receptive_control_required": 2
       }
     },
     "abilities": {
@@ -43,112 +43,14 @@
         "supporting_intelligibility_required": 10
       }
     },
-    "manually_locked_from_design_review": 0
+    "manually_locked_from_design_review": 30
   },
   "review_queue_by_category": {
-    "grammar": 30,
     "phrases": 181,
     "words": 276
   },
   "review_queue_examples_by_category": {
-    "grammar": [
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163706532x162687205151185180",
-        "display": "FORM: 'MY BEST FRIEND'",
-        "current_role": "required_feature_pending_control_decision",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      },
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163706537x909158263292138100",
-        "display": "USE: TIME",
-        "current_role": "required_feature_pending_control_decision",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      },
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163708329x286701804737242940",
-        "display": "FORM: AFFIRMATIVE DECLARATIVE",
-        "current_role": "required_control_pending_review",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      },
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163709453x838199776198091500",
-        "display": "FORM: AFFIRMATIVE 'WILL'",
-        "current_role": "required_control_pending_review",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      },
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163709453x862696596004533200",
-        "display": "USE: PLANS AND INTENTIONS WITH 'WILL'",
-        "current_role": "required_control_pending_review",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      },
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163710388x273734335473510240",
-        "display": "FORM: QUESTION",
-        "current_role": "required_control_pending_review",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      },
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163710388x540901022788007400",
-        "display": "USE: OFFERS",
-        "current_role": "required_control_pending_review",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      },
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163710391x459074403345042000",
-        "display": "USE: REQUESTS",
-        "current_role": "required_control_pending_review",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      },
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163711296x326455472693880200",
-        "display": "FORM: AFFIRMATIVE",
-        "current_role": "required_control_pending_review",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      },
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163711296x692481066424056800",
-        "display": "USE: PLANS AND INTENTIONS",
-        "current_role": "required_control_pending_review",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      },
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163711300x363892315600628400",
-        "display": "USE: INVITATIONS WITH 'LIKE'",
-        "current_role": "required_control_pending_review",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      },
-      {
-        "category": "grammar",
-        "item_id": "egp.1741163711300x444537304178034940",
-        "display": "FORM: AFFIRMATIVE WITH 'LIKE'",
-        "current_role": "required_control_pending_review",
-        "question": "What exact A1 control obligation should this EGP feature have, and which grammar family owns it?",
-        "reason": "no_unambiguous_reviewed_productive_or_receptive_control_owner"
-      }
-    ],
+    "grammar": [],
     "phrases": [
       {
         "category": "phrases",
