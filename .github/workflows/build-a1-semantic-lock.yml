@@ -52,6 +52,7 @@ jobs:
           git add curriculum/levels/a1/semantic-lock/semantic-lock-candidate.json \
                   curriculum/levels/a1/semantic-lock/semantic-lock-report.json \
                   curriculum/levels/a1/semantic-lock/review-queue-compact.json \
-                  curriculum/levels/a1/semantic-lock/word-review-context.json
+                  curriculum/levels/a1/semantic-lock/word-review-context.json \
+                  curriculum/levels/a1/semantic-lock/word-review-context.md
           git commit -m 'curriculum: generate A1 semantic lock candidate'
           git push
