@@ -1,6 +1,7 @@
 name: Build level source of truth
 
-# Generation order matters: base inventories -> grammar enrichment -> granular abilities.
+# Generation order matters: base inventories -> grammar enrichment -> granular abilities
+# -> reviewed A1 semantic finalization.
 on:
   push:
     branches:
@@ -9,6 +10,7 @@ on:
       - 'scripts/build_level_source_of_truth.py'
       - 'scripts/build_level_abilities.py'
       - 'scripts/enrich_level_grammar.py'
+      - 'scripts/finalize_a1_semantic_lock.py'
       - 'curriculum/levels/**'
       - 'data/derived/egp-all-levels.json'
       - 'data/derived/gse-grammar-all.json'
@@ -47,6 +49,8 @@ jobs:
         run: python scripts/enrich_level_grammar.py
       - name: Build granular ability inventories
         run: python scripts/build_level_abilities.py
+      - name: Restore reviewed A1 semantic lock
+        run: python scripts/finalize_a1_semantic_lock.py
       - name: Validate level source of truth
         run: python -m unittest tests.test_level_source_of_truth
       - name: Commit generated inventories
