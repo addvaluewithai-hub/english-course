@@ -1,5 +1,7 @@
 name: Audit A1 coverage ledger
 
+# This audit verifies exact source-record lifecycle coverage and introduction load.
+# Semantic control roles are reviewed separately and must not silently remove records.
 on:
   push:
     branches:
