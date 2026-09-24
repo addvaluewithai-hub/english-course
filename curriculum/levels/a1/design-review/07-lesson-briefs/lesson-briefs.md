@@ -536,4 +536,4 @@ Purpose: obtain fresh cumulative evidence across the A1 promise without teaching
 
 ## Authoring handoff rule
 
-Lesson/script production may now use this file as the **human instructional contract** and the coverage ledger as the **exact source-record contract**. Neither file alone is sufficient: the brief controls pedagogical purpose/boundaries; the ledger controls exact coverage and lifecycle traceability.
+A1 curriculum lesson design and controlled authoring planning may now use this file as the **human instructional contract** and the coverage ledger as the **exact source-record contract**. Neither file alone is sufficient: the brief controls pedagogical purpose/boundaries; the ledger controls exact coverage and lifecycle traceability. This curriculum authorization does **not** authorize mass lesson-package, audio, image, or video production; those remain governed by the separate delivery workstream and `TEST-002`.
