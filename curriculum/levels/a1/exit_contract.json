@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "level": "A1",
-  "status": "draft_pending_full_inventory_lock",
+  "status": "semantic_inventory_locked_v1",
   "inventory_semantics": {
     "level_files": "new_at_level",
     "exit_obligation": "cumulative_through_level"
@@ -14,11 +14,11 @@
     "retention_requires_later_fresh_evidence": true
   },
   "inventory_obligations": {
-    "words": "extracted_pending_inventory_review",
-    "phrases": "extracted_from_current_official_oxford_pending_inventory_review",
-    "grammar": "extracted_pending_inventory_review",
-    "abilities": "reviewed_exit_profile_v1",
-    "pronunciation": "reviewed_progression_v1"
+    "words": "semantic_lock_v1: 627 productive_required; 185 receptive_required; 88 grammar_owned_required",
+    "phrases": "semantic_lock_v1: 114 productive_required; 40 formulaic_productive_required; 45 receptive_required",
+    "grammar": "semantic_lock_v1: 92 productive_control_required; 3 formulaic_productive_control_required; 12 embedded_support_required; 2 receptive_control_required",
+    "abilities": "semantic_lock_v1: 119 required granular abilities with reviewed performance roles",
+    "pronunciation": "semantic_lock_v1: 10 supporting_intelligibility_required strands"
   },
   "production_gates": [],
   "assessment_requirements": [
@@ -238,5 +238,14 @@
     "reviewed_source_records_at_level": 222,
     "required_items_file": "abilities.json",
     "exit_obligation": "cumulative_required_abilities_through_level"
+  },
+  "semantic_lock": {
+    "status": "semantic_lock_reviewed_locked_v1",
+    "lesson_design_authorized": true,
+    "human_review_queue": 0,
+    "report": "curriculum/levels/a1/semantic-lock/semantic-lock-report.json",
+    "completion_is_not_mastery": true,
+    "receptive_does_not_imply_productive": true,
+    "productive_does_not_imply_all_dictionary_senses": true
   }
 }
