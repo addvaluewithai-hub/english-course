@@ -1,260 +1,298 @@
 # A1 Lesson Authoring Briefs
 
-Status: **IN PROGRESS — UNITS 1–3 MANUALLY BRIEFED**  
+Status: **IN PROGRESS — UNITS 1–4 MANUALLY BRIEFED**  
 Stage: **07 — Lesson Briefs**  
 Authoritative coverage source: `../06-coverage-ledger/generated/coverage-ledger.json`  
 Authoritative unit skeleton: `../05-curriculum-map/curriculum-map.md`
 
-This is the single Stage-07 design artifact. It is an authoring contract, not a lesson script, and it does not replace the exact source-record ledger.
+This is the single Stage-07 design artifact. It is an **authoring contract**, not a lesson script, and it does not replace the exact source-record ledger.
 
 ## Global authoring rules
 
 1. A source record is a traceability requirement, **not automatically a separate teaching object**.
-2. Each lesson has one primary learner performance.
-3. **Foreground** only the language needed for that performance; other assigned records may enter as meaningful supported exposure.
+2. Each instructional lesson has one primary learner performance.
+3. Foreground only the language needed for that performance; other assigned records may enter as meaningful supported exposure.
 4. Broad lexical sets use active core + supported recognition + later retrieval; no vocabulary dumps.
 5. Multiple EGP rows can describe one usable grammar system; do not turn them into one-rule-one-slide teaching.
 6. Chunks come before unnecessary grammar explanation.
 7. Pronunciation attaches to language being used and prioritises intelligibility.
-8. Unit-end transfer lessons introduce no hidden new system and change the prompt/context.
+8. Unit-end transfer introduces no hidden new system and changes the prompt/context.
 9. Mastery evidence cannot be copied from a complete model.
-10. If real authoring cannot fit naturally, split/update the lesson architecture rather than rushing content.
+10. If real authoring cannot fit naturally, split/update the architecture rather than rush content.
 
-A brief below records: **performance → foreground/boundary → evidence → retrieval → ledger load**.
+Each brief records: **performance → core/boundary → evidence → retrieval → ledger load**.
 
 ---
 
 # Unit 1 — First Contact: Me and You
 
 Purpose: first social contact, identity/contact details, basic numbers, spelling/repair, and simple profile/form use.  
-Primary capabilities: **C01, C02, C11, C17, C20**.  
-Transfer: **U1-L07**.
+Primary capabilities: **C01, C02, C11, C17, C20**. Transfer: **U1-L07**.
 
 ## U1-L01 — Hello. I'm …
-
 **Performance:** greet, exchange names, ask/answer basic wellbeing, respond politely.  
-**Foreground:** `Hello/Hi`, `Good morning`, `I'm… / My name is…`, `What's your name?`, `How are you?`, `pretty/really good`, `Thank you/Thanks`.  
-**Boundary:** only the minimum first-/second-person `be` and question/answer frames; multiple EGP rows are not separate grammar lessons. News/reaction language was deliberately moved to U1-L06.  
-**Pronunciation:** names, short learnt chunks, greeting/question contour, intelligibility.  
-**Evidence:** fresh identity prompt; learner opens the exchange and handles name + wellbeing without a full script.  
-**Retrieval:** U1-L03, U1-L06, U1-L07.  
+**Core:** `Hello/Hi`, `Good morning`, `I'm… / My name is…`, `What's your name?`, `How are you?`, simple wellbeing answers, `Thank you/Thanks`.  
+**Boundary:** minimum first-/second-person `be` and question/answer frames only. News/reaction language was moved to L06.  
+**Evidence:** fresh identity prompt; open the exchange and handle name + wellbeing without a full script.  
+**Retrieval:** L03, L06, L07.  
 **Load:** **8 abilities / 5 phrases / 8 grammar / 13 words / 2 pron. = 36**.
 
 ## U1-L02 — How old are you?
-
 **Performance:** give/understand age and basic functional numbers.  
-**Foreground:** basic number patterns, `How old are you?`, `X years old`.  
-**Boundary:** number system as patterns/use, not flashcards. `millions of`, `thousands of`, `more than…` were moved to U5-L04 because they do not belong in an age lesson.  
-**Pronunciation:** number contrasts and intelligibility.  
+**Core:** number patterns, `How old are you?`, `X years old`.  
+**Boundary:** number system as patterns/use, not flashcards. `millions of`, `thousands of`, `more than…` were moved to U5-L04 quantities.  
 **Evidence:** fresh age/number prompts.  
-**Retrieval:** contact strings U1-L05, profile U1-L07, quantities/prices Unit 5, tickets Unit 6.  
+**Retrieval:** contact strings L05; profile L07; quantities/prices Unit 5; tickets Unit 6.  
 **Load:** **4 / 1 / 2 / 21 / 1 = 29**.
 
 ## U1-L03 — Where are you from?
-
-**Performance:** ask, say, and understand basic origin/residence information.  
-**Foreground:** `Where are you from?`, `I'm from…`, `I live in…`, `come from…`, country/city/place language.  
-**Boundary:** basic `where`, `be + from`, simple person/place statements only.  
+**Performance:** ask, say, understand origin/residence.  
+**Core:** `Where are you from?`, `I'm from…`, `I live in…`, `come from…`, country/city/place language.  
+**Boundary:** basic `where`, `be + from`, simple person/place statements.  
 **Evidence:** new person/location card; ask origin and understand/respond.  
-**Retrieval:** U1-L06, Unit 2 profiles, U6 travel/hotel, Unit 10.  
+**Retrieval:** L06; Unit 2; U6 travel/hotel; Unit 10.  
 **Load:** **8 / 1 / 4 / 20 / 2 = 35**.
 
 ## U1-L04 — What do you do?
-
-**Performance:** give/understand a basic job or study fact.  
-**Foreground:** `I'm a…`, `work as`, `work for`, student/work/job language.  
-**Lexical boundary:** 23 word records use active core + recognition of wider occupations + later retrieval; no 23-card recall demand.  
-**Evidence:** fresh profile/person image; state and understand one work/study fact.  
-**Retrieval:** U1-L06, Unit 2 people, Unit 4 work/study routine, Unit 7 past life.  
+**Performance:** give/understand a basic job/study fact.  
+**Core:** `I'm a…`, `work as`, `work for`, student/work/job language.  
+**Boundary:** 23 words use active core + wider recognition + later retrieval; no 23-card recall demand.  
+**Evidence:** fresh profile; state and understand one work/study fact.  
+**Retrieval:** L06; Unit 2; Unit 4 work/study; Unit 7 past life.  
 **Load:** **5 / 2 / 0 / 23 / 0 = 30**.
 
 ## U1-L05 — Can you spell that?
-
 **Performance:** exchange basic contact details and repair an unclear word/name.  
-**Foreground:** phone/email/address, `cell phone`, `mobile phone`, `phone number`, plus authored repair language such as `How do you spell that?`, `Can you spell it?`, `Can you write it down?`.  
-**Boundary:** repair/contact task, not a generic modal lesson.  
-**Writing/pronunciation:** letters/digits, names, basic capitals, intelligible spelling/number production.  
-**Evidence:** unseen contact-information gap with at least one repair opportunity.  
-**Retrieval:** U1-L07, U6-L06, later speaking/exit tasks.  
+**Core:** phone/email/address, `cell phone`, `mobile phone`, `phone number`, plus authored repair frames such as `How do you spell that?`, `Can you spell it?`, `Can you write it down?`.  
+**Boundary:** repair/contact task, not a generic modal lesson. Letters/digits, common names, capitals and intelligible spelling are functional mechanics.  
+**Evidence:** unseen contact-information gap with a repair opportunity.  
+**Retrieval:** L07; U6-L06; later speaking/exit.  
 **Load:** **7 / 5 / 1 / 22 / 1 = 36**.
 
 ## U1-L06 — This is my friend …
-
-**Performance:** introduce another person, respond socially, react to simple news, close the encounter.  
-**Foreground routines:** (1) introduce/respond, (2) positive/negative reaction, (3) welcome/polite response, (4) leave-taking. Language includes `This is…`, third-person reference, `See you`, `good/bad news`, `Guess what…`, `Oh yes/Oh no`, `I'm sorry`, `welcome to…`, `You're welcome`.  
-**Boundary:** the 12 phrase records are four routines, not 12 mini-lessons. If actual authoring cannot keep them coherent, split the slot.  
+**Performance:** introduce another person, respond socially, react to simple news, close.  
+**Core routines:** introduce/respond; positive/negative reaction; welcome/polite response; leave-taking. Includes `This is…`, basic third-person reference, `See you`, `good/bad news`, `Guess what…`, `Oh yes/Oh no`, `I'm sorry`, `welcome to…`, `You're welcome`.  
+**Boundary:** 12 phrase records = four routines, not 12 mini-lessons. Split later only if real authoring cannot keep them coherent.  
 **Evidence:** fresh person card + social cue; introduce, add known facts, react, close.  
-**Retrieval:** U1-L07 and Unit 2.  
 **Load:** **4 / 12 / 2 / 22 / 0 = 40**.
 
 ## U1-L07 — Who is this person? — Transfer
-
 **Performance:** complete/use a new personal profile using Unit-1 language.  
-**Task:** read/listen for missing details → ask for remaining information → complete a simple profile → use it in an unscripted exchange/introduction.  
-**Boundary:** essentially no hidden new system; `find out` may occur naturally in task framing.  
-**Evidence:** retrieval, learner-initiated question, accurate-enough information recording, repair if needed.  
+**Task:** read/listen for missing details → ask for remaining information → complete profile → short unscripted exchange/introduction.  
+**Boundary:** essentially no hidden new system.  
 **Load:** **1 / 1 / 0 / 0 / 0 = 2**.
 
 ### Unit 1 critic — applied
-- reaction/news phrases moved out of L01 into L06;
-- large-number phrases moved from age to U5-L04 quantities;
-- occupation and social phrase density bounded by active-core/routine design;
-- transfer remains almost new-content-free.
+- reactions moved L01→L06;
+- large-number phrases moved age→U5 quantities;
+- source-record count separated from teaching-object count;
+- transfer kept essentially new-content-free.
 
-**Unit 1 decision: accepted as current authoring contract.**
+**Unit 1 accepted.**
 
 ---
 
 # Unit 2 — People Around Me
 
 Purpose: family/familiar people, description/identification, preferences/interests, ability/inability.  
-Primary capabilities: **C03, C05, C07, C08**, with **X01** ownership support.  
-Transfer: **U2-L06**.
+Primary capabilities: **C03, C05, C07, C08**, with **X01**. Transfer: **U2-L06**.
 
 ## U2-L01 — Who's in your family?
-
-**Performance:** understand/give very basic family and familiar-person information.  
-**Foreground:** family relationship core, `This is my…`, `have got`, `his/her/their`, `best friend`, `each other`, `family member`, `live with sb`, `his or her`.  
-**Grammar boundary:** possessive determiners, bounded `have got`, regular plurals, lexicalised `my best friend`; no comparison chapter.  
-**Lexical boundary:** use a practical family network first; wider kinship enters supported family trees and later retrieval.  
-**Pronunciation:** key family contrasts, plural/possessive endings.  
+**Performance:** understand/give basic family and familiar-person information.  
+**Core:** family relationship core, `This is my…`, `have got`, `his/her/their`, `best friend`, `each other`, `family member`, `live with sb`, `his or her`.  
+**Boundary:** possessive determiners, bounded `have got`, regular plurals; no comparison chapter. `get married/grow up` are correctly later in Unit 7.  
 **Evidence:** new family/friend diagram; identify relationships and give 2–3 facts.  
-**Retrieval:** U2-L03/L06, U7 life profiles, U9 factual profiles.  
 **Load:** **5 / 6 / 3 / 24 / 2 = 40**.
 
 ## U2-L02 — Which person is it?
-
-**Performance:** understand a short description and identify the correct familiar person.  
-**Boundary:** **C08 is receptive**. Productive description may support learning but must not erase the reception assessment boundary.  
-**Foreground:** age/family/job cues, simple appearance/properties, `look like`, with `kind of / this kind of` more supported if natural. Adjective-before-noun / adjective-after-`be` and simple degree language serve the task.  
-**Evidence:** choose the correct person from plausible distractors based on a new spoken/written description.  
-**Retrieval:** Unit 3 object descriptions, U9-L04, Unit 10.  
+**Performance:** understand a short description and identify the correct person.  
+**Core:** age/family/job/simple appearance cues, `look like`, supported `kind of / this kind of`, adjective patterns.  
+**Boundary:** **C08 is receptive**; productive description support must not erase the reception assessment boundary.  
+**Evidence:** choose the correct person from plausible distractors based on a new description.  
 **Load:** **5 / 3 / 4 / 24 / 0 = 36**.
 
 ## U2-L03 — Tell me about this person
-
 **Performance:** ask/answer basic questions about a familiar person in an information gap.  
-**Foreground:** questions about relationship, name/age, origin/residence, job/study, familiar facts. Reuse known wh-/yes-no systems rather than teach “all questions”.  
-**Lexical warning:** 24 new word records must enter through mystery-person/profile use; **this is not a vocabulary lesson**.  
-**Evidence:** learner must ask useful questions to solve missing information, not read a prepared dialogue.  
-**Retrieval:** U2-L06 and later question-driven domains.  
+**Core:** relationship/name/age/origin/job/familiar-fact questions using already introduced systems.  
+**Boundary:** 24 new words enter through mystery-person/profile use; **not a vocabulary chapter**.  
+**Evidence:** ask useful questions to solve missing information rather than read a prepared dialogue.  
 **Load:** **0 / 1 / 0 / 24 / 0 = 25**.
 
 ## U2-L04 — What do you like doing?
-
 **Performance:** understand/express basic likes, dislikes, hobbies and interests.  
-**Foreground:** `like/don't like`, `love/hate/enjoy` where source-supported, `really like`, `really enjoy`, hobby/media/activity vocabulary.  
-**Grammar boundary:** eight EGP rows describe one bounded preference system: affirmative/negative present, degree, and limited `like` verb patterns. Do not expand into a verb-pattern chapter.  
-**Capability boundary:** this is preference **C05**, not the fuller opinion/evaluation capability C22.  
+**Core:** `like/don't like`, source-supported `love/hate/enjoy`, `really like/enjoy`, hobby/media/activity language.  
+**Boundary:** eight EGP records = one bounded preference system. This is C05 preference, not full C22 opinion/evaluation.  
 **Evidence:** fresh choice set; express several preferences and understand another person's.  
-**Retrieval:** U2-L06, Unit 4 free time, Unit 5 food, Unit 8 opinion/planning.  
 **Load:** **5 / 2 / 8 / 24 / 0 = 39**.
 
 ## U2-L05 — What can you do?
-
 **Performance:** understand/state what self or another person can/cannot do.  
-**Foreground:** `can/can't`, `Can you…?`, `good at`, `know how`, with `learn how to…` as related chunk.  
-**Grammar boundary:** ability `can` only. Requests/offers with `can` belong to Unit 5.  
-**Lexical handling:** activity/sport/music words in an ability survey or “who can…?” task.  
-**Pronunciation support:** protect the meaning contrast between `can` and `can't` contextually; no accent training.  
+**Core:** `can/can't`, `Can you…?`, `good at`, `know how`, related `learn how to…`.  
+**Boundary:** ability `can` only. Request/offer `can` belongs to Unit 5.  
 **Evidence:** unseen ability grid; ask, understand, answer and report ability/inability.  
-**Retrieval:** U2-L06 and Unit 5 semantic contrast.  
 **Load:** **3 / 3 / 8 / 24 / 0 = 38**.
 
 ## U2-L06 — Who's this? — Transfer
-
 **Performance:** identify/introduce a new familiar person using family facts, preferences, ability and description evidence.  
-**Task:** identify from description → ask for missing facts → state relationship/basic facts → preference → ability; Unit-1 social introduction may recycle.  
-**Boundary:** **0 new source records**. Require both receptive and productive/interactive evidence.  
+**Boundary:** **0 new records**; require receptive + productive/interactive evidence.  
 **Load:** **0 / 0 / 0 / 0 / 0 = 0**.
 
 ### Unit 2 critic — applied
-- verified actual phrase IDs before making changes; family language was already coherent and `get married/grow up` were already correctly placed in Unit 7;
+- verified actual phrase IDs instead of assuming family-life-event placement;
 - protected C08 reception;
-- prevented U2-L03 from becoming a 24-word dump;
-- collapsed U2-L04's eight grammar records into one preference system;
+- prevented L03 vocabulary dump;
+- collapsed preference grammar into one system;
 - separated ability `can` from request/offer `can`;
-- preserved zero-new-content transfer.
+- protected zero-new transfer.
 
-**Unit 2 decision: accepted; no split/merge required.**
+**Unit 2 accepted.**
 
 ---
 
 # Unit 3 — Home, Things, and Where They Are
 
-Purpose: home/residence, familiar objects, properties, static location/position, question exchange, and ownership.  
-Primary capabilities: **C04, C08, C09, C10**, with **X01** possession and X03/X04 question infrastructure.  
-Main lexical homes: **L04, L11, L12**, with L10/L25 support.  
-Transfer: **U3-L06**.
+Purpose: home/residence, familiar objects, properties, static location/position, question exchange, ownership.  
+Primary capabilities: **C04, C08, C09, C10**, with **X01**. Transfer: **U3-L06**.
 
 ## U3-L01 — This is my home
-
-**Performance:** give/understand a very basic description of a home and what it contains.  
-**Foreground:** room/home core, `at home`, `living room`, `there is`; source grammar `there is/there are`, articles as already available.  
-**Boundary:** existence/contents first. Do not mix the whole position-preposition system into this lesson; U3-L03 owns detailed location.  
-**Lexical handling:** 20 words around rooms/home/household space. Foreground rooms + high-value household anchors; wider items appear in a simple floor plan/photo.  
-**Evidence:** new home/floor-plan prompt; understand and give several basic `there is/are` facts.  
-**Retrieval:** U3-L03 location, U3-L06 home transfer, later hotel/travel contexts.  
+**Performance:** give/understand basic home contents.  
+**Core:** rooms/home, `at home`, `living room`, `there is/there are`.  
+**Boundary:** existence/contents first; detailed location waits for L03.  
+**Evidence:** new floor plan/photo; understand/give several basic contents facts.  
 **Load:** **2 / 3 / 2 / 20 / 0 = 27**.
 
 ## U3-L02 — What does it look like?
-
-**Performance:** identify and give basic properties of familiar objects while preserving receptive-description evidence.  
-**Foreground:** colour, size, simple property adjectives, familiar object nouns, `black and white`, `This is…`; adjective + noun and adjective-after-`be` patterns.  
-**Boundary:** this lesson bridges C08 reception and C09 object exchange. Keep tasks distinct: first identify from description; then produce a small bounded description. Do not make all 23 words active at once.  
-**Evidence:** new object set; match an object to a description and give 2–3 basic properties of another object.  
-**Retrieval:** U3-L04 question exchange, Unit 5 shopping items, U9 descriptions.  
+**Performance:** identify and give basic properties of familiar objects.  
+**Core:** colour, size, property adjectives, object nouns, adjective + noun / adjective-after-`be`.  
+**Boundary:** bridge C08 reception and C09 production as distinct task steps; no 23-word active demand.  
+**Evidence:** match one object from description; give 2–3 properties of another.  
 **Load:** **7 / 2 / 8 / 23 / 0 = 40**.
 
 ## U3-L03 — Where is it?
-
-**Performance:** understand and state the static location/position of familiar things.  
-**Foreground:** core place prepositions/adverbs and the phrases `away from`, `in front of`, `on the floor`, `over there`; room/object vocabulary from L01/L02.  
-**Human-critic decision:** `come into sth` and `go into sth` were moved from here to U6-L04 because they express **movement/route**, not static object position. The ledger remains clean after the move: U3-L03 now has 4 phrase introductions, U6-L04 has 7.  
-**Grammar boundary:** static location only: place adverbs/prepositions and noun-phrase complements needed to say where something is.  
-**Evidence:** fresh room/scene; locate items from listening and state positions without copying a labelled model.  
-**Retrieval:** U3-L04 information gap, U3-L06, Unit 6 town/navigation.  
+**Performance:** understand/state **static** location of familiar things.  
+**Core:** place prepositions/adverbs, `away from`, `in front of`, `on the floor`, `over there`.  
+**Boundary:** `come into` and `go into` were moved to U6-L04 because they express movement/route, not static position.  
+**Evidence:** fresh room/scene; locate items from listening and state positions.  
 **Load after critic:** **3 / 4 / 7 / 19 / 0 = 33**.
 
 ## U3-L04 — Which one? Where is it?
-
-**Performance:** initiate and answer basic questions about familiar objects and their position.  
-**Foreground:** bounded `what/where/which` object/location questions, object pronoun/reference where source-supported, and enough noun-phrase structure to distinguish items.  
-**Grammar boundary:** six EGP rows here mostly support noun-phrase/reference complexity and list/compound handling. They are not six explicit grammar topics. Grammar exists to make the information gap solvable.  
-**Lexical handling:** 23 word records include object/property/reference material. Use visually similar objects so properties and position matter communicatively.  
-**Evidence:** two-layout information gap; learner must ask which/what/where questions and place/identify the correct items.  
-**Retrieval:** U3-L06, shopping Unit 5, directions/location Unit 6.  
+**Performance:** initiate/answer object and position questions.  
+**Core:** bounded `what/where/which`, object reference, properties and location.  
+**Boundary:** six EGP rows mainly support reference/noun-phrase structure; not six grammar lessons.  
+**Evidence:** two-layout information gap requiring useful questions.  
 **Load:** **5 / 0 / 6 / 23 / 0 = 34**.
 
 ## U3-L05 — Whose things are these?
-
-**Performance:** express/understand basic ownership inside a familiar home/object context.  
-**Foreground/recycle:** `have got`, possessive determiners (`my/your/his/her/their`), family/person language, familiar personal/household objects. Use source-supported frames such as `This is his…`, `She has got…`, `Is this your…?` where natural.  
-**Boundary:** do **not** invent a new possessive-pronoun system if it is not in the canonical A1 grammar inventory. This lesson intentionally reuses X01 grammar introduced earlier and adds lexical/object coverage.  
-**Why zero new grammar/ability records is fine:** the slot exists to apply an already required cross-cutting system in a new domain and introduce 14 remaining words naturally.  
-**Evidence:** ownership-matching/information-gap task: identify who an item belongs with, then report the ownership using familiar forms.  
-**Retrieval:** U3-L06, travel/personal possessions Unit 6, later person/object descriptions.  
+**Performance:** express/understand ownership in home/object context.  
+**Core:** recycle `have got`, possessive determiners, family/person language, personal/household objects.  
+**Boundary:** do not invent a possessive-pronoun system absent from canonical A1. Zero new grammar/ability records is intentional application.  
+**Evidence:** ownership matching/information gap + report who has/belongs with what using familiar forms.  
 **Load:** **0 / 0 / 0 / 14 / 0 = 14**.
 
 ## U3-L06 — Where does everything go? — Transfer
-
-**Performance:** understand and give a fresh home/room description combining contents, object properties, position, questions and ownership.  
-**Task:** new layout/image with missing/mismatched information. Require at least two modes, for example listen/read to place items + ask/answer missing positions + produce a short spoken/written description.  
-**Boundary:** **0 new source records**; no surprise vocabulary system.  
-**What it verifies:** fresh evidence across **C04, C08, C09, C10, X01**, plus question infrastructure.  
-**Later recycle:** objects in Unit 5 shopping, location/directions in Unit 6, descriptions in Unit 9 and exit.  
+**Performance:** fresh home/room task combining contents, properties, position, questions and ownership.  
+**Boundary:** **0 new records**.  
 **Load:** **0 / 0 / 0 / 0 / 0 = 0**.
 
 ### Unit 3 critic — applied
-- separated existence/home contents (L01) from detailed static location (L03);
-- moved `come into` and `go into` to U6-L04 route/movement language;
-- kept C08 receptive evidence visible inside the mixed object-description lesson;
-- prevented noun-phrase EGP density in U3-L04 from becoming six grammar lectures;
-- made U3-L05 a real ownership application task instead of inventing unsupported possessive grammar;
-- preserved a zero-new-content transfer slot.
+- separated contents from static location;
+- moved movement phrases to directions Unit 6;
+- preserved C08 reception;
+- prevented noun-phrase EGP density becoming grammar chapters;
+- ownership applies known grammar instead of inventing a new system;
+- zero-new transfer preserved.
 
-**Unit 3 decision: accepted; no lesson split/merge required after the phrase move.**
+**Unit 3 accepted.**
 
 ---
 
-Next Stage-07 work: **Unit 4 — My Day, My Time, What's Happening**. This is a high-risk unit because U4-L01–L05 carry dense time/routine phrase loads and U4-L02 reaches the current source-introduction ceiling. It must receive a human coherence/load critic before any brief is accepted.
+# Unit 4 — My Day, My Time, What's Happening
+
+Purpose: **clock time, routines, frequency/duration, work/study/free time, and current activity**. The wider C12 **date/calendar branch is deliberately not forced into this unit**: date recognition/production/writing receives its first natural instructional homes in Unit 6 travel/forms and Unit 8 arrangements.  
+Primary capabilities here: **C06 + clock/time branch of C12**.  
+Main lexical homes: **L15, L17, L18, L19, L20**, with L16 support.  
+Transfer: **U4-L07**.
+
+## U4-L01 — What time is it?
+**Performance:** understand, say and write basic clock time to the required A1 precision.  
+**Core:** hour/half/quarter/five-minute time, `o'clock`, `half an hour` where useful, spoken ↔ digital/written time.  
+**Manual ability scheduling:** clock-specific C12 evidence is pinned here: understand quarter-hour; understand within five minutes; tell time within five minutes; tell time to quarter hour; write times in digits/words.  
+**Boundary:** this is **clock time**, not a dumping ground for every phrase containing `time`. Eight duration/general-time phrases were removed after human critic. Dates are not silently assessed here.  
+**Evidence:** new timetable/clock prompts across listening, speaking and simple written time.  
+**Retrieval:** daily routine L02; schedule work L04; travel/ticket time Unit 6; arrangements Unit 8.  
+**Load after critic:** **7 abilities / 1 phrase / 4 grammar / 15 words / 0 pron. = 27**.
+
+## U4-L02 — My daily routine
+**Performance:** understand and give a basic daily routine.  
+**Core phrase cluster:** `every day`, `get up`, `get ready`, `go home`, `get home`, `go to bed`, `wake up`, `in bed`, `in the morning`, `this morning`, `for lunch`, `all day`; routine verbs and time-of-day language.  
+**Grammar boundary:** present-simple routine system only as needed: affirmative/negative and source-supported person/form control. Seven EGP rows are one usable routine system, not seven chapters.  
+**Evidence:** fresh day schedule; understand another routine and give own/assigned routine without copying a full model.  
+**Retrieval:** frequency/duration L03; third-person work/study day L04; Unit 7 past shift; Unit 10 time-shift.  
+**Load:** **3 / 12 / 7 / 16 / 0 = 38**.
+
+## U4-L03 — How often? How long?
+**Performance:** ask/understand/give simple frequency and duration information about familiar activities.  
+**Core frequency:** `How often…?`, `once a…`, `X times a…`, `X hours a day`, `at the weekend`.  
+**Core duration/time-span support:** `How long…?`, `It takes…`, `for a moment`, `for a long time`, `a period of time`, `have time`, `too long`, `this time`.  
+**Grammar boundary:** frequency adverbs and simple time adjuncts only; no broad aspect/duration theory.  
+**Human-critic cleanup:** `for many years` → U7 life/past; `for the first time` → U7 event language; `at the beginning/end` sequence phrases → U9 written procedure. This keeps this lesson about **frequency/duration**, not generic chronology.  
+**Evidence:** changed activity/routine cards; learner asks and answers both a frequency and a duration question.  
+**Retrieval:** free-time L05; plans Unit 8; later practical/time-shift tasks.  
+**Load after critic:** **0 abilities / 13 phrases / 3 grammar / 12 words / 0 pron. = 28**.
+
+## U4-L04 — A work/study day
+**Performance:** understand and describe another person's basic work/study day.  
+**Core:** school/work set and chunks such as `at school/university/work`, `go to school/work`, `in class/school`, `high school`, `hard work`, `work hard/together/with`; recycle clock/routine/frequency language.  
+**Boundary:** **0 new grammar records** is intentional. This is third-person transfer of the present-simple routine system, not another present-simple lesson. The 24 words enter through a person schedule/work-study profile rather than a list.  
+**Evidence:** new person schedule; extract key facts and give a short factual account.  
+**Retrieval:** Unit 7 past life/work profile; Unit 9 factual profile.  
+**Load:** **0 / 12 / 0 / 24 / 0 = 36**.
+
+## U4-L05 — Free time and media
+**Performance:** understand and talk about familiar free-time/media activity as part of routine/leisure.  
+**Core:** `go out`, `have fun`, `listen to`, `on television/on TV/on the internet`, `play with`, `spend time`, `stay in`, `swimming pool`, `TV show`; recycle preferences from Unit 2.  
+**Boundary:** this is routine/leisure C06 with C05 recycle, not yet opinion/suggestion C22. One grammar record must stay subordinate to the task.  
+**Evidence:** new free-time menu/profile; say what/when/how often self or another person does selected activities and understand a partner's.  
+**Retrieval:** Unit 8 opinion/suggestion/plan; Unit 10.  
+**Load:** **0 / 11 / 1 / 24 / 0 = 36**.
+
+## U4-L06 — What's happening now?
+**Performance:** understand and say what is happening in a current scene.  
+**Core:** present-continuous current-event forms, action vocabulary, `right now`, `at the moment`, and `at the same time` where two visible actions genuinely support it.  
+**Boundary:** current activity is contrasted with known routine meaning only enough to choose the correct interpretation; no broad tense-comparison lecture.  
+**Evidence:** fresh picture/live-scene prompts; identify and state current actions, including one contrast with a familiar routine when useful.  
+**Retrieval:** immediate Unit-4 transfer; U9 factual/visual work; U10 time-shift.  
+**Load after critic:** **2 / 3 / 3 / 11 / 0 = 19**.
+
+## U4-L07 — Routine or now? — Transfer
+**Performance:** integrate clock time, routine, frequency/duration, work/free time, and current activity under a new schedule + scene.  
+**Task:** extract time/routine information from a new schedule; ask/answer one frequency/duration question; interpret a new current scene; choose habitual vs current language without a supplied complete response.  
+**Boundary:** **0 new source records**. **Do not test calendar/date production here** simply because C12 contains dates; that branch is intentionally introduced in later natural tasks.  
+**What it verifies:** fresh evidence for C06 and the clock/time portion of C12, plus question/receptive infrastructure.  
+**Load:** **0 / 0 / 0 / 0 / 0 = 0**.
+
+### C12 date/calendar placement — explicit manual decision
+
+C12 is a cross-modal family, not a requirement that all time/date subskills enter in one unit. Human review rejected both (a) silently pretending dates were taught by U4 clock lessons and (b) adding a standalone “calendar lesson” just to preserve architectural neatness.
+
+Exact first instructional homes are now intentionally split by real-world use:
+- **U4-L01:** clock reception/production/writing (`p14.003`, `p14.004`, `p22.003`, `p22.016`, `p37.018`).
+- **U6-L05:** mixed familiar-context price/time/date comprehension (`p15.008`) inside transport/ticket information.
+- **U6-L06:** recognise dates, give dates, write dates (`p14.015`, `p22.014`, `p37.012`) inside travel/hotel/form details.
+- **U8-L03:** indicate time using day/month/relative references (`p22.019`) inside arrangements.
+
+Calendar vocabulary is likewise scheduled into meaningful later contexts: a month set in travel/form work and weekdays + `April/date/month` in arrangements, rather than a decontextualised calendar dump.
+
+### Unit 4 critic — applied
+- initially considered increasing the course to **63** because dates had no explicit Unit-4 lesson;
+- after reading the exact C12 abilities, rejected that solution: travel/forms and arrangements are stronger natural homes, so **62 remains justified for now**;
+- reduced U4-L01 from 9 phrases to 1 and total load from **41 → 27**, making it a real clock lesson;
+- reshaped U4-L03 into coherent frequency/duration (**13 phrases, total 28**);
+- moved generic chronology phrases to past/procedure units and simultaneous-action language to L06;
+- all revised scheduling passed the exact 1337-record lifecycle/load audit with 0 orphan/missing retrieval/exit gaps.
+
+**Unit 4 accepted after redistribution; no extra lesson required.**
+
+---
+
+Next Stage-07 work: **Unit 5 — Needs, Food, Shopping, and Simple Service**. Human critic must especially protect the semantic split between ability `can` (already taught) and request `can`, prevent quantity language from becoming a grammar/list lesson, and verify that the food/shopping transaction branches remain real service performances rather than vocabulary themes.
