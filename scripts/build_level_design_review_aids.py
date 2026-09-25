@@ -66,11 +66,54 @@ def build_ability_aid(level: str) -> None:
     out.write_text("\n".join(lines), encoding="utf-8")
 
 
+def build_phrase_aid(level: str) -> None:
+    level_dir = ROOT / "curriculum" / "levels" / level
+    data = load_json(level_dir / "phrases.json")
+    items = data.get("items", [])
+
+    out_dir = level_dir / "design-review" / "02-phrases" / "generated"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out = out_dir / "phrase-review-aid.md"
+
+    lines = [
+        f"# {level.upper()} Phrase Review Aid",
+        "",
+        "Status: **GENERATED REVIEW AID — NON-AUTHORITATIVE**  ",
+        "Purpose: compact projection of exact phrase records for manual curriculum review.  ",
+        "Rule: this file makes **no** capability-home, productivity, or semantic-role decisions.",
+        "",
+        f"Phrase records: **{len(items)}**",
+        "",
+        "| # | Item ID | Phrase |",
+        "|---:|---|---|",
+    ]
+    for i, item in enumerate(items, 1):
+        lines.append(
+            "| {i} | `{iid}` | {phrase} |".format(
+                i=i,
+                iid=esc(item.get("item_id", "")),
+                phrase=esc(item.get("phrase", "")),
+            )
+        )
+
+    lines.extend([
+        "",
+        "## Integrity",
+        "",
+        f"- Projected phrase count: **{len(items)}**",
+        "- IDs and phrase text are copied from `phrases.json`; no semantic inference is performed.",
+        "",
+    ])
+    out.write_text("\n".join(lines), encoding="utf-8")
+
+
 def main() -> None:
     for level in LEVELS:
-        ability_file = ROOT / "curriculum" / "levels" / level / "abilities.json"
-        if ability_file.exists():
+        level_dir = ROOT / "curriculum" / "levels" / level
+        if (level_dir / "abilities.json").exists():
             build_ability_aid(level)
+        if (level_dir / "phrases.json").exists():
+            build_phrase_aid(level)
 
 
 if __name__ == "__main__":
