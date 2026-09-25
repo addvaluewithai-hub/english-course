@@ -25,44 +25,31 @@ def build_ability_aid(level: str) -> None:
     level_dir = ROOT / "curriculum" / "levels" / level
     data = load_json(level_dir / "abilities.json")
     required = [x for x in data.get("items", []) if x.get("curriculum_role") == "include_for_spine"]
-
     out_dir = level_dir / "design-review" / "01-abilities" / "generated"
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "ability-review-aid.md"
-
     lines = [
-        f"# {level.upper()} Required Ability Review Aid",
-        "",
+        f"# {level.upper()} Required Ability Review Aid", "",
         "Status: **GENERATED REVIEW AID — NON-AUTHORITATIVE**  ",
         "Purpose: compact projection of exact source records for manual curriculum review.  ",
-        "Rule: this file makes **no** KEEP/MERGE/SPLIT/SUPPORTING or capability decisions.",
-        "",
-        f"Required records: **{len(required)}**",
-        "",
+        "Rule: this file makes **no** KEEP/MERGE/SPLIT/SUPPORTING or capability decisions.", "",
+        f"Required records: **{len(required)}**", "",
         "| # | Source record ID | Mode | Skill | Function tags | Source ability |",
         "|---:|---|---|---|---|---|",
     ]
     for i, item in enumerate(required, 1):
-        lines.append(
-            "| {i} | `{sid}` | {mode} | {skill} | {func} | {text} |".format(
-                i=i,
-                sid=esc(item.get("source_record_id", item.get("item_id", ""))),
-                mode=esc(", ".join(item.get("mode_codes", []))),
-                skill=esc(", ".join(item.get("skill_codes", []))),
-                func=esc(", ".join(item.get("function_codes", []))),
-                text=esc(item.get("source_text", "")),
-            )
-        )
-
-    lines.extend([
-        "",
-        "## Integrity",
-        "",
+        lines.append("| {i} | `{sid}` | {mode} | {skill} | {func} | {text} |".format(
+            i=i,
+            sid=esc(item.get("source_record_id", item.get("item_id", ""))),
+            mode=esc(", ".join(item.get("mode_codes", []))),
+            skill=esc(", ".join(item.get("skill_codes", []))),
+            func=esc(", ".join(item.get("function_codes", []))),
+            text=esc(item.get("source_text", "")),
+        ))
+    lines.extend(["", "## Integrity", "",
         f"- Manifest/source required count expected: **{data.get('counts', {}).get('required_items')}**",
         f"- Projected required count: **{len(required)}**",
-        "- IDs and texts are copied from `abilities.json`; no semantic inference is performed.",
-        "",
-    ])
+        "- IDs and texts are copied from `abilities.json`; no semantic inference is performed.", ""])
     out.write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -70,40 +57,22 @@ def build_phrase_aid(level: str) -> None:
     level_dir = ROOT / "curriculum" / "levels" / level
     data = load_json(level_dir / "phrases.json")
     items = data.get("items", [])
-
     out_dir = level_dir / "design-review" / "02-phrases" / "generated"
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "phrase-review-aid.md"
-
     lines = [
-        f"# {level.upper()} Phrase Review Aid",
-        "",
+        f"# {level.upper()} Phrase Review Aid", "",
         "Status: **GENERATED REVIEW AID — NON-AUTHORITATIVE**  ",
         "Purpose: compact projection of exact phrase records for manual curriculum review.  ",
-        "Rule: this file makes **no** capability-home, productivity, or semantic-role decisions.",
-        "",
-        f"Phrase records: **{len(items)}**",
-        "",
-        "| # | Item ID | Phrase |",
-        "|---:|---|---|",
+        "Rule: this file makes **no** capability-home, productivity, or semantic-role decisions.", "",
+        f"Phrase records: **{len(items)}**", "",
+        "| # | Item ID | Phrase |", "|---:|---|---|",
     ]
     for i, item in enumerate(items, 1):
-        lines.append(
-            "| {i} | `{iid}` | {phrase} |".format(
-                i=i,
-                iid=esc(item.get("item_id", "")),
-                phrase=esc(item.get("phrase", "")),
-            )
-        )
-
-    lines.extend([
-        "",
-        "## Integrity",
-        "",
-        f"- Projected phrase count: **{len(items)}**",
-        "- IDs and phrase text are copied from `phrases.json`; no semantic inference is performed.",
-        "",
-    ])
+        lines.append("| {i} | `{iid}` | {phrase} |".format(
+            i=i, iid=esc(item.get("item_id", "")), phrase=esc(item.get("phrase", ""))))
+    lines.extend(["", "## Integrity", "", f"- Projected phrase count: **{len(items)}**",
+                  "- IDs and phrase text are copied from `phrases.json`; no semantic inference is performed.", ""])
     out.write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -111,56 +80,61 @@ def build_grammar_aid(level: str) -> None:
     level_dir = ROOT / "curriculum" / "levels" / level
     data = load_json(level_dir / "grammar.json")
     items = data.get("items", [])
-
     out_dir = level_dir / "design-review" / "03-grammar" / "generated"
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "grammar-review-aid.md"
-
     lines = [
-        f"# {level.upper()} Grammar Review Aid",
-        "",
+        f"# {level.upper()} Grammar Review Aid", "",
         "Status: **GENERATED REVIEW AID — NON-AUTHORITATIVE**  ",
         "Purpose: compact projection of exact canonical EGP records for manual curriculum review.  ",
-        "Rule: this file makes **no** grammar-family, capability-home, teaching-sequence, or control-role decisions.",
-        "",
-        f"Canonical EGP records: **{len(items)}**",
-        "",
+        "Rule: this file makes **no** grammar-family, capability-home, teaching-sequence, or control-role decisions.", "",
+        f"Canonical EGP records: **{len(items)}**", "",
         "| # | EGP row | Super-category | Sub-category | Guideword | Can-do |",
         "|---:|---:|---|---|---|---|",
     ]
     for i, item in enumerate(items, 1):
         src = item.get("source_ref", {}).get("spreadsheet_row", "")
-        lines.append(
-            "| {i} | {row} | {supercat} | {subcat} | {guide} | {cando} |".format(
-                i=i,
-                row=esc(src),
-                supercat=esc(item.get("super_category", "")),
-                subcat=esc(item.get("sub_category", "")),
-                guide=esc(item.get("guideword", "")),
-                cando=esc(item.get("can_do", "")),
-            )
-        )
+        lines.append("| {i} | {row} | {supercat} | {subcat} | {guide} | {cando} |".format(
+            i=i, row=esc(src), supercat=esc(item.get("super_category", "")),
+            subcat=esc(item.get("sub_category", "")), guide=esc(item.get("guideword", "")),
+            cando=esc(item.get("can_do", ""))))
+    lines.extend(["", "## Integrity", "", f"- Projected canonical EGP count: **{len(items)}**",
+                  "- Rows/text are copied from `grammar.json`; no semantic inference or family consolidation is performed.", ""])
+    out.write_text("\n".join(lines), encoding="utf-8")
 
-    lines.extend([
-        "",
-        "## Integrity",
-        "",
-        f"- Projected canonical EGP count: **{len(items)}**",
-        "- Rows/text are copied from `grammar.json`; no semantic inference or family consolidation is performed.",
-        "",
-    ])
+
+def build_word_aid(level: str) -> None:
+    level_dir = ROOT / "curriculum" / "levels" / level
+    data = load_json(level_dir / "words.json")
+    items = data.get("items", [])
+    out_dir = level_dir / "design-review" / "04-words" / "generated"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out = out_dir / "word-review-aid.md"
+    lines = [
+        f"# {level.upper()} Word Review Aid", "",
+        "Status: **GENERATED REVIEW AID — NON-AUTHORITATIVE**  ",
+        "Purpose: compact projection of exact lexical records for manual curriculum review.  ",
+        "Rule: this file makes **no** semantic-home, productive/receptive, or lesson decisions.", "",
+        f"Lexical records: **{len(items)}**", "",
+        "| # | Item ID | Headword | POS | Qualifier |",
+        "|---:|---|---|---|---|",
+    ]
+    for i, item in enumerate(items, 1):
+        lines.append("| {i} | `{iid}` | {head} | {pos} | {qual} |".format(
+            i=i, iid=esc(item.get("item_id", "")), head=esc(item.get("headword", "")),
+            pos=esc(item.get("part_of_speech", "")), qual=esc(item.get("qualifier", "") or "")))
+    lines.extend(["", "## Integrity", "", f"- Projected lexical count: **{len(items)}**",
+                  "- IDs/headwords/POS are copied from `words.json`; no semantic inference is performed.", ""])
     out.write_text("\n".join(lines), encoding="utf-8")
 
 
 def main() -> None:
     for level in LEVELS:
         level_dir = ROOT / "curriculum" / "levels" / level
-        if (level_dir / "abilities.json").exists():
-            build_ability_aid(level)
-        if (level_dir / "phrases.json").exists():
-            build_phrase_aid(level)
-        if (level_dir / "grammar.json").exists():
-            build_grammar_aid(level)
+        if (level_dir / "abilities.json").exists(): build_ability_aid(level)
+        if (level_dir / "phrases.json").exists(): build_phrase_aid(level)
+        if (level_dir / "grammar.json").exists(): build_grammar_aid(level)
+        if (level_dir / "words.json").exists(): build_word_aid(level)
 
 
 if __name__ == "__main__":
