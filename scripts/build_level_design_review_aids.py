@@ -107,6 +107,51 @@ def build_phrase_aid(level: str) -> None:
     out.write_text("\n".join(lines), encoding="utf-8")
 
 
+def build_grammar_aid(level: str) -> None:
+    level_dir = ROOT / "curriculum" / "levels" / level
+    data = load_json(level_dir / "grammar.json")
+    items = data.get("items", [])
+
+    out_dir = level_dir / "design-review" / "03-grammar" / "generated"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out = out_dir / "grammar-review-aid.md"
+
+    lines = [
+        f"# {level.upper()} Grammar Review Aid",
+        "",
+        "Status: **GENERATED REVIEW AID — NON-AUTHORITATIVE**  ",
+        "Purpose: compact projection of exact canonical EGP records for manual curriculum review.  ",
+        "Rule: this file makes **no** grammar-family, capability-home, teaching-sequence, or control-role decisions.",
+        "",
+        f"Canonical EGP records: **{len(items)}**",
+        "",
+        "| # | EGP row | Super-category | Sub-category | Guideword | Can-do |",
+        "|---:|---:|---|---|---|---|",
+    ]
+    for i, item in enumerate(items, 1):
+        src = item.get("source_ref", {}).get("spreadsheet_row", "")
+        lines.append(
+            "| {i} | {row} | {supercat} | {subcat} | {guide} | {cando} |".format(
+                i=i,
+                row=esc(src),
+                supercat=esc(item.get("super_category", "")),
+                subcat=esc(item.get("sub_category", "")),
+                guide=esc(item.get("guideword", "")),
+                cando=esc(item.get("can_do", "")),
+            )
+        )
+
+    lines.extend([
+        "",
+        "## Integrity",
+        "",
+        f"- Projected canonical EGP count: **{len(items)}**",
+        "- Rows/text are copied from `grammar.json`; no semantic inference or family consolidation is performed.",
+        "",
+    ])
+    out.write_text("\n".join(lines), encoding="utf-8")
+
+
 def main() -> None:
     for level in LEVELS:
         level_dir = ROOT / "curriculum" / "levels" / level
@@ -114,6 +159,8 @@ def main() -> None:
             build_ability_aid(level)
         if (level_dir / "phrases.json").exists():
             build_phrase_aid(level)
+        if (level_dir / "grammar.json").exists():
+            build_grammar_aid(level)
 
 
 if __name__ == "__main__":
