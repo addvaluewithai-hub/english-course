@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "level": "B1",
+  "status": "manual_stage06_scheduling_overrides_v1",
+  "policy": {
+    "semantic_homes_unchanged": true,
+    "lesson_architecture_unchanged": true,
+    "load_thresholds_unchanged": true,
+    "purpose": "Human scheduling corrections only. Automation may merge these additions but may not infer new semantic homes or lesson destinations."
+  },
+  "family_intro_replacements": {},
+  "family_intro_additions": {},
+  "grammar_system_intro_replacements": {},
+  "grammar_system_intro_additions": {},
+  "family_lifecycle_additions": {
+    "LX-GENERAL": {
+      "practice": ["U11-L06"]
+    }
+  },
+  "decision_notes": [
+    "The rebalanced v2 ledger placed seven intentionally-general lexical records at U11-L06, but the base LX-GENERAL practice list ended at U11-L04. U11-L06 is already an approved B1 connected online-interaction lesson and a natural same-lesson contextual practice location for those general support words.",
+    "This correction adds practice evidence only. It does not change any word's primary lexical home, introduction lesson, semantic role, or the 12-unit / 85-slot architecture."
+  ]
+}
