@@ -1,7 +1,8 @@
 name: Audit level source of truth
 
-# A1 curriculum lesson-design authorization is valid only when the reviewed semantic
-# lock is closed; delivery production remains a separate TEST-002-gated concern.
+# A1/A2 curriculum lesson-design authorization is valid only when each reviewed
+# semantic/design lock is explicitly closed. Delivery production remains a separate
+# TEST-002-gated concern, and later levels remain locked until independently reviewed.
 on:
   push:
     branches:
@@ -39,5 +40,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Audit complete source coverage and A1 authorization
+      - name: Audit complete source coverage and reviewed lesson-design authorization
         run: python scripts/audit_level_source_of_truth_v4.py
