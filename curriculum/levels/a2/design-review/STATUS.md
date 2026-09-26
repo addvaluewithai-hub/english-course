@@ -1,8 +1,8 @@
 # A2 Design Review Status
 
-Status: **MILESTONE 4 CLOSED — DELIVERY BLUEPRINT / 83 LESSON BRIEFS + WHOLE-LEVEL CRITIC COMPLETE**
+Status: **STAGE 9 CLOSED — LESSON DESIGN AUTHORIZED; DELIVERY/MEDIA PRODUCTION STILL NOT AUTHORIZED**
 
-This is the session-independent A2 handoff. It records the authoritative curriculum-design state and the next gate boundary. It does **not** authorize lesson/script/media production.
+This is the session-independent A2 handoff. It records the authoritative curriculum-design state after the reviewed lesson-design authorization gate. It authorizes controlled A2 lesson-design / authoring planning against the locked 83 lesson briefs. It does **not** authorize lesson-package, audio, image, video, or other delivery-production artifacts.
 
 ## Locked foundation
 
@@ -52,7 +52,7 @@ Every exact source record has one explicit human-authored role. Final counts:
 
 Semantic orphans: **0**. Automation-inferred semantic roles: **0**.
 
-Stage 08.5 retained the 83-slot architecture after role-aware load review. Important corrections included protecting U1-L03 from expanded question overloading and reducing U4-L04 to a bounded suggestion repertoire.
+Stage 08.5 retained the 83-slot architecture after role-aware load review and explicitly closed the human hotspot queue. Important corrections included protecting U1-L03 from expanded question overloading and reducing U4-L04 to a bounded suggestion repertoire.
 
 Authoritative records:
 
@@ -72,16 +72,6 @@ Completion:
 - unit-level rolling critics: **12 / 12 complete**
 - whole-level critic: **1 / 1 complete**
 
-Each brief distinguishes:
-
-- primary communicative/evidence outcome;
-- foreground productive/formulaic language;
-- receptive/contextual input;
-- embedded grammar/discourse/pronunciation support;
-- learning shape;
-- evidence/transfer task;
-- explicit authoring prohibitions where a likely failure mode exists.
-
 Final Milestone-4 critic result:
 
 - structural changes triggered: **0**
@@ -91,45 +81,92 @@ Final Milestone-4 critic result:
 - locked **12-unit / 83-slot** architecture remains valid after all 83 briefs
 - designated transfer/evidence slots remain **zero-new semantic teaching**
 
-Notable whole-level safeguards now explicit in the briefs:
-
-- U1 keeps contact, phone/message and repair outcomes distinct; U1-L03 remains interview-first.
-- U4 keeps request, permission, opinion, suggestion and advice separately assessable; U4-L04 remains deliberately narrow.
-- U6 keeps location, directions, travel-information, ticket/tourist, accommodation and phone-reservation outcomes distinct.
-- U7 separates invitation, negotiated arrangement, diary/calendar record, personal intention, scheduled/arranged event language and prediction/possibility; U7-L06 is staged as one bounded prediction/certainty performance rather than a future-modal dump.
-- U8 factual past / bounded experience work remains distinct from U9 narrative background/sequence.
-- U10 keeps safety/process/equipment outcomes separate from survival-level symptom/medical-form communication; receptive passive/medical advice are not promoted to hidden productive targets.
-- U11 keeps correspondence, information request/reply, scanning, factual-media reception, inference and survey/interview outcomes distinct; raw-row-heavy U11-L04 remains reception-heavy and does not become a productive reported-speech lesson.
-- U12 gives local/cultural content bounded performance homes, keeps broad topic breadth contextual, and preserves zero-new transfer/exit evidence slots.
-- Pronunciation remains an intelligibility/interaction quality constraint, never an accent target.
-
 Milestone-4 authoring commit:
 
 `dba008f94bc3203f7a6f45ec3b9469255c19b115`
 
-## Authorization boundary
+## Stage 9 — Lesson-design authorization CLOSED
 
-A2 `lesson_design_authorized` remains **false**.
+Human authorization declaration:
 
-Closing Milestone 4 completes the curriculum **delivery blueprint / authoring contracts**. It does **not** authorize lesson scripts, production packages, media generation, or delivery artifacts.
+`10-authorization-gate/authorization.json`
 
-The next workstream is a separate **lesson-design authorization / delivery-gate evaluation**. That gate must be evaluated against the completed 83 briefs plus the existing authoritative manifest/contracts; Milestone-4 completion alone must not flip it automatically.
+Decision:
 
-## Next session — lesson-design authorization / delivery gate
+- `lesson_design_authorized = true`
+- `delivery_content_production_authorized = false`
+- human review queue = **0**
+- architecture remains **12 units / 83 lesson slots**
+- `TEST-002` remains separate and untouched
 
-Required next work:
+The authorization declaration is pinned to the reviewed coverage ledger, semantic decisions, expanded semantic ledger, Stage-08.5 exact overrides/critic and the completed lesson-brief file. If any pinned authoritative artifact drifts, the A2 authorization finalizer fails rather than silently preserving authorization.
 
-1. Read the final `09-lesson-briefs/lesson-briefs.md` together with the current A2 manifest/status and relevant delivery contracts.
-2. Evaluate the explicit authorization criteria and identify any remaining blockers or required contract changes.
-3. If and only if the gate is legitimately satisfied, update the authoritative manifest/status explicitly; do not infer authorization from this milestone close.
-4. Keep human semantic/design decisions separate from automation; automation may validate/build/check declared contracts but must not invent the authorization decision.
-5. Do not generate lesson scripts/media/production packages while `lesson_design_authorized=false`.
+Deterministic finalizer:
+
+`scripts/finalize_a2_authorization.py`
+
+The base source-of-truth builder may still regenerate candidate manifests with authorization false, but the build workflow now restores A2 authorization **only after** validating the explicit human Stage-9 declaration and its pinned evidence. This keeps automation as validator/reproducer rather than decision-maker.
+
+Authoritative generated state after rebuild:
+
+- `manifest.json` status: `semantic_design_lock_reviewed_lesson_design_authorized`
+- `manifest.json` lesson design: **authorized**
+- `manifest.json` delivery/media production: **not authorized**
+- `exit_contract.json` status: `semantic_inventory_locked_v1`
+- semantic lock human review queue: **0**
+
+Authorization decision commit:
+
+`765e36c1204fda702e6fe54699f65556c032f237`
+
+Deterministic rebuild commit produced by GitHub Actions:
+
+`c36ec88982fed54bc4cd8ddcfa098cce320b3069`
+
+Validation on the authorization decision commit: **4 / 4 SUCCESS**
+
+- Build level source of truth
+- Audit level source of truth
+- Audit A2 coverage ledger
+- Audit A2 semantic lock
+
+## What is authorized now
+
+A2 may now enter **controlled lesson-design / authoring implementation** using the 83 locked lesson briefs as authoritative contracts. Any lesson-design work must preserve:
+
+- the locked primary outcome for the slot;
+- productive / interactive / receptive / support role boundaries;
+- formulaic-vs-generative distinctions;
+- Stage-06 lifecycle expectations;
+- zero-new constraints on designated transfer/evidence slots;
+- pronunciation as an intelligibility/interaction constraint, not an accent target;
+- explicit reopening + re-audit if a genuine curriculum contradiction is discovered.
+
+## What is still not authorized
+
+The following remain outside this gate:
+
+- lesson-package production;
+- audio generation;
+- image generation;
+- video generation;
+- mass delivery-artifact generation;
+- bypassing or changing `TEST-002` / the separate delivery-production workstream.
+
+`lesson_design_authorized=true` is therefore an **authoring/design contract**, not a blanket production permission.
+
+## Next session — controlled lesson authoring
+
+Start from the authoritative `09-lesson-briefs/lesson-briefs.md` and implement lesson design in bounded batches with rolling human critic. Do not invent new curriculum targets to make a lesson feel fuller; if a brief appears insufficient or contradictory, reopen the upstream decision explicitly rather than silently changing the locked curriculum.
+
+Recommended first boundary: **Unit 1 / U1-L01 onward**, using one stable lesson-authoring contract format before scaling across the remaining 82 slots.
 
 ## Boundaries
 
 - Branch: `curriculum/level-source-of-truth-v1`
 - `main` untouched.
 - A1 remains locked.
-- A2 `lesson_design_authorized` remains **false**.
+- A2 `lesson_design_authorized` is **true**.
+- A2 `delivery_content_production_authorized` is **false**.
 - `TEST-002` / delivery-production gate remains separate and untouched.
-- No lesson scripts or media production yet.
+- No audio/image/video or mass lesson-package production is authorized by Stage 9.
