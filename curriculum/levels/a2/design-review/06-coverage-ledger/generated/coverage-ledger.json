@@ -9343,7 +9343,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U10-L02"
         ],
         "practice": [
           "U11-L02",
@@ -9437,7 +9437,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L02"
+          "U11-L01"
         ],
         "practice": [
           "U11-L02",
@@ -9469,27 +9469,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L03"
+          "U11-L02"
         ],
         "practice": [
-          "U2-L03",
-          "U3-L07",
-          "U4-L03",
-          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U7-L07",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U7-L07",
-          "U8-L05",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -9511,15 +9501,18 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U2-L03"
         ],
         "practice": [
+          "U2-L03",
+          "U3-L07",
           "U4-L03",
           "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U7-L07",
           "U9-L06",
           "U11-L07",
@@ -9582,9 +9575,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
           "U9-L03",
           "U11-L02",
           "U11-L04"
@@ -9777,7 +9771,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L03"
+          "U6-L03"
         ],
         "practice": [
           "U9-L03",
@@ -9785,11 +9779,14 @@
           "U11-L04"
         ],
         "fresh_retrieval": [
+          "U7-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U7-L07",
+          "U8-L05",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -10376,17 +10373,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U9-L03"
         ],
         "practice": [
+          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -10469,7 +10469,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L02"
+          "U10-L02"
         ],
         "practice": [
           "U11-L02",
@@ -10719,27 +10719,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L03"
+          "U11-L01"
         ],
         "practice": [
-          "U2-L03",
-          "U3-L07",
-          "U4-L03",
-          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U7-L07",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U7-L07",
-          "U8-L05",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -10794,24 +10784,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U11-L02"
         ],
         "practice": [
-          "U4-L03",
-          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
-          "U7-L07",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U7-L07",
-          "U8-L05",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -10833,14 +10816,18 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U2-L03"
         ],
         "practice": [
+          "U2-L03",
+          "U3-L07",
+          "U4-L03",
           "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U7-L07",
           "U9-L06",
           "U11-L07",
@@ -10871,19 +10858,23 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L03"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
           "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
+          "U7-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U7-L07",
+          "U8-L05",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -11929,17 +11920,23 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U6-L03"
         ],
         "practice": [
+          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
+          "U7-L07",
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U7-L07",
+          "U8-L05",
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -11991,17 +11988,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L02"
+          "U9-L03"
         ],
         "practice": [
+          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -12055,27 +12055,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L03"
+          "U10-L02"
         ],
         "practice": [
-          "U2-L03",
-          "U3-L07",
-          "U4-L03",
-          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U7-L07",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U7-L07",
-          "U8-L05",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -12097,24 +12087,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U11-L01"
         ],
         "practice": [
-          "U4-L03",
-          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
-          "U7-L07",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U7-L07",
-          "U8-L05",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -12136,23 +12119,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U11-L02"
         ],
         "practice": [
-          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
-          "U7-L07",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U7-L07",
-          "U8-L05",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -12209,19 +12186,26 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L03"
+          "U2-L03"
         ],
         "practice": [
+          "U2-L03",
+          "U3-L07",
+          "U4-L03",
           "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
+          "U7-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U7-L07",
+          "U8-L05",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -13242,17 +13226,24 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
+          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
+          "U7-L07",
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U7-L07",
+          "U8-L05",
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -13466,17 +13457,23 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L02"
+          "U6-L03"
         ],
         "practice": [
+          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
+          "U7-L07",
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U7-L07",
+          "U8-L05",
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -13593,26 +13590,19 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L03"
+          "U9-L03"
         ],
         "practice": [
-          "U2-L03",
-          "U3-L07",
-          "U4-L03",
           "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U7-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U7-L07",
-          "U8-L05",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -13854,24 +13844,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U10-L02"
         ],
         "practice": [
-          "U4-L03",
-          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
-          "U7-L07",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U7-L07",
-          "U8-L05",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -13893,23 +13876,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U11-L01"
         ],
         "practice": [
-          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
-          "U7-L07",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U7-L07",
-          "U8-L05",
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -13992,20 +13969,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L03"
+          "U11-L02"
         ],
         "practice": [
-          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -14057,17 +14031,27 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U2-L03"
         ],
         "practice": [
+          "U2-L03",
+          "U3-L07",
+          "U4-L03",
+          "U9-L03",
           "U11-L02",
           "U11-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
+          "U7-L07",
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U7-L07",
+          "U8-L05",
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -17318,6 +17302,48 @@
       ],
       "lifecycle": {
         "introduce": [
+          "U8-L05"
+        ],
+        "practice": [
+          "U9-L04",
+          "U11-L04",
+          "U11-L05"
+        ],
+        "fresh_retrieval": [
+          "U9-L06",
+          "U11-L07"
+        ],
+        "recycle": [
+          "U9-L05",
+          "U11-L04",
+          "U11-L07",
+          "U12-L02",
+          "U12-L05"
+        ],
+        "consolidate": [
+          "U12-L05"
+        ],
+        "exit_verify": [
+          "U12-L07"
+        ]
+      },
+      "review_row": 68,
+      "egp_spreadsheet_row": 220,
+      "grammar_system": "G11"
+    },
+    {
+      "category": "grammar",
+      "item_id": "egp.1741163708563x534984544701562900",
+      "label": "FORM: DEFINING, OBJECT, WITH 'THAT'",
+      "homes": [
+        "X09",
+        "X02",
+        "C04",
+        "C08",
+        "C23"
+      ],
+      "lifecycle": {
+        "introduce": [
           "U11-L04"
         ],
         "practice": [
@@ -17339,14 +17365,14 @@
           "U12-L07"
         ]
       },
-      "review_row": 68,
-      "egp_spreadsheet_row": 220,
+      "review_row": 69,
+      "egp_spreadsheet_row": 222,
       "grammar_system": "G11"
     },
     {
       "category": "grammar",
-      "item_id": "egp.1741163708563x534984544701562900",
-      "label": "FORM: DEFINING, OBJECT, WITH 'THAT'",
+      "item_id": "egp.1741163708563x609059917595893100",
+      "label": "FORM: NON-DEFINING, SUBJECT, WITH 'WHO'",
       "homes": [
         "X09",
         "X02",
@@ -17389,44 +17415,6 @@
           "U12-L07"
         ]
       },
-      "review_row": 69,
-      "egp_spreadsheet_row": 222,
-      "grammar_system": "G11"
-    },
-    {
-      "category": "grammar",
-      "item_id": "egp.1741163708563x609059917595893100",
-      "label": "FORM: NON-DEFINING, SUBJECT, WITH 'WHO'",
-      "homes": [
-        "X09",
-        "X02",
-        "C04",
-        "C08",
-        "C23"
-      ],
-      "lifecycle": {
-        "introduce": [
-          "U11-L04"
-        ],
-        "practice": [
-          "U11-L04",
-          "U11-L05"
-        ],
-        "fresh_retrieval": [
-          "U11-L07"
-        ],
-        "recycle": [
-          "U11-L07",
-          "U12-L02",
-          "U12-L05"
-        ],
-        "consolidate": [
-          "U12-L05"
-        ],
-        "exit_verify": [
-          "U12-L07"
-        ]
-      },
       "review_row": 70,
       "egp_spreadsheet_row": 223,
       "grammar_system": "G11"
@@ -17444,26 +17432,18 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L06"
+          "U8-L05"
         ],
         "practice": [
-          "U3-L06",
-          "U3-L07",
-          "U4-L03",
           "U9-L04",
           "U11-L04",
           "U11-L05"
         ],
         "fresh_retrieval": [
-          "U3-L07",
-          "U4-L07",
           "U9-L06",
           "U11-L07"
         ],
         "recycle": [
-          "U3-L07",
-          "U6-L01",
-          "U8-L05",
           "U9-L05",
           "U11-L04",
           "U11-L07",
@@ -17582,16 +17562,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U8-L05"
         ],
         "practice": [
+          "U9-L04",
           "U11-L04",
           "U11-L05"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07"
         ],
         "recycle": [
+          "U9-L05",
+          "U11-L04",
           "U11-L07",
           "U12-L02",
           "U12-L05"
@@ -18193,16 +18177,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U8-L05"
         ],
         "practice": [
+          "U9-L04",
           "U11-L04",
           "U11-L05"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07"
         ],
         "recycle": [
+          "U9-L05",
+          "U11-L04",
           "U12-L02",
           "U12-L05"
         ],
@@ -18363,16 +18351,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U8-L05"
         ],
         "practice": [
+          "U9-L04",
           "U11-L04",
           "U11-L05"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07"
         ],
         "recycle": [
+          "U9-L05",
+          "U11-L04",
           "U12-L02",
           "U12-L05"
         ],
@@ -18533,16 +18525,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U8-L05"
         ],
         "practice": [
+          "U9-L04",
           "U11-L04",
           "U11-L05"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07"
         ],
         "recycle": [
+          "U9-L05",
+          "U11-L04",
           "U12-L02",
           "U12-L05"
         ],
@@ -19121,10 +19117,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U7-L05"
+          "U7-L06"
         ],
         "practice": [
-          "U7-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
@@ -20044,23 +20039,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U7-L06"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L04",
-          "U5-L02",
-          "U7-L04",
-          "U7-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
-          "U5-L07",
           "U7-L07"
         ],
         "recycle": [
-          "U7-L06",
           "U12-L05",
           "U12-L06"
         ],
@@ -20120,23 +20107,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U7-L06"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L04",
-          "U5-L02",
-          "U7-L04",
-          "U7-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
-          "U5-L07",
           "U7-L07"
         ],
         "recycle": [
-          "U7-L06",
           "U12-L05",
           "U12-L06"
         ],
@@ -22083,7 +22062,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U10-L02"
         ],
         "practice": [
           "U11-L04",
@@ -22093,6 +22072,7 @@
           "U11-L07"
         ],
         "recycle": [
+          "U11-L04",
           "U11-L07",
           "U12-L02",
           "U12-L04",
@@ -22280,7 +22260,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U10-L02"
         ],
         "practice": [
           "U11-L04",
@@ -22290,6 +22270,7 @@
           "U11-L07"
         ],
         "recycle": [
+          "U11-L04",
           "U11-L07",
           "U12-L02",
           "U12-L04",
@@ -22477,7 +22458,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U10-L02"
         ],
         "practice": [
           "U11-L04",
@@ -22487,6 +22468,7 @@
           "U11-L07"
         ],
         "recycle": [
+          "U11-L04",
           "U11-L07",
           "U12-L02",
           "U12-L04",
@@ -24240,10 +24222,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L02"
         ],
         "practice": [
-          "U3-L01",
           "U3-L02",
           "U3-L06",
           "U3-L07",
@@ -24261,7 +24242,6 @@
           "U11-L07"
         ],
         "recycle": [
-          "U2-L07",
           "U6-L01",
           "U8-L05",
           "U9-L05",
@@ -24532,10 +24512,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L02"
         ],
         "practice": [
-          "U3-L01",
           "U3-L02",
           "U3-L06",
           "U3-L07",
@@ -24553,7 +24532,6 @@
           "U11-L07"
         ],
         "recycle": [
-          "U2-L07",
           "U6-L01",
           "U8-L05",
           "U9-L05",
@@ -24824,10 +24802,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L02"
         ],
         "practice": [
-          "U3-L01",
           "U3-L02",
           "U3-L06",
           "U3-L07",
@@ -24845,7 +24822,6 @@
           "U11-L07"
         ],
         "recycle": [
-          "U2-L07",
           "U6-L01",
           "U8-L05",
           "U9-L05",
@@ -25116,10 +25092,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L02"
         ],
         "practice": [
-          "U3-L01",
           "U3-L02",
           "U3-L06",
           "U3-L07",
@@ -25137,7 +25112,6 @@
           "U11-L07"
         ],
         "recycle": [
-          "U2-L07",
           "U6-L01",
           "U8-L05",
           "U9-L05",
@@ -25408,10 +25382,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L02"
         ],
         "practice": [
-          "U3-L01",
           "U3-L02",
           "U3-L06",
           "U3-L07",
@@ -25429,7 +25402,6 @@
           "U11-L07"
         ],
         "recycle": [
-          "U2-L07",
           "U6-L01",
           "U8-L05",
           "U9-L05",
@@ -27209,7 +27181,8 @@
         "practice": [
           "U4-L03",
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -27368,7 +27341,8 @@
         ],
         "practice": [
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -27513,11 +27487,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -27543,7 +27518,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U7-L03"
         ],
         "practice": [
           "U9-L03",
@@ -27876,7 +27851,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -27914,7 +27889,8 @@
         ],
         "practice": [
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -27970,7 +27946,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -27978,6 +27954,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -28091,7 +28068,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -28216,7 +28193,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L02"
         ],
         "practice": [
           "U3-L06",
@@ -28281,7 +28258,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -28532,7 +28509,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U8-L01"
         ],
         "practice": [
           "U11-L04",
@@ -28565,7 +28542,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U8-L02"
         ],
         "practice": [
           "U11-L04",
@@ -28963,7 +28940,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U9-L02"
         ],
         "practice": [
           "U11-L04",
@@ -28971,6 +28948,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -29387,7 +29365,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U7-L03"
         ],
         "practice": [
           "U9-L03",
@@ -29548,7 +29526,8 @@
           "U5-L02"
         ],
         "practice": [
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -29905,7 +29884,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U9-L03"
         ],
         "practice": [
           "U10-L03"
@@ -30358,7 +30337,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U10-L01"
         ],
         "practice": [
           "U10-L03"
@@ -30602,7 +30581,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -30694,7 +30673,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -30702,6 +30681,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -30822,11 +30802,13 @@
         ],
         "practice": [
           "U10-L02",
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -30965,15 +30947,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U10-L06"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L05",
-          "U5-L02"
+          "U10-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -31207,11 +31186,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -31267,7 +31248,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -31300,7 +31281,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U10-L02"
         ],
         "practice": [
           "U10-L03"
@@ -31447,10 +31428,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L05"
+          "U6-L04"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -31569,12 +31552,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U6-L05"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -31715,7 +31701,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -31927,7 +31913,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U8-L01"
         ],
         "practice": [
           "U11-L04",
@@ -32049,11 +32035,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U4-L04"
         ],
         "practice": [
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -32117,11 +32104,13 @@
         ],
         "practice": [
           "U10-L02",
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -32146,11 +32135,13 @@
           "U10-L03"
         ],
         "practice": [
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -32172,12 +32163,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U4-L05"
         ],
         "practice": [
-          "U5-L02"
+          "U4-L05",
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -32203,10 +32197,12 @@
           "U11-L03"
         ],
         "practice": [
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -32228,7 +32224,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U8-L02"
         ],
         "practice": [
           "U11-L04",
@@ -32261,7 +32257,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U9-L02"
         ],
         "practice": [
           "U11-L04",
@@ -32269,6 +32265,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -32326,10 +32323,12 @@
           "U11-L04"
         ],
         "practice": [
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -32746,14 +32745,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L02"
+          "U10-L03"
         ],
         "practice": [
-          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -32936,7 +32933,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U6-L02"
         ],
         "practice": [
           "U6-L03",
@@ -33056,15 +33053,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U12-L03"
         ],
         "practice": [
-          "U10-L02",
-          "U11-L04"
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L07"
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -33114,7 +33109,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -33205,15 +33200,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
-        ],
-        "practice": [
-          "U4-L03",
-          "U4-L05",
           "U5-L02"
         ],
+        "practice": [
+          "U5-L02",
+          "U10-L06"
+        ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -33264,7 +33257,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -33272,6 +33265,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -33386,14 +33380,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U10-L06"
         ],
         "practice": [
-          "U4-L05",
-          "U5-L02"
+          "U10-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -33416,12 +33408,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U7-L06"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -33474,11 +33469,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U8-L05"
         ],
         "practice": [
           "U11-L04",
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -33536,15 +33532,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U10-L01"
         ],
         "practice": [
           "U10-L02",
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -33595,7 +33593,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -33836,10 +33834,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L05"
+          "U9-L04"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -33865,7 +33865,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -33898,14 +33898,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U10-L02"
         ],
         "practice": [
-          "U11-L04"
+          "U10-L02",
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -33927,7 +33930,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U8-L01"
         ],
         "practice": [
           "U11-L04",
@@ -34264,12 +34267,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U6-L03"
         ],
         "practice": [
+          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
+          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -34322,7 +34327,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U9-L03"
         ],
         "practice": [
           "U10-L03"
@@ -34443,10 +34448,11 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U12-L02"
         ],
         "practice": [
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U12-L05"
@@ -34532,13 +34538,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L03"
+          "U10-L03"
         ],
         "practice": [
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U10-L07",
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -34594,13 +34603,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U11-L03"
         ],
         "practice": [
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -34622,15 +34633,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
-        ],
-        "practice": [
-          "U10-L02",
           "U11-L04"
         ],
+        "practice": [
+          "U11-L04",
+          "U12-L03"
+        ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -34652,15 +34663,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U12-L03"
         ],
         "practice": [
-          "U10-L02",
-          "U11-L04"
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L07"
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -34863,14 +34872,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U10-L01"
         ],
         "practice": [
-          "U11-L04"
+          "U10-L02",
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -34892,13 +34904,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L03"
+          "U10-L02"
         ],
         "practice": [
-          "U11-L04"
+          "U10-L02",
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U10-L07",
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -34983,7 +34999,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U10-L01"
         ],
         "practice": [
           "U10-L03"
@@ -35011,10 +35027,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U12-L03"
         ],
         "practice": [
-          "U12-L02"
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U12-L05"
@@ -35039,7 +35055,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U8-L02"
         ],
         "practice": [
           "U11-L04",
@@ -35228,13 +35244,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U10-L03"
         ],
         "practice": [
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U10-L07",
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -35371,15 +35390,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U11-L03"
         ],
         "practice": [
-          "U10-L02",
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -35489,15 +35508,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
-        ],
-        "practice": [
-          "U10-L02",
           "U11-L04"
         ],
+        "practice": [
+          "U11-L04",
+          "U12-L03"
+        ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -35519,14 +35538,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U12-L03"
         ],
         "practice": [
-          "U11-L04"
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L07"
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -35668,13 +35686,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L03"
+          "U10-L01"
         ],
         "practice": [
-          "U11-L04"
+          "U10-L02",
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U10-L07",
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -35729,11 +35751,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -35790,14 +35814,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L02"
+          "U10-L02"
         ],
         "practice": [
-          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -35850,11 +35872,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -35880,10 +35903,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L05"
+          "U6-L04"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -35995,7 +36020,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U9-L02"
         ],
         "practice": [
           "U11-L04",
@@ -36003,6 +36028,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -36377,7 +36403,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -36526,14 +36552,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U10-L03"
         ],
         "practice": [
-          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -36762,12 +36786,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U6-L05"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -36851,7 +36878,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U7-L03"
         ],
         "practice": [
           "U9-L03",
@@ -37177,7 +37204,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -37185,6 +37212,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -37210,12 +37238,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U7-L06"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -37324,12 +37355,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U4-L04"
         ],
         "practice": [
-          "U5-L02"
+          "U4-L05",
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -37439,7 +37473,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -37500,11 +37534,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U8-L05"
         ],
         "practice": [
           "U11-L04",
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -37621,7 +37656,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -37922,10 +37957,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L05"
+          "U9-L04"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -38262,7 +38299,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L02"
         ],
         "practice": [
           "U3-L06",
@@ -38386,7 +38423,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U8-L01"
         ],
         "practice": [
           "U11-L04",
@@ -38419,7 +38456,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U8-L02"
         ],
         "practice": [
           "U11-L04",
@@ -38573,12 +38610,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U4-L05"
         ],
         "practice": [
-          "U4-L03",
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -38842,13 +38879,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U10-L02"
         ],
         "practice": [
-          "U11-L04"
+          "U10-L02",
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U10-L07",
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -38988,7 +39029,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U7-L03"
         ],
         "practice": [
           "U9-L03",
@@ -39316,15 +39357,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U10-L03"
         ],
         "practice": [
-          "U10-L02",
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -39346,15 +39388,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U11-L03"
         ],
         "practice": [
-          "U10-L02",
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -39438,7 +39480,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U9-L02"
         ],
         "practice": [
           "U11-L04",
@@ -39446,6 +39488,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -39681,12 +39724,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U6-L02"
         ],
         "practice": [
+          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
+          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -40619,12 +40664,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U6-L03"
         ],
         "practice": [
+          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
+          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -40831,7 +40878,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U9-L03"
         ],
         "practice": [
           "U10-L03"
@@ -41110,7 +41157,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -41174,7 +41221,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -41182,6 +41229,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -41474,14 +41522,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
-        ],
-        "practice": [
-          "U4-L05",
           "U5-L02"
         ],
+        "practice": [
+          "U5-L02",
+          "U10-L06"
+        ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -41679,7 +41726,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -41712,14 +41759,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
-        ],
-        "practice": [
           "U11-L04"
         ],
+        "practice": [
+          "U11-L04",
+          "U12-L03"
+        ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -41801,7 +41849,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -41892,7 +41940,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U8-L01"
         ],
         "practice": [
           "U11-L04",
@@ -41981,10 +42029,11 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U12-L02"
         ],
         "practice": [
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U12-L05"
@@ -42066,14 +42115,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L02"
+          "U10-L01"
         ],
         "practice": [
-          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -42250,10 +42297,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U12-L03"
         ],
         "practice": [
-          "U12-L02"
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U12-L05"
@@ -42396,7 +42443,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L02"
         ],
         "practice": [
           "U3-L06",
@@ -42489,7 +42536,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U8-L02"
         ],
         "practice": [
           "U11-L04",
@@ -42522,7 +42569,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U9-L02"
         ],
         "practice": [
           "U11-L04",
@@ -42530,6 +42577,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -42800,11 +42848,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -42923,14 +42972,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U10-L02"
         ],
         "practice": [
-          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -42953,14 +43000,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U10-L06"
         ],
         "practice": [
-          "U4-L05",
-          "U5-L02"
+          "U10-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -42983,12 +43028,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U4-L03"
         ],
         "practice": [
-          "U5-L02"
+          "U4-L03",
+          "U4-L05",
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -43499,7 +43548,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U10-L03"
         ],
         "practice": [
           "U10-L03"
@@ -43615,13 +43664,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L03"
+          "U12-L03"
         ],
         "practice": [
-          "U11-L04"
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -43973,12 +44022,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U6-L02"
         ],
         "practice": [
+          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
+          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -44062,12 +44113,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U6-L03"
         ],
         "practice": [
+          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
+          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -44123,10 +44176,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L05"
+          "U6-L04"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -44384,12 +44439,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U6-L05"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -44591,13 +44649,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U10-L01"
         ],
         "practice": [
-          "U11-L04"
+          "U10-L02",
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U10-L07",
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -44711,12 +44773,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U7-L06"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -44862,15 +44927,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U10-L02"
         ],
         "practice": [
           "U10-L02",
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -44892,15 +44959,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U10-L03"
         ],
         "practice": [
-          "U10-L02",
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -45038,12 +45106,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U4-L04"
         ],
         "practice": [
-          "U4-L03",
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -45129,11 +45197,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U8-L05"
         ],
         "practice": [
           "U11-L04",
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -45193,7 +45262,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -45286,14 +45355,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L02"
+          "U9-L03"
         ],
         "practice": [
-          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -45316,14 +45383,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U11-L03"
         ],
         "practice": [
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -45345,14 +45413,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U10-L01"
         ],
         "practice": [
-          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -45375,11 +45441,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L05"
         ],
         "practice": [
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -45494,7 +45561,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -45502,6 +45569,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -45588,13 +45656,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L03"
-        ],
-        "practice": [
           "U11-L04"
         ],
+        "practice": [
+          "U11-L04",
+          "U12-L03"
+        ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -45679,7 +45749,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U10-L02"
         ],
         "practice": [
           "U10-L03"
@@ -45737,14 +45807,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
-        ],
-        "practice": [
-          "U4-L05",
           "U5-L02"
         ],
+        "practice": [
+          "U5-L02",
+          "U10-L06"
+        ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -45824,7 +45893,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U7-L03"
         ],
         "practice": [
           "U9-L03",
@@ -46033,10 +46102,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L05"
+          "U9-L04"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -46062,10 +46133,11 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U12-L02"
         ],
         "practice": [
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U12-L05"
@@ -46242,7 +46314,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U10-L03"
         ],
         "practice": [
           "U10-L03"
@@ -46270,12 +46342,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U6-L02"
         ],
         "practice": [
+          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
+          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -46298,7 +46372,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L02"
+          "U6-L03"
         ],
         "practice": [
           "U6-L03",
@@ -46748,13 +46822,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U12-L03"
         ],
         "practice": [
-          "U11-L04"
+          "U12-L03"
         ],
         "fresh_retrieval": [
-          "U11-L07"
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -46776,10 +46850,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U12-L03"
         ],
         "practice": [
-          "U12-L02"
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U12-L05"
@@ -46957,11 +47031,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -47552,10 +47627,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L05"
+          "U6-L04"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -47611,7 +47688,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -47734,7 +47811,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -47767,10 +47844,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U10-L06"
         ],
         "practice": [
-          "U5-L02"
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -47973,14 +48050,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U9-L03"
         ],
         "practice": [
-          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -48148,7 +48223,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U8-L01"
         ],
         "practice": [
           "U11-L04",
@@ -48606,12 +48681,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U6-L05"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -48666,7 +48744,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U8-L02"
         ],
         "practice": [
           "U11-L04",
@@ -48730,7 +48808,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U9-L02"
         ],
         "practice": [
           "U11-L04",
@@ -48738,6 +48816,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -49066,7 +49145,8 @@
         "practice": [
           "U4-L03",
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -49096,7 +49176,8 @@
         ],
         "practice": [
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -49726,12 +49807,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U7-L06"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -49783,11 +49867,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U8-L05"
         ],
         "practice": [
           "U11-L04",
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -49937,11 +50022,13 @@
         ],
         "practice": [
           "U10-L02",
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -49995,7 +50082,8 @@
         ],
         "practice": [
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -50024,7 +50112,8 @@
           "U5-L02"
         ],
         "practice": [
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -50468,11 +50557,13 @@
         ],
         "practice": [
           "U10-L02",
-          "U11-L04"
+          "U11-L04",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U10-L07",
-          "U11-L07"
+          "U11-L07",
+          "U12-L05"
         ],
         "recycle": [
           "U12-L05"
@@ -50555,15 +50646,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U10-L06"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L05",
-          "U5-L02"
+          "U10-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -50737,10 +50825,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L05"
+          "U9-L04"
         ],
         "practice": [
-          "U12-L02"
+          "U11-L04",
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
@@ -50824,7 +50914,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L02"
         ],
         "practice": [
           "U3-L06",
@@ -50949,11 +51039,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -51007,11 +51099,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U4-L04"
         ],
         "practice": [
           "U4-L05",
-          "U5-L02"
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -51127,7 +51220,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -51192,7 +51285,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -51200,6 +51293,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -51518,7 +51612,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -51675,12 +51769,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U4-L05"
         ],
         "practice": [
-          "U5-L02"
+          "U4-L05",
+          "U5-L02",
+          "U10-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -51915,7 +52012,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -51948,7 +52045,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U8-L01"
         ],
         "practice": [
           "U11-L04",
@@ -52249,7 +52346,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U8-L02"
         ],
         "practice": [
           "U11-L04",
@@ -52520,10 +52617,11 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U12-L02"
         ],
         "practice": [
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U12-L05"
@@ -52698,10 +52796,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U12-L03"
         ],
         "practice": [
-          "U12-L02"
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U12-L05"
@@ -52788,7 +52886,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U9-L02"
         ],
         "practice": [
           "U11-L04",
@@ -52796,6 +52894,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
           "U11-L07",
           "U12-L05"
         ],
@@ -52911,11 +53010,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
-          "U12-L02"
+          "U12-L02",
+          "U12-L03"
         ],
         "fresh_retrieval": [
           "U11-L07",
