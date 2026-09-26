@@ -9,6 +9,7 @@ on:
     paths:
       - curriculum/levels/a2/**
       - scripts/build_a2_coverage_ledger.py
+      - scripts/analyze_a2_coverage_ledger.py
       - scripts/build_a2_word_home_map.py
       - .github/workflows/audit-a2-coverage-ledger.yml
   workflow_dispatch:
@@ -49,7 +50,8 @@ jobs:
           rm -f \
             "$out/coverage-ledger.json" \
             "$out/coverage-report.md" \
-            "$out/coverage-audit-failure.txt"
+            "$out/coverage-audit-failure.txt" \
+            "$out/gap-attribution.md"
           if [[ -f /tmp/a2-coverage-ledger.json ]]; then
             cp /tmp/a2-coverage-ledger.json "$out/coverage-ledger.json"
           fi
@@ -59,7 +61,17 @@ jobs:
             cp /tmp/a2-coverage-run.log "$out/coverage-audit-failure.txt"
           fi
 
+      - name: Generate lifecycle gap attribution
+        if: always()
+        shell: bash
+        run: |
+          ledger=curriculum/levels/a2/design-review/06-coverage-ledger/generated/coverage-ledger.json
+          if [[ -f "$ledger" ]]; then
+            python scripts/analyze_a2_coverage_ledger.py
+          fi
+
       - name: Commit deterministic audit snapshot
+        if: always()
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
