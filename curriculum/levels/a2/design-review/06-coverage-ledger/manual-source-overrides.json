@@ -6,6 +6,32 @@
     "G42": ["C05", "C10", "C11", "C18"],
     "G43": ["X04", "C04", "C12", "C13", "C15", "C25"]
   },
+  "family_lifecycle_additions": {
+    "X06": {
+      "practice": ["U11-L02", "U11-L04"],
+      "fresh_retrieval": ["U7-L07", "U9-L06", "U11-L07", "U12-L05"]
+    },
+    "X04": {
+      "practice": ["U11-L06"],
+      "fresh_retrieval": ["U11-L07"]
+    },
+    "C20": {
+      "practice": ["U11-L06"],
+      "fresh_retrieval": ["U11-L07"]
+    },
+    "L09": {"practice": ["U5-L05"]},
+    "L10": {"practice": ["U6-L07"]},
+    "L14": {"practice": ["U12-L02"]},
+    "L15": {"practice": ["U11-L04"]},
+    "L17": {"practice": ["U12-L02"]},
+    "L22": {"practice": ["U11-L06"]},
+    "L23": {"practice": ["U9-L04"]},
+    "L24": {"practice": ["U3-L04"]},
+    "L27": {"practice": ["U5-L02"]},
+    "L29": {"practice": ["U11-L04"]},
+    "L07": {"recycle": ["U12-L05"]},
+    "LX-GENERAL": {"practice": ["U12-L02"]}
+  },
   "source_intro_overrides": {
     "ability": {},
     "phrase": {},
@@ -15,6 +41,7 @@
   "notes": [
     "G42 is phrasal-verb word-order infrastructure distributed through activity, movement/travel and instruction tasks; it is not a standalone semantic capability.",
     "G43 is modal/auxiliary/linking infrastructure reused by question, description, request/advice/future and ability performances; it is not a standalone semantic capability.",
-    "source_intro_overrides is reserved for later human load rebalancing after the first exact ledger audit; automation must not populate it automatically."
+    "family_lifecycle_additions are human corrections after the first exact audit: they add same-lesson or later evidence where a valid late introduction otherwise lost practice/fresh/recycle. They do not create semantic homes.",
+    "source_intro_overrides is reserved for human load rebalancing; automation must not populate it automatically."
   ]
 }
