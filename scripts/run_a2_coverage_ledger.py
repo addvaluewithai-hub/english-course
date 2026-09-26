@@ -52,6 +52,11 @@ def main() -> None:
             *merged["grammar_system_intro"][system], *lesson_ids
         ])
 
+    # Exact grammar review-row moves are also human-authored. They override the
+    # older Stage-06 row placement without changing system identity or semantics.
+    for review_row, lesson_id in overrides.get("grammar_review_row_intro_overrides", {}).items():
+        merged["grammar_review_row_intro_overrides"][str(review_row)] = lesson_id
+
     # Later lifecycle evidence additions discovered by exact audit.
     for home, stages in overrides.get("family_lifecycle_additions", {}).items():
         target = find_family(merged, home)
