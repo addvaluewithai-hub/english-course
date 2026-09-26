@@ -1,8 +1,8 @@
 # A2 Design Review Status
 
-Status: **MILESTONE 4 IN PROGRESS — DELIVERY BLUEPRINT / LESSON BRIEFS 43 / 83 COMPLETE**
+Status: **MILESTONE 4 CLOSED — DELIVERY BLUEPRINT / 83 LESSON BRIEFS + WHOLE-LEVEL CRITIC COMPLETE**
 
-This is the session-independent A2 handoff. It records the authoritative curriculum-design state and the next work boundary. It does **not** authorize lesson/script/media production.
+This is the session-independent A2 handoff. It records the authoritative curriculum-design state and the next gate boundary. It does **not** authorize lesson/script/media production.
 
 ## Locked foundation
 
@@ -59,24 +59,20 @@ Authoritative records:
 - `08-semantic-lock/`
 - `08.5-role-aware-critic/`
 
-## Milestone 4 — Delivery Blueprint / Lesson Briefs IN PROGRESS
+## Milestone 4 — Delivery Blueprint / Lesson Briefs CLOSED
 
-Authoritative working file:
+Authoritative file:
 
 `09-lesson-briefs/lesson-briefs.md`
 
-Completed manually with rolling human critic:
+Completion:
 
-- Unit 1 — **7 / 7** briefs
-- Unit 2 — **7 / 7** briefs
-- Unit 3 — **7 / 7** briefs
-- Unit 4 — **7 / 7** briefs
-- Unit 5 — **7 / 7** briefs
-- Unit 6 — **8 / 8** briefs
+- Units **1–12: 12 / 12 complete**
+- lesson briefs: **83 / 83 complete**
+- unit-level rolling critics: **12 / 12 complete**
+- whole-level critic: **1 / 1 complete**
 
-Current total: **43 / 83 lesson briefs** and **6 / 12 unit-level rolling critics**.
-
-Each completed brief distinguishes:
+Each brief distinguishes:
 
 - primary communicative/evidence outcome;
 - foreground productive/formulaic language;
@@ -86,40 +82,54 @@ Each completed brief distinguishes:
 - evidence/transfer task;
 - explicit authoring prohibitions where a likely failure mode exists.
 
-Current Milestone-4 critic result:
+Final Milestone-4 critic result:
 
 - structural changes triggered: **0**
 - semantic-lock contradictions triggered: **0**
 - lesson splits/merges triggered: **0**
-- locked **12-unit / 83-slot** architecture remains valid through Unit 6.
+- Stage-06/08 reopening required: **0**
+- locked **12-unit / 83-slot** architecture remains valid after all 83 briefs
+- designated transfer/evidence slots remain **zero-new semantic teaching**
 
-Notable authoring safeguards already locked in the briefs:
+Notable whole-level safeguards now explicit in the briefs:
 
-- U1-L03 stays interview-first, not grammar-first.
-- U1-L04 remains zero-active-lexis so phone mechanics stay visible.
-- U2-L02 uses a controlled personality/feelings core; receptive breadth stays receptive.
-- U3-L06 is reference/clarity work, not a hidden relative-clause lesson.
-- U4-L04 stays deliberately narrow after Stage 08.5 and must not be re-inflated.
-- U5-L06 is information retrieval, not a kitchen/service vocabulary dump.
-- U6 keeps static location, asking directions, giving/following directions, transport information, ticket/tourist exchange, accommodation and phone reservation as distinct success conditions.
+- U1 keeps contact, phone/message and repair outcomes distinct; U1-L03 remains interview-first.
+- U4 keeps request, permission, opinion, suggestion and advice separately assessable; U4-L04 remains deliberately narrow.
+- U6 keeps location, directions, travel-information, ticket/tourist, accommodation and phone-reservation outcomes distinct.
+- U7 separates invitation, negotiated arrangement, diary/calendar record, personal intention, scheduled/arranged event language and prediction/possibility; U7-L06 is staged as one bounded prediction/certainty performance rather than a future-modal dump.
+- U8 factual past / bounded experience work remains distinct from U9 narrative background/sequence.
+- U10 keeps safety/process/equipment outcomes separate from survival-level symptom/medical-form communication; receptive passive/medical advice are not promoted to hidden productive targets.
+- U11 keeps correspondence, information request/reply, scanning, factual-media reception, inference and survey/interview outcomes distinct; raw-row-heavy U11-L04 remains reception-heavy and does not become a productive reported-speech lesson.
+- U12 gives local/cultural content bounded performance homes, keeps broad topic breadth contextual, and preserves zero-new transfer/exit evidence slots.
+- Pronunciation remains an intelligibility/interaction quality constraint, never an accent target.
 
-## Next session — finish Milestone 4
+Milestone-4 authoring commit:
 
-Continue **only** in the existing file `09-lesson-briefs/lesson-briefs.md`.
+`dba008f94bc3203f7a6f45ec3b9469255c19b115`
+
+## Authorization boundary
+
+A2 `lesson_design_authorized` remains **false**.
+
+Closing Milestone 4 completes the curriculum **delivery blueprint / authoring contracts**. It does **not** authorize lesson scripts, production packages, media generation, or delivery artifacts.
+
+The next workstream is a separate **lesson-design authorization / delivery-gate evaluation**. That gate must be evaluated against the completed 83 briefs plus the existing authoritative manifest/contracts; Milestone-4 completion alone must not flip it automatically.
+
+## Next session — lesson-design authorization / delivery gate
 
 Required next work:
 
-1. Write Units **7–12** manually — remaining **40 lesson briefs**.
-2. Run a rolling human critic after each unit.
-3. Run one whole-level critic across all 83 briefs.
-4. Reopen Stage 06/08 only if authoring evidence exposes a genuine contradiction; do not silently change locked decisions.
-5. If all 83 briefs remain coherent, close Milestone 4 and then evaluate the later lesson-design authorization gate separately.
+1. Read the final `09-lesson-briefs/lesson-briefs.md` together with the current A2 manifest/status and relevant delivery contracts.
+2. Evaluate the explicit authorization criteria and identify any remaining blockers or required contract changes.
+3. If and only if the gate is legitimately satisfied, update the authoritative manifest/status explicitly; do not infer authorization from this milestone close.
+4. Keep human semantic/design decisions separate from automation; automation may validate/build/check declared contracts but must not invent the authorization decision.
+5. Do not generate lesson scripts/media/production packages while `lesson_design_authorized=false`.
 
 ## Boundaries
 
 - Branch: `curriculum/level-source-of-truth-v1`
 - `main` untouched.
 - A1 remains locked.
-- A2 `lesson_design_authorized` remains **false** during this checkpoint.
+- A2 `lesson_design_authorized` remains **false**.
 - `TEST-002` / delivery-production gate remains separate and untouched.
 - No lesson scripts or media production yet.
