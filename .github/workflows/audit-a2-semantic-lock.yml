@@ -20,6 +20,7 @@ on:
       - curriculum/levels/a2/design-review/06-coverage-ledger/generated/coverage-ledger.json
       - curriculum/levels/a2/design-review/08-semantic-lock/**
       - curriculum/levels/a2/design-review/08.5-role-aware-critic/**
+      - curriculum/levels/a2/design-review/10-authorization-gate/**
       - scripts/build_a2_semantic_role_ledger.py
       - scripts/run_a2_semantic_lock.py
       - scripts/build_a2_semantic_lesson_aid.py
