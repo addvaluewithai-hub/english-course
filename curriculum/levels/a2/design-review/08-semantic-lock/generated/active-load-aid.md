@@ -2,30 +2,30 @@
 
 Status: **GENERATED HUMAN-CRITIC AID — NON-DECISIONAL**
 
-This view hides receptive/support records and collapses productive grammar rows to distinct reviewed systems. It does not judge or move anything.
+This view hides receptive/support records and collapses productive grammar rows to distinct reviewed systems. It does not judge or move anything. Review-row tags are included for exact human follow-up.
 
 ## U1-L01 — approx teaching objects 11
 
 - active ability homes (2): C01, X05
 - productive grammar systems (0): —
-- active phrases (1): deal with sb
-- active words (8): accept, care, disagree, invitation, offer, recommend, response, support
+- active phrases (1): deal with sb [r46]
+- active words (8): accept [r4], care [r116], disagree [r223], invitation [r409], offer [r523], recommend [r627], response [r647], support [r769]
 - formulaic active source records: 4
 
 ## U1-L02 — approx teaching objects 11
 
 - active ability homes (1): C02
 - productive grammar systems (0): —
-- active phrases (3): apply for sth, at the age of…, make money
-- active words (7): adult, couple, guest, kid, marry, nearly, teenage
+- active phrases (3): apply for sth [r14], at the age of… [r22], make money [r117]
+- active words (7): adult [r11], couple [r182], guest [r350], kid [r420], marry [r474], nearly [r505], teenage [r786]
 - formulaic active source records: 3
 
 ## U1-L03 — approx teaching objects 21
 
 - active ability homes (2): C02, X04
 - productive grammar systems (3): G10, G38, G40
-- active phrases (1): in business
-- active words (15): apply, attention, background, boss, divorced, earn, education, guy, lady, level, relationship, review, training, twin, working
+- active phrases (1): in business [r95]
+- active words (15): apply [r44], attention [r58], background [r68], boss [r101], divorced [r231], earn [r244], education [r247], guy [r353], lady [r428], level [r448], relationship [r636], review [r650], training [r815], twin [r820], working [r864]
 - formulaic active source records: 1
 
 ## U1-L04 — approx teaching objects 1
@@ -48,7 +48,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 
 - active ability homes (3): C01, C20, X05
 - productive grammar systems (1): G40
-- active phrases (5): I mean, make sense, make sure, old friend, write sth down
+- active phrases (5): I mean [r90], make sense [r118], make sure [r119], old friend [r125], write sth down [r176]
 - active words (0): —
 - formulaic active source records: 9
 
@@ -56,47 +56,47 @@ This view hides receptive/support records and collapses productive grammar rows 
 
 - active ability homes (1): C04
 - productive grammar systems (0): —
-- active phrases (2): in love, take sth off
-- active words (17): appearance, badly, close2, clothing, differently, exactly, fair, heavy, helpful, lazy, low, personality, sadly, smile, suit, unhappy, wide
+- active phrases (2): in love [r99], take sth off [r159]
+- active words (17): appearance [r43], badly [r69], close2 [r147], clothing [r149], differently [r218], exactly [r273], fair [r289], heavy [r362], helpful [r364], lazy [r439], low [r464], personality [r558], sadly [r666], smile [r721], suit [r768], unhappy [r825], wide [r857]
 - formulaic active source records: 2
 
 ## U2-L02 — approx teaching objects 25
 
 - active ability homes (2): C04, X05
 - productive grammar systems (1): G03
-- active phrases (2): put sth on, worried about sb/sth
-- active words (20): attractive, behave, best, brilliant, closed, crazy, dry, extreme, fashion, huge, incredible, lovely, narrow, pleased, scared, sock, soft, surprise, worried, worse
+- active phrases (2): put sth on [r140], worried about sb/sth [r174]
+- active words (20): attractive [r59], behave [r79], best [r84], brilliant [r107], closed [r148], crazy [r184], dry [r243], extreme [r284], fashion [r294], huge [r379], incredible [r392], lovely [r463], narrow [r502], pleased [r572], scared [r674], sock [r728], soft [r729], surprise [r772], worried [r865], worse [r867]
 - formulaic active source records: 3
 
 ## U2-L03 — approx teaching objects 18
 
 - active ability homes (1): C05
 - productive grammar systems (2): G07, G38
-- active phrases (3): again and again, look after sb/sth/yourself, work out
-- active words (12): active, asleep, everyday, formal, last1 (taking time), normal, rather, regular, run, sleep, typical, wash
+- active phrases (3): again and again [r8], look after sb/sth/yourself [r113], work out [r173]
+- active words (12): active [r9], asleep [r53], everyday [r269], formal [r324], last1 (taking time) [r434], normal [r515], rather [r617], regular [r635], run [r663], sleep [r717], typical [r821], wash [r844]
 - formulaic active source records: 3
 
 ## U2-L04 — approx teaching objects 20
 
 - active ability homes (2): C05, C06
 - productive grammar systems (2): G29, G44
-- active phrases (5): a bit, all the time, find it difficult to do sth, it depends, science fiction
-- active words (11): camp, drama, fiction, fun, instrument, novel, race (competition), sailing, ski, stage, trainer
+- active phrases (5): a bit [r1], all the time [r13], find it difficult to do sth [r62], it depends [r108], science fiction [r147]
+- active words (11): camp [r113], drama [r236], fiction [r300], fun [r331], instrument [r403], novel [r518], race (competition) [r613], sailing [r669], ski [r713], stage [r743], trainer [r814]
 - formulaic active source records: 7
 
 ## U2-L05 — approx teaching objects 9
 
 - active ability homes (1): C05
 - productive grammar systems (1): G37
-- active phrases (2): give sth up, take part
-- active words (5): department, employ, mark, pronounce, role
+- active phrases (2): give sth up [r72], take part [r157]
+- active words (5): department [r209], employ [r254], mark [r473], pronounce [r599], role [r657]
 - formulaic active source records: 2
 
 ## U2-L06 — approx teaching objects 7
 
 - active ability homes (2): C05, C25
 - productive grammar systems (1): G27
-- active phrases (4): able to do sth, do well, give up, these days
+- active phrases (4): able to do sth [r6], do well [r50], give up [r73], these days [r166]
 - active words (0): —
 - formulaic active source records: 4
 
@@ -104,40 +104,40 @@ This view hides receptive/support records and collapses productive grammar rows 
 
 - active ability homes (1): C08
 - productive grammar systems (1): G45
-- active phrases (3): at the top, in the middle, on the wall
-- active words (16): better, bin, comfortable, cooker, easily, extremely, furniture, impossible, light (from the sun/a lamp), original, oven, pocket, roof, soap, specific, toy
+- active phrases (3): at the top [r26], in the middle [r104], on the wall [r129]
+- active words (16): better [r85], bin [r88], comfortable [r158], cooker [r177], easily [r246], extremely [r285], furniture [r332], impossible [r388], light (from the sun/a lamp) [r451], original [r532], oven [r535], pocket [r573], roof [r658], soap [r724], specific [r737], toy [r809]
 - formulaic active source records: 4
 
 ## U3-L02 — approx teaching objects 23
 
 - active ability homes (1): C08
 - productive grammar systems (0): —
-- active phrases (6): be made of sth, belong to sb, belong to sth, close to sb/sth, on the ground, on top of sth/sb
-- active words (16): bright, brush, completely, cupboard, empty, flat, independent, knife, material, owner, particular, possession, shape, stair, thick, wood
+- active phrases (6): be made of sth [r29], belong to sb [r31], belong to sth [r32], close to sb/sth [r40], on the ground [r127], on top of sth/sb [r131]
+- active words (16): bright [r106], brush [r109], completely [r165], cupboard [r193], empty [r257], flat [r315], independent [r393], knife [r424], material [r475], owner [r537], particular [r544], possession [r579], shape [r697], stair [r744], thick [r791], wood [r862]
 - formulaic active source records: 8
 
 ## U3-L03 — approx teaching objects 16
 
 - active ability homes (1): C07
 - productive grammar systems (2): G02, G08
-- active phrases (3): at least, everyone else, much better
-- active words (10): broken, dark, enormous, half, light (not heavy), little, rate, separate, thin, weight
+- active phrases (3): at least [r21], everyone else [r54], much better [r120]
+- active words (10): broken [r108], dark [r198], enormous [r262], half [r355], light (not heavy) [r452], little [r456], rate [r616], separate [r689], thin [r793], weight [r850]
 - formulaic active source records: 3
 
 ## U3-L04 — approx teaching objects 9
 
 - active ability homes (0): —
 - productive grammar systems (1): G04
-- active phrases (1): each one
-- active words (7): clear, deep, exact, gold, loud, silver, unusual
+- active phrases (1): each one [r51]
+- active words (7): clear [r143], deep [r205], exact [r272], gold [r343], loud [r461], silver [r705], unusual [r829]
 - formulaic active source records: 1
 
 ## U3-L05 — approx teaching objects 13
 
 - active ability homes (1): C07
 - productive grammar systems (0): —
-- active phrases (2): even more…, less than…
-- active words (10): able, almost, belong, final, height, own, per, size, start, zero
+- active phrases (2): even more… [r53], less than… [r110]
+- active words (10): able [r2], almost [r26], belong [r81], final [r305], height [r363], own [r536], per [r553], size [r712], start [r747], zero [r871]
 - formulaic active source records: 2
 
 ## U3-L06 — approx teaching objects 9
@@ -145,39 +145,39 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (0): —
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (9): carpet, fridge, lamp, mirror, plastic, ring1, sheet, towel, wooden
+- active words (9): carpet [r119], fridge [r329], lamp [r430], mirror [r491], plastic [r568], ring1 [r652], sheet [r698], towel [r807], wooden [r863]
 - formulaic active source records: 0
 
 ## U4-L01 — approx teaching objects 11
 
 - active ability homes (1): C12
 - productive grammar systems (3): G20, G27, G28
-- active phrases (1): Let me…
-- active words (6): chat, express, invite, refuse1, ring2, talk
+- active phrases (1): Let me… [r112]
+- active words (6): chat [r133], express [r282], invite [r410], refuse1 [r633], ring2 [r653], talk [r780]
 - formulaic active source records: 3
 
 ## U4-L02 — approx teaching objects 14
 
 - active ability homes (1): C12
 - productive grammar systems (2): G24, G25
-- active phrases (2): be allowed to do sth, have got to
-- active words (9): allow, crowded, finger, hope, loudly, permission, present, sure, symbol
+- active phrases (2): be allowed to do sth [r28], have got to [r84]
+- active words (9): allow [r25], crowded [r191], finger [r307], hope [r378], loudly [r462], permission [r557], present [r584], sure [r771], symbol [r777]
 - formulaic active source records: 4
 
 ## U4-L03 — approx teaching objects 22
 
 - active ability homes (1): C06
 - productive grammar systems (3): G05, G23, G29
-- active phrases (3): believe in sb/sth, go for sth, the best thing
-- active words (15): awful, careful, choice, creative, fail, fear, intelligent, nervous, option, polite, scary, solution, strange, surprised, worry
+- active phrases (3): believe in sb/sth [r30], go for sth [r78], the best thing [r160]
+- active words (15): awful [r66], careful [r117], choice [r138], creative [r185], fail [r288], fear [r296], intelligent [r404], nervous [r510], option [r528], polite [r574], scary [r675], solution [r731], strange [r757], surprised [r773], worry [r866]
 - formulaic active source records: 4
 
 ## U4-L04 — approx teaching objects 30
 
 - active ability homes (1): C13
 - productive grammar systems (5): G13, G20, G27, G29, G38
-- active phrases (6): care about sth, happy with sb/sth, if you want to, solution to sth, the important thing, Why not…?
-- active words (18): advantage, all right, available, communicate, condition, expression, goal, likely, mail, possibility, progress, question, reply, sir, solve, thought, voice, wish
+- active phrases (6): care about sth [r34], happy with sb/sth [r82], if you want to [r94], solution to sth [r150], the important thing [r163], Why not…? [r172]
+- active words (18): advantage [r12], all right [r24], available [r62], communicate [r160], condition [r166], expression [r283], goal [r341], likely [r453], mail [r467], possibility [r580], progress [r597], question [r611], reply [r640], sir [r710], solve [r732], thought [r796], voice [r841], wish [r861]
 - formulaic active source records: 8
 
 ## U4-L05 — approx teaching objects 16
@@ -185,55 +185,55 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (1): C13
 - productive grammar systems (1): G27
 - active phrases (0): —
-- active words (14): alternative, borrow, certain, consider, curly, ideal, luck, necessary, predict, provide, quality, succeed, tie, trouble
+- active words (14): alternative [r30], borrow [r100], certain [r128], consider [r170], curly [r194], ideal [r382], luck [r465], necessary [r506], predict [r583], provide [r601], quality [r608], succeed [r762], tie [r799], trouble [r818]
 - formulaic active source records: 0
 
 ## U4-L06 — approx teaching objects 26
 
 - active ability homes (2): C20, X05
 - productive grammar systems (1): G10
-- active phrases (6): Come on!, I don't care, I'm afraid…, no way, Oh well, respond to sth/sb
-- active words (17): argue, behaviour, clever, complain, excellent, greet, happily, jewellery, pants, react, request, rude, serious, stupid, suggest, surprising, welcome
+- active phrases (6): Come on! [r42], I don't care [r88], I'm afraid… [r92], no way [r121], Oh well [r124], respond to sth/sb [r145]
+- active words (17): argue [r47], behaviour [r80], clever [r145], complain [r164], excellent [r274], greet [r348], happily [r357], jewellery [r416], pants [r542], react [r619], request [r643], rude [r662], serious [r691], stupid [r761], suggest [r766], surprising [r774], welcome [r851]
 - formulaic active source records: 10
 
 ## U5-L01 — approx teaching objects 12
 
 - active ability homes (1): C09
 - productive grammar systems (1): G17
-- active phrases (2): a couple of sth, quite a lot
-- active words (8): amount, cash, count, least, pay, per cent, serve, speed
+- active phrases (2): a couple of sth [r2], quite a lot [r141]
+- active words (8): amount [r33], cash [r122], count [r181], least [r443], pay [r550], per cent [r554], serve [r692], speed [r739]
 - formulaic active source records: 2
 
 ## U5-L02 — approx teaching objects 18
 
 - active ability homes (2): C07, C09
 - productive grammar systems (1): G04
-- active phrases (4): a number of sth, feel like sth, I think so, save money
-- active words (11): average, benefit, credit, decision, double, less, quantity, realize, service, successful, third
+- active phrases (4): a number of sth [r5], feel like sth [r60], I think so [r91], save money [r146]
+- active words (11): average [r63], benefit [r83], credit [r186], decision [r204], double [r233], less [r447], quantity [r609], realize [r620], service [r693], successful [r763], third [r795]
 - formulaic active source records: 4
 
 ## U5-L03 — approx teaching objects 7
 
 - active ability homes (1): C09
 - productive grammar systems (1): G17
-- active phrases (1): credit card
-- active words (4): boil, feed, oil, taste
+- active phrases (1): credit card [r45]
+- active words (4): boil [r97], feed [r298], oil [r525], taste [r783]
 - formulaic active source records: 1
 
 ## U5-L04 — approx teaching objects 9
 
 - active ability homes (1): C09
 - productive grammar systems (0): —
-- active phrases (1): one or two
-- active words (7): carefully, free, lucky, pub, sale, store, tip
+- active phrases (1): one or two [r132]
+- active words (7): carefully [r118], free [r327], lucky [r466], pub [r602], sale [r671], store [r754], tip [r800]
 - formulaic active source records: 1
 
 ## U5-L05 — approx teaching objects 5
 
 - active ability homes (1): C09
 - productive grammar systems (0): —
-- active phrases (1): per hour
-- active words (3): gift, save, stamp
+- active phrases (1): per hour [r135]
+- active words (3): gift [r340], save [r673], stamp [r745]
 - formulaic active source records: 1
 
 ## U5-L06 — approx teaching objects 9
@@ -241,39 +241,39 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (0): —
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (9): bowl, cook, definitely, fork, plate, quietly, rubbish, spoon, top
+- active words (9): bowl [r103], cook [r176], definitely [r206], fork [r323], plate [r569], quietly [r612], rubbish [r661], spoon [r741], top [r802]
 - formulaic active source records: 0
 
 ## U6-L01 — approx teaching objects 17
 
 - active ability homes (1): C10
 - productive grammar systems (0): —
-- active phrases (5): a long way, get back, go away, go up, up and down
-- active words (11): bridge, direction, everywhere, hall, inside, nowhere, position, side, square, tower, view
+- active phrases (5): a long way [r4], get back [r68], go away [r75], go up [r79], up and down [r171]
+- active words (11): bridge [r105], direction [r221], everywhere [r270], hall [r356], inside [r399], nowhere [r519], position [r578], side [r703], square [r742], tower [r808], view [r839]
 - formulaic active source records: 5
 
 ## U6-L02 — approx teaching objects 19
 
 - active ability homes (1): C10
 - productive grammar systems (0): —
-- active phrases (4): come back, get lost, go down, on the other side
-- active words (14): along, corner, cycle, distance, forward, high, jump, lake, outside, photograph, repair, site, straight, upstairs
+- active phrases (4): come back [r41], get lost [r70], go down [r76], on the other side [r128]
+- active words (14): along [r28], corner [r179], cycle [r195], distance [r230], forward [r326], high [r369], jump [r419], lake [r429], outside [r534], photograph [r561], repair [r638], site [r711], straight [r756], upstairs [r830]
 - formulaic active source records: 4
 
 ## U6-L03 — approx teaching objects 21
 
 - active ability homes (1): C10
 - productive grammar systems (2): G09, G38
-- active phrases (4): far away, get out, go down sth, the other side of sth
-- active words (14): bottom, church, direct, downstairs, ground, hill, lift, middle, parking, pick, replace, round, somewhere, towards
+- active phrases (4): far away [r58], get out [r71], go down sth [r77], the other side of sth [r164]
+- active words (14): bottom [r102], church [r139], direct [r220], downstairs [r235], ground [r349], hill [r370], lift [r450], middle [r487], parking [r543], pick [r564], replace [r639], round [r659], somewhere [r733], towards [r806]
 - formulaic active source records: 4
 
 ## U6-L04 — approx teaching objects 16
 
 - active ability homes (0): —
 - productive grammar systems (0): —
-- active phrases (3): pick sb/sth up, public transport, take off
-- active words (13): abroad, app, download, driving, network, passenger, reception, season, seat, smartphone, underground, web, wheel
+- active phrases (3): pick sb/sth up [r136], public transport [r139], take off [r156]
+- active words (13): abroad [r3], app [r41], download [r234], driving [r240], network [r511], passenger [r546], reception [r624], season [r681], seat [r682], smartphone [r719], underground [r822], web [r848], wheel [r853]
 - formulaic active source records: 3
 
 ## U6-L05 — approx teaching objects 12
@@ -281,15 +281,15 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (1): C11
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (11): airline, diary, flying, lost, metal, petrol, ride, ship, train, transport, van
+- active words (11): airline [r21], diary [r217], flying [r318], lost [r460], metal [r485], petrol [r560], ride [r651], ship [r699], train [r813], transport [r816], van [r836]
 - formulaic active source records: 0
 
 ## U6-L06 — approx teaching objects 17
 
 - active ability homes (1): C11
 - productive grammar systems (0): —
-- active phrases (2): check in, check out
-- active words (14): book, collect, discover, gate, guide, mind, motorcycle, platform, route, seem, stay, traveller, uniform, vehicle
+- active phrases (2): check in [r37], check out [r38]
+- active words (14): book [r99], collect [r155], discover [r226], gate [r338], guide [r351], mind [r489], motorcycle [r497], platform [r570], route [r660], seem [r687], stay [r749], traveller [r817], uniform [r826], vehicle [r838]
 - formulaic active source records: 2
 
 ## U6-L07 — approx teaching objects 9
@@ -297,15 +297,15 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (1): C11
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (8): coach, land, pack, railway, sail, tour, truck, wait
+- active words (8): coach [r151], land [r431], pack [r538], railway [r614], sail [r668], tour [r804], truck [r819], wait [r842]
 - formulaic active source records: 0
 
 ## U7-L01 — approx teaching objects 16
 
 - active ability homes (2): C14, X05
 - productive grammar systems (1): G29
-- active phrases (4): good luck, not at all, on time, would love to do sth
-- active words (9): camping, comedy, drawing, musical, perform, rock (music), score, skiing, winner
+- active phrases (4): good luck [r80], not at all [r122], on time [r130], would love to do sth [r175]
+- active words (9): camping [r114], comedy [r157], drawing [r237], musical [r499], perform [r555], rock (music) [r656], score [r678], skiing [r714], winner [r860]
 - formulaic active source records: 8
 
 ## U7-L02 — approx teaching objects 2
@@ -313,7 +313,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (1): C14
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (1): organize
+- active words (1): organize [r531]
 - formulaic active source records: 0
 
 ## U7-L03 — approx teaching objects 3
@@ -321,7 +321,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (1): C14
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (2): informal, recently
+- active words (2): informal [r396], recently [r623]
 - formulaic active source records: 0
 
 ## U7-L04 — approx teaching objects 16
@@ -329,7 +329,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (1): C15
 - productive grammar systems (3): G20, G21, G28
 - active phrases (0): —
-- active words (12): certainly, competition, fan, fishing, joke, musician, need, promise, running, singing, soccer, track
+- active words (12): certainly [r129], competition [r163], fan [r291], fishing [r312], joke [r417], musician [r500], need [r508], promise [r598], running [r665], singing [r708], soccer [r725], track [r810]
 - formulaic active source records: 0
 
 ## U7-L05 — approx teaching objects 6
@@ -345,30 +345,30 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (1): C15
 - productive grammar systems (5): G20, G23, G24, G26, G28
 - active phrases (0): —
-- active words (5): expect, gas, perhaps, prevent, suppose
+- active words (5): expect [r277], gas [r337], perhaps [r556], prevent [r586], suppose [r770]
 - formulaic active source records: 0
 
 ## U8-L01 — approx teaching objects 15
 
 - active ability homes (1): C16
 - productive grammar systems (1): G34
-- active phrases (1): a long time ago
-- active words (12): accident, arrange, clearly, compete, discussion, dream, further, hide, hole, lead1, missing, shout
+- active phrases (1): a long time ago [r3]
+- active words (12): accident [r5], arrange [r50], clearly [r144], compete [r162], discussion [r228], dream [r238], further [r333], hide [r368], hole [r376], lead1 [r440], missing [r492], shout [r701]
 - formulaic active source records: 2
 
 ## U8-L02 — approx teaching objects 9
 
 - active ability homes (1): C16
 - productive grammar systems (1): G34
-- active phrases (1): fall in love
-- active words (6): arrangement, equipment, home, noise, slowly, variety
+- active phrases (1): fall in love [r56]
+- active words (6): arrangement [r51], equipment [r265], home [r377], noise [r512], slowly [r718], variety [r837]
 - formulaic active source records: 1
 
 ## U8-L03 — approx teaching objects 4
 
 - active ability homes (1): C16
 - productive grammar systems (1): G35
-- active phrases (2): fall off, Have you ever…?
+- active phrases (2): fall off [r57], Have you ever…? [r85]
 - active words (0): —
 - formulaic active source records: 2
 
@@ -376,7 +376,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 
 - active ability homes (1): C16
 - productive grammar systems (1): G35
-- active phrases (1): happen to sb/sth
+- active phrases (1): happen to sb/sth [r81]
 - active words (0): —
 - formulaic active source records: 2
 
@@ -384,16 +384,16 @@ This view hides receptive/support records and collapses productive grammar rows 
 
 - active ability homes (1): C16
 - productive grammar systems (0): —
-- active phrases (1): look back at sth
-- active words (13): alone, birth, daily, habit, lifestyle, normally, protect, rest (sleep/relax), single, tidy, usual, washing, wedding
+- active phrases (1): look back at sth [r114]
+- active words (13): alone [r27], birth [r90], daily [r196], habit [r354], lifestyle [r449], normally [r516], protect [r600], rest (sleep/relax) [r649], single [r709], tidy [r798], usual [r834], washing [r845], wedding [r849]
 - formulaic active source records: 1
 
 ## U9-L01 — approx teaching objects 7
 
 - active ability homes (0): —
 - productive grammar systems (1): G33
-- active phrases (1): take place
-- active words (5): adventure, ending, hit, memory, secret
+- active phrases (1): take place [r158]
+- active words (5): adventure [r13], ending [r258], hit [r373], memory [r483], secret [r685]
 - formulaic active source records: 1
 
 ## U9-L02 — approx teaching objects 10
@@ -401,7 +401,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (0): —
 - productive grammar systems (1): G33
 - active phrases (0): —
-- active words (9): avoid, catch, experience, hold, noisy, past, smell, suddenly, whole
+- active words (9): avoid [r64], catch [r124], experience [r278], hold [r375], noisy [r513], past [r547], smell [r720], suddenly [r765], whole [r855]
 - formulaic active source records: 0
 
 ## U9-L03 — approx teaching objects 10
@@ -409,7 +409,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (0): —
 - productive grammar systems (1): G07
 - active phrases (0): —
-- active words (9): cry, drop, future, knock, later, lock, pull, recent, shake
+- active words (9): cry [r192], drop [r241], future [r334], knock [r425], later [r435], lock [r457], pull [r605], recent [r622], shake [r695]
 - formulaic active source records: 0
 
 ## U9-L04 — approx teaching objects 7
@@ -417,7 +417,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (0): —
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (7): danger, disappear, heat, last1 (final), pet, recycle, temperature
+- active words (7): danger [r197], disappear [r224], heat [r361], last1 (final) [r433], pet [r559], recycle [r630], temperature [r787]
 - formulaic active source records: 0
 
 ## U9-L05 — approx teaching objects 1
@@ -432,40 +432,40 @@ This view hides receptive/support records and collapses productive grammar rows 
 
 - active ability homes (1): C18
 - productive grammar systems (3): G09, G13, G25
-- active phrases (4): add to sth, go and…, pay attention, turn sth on
-- active words (10): blank, burn, cause, correctly, enter, print, push, safe, shut, task
+- active phrases (4): add to sth [r7], go and… [r74], pay attention [r134], turn sth on [r170]
+- active words (10): blank [r93], burn [r110], cause [r125], correctly [r180], enter [r263], print [r587], push [r607], safe [r667], shut [r702], task [r782]
 - formulaic active source records: 4
 
 ## U10-L02 — approx teaching objects 18
 
 - active ability homes (1): C18
 - productive grammar systems (2): G12, G38
-- active phrases (3): carry on, if necessary, throw sth away
-- active words (12): button, connect, error, fresh, increase, process, reach, recipe, schedule, sweet, throw, tool
+- active phrases (3): carry on [r35], if necessary [r93], throw sth away [r168]
+- active words (12): button [r112], connect [r168], error [r266], fresh [r328], increase [r391], process [r591], reach [r618], recipe [r625], schedule [r677], sweet [r776], throw [r797], tool [r801]
 - formulaic active source records: 3
 
 ## U10-L03 — approx teaching objects 16
 
 - active ability homes (1): C18
 - productive grammar systems (0): —
-- active phrases (3): carry sth out, in danger, turn sth off
-- active words (12): check, connected, cross, electronic, fix, instruction, pass, printer, remove, tablet, touch, use
+- active phrases (3): carry sth out [r36], in danger [r96], turn sth off [r169]
+- active words (12): check [r134], connected [r169], cross [r189], electronic [r253], fix [r314], instruction [r401], pass [r545], printer [r588], remove [r637], tablet [r779], touch [r803], use [r831]
 - formulaic active source records: 3
 
 ## U10-L04 — approx teaching objects 16
 
 - active ability homes (1): C19
 - productive grammar systems (0): —
-- active phrases (3): feel good, get better, health problems
-- active words (12): fit, headache, hurt, illness, knee, medicine, pain, physical, skin, smoking, stress, weak
+- active phrases (3): feel good [r59], get better [r69], health problems [r86]
+- active words (12): fit [r313], headache [r359], hurt [r381], illness [r385], knee [r423], medicine [r482], pain [r539], physical [r562], skin [r715], smoking [r723], stress [r759], weak [r847]
 - formulaic active source records: 3
 
 ## U10-L05 — approx teaching objects 18
 
 - active ability homes (1): C19
 - productive grammar systems (0): —
-- active phrases (3): fill sth in, in hospital, take care of sb/sth/yourself
-- active words (14): copy, dead, dentist, flu, ill, injury, item, medical, neck, shoulder, smoke, step, stomach, virus
+- active phrases (3): fill sth in [r61], in hospital [r98], take care of sb/sth/yourself [r155]
+- active words (14): copy [r178], dead [r200], dentist [r208], flu [r316], ill [r384], injury [r397], item [r412], medical [r481], neck [r507], shoulder [r700], smoke [r722], step [r751], stomach [r752], virus [r840]
 - formulaic active source records: 3
 
 ## U10-L06 — approx teaching objects 5
@@ -473,15 +473,15 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (0): —
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (5): chance, depend, opportunity, sense, target
+- active words (5): chance [r130], depend [r210], opportunity [r527], sense [r688], target [r781]
 - formulaic active source records: 0
 
 ## U11-L01 — approx teaching objects 16
 
 - active ability homes (1): C21
 - productive grammar systems (0): —
-- active phrases (3): I guess, let me know, Oh dear
-- active words (12): argument, dear, immediately, introduction, mention, notice, receive, respond, speaker, suggestion, text, wow
+- active phrases (3): I guess [r89], let me know [r111], Oh dear [r123]
+- active words (12): argument [r48], dear [r202], immediately [r387], introduction [r406], mention [r484], notice [r517], receive [r621], respond [r646], speaker [r736], suggestion [r767], text [r789], wow [r868]
 - formulaic active source records: 4
 
 ## U11-L02 — approx teaching objects 1
@@ -497,7 +497,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (0): —
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (12): device, electric, image, laptop, ordinary, poster, program, public, purpose, record, search, speech
+- active words (12): device [r216], electric [r250], image [r386], laptop [r432], ordinary [r529], poster [r581], program [r596], public [r603], purpose [r606], record [r628], search [r680], speech [r738]
 - formulaic active source records: 0
 
 ## U11-L04 — approx teaching objects 10
@@ -505,7 +505,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (0): —
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (10): comment, digital, fight, link, mobile, profile, recording, screen, sign, user
+- active words (10): comment [r159], digital [r219], fight [r302], link [r454], mobile [r493], profile [r595], recording [r629], screen [r679], sign [r704], user [r833]
 - formulaic active source records: 0
 
 ## U11-L05 — approx teaching objects 2
@@ -513,7 +513,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (0): —
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (2): social, wet
+- active words (2): social [r726], wet [r852]
 - formulaic active source records: 0
 
 ## U11-L06 — approx teaching objects 13
@@ -521,7 +521,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (1): C24
 - productive grammar systems (1): G40
 - active phrases (0): —
-- active words (11): document, employee, learning, manage, mathematics, professional, refer, research, salary, survey, teaching
+- active words (11): document [r232], employee [r255], learning [r442], manage [r470], mathematics [r476], professional [r593], refer [r632], research [r644], salary [r670], survey [r775], teaching [r784]
 - formulaic active source records: 0
 
 ## U12-L01 — approx teaching objects 14
@@ -529,7 +529,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (1): C26
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (13): attend, colleague, continue, degree, employer, focus, lecture, lend, manager, maths, number, sort, term
+- active words (13): attend [r57], colleague [r154], continue [r174], degree [r207], employer [r256], focus [r319], lecture [r444], lend [r446], manager [r471], maths [r477], number [r520], sort [r734], term [r788]
 - formulaic active source records: 0
 
 ## U12-L02 — approx teaching objects 8
@@ -537,7 +537,7 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active ability homes (1): C26
 - productive grammar systems (0): —
 - active phrases (0): —
-- active words (7): celebrate, fish, foreign, gallery, prize, traditional, wild
+- active words (7): celebrate [r126], fish [r311], foreign [r321], gallery [r335], prize [r590], traditional [r812], wild [r858]
 - formulaic active source records: 0
 
 ## U12-L03 — approx teaching objects 1
