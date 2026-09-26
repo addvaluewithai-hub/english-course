@@ -5,17 +5,18 @@ Status: **GENERATED HUMAN-CRITIC AID — NON-SEMANTIC / NON-DECISIONAL**
 This file exposes the exact source records first introduced in each lesson so a human reviewer can
 judge cognitive coherence. It does not choose homes, semantic roles, splits, merges or sequencing.
 
-## U1-L01 — 18 introductions (A 8 / P 1 / G 0 / W 8 / Pron 1)
+## U1-L01 — 19 introductions (A 9 / P 1 / G 0 / W 8 / Pron 1)
 
-### Ability — 8
+### Ability — 9
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p16.001` — Can understand simple, everyday conversations if conducted slowly and clearly. (Ca) — homes: C01
 - `ability.gse_all_objectives.gse.adult.2022.a2.p16.006` — Can recognise simple, fixed expressions used in small talk. (P) — homes: C01
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.011` — Can understand standard speech on familiar matters, with some repetition or reformulation. (Ca) — homes: X01
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.001` — Can start or end a short conversation using basic fixed expressions. (Ca) — homes: C01
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.006` — Can exchange simple information on everyday topics, provided the other person speaks slowly and clearly and is prepared to help. (Ca) — homes: X01
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.002` — Can use simple, everyday polite forms of greeting and address. (C) — homes: C01
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.004` — Can make small talk using simple language, given a model. (P) — homes: C01
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.005` — Can communicate in routine tasks requiring simple, direct exchanges of information. (Ca) — homes: X01
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.001` — Can initiate, maintain and close simple, restricted face-to-face conversations. (N2000) — homes: C01
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.022` — Can show interest in conversation using fixed expressions. (P) — homes: X05
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.026` — Can participate in short conversations in routine contexts on topics of interest. (C) — homes: C01
 
 ### Phrase — 1
@@ -37,18 +38,19 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `pronunciation.sound_perception.a2` — Sound perception and word recognition — homes: pronunciation.sound_perception.a2
 
-## U1-L02 — 32 introductions (A 8 / P 3 / G 5 / W 16 / Pron 0)
+## U1-L02 — 33 introductions (A 9 / P 3 / G 5 / W 16 / Pron 0)
 
-### Ability — 8
+### Ability — 9
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p10.006` — Can identify basic personal details about someone on website profiles, business cards etc. (P) — homes: C02
 - `ability.gse_all_objectives.gse.adult.2022.a2.p15.003` — Can recognise phrases and content words related to basic personal and family information. (Ca) — homes: C02
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.010` — Can use brief, everyday expressions to ask for and give personal details. (Ca) — homes: C02
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.001` — Can talk about familiar topics using a few basic words and phrases. (P) — homes: X02
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.011` — Can give a short description of their home, family and job, given some help with vocabulary. (P) — homes: C02
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.018` — Can talk about their life (e.g. ‘family’, ‘home’, ‘job’), using simple language. (P) — homes: C02
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.019` — Can describe their family, living conditions, education and present or most recent job. (C) — homes: C02
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.024` — Can answer simple questions about work experience or education using simple language.  (P) — homes: C02
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.002` — Can give personal details in written form in a limited way. (Ca) — homes: C02
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.015` — Can write basic personal details for a website profile, business card, etc. (P) — homes: C02
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.007` — Can write a brief summary of their own personal details, e.g. ‘for a business card’. (P) — homes: C02
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.016` — Can write simple sentences about their educational background and present or past job. (Ca) — homes: C02
 
 ### Phrase — 3
 
@@ -87,15 +89,15 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 ### Ability — 9
 
+- `ability.gse_all_objectives.gse.adult.2022.a2.p10.006` — Can identify basic personal details about someone on website profiles, business cards etc. (P) — homes: C02
 - `ability.gse_all_objectives.gse.adult.2022.a2.p10.013` — Can identify basic biographical information in short simple texts about other people. (P) — homes: C02
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.011` — Can give a short description of their home, family and job, given some help with vocabulary. (P) — homes: C02
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.016` — Can ask simple questions to find out about a subject. (P) — homes: X04
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.018` — Can talk about their life (e.g. ‘family’, ‘home’, ‘job’), using simple language. (P) — homes: C02
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.010` — Can use brief, everyday expressions to ask for and give personal details. (Ca) — homes: C02
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.003` — Can ask someone simple questions about their life and experiences. (P) — homes: C02
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.024` — Can answer simple questions about work experience or education using simple language.  (P) — homes: C02
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.033` — Can ask about someone’s work experience or education using simple language. (P) — homes: C02
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.003` — Can write a few basic sentences to introduce someone and give basic personal information about them. (P) — homes: C02
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.002` — Can ask for personal details in written form in a limited way. (Ca) — homes: C02
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.016` — Can write simple sentences about their educational background and present or past job. (Ca) — homes: C02
 
 ### Phrase — 1
 
@@ -145,11 +147,11 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 ### Ability — 5
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p16.007` — Can extract key factual information such as prices, times and dates from a recorded phone message. (P) — homes: C03
+- `ability.gse_all_objectives.gse.adult.2022.a2.p16.008` — Can understand who a phone call is intended for. (P) — homes: C03
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.013` — Can understand specific information in a short, simple phone call. (P) — homes: C03
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.004` — Can end a simple phone call to family or friends using basic informal fixed expressions. (P) — homes: C03
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.011` — Can introduce themselves on the phone and close a simple call. (P) — homes: C03
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.008` — Can leave simple phone messages using fixed expressions. (P) — homes: C03
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.005` — Can take a short, simple message if they are able to ask the speaker to repeat and reformulate it. (Ca) — homes: C03
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.014` — Can answer simple questions on the phone using fixed expressions. (P) — homes: C03
 
 ### Word — 7
 
@@ -166,18 +168,17 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `pronunciation.prominence_rhythm.a2` — Sentence prominence and rhythm — homes: pronunciation.prominence_rhythm.a2
 - `pronunciation.connected_speech.a2` — Connected-speech perception and production — homes: pronunciation.connected_speech.a2
 
-## U1-L05 — 9 introductions (A 8 / P 1 / G 0 / W 0 / Pron 0)
+## U1-L05 — 8 introductions (A 7 / P 1 / G 0 / W 0 / Pron 0)
 
-### Ability — 8
+### Ability — 7
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p10.001` — Can understand short, simple messages on postcards, emails and social networks. (Ca) — homes: C21
-- `ability.gse_all_objectives.gse.adult.2022.a2.p16.008` — Can understand who a phone call is intended for. (P) — homes: C03
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.004` — Can end a simple phone call to family or friends using basic informal fixed expressions. (P) — homes: C03
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.014` — Can answer simple questions on the phone using fixed expressions. (P) — homes: C03
+- `ability.gse_all_objectives.gse.adult.2022.a2.p16.007` — Can extract key factual information such as prices, times and dates from a recorded phone message. (P) — homes: C03
+- `ability.gse_all_objectives.gse.adult.2022.a2.p16.011` — Can recognise some fixed expressions used to confirm information. (P) — homes: C20
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.020` — Can ask for repetition or clarification on the phone in a simple way. (P) — homes: C20
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.008` — Can leave simple phone messages using fixed expressions. (P) — homes: C03
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.015` — Can confirm information using some simple fixed expressions. (P) — homes: C20
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.018` — Can take simple phone messages using fixed expressions. (P) — homes: C03
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.008` — Can write very simple personal emails/letters expressing thanks and apology. (Ca) — homes: C21
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.010` — Can write a short, simple email/letter asking for information about an apartment or house to rent. (P) — homes: C21
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.011` — Can use appropriate openings and endings in simple informal emails. (P) — homes: X07
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.005` — Can take a short, simple message if they are able to ask the speaker to repeat and reformulate it. (Ca) — homes: C03
 
 ### Phrase — 1
 
@@ -188,14 +189,14 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 ### Ability — 9
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p16.002` — Can follow short, simple social exchanges. (P) — homes: C01
-- `ability.gse_all_objectives.gse.adult.2022.a2.p16.011` — Can recognise some fixed expressions used to confirm information. (P) — homes: C20
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.018` — Can understand enough to manage simple routine exchanges without undue effort. (C) — homes: X01
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.009` — Can recognise some fixed expressions to check or clarify information. (P) — homes: C20
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.005` — Can ask for repetition and clarification when they don’t understand, using basic fixed expressions. (P) — homes: C20
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.006` — Can initiate and respond to simple statements on very familiar topics. (Ca) — homes: C01
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.002` — Can ask someone to repeat a specific point or idea. (P) — homes: C20
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.007` — Can show understanding using a limited range of fixed expressions. (P) — homes: X05
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.012` — Can take part in a very simple conversation on a familiar topic if the other speaker repeats questions and answers as necessary and speaks slowly and clearly. (P) — homes: X01
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.002` — Can use simple, everyday polite forms of greeting and address. (C) — homes: C01
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.015` — Can confirm information using some simple fixed expressions. (P) — homes: C20
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.001` — Can initiate, maintain and close simple, restricted face-to-face conversations. (N2000) — homes: C01
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.016` — Can ask for clarification about key words not understood, using fixed expressions. (Ca) — homes: C20
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.023` — Can check or clarify information using some simple fixed expressions. (P) — homes: C20
 
 ### Phrase — 5
 
@@ -221,9 +222,9 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 ### Ability — 5
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p09.002` — Can understand simple descriptions of people’s physical appearance. (P) — homes: C04
+- `ability.gse_all_objectives.gse.adult.2022.a2.p15.006` — Can identify key words and phrases in descriptions of someone’s appearance and clothes. (P) — homes: C04
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.013` — Can describe what someone is wearing using a limited range of expressions. (P) — homes: C04
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.019` — Can express how they feel in simple terms. (Ca) — homes: C04
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.021` — Can say how they or someone else feels, giving brief reasons. (P) — homes: C04
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.001` — Can use simple language to describe people’s appearance. (N2000) — homes: C04
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.003` — Can write short, simple descriptions of people’s physical appearance using basic connectors, given prompts or a model. (P) — homes: C04
 
 ### Phrase — 2
@@ -257,13 +258,14 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `pronunciation.consonant_clarity.a2` — Consonant contrasts and place or manner clarity — homes: pronunciation.consonant_clarity.a2
 
-## U2-L02 — 36 introductions (A 4 / P 2 / G 10 / W 19 / Pron 1)
+## U2-L02 — 37 introductions (A 5 / P 2 / G 10 / W 19 / Pron 1)
 
-### Ability — 4
+### Ability — 5
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p15.006` — Can identify key words and phrases in descriptions of someone’s appearance and clothes. (P) — homes: C04
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.001` — Can use simple language to describe people’s appearance. (N2000) — homes: C04
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.013` — Can give compliments, using fixed expressions. (P) — homes: X05
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.019` — Can express how they feel in simple terms. (Ca) — homes: C04
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.004` — Can use simple language to describe people’s personality and emotions. (P) — homes: C04
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.021` — Can say how they or someone else feels, giving brief reasons. (P) — homes: C04
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.011` — Can write very short, simple sentences about their feelings. (P) — homes: C04
 
 ### Phrase — 2
@@ -310,19 +312,20 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `pronunciation.vowel_clarity.a2` — Vowel contrasts and reduced vowels — homes: pronunciation.vowel_clarity.a2
 
-## U2-L03 — 39 introductions (A 9 / P 8 / G 6 / W 16 / Pron 0)
+## U2-L03 — 40 introductions (A 10 / P 8 / G 6 / W 16 / Pron 0)
 
-### Ability — 9
+### Ability — 10
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p09.003` — Can understand short, simple texts about everyday activities. (P) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.001` — Can talk about familiar topics using a few basic words and phrases. (P) — homes: X02
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.003` — Can describe a person’s hobbies and activities using simple language. (P) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.024` — Can describe basic activities or events that are happening at the time of speaking. (P) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.025` — Can give the order of things using simple language (e.g. ‘first’, ‘second’, ‘third’). (P) — homes: X06
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.024` — Can ask and answer questions about what they do at work and in their free time. (C) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.032` — Can give a short, basic description of events and activities. (C) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.005` — Can write a short description of familiar activities, given visual support. (P) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.010` — Can write short, basic descriptions of places, people or things. (P) — homes: X02
+- `ability.gse_all_objectives.gse.adult.2022.a2.p15.007` — Can understand information related to people’s daily routines. (P) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.015` — Can talk about everyday things (e.g. ‘people’, ‘places’, ‘job’, ‘study’) in a basic way. (Ca) — homes: X02
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.019` — Can describe their daily routines in a simple way. (P) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.009` — Can describe people’s everyday lives using a short series of simple phrases and sentences. (Ca) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.010` — Can say how often they and others do common everyday activities, using basic frequency expressions (e.g. ‘every Monday’, ‘twice a month’). (P) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.026` — Can ask and answer questions about habits and routines. (C) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.028` — Can describe habits and routines. (Ca) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p38.005` — Can use very basic connectors like ‘and’, ‘but’, ‘so’ and ‘then’. (Ca) — homes: X06
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.017` — Can write about everyday things (e.g. ‘people’, ‘places’, ‘job, study’) in linked sentences. (Ca) — homes: X02
 
 ### Phrase — 8
 
@@ -363,19 +366,20 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.108` — wash — homes: L04
 - `oxford.o3000.p07.133` — yet — homes: L28
 
-## U2-L04 — 35 introductions (A 9 / P 5 / G 7 / W 14 / Pron 0)
+## U2-L04 — 36 introductions (A 10 / P 5 / G 7 / W 14 / Pron 0)
 
-### Ability — 9
+### Ability — 10
 
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.008` — Can understand basic opinions expressed in simple language in short texts. (P) — homes: C06
-- `ability.gse_all_objectives.gse.adult.2022.a2.p15.007` — Can understand information related to people’s daily routines. (P) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p16.005` — Can understand the main information in simple conversations about hobbies and interests. (P) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.003` — Can describe a person’s hobbies and activities using simple language. (P) — homes: C05
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.014` — Can ask someone about their hobbies and activities using simple language. (P) — homes: C05
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.017` — Can express their likes and dislikes in relation to familiar topics using simple language. (P) — homes: C06
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.009` — Can describe people’s everyday lives using a short series of simple phrases and sentences. (Ca) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.015` — Can express general preferences using basic fixed expressions. (P) — homes: C06
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.016` — Can say what they like and dislike. (C) — homes: C06
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.010` — Can describe everyday activities in town (e.g. ‘buying food at the supermarket’, ‘borrowing a book from the library’) using simple language. (P) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2.p38.001` — Can write simple sentences about what they and other people do. (Ca) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.007` — Can give simple reasons to explain preferences, given a model. (P) — homes: C06
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.018` — Can explain what they like or dislike about something. (C) — homes: C06
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.014` — Can write short texts about their likes and dislikes using basic fixed expressions. (P) — homes: C06
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.006` — Can write short texts about their likes and dislikes, with explanations. (CSEa) — homes: C06
 
 ### Phrase — 5
 
@@ -412,15 +416,17 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.007` — stage — homes: L07
 - `oxford.o3000.p07.078` — trainer — homes: L07
 
-## U2-L05 — 29 introductions (A 5 / P 2 / G 5 / W 15 / Pron 2)
+## U2-L05 — 31 introductions (A 7 / P 2 / G 5 / W 15 / Pron 2)
 
-### Ability — 5
+### Ability — 7
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p16.004` — Can understand the main information in short, simple dialogues about familiar activities, if spoken slowly and clearly. (P) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.019` — Can describe their daily routines in a simple way. (P) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.010` — Can say how often they and others do common everyday activities, using basic frequency expressions (e.g. ‘every Monday’, ‘twice a month’). (P) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.026` — Can ask and answer questions about habits and routines. (C) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.024` — Can describe basic activities or events that are happening at the time of speaking. (P) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.011` — Can describe jobs in a basic way, given a model. (P) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.024` — Can ask and answer questions about what they do at work and in their free time. (C) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p38.001` — Can write simple sentences about what they and other people do. (Ca) — homes: C05
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.009` — Can write simple sentences about someone’s work and duties. (P) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p38.013` — Can write short, basic descriptions of everyday activities, given a model. (P) — homes: C05
 
 ### Phrase — 2
 
@@ -458,19 +464,18 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `pronunciation.syllable_shape.a2` — Syllable shape, consonant clusters, and word endings — homes: pronunciation.syllable_shape.a2
 - `pronunciation.word_stress.a2` — Word stress and stress-sensitive recognition — homes: pronunciation.word_stress.a2
 
-## U2-L06 — 14 introductions (A 9 / P 4 / G 1 / W 0 / Pron 0)
+## U2-L06 — 13 introductions (A 8 / P 4 / G 1 / W 0 / Pron 0)
 
-### Ability — 9
+### Ability — 8
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p16.005` — Can understand the main information in simple conversations about hobbies and interests. (P) — homes: C05
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.004` — Can ask others if they can do everyday activities using simple language, given a model. (P) — homes: C25
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.017` — Can describe skills and abilities using simple language. (P) — homes: C25
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.021` — Can describe familiar activities, given visual support. (P) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.011` — Can describe jobs in a basic way, given a model. (P) — homes: C05
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.028` — Can describe habits and routines. (Ca) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.010` — Can describe everyday activities in town (e.g. ‘buying food at the supermarket’, ‘borrowing a book from the library’) using simple language. (P) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.032` — Can give a short, basic description of events and activities. (C) — homes: C05
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.008` — Can write simple sentences about what they or other people can or can’t do. (P) — homes: C25
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.012` — Can write simple sentences about personal skills. (P) — homes: C25
-- `ability.gse_all_objectives.gse.adult.2022.a2.p38.013` — Can write short, basic descriptions of everyday activities, given a model. (P) — homes: C05
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.005` — Can write a short description of familiar activities, given visual support. (P) — homes: C05
 
 ### Phrase — 4
 
@@ -483,15 +488,13 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `egp.1741163716292x214601835879246080` — USE: ABILITY — homes: C12, C13, C25
 
-## U3-L01 — 34 introductions (A 5 / P 3 / G 10 / W 16 / Pron 0)
+## U3-L01 — 32 introductions (A 3 / P 3 / G 10 / W 16 / Pron 0)
 
-### Ability — 5
+### Ability — 3
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.021` — Can talk about furniture and rooms using simple language. (P) — homes: C08
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.012` — Can describe the position of things in a picture using a range of fixed expressions (P) — homes: C08
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.017` — Can describe what something is used for, using basic fixed expressions. (P) — homes: C08
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.006` — Can write a simple description of a room, house or apartment. (P) — homes: C08
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.004` — Can write short texts describing favourite objects, possessions or household pets. (CSEa) — homes: C08
 
 ### Phrase — 3
 
@@ -531,14 +534,16 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.001` — specific — homes: L24
 - `oxford.o3000.p07.073` — toy — homes: L03
 
-## U3-L02 — 40 introductions (A 4 / P 6 / G 10 / W 20 / Pron 0)
+## U3-L02 — 42 introductions (A 6 / P 6 / G 10 / W 20 / Pron 0)
 
-### Ability — 4
+### Ability — 6
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.022` — Can describe common everyday objects using simple language. (P) — homes: C08
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.021` — Can use a limited range of fixed expressions to describe objects, possessions, or products. (P) — homes: C08
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.017` — Can describe what something is used for, using basic fixed expressions. (P) — homes: C08
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.028` — Can talk about personal possessions, including household pets. (N2000a) — homes: C08
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.017` — Can write short descriptive texts (4–6 sentences) on familiar personal topics (e.g. ‘family’, ‘possessions’), given a model. (P) — homes: C08
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.004` — Can write short texts describing favourite objects, possessions or household pets. (CSEa) — homes: C08
 
 ### Phrase — 6
 
@@ -585,12 +590,13 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.055` — thick — homes: L24
 - `oxford.o3000.p07.126` — wood — homes: L03
 
-## U3-L03 — 28 introductions (A 2 / P 3 / G 10 / W 13 / Pron 0)
+## U3-L03 — 29 introductions (A 3 / P 3 / G 10 / W 13 / Pron 0)
 
-### Ability — 2
+### Ability — 3
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.009` — Can identify basic similarities and differences in the facts between two short simple texts on the same familiar topic, if supported by pictures and questions. (P) — homes: C07
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.016` — Can make simple, direct comparisons between two people or things using common adjectives. (P) — homes: C07
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.001` — Can make simple comparisons between people, places or things. (P) — homes: C07
 
 ### Phrase — 3
 
@@ -627,12 +633,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.057` — thin — homes: L24
 - `oxford.o3000.p07.114` — weight — homes: L27
 
-## U3-L04 — 18 introductions (A 2 / P 1 / G 8 / W 7 / Pron 0)
-
-### Ability — 2
-
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.007` — Can compare quantities in a basic way. (P) — homes: C07
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.001` — Can make simple comparisons between people, places or things. (P) — homes: C07
+## U3-L04 — 16 introductions (A 0 / P 1 / G 8 / W 7 / Pron 0)
 
 ### Phrase — 1
 
@@ -663,8 +664,8 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 ### Ability — 2
 
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.007` — Can compare quantities in a basic way. (P) — homes: C07
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.011` — Can compare their own and others’ possessions using simple language. (Ca) — homes: C07
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.003` — Can write basic sentences comparing products, people or places. (P) — homes: C07
 
 ### Phrase — 2
 
@@ -695,8 +696,8 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 ### Ability — 2
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.015` — Can talk about everyday things (e.g. ‘people’, ‘places’, ‘job’, ‘study’) in a basic way. (Ca) — homes: X02
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.017` — Can write about everyday things (e.g. ‘people’, ‘places’, ‘job, study’) in linked sentences. (Ca) — homes: X02
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.027` — Can give an extended description of everyday topics (e.g. ‘people’, ‘places’, ‘experiences’). (N2000a) — homes: X02
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.010` — Can write short, basic descriptions of places, people or things. (P) — homes: X02
 
 ### Grammar — 11
 
@@ -733,11 +734,11 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 ### Ability — 6
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.008` — Can understand enough to respond to direct requests expressed slowly and clearly. (Ca) — homes: C12
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.002` — Can make requests related to immediate needs using basic fixed expressions. (P) — homes: C12
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.007` — Can ask to borrow things using basic fixed expressions. (P) — homes: C12
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.009` — Can make offers using basic fixed expressions. (P) — homes: C12
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.024` — Can ask for and provide things using simple phrases. (Ca) — homes: C12
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.005` — Can agree or refuse to lend things using basic fixed expressions. (P) — homes: C12
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.027` — Can make simple requests to have or do something in relation to common everyday activities. (P) — homes: C12
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.014` — Can ask for and give or refuse permission. (N2000) — homes: C12
 
 ### Phrase — 1
 
@@ -772,11 +773,11 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 ### Ability — 5
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.002` — Can make requests related to immediate needs using basic fixed expressions. (P) — homes: C12
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.024` — Can ask for and provide things using simple phrases. (Ca) — homes: C12
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.009` — Can make offers using basic fixed expressions. (P) — homes: C12
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.013` — Can decline offers using basic fixed expressions. (P) — homes: C12
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.025` — Can refuse requests politely, using simple language. (P) — homes: C12
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.001` — Can make and accept offers. (N2000) — homes: C12
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.014` — Can ask for and give or refuse permission. (N2000) — homes: C12
 
 ### Phrase — 2
 
@@ -812,16 +813,18 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.041` — symbol — homes: LX-GENERAL
 - `oxford.o3000.p07.120` — whose — homes: L29
 
-## U4-L03 — 43 introductions (A 6 / P 7 / G 12 / W 17 / Pron 1)
+## U4-L03 — 45 introductions (A 8 / P 7 / G 12 / W 17 / Pron 1)
 
-### Ability — 6
+### Ability — 8
 
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.008` — Can understand basic opinions expressed in simple language in short texts. (P) — homes: C06
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.001` — Can recognise when speakers disagree in a conversation conducted slowly and clearly. (P) — homes: C06
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.003` — Can recognise when speakers agree in a conversation conducted slowly and clearly. (P) — homes: C06
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.004` — Can recognise simple expressions of agreement and disagreement in short discussions, if conducted slowly and clearly. (P) — homes: C06
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.008` — Can express agreement using simple fixed expressions. (P) — homes: C06
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.027` — Can give an extended description of everyday topics (e.g. ‘people’, ‘places’, ‘experiences’). (N2000a) — homes: X02
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.007` — Can give simple reasons to explain preferences, given a model. (P) — homes: C06
-- `ability.gse_all_objectives.gse.adult.2022.a2.p38.005` — Can use very basic connectors like ‘and’, ‘but’, ‘so’ and ‘then’. (Ca) — homes: X06
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.006` — Can write short texts about their likes and dislikes, with explanations. (CSEa) — homes: C06
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.004` — Can give simple opinions using basic fixed expressions. (P) — homes: C06
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.025` — Can give the reasons for a choice, using simple language. (P) — homes: C06
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.004` — Can signal contrast in a simple text with a limited range of language. (P) — homes: X06
 
 ### Phrase — 7
 
@@ -872,16 +875,14 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `pronunciation.intonation_stance.a2` — Intonation, interaction, and stance — homes: pronunciation.intonation_stance.a2
 
-## U4-L04 — 41 introductions (A 7 / P 6 / G 10 / W 18 / Pron 0)
+## U4-L04 — 39 introductions (A 5 / P 6 / G 10 / W 18 / Pron 0)
 
-### Ability — 7
+### Ability — 5
 
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.003` — Can recognise when speakers agree in a conversation conducted slowly and clearly. (P) — homes: C06
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.004` — Can give simple opinions using basic fixed expressions. (P) — homes: C06
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.013` — Can ask for basic advice using simple language. (P) — homes: C13
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.017` — Can respond to suggestions to do something using basic fixed expressions. (P) — homes: C13
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.003` — Can make suggestions about doing common everyday activities, using simple fixed expressions. (P) — homes: C13
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.018` — Can explain what they like or dislike about something. (C) — homes: C06
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.029` — Can discuss what to do next using simple phrases. (Ca) — homes: C13
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.030` — Can make and respond to suggestions. (C) — homes: C13
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.020` — Can make basic informal suggestions in writing. (P) — homes: C13
 
 ### Phrase — 6
@@ -927,13 +928,12 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.105` — voice — homes: L21
 - `oxford.o3000.p07.125` — wish — homes: L26
 
-## U4-L05 — 24 introductions (A 3 / P 0 / G 5 / W 16 / Pron 0)
+## U4-L05 — 23 introductions (A 2 / P 0 / G 5 / W 16 / Pron 0)
 
-### Ability — 3
+### Ability — 2
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.017` — Can respond to suggestions to do something using basic fixed expressions. (P) — homes: C13
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.013` — Can ask for basic advice using simple language. (P) — homes: C13
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.009` — Can give basic advice using simple language. (P) — homes: C13
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.030` — Can make and respond to suggestions. (C) — homes: C13
 
 ### Grammar — 5
 
@@ -962,23 +962,24 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.063` — tie — homes: LX-GENERAL
 - `oxford.o3000.p07.082` — trouble — homes: L22
 
-## U4-L06 — 31 introductions (A 7 / P 4 / G 2 / W 18 / Pron 0)
+## U4-L06 — 32 introductions (A 6 / P 6 / G 2 / W 18 / Pron 0)
 
-### Ability — 7
+### Ability — 6
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p15.001` — Can understand excuses if expressed in simple language. (P) — homes: X05
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.009` — Can recognise some fixed expressions to check or clarify information. (P) — homes: C20
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.007` — Can show understanding using a limited range of fixed expressions. (P) — homes: X05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.020` — Can make and accept a simple apology. (P) — homes: X05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.023` — Can make excuses using basic fixed expressions. (P) — homes: X05
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.019` — Can check that someone has understood information, using simple language. (P) — homes: C20
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.006` — Can use simple fixed expressions to give encouragement (e.g. ‘You can do it!’) (P) — homes: X05
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.012` — Can respond to excuses using basic fixed expressions. (P) — homes: X05
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.016` — Can ask for clarification about key words not understood, using fixed expressions. (Ca) — homes: C20
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.034` — Can use some basic interjections to express understanding, surprise, disappointment, and excitement. (P) — homes: X05
 
-### Phrase — 4
+### Phrase — 6
 
 - `oxford.phrase.online.0179` — Come on! — homes: X05
-- `oxford.phrase.online.0354` — I guess — homes: X05
-- `oxford.phrase.online.0507` — not at all — homes: X05
+- `oxford.phrase.online.0353` — I don't care — homes: X05
+- `oxford.phrase.online.0360` — I'm afraid… — homes: X05
+- `oxford.phrase.online.0506` — no way — homes: X05
+- `oxford.phrase.online.0517` — Oh well — homes: X05
 - `oxford.phrase.online.0610` — respond to sth/sb — homes: X05
 
 ### Grammar — 2
@@ -1011,7 +1012,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 ### Ability — 2
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.010` — Can ask basic questions about colour, size, price etc. when shopping. (CSEa) — homes: C09
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.015` — Can ask simple questions about quantities and amounts. (P) — homes: C09
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.016` — Can answer simple questions about quantities and amounts, given help with vocabulary. (P) — homes: C09
 
 ### Phrase — 2
@@ -1043,15 +1044,12 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.236` — serve — homes: L09
 - `oxford.o3000.p07.003` — speed — homes: L27
 
-## U5-L02 — 27 introductions (A 5 / P 4 / G 5 / W 13 / Pron 0)
+## U5-L02 — 24 introductions (A 2 / P 4 / G 5 / W 13 / Pron 0)
 
-### Ability — 5
+### Ability — 2
 
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.004` — Can recognise simple expressions of agreement and disagreement in short discussions, if conducted slowly and clearly. (P) — homes: C06
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.012` — Can use simple phrases to order a meal. (Ca) — homes: C09
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.015` — Can express general preferences using basic fixed expressions. (P) — homes: C06
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.023` — Can ask for and provide everyday goods and services. (C) — homes: C09
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.025` — Can give the reasons for a choice, using simple language. (P) — homes: C06
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.010` — Can ask basic questions about colour, size, price etc. when shopping. (CSEa) — homes: C09
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.003` — Can write basic sentences comparing products, people or places. (P) — homes: C07
 
 ### Phrase — 4
 
@@ -1084,12 +1082,11 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.027` — successful — homes: L22
 - `oxford.o3000.p07.059` — third — homes: L27
 
-## U5-L03 — 18 introductions (A 2 / P 1 / G 7 / W 8 / Pron 0)
+## U5-L03 — 17 introductions (A 1 / P 1 / G 7 / W 8 / Pron 0)
 
-### Ability — 2
+### Ability — 1
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.025` — Can make simple purchases by stating what is wanted and asking for the price. (C) — homes: C09
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.020` — Can deal with practical everyday demands, exchanging straightforward factual information. (Ca) — homes: C09
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.012` — Can use simple phrases to order a meal. (Ca) — homes: C09
 
 ### Phrase — 1
 
@@ -1116,11 +1113,12 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.216` — sauce — homes: L08
 - `oxford.o3000.p07.047` — taste — homes: L08
 
-## U5-L04 — 12 introductions (A 1 / P 1 / G 0 / W 10 / Pron 0)
+## U5-L04 — 13 introductions (A 2 / P 1 / G 0 / W 10 / Pron 0)
 
-### Ability — 1
+### Ability — 2
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.014` — Can make simple transactions in shops, post offices and banks. (Ca) — homes: C09
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.018` — Can understand enough to manage simple routine exchanges without undue effort. (C) — homes: X01
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.025` — Can make simple purchases by stating what is wanted and asking for the price. (C) — homes: C09
 
 ### Phrase — 1
 
@@ -1139,11 +1137,15 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.018` — store — homes: L09
 - `oxford.o3000.p07.064` — tip — homes: LX-GENERAL
 
-## U5-L05 — 4 introductions (A 1 / P 1 / G 0 / W 2 / Pron 0)
+## U5-L05 — 8 introductions (A 5 / P 1 / G 0 / W 2 / Pron 0)
 
-### Ability — 1
+### Ability — 5
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.015` — Can ask simple questions about quantities and amounts. (P) — homes: C09
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.014` — Can make simple transactions in shops, post offices and banks. (Ca) — homes: C09
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.006` — Can exchange simple information on everyday topics, provided the other person speaks slowly and clearly and is prepared to help. (Ca) — homes: X01
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.023` — Can ask for and provide everyday goods and services. (C) — homes: C09
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.005` — Can communicate in routine tasks requiring simple, direct exchanges of information. (Ca) — homes: X01
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.020` — Can deal with practical everyday demands, exchanging straightforward factual information. (Ca) — homes: C09
 
 ### Phrase — 1
 
@@ -1154,22 +1156,20 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p05.164` — gift — homes: L09
 - `oxford.o3000.p06.217` — save — homes: L09
 
-## U5-L06 — 26 introductions (A 5 / P 2 / G 0 / W 19 / Pron 0)
+## U5-L06 — 23 introductions (A 3 / P 2 / G 0 / W 18 / Pron 0)
 
-### Ability — 5
+### Ability — 3
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p10.002` — Can extract specific information (e.g. ‘facts and numbers’) from simple informational texts related to everyday life (e.g. ‘posters’, ‘leaflets’). (P) — homes: C22
-- `ability.gse_all_objectives.gse.adult.2022.a2.p10.011` — Can identify key information in short, simple factual texts from the headings and pictures. (P) — homes: C22
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.015` — Can scan a simple text, identifying the main topic(s). (P) — homes: C22
-- `ability.gse_all_objectives.gse.adult.2022.a2.p15.002` — Can identify simple information in a short video, provided that the visual supports this information and the delivery is slow and clear. (P) — homes: C22
-- `ability.gse_all_objectives.gse.adult.2022.a2.p16.003` — Can identify key information (e.g. ‘places’, ‘times’) from short audio recordings, if spoken slowly and clearly. (P) — homes: C22
+- `ability.gse_all_objectives.gse.adult.2022.a2.p10.004` — Can find specific, predictable information in everyday materials (e.g. ‘menus’, ‘timetables’). (Ca) — homes: C22
+- `ability.gse_all_objectives.gse.adult.2022.a2.p15.005` — Can recognise phrases and content words related to familiar topics (e.g. ‘shopping’, ‘local geography’). (C) — homes: C22
 
 ### Phrase — 2
 
 - `oxford.phrase.online.0250` — focus on sb/sth — homes: C22
 - `oxford.phrase.online.0602` — refer to sb/sth — homes: C22
 
-### Word — 19
+### Word — 18
 
 - `oxford.o3000.p04.117` — affect — homes: L13
 - `oxford.o3000.p04.132` — among — homes: LX-GENERAL
@@ -1178,25 +1178,23 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p04.221` — case — homes: LX-GENERAL
 - `oxford.o3000.p04.276` — cook — homes: L08
 - `oxford.o3000.p05.030` — definitely — homes: LX-GENERAL
-- `oxford.o3000.p05.116` — farm — homes: L13
+- `oxford.o3000.p05.117` — farming — homes: L13
 - `oxford.o3000.p05.147` — fork — homes: L08
 - `oxford.o3000.p05.160` — gap — homes: LX-GENERAL
 - `oxford.o3000.p05.269` — lemon — homes: L08
 - `oxford.o3000.p06.012` — major — homes: LX-GENERAL
-- `oxford.o3000.p06.066` — ocean — homes: L13
 - `oxford.o3000.p06.113` — plate — homes: L08
+- `oxford.o3000.p06.119` — pollution — homes: L13
 - `oxford.o3000.p06.156` — quietly — homes: LX-GENERAL
-- `oxford.o3000.p06.205` — rubbish — homes: L13
 - `oxford.o3000.p07.005` — spoon — homes: L08
+- `oxford.o3000.p07.017` — stone — homes: L13
 - `oxford.o3000.p07.066` — top — homes: LX-GENERAL
-- `oxford.o3000.p07.123` — wind1 — homes: L13
 
-## U6-L01 — 22 introductions (A 2 / P 5 / G 2 / W 13 / Pron 0)
+## U6-L01 — 21 introductions (A 1 / P 5 / G 2 / W 13 / Pron 0)
 
-### Ability — 2
+### Ability — 1
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.026` — Can ask about the location of places in a town, using simple language. (P) — homes: C10
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.018` — Can give simple directions from X to Y on foot or by public transport. (P) — homes: C10
 
 ### Phrase — 5
 
@@ -1227,12 +1225,11 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.072` — tower — homes: L11
 - `oxford.o3000.p07.103` — view — homes: L11
 
-## U6-L02 — 25 introductions (A 2 / P 4 / G 2 / W 17 / Pron 0)
+## U6-L02 — 24 introductions (A 1 / P 4 / G 2 / W 17 / Pron 0)
 
-### Ability — 2
+### Ability — 1
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.002` — Can give simple directions using a map or plan. (P) — homes: C10
-- `ability.gse_all_objectives.gse.adult.2022.a2.p38.010` — Can write very short, basic directions. (P) — homes: C10
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.005` — Can ask for simple directions from X to Y on foot or by public transport. (P) — homes: C10
 
 ### Phrase — 4
 
@@ -1266,12 +1263,13 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.020` — straight — homes: L11
 - `oxford.o3000.p07.094` — upstairs — homes: L11
 
-## U6-L03 — 37 introductions (A 2 / P 8 / G 10 / W 17 / Pron 0)
+## U6-L03 — 38 introductions (A 3 / P 8 / G 10 / W 17 / Pron 0)
 
-### Ability — 2
+### Ability — 3
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.005` — Can ask for simple directions from X to Y on foot or by public transport. (P) — homes: C10
-- `ability.gse_all_objectives.gse.adult.2022.a2.p38.016` — Can give an example of something in a very simple text using ‘like’ or ‘for example’. (P) — homes: X06
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.002` — Can give simple directions using a map or plan. (P) — homes: C10
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.018` — Can give simple directions from X to Y on foot or by public transport. (P) — homes: C10
+- `ability.gse_all_objectives.gse.adult.2022.a2.p38.010` — Can write very short, basic directions. (P) — homes: C10
 
 ### Phrase — 8
 
@@ -1317,18 +1315,13 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.070` — towards — homes: L11
 - `oxford.o3000.p07.099` — valley — homes: L11
 
-## U6-L04 — 31 introductions (A 8 / P 5 / G 0 / W 18 / Pron 0)
+## U6-L04 — 26 introductions (A 3 / P 5 / G 0 / W 18 / Pron 0)
 
-### Ability — 8
+### Ability — 3
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p10.004` — Can find specific, predictable information in everyday materials (e.g. ‘menus’, ‘timetables’). (Ca) — homes: C22
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.005` — Can identify specific information in simple letters, brochures and short articles. (Ca) — homes: C22
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.006` — Can understand reports of travel delays and cancellations. (P) — homes: C11
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.016` — Can understand simple details in informational texts  (blogs, websites, catalogues,  etc.). (P) — homes: C22
 - `ability.gse_all_objectives.gse.adult.2022.a2.p15.004` — Can extract key factual information such as prices, times and dates from short clear, simple announcements. (P) — homes: C22
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.015` — Can generally identify the topic of discussion around them when conducted slowly and clearly. (C) — homes: C22
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.003` — Can handle common everyday transactions (e.g. ‘buying a ticket’). (Ca) — homes: C11
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.031` — Can make an appointment on the phone. (P) — homes: C11
+- `ability.gse_all_objectives.gse.adult.2022.a2.p16.003` — Can identify key information (e.g. ‘places’, ‘times’) from short audio recordings, if spoken slowly and clearly. (P) — homes: C22
 
 ### Phrase — 5
 
@@ -1345,26 +1338,27 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p04.246` — climate — homes: L13
 - `oxford.o3000.p05.058` — download — homes: L15
 - `oxford.o3000.p05.064` — driving — homes: L10
-- `oxford.o3000.p05.117` — farming — homes: L13
+- `oxford.o3000.p05.146` — forest — homes: L13
 - `oxford.o3000.p06.003` — lorry — homes: L10
 - `oxford.o3000.p06.055` — network — homes: L15
 - `oxford.o3000.p06.090` — passenger — homes: L10
-- `oxford.o3000.p06.110` — planet — homes: L13
+- `oxford.o3000.p06.130` — prevent — homes: L13
 - `oxford.o3000.p06.168` — reception — homes: L10
-- `oxford.o3000.p06.225` — season — homes: L13
 - `oxford.o3000.p06.226` — seat — homes: L10
 - `oxford.o3000.p06.263` — smartphone — homes: L15
+- `oxford.o3000.p07.019` — storm — homes: L13
 - `oxford.o3000.p07.069` — tourism — homes: L10
 - `oxford.o3000.p07.086` — underground — homes: L10
 - `oxford.o3000.p07.112` — web — homes: L15
 - `oxford.o3000.p07.117` — wheel — homes: L10
 
-## U6-L05 — 21 introductions (A 2 / P 0 / G 0 / W 19 / Pron 0)
+## U6-L05 — 22 introductions (A 3 / P 0 / G 0 / W 19 / Pron 0)
 
-### Ability — 2
+### Ability — 3
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.011` — Can understand the instructions to buy tickets online. (P) — homes: C11
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.021` — Can make a hotel, restaurant, or transportation reservation on the phone. (P) — homes: C11
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.003` — Can handle common everyday transactions (e.g. ‘buying a ticket’). (Ca) — homes: C11
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.008` — Can get information from a tourist office of a straightforward, non-specialised nature. (Ca) — homes: C11
 
 ### Word — 19
 
@@ -1374,16 +1368,16 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p04.250` — cloud — homes: L13
 - `oxford.o3000.p05.041` — diary — homes: LX-GENERAL
 - `oxford.o3000.p05.142` — flying — homes: L10
-- `oxford.o3000.p05.146` — forest — homes: L13
+- `oxford.o3000.p05.161` — gas — homes: L13
 - `oxford.o3000.p05.169` — good — homes: LX-GENERAL
 - `oxford.o3000.p06.004` — lost — homes: L10
 - `oxford.o3000.p06.029` — metal — homes: LX-GENERAL
 - `oxford.o3000.p06.104` — petrol — homes: L10
-- `oxford.o3000.p06.119` — pollution — homes: L13
+- `oxford.o3000.p06.144` — protect — homes: L13
 - `oxford.o3000.p06.195` — ride — homes: L10
 - `oxford.o3000.p06.227` — second1 (next after the first) — homes: LX-GENERAL
 - `oxford.o3000.p06.243` — ship — homes: L10
-- `oxford.o3000.p06.260` — sky — homes: L13
+- `oxford.o3000.p07.051` — temperature — homes: L13
 - `oxford.o3000.p07.077` — train — homes: LX-GENERAL
 - `oxford.o3000.p07.080` — transport — homes: L10
 - `oxford.o3000.p07.100` — van — homes: L10
@@ -1393,7 +1387,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 ### Ability — 2
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.014` — Can understand the key details of hotel, restaurant, and transport reservations. (P) — homes: C11
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.008` — Can get information from a tourist office of a straightforward, non-specialised nature. (Ca) — homes: C11
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.009` — Can talk about hotel accommodation using simple language. (P) — homes: C11
 
 ### Phrase — 2
 
@@ -1418,12 +1412,13 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.090` — uniform — homes: LX-GENERAL
 - `oxford.o3000.p07.102` — vehicle — homes: L10
 
-## U6-L07 — 10 introductions (A 2 / P 0 / G 0 / W 8 / Pron 0)
+## U6-L07 — 11 introductions (A 3 / P 0 / G 0 / W 8 / Pron 0)
 
-### Ability — 2
+### Ability — 3
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.009` — Can talk about hotel accommodation using simple language. (P) — homes: C11
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.021` — Can make a hotel, restaurant, or transportation reservation on the phone. (P) — homes: C11
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.027` — Can cancel a hotel, restaurant, or transportation reservation on the phone. (P) — homes: C11
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.031` — Can make an appointment on the phone. (P) — homes: C11
 
 ### Word — 8
 
@@ -1436,25 +1431,23 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.083` — truck — homes: L10
 - `oxford.o3000.p07.106` — wait — homes: L10
 
-## U7-L01 — 29 introductions (A 9 / P 5 / G 1 / W 14 / Pron 0)
+## U7-L01 — 27 introductions (A 8 / P 4 / G 1 / W 14 / Pron 0)
 
-### Ability — 9
+### Ability — 8
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p15.009` — Can understand key information about arrangements in simple dialogues spoken slowly and clearly. (P) — homes: C14
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.020` — Can make and accept a simple apology. (P) — homes: X05
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.006` — Can discuss what to do and where to go, and make arrangements to meet. (C) — homes: C14
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.013` — Can give compliments, using fixed expressions. (P) — homes: X05
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.011` — Can discuss what to do in the evening or at the weekend. (C) — homes: C14
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.023` — Can make simple invitations using basic fixed expressions. (P) — homes: C14
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.012` — Can make an invitation including information about the time and location. (P) — homes: C14
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.015` — Can express enthusiasm and excitement in a limited way. (P) — homes: X05
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.034` — Can use some basic interjections to express understanding, surprise, disappointment, and excitement. (P) — homes: X05
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.035` — Can express regret using simple language. (P) — homes: X05
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.018` — Can write a simple text (e.g. ‘an invitation to a party’) containing key information, given a model. (P) — homes: C14
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.014` — Can write a basic email/letter accepting or declining an invitation. (P) — homes: C14
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.015` — Can write a basic informal email/letter of invitation with simple, key details. (P) — homes: C14
 
-### Phrase — 5
+### Phrase — 4
 
 - `oxford.phrase.online.0313` — good luck — homes: X05
-- `oxford.phrase.online.0360` — I'm afraid… — homes: X05
-- `oxford.phrase.online.0515` — Oh dear — homes: X05
+- `oxford.phrase.online.0507` — not at all — homes: X05
 - `oxford.phrase.online.0542` — on time — homes: C14
 - `oxford.phrase.online.0739` — would love to do sth — homes: C14
 
@@ -1479,23 +1472,23 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.010` — star — homes: L07
 - `oxford.o3000.p07.124` — winner — homes: L07
 
-## U7-L02 — 4 introductions (A 4 / P 0 / G 0 / W 0 / Pron 0)
+## U7-L02 — 5 introductions (A 5 / P 0 / G 0 / W 0 / Pron 0)
 
-### Ability — 4
+### Ability — 5
 
+- `ability.gse_all_objectives.gse.adult.2022.a2.p15.009` — Can understand key information about arrangements in simple dialogues spoken slowly and clearly. (P) — homes: C14
 - `ability.gse_all_objectives.gse.adult.2022.a2.p16.010` — Can identify specific information in short, simple dialogues in which speakers make arrangements to do something, if spoken slowly and clearly. (P) — homes: C14
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.012` — Can make an invitation including information about the time and location. (P) — homes: C14
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.036` — Can make simple future arrangements and plans with reference to a diary or schedule. (P) — homes: C14
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.006` — Can discuss what to do and where to go, and make arrangements to meet. (C) — homes: C14
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.011` — Can discuss what to do in the evening or at the weekend. (C) — homes: C14
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.009` — Can write simple texts or emails making arrangements to meet, given a model. (P) — homes: C14
 
-## U7-L03 — 9 introductions (A 4 / P 0 / G 0 / W 5 / Pron 0)
+## U7-L03 — 8 introductions (A 3 / P 0 / G 0 / W 5 / Pron 0)
 
-### Ability — 4
+### Ability — 3
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.023` — Can make simple invitations using basic fixed expressions. (P) — homes: C14
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.002` — Can describe plans and arrangements. (Ca) — homes: C14
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.036` — Can make simple future arrangements and plans with reference to a diary or schedule. (P) — homes: C14
 - `ability.gse_all_objectives.gse.adult.2022.a2.p38.007` — Can write simple plans and arrangements on a calendar or in a diary. (CSEa) — homes: C14
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.014` — Can write a basic email/letter accepting or declining an invitation. (P) — homes: C14
 
 ### Word — 5
 
@@ -1510,7 +1503,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 ### Ability — 2
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.008` — Can express basic intentions with simple time markers (e.g. ‘tomorrow’). (P) — homes: C15
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.037` — Can make simple predictions about the future. (P) — homes: C15
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.005` — Can talk about plans for the near future in a simple way. (P) — homes: C15
 
 ### Grammar — 6
 
@@ -1566,7 +1559,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 ### Ability — 1
 
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.005` — Can talk about plans for the near future in a simple way. (P) — homes: C15
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.037` — Can make simple predictions about the future. (P) — homes: C15
 
 ### Grammar — 11
 
@@ -1586,23 +1579,24 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `oxford.o3000.p05.035` — desert — homes: L13
 - `oxford.o3000.p05.101` — expect — homes: L26
-- `oxford.o3000.p05.161` — gas — homes: L13
+- `oxford.o3000.p05.171` — grass — homes: L13
 - `oxford.o3000.p05.190` — hers — homes: L29
 - `oxford.o3000.p06.032` — might — homes: L29
 - `oxford.o3000.p06.100` — perhaps — homes: L26
-- `oxford.o3000.p06.130` — prevent — homes: L13
+- `oxford.o3000.p06.174` — recycle — homes: L13
 - `oxford.o3000.p06.238` — several — homes: L29
-- `oxford.o3000.p07.017` — stone — homes: L13
 - `oxford.o3000.p07.034` — suppose — homes: L26
+- `oxford.o3000.p07.110` — wave — homes: L13
 - `oxford.o3000.p07.134` — yours — homes: L29
 
-## U8-L01 — 24 introductions (A 3 / P 1 / G 2 / W 17 / Pron 1)
+## U8-L01 — 25 introductions (A 4 / P 1 / G 2 / W 17 / Pron 1)
 
-### Ability — 3
+### Ability — 4
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.014` — Can understand a simple text about a past event. (P) — homes: C16
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.005` — Can identify activities occurring in the past in short, simple dialogues. (P) — homes: C16
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.022` — Can describe very basic events in the past using simple linking words (e.g. ‘then’, ‘next’). (P) — homes: C16
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.013` — Can write descriptions of everyday personal experiences. (P) — homes: C16
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.025` — Can talk about an event in the past using fixed expressions, given a model. (P) — homes: C16
 
 ### Phrase — 1
 
@@ -1637,13 +1631,12 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `pronunciation.grammatical_endings.a2` — Audible grammatical endings — homes: pronunciation.grammatical_endings.a2
 
-## U8-L02 — 14 introductions (A 3 / P 1 / G 3 / W 7 / Pron 0)
+## U8-L02 — 13 introductions (A 2 / P 1 / G 3 / W 7 / Pron 0)
 
-### Ability — 3
+### Ability — 2
 
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.005` — Can identify activities occurring in the past in short, simple dialogues. (P) — homes: C16
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.025` — Can talk about an event in the past using fixed expressions, given a model. (P) — homes: C16
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.022` — Can write a short description of a trip or event. (P) — homes: C16
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.020` — Can make simple references to the past using ‘was/were’. (P) — homes: C16
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.019` — Can ask and answer questions about past times and past activities. (C) — homes: C16
 
 ### Phrase — 1
 
@@ -1665,12 +1658,11 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.262` — slowly — homes: LX-GENERAL
 - `oxford.o3000.p07.101` — variety — homes: LX-GENERAL
 
-## U8-L03 — 11 introductions (A 2 / P 2 / G 4 / W 3 / Pron 0)
+## U8-L03 — 10 introductions (A 1 / P 2 / G 4 / W 3 / Pron 0)
 
-### Ability — 2
+### Ability — 1
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.020` — Can make simple references to the past using ‘was/were’. (P) — homes: C16
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.019` — Can ask and answer questions about past times and past activities. (C) — homes: C16
+- `ability.gse_all_objectives.gse.adult.2022.a2.p26.026` — Can answer simple questions about their life and experiences. (P) — homes: C16
 
 ### Phrase — 2
 
@@ -1708,12 +1700,13 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163712747x475008652441932600` — FORM: NEGATIVE — homes: C16
 - `egp.1741163713101x437459773177046000` — FORM: WITH ADVERBS — homes: C16
 
-## U8-L05 — 34 introductions (A 2 / P 1 / G 11 / W 20 / Pron 0)
+## U8-L05 — 35 introductions (A 3 / P 1 / G 11 / W 20 / Pron 0)
 
-### Ability — 2
+### Ability — 3
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.026` — Can answer simple questions about their life and experiences. (P) — homes: C16
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.006` — Can write short basic descriptions of past events and activities. (P) — homes: C16
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.013` — Can write descriptions of everyday personal experiences. (P) — homes: C16
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.022` — Can write a short description of a trip or event. (P) — homes: C16
 
 ### Phrase — 1
 
@@ -1740,29 +1733,28 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p05.020` — daily — homes: L04
 - `oxford.o3000.p05.037` — destroy — homes: L13
 - `oxford.o3000.p05.123` — female — homes: L01
-- `oxford.o3000.p05.171` — grass — homes: L13
 - `oxford.o3000.p05.178` — habit — homes: L04
+- `oxford.o3000.p05.185` — heat — homes: L13
 - `oxford.o3000.p05.218` — individual — homes: L01
 - `oxford.o3000.p05.273` — lifestyle — homes: L04
 - `oxford.o3000.p06.013` — male — homes: L01
 - `oxford.o3000.p06.060` — normally — homes: L04
-- `oxford.o3000.p06.144` — protect — homes: L13
+- `oxford.o3000.p06.175` — reduce — homes: L13
 - `oxford.o3000.p06.193` — rest (sleep/relax) — homes: L04
 - `oxford.o3000.p06.208` — runner — homes: L04
 - `oxford.o3000.p06.253` — single — homes: L01
-- `oxford.o3000.p07.019` — storm — homes: L13
 - `oxford.o3000.p07.062` — tidy — homes: L04
 - `oxford.o3000.p07.098` — usual — homes: L04
 - `oxford.o3000.p07.109` — washing — homes: L04
 - `oxford.o3000.p07.113` — wedding — homes: L01
+- `oxford.o3000.p07.123` — wind1 — homes: L13
 
-## U9-L01 — 11 introductions (A 3 / P 1 / G 2 / W 5 / Pron 0)
+## U9-L01 — 10 introductions (A 2 / P 1 / G 2 / W 5 / Pron 0)
 
-### Ability — 3
+### Ability — 2
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p10.007` — Can get the gist of short, simple narratives, with visual support. (P) — homes: C17
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.002` — Can follow a simple conversation or narrative about familiar, everyday activities. (P) — homes: C17
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.010` — Can tell a story or describe something in a simple list of points. (C) — homes: C17
 
 ### Phrase — 1
 
@@ -1781,13 +1773,12 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.027` — memory — homes: L23
 - `oxford.o3000.p06.229` — secret — homes: L23
 
-## U9-L02 — 17 introductions (A 3 / P 0 / G 2 / W 12 / Pron 0)
+## U9-L02 — 16 introductions (A 2 / P 0 / G 2 / W 12 / Pron 0)
 
-### Ability — 3
+### Ability — 2
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.001` — Can follow a basic sequence of events in a simple text on a familiar topic. (P) — homes: C17
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.006` — Can follow the sequence of events in a short, simple dialogue or narrative. (P) — homes: C17
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.012` — Can write a simple story or description of an event using basic time expressions. (P) — homes: C17
 
 ### Grammar — 2
 
@@ -1809,13 +1800,12 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.029` — suddenly — homes: L23
 - `oxford.o3000.p07.119` — whole — homes: LX-GENERAL
 
-## U9-L03 — 27 introductions (A 3 / P 4 / G 6 / W 14 / Pron 0)
+## U9-L03 — 26 introductions (A 2 / P 4 / G 6 / W 14 / Pron 0)
 
-### Ability — 3
+### Ability — 2
 
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.003` — Can understand short, simple narrative texts. (CSEa) — homes: C17
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.007` — Can get the gist of short, simple stories if told slowly and clearly. (P) — homes: C17
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.004` — Can signal contrast in a simple text with a limited range of language. (P) — homes: X06
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.017` — Can follow the sequence of actions or events in a text on a familiar everyday topic. (P) — homes: C17
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.025` — Can give the order of things using simple language (e.g. ‘first’, ‘second’, ‘third’). (P) — homes: X06
 
 ### Phrase — 4
 
@@ -1850,15 +1840,17 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.239` — shake — homes: L25
 - `oxford.o3000.p07.028` — such — homes: L28
 
-## U9-L04 — 35 introductions (A 6 / P 7 / G 0 / W 22 / Pron 0)
+## U9-L04 — 35 introductions (A 8 / P 7 / G 0 / W 20 / Pron 0)
 
-### Ability — 6
+### Ability — 8
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p10.008` — Can understand the general meaning of short, simple informational material and descriptions if there is visual support. (Ca) — homes: C23
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.003` — Can understand short, simple narrative texts. (CSEa) — homes: C17
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.007` — Can make basic inferences from simple information in a short text. (P) — homes: X03
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.010` — Can understand short, simple narratives and biographies. (CJa) — homes: C17
 - `ability.gse_all_objectives.gse.adult.2022.a2.p15.008` — Can identify basic factual information in short, simple dialogues or narratives on familiar everyday topics, if spoken slowly and clearly. (P) — homes: C23
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.007` — Can get the gist of short, simple stories if told slowly and clearly. (P) — homes: C17
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.012` — Can identify specific events from short spoken descriptions. (Wa) — homes: C17
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.016` — Can identify key details in a simple recorded dialogue or narrative. (P) — homes: C17
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.019` — Can derive the probable meaning of simple, unknown words from short, familiar contexts. (P) — homes: X03
 
 ### Phrase — 7
@@ -1871,46 +1863,43 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.phrase.online.0637` — sort of sth — homes: C23
 - `oxford.phrase.online.0639` — sound like sb/sth — homes: X03
 
-### Word — 22
+### Word — 20
 
 - `oxford.o3000.p04.134` — ancient — homes: L20
 - `oxford.o3000.p04.149` — army — homes: L17
 - `oxford.o3000.p04.175` — bear (animal) — homes: L14
-- `oxford.o3000.p04.227` — celebrity — homes: L20
+- `oxford.o3000.p04.231` — character — homes: L20
 - `oxford.o3000.p05.021` — danger — homes: L17
 - `oxford.o3000.p05.048` — disappear — homes: L23
 - `oxford.o3000.p05.049` — disaster — homes: L13
 - `oxford.o3000.p05.134` — firstly — homes: L23
 - `oxford.o3000.p05.141` — fly — homes: L14
-- `oxford.o3000.p05.185` — heat — homes: L13
-- `oxford.o3000.p05.189` — hero — homes: L20
 - `oxford.o3000.p05.222` — insect — homes: L14
 - `oxford.o3000.p05.245` — kill — homes: L17
 - `oxford.o3000.p05.257` — last1 (final) — homes: L23
+- `oxford.o3000.p06.039` — moon — homes: L13
+- `oxford.o3000.p06.085` — palace — homes: L20
 - `oxford.o3000.p06.103` — pet — homes: L14
 - `oxford.o3000.p06.133` — prison — homes: L17
-- `oxford.o3000.p06.154` — queen — homes: L20
-- `oxford.o3000.p06.174` — recycle — homes: L13
+- `oxford.o3000.p06.205` — rubbish — homes: L13
 - `oxford.o3000.p06.220` — scene — homes: L23
 - `oxford.o3000.p07.004` — spider — homes: L14
-- `oxford.o3000.p07.051` — temperature — homes: L13
 - `oxford.o3000.p07.056` — thief — homes: L17
 
 ## U9-L05 — 2 introductions (A 2 / P 0 / G 0 / W 0 / Pron 0)
 
 ### Ability — 2
 
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.017` — Can follow the sequence of actions or events in a text on a familiar everyday topic. (P) — homes: C17
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.016` — Can identify key details in a simple recorded dialogue or narrative. (P) — homes: C17
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.010` — Can tell a story or describe something in a simple list of points. (C) — homes: C17
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.012` — Can write a simple story or description of an event using basic time expressions. (P) — homes: C17
 
-## U10-L01 — 38 introductions (A 4 / P 4 / G 10 / W 20 / Pron 0)
+## U10-L01 — 36 introductions (A 3 / P 4 / G 10 / W 19 / Pron 0)
 
-### Ability — 4
+### Ability — 3
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p09.001` — Can understand simple safety instructions, with visual support. (P) — homes: C18
-- `ability.gse_all_objectives.gse.adult.2022.a2.p10.012` — Can follow a simple series of written instructions to carry out a task. (P) — homes: C18
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.014` — Can give simple instructions to complete a basic task, given a model. (P) — homes: C18
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.002` — Can write basic instructions with a simple list of points. (P) — homes: C18
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.004` — Can understand rules and regulations (e.g. ‘safety’) if expressed in simple language. (C) — homes: C18
+- `ability.gse_all_objectives.gse.adult.2022.a2.p24.018` — Can give simple classroom instructions. (P) — homes: C18
 
 ### Phrase — 4
 
@@ -1932,7 +1921,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163710844x422781473749080900` — FORM: AFFIRMATIVE — homes: C18, C12
 - `egp.1741163716068x445742738976088800` — FORM: 'DO', IMPERATIVES — homes: C05, C09, C12, C16, C18, C25
 
-### Word — 20
+### Word — 19
 
 - `oxford.o3000.p04.156` — attack — homes: L17
 - `oxford.o3000.p04.193` — blank — homes: L30
@@ -1940,28 +1929,28 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p04.225` — cause — homes: L18
 - `oxford.o3000.p05.004` — correctly — homes: L30
 - `oxford.o3000.p05.038` — detective — homes: L17
-- `oxford.o3000.p05.039` — develop — homes: L18
-- `oxford.o3000.p05.083` — energy — homes: L18
+- `oxford.o3000.p05.051` — discovery — homes: L18
 - `oxford.o3000.p05.087` — enter — homes: L25
-- `oxford.o3000.p05.110` — factor — homes: L18
+- `oxford.o3000.p05.095` — evidence — homes: L18
+- `oxford.o3000.p05.232` — invention — homes: L18
 - `oxford.o3000.p05.261` — law — homes: L17
 - `oxford.o3000.p06.042` — movement — homes: L25
-- `oxford.o3000.p06.126` — power — homes: L18
 - `oxford.o3000.p06.131` — print — homes: L30
 - `oxford.o3000.p06.151` — push — homes: L25
+- `oxford.o3000.p06.159` — raise — homes: L18
 - `oxford.o3000.p06.211` — safe — homes: L17
 - `oxford.o3000.p06.246` — shut — homes: L25
-- `oxford.o3000.p07.024` — structure — homes: L18
 - `oxford.o3000.p07.046` — task — homes: L30
 - `oxford.o3000.p07.107` — war — homes: L17
 
-## U10-L02 — 41 introductions (A 3 / P 7 / G 9 / W 22 / Pron 0)
+## U10-L02 — 41 introductions (A 4 / P 7 / G 9 / W 21 / Pron 0)
 
-### Ability — 3
+### Ability — 4
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p10.003` — Can follow basic instructions on how to play a simple board game, if supported by pictures. (P) — homes: C18
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.004` — Can understand rules and regulations (e.g. ‘safety’) if expressed in simple language. (C) — homes: C18
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.017` — Can give a simple description of how to carry out an everyday process (e.g. ‘a recipe’). (P) — homes: C18
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.007` — Can write a description of a simple everyday process (e.g. ‘a recipe’). (P) — homes: C18
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.002` — Can write basic instructions with a simple list of points. (P) — homes: C18
 
 ### Phrase — 7
 
@@ -1985,28 +1974,27 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163712047x673355343552202160` — FORM/USE: WITH 'BY' TO ADD INFORMATION — homes: C18, C23, X02
 - `egp.1741163713633x426061404387356740` — FORM: QUESTIONS — homes: C05, C13, C18, X04
 
-### Word — 22
+### Word — 21
 
 - `oxford.o3000.p04.191` — biscuit — homes: L08
 - `oxford.o3000.p04.212` — button — homes: L30
 - `oxford.o3000.p04.215` — can2 — homes: L08
 - `oxford.o3000.p04.241` — circle — homes: L25
 - `oxford.o3000.p04.268` — connect — homes: L18
-- `oxford.o3000.p05.051` — discovery — homes: L18
-- `oxford.o3000.p05.084` — engine — homes: L18
+- `oxford.o3000.p05.072` — effect — homes: L18
 - `oxford.o3000.p05.090` — error — homes: L30
+- `oxford.o3000.p05.100` — exist — homes: L18
 - `oxford.o3000.p05.114` — fall — homes: L25
 - `oxford.o3000.p05.119` — fat — homes: L08
 - `oxford.o3000.p05.152` — fresh — homes: L08
-- `oxford.o3000.p05.215` — increase — homes: L18
+- `oxford.o3000.p06.030` — method — homes: L18
 - `oxford.o3000.p06.065` — nut — homes: L08
 - `oxford.o3000.p06.070` — onto — homes: L25
-- `oxford.o3000.p06.135` — process — homes: L18
 - `oxford.o3000.p06.162` — reach — homes: L25
 - `oxford.o3000.p06.169` — recipe — homes: L08
 - `oxford.o3000.p06.221` — schedule — homes: L30
+- `oxford.o3000.p07.024` — structure — homes: L18
 - `oxford.o3000.p07.040` — sweet — homes: L08
-- `oxford.o3000.p07.042` — system — homes: L18
 - `oxford.o3000.p07.061` — throw — homes: L25
 - `oxford.o3000.p07.065` — tool — homes: L30
 
@@ -2015,8 +2003,8 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 ### Ability — 3
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p10.009` — Can understand simple instructions on everyday equipment (e.g. ‘cash machines’). (Ca) — homes: C18
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.018` — Can give simple classroom instructions. (P) — homes: C18
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.007` — Can write a description of a simple everyday process (e.g. ‘a recipe’). (P) — homes: C18
+- `ability.gse_all_objectives.gse.adult.2022.a2.p10.012` — Can follow a simple series of written instructions to carry out a task. (P) — homes: C18
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.014` — Can give simple instructions to complete a basic task, given a model. (P) — homes: C18
 
 ### Phrase — 3
 
@@ -2030,26 +2018,25 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p04.253` — code — homes: L15
 - `oxford.o3000.p04.269` — connected — homes: L18
 - `oxford.o3000.p05.013` — cross — homes: L25
-- `oxford.o3000.p05.072` — effect — homes: L18
+- `oxford.o3000.p05.074` — electric — homes: L18
 - `oxford.o3000.p05.077` — electronic — homes: L15
-- `oxford.o3000.p05.095` — evidence — homes: L18
+- `oxford.o3000.p05.104` — expert — homes: L18
 - `oxford.o3000.p05.138` — fix — homes: L25
 - `oxford.o3000.p05.225` — instruction — homes: L30
-- `oxford.o3000.p05.231` — invent — homes: L18
 - `oxford.o3000.p06.089` — pass — homes: L25
+- `oxford.o3000.p06.126` — power — homes: L18
 - `oxford.o3000.p06.132` — printer — homes: L15
-- `oxford.o3000.p06.136` — produce — homes: L18
 - `oxford.o3000.p06.181` — remove — homes: L25
 - `oxford.o3000.p06.234` — series — homes: L30
+- `oxford.o3000.p07.042` — system — homes: L18
 - `oxford.o3000.p07.043` — tablet — homes: L15
 - `oxford.o3000.p07.067` — touch — homes: L25
 - `oxford.o3000.p07.095` — use — homes: L30
 
-## U10-L04 — 22 introductions (A 2 / P 3 / G 0 / W 17 / Pron 0)
+## U10-L04 — 21 introductions (A 1 / P 3 / G 0 / W 17 / Pron 0)
 
-### Ability — 2
+### Ability — 1
 
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.018` — Can understand a simple form asking for medical information (P) — homes: C19
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.007` — Can ask and talk about very basic symptoms and ailments (e.g. ‘cold’, ‘flu’). (P) — homes: C19
 
 ### Phrase — 3
@@ -2078,10 +2065,11 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.023` — stress — homes: L12
 - `oxford.o3000.p07.111` — weak — homes: L12
 
-## U10-L05 — 24 introductions (A 2 / P 3 / G 0 / W 19 / Pron 0)
+## U10-L05 — 25 introductions (A 3 / P 3 / G 0 / W 19 / Pron 0)
 
-### Ability — 2
+### Ability — 3
 
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.018` — Can understand a simple form asking for medical information (P) — homes: C19
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.020` — Can understand basic medical advice. (P) — homes: C19
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.018` — Can complete a simple form asking for medical information. (P) — homes: C19
 
@@ -2113,13 +2101,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.016` — stomach — homes: L12
 - `oxford.o3000.p07.104` — virus — homes: L12
 
-## U10-L06 — 8 introductions (A 3 / P 0 / G 0 / W 5 / Pron 0)
-
-### Ability — 3
-
-- `ability.gse_all_objectives.gse.adult.2022.a2.p24.005` — Can ask for repetition and clarification when they don’t understand, using basic fixed expressions. (P) — homes: C20
-- `ability.gse_all_objectives.gse.adult.2022.a2.p26.020` — Can ask for repetition or clarification on the phone in a simple way. (P) — homes: C20
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.023` — Can check or clarify information using some simple fixed expressions. (P) — homes: C20
+## U10-L06 — 5 introductions (A 0 / P 0 / G 0 / W 5 / Pron 0)
 
 ### Word — 5
 
@@ -2129,26 +2111,27 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.232` — sense — homes: L22
 - `oxford.o3000.p07.045` — target — homes: L22
 
-## U11-L01 — 42 introductions (A 6 / P 8 / G 7 / W 21 / Pron 0)
+## U11-L01 — 43 introductions (A 8 / P 7 / G 7 / W 21 / Pron 0)
 
-### Ability — 6
+### Ability — 8
 
+- `ability.gse_all_objectives.gse.adult.2022.a2.p10.001` — Can understand short, simple messages on postcards, emails and social networks. (Ca) — homes: C21
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.002` — Can understand short, simple personal emails and letters. (Ca) — homes: C21
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.023` — Can make excuses using basic fixed expressions. (P) — homes: X05
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.006` — Can use simple fixed expressions to give encouragement (e.g. ‘You can do it!’) (P) — homes: X05
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.022` — Can show interest in conversation using fixed expressions. (P) — homes: X05
+- `ability.gse_all_objectives.gse.adult.2022.a2.p38.004` — Can write a standard greeting on a card. (P) — homes: C21
+- `ability.gse_all_objectives.gse.adult.2022.a2.p38.016` — Can give an example of something in a very simple text using ‘like’ or ‘for example’. (P) — homes: X06
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.008` — Can write very simple personal emails/letters expressing thanks and apology. (Ca) — homes: C21
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.009` — Can write short, simple notes, emails and messages relating to everyday matters. (Ca) — homes: C21
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.011` — Can use appropriate openings and endings in simple informal emails. (P) — homes: X07
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.019` — Can rewrite a simple text to correct mistakes. (P) — homes: X07
 
-### Phrase — 8
+### Phrase — 7
 
 - `oxford.phrase.online.0096` — at the start of sth — homes: X06
 - `oxford.phrase.online.0249` — first of all — homes: X06
-- `oxford.phrase.online.0353` — I don't care — homes: X05
+- `oxford.phrase.online.0354` — I guess — homes: X05
 - `oxford.phrase.online.0444` — in this way — homes: X06
 - `oxford.phrase.online.0464` — let me know — homes: C21
-- `oxford.phrase.online.0506` — no way — homes: X05
-- `oxford.phrase.online.0517` — Oh well — homes: X05
+- `oxford.phrase.online.0515` — Oh dear — homes: X05
 - `oxford.phrase.online.0679` — the following… — homes: X06
 
 ### Grammar — 7
@@ -2189,8 +2172,8 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 ### Ability — 2
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p38.004` — Can write a standard greeting on a card. (P) — homes: C21
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.001` — Can write a simple email/letter in response to a request for information. (P) — homes: C21
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.010` — Can write a short, simple email/letter asking for information about an apartment or house to rent. (P) — homes: C21
 
 ### Phrase — 4
 
@@ -2203,50 +2186,54 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `egp.1741163715815x672882522886991900` — FORM/USE: 'SO', SUMMARISING, INFORMAL — homes: X06, X02
 
-## U11-L03 — 27 introductions (A 5 / P 2 / G 0 / W 20 / Pron 0)
+## U11-L03 — 28 introductions (A 8 / P 2 / G 0 / W 18 / Pron 0)
 
-### Ability — 5
+### Ability — 8
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p10.010` — Can read a simple text and extract factual details. (P) — homes: C22
+- `ability.gse_all_objectives.gse.adult.2022.a2.p10.011` — Can identify key information in short, simple factual texts from the headings and pictures. (P) — homes: C22
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.005` — Can identify specific information in simple letters, brochures and short articles. (Ca) — homes: C22
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.012` — Can identify specific information in a simple factual text. (P) — homes: C22
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.015` — Can scan a simple text, identifying the main topic(s). (P) — homes: C22
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.016` — Can understand simple details in informational texts  (blogs, websites, catalogues,  etc.). (P) — homes: C22
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.019` — Can understand the main information from simple diagrams (e.g. ‘graphs’, ‘bar charts’). (P) — homes: C22
-- `ability.gse_all_objectives.gse.adult.2022.a2.p15.005` — Can recognise phrases and content words related to familiar topics (e.g. ‘shopping’, ‘local geography’). (C) — homes: C22
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.017` — Can understand basic information in a short presentation. (P) — homes: C22
+- `ability.gse_all_objectives.gse.adult.2022.a2.p15.002` — Can identify simple information in a short video, provided that the visual supports this information and the delivery is slow and clear. (P) — homes: C22
 
 ### Phrase — 2
 
 - `oxford.phrase.online.0480` — look sth up — homes: C22
 - `oxford.phrase.online.0620` — search for sth/sb — homes: C22
 
-### Word — 20
+### Word — 18
 
 - `oxford.o3000.p04.115` — advertisement — homes: L16
 - `oxford.o3000.p04.232` — charity — homes: L19
 - `oxford.o3000.p04.256` — column — homes: L16
 - `oxford.o3000.p04.271` — contain — homes: L18
 - `oxford.o3000.p05.040` — device — homes: L15
-- `oxford.o3000.p05.074` — electric — homes: L18
-- `oxford.o3000.p05.100` — exist — homes: L18
-- `oxford.o3000.p05.204` — human — homes: L19
+- `oxford.o3000.p05.075` — electrical — homes: L18
+- `oxford.o3000.p05.110` — factor — homes: L18
 - `oxford.o3000.p05.210` — image — homes: L16
-- `oxford.o3000.p05.232` — invention — homes: L18
+- `oxford.o3000.p05.219` — industry — homes: L19
 - `oxford.o3000.p05.256` — laptop — homes: L15
-- `oxford.o3000.p06.073` — ordinary — homes: L19
+- `oxford.o3000.p06.121` — population — homes: L19
 - `oxford.o3000.p06.125` — poster — homes: L16
+- `oxford.o3000.p06.135` — process — homes: L18
 - `oxford.o3000.p06.140` — program — homes: L15
-- `oxford.o3000.p06.147` — public — homes: L19
-- `oxford.o3000.p06.150` — purpose — homes: L18
 - `oxford.o3000.p06.172` — record — homes: L16
 - `oxford.o3000.p06.224` — search — homes: L16
 - `oxford.o3000.p07.002` — speech — homes: L16
 - `oxford.o3000.p07.049` — technology — homes: L15
 
-## U11-L04 — 40 introductions (A 2 / P 6 / G 12 / W 20 / Pron 0)
+## U11-L04 — 44 introductions (A 5 / P 6 / G 12 / W 21 / Pron 0)
 
-### Ability — 2
+### Ability — 5
 
+- `ability.gse_all_objectives.gse.adult.2022.a2.p10.008` — Can understand the general meaning of short, simple informational material and descriptions if there is visual support. (Ca) — homes: C23
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.013` — Can understand simple factual titles and headlines relating to common events. (P) — homes: C23
 - `ability.gse_all_objectives.gse.adult.2022.a2.p16.009` — Can understand short, basic descriptions of familiar topics and situations, if delivered slowly and clearly. (P) — homes: C23
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.015` — Can generally identify the topic of discussion around them when conducted slowly and clearly. (C) — homes: C22
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.017` — Can understand basic information in a short presentation. (P) — homes: C22
 
 ### Phrase — 6
 
@@ -2272,22 +2259,23 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163715277x561147037910384640` — FORM: VERBS + INDIRECT OBJECT CLAUSE — homes: C23, C21, X02
 - `egp.1741163715277x859067269502848500` — FORM: VERBS + DIRECT OBJECT CLAUSE WITHOUT 'THAT' — homes: C23, C21, X02
 
-### Word — 20
+### Word — 21
 
 - `oxford.o3000.p04.116` — advertising — homes: L16
 - `oxford.o3000.p04.259` — comment — homes: L16
 - `oxford.o3000.p04.275` — control — homes: L18
 - `oxford.o3000.p05.011` — crime — homes: L17
+- `oxford.o3000.p05.023` — data — homes: L18
 - `oxford.o3000.p05.043` — digital — homes: L15
-- `oxford.o3000.p05.075` — electrical — homes: L18
-- `oxford.o3000.p05.104` — expert — homes: L18
+- `oxford.o3000.p05.076` — electricity — homes: L18
+- `oxford.o3000.p05.083` — energy — homes: L18
 - `oxford.o3000.p05.126` — fight — homes: L17
+- `oxford.o3000.p05.215` — increase — homes: L18
 - `oxford.o3000.p05.278` — link — homes: L16
-- `oxford.o3000.p06.030` — method — homes: L18
 - `oxford.o3000.p06.037` — mobile — homes: L15
 - `oxford.o3000.p06.068` — officer — homes: L17
+- `oxford.o3000.p06.136` — produce — homes: L18
 - `oxford.o3000.p06.139` — profile — homes: L16
-- `oxford.o3000.p06.159` — raise — homes: L18
 - `oxford.o3000.p06.173` — recording — homes: L16
 - `oxford.o3000.p06.223` — screen — homes: L15
 - `oxford.o3000.p06.248` — sign — homes: L16
@@ -2295,26 +2283,31 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.012` — state — homes: L16
 - `oxford.o3000.p07.097` — user — homes: L15
 
-## U11-L05 — 13 introductions (A 1 / P 0 / G 0 / W 12 / Pron 0)
+## U11-L05 — 18 introductions (A 1 / P 0 / G 0 / W 17 / Pron 0)
 
 ### Ability — 1
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.010` — Can make basic inferences in simple conversations on familiar everyday topics. (P) — homes: X03
 
-### Word — 12
+### Word — 17
 
 - `oxford.o3000.p04.146` — architecture — homes: L20
-- `oxford.o3000.p04.231` — character — homes: L20
 - `oxford.o3000.p04.261` — community — homes: L19
 - `oxford.o3000.p05.012` — criminal — homes: L17
+- `oxford.o3000.p05.088` — environment — homes: L13
+- `oxford.o3000.p05.105` — explanation — homes: L18
+- `oxford.o3000.p05.159` — gallery — homes: L20
 - `oxford.o3000.p05.176` — gun — homes: L17
-- `oxford.o3000.p05.219` — industry — homes: L19
-- `oxford.o3000.p05.246` — king — homes: L20
-- `oxford.o3000.p06.074` — organization — homes: L19
+- `oxford.o3000.p05.229` — international — homes: L19
+- `oxford.o3000.p06.048` — nature — homes: L13
+- `oxford.o3000.p06.093` — pattern — homes: L18
 - `oxford.o3000.p06.095` — peace — homes: L17
-- `oxford.o3000.p06.270` — social — homes: L19
+- `oxford.o3000.p06.147` — public — homes: L19
+- `oxford.o3000.p06.154` — queen — homes: L20
+- `oxford.o3000.p06.198` — rise — homes: L18
+- `oxford.o3000.p06.199` — rock (stone) — homes: L13
 - `oxford.o3000.p07.014` — steal — homes: L17
-- `oxford.o3000.p07.075` — tradition — homes: L20
+- `oxford.o3000.p07.116` — wet — homes: L13
 
 ## U11-L06 — 30 introductions (A 5 / P 0 / G 4 / W 21 / Pron 0)
 
@@ -2357,12 +2350,12 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.039` — survey — homes: L16
 - `oxford.o3000.p07.048` — teaching — homes: L06
 
-## U12-L01 — 27 introductions (A 2 / P 5 / G 0 / W 20 / Pron 0)
+## U12-L01 — 29 introductions (A 2 / P 5 / G 0 / W 22 / Pron 0)
 
 ### Ability — 2
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.006` — Can give a simple description of their school or workplace. (CSEa) — homes: C26
-- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.021` — Can write simple texts giving key information about their culture (e.g. ‘food’, ‘national holidays’, ‘festivals’). (CSEa) — homes: C26
+- `ability.gse_all_objectives.gse.adult.2022.a2.p25.022` — Can describe their home town or city using simple language. (P) — homes: C26
 
 ### Phrase — 5
 
@@ -2372,7 +2365,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.phrase.online.0554` — ordinary people — homes: C26
 - `oxford.phrase.online.0575` — police station — homes: C26
 
-### Word — 20
+### Word — 22
 
 - `oxford.o3000.p04.157` — attend — homes: L05
 - `oxford.o3000.p04.170` — bar — homes: LX-GENERAL
@@ -2383,11 +2376,13 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p05.080` — employer — homes: L05
 - `oxford.o3000.p05.125` — field — homes: LX-GENERAL
 - `oxford.o3000.p05.143` — focus — homes: L06
+- `oxford.o3000.p05.170` — government — homes: L19
 - `oxford.o3000.p05.242` — journalist — homes: L05
 - `oxford.o3000.p05.268` — lecture — homes: L06
 - `oxford.o3000.p05.270` — lend — homes: LX-GENERAL
 - `oxford.o3000.p06.015` — manager — homes: L05
 - `oxford.o3000.p06.021` — maths — homes: L06
+- `oxford.o3000.p06.047` — national — homes: L19
 - `oxford.o3000.p06.064` — number — homes: LX-GENERAL
 - `oxford.o3000.p06.138` — professor — homes: L05
 - `oxford.o3000.p06.189` — researcher — homes: L06
@@ -2395,11 +2390,11 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.278` — sort — homes: LX-GENERAL
 - `oxford.o3000.p07.052` — term — homes: L06
 
-## U12-L02 — 22 introductions (A 1 / P 4 / G 0 / W 17 / Pron 0)
+## U12-L02 — 24 introductions (A 1 / P 4 / G 0 / W 19 / Pron 0)
 
 ### Ability — 1
 
-- `ability.gse_all_objectives.gse.adult.2022.a2.p25.022` — Can describe their home town or city using simple language. (P) — homes: C26
+- `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.021` — Can write simple texts giving key information about their culture (e.g. ‘food’, ‘national holidays’, ‘festivals’). (CSEa) — homes: C26
 
 ### Phrase — 4
 
@@ -2408,48 +2403,47 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.phrase.online.0523` — on earth — homes: C26
 - `oxford.phrase.online.0574` — police officer — homes: C26
 
-### Word — 17
+### Word — 19
 
 - `oxford.o3000.p04.165` — award — homes: L20
+- `oxford.o3000.p04.226` — celebrate — homes: L20
 - `oxford.o3000.p05.069` — earth — homes: L13
 - `oxford.o3000.p05.135` — fish — homes: L14
 - `oxford.o3000.p05.145` — foreign — homes: L19
 - `oxford.o3000.p05.154` — frog — homes: L14
-- `oxford.o3000.p05.159` — gallery — homes: L20
-- `oxford.o3000.p05.229` — international — homes: L19
+- `oxford.o3000.p05.166` — god — homes: L20
+- `oxford.o3000.p05.189` — hero — homes: L20
 - `oxford.o3000.p06.038` — monkey — homes: L14
-- `oxford.o3000.p06.039` — moon — homes: L13
-- `oxford.o3000.p06.085` — palace — homes: L20
+- `oxford.o3000.p06.066` — ocean — homes: L13
+- `oxford.o3000.p06.073` — ordinary — homes: L19
 - `oxford.o3000.p06.111` — plant — homes: L14
-- `oxford.o3000.p06.121` — population — homes: L19
-- `oxford.o3000.p06.175` — reduce — homes: L13
-- `oxford.o3000.p06.271` — society — homes: L19
-- `oxford.o3000.p07.076` — traditional — homes: L20
-- `oxford.o3000.p07.110` — wave — homes: L13
+- `oxford.o3000.p06.129` — president — homes: L19
+- `oxford.o3000.p06.134` — prize — homes: L20
+- `oxford.o3000.p06.225` — season — homes: L13
+- `oxford.o3000.p06.270` — social — homes: L19
+- `oxford.o3000.p07.075` — tradition — homes: L20
+- `oxford.o3000.p07.092` — united — homes: L19
 - `oxford.o3000.p07.122` — wild — homes: L14
 
-## U12-L03 — 18 introductions (A 2 / P 0 / G 0 / W 16 / Pron 0)
+## U12-L03 — 15 introductions (A 2 / P 0 / G 0 / W 13 / Pron 0)
 
 ### Ability — 2
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.023` — Can read out a short, rehearsed statement (e.g. ‘introduce a speaker’, ‘propose a toast’). (Ca) — homes: X08
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.013` — Can make a short rehearsed announcement on a familiar topic. (Ca) — homes: X08
 
-### Word — 16
+### Word — 13
 
-- `oxford.o3000.p04.226` — celebrate — homes: L20
-- `oxford.o3000.p05.023` — data — homes: L18
-- `oxford.o3000.p05.076` — electricity — homes: L18
-- `oxford.o3000.p05.088` — environment — homes: L13
-- `oxford.o3000.p05.105` — explanation — homes: L18
-- `oxford.o3000.p05.166` — god — homes: L20
-- `oxford.o3000.p05.170` — government — homes: L19
-- `oxford.o3000.p06.047` — national — homes: L19
-- `oxford.o3000.p06.048` — nature — homes: L13
-- `oxford.o3000.p06.093` — pattern — homes: L18
-- `oxford.o3000.p06.129` — president — homes: L19
-- `oxford.o3000.p06.134` — prize — homes: L20
-- `oxford.o3000.p06.198` — rise — homes: L18
-- `oxford.o3000.p06.199` — rock (stone) — homes: L13
-- `oxford.o3000.p07.092` — united — homes: L19
-- `oxford.o3000.p07.116` — wet — homes: L13
+- `oxford.o3000.p04.227` — celebrity — homes: L20
+- `oxford.o3000.p05.039` — develop — homes: L18
+- `oxford.o3000.p05.084` — engine — homes: L18
+- `oxford.o3000.p05.116` — farm — homes: L13
+- `oxford.o3000.p05.204` — human — homes: L19
+- `oxford.o3000.p05.231` — invent — homes: L18
+- `oxford.o3000.p05.246` — king — homes: L20
+- `oxford.o3000.p06.074` — organization — homes: L19
+- `oxford.o3000.p06.110` — planet — homes: L13
+- `oxford.o3000.p06.150` — purpose — homes: L18
+- `oxford.o3000.p06.260` — sky — homes: L13
+- `oxford.o3000.p06.271` — society — homes: L19
+- `oxford.o3000.p07.076` — traditional — homes: L20
