@@ -9,7 +9,7 @@
     "units": 12,
     "lesson_slots": 83
   },
-  "decision": "The reviewed semantic/control lock, Stage-08.5 lifecycle/load reconciliation, complete 83-brief delivery blueprint, and whole-level critic jointly satisfy the curriculum lesson-design authorization gate. This authorizes the authoritative controlled-authoring contract only; it does not authorize lesson-package, audio, image, video, or other delivery production and does not modify or bypass TEST-002.",
+  "decision": "The reviewed semantic/control lock, Stage-08.5 lifecycle/load reconciliation, complete 83-brief delivery blueprint, whole-level critic, and final A1-parity curriculum audit jointly satisfy the curriculum lesson-design completion gate. This locks the A2 curriculum source of truth; downstream learner-facing lesson production remains a separate workstream and does not modify or bypass TEST-002.",
   "evidence_blobs": [
     {
       "path": "curriculum/levels/a2/design-review/06-coverage-ledger/generated/coverage-ledger.json",
@@ -47,5 +47,18 @@
     "whole_level_critic_complete": true,
     "structural_changes_required": 0,
     "semantic_reopenings_required": 0
+  },
+  "a1_parity_final_audit": {
+    "status": "closed",
+    "method_parity": true,
+    "standard_level_files_present": true,
+    "curriculum_map_locked": true,
+    "exact_coverage_complete": "1617/1617",
+    "lesson_slots_briefed": "83/83",
+    "human_semantic_queue": 0,
+    "role_aware_reconciliation_closed": true,
+    "deterministic_authorization_enabled": true,
+    "legacy_a1_candidate_artifacts_required": false,
+    "next_curriculum_level": "B1"
   }
 }
