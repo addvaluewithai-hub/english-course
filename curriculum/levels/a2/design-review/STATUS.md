@@ -1,179 +1,125 @@
 # A2 Design Review Status
 
-Status: **MILESTONE 3 CLOSED — SEMANTIC / MASTERY LOCK + ROLE-AWARE RECONCILIATION COMPLETE**
+Status: **MILESTONE 4 IN PROGRESS — DELIVERY BLUEPRINT / LESSON BRIEFS 43 / 83 COMPLETE**
 
-This is the session-independent A2 handoff. It records the current authoritative curriculum-design state and the next milestone boundary. It does **not** authorize lesson/script/media production.
+This is the session-independent A2 handoff. It records the authoritative curriculum-design state and the next work boundary. It does **not** authorize lesson/script/media production.
 
-## Locked source foundation
+## Locked foundation
 
 A2 reviewed source inventory:
 
-- abilities: **269 / 269** required rows manually reviewed
-- phrases: **176 / 176** manually reviewed
-- grammar: **291 / 291** manually reviewed into **46** usable systems/infrastructure families
-- words: **871 / 871** manually reviewed into lexical/content homes
-- pronunciation: **10 / 10** reviewed
+- abilities: **269 / 269**
+- phrases: **176 / 176**
+- grammar: **291 / 291** reviewed into **46** systems/infrastructure families
+- words: **871 / 871**
+- pronunciation: **10 / 10**
 - exact source records: **1,617 / 1,617**
 
-Architecture:
+Locked architecture:
 
 - **26** capability families
 - **9** cross-cutting requirements
 - **30** lexical/content sets plus frozen intentional general remainder
 - **12 units / 83 lesson slots**
 
-A1 remains cumulative prerequisite/retrieval evidence; A1 locked content was not silently edited.
+A1 remains cumulative prerequisite/retrieval evidence and was not silently edited.
 
 ## Milestone 1 — exact coverage CLOSED
 
-Stage-06 exact lifecycle ledger:
+Stage-06 lifecycle ledger remains complete:
 
-- source records scheduled: **1,617 / 1,617**
+- exact records: **1,617 / 1,617**
 - orphans: **0**
-- missing practice: **0**
-- missing fresh retrieval: **0**
-- missing recycle: **0**
-- missing consolidation: **0**
-- missing exit verification: **0**
+- missing practice/fresh retrieval/recycle/consolidation/exit verification: **0**
 - mechanical overloads: **0**
 - designated transfer/evidence lessons with new introductions: **0**
 
 ## Milestone 2 — load + sequence CLOSED
 
-The human lesson-by-lesson critic retained:
+Human lesson-by-lesson critic retained **12 units / 83 lesson slots** after explicit source-row routing and coherence review. Key distinctions remain locked: phone call vs phone message/repair; request vs permission vs opinion vs suggestion vs advice; travel/ticket/accommodation/reservation outcomes; future arrangements vs intentions/predictions; factual past/experience vs narrative; instructions vs health; correspondence vs factual-media/survey work.
 
-- **12 units**
-- **83 lesson slots**
-
-The main problems were source-row routing inside broad capabilities, not insufficient lesson count. Manual routing separated phone, travel/service, social-action, future, past/experience, narrative, instruction/health, information/media and local/cultural branches. `U1-L04` was cleaned of arbitrary general vocabulary and `U12-L03` became a true rehearsed-delivery slot with no new lexical/phrase/grammar load.
-
-Authoritative record:
-
-`06.5-load-sequence-lock/load-sequence-lock.md`
+Authoritative record: `06.5-load-sequence-lock/load-sequence-lock.md`.
 
 ## Milestone 3 — semantic / mastery lock CLOSED
 
-Stage 08 and Stage 08.5 assign and reconcile one explicit human-authored mastery role for every exact A2 source record.
+Every exact source record has one explicit human-authored role. Final counts:
 
-### Final exact semantic counts
+- abilities: **133 productive / 46 interactive / 74 receptive / 16 support**
+- phrases: **118 productive-formulaic / 28 receptive / 30 support**
+- grammar rows: **184 productive / 9 receptive / 98 support** across **30 productive / 14 support / 2 receptive systems**
+- words: **500 productive / 317 receptive / 54 support**
+- pronunciation: **1 receptive / 9 integrated support**
 
-#### Abilities — 269
+Semantic orphans: **0**. Automation-inferred semantic roles: **0**.
 
-- productive: **133**
-- interactive: **46**
-- receptive: **74**
-- integrated support: **16**
+Stage 08.5 retained the 83-slot architecture after role-aware load review. Important corrections included protecting U1-L03 from expanded question overloading and reducing U4-L04 to a bounded suggestion repertoire.
 
-#### Phrases — 176
+Authoritative records:
 
-- productive/formulaic: **118**
-- receptive/contextual: **28**
-- integrated support: **30**
+- `08-semantic-lock/`
+- `08.5-role-aware-critic/`
 
-#### Grammar — 291 rows / 46 systems
+## Milestone 4 — Delivery Blueprint / Lesson Briefs IN PROGRESS
 
-System-level:
+Authoritative working file:
 
-- productive bounded systems: **30**
-- integrated-support systems: **14**
-- receptive bounded systems: **2**
+`09-lesson-briefs/lesson-briefs.md`
 
-Expanded source rows:
+Completed manually with rolling human critic:
 
-- productive: **184**
-- integrated support: **98**
-- receptive: **9**
+- Unit 1 — **7 / 7** briefs
+- Unit 2 — **7 / 7** briefs
+- Unit 3 — **7 / 7** briefs
+- Unit 4 — **7 / 7** briefs
+- Unit 5 — **7 / 7** briefs
+- Unit 6 — **8 / 8** briefs
 
-#### Words — 871
+Current total: **43 / 83 lesson briefs** and **6 / 12 unit-level rolling critics**.
 
-- productive/contextual: **500**
-- integrated support: **54**
-- receptive/contextual: **317**
+Each completed brief distinguishes:
 
-The productive word count was deliberately reduced during Stage 08.5 after role-aware review showed that some topic breadth, meta-language, optional synonyms and factual vocabulary should remain receptive rather than become fake output obligations.
+- primary communicative/evidence outcome;
+- foreground productive/formulaic language;
+- receptive/contextual input;
+- embedded grammar/discourse/pronunciation support;
+- learning shape;
+- evidence/transfer task;
+- explicit authoring prohibitions where a likely failure mode exists.
 
-#### Pronunciation — 10
+Current Milestone-4 critic result:
 
-- receptive sound perception: **1**
-- integrated intelligibility/performance support: **9**
+- structural changes triggered: **0**
+- semantic-lock contradictions triggered: **0**
+- lesson splits/merges triggered: **0**
+- locked **12-unit / 83-slot** architecture remains valid through Unit 6.
 
-### Stage 08.5 critic result
+Notable authoring safeguards already locked in the briefs:
 
-The role-aware critic retained the **83-slot architecture** after exact semantic compression and human review.
+- U1-L03 stays interview-first, not grammar-first.
+- U1-L04 remains zero-active-lexis so phone mechanics stay visible.
+- U2-L02 uses a controlled personality/feelings core; receptive breadth stays receptive.
+- U3-L06 is reference/clarity work, not a hidden relative-clause lesson.
+- U4-L04 stays deliberately narrow after Stage 08.5 and must not be re-inflated.
+- U5-L06 is information retrieval, not a kitchen/service vocabulary dump.
+- U6 keeps static location, asking directions, giving/following directions, transport information, ticket/tourist exchange, accommodation and phone reservation as distinct success conditions.
 
-Key corrections:
+## Next session — finish Milestone 4
 
-- U1-L03 kept core background-question resources; expanded question functions moved later to contexts that require them.
-- U4-L04 was reduced from a mixed high-load lesson to a bounded suggestion repertoire.
-- optional productive lexical breadth was demoted where independent production was not required.
-- productive words/chunks were moved to the performance that naturally needs them.
-- all remaining high active-load lessons were manually reviewed as coherent performance systems rather than accepted by raw count alone.
+Continue **only** in the existing file `09-lesson-briefs/lesson-briefs.md`.
 
-Examples after the final critic:
+Required next work:
 
-- `U1-L03`: approx **13** teaching objects
-- `U4-L04`: approx **6** teaching objects
-- `U11-L04`: approx **10** active teaching objects despite a high raw source-row count
+1. Write Units **7–12** manually — remaining **40 lesson briefs**.
+2. Run a rolling human critic after each unit.
+3. Run one whole-level critic across all 83 briefs.
+4. Reopen Stage 06/08 only if authoring evidence exposes a genuine contradiction; do not silently change locked decisions.
+5. If all 83 briefs remain coherent, close Milestone 4 and then evaluate the later lesson-design authorization gate separately.
 
-No remaining hotspot justified a lesson split or an increase beyond 83 slots.
-
-Authoritative Stage-08/08.5 records:
-
-- `08-semantic-lock/README.md`
-- `08-semantic-lock/semantic-decisions.json`
-- `08-semantic-lock/generated/semantic-role-ledger.json`
-- `08-semantic-lock/generated/semantic-role-report.md`
-- `08-semantic-lock/generated/active-load-aid.md`
-- `08.5-role-aware-critic/overrides.json`
-- `08.5-role-aware-critic/critic-decisions-v1.md`
-
-## Validation at Milestone-3 close
-
-Human Stage-08.5 commit:
-
-`1dbcbf636a8db9d659b4705592bbb6abeb5e2c0b`
-
-GitHub checks on that commit: **4 / 4 successful**, including semantic audit and repository build/audit checks.
-
-Semantic audit guarantees:
-
-- exact records assigned: **1,617 / 1,617**
-- semantic orphans: **0**
-- automation-inferred semantic roles: **0**
-- exact Stage-06 lifecycle remains complete
-- 83-slot architecture remains mechanically valid
-
-## Important boundary
-
-A2 `lesson_design_authorized` remains **false**.
-
-Milestone 3 closes the curriculum mastery contract. It does **not** authorize mass lesson/script/media production and does not touch `main` or `TEST-002`.
-
-## Next session — Milestone 4: Delivery Blueprint / Lesson Briefs
-
-Start only after reading this `STATUS.md` plus the Stage-08.5 critic record.
-
-Required process:
-
-1. Keep the locked **12-unit / 83-slot** architecture unless lesson-authoring evidence exposes a genuine contradiction.
-2. Build lesson authoring briefs manually, not by auto-generating pedagogy from the ledger.
-3. For each lesson distinguish:
-   - primary communicative/evidence outcome;
-   - foreground productive/formulaic language;
-   - receptive/contextual input;
-   - embedded grammar/discourse/pronunciation support;
-   - fresh retrieval and later recycle;
-   - evidence task / transfer requirement.
-4. Do not treat source-row count as the number of teaching objectives.
-5. Run a rolling human critic after each unit/batch, then a whole-level critic.
-6. If a brief contradicts the locked semantic role or lifecycle, reopen the relevant decision explicitly and rerun audits; do not silently override the lock.
-7. Do not authorize production packages/media until the later manifest/delivery gate is legitimately satisfied.
-
-## Branch / safety boundaries
+## Boundaries
 
 - Branch: `curriculum/level-source-of-truth-v1`
-- `main` remains untouched.
+- `main` untouched.
 - A1 remains locked.
-- A2 manifest `lesson_design_authorized` remains `false` until later authorization.
-- `TEST-002` remains separate and untouched.
-- Next workstream is **Milestone 4 only**.
+- A2 `lesson_design_authorized` remains **false** during this checkpoint.
+- `TEST-002` / delivery-production gate remains separate and untouched.
+- No lesson scripts or media production yet.
