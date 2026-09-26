@@ -3,17 +3,17 @@
 Status: **STAGE 05 COMPLETE — BASELINE MAP FOR EXACT LEDGER; NOT A COMMERCIAL/FIXED LESSON COUNT**  
 Level: **B1**  
 Reviewed architecture: **20 capability families + 8 cross-cutting requirements**  
-Baseline shape emerging from manual mapping: **12 units / 84 lesson slots**
+Baseline shape emerging from manual mapping: **12 units / 85 lesson slots**
 
 This map was built manually after reviewing all B1 abilities, phrases, grammar systems, lexical/content homes, pronunciation, B1 exit requirements and locked A2 carry-forward. It does **not** copy A1’s 10/62 or A2’s 12/83 shape, and no target lesson count was supplied before mapping.
 
-The **84-slot** baseline emerged from separating the B1 performance boundaries that need independent introduction/practice/evidence while preserving unit-end fresh retrieval and the three explicit B1 exit requirements. Stage 06 exact source-record/load/lifecycle evidence may still move, merge or split slots.
+The **85-slot** baseline emerged from separating the B1 performance boundaries that need independent introduction/practice/evidence while preserving unit-end fresh retrieval and the three explicit B1 exit requirements. Stage 06 exact source-record/load/lifecycle evidence may still move, merge or split slots.
 
 ## Shape accounting
 
 - **12 units**
-- **84 lesson slots total**
-- **68 instructional / focused-retrieval slots**
+- **85 lesson slots total**
+- **69 instructional / focused-retrieval slots**
 - **11 unit-end fresh-transfer slots**
 - **5 final integration / exit-evidence slots**
 - unit sizes vary from **5 to 9** lessons because capability complexity and dependency load vary
@@ -348,8 +348,8 @@ New practical text or scenario: interpret instructions → explain/record needed
 
 ---
 
-# Unit 10 — Explain and Present Familiar Topics
-**6 slots**  
+# Unit 10 — Explain, Write, and Present Familiar Topics
+**7 slots**  
 Primary capabilities: **C10, C11, C20**.  
 Cross-cutting: X02, X03, X08; pronunciation P06–P10.  
 Lexical content may come from work/study, culture, environment, science, leisure or another familiar domain without creating a topic capability.
@@ -362,19 +362,22 @@ Choose a clear main point/order and connect supporting facts/examples without tr
 ### U10-L02 — Explain cause, result, comparison and examples clearly
 Use X02/X03 relationships and X08 reference so the listener can follow how ideas connect.
 
-### U10-L03 — Take useful notes and plan a short presentation
+### U10-L03 — Write a short review or familiar-topic essay
+Organise a straightforward connected written response with a clear viewpoint/main point, supporting reasons/examples, paragraphing and reference. This gives C18 review/simple-essay writing an explicit instructional home rather than hiding genre work inside transfer.
+
+### U10-L04 — Take useful notes and plan a short presentation
 Extract key points from a clear familiar source/talk, select what to include and create brief speaking notes rather than a full script.
 
-### U10-L04 — Deliver a short presentation intelligibly
+### U10-L05 — Deliver a short presentation intelligibly
 Use prominence, word stress, chunking and audience-facing organisation; accent imitation is not required.
 
-### U10-L05 — Handle straightforward audience questions
+### U10-L06 — Handle straightforward audience questions
 Understand a factual follow-up, clarify/rephrase if needed and answer briefly without reading a prepared paragraph.
 
-### U10-L06 — Fresh presentation + Q&A transfer
+### U10-L07 — Fresh presentation + Q&A transfer
 New familiar topic/source set: plan from notes → present → answer questions → repair one unclear point. **Zero planned new required content.**
 
-**Unit critic:** presentation is not generic speaking; notes, audience structure, intelligibility and Q&A create a real evidence boundary.
+**Unit critic:** C18 review/essay writing now has an explicit instructional home; presentation remains distinct from generic speaking, with notes, audience structure, intelligibility and Q&A as its evidence boundary.
 
 ---
 
@@ -456,7 +459,7 @@ A2 systems are retrieved before B1 expansions. Comparison/reason resources prece
 Environment, public life, science, culture, business and sport appear as contexts across U3–U6/U10/U11 rather than becoming content-only units.
 
 ## 7. Writing is distributed by genre
-Narrative writing lives in U4, practical writing in U9, presentation notes in U10, correspondence/online interaction in U11, and reasoned/source-based writing can appear in U3/U6/U12. No single final “writing unit” carries the whole obligation.
+Narrative writing lives in U4, practical writing in U9, review/simple-essay writing and presentation notes live explicitly in U10, correspondence/online interaction in U11, and reasoned/source-based writing can also recur in U3/U6/U12. No single final “writing unit” carries the whole obligation.
 
 ## 8. Pronunciation is distributed
 Connected-speech perception starts U1/U5; prominence/chunking becomes explicit in U10; grammatical endings/stress attach to narrative/explanation; intonation/repair recur in interaction. No isolated pronunciation chapter.
@@ -465,7 +468,7 @@ Connected-speech perception starts U1/U5; prominence/chunking becomes explicit i
 All 11 unit-end transfers and all 5 U12 integration slots are explicitly **zero planned new content**. Stage 06 exact ledger must fail if required new records leak into them.
 
 ## 10. Count honesty
-The **12-unit / 84-slot** shape is a consequence of the current human performance/dependency map. It is not protected for product symmetry. Stage 06 may split/merge/move slots when exact source-record load or lifecycle evidence provides a concrete reason.
+The **12-unit / 85-slot** shape is a consequence of the current human performance/dependency map. It is not protected for product symmetry. Stage 06 may split/merge/move slots when exact source-record load or lifecycle evidence provides a concrete reason.
 
 # Stage-05 verdict
 
@@ -476,6 +479,6 @@ Current B1 design state entering Stage 06:
 - complete reviewed new-at-level source inventory: **1,581 records**;
 - ability architecture: **20 capabilities + 8 cross-cutting requirements**;
 - lexical homes: **809 / 809 exact; 0 orphans**;
-- baseline curriculum map: **12 units / 84 lesson slots**;
+- baseline curriculum map: **12 units / 85 lesson slots**;
 - designated zero-new slots: **16** (11 unit transfers + 5 final integration);
 - A2 remains locked prerequisite/retrieval and unedited.
