@@ -15,8 +15,8 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 
 ## Lifecycle completeness
 
-- records missing `practice`: **6**
-- records missing `fresh_retrieval`: **4**
+- records missing `practice`: **0**
+- records missing `fresh_retrieval`: **0**
 - records missing `recycle`: **0**
 - records missing `consolidate`: **0**
 - records missing `exit_verify`: **0**
@@ -34,10 +34,10 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 | U1-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U2-L01 | 5 | 2 | 0 | 19 | 1 | 27 |
 | U2-L02 | 5 | 2 | 10 | 19 | 1 | 37 |
-| U2-L03 | 10 | 8 | 6 | 16 | 0 | 40 |
-| U2-L04 | 10 | 5 | 7 | 14 | 0 | 36 |
-| U2-L05 | 7 | 2 | 5 | 15 | 2 | 31 |
-| U2-L06 | 8 | 4 | 1 | 0 | 0 | 13 |
+| U2-L03 | 9 | 8 | 6 | 16 | 0 | 39 |
+| U2-L04 | 9 | 5 | 7 | 14 | 0 | 35 |
+| U2-L05 | 8 | 2 | 5 | 15 | 2 | 32 |
+| U2-L06 | 9 | 4 | 1 | 0 | 0 | 14 |
 | U2-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U3-L01 | 3 | 3 | 10 | 16 | 0 | 32 |
 | U3-L02 | 6 | 6 | 10 | 20 | 0 | 42 |
@@ -58,7 +58,7 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 | U5-L03 | 1 | 1 | 7 | 8 | 0 | 17 |
 | U5-L04 | 2 | 1 | 0 | 10 | 0 | 13 |
 | U5-L05 | 5 | 1 | 0 | 2 | 0 | 8 |
-| U5-L06 | 3 | 2 | 0 | 18 | 0 | 23 |
+| U5-L06 | 3 | 2 | 0 | 19 | 0 | 24 |
 | U5-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U6-L01 | 1 | 5 | 2 | 13 | 0 | 21 |
 | U6-L02 | 1 | 4 | 2 | 17 | 0 | 24 |
@@ -84,11 +84,11 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 | U9-L01 | 2 | 1 | 2 | 5 | 0 | 10 |
 | U9-L02 | 2 | 0 | 2 | 12 | 0 | 16 |
 | U9-L03 | 2 | 4 | 6 | 14 | 0 | 26 |
-| U9-L04 | 8 | 7 | 0 | 20 | 0 | 35 |
+| U9-L04 | 8 | 7 | 0 | 22 | 0 | 37 |
 | U9-L05 | 2 | 0 | 0 | 0 | 0 | 2 |
 | U9-L06 | 0 | 0 | 0 | 0 | 0 | 0 |
-| U10-L01 | 3 | 4 | 10 | 19 | 0 | 36 |
-| U10-L02 | 4 | 7 | 9 | 21 | 0 | 41 |
+| U10-L01 | 3 | 4 | 10 | 20 | 0 | 37 |
+| U10-L02 | 4 | 7 | 9 | 22 | 0 | 42 |
 | U10-L03 | 3 | 3 | 0 | 18 | 0 | 24 |
 | U10-L04 | 1 | 3 | 0 | 17 | 0 | 21 |
 | U10-L05 | 3 | 3 | 0 | 19 | 0 | 25 |
@@ -96,14 +96,14 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 | U10-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U11-L01 | 8 | 7 | 7 | 21 | 0 | 43 |
 | U11-L02 | 2 | 4 | 1 | 0 | 0 | 7 |
-| U11-L03 | 8 | 2 | 0 | 18 | 0 | 28 |
-| U11-L04 | 5 | 6 | 12 | 21 | 0 | 44 |
-| U11-L05 | 1 | 0 | 0 | 17 | 0 | 18 |
+| U11-L03 | 8 | 2 | 0 | 20 | 0 | 30 |
+| U11-L04 | 5 | 6 | 12 | 22 | 0 | 45 |
+| U11-L05 | 1 | 0 | 0 | 19 | 0 | 20 |
 | U11-L06 | 5 | 0 | 4 | 21 | 0 | 30 |
 | U11-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U12-L01 | 2 | 5 | 0 | 22 | 0 | 29 |
-| U12-L02 | 1 | 4 | 0 | 19 | 0 | 24 |
-| U12-L03 | 2 | 0 | 0 | 13 | 0 | 15 |
+| U12-L02 | 1 | 4 | 0 | 22 | 0 | 27 |
+| U12-L03 | 2 | 0 | 0 | 0 | 0 | 2 |
 | U12-L04 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U12-L05 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U12-L06 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -111,29 +111,12 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 
 ## Mechanical load result
 
-**OVERLOADS FOUND — human scheduling revision required; do not raise thresholds merely to pass.**
-- U2-L03: ability = 10 > 9
-- U2-L04: ability = 10 > 9
+**PASS — no mechanical introduction threshold exceeded.**
 
 ## Transfer / evidence lessons with new source introductions
 
 **PASS — all designated transfer/evidence lessons are zero-new.**
 
-## Overload attribution
-
-### U2-L03
-- **ability (10)**: Can understand short, simple texts about everyday activities. (P); Can understand information related to people’s daily routines. (P); Can talk about everyday things (e.g. ‘people’, ‘places’, ‘job’, ‘study’) in a basic way. (Ca); Can describe their daily routines in a simple way. (P); Can describe people’s everyday lives using a short series of simple phrases and sentences. (Ca); Can say how often they and others do common everyday activities, using basic frequency expressions (e.g. ‘every Monday’, ‘twice a month’). (P); Can ask and answer questions about habits and routines. (C); Can describe habits and routines. (Ca); Can use very basic connectors like ‘and’, ‘but’, ‘so’ and ‘then’. (Ca); Can write about everyday things (e.g. ‘people’, ‘places’, ‘job, study’) in linked sentences. (Ca)
-- **phrase (8)**: again and again; as a result; at the time of sth; for the rest of sth; lead to sth; look after sb/sth/yourself; they say…; work out
-- **grammar (6)**: USE: TIME; USE: FREQUENCY; FORM: TIME  and SEQUENCING, MODIFYING CLAUSES; FORM: END POSITION, MANNER; FORM: AFFIRMATIVE; FORM: NEGATIVE
-- **word (16)**: active; actually; asleep; based; everyday; formal; including; last1 (taking time); normal; rather; regular; run; sleep; typical; wash; yet
-
-### U2-L04
-- **ability (10)**: Can understand the main information in simple conversations about hobbies and interests. (P); Can describe a person’s hobbies and activities using simple language. (P); Can ask someone about their hobbies and activities using simple language. (P); Can express their likes and dislikes in relation to familiar topics using simple language. (P); Can express general preferences using basic fixed expressions. (P); Can say what they like and dislike. (C); Can give simple reasons to explain preferences, given a model. (P); Can explain what they like or dislike about something. (C); Can write short texts about their likes and dislikes using basic fixed expressions. (P); Can write short texts about their likes and dislikes, with explanations. (CSEa)
-- **phrase (5)**: a bit; all the time; find it difficult to do sth; it depends; science fiction
-- **grammar (7)**: FORM: NEGATIVE; FORM: AFFIRMATIVE; USE: WISHES AND PREFERENCES; FORM: VERBS + 'TO'-INFINITIVE OR + '-ING'; FORM: 'ENJOY' + '-ING'; FORM/USE: 'WOULD LOVE' + 'TO'; FORM: VERB + 'TO'- INFINITIVE
-- **word (14)**: athlete; camp; classical; drama; fiction; fun; instrument; laughter; novel; race (competition); sailing; ski; stage; trainer
-
-
 ## Audit verdict
 
-**FAIL — 10 lifecycle-stage gaps require manual plan revision.**
+**PASS — exact source coverage and provisional lifecycle are complete with no mechanical overloads. Human load critic is still required before Stage 07.**
