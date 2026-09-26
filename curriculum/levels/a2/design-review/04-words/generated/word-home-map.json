@@ -6,37 +6,37 @@
   "record_count": 871,
   "default_home": "LX-GENERAL",
   "home_counts": {
-    "L01": 11,
-    "L02": 29,
-    "L03": 23,
-    "L04": 16,
-    "L05": 25,
-    "L06": 19,
-    "L07": 33,
-    "L08": 19,
-    "L09": 8,
-    "L10": 28,
-    "L11": 24,
-    "L12": 26,
-    "L13": 22,
-    "L14": 9,
+    "L01": 18,
+    "L02": 43,
+    "L03": 27,
+    "L04": 20,
+    "L05": 33,
+    "L06": 26,
+    "L07": 41,
+    "L08": 22,
+    "L09": 11,
+    "L10": 33,
+    "L11": 37,
+    "L12": 33,
+    "L13": 33,
+    "L14": 10,
     "L15": 17,
-    "L16": 21,
-    "L17": 15,
-    "L18": 23,
-    "L19": 13,
-    "L20": 10,
-    "L21": 27,
-    "L22": 21,
-    "L23": 13,
-    "L24": 26,
-    "L25": 21,
-    "L26": 14,
-    "L27": 16,
-    "L28": 21,
-    "L29": 18,
-    "L30": 12,
-    "LX-GENERAL": 291
+    "L16": 29,
+    "L17": 18,
+    "L18": 32,
+    "L19": 16,
+    "L20": 15,
+    "L21": 40,
+    "L22": 28,
+    "L23": 23,
+    "L24": 44,
+    "L25": 30,
+    "L26": 17,
+    "L27": 22,
+    "L28": 32,
+    "L29": 23,
+    "L30": 15,
+    "LX-GENERAL": 83
   },
   "records": [
     {
@@ -84,8 +84,8 @@
       "headword": "according to",
       "part_of_speech": "prep.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L28",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.107",
@@ -172,8 +172,8 @@
       "headword": "affect",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.118",
@@ -196,8 +196,8 @@
       "headword": "ah",
       "part_of_speech": "exclam.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.121",
@@ -212,24 +212,24 @@
       "headword": "alive",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.123",
       "headword": "all",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.124",
       "headword": "all right",
       "part_of_speech": "adj./adv., exclam.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.125",
@@ -244,8 +244,8 @@
       "headword": "almost",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.127",
@@ -332,16 +332,16 @@
       "headword": "anybody",
       "part_of_speech": "pron.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L29",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.138",
       "headword": "any more",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L28",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.139",
@@ -356,8 +356,8 @@
       "headword": "anywhere",
       "part_of_speech": "adv., pron.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L29",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.141",
@@ -388,8 +388,8 @@
       "headword": "apply",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.145",
@@ -452,8 +452,8 @@
       "headword": "as",
       "part_of_speech": "adv., conj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L28",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.153",
@@ -492,16 +492,16 @@
       "headword": "attend",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.158",
       "headword": "attention",
       "part_of_speech": "n., exclam.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.159",
@@ -572,8 +572,8 @@
       "headword": "back",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.168",
@@ -588,8 +588,8 @@
       "headword": "badly",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.170",
@@ -612,8 +612,8 @@
       "headword": "based",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L28",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.173",
@@ -644,8 +644,8 @@
       "headword": "beat",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.177",
@@ -692,8 +692,8 @@
       "headword": "belt",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.183",
@@ -708,24 +708,24 @@
       "headword": "best",
       "part_of_speech": "adv., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.185",
       "headword": "better",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.186",
       "headword": "between",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.187",
@@ -740,8 +740,8 @@
       "headword": "bin",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.189",
@@ -772,8 +772,8 @@
       "headword": "bit",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.193",
@@ -796,8 +796,8 @@
       "headword": "blow",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.196",
@@ -852,8 +852,8 @@
       "headword": "bottom",
       "part_of_speech": "n., adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.203",
@@ -908,16 +908,16 @@
       "headword": "brush",
       "part_of_speech": "v., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.210",
       "headword": "burn",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.211",
@@ -956,8 +956,8 @@
       "headword": "can",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.216",
@@ -972,8 +972,8 @@
       "headword": "careful",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.218",
@@ -1028,8 +1028,8 @@
       "headword": "catch",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.225",
@@ -1044,8 +1044,8 @@
       "headword": "celebrate",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.227",
@@ -1084,8 +1084,8 @@
       "headword": "character",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.232",
@@ -1164,8 +1164,8 @@
       "headword": "circle",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.242",
@@ -1188,8 +1188,8 @@
       "headword": "clearly",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L28",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.245",
@@ -1212,24 +1212,24 @@
       "headword": "close",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.248",
       "headword": "closed",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.249",
       "headword": "clothing",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.250",
@@ -1356,8 +1356,8 @@
       "headword": "completely",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.266",
@@ -1372,8 +1372,8 @@
       "headword": "conference",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.268",
@@ -1396,16 +1396,16 @@
       "headword": "consider",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.271",
       "headword": "contain",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.272",
@@ -1436,8 +1436,8 @@
       "headword": "control",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p04.276",
@@ -1484,8 +1484,8 @@
       "headword": "count",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.006",
@@ -1572,8 +1572,8 @@
       "headword": "cry",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.017",
@@ -1596,8 +1596,8 @@
       "headword": "cycle",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.020",
@@ -1636,8 +1636,8 @@
       "headword": "dead",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.025",
@@ -1652,16 +1652,16 @@
       "headword": "dear",
       "part_of_speech": "exclam.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.027",
       "headword": "death",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.028",
@@ -1716,16 +1716,16 @@
       "headword": "depend",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.035",
       "headword": "desert",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.036",
@@ -1740,8 +1740,8 @@
       "headword": "destroy",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.038",
@@ -1780,8 +1780,8 @@
       "headword": "differently",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.043",
@@ -1796,24 +1796,24 @@
       "headword": "direct",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.045",
       "headword": "direction",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.046",
       "headword": "director",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.047",
@@ -1828,16 +1828,16 @@
       "headword": "disappear",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.049",
       "headword": "disaster",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.050",
@@ -1940,16 +1940,16 @@
       "headword": "dream",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.063",
       "headword": "drive",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.064",
@@ -1988,8 +1988,8 @@
       "headword": "earn",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.069",
@@ -2004,8 +2004,8 @@
       "headword": "easily",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.071",
@@ -2188,16 +2188,16 @@
       "headword": "everyday",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.094",
       "headword": "everywhere",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.095",
@@ -2212,16 +2212,16 @@
       "headword": "exact",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.097",
       "headword": "exactly",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.098",
@@ -2236,16 +2236,16 @@
       "headword": "except",
       "part_of_speech": "prep.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L28",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.100",
       "headword": "exist",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.101",
@@ -2276,16 +2276,16 @@
       "headword": "expert",
       "part_of_speech": "n.,adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.105",
       "headword": "explanation",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.106",
@@ -2372,40 +2372,40 @@
       "headword": "farm",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.117",
       "headword": "farming",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.118",
       "headword": "fashion",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.119",
       "headword": "fat",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.120",
       "headword": "fear",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.121",
@@ -2420,16 +2420,16 @@
       "headword": "feed",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.123",
       "headword": "female",
       "part_of_speech": "adj., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.124",
@@ -2452,8 +2452,8 @@
       "headword": "fight",
       "part_of_speech": "v., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L17",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.127",
@@ -2524,8 +2524,8 @@
       "headword": "fish",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.136",
@@ -2540,16 +2540,16 @@
       "headword": "fit",
       "part_of_speech": "v., adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.138",
       "headword": "fix",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.139",
@@ -2588,8 +2588,8 @@
       "headword": "focus",
       "part_of_speech": "v., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.144",
@@ -2604,8 +2604,8 @@
       "headword": "foreign",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.146",
@@ -2628,8 +2628,8 @@
       "headword": "formal",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L28",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.149",
@@ -2644,16 +2644,16 @@
       "headword": "forward",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.151",
       "headword": "free",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.152",
@@ -2684,8 +2684,8 @@
       "headword": "fun",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.156",
@@ -2700,16 +2700,16 @@
       "headword": "further",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L28",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.158",
       "headword": "future",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L28",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.159",
@@ -2772,8 +2772,8 @@
       "headword": "god",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.167",
@@ -2860,8 +2860,8 @@
       "headword": "guy",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.178",
@@ -2892,8 +2892,8 @@
       "headword": "happily",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.182",
@@ -2956,8 +2956,8 @@
       "headword": "hero",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.190",
@@ -2980,16 +2980,16 @@
       "headword": "hide",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.193",
       "headword": "high",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.194",
@@ -3020,8 +3020,8 @@
       "headword": "hit",
       "part_of_speech": "v., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.198",
@@ -3036,8 +3036,8 @@
       "headword": "hold",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.200",
@@ -3060,8 +3060,8 @@
       "headword": "hope",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.203",
@@ -3076,8 +3076,8 @@
       "headword": "human",
       "part_of_speech": "adj., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.205",
@@ -3100,8 +3100,8 @@
       "headword": "identify",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.208",
@@ -3140,16 +3140,16 @@
       "headword": "impossible",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.213",
       "headword": "included",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L28",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.214",
@@ -3180,16 +3180,16 @@
       "headword": "independent",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.218",
       "headword": "individual",
       "part_of_speech": "n., adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.219",
@@ -3204,8 +3204,8 @@
       "headword": "informal",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L28",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.221",
@@ -3260,8 +3260,8 @@
       "headword": "instrument",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.228",
@@ -3284,8 +3284,8 @@
       "headword": "introduction",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.231",
@@ -3308,16 +3308,16 @@
       "headword": "invitation",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.234",
       "headword": "invite",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.235",
@@ -3340,8 +3340,8 @@
       "headword": "itself",
       "part_of_speech": "pron.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L29",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.238",
@@ -3364,16 +3364,16 @@
       "headword": "jewellery",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.241",
       "headword": "joke",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.242",
@@ -3396,16 +3396,16 @@
       "headword": "kid",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.245",
       "headword": "kill",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L17",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.246",
@@ -3428,16 +3428,16 @@
       "headword": "knife",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.249",
       "headword": "knock",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.250",
@@ -3460,8 +3460,8 @@
       "headword": "lady",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.253",
@@ -3484,8 +3484,8 @@
       "headword": "land",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.256",
@@ -3524,8 +3524,8 @@
       "headword": "laughter",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.261",
@@ -3556,16 +3556,16 @@
       "headword": "lead",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.265",
       "headword": "leader",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.266",
@@ -3620,8 +3620,8 @@
       "headword": "level",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.273",
@@ -3668,8 +3668,8 @@
       "headword": "link",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p05.279",
@@ -3716,8 +3716,8 @@
       "headword": "lost",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.005",
@@ -3748,8 +3748,8 @@
       "headword": "low",
       "part_of_speech": "adj., adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.009",
@@ -3772,8 +3772,8 @@
       "headword": "mail",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.012",
@@ -3788,16 +3788,16 @@
       "headword": "male",
       "part_of_speech": "adj., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.014",
       "headword": "manage",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.015",
@@ -3812,8 +3812,8 @@
       "headword": "manner",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.017",
@@ -3860,8 +3860,8 @@
       "headword": "matter",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.023",
@@ -3932,8 +3932,8 @@
       "headword": "middle",
       "part_of_speech": "n., adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.032",
@@ -4100,8 +4100,8 @@
       "headword": "need",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.053",
@@ -4188,8 +4188,8 @@
       "headword": "nowhere",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.064",
@@ -4268,8 +4268,8 @@
       "headword": "ordinary",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.074",
@@ -4292,8 +4292,8 @@
       "headword": "original",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.077",
@@ -4340,8 +4340,8 @@
       "headword": "pack",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.083",
@@ -4372,8 +4372,8 @@
       "headword": "pants",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.087",
@@ -4396,8 +4396,8 @@
       "headword": "pass",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.090",
@@ -4428,8 +4428,8 @@
       "headword": "pattern",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.094",
@@ -4444,8 +4444,8 @@
       "headword": "peace",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L17",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.096",
@@ -4460,8 +4460,8 @@
       "headword": "per",
       "part_of_speech": "prep.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.098",
@@ -4476,8 +4476,8 @@
       "headword": "perform",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.100",
@@ -4524,8 +4524,8 @@
       "headword": "photograph",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.106",
@@ -4564,8 +4564,8 @@
       "headword": "planet",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.111",
@@ -4604,8 +4604,8 @@
       "headword": "please",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.116",
@@ -4724,8 +4724,8 @@
       "headword": "prevent",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.131",
@@ -4756,8 +4756,8 @@
       "headword": "prize",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.135",
@@ -4828,8 +4828,8 @@
       "headword": "pronounce",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.144",
@@ -4884,8 +4884,8 @@
       "headword": "purpose",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.151",
@@ -4956,8 +4956,8 @@
       "headword": "raise",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.160",
@@ -4996,8 +4996,8 @@
       "headword": "realize",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.165",
@@ -5044,8 +5044,8 @@
       "headword": "recognize",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.171",
@@ -5092,8 +5092,8 @@
       "headword": "refer",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.177",
@@ -5236,8 +5236,8 @@
       "headword": "review",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.195",
@@ -5268,8 +5268,8 @@
       "headword": "rise",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.199",
@@ -5292,8 +5292,8 @@
       "headword": "role",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.202",
@@ -5308,8 +5308,8 @@
       "headword": "round",
       "part_of_speech": "adj., adv., prep.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.204",
@@ -5324,8 +5324,8 @@
       "headword": "rubbish",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.206",
@@ -5340,16 +5340,16 @@
       "headword": "run",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.208",
       "headword": "runner",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.209",
@@ -5364,8 +5364,8 @@
       "headword": "sadly",
       "part_of_speech": "adv.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.211",
@@ -5420,8 +5420,8 @@
       "headword": "save",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.218",
@@ -5452,16 +5452,16 @@
       "headword": "schedule",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L30",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.222",
       "headword": "score",
       "part_of_speech": "v., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.223",
@@ -5476,8 +5476,8 @@
       "headword": "search",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.225",
@@ -5516,8 +5516,8 @@
       "headword": "secret",
       "part_of_speech": "adj., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.230",
@@ -5540,24 +5540,24 @@
       "headword": "sense",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.233",
       "headword": "separate",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.234",
       "headword": "series",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L30",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.235",
@@ -5572,8 +5572,8 @@
       "headword": "serve",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.237",
@@ -5588,8 +5588,8 @@
       "headword": "several",
       "part_of_speech": "det./pron.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L29",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.239",
@@ -5636,8 +5636,8 @@
       "headword": "shoulder",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.245",
@@ -5668,8 +5668,8 @@
       "headword": "sign",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.249",
@@ -5684,16 +5684,16 @@
       "headword": "simple",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.251",
       "headword": "since",
       "part_of_speech": "prep., conj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L29",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.252",
@@ -5708,16 +5708,16 @@
       "headword": "single",
       "part_of_speech": "adj., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.254",
       "headword": "sir",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.255",
@@ -5804,24 +5804,24 @@
       "headword": "smile",
       "part_of_speech": "v., n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.266",
       "headword": "smoke",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.267",
       "headword": "smoking",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.268",
@@ -5860,8 +5860,8 @@
       "headword": "sock",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.273",
@@ -5900,8 +5900,8 @@
       "headword": "somewhere",
       "part_of_speech": "adv., pron.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p06.278",
@@ -6004,8 +6004,8 @@
       "headword": "star",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.011",
@@ -6020,8 +6020,8 @@
       "headword": "state",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.013",
@@ -6060,8 +6060,8 @@
       "headword": "stone",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.018",
@@ -6124,8 +6124,8 @@
       "headword": "stupid",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.026",
@@ -6180,8 +6180,8 @@
       "headword": "suit",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.033",
@@ -6196,8 +6196,8 @@
       "headword": "suppose",
       "part_of_speech": "v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.035",
@@ -6212,8 +6212,8 @@
       "headword": "surprise",
       "part_of_speech": "n., v.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.037",
@@ -6236,8 +6236,8 @@
       "headword": "survey",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.040",
@@ -6276,8 +6276,8 @@
       "headword": "talk",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.045",
@@ -6340,8 +6340,8 @@
       "headword": "term",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.053",
@@ -6388,24 +6388,24 @@
       "headword": "thinking",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.059",
       "headword": "third",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.060",
       "headword": "thought",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.061",
@@ -6508,16 +6508,16 @@
       "headword": "toy",
       "part_of_speech": "n., adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.074",
       "headword": "track",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.075",
@@ -6620,8 +6620,8 @@
       "headword": "understanding",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.088",
@@ -6668,24 +6668,24 @@
       "headword": "unusual",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.094",
       "headword": "upstairs",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.095",
       "headword": "use",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L30",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.096",
@@ -6764,16 +6764,16 @@
       "headword": "voice",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.106",
       "headword": "wait",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.107",
@@ -6788,8 +6788,8 @@
       "headword": "wash",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.109",
@@ -6804,8 +6804,8 @@
       "headword": "wave",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.111",
@@ -6860,8 +6860,8 @@
       "headword": "wheel",
       "part_of_speech": "n.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.118",
@@ -6972,16 +6972,16 @@
       "headword": "worse",
       "part_of_speech": "adj.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.132",
       "headword": "wow",
       "part_of_speech": "exclam.",
       "qualifier": null,
-      "primary_home": "LX-GENERAL",
-      "decision_source": "frozen_reviewed_remainder"
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
     },
     {
       "item_id": "oxford.o3000.p07.133",
