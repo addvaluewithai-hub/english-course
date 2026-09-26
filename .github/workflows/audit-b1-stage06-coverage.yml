@@ -8,6 +8,7 @@ on:
       - curriculum/levels/b1/**
       - scripts/build_b1_word_home_map.py
       - scripts/build_b1_coverage_ledger.py
+      - scripts/analyze_b1_coverage_ledger.py
       - .github/workflows/audit-b1-stage06-coverage.yml
   workflow_dispatch:
 
@@ -48,7 +49,7 @@ jobs:
 
           out=curriculum/levels/b1/design-review/06-coverage-ledger/generated
           mkdir -p "$out"
-          rm -f "$out/coverage-ledger.json" "$out/coverage-report.md" "$out/coverage-audit-failure.txt"
+          rm -f "$out/coverage-ledger.json" "$out/coverage-report.md" "$out/coverage-audit-failure.txt" "$out/gap-attribution.md"
           if [[ -f /tmp/b1-coverage-ledger.json ]]; then
             cp /tmp/b1-coverage-ledger.json "$out/coverage-ledger.json"
           fi
@@ -56,6 +57,15 @@ jobs:
             cp /tmp/b1-coverage-report.md "$out/coverage-report.md"
           else
             cp /tmp/b1-coverage-run.log "$out/coverage-audit-failure.txt"
+          fi
+
+      - name: Generate B1 lifecycle gap attribution
+        if: always()
+        shell: bash
+        run: |
+          ledger=curriculum/levels/b1/design-review/06-coverage-ledger/generated/coverage-ledger.json
+          if [[ -f "$ledger" ]]; then
+            python scripts/analyze_b1_coverage_ledger.py
           fi
 
       - name: Commit deterministic B1 Stage 6 snapshot
