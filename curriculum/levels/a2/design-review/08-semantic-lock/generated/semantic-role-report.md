@@ -41,14 +41,14 @@ Exact records assigned: **1617 / 1617**
 | U1-L05 | 5 | 5 | 0 | 0 | 0 | 0 | 3 | 2 | 1 | 8 |
 | U1-L06 | 16 | 6 | 5 | 4 | 1 | 1 | 9 | 4 | 2 | 22 |
 | U2-L01 | 10 | 3 | 2 | 0 | 0 | 5 | 2 | 15 | 1 | 26 |
-| U2-L02 | 28 | 5 | 2 | 7 | 1 | 14 | 3 | 10 | 4 | 42 |
+| U2-L02 | 28 | 5 | 2 | 7 | 1 | 14 | 3 | 8 | 4 | 40 |
 | U2-L03 | 26 | 5 | 3 | 6 | 2 | 12 | 3 | 2 | 11 | 39 |
 | U2-L04 | 25 | 8 | 6 | 7 | 2 | 4 | 8 | 12 | 0 | 37 |
 | U2-L05 | 21 | 6 | 2 | 5 | 1 | 8 | 2 | 15 | 3 | 39 |
 | U2-L06 | 15 | 9 | 4 | 1 | 1 | 1 | 4 | 1 | 0 | 16 |
 | U3-L01 | 15 | 3 | 3 | 2 | 1 | 7 | 4 | 7 | 8 | 30 |
 | U3-L02 | 24 | 6 | 6 | 0 | 0 | 12 | 8 | 5 | 14 | 43 |
-| U3-L03 | 28 | 2 | 3 | 10 | 2 | 13 | 3 | 7 | 1 | 36 |
+| U3-L03 | 28 | 2 | 3 | 10 | 2 | 13 | 3 | 9 | 1 | 38 |
 | U3-L04 | 15 | 0 | 1 | 6 | 1 | 8 | 1 | 0 | 2 | 17 |
 | U3-L05 | 14 | 2 | 2 | 0 | 0 | 10 | 2 | 2 | 2 | 18 |
 | U3-L06 | 9 | 0 | 0 | 0 | 0 | 9 | 0 | 0 | 17 | 26 |
@@ -107,8 +107,8 @@ Exact records assigned: **1617 / 1617**
 
 The following lessons have the highest active-source introduction counts after semantic compression. This is a **review queue, not an automatic failure list**:
 
-- **U2-L02** — active rows 28; active words 14; active abilities 5; active phrases 2; productive grammar systems 1; receptive/support rows 10/4.
-- **U3-L03** — active rows 28; active words 13; active abilities 2; active phrases 3; productive grammar systems 2; receptive/support rows 7/1.
+- **U2-L02** — active rows 28; active words 14; active abilities 5; active phrases 2; productive grammar systems 1; receptive/support rows 8/4.
+- **U3-L03** — active rows 28; active words 13; active abilities 2; active phrases 3; productive grammar systems 2; receptive/support rows 9/1.
 - **U7-L01** — active rows 27; active words 12; active abilities 8; active phrases 4; productive grammar systems 3; receptive/support rows 5/0.
 - **U10-L01** — active rows 26; active words 10; active abilities 1; active phrases 4; productive grammar systems 4; receptive/support rows 13/1.
 - **U2-L03** — active rows 26; active words 12; active abilities 5; active phrases 3; productive grammar systems 2; receptive/support rows 2/11.

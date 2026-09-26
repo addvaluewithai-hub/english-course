@@ -385,11 +385,11 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `pronunciation.consonant_clarity.a2` — Consonant contrasts and place or manner clarity — `quality_constraint` / `support_condition`
 
-## U2-L02 — 42 source introductions / 28 active
+## U2-L02 — 40 source introductions / 28 active
 
 - productive: **28**
 - interactive: **0**
-- receptive: **10**
+- receptive: **8**
 - integrated support: **4**
 
 ### Productive — 28
@@ -434,16 +434,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p07.089` — unhappy — review row 825 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.129` — worried — review row 865 — `contextual` / `integrated_required`
 
-### Receptive — 10
+### Receptive — 8
 
-**Word — 10**
+**Word — 8**
 
 - `oxford.o3000.p04.179` — behave — review row 79 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.180` — behaviour — review row 80 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.245` — clever — review row 145 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.008` — crazy — review row 184 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.067` — dry — review row 243 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.108` — extreme — review row 284 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.219` — scary — review row 675 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.265` — smile — review row 721 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.025` — stupid — review row 761 — `contextual` / `integrated_required`
@@ -866,11 +864,11 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p06.053` — neither — review row 509 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p07.054` — themselves — review row 790 — `quality_constraint` / `support_condition`
 
-## U3-L03 — 36 source introductions / 28 active
+## U3-L03 — 38 source introductions / 28 active
 
 - productive: **28**
 - interactive: **0**
-- receptive: **7**
+- receptive: **9**
 - integrated support: **1**
 
 ### Productive — 28
@@ -915,16 +913,18 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p07.121` — wide — review row 857 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.131` — worse — review row 867 — `contextual` / `integrated_required`
 
-### Receptive — 7
+### Receptive — 9
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.009` — Can identify basic similarities and differences in the facts between two short simple texts on the same familiar topic, if supported by pictures and questions. (P) — review row 25 — `contextual` / `independent_possible`
 
-**Word — 6**
+**Word — 8**
 
 - `oxford.o3000.p04.187` — billion — review row 87 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.022` — dark — review row 198 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.067` — dry — review row 243 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.108` — extreme — review row 284 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.163` — general — review row 339 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.179` — half — review row 355 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.160` — rate — review row 616 — `contextual` / `integrated_required`
