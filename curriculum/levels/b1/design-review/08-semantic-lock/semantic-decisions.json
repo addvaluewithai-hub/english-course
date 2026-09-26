@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "level": "B1",
+  "status": "human_semantic_decisions_v1",
+  "rule": "Automation may expand and validate these human decisions only; it may not infer a semantic role.",
+  "roles": {
+    "mastery_mode": ["productive", "receptive", "interactive", "integrated_support"],
+    "control_scope": ["generative", "bounded_pattern", "formulaic", "contextual", "quality_constraint"],
+    "exit_evidence": ["independent_possible", "integrated_required", "support_condition"]
+  },
+  "abilities": {
+    "capability_source_mode_policy": {
+      "reception": {"mastery_mode": "receptive", "control_scope": "contextual", "exit_evidence": "independent_possible"},
+      "production": {"mastery_mode": "productive", "control_scope": "bounded_pattern", "exit_evidence": "independent_possible"},
+      "interaction": {"mastery_mode": "interactive", "control_scope": "bounded_pattern", "exit_evidence": "independent_possible"}
+    },
+    "cross_cutting_home_policy": {
+      "X01": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+      "X02": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+      "X03": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+      "X04": {"mastery_mode": "source_mode", "control_scope": "formulaic", "exit_evidence": "integrated_required"},
+      "X05": {"mastery_mode": "source_mode", "control_scope": "formulaic", "exit_evidence": "integrated_required"},
+      "X06": {"mastery_mode": "receptive", "control_scope": "contextual", "exit_evidence": "integrated_required"},
+      "X07": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"}
+    },
+    "note": "X08 was added by grammar evidence and owns no Stage-01 ability rows; its exact grammar rows are reconciled through grammar system roles."
+  },
+  "phrases": {
+    "productive_formulaic_homes": ["C06", "C07", "C08", "C09", "C10", "C12", "C13", "C14", "C16", "C17", "C19", "X04", "X05"],
+    "receptive_contextual_homes": ["C01", "C02"],
+    "integrated_support_homes": ["X02", "X03"],
+    "role_templates": {
+      "productive_formulaic": {"mastery_mode": "productive", "control_scope": "formulaic", "exit_evidence": "integrated_required"},
+      "receptive_contextual": {"mastery_mode": "receptive", "control_scope": "contextual", "exit_evidence": "integrated_required"},
+      "integrated_support": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"}
+    },
+    "note": "Capabilities with zero direct B1 phrase ownership remain ability-driven; no phrase role is invented for them."
+  },
+  "grammar": {
+    "productive_bounded_systems": ["G02", "G07", "G10", "G12", "G13", "G14", "G15", "G22", "G24", "G25", "G26", "G28", "G29", "G30", "G31", "G32", "G33", "G35", "G40", "G42", "G43", "G44", "G46", "G51", "G52"],
+    "integrated_support_systems": ["G01", "G03", "G04", "G05", "G06", "G08", "G09", "G11", "G16", "G17", "G18", "G19", "G20", "G21", "G23", "G27", "G34", "G36", "G37", "G38", "G39", "G41", "G45", "G47", "G48", "G49", "G50", "G53", "G54", "G55", "G56", "G57", "G58", "G59"],
+    "role_templates": {
+      "productive_bounded": {"mastery_mode": "productive", "control_scope": "bounded_pattern", "exit_evidence": "integrated_required"},
+      "integrated_support": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+      "receptive_bounded": {"mastery_mode": "receptive", "control_scope": "bounded_pattern", "exit_evidence": "integrated_required"}
+    },
+    "review_row_overrides": {
+      "74": {"role": "receptive_bounded", "reason": "Third-conditional past counterfactual/regret is canonical B1 input but is not required as a broad productive exit system in the locked lesson architecture."},
+      "169": {"role": "integrated_support", "reason": "You shouldn't have thanking is a pragmatic formula/support use, not an independent productive modal objective."},
+      "170": {"role": "integrated_support", "reason": "Narrative 'you should have' emphasis supports story input/output but is not a separate productive target."},
+      "179": {"role": "productive_bounded", "reason": "Would in second-conditional imagined advice/opinion directly serves U3-L06."},
+      "183": {"role": "productive_bounded", "reason": "Polite would-requests directly serve familiar service/correspondence interaction."},
+      "219": {"role": "productive_bounded", "reason": "Present simple passive is available productively for bounded familiar process/factual explanation."},
+      "220": {"role": "productive_bounded", "reason": "Past simple passive is available productively for bounded familiar factual/process reporting."},
+      "226": {"role": "productive_bounded", "reason": "Present simple passive negative supports bounded practical/process explanation."},
+      "236": {"role": "productive_bounded", "reason": "Past perfect simple negative is part of the bounded prior-time narrative system."},
+      "237": {"role": "productive_bounded", "reason": "Past perfect simple affirmative is part of the bounded prior-time narrative system."},
+      "238": {"role": "productive_bounded", "reason": "Common adverb placement in past perfect supports the bounded prior-time narrative system."},
+      "239": {"role": "receptive_bounded", "reason": "Past perfect in counterfactual if-clauses remains receptive/bounded rather than productive third-conditional mastery."},
+      "240": {"role": "productive_bounded", "reason": "Past perfect time-before-another-past-time directly serves U4-L04."},
+      "315": {"role": "productive_bounded", "reason": "Reported yes/no questions directly serve C16 relay/mediation."},
+      "316": {"role": "productive_bounded", "reason": "Reported wh-questions directly serve C16 relay/mediation."},
+      "317": {"role": "productive_bounded", "reason": "Reported statements directly serve C16 relay/mediation."},
+      "318": {"role": "productive_bounded", "reason": "Bounded temporal/future shifts support accurate familiar information relay."},
+      "319": {"role": "productive_bounded", "reason": "Reported requests/commands directly serve relay of practical instructions and requests."}
+    }
+  },
+  "words": {
+    "productive_contextual_homes": ["L01", "L02", "L03", "L04", "L06", "L07", "L08", "L09", "L10", "L13", "L17", "L21", "L22", "L24", "L25"],
+    "integrated_support_homes": ["L23", "L26"],
+    "receptive_contextual_homes": ["L05", "L11", "L12", "L14", "L15", "L16", "L18", "L19", "L20", "L27", "LX-GENERAL"],
+    "role_templates": {
+      "productive_contextual": {"mastery_mode": "productive", "control_scope": "contextual", "exit_evidence": "integrated_required"},
+      "integrated_support": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+      "receptive_contextual": {"mastery_mode": "receptive", "control_scope": "contextual", "exit_evidence": "integrated_required"}
+    },
+    "note": "Home-level role decisions are human Stage-08 decisions over the already manually reviewed frozen 809-record Stage-04 map. Broad media/public/environment/science/culture/action and intentional general-remainder homes remain receptive/contextual unless later exact critic evidence justifies promotion."
+  },
+  "pronunciation": {
+    "pronunciation.sound_perception.b1": {"mastery_mode": "receptive", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+    "pronunciation.consonant_clarity.b1": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+    "pronunciation.vowel_clarity.b1": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+    "pronunciation.syllable_shape.b1": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+    "pronunciation.grammatical_endings.b1": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+    "pronunciation.word_stress.b1": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+    "pronunciation.prominence_rhythm.b1": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+    "pronunciation.connected_speech.b1": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+    "pronunciation.intonation_stance.b1": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
+    "pronunciation.chunking_monitoring_repair.b1": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"}
+  }
+}
