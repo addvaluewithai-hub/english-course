@@ -1,0 +1,29 @@
+name: Audit B1 Stage 5 curriculum map
+
+# Mechanical structure validation only. Human map decisions live in
+# curriculum/levels/b1/design-review/05-curriculum-map/curriculum-map.md.
+on:
+  push:
+    branches:
+      - curriculum/level-source-of-truth-v1
+    paths:
+      - curriculum/levels/b1/design-review/05-curriculum-map/**
+      - scripts/audit_b1_stage05_map.py
+      - .github/workflows/audit-b1-stage05-map.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: curriculum/level-source-of-truth-v1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate B1 Stage 5 lesson skeleton
+        run: python scripts/audit_b1_stage05_map.py
