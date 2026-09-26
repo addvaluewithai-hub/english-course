@@ -41,7 +41,7 @@
     "L26": ["allow", "available", "certain", "certainly", "expect", "likely", "necessary", "permission", "possibility", "predict", "promise", "sure", "wish", "perhaps", "hope", "need", "suppose"],
     "L27": ["billion", "double", "half", "height", "least", "less", "little", "per cent", "size", "speed", "zero", "average", "rate", "amount", "quantity", "weight", "all", "almost", "bit", "count", "per", "third"],
     "L28": ["actually", "after", "before", "while", "although", "anyway", "especially", "fortunately", "unfortunately", "including", "instead", "later", "mostly", "recently", "such", "yet", "following", "immediately", "nearly", "rather", "according to", "any more", "as", "based", "clearly", "except", "further", "formal", "informal", "included", "future"],
-    "L29": ["have", "may", "might", "shall", "hers", "herself", "himself", "his", "mine", "myself", "ourselves", "themselves", "whose", "yours", "either", "neither", "none", "used to", "anybody", "anywhere", "itself", "several", "since", "somewhere"],
+    "L29": ["have", "may", "might", "shall", "hers", "herself", "himself", "his", "mine", "myself", "ourselves", "themselves", "whose", "yours", "either", "neither", "none", "used to", "anybody", "anywhere", "itself", "several", "since"],
     "L30": ["blank", "button", "check", "copy", "correctly", "error", "instruction", "item", "print", "step", "tool", "task", "schedule", "series", "use"]
   },
   "exact_item_overrides": {
