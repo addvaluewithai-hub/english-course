@@ -4,14 +4,14 @@ Status: **GENERATED HUMAN-CRITIC AID — NON-DECISIONAL**
 
 This file groups the exact Stage-08 semantic ledger by first-introduction lesson. It exposes already human-authored roles; it does not decide roles, move items or judge load.
 
-## U1-L01 — 19 source introductions / 15 active
+## U1-L01 — 20 source introductions / 11 active
 
-- productive: **10**
+- productive: **6**
 - interactive: **5**
-- receptive: **3**
+- receptive: **8**
 - integrated support: **1**
 
-### Productive — 10
+### Productive — 6
 
 **Ability — 1**
 
@@ -21,16 +21,12 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `oxford.phrase.online.0195` — deal with sb — review row 46 — `formulaic` / `integrated_required`
 
-**Word — 8**
+**Word — 4**
 
-- `oxford.o3000.p04.104` — accept — review row 4 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.216` — care — review row 116 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.047` — disagree — review row 223 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.233` — invitation — review row 409 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.067` — offer — review row 523 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.171` — recommend — review row 627 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.191` — response — review row 647 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.033` — support — review row 769 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.106` — express — review row 282 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.172` — greet — review row 348 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.115` — welcome — review row 851 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.132` — wow — review row 868 — `contextual` / `integrated_required`
 
 ### Interactive — 5
 
@@ -42,12 +38,20 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.022` — Can show interest in conversation using fixed expressions. (P) — review row 204 — `formulaic` / `integrated_required`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.026` — Can participate in short conversations in routine contexts on topics of interest. (C) — review row 208 — `bounded_pattern` / `independent_possible`
 
-### Receptive — 3
+### Receptive — 8
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p16.001` — Can understand simple, everyday conversations if conducted slowly and clearly. (Ca) — review row 45 — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2.p16.006` — Can recognise simple, fixed expressions used in small talk. (P) — review row 50 — `formulaic` / `independent_possible`
+
+**Word — 5**
+
+- `oxford.o3000.p04.120` — ah — review row 20 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.177` — guy — review row 353 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.252` — lady — review row 428 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.115` — please — review row 571 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.191` — response — review row 647 — `contextual` / `integrated_required`
 
 **Pronunciation — 1**
 
@@ -59,14 +63,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.011` — Can understand standard speech on familiar matters, with some repetition or reformulation. (Ca) — review row 66 — `quality_constraint` / `support_condition`
 
-## U1-L02 — 33 source introductions / 17 active
+## U1-L02 — 33 source introductions / 15 active
 
-- productive: **17**
+- productive: **15**
 - interactive: **0**
-- receptive: **1**
+- receptive: **3**
 - integrated support: **15**
 
-### Productive — 17
+### Productive — 15
 
 **Ability — 7**
 
@@ -84,21 +88,24 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0087` — at the age of… — review row 22 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0484` — make money — review row 117 — `formulaic` / `integrated_required`
 
-**Word — 7**
+**Word — 5**
 
 - `oxford.o3000.p04.111` — adult — review row 11 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.006` — couple — review row 182 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.174` — guest — review row 350 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.244` — kid — review row 420 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.018` — marry — review row 474 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.049` — nearly — review row 505 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.050` — teenage — review row 786 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.253` — single — review row 709 — `contextual` / `integrated_required`
 
-### Receptive — 1
+### Receptive — 3
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p15.003` — Can recognise phrases and content words related to basic personal and family information. (Ca) — review row 38 — `contextual` / `independent_possible`
+
+**Word — 2**
+
+- `oxford.o3000.p06.013` — male — review row 469 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.084` — twin — review row 820 — `contextual` / `integrated_required`
 
 ### Integrated Support — 15
 
@@ -126,14 +133,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p06.251` — since — review row 707 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p07.118` — while — review row 854 — `quality_constraint` / `support_condition`
 
-## U1-L03 — 44 source introductions / 35 active
+## U1-L03 — 37 source introductions / 26 active
 
-- productive: **32**
+- productive: **23**
 - interactive: **3**
-- receptive: **9**
+- receptive: **11**
 - integrated support: **0**
 
-### Productive — 32
+### Productive — 23
 
 **Ability — 4**
 
@@ -146,38 +153,29 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `oxford.phrase.online.0377` — in business — review row 95 — `formulaic` / `integrated_required`
 
-**Grammar — 12**
+**Grammar — 8**
 
 - `egp.1741163708336x128539343181511400` — FORM: AFFIRMATIVE INTERROGATIVE, WITH MODAL AUXILIARY VERBS — system `G10` — `bounded_pattern` / `integrated_required`
 - `egp.1741163708336x903931402154698900` — FORM: AFFIRMATIVE INTERROGATIVE, WITH AUXILIARY 'BE/HAVE' — system `G10` — `bounded_pattern` / `integrated_required`
 - `egp.1741163708336x930002080700909000` — FORM: AFFIRMATIVE INTERROGATIVE — system `G10` — `bounded_pattern` / `integrated_required`
 - `egp.1741163708342x469176927335390700` — FORM: AFFIRMATIVE 'WH-' INTERROGATIVE — system `G10` — `bounded_pattern` / `integrated_required`
-- `egp.1741163708343x892117738381544400` — FORM: NEGATIVE INTERROGATIVE — system `G10` — `bounded_pattern` / `integrated_required`
-- `egp.1741163708343x903441921851317900` — FORM: NEGATIVE 'WH-' INTERROGATIVE — system `G10` — `bounded_pattern` / `integrated_required`
-- `egp.1741163713633x978808878460501800` — FORM: INDIRECT QUESTIONS — system `G38` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715026x780872145435740400` — FORM: WORD + WORD — system `G40` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715031x260861213622010530` — FORM: WITH AUXILIARY 'DO' — system `G40` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715031x643536767928989600` — FORM/USE: NEGATIVE QUESTONS, SUGGESTIONS — system `G40` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715033x199281404596736400` — FORM: LEXICAL VERBS WITH 'DO' — system `G40` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715033x768742528426968400` — FORM: MODAL VERBS — system `G40` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715029x648850706024519700` — FORM: QUESTION TAGS — system `G40` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715031x588201738254725100` — FORM: WITH AUXILIARY 'BE' — system `G40` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715033x134646499658930300` — FORM: AUXILIARY 'BE' — system `G40` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715033x661087028434845600` — FORM: MAIN VERB 'BE' — system `G40` — `bounded_pattern` / `integrated_required`
 
-**Word — 15**
+**Word — 10**
 
-- `oxford.o3000.p04.144` — apply — review row 44 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.158` — attention — review row 58 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.168` — background — review row 68 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.201` — boss — review row 101 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.033` — department — review row 209 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.055` — divorced — review row 231 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.068` — earn — review row 244 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.071` — education — review row 247 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.177` — guy — review row 353 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.252` — lady — review row 428 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.272` — level — review row 448 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.180` — relationship — review row 636 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.194` — review — review row 650 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.079` — training — review row 815 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.084` — twin — review row 820 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.128` — working — review row 864 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.078` — employ — review row 254 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.018` — marry — review row 474 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.020` — mathematics — review row 476 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.188` — research — review row 644 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.201` — role — review row 657 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.050` — teenage — review row 786 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.052` — term — review row 788 — `contextual` / `integrated_required`
 
 ### Interactive — 3
 
@@ -187,28 +185,30 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.010` — Can use brief, everyday expressions to ask for and give personal details. (Ca) — review row 112 — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p38.002` — Can ask for personal details in written form in a limited way. (Ca) — review row 239 — `bounded_pattern` / `independent_possible`
 
-### Receptive — 9
+### Receptive — 11
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p10.006` — Can identify basic personal details about someone on website profiles, business cards etc. (P) — review row 9 — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2.p10.013` — Can identify basic biographical information in short simple texts about other people. (P) — review row 16 — `contextual` / `independent_possible`
 
-**Word — 7**
+**Word — 9**
 
-- `oxford.o3000.p04.267` — conference — review row 167 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.085` — engineer — review row 261 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.250` — knowledge — review row 426 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.262` — lawyer — review row 438 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.084` — painter — review row 540 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.107` — physics — review row 563 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.186` — reporter — review row 642 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.145` — architect — review row 45 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.189` — biology — review row 89 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.211` — businessman — review row 111 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.092` — essay — review row 268 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.111` — factory — review row 287 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.218` — individual — review row 394 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.251` — lab — review row 427 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.265` — leader — review row 441 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.109` — pilot — review row 565 — `contextual` / `integrated_required`
 
-## U1-L04 — 7 source introductions / 3 active
+## U1-L04 — 8 source introductions / 3 active
 
 - productive: **3**
 - interactive: **0**
-- receptive: **2**
+- receptive: **3**
 - integrated support: **2**
 
 ### Productive — 3
@@ -219,12 +219,16 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.011` — Can introduce themselves on the phone and close a simple call. (P) — review row 113 — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.014` — Can answer simple questions on the phone using fixed expressions. (P) — review row 141 — `formulaic` / `independent_possible`
 
-### Receptive — 2
+### Receptive — 3
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p16.008` — Can understand who a phone call is intended for. (P) — review row 52 — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.013` — Can understand specific information in a short, simple phone call. (P) — review row 68 — `contextual` / `independent_possible`
+
+**Word — 1**
+
+- `oxford.o3000.p07.105` — voice — review row 841 — `contextual` / `integrated_required`
 
 ### Integrated Support — 2
 
@@ -268,11 +272,11 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `oxford.phrase.online.0483` — make a mistake — review row 116 — `quality_constraint` / `support_condition`
 
-## U1-L06 — 19 source introductions / 15 active
+## U1-L06 — 21 source introductions / 15 active
 
 - productive: **12**
 - interactive: **3**
-- receptive: **2**
+- receptive: **4**
 - integrated support: **2**
 
 ### Productive — 12
@@ -291,12 +295,15 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0519` — old friend — review row 125 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0742` — write sth down — review row 176 — `formulaic` / `integrated_required`
 
-**Grammar — 4**
+**Grammar — 3**
 
-- `egp.1741163715029x648850706024519700` — FORM: QUESTION TAGS — system `G40` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715031x588201738254725100` — FORM: WITH AUXILIARY 'BE' — system `G40` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715031x898125206259626100` — FORM: MAIN VERB 'BE' — system `G40` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715033x444139630968705800` — FORM: AUXILIARY 'HAVE' — system `G40` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715031x105271547041443380` — FORM: WITH AUXILIARY 'HAVE' — system `G40` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715031x610001690827891800` — FORM: MODAL VERBS — system `G40` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715033x199281404596736400` — FORM: LEXICAL VERBS WITH 'DO' — system `G40` — `bounded_pattern` / `integrated_required`
+
+**Word — 1**
+
+- `oxford.o3000.p05.097` — exactly — review row 273 — `contextual` / `integrated_required`
 
 ### Interactive — 3
 
@@ -306,12 +313,17 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.006` — Can initiate and respond to simple statements on very familiar topics. (Ca) — review row 82 — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.016` — Can ask for clarification about key words not understood, using fixed expressions. (Ca) — review row 198 — `formulaic` / `independent_possible`
 
-### Receptive — 2
+### Receptive — 4
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p16.002` — Can follow short, simple social exchanges. (P) — review row 46 — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.009` — Can recognise some fixed expressions to check or clarify information. (P) — review row 64 — `formulaic` / `independent_possible`
+
+**Word — 2**
+
+- `oxford.o3000.p04.260` — communicate — review row 160 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.107` — expression — review row 283 — `contextual` / `integrated_required`
 
 ### Integrated Support — 2
 
@@ -323,14 +335,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `pronunciation.chunking_monitoring_repair.a2` — Chunking, pausing, monitoring, and pronunciation repair — `quality_constraint` / `support_condition`
 
-## U2-L01 — 27 source introductions / 22 active
+## U2-L01 — 26 source introductions / 12 active
 
-- productive: **22**
+- productive: **12**
 - interactive: **0**
-- receptive: **4**
+- receptive: **13**
 - integrated support: **1**
 
-### Productive — 22
+### Productive — 12
 
 **Ability — 3**
 
@@ -343,37 +355,36 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0394` — in love — review row 99 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0661` — take sth off — review row 159 — `formulaic` / `integrated_required`
 
-**Word — 17**
+**Word — 7**
 
 - `oxford.o3000.p04.143` — appearance — review row 43 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.169` — badly — review row 69 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.247` — close2 — review row 147 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.249` — clothing — review row 149 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.042` — differently — review row 218 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.097` — exactly — review row 273 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.113` — fair — review row 289 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.186` — heavy — review row 362 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.188` — helpful — review row 364 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.263` — lazy — review row 439 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.008` — low — review row 464 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.102` — personality — review row 558 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.210` — sadly — review row 666 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.265` — smile — review row 721 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.159` — attractive — review row 59 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.096` — exact — review row 272 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.005` — loud — review row 461 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.032` — suit — review row 768 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.089` — unhappy — review row 825 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.121` — wide — review row 857 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.055` — thick — review row 791 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.130` — worry — review row 866 — `contextual` / `integrated_required`
 
-### Receptive — 4
+### Receptive — 13
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p09.002` — Can understand simple descriptions of people’s physical appearance. (P) — review row 2 — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2.p15.006` — Can identify key words and phrases in descriptions of someone’s appearance and clothes. (P) — review row 41 — `contextual` / `independent_possible`
 
-**Word — 2**
+**Word — 11**
 
-- `oxford.o3000.p04.182` — belt — review row 82 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.250` — simple — review row 706 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.169` — badly — review row 69 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.008` — crazy — review row 184 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.018` — curly — review row 194 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.022` — dark — review row 198 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.118` — fashion — review row 294 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.181` — happily — review row 357 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.240` — jewellery — review row 416 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.086` — pants — review row 542 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.117` — pocket — review row 573 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.272` — sock — review row 728 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.063` — tie — review row 799 — `contextual` / `integrated_required`
 
 ### Integrated Support — 1
 
@@ -381,14 +392,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `pronunciation.consonant_clarity.a2` — Consonant contrasts and place or manner clarity — `quality_constraint` / `support_condition`
 
-## U2-L02 — 38 source introductions / 34 active
+## U2-L02 — 44 source introductions / 32 active
 
-- productive: **34**
+- productive: **32**
 - interactive: **0**
-- receptive: **0**
+- receptive: **8**
 - integrated support: **4**
 
-### Productive — 34
+### Productive — 32
 
 **Ability — 5**
 
@@ -413,28 +424,39 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163706530x375500171012226750` — FORM: PREDICATIVE, WITH 'BE' — system `G03` — `bounded_pattern` / `integrated_required`
 - `egp.1741163706531x328919787799353700` — FORM: PREDICATIVE, WITH LINKING VERBS — system `G03` — `bounded_pattern` / `integrated_required`
 
-**Word — 20**
+**Word — 18**
 
-- `oxford.o3000.p04.159` — attractive — review row 59 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.179` — behave — review row 79 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.184` — best — review row 84 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.207` — brilliant — review row 107 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.248` — closed — review row 148 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.008` — crazy — review row 184 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.067` — dry — review row 243 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.108` — extreme — review row 284 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.118` — fashion — review row 294 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.203` — huge — review row 379 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.216` — incredible — review row 392 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.007` — lovely — review row 463 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.046` — narrow — review row 502 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.166` — awful — review row 66 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.206` — bright — review row 106 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.009` — creative — review row 185 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.029` — deep — review row 205 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.098` — excellent — review row 274 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.139` — flat — review row 315 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.188` — helpful — review row 364 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.228` — intelligent — review row 404 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.263` — lazy — review row 439 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.054` — nervous — review row 510 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.102` — personality — review row 558 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.116` — pleased — review row 572 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.218` — scared — review row 674 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.272` — sock — review row 728 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.273` — soft — review row 729 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.118` — polite — review row 574 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.206` — rude — review row 662 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.235` — serious — review row 691 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.036` — surprise — review row 772 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.129` — worried — review row 865 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.131` — worse — review row 867 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.057` — thin — review row 793 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.089` — unhappy — review row 825 — `contextual` / `integrated_required`
+
+### Receptive — 8
+
+**Word — 8**
+
+- `oxford.o3000.p04.179` — behave — review row 79 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.180` — behaviour — review row 80 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.245` — clever — review row 145 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.076` — original — review row 532 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.219` — scary — review row 675 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.265` — smile — review row 721 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.025` — stupid — review row 761 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.038` — surprising — review row 774 — `contextual` / `integrated_required`
 
 ### Integrated Support — 4
 
@@ -448,14 +470,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `pronunciation.vowel_clarity.a2` — Vowel contrasts and reduced vowels — `quality_constraint` / `support_condition`
 
-## U2-L03 — 39 source introductions / 26 active
+## U2-L03 — 38 source introductions / 25 active
 
-- productive: **25**
+- productive: **24**
 - interactive: **1**
 - receptive: **2**
 - integrated support: **11**
 
-### Productive — 25
+### Productive — 24
 
 **Ability — 4**
 
@@ -470,14 +492,13 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0473` — look after sb/sth/yourself — review row 113 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0733` — work out — review row 173 — `formulaic` / `integrated_required`
 
-**Grammar — 6**
+**Grammar — 5**
 
 - `egp.1741163706722x642517242671444100` — USE: TIME — system `G07` — `bounded_pattern` / `integrated_required`
 - `egp.1741163706722x916354910575195800` — USE: FREQUENCY — system `G07` — `bounded_pattern` / `integrated_required`
 - `egp.1741163706728x261151446832563970` — FORM: TIME  and SEQUENCING, MODIFYING CLAUSES — system `G07` — `bounded_pattern` / `integrated_required`
 - `egp.1741163706938x110983930774695800` — FORM: END POSITION, MANNER — system `G07` — `bounded_pattern` / `integrated_required`
 - `egp.1741163713626x133661684035994100` — FORM: AFFIRMATIVE — system `G38` — `bounded_pattern` / `integrated_required`
-- `egp.1741163713633x552588242206544260` — FORM: NEGATIVE — system `G38` — `bounded_pattern` / `integrated_required`
 
 **Word — 12**
 
@@ -529,14 +550,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p05.214` — including — review row 390 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p07.133` — yet — review row 869 — `quality_constraint` / `support_condition`
 
-## U2-L04 — 35 source introductions / 31 active
+## U2-L04 — 36 source introductions / 24 active
 
-- productive: **31**
+- productive: **24**
 - interactive: **0**
-- receptive: **4**
+- receptive: **12**
 - integrated support: **0**
 
-### Productive — 31
+### Productive — 24
 
 **Ability — 8**
 
@@ -553,8 +574,8 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `oxford.phrase.online.0001` — a bit — review row 1 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0044` — all the time — review row 13 — `formulaic` / `integrated_required`
-- `oxford.phrase.online.0246` — find it difficult to do sth — review row 62 — `formulaic` / `integrated_required`
-- `oxford.phrase.online.0452` — it depends — review row 108 — `formulaic` / `integrated_required`
+- `oxford.phrase.online.0159` — care about sth — review row 34 — `formulaic` / `integrated_required`
+- `oxford.phrase.online.0299` — go for sth — review row 78 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0618` — science fiction — review row 147 — `formulaic` / `integrated_required`
 
 **Grammar — 7**
@@ -567,13 +588,26 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163715300x785589912221125100` — FORM/USE: 'WOULD LOVE' + 'TO' — system `G44` — `bounded_pattern` / `integrated_required`
 - `egp.1741163715300x883778606119012300` — FORM: VERB + 'TO'- INFINITIVE — system `G44` — `bounded_pattern` / `integrated_required`
 
-**Word — 11**
+**Word — 4**
 
 - `oxford.o3000.p04.213` — camp — review row 113 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.060` — drama — review row 236 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.124` — fiction — review row 300 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.216` — care — review row 116 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.155` — fun — review row 331 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.227` — instrument — review row 403 — `contextual` / `integrated_required`
+
+### Receptive — 12
+
+**Ability — 1**
+
+- `ability.gse_all_objectives.gse.adult.2022.a2.p16.005` — Can understand the main information in simple conversations about hobbies and interests. (P) — review row 49 — `contextual` / `independent_possible`
+
+**Word — 11**
+
+- `oxford.o3000.p04.155` — athlete — review row 55 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.242` — classical — review row 142 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.060` — drama — review row 236 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.124` — fiction — review row 300 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.260` — laughter — review row 436 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.062` — novel — review row 518 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.157` — race (competition) — review row 613 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.213` — sailing — review row 669 — `contextual` / `integrated_required`
@@ -581,26 +615,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p07.007` — stage — review row 743 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.078` — trainer — review row 814 — `contextual` / `integrated_required`
 
-### Receptive — 4
+## U2-L05 — 38 source introductions / 23 active
 
-**Ability — 1**
-
-- `ability.gse_all_objectives.gse.adult.2022.a2.p16.005` — Can understand the main information in simple conversations about hobbies and interests. (P) — review row 49 — `contextual` / `independent_possible`
-
-**Word — 3**
-
-- `oxford.o3000.p04.155` — athlete — review row 55 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.242` — classical — review row 142 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.260` — laughter — review row 436 — `contextual` / `integrated_required`
-
-## U2-L05 — 32 source introductions / 18 active
-
-- productive: **17**
+- productive: **22**
 - interactive: **1**
-- receptive: **11**
+- receptive: **12**
 - integrated support: **3**
 
-### Productive — 17
+### Productive — 22
 
 **Ability — 5**
 
@@ -623,13 +645,18 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163713121x821705049205782300` — FORM: QUESTIONS — system `G37` — `bounded_pattern` / `integrated_required`
 - `egp.1741163713121x994056627950362600` — FORM/USE: WITH ADVERBS OF INDEFINITE FREQUENCY — system `G37` — `bounded_pattern` / `integrated_required`
 
-**Word — 5**
+**Word — 10**
 
-- `oxford.o3000.p05.033` — department — review row 209 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.078` — employ — review row 254 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.017` — mark — review row 473 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.143` — pronounce — review row 599 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.201` — role — review row 657 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.144` — apply — review row 44 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.079` — employee — review row 255 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.112` — fail — review row 288 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.266` — learning — review row 442 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.014` — manage — review row 470 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.021` — maths — review row 477 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.137` — professional — review row 593 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.214` — salary — review row 670 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.026` — succeed — review row 762 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.079` — training — review row 815 — `contextual` / `integrated_required`
 
 ### Interactive — 1
 
@@ -637,24 +664,25 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.024` — Can ask and answer questions about what they do at work and in their free time. (C) — review row 151 — `bounded_pattern` / `independent_possible`
 
-### Receptive — 11
+### Receptive — 12
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p16.004` — Can understand the main information in short, simple dialogues about familiar activities, if spoken slowly and clearly. (P) — review row 48 — `contextual` / `independent_possible`
 
-**Word — 10**
+**Word — 11**
 
-- `oxford.o3000.p04.145` — architect — review row 45 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.189` — biology — review row 89 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.211` — businessman — review row 111 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.092` — essay — review row 268 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.111` — factory — review row 287 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.251` — lab — review row 427 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.265` — leader — review row 441 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.109` — pilot — review row 565 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.022` — strategy — review row 758 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.087` — understanding — review row 823 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.154` — assistant — review row 54 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.235` — chef — review row 135 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.236` — chemistry — review row 136 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.036` — designer — review row 212 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.103` — experiment — review row 279 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.165` — goal — review row 341 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.226` — instructor — review row 402 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.272` — level — review row 448 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.141` — progress — review row 597 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.189` — researcher — review row 645 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.194` — review — review row 650 — `contextual` / `integrated_required`
 
 ### Integrated Support — 3
 
@@ -667,14 +695,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `pronunciation.syllable_shape.a2` — Syllable shape, consonant clusters, and word endings — `quality_constraint` / `support_condition`
 - `pronunciation.word_stress.a2` — Word stress and stress-sensitive recognition — `quality_constraint` / `support_condition`
 
-## U2-L06 — 15 source introductions / 14 active
+## U2-L06 — 16 source introductions / 15 active
 
-- productive: **14**
+- productive: **15**
 - interactive: **0**
 - receptive: **1**
 - integrated support: **0**
 
-### Productive — 14
+### Productive — 15
 
 **Ability — 9**
 
@@ -699,20 +727,24 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `egp.1741163716292x214601835879246080` — USE: ABILITY — system `G27` — `bounded_pattern` / `integrated_required`
 
+**Word — 1**
+
+- `oxford.o3000.p05.212` — impossible — review row 388 — `contextual` / `integrated_required`
+
 ### Receptive — 1
 
 **Word — 1**
 
 - `oxford.o3000.p04.101` — ability — review row 1 — `contextual` / `integrated_required`
 
-## U3-L01 — 32 source introductions / 24 active
+## U3-L01 — 31 source introductions / 19 active
 
-- productive: **24**
+- productive: **19**
 - interactive: **0**
-- receptive: **0**
+- receptive: **4**
 - integrated support: **8**
 
-### Productive — 24
+### Productive — 19
 
 **Ability — 3**
 
@@ -731,24 +763,28 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163715608x423925668920691600` — FORM: 'THERE IS' + UNCOUNTABLE — system `G45` — `bounded_pattern` / `integrated_required`
 - `egp.1741163715608x515455874028492200` — FORM: 'THERE IS/ARE' + A LOT OF — system `G45` — `bounded_pattern` / `integrated_required`
 
-**Word — 16**
+**Word — 11**
 
-- `oxford.o3000.p04.185` — better — review row 85 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.188` — bin — review row 88 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.258` — comfortable — review row 158 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.208` — broken — review row 108 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.001` — cooker — review row 177 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.070` — easily — review row 246 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.109` — extremely — review row 285 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.156` — furniture — review row 332 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.212` — impossible — review row 388 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.275` — light (from the sun/a lamp) — review row 451 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.076` — original — review row 532 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.079` — oven — review row 535 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.117` — pocket — review row 573 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.202` — roof — review row 658 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.268` — soap — review row 724 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.001` — specific — review row 737 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.073` — toy — review row 809 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.019` — material — review row 475 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.081` — owner — review row 537 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.196` — ring1 — review row 652 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.242` — sheet — review row 698 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.071` — towel — review row 807 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.093` — unusual — review row 829 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.127` — wooden — review row 863 — `contextual` / `integrated_required`
+
+### Receptive — 4
+
+**Word — 4**
+
+- `oxford.o3000.p04.248` — closed — review row 148 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.042` — differently — review row 218 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.163` — general — review row 339 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.088` — particular — review row 544 — `contextual` / `integrated_required`
 
 ### Integrated Support — 8
 
@@ -763,14 +799,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163711821x709984584357153900` — FORM: PLURAL '-ES' — system `G31` — `quality_constraint` / `support_condition`
 - `egp.1741163711827x907347986663720800` — FORM: WITH 'THE' — system `G31` — `quality_constraint` / `support_condition`
 
-## U3-L02 — 42 source introductions / 28 active
+## U3-L02 — 39 source introductions / 19 active
 
-- productive: **28**
+- productive: **19**
 - interactive: **0**
-- receptive: **0**
+- receptive: **6**
 - integrated support: **14**
 
-### Productive — 28
+### Productive — 19
 
 **Ability — 6**
 
@@ -790,24 +826,26 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0531` — on the ground — review row 127 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0543` — on top of sth/sb — review row 131 — `formulaic` / `integrated_required`
 
-**Word — 16**
+**Word — 7**
 
-- `oxford.o3000.p04.206` — bright — review row 106 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.209` — brush — review row 109 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.265` — completely — review row 165 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.243` — clear — review row 143 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.017` — cupboard — review row 193 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.081` — empty — review row 257 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.139` — flat — review row 315 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.217` — independent — review row 393 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.167` — gold — review row 343 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.035` — mirror — review row 491 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.112` — plastic — review row 568 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.202` — roof — review row 658 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.273` — soft — review row 729 — `contextual` / `integrated_required`
+
+### Receptive — 6
+
+**Word — 6**
+
+- `oxford.o3000.p04.209` — brush — review row 109 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.070` — easily — review row 246 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.248` — knife — review row 424 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.019` — material — review row 475 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.081` — owner — review row 537 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.088` — particular — review row 544 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.123` — possession — review row 579 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.241` — shape — review row 697 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.008` — stair — review row 744 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.055` — thick — review row 791 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.126` — wood — review row 862 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.233` — separate — review row 689 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.268` — soap — review row 724 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.073` — toy — review row 809 — `contextual` / `integrated_required`
 
 ### Integrated Support — 14
 
@@ -831,14 +869,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p06.053` — neither — review row 509 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p07.054` — themselves — review row 790 — `quality_constraint` / `support_condition`
 
-## U3-L03 — 29 source introductions / 25 active
+## U3-L03 — 33 source introductions / 27 active
 
-- productive: **25**
+- productive: **27**
 - interactive: **0**
-- receptive: **3**
+- receptive: **5**
 - integrated support: **1**
 
-### Productive — 25
+### Productive — 27
 
 **Ability — 2**
 
@@ -864,29 +902,33 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163706324x902426433063664400` — FORM: WITH 'THAN' — system `G02` — `bounded_pattern` / `integrated_required`
 - `egp.1741163708149x720696896419150700` — FORM: 'BE LIKE' + NOUN OR PRONOUN — system `G08` — `bounded_pattern` / `integrated_required`
 
-**Word — 10**
+**Word — 12**
 
-- `oxford.o3000.p04.208` — broken — review row 108 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.022` — dark — review row 198 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.086` — enormous — review row 262 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.179` — half — review row 355 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.276` — light (not heavy) — review row 452 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.185` — better — review row 85 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.258` — comfortable — review row 158 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.081` — empty — review row 257 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.186` — heavy — review row 362 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.203` — huge — review row 379 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.280` — little — review row 456 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.160` — rate — review row 616 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.233` — separate — review row 689 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.057` — thin — review row 793 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.008` — low — review row 464 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.046` — narrow — review row 502 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.249` — silver — review row 705 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.114` — weight — review row 850 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.121` — wide — review row 857 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.131` — worse — review row 867 — `contextual` / `integrated_required`
 
-### Receptive — 3
+### Receptive — 5
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.009` — Can identify basic similarities and differences in the facts between two short simple texts on the same familiar topic, if supported by pictures and questions. (P) — review row 25 — `contextual` / `independent_possible`
 
-**Word — 2**
+**Word — 4**
 
 - `oxford.o3000.p04.187` — billion — review row 87 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.163` — general — review row 339 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.179` — half — review row 355 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.217` — independent — review row 393 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.160` — rate — review row 616 — `contextual` / `integrated_required`
 
 ### Integrated Support — 1
 
@@ -894,14 +936,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `oxford.o3000.p04.123` — all — review row 23 — `quality_constraint` / `support_condition`
 
-## U3-L04 — 16 source introductions / 14 active
+## U3-L04 — 14 source introductions / 10 active
 
-- productive: **14**
+- productive: **10**
 - interactive: **0**
-- receptive: **0**
+- receptive: **2**
 - integrated support: **2**
 
-### Productive — 14
+### Productive — 10
 
 **Phrase — 1**
 
@@ -916,15 +958,18 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163706534x910876285707473500` — FORM: WITH '-EST' — system `G04` — `bounded_pattern` / `integrated_required`
 - `egp.1741163706535x505331707885398460` — FORM: WITH 'THE MOST' — system `G04` — `bounded_pattern` / `integrated_required`
 
-**Word — 7**
+**Word — 3**
 
-- `oxford.o3000.p04.243` — clear — review row 143 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.029` — deep — review row 205 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.096` — exact — review row 272 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.167` — gold — review row 343 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.005` — loud — review row 461 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.249` — silver — review row 705 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.093` — unusual — review row 829 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.184` — best — review row 84 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.086` — enormous — review row 262 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.276` — light (not heavy) — review row 452 — `contextual` / `integrated_required`
+
+### Receptive — 2
+
+**Word — 2**
+
+- `oxford.o3000.p04.265` — completely — review row 165 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.250` — simple — review row 706 — `contextual` / `integrated_required`
 
 ### Integrated Support — 2
 
@@ -933,14 +978,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163708793x555362877047412000` — FORM/USE: 'THE' + ADJECTIVES, SPECIFYING — system `G14` — `quality_constraint` / `support_condition`
 - `egp.1741163708793x652344620706507100` — FORM: 'THE' + SUPERLATIVES — system `G14` — `quality_constraint` / `support_condition`
 
-## U3-L05 — 18 source introductions / 14 active
+## U3-L05 — 18 source introductions / 15 active
 
-- productive: **14**
+- productive: **15**
 - interactive: **0**
-- receptive: **2**
+- receptive: **1**
 - integrated support: **2**
 
-### Productive — 14
+### Productive — 15
 
 **Ability — 2**
 
@@ -952,25 +997,25 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0222` — even more… — review row 53 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0462` — less than… — review row 110 — `formulaic` / `integrated_required`
 
-**Word — 10**
+**Word — 11**
 
 - `oxford.o3000.p04.102` — able — review row 2 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.126` — almost — review row 26 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.181` — belong — review row 81 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.129` — final — review row 305 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.015` — crowded — review row 191 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.187` — height — review row 363 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.080` — own — review row 536 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.010` — lucky — review row 466 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.097` — per — review row 553 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.146` — pub — review row 602 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.256` — size — review row 712 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.011` — start — review row 747 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.066` — top — review row 802 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.135` — zero — review row 871 — `contextual` / `integrated_required`
 
-### Receptive — 2
+### Receptive — 1
 
-**Word — 2**
+**Word — 1**
 
-- `oxford.o3000.p05.014` — crowd — review row 190 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.002` — look — review row 458 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.132` — finish — review row 308 — `contextual` / `integrated_required`
 
 ### Integrated Support — 2
 
@@ -982,26 +1027,25 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `oxford.o3000.p04.192` — bit — review row 92 — `quality_constraint` / `support_condition`
 
-## U3-L06 — 26 source introductions / 9 active
+## U3-L06 — 25 source introductions / 8 active
 
-- productive: **9**
+- productive: **8**
 - interactive: **0**
 - receptive: **0**
 - integrated support: **17**
 
-### Productive — 9
+### Productive — 8
 
-**Word — 9**
+**Word — 8**
 
 - `oxford.o3000.p04.219` — carpet — review row 119 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.153` — fridge — review row 329 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.254` — lamp — review row 430 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.035` — mirror — review row 491 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.112` — plastic — review row 568 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.196` — ring1 — review row 652 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.242` — sheet — review row 698 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.071` — towel — review row 807 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.127` — wooden — review row 863 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.079` — oven — review row 535 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.123` — possession — review row 579 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.241` — shape — review row 697 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.008` — stair — review row 744 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.126` — wood — review row 862 — `contextual` / `integrated_required`
 
 ### Integrated Support — 17
 
@@ -1031,14 +1075,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p06.058` — none — review row 514 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p07.096` — used to — review row 832 — `quality_constraint` / `support_condition`
 
-## U4-L01 — 26 source introductions / 23 active
+## U4-L01 — 25 source introductions / 22 active
 
-- productive: **22**
+- productive: **21**
 - interactive: **1**
 - receptive: **3**
 - integrated support: **0**
 
-### Productive — 22
+### Productive — 21
 
 **Ability — 4**
 
@@ -1065,14 +1109,13 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163716292x537771445666802560` — FORM: QUESTIONS — system `G27` — `bounded_pattern` / `integrated_required`
 - `egp.1741163716292x712077863595412800` — FORM: NEGATIVE — system `G27` — `bounded_pattern` / `integrated_required`
 
-**Word — 6**
+**Word — 5**
 
-- `oxford.o3000.p04.233` — chat — review row 133 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.106` — express — review row 282 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.234` — invite — review row 410 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.177` — refuse1 — review row 633 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.148` — argument — review row 48 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.200` — borrow — review row 100 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.230` — introduction — review row 406 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.067` — offer — review row 523 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.197` — ring2 — review row 653 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.044` — talk — review row 780 — `contextual` / `integrated_required`
 
 ### Interactive — 1
 
@@ -1088,17 +1131,17 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 **Word — 2**
 
-- `oxford.o3000.p04.120` — ah — review row 20 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.115` — please — review row 571 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.163` — react — review row 619 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.187` — request — review row 643 — `contextual` / `integrated_required`
 
-## U4-L02 — 30 source introductions / 21 active
+## U4-L02 — 30 source introductions / 18 active
 
-- productive: **18**
+- productive: **15**
 - interactive: **3**
-- receptive: **2**
-- integrated support: **7**
+- receptive: **4**
+- integrated support: **8**
 
-### Productive — 18
+### Productive — 15
 
 **Ability — 2**
 
@@ -1110,25 +1153,22 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0116` — be allowed to do sth — review row 28 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0329` — have got to — review row 84 — `formulaic` / `integrated_required`
 
-**Grammar — 5**
+**Grammar — 6**
 
 - `egp.1741163710391x392174672834575400` — USE: PERMISSION — system `G24` — `bounded_pattern` / `integrated_required`
 - `egp.1741163710614x141232985119578830` — FORM: QUESTIONS — system `G25` — `bounded_pattern` / `integrated_required`
 - `egp.1741163710614x493203769213027600` — FORM: AFFIRMATIVE — system `G25` — `bounded_pattern` / `integrated_required`
 - `egp.1741163710844x267345296139498430` — FORM: NEGATIVE — system `G25` — `bounded_pattern` / `integrated_required`
 - `egp.1741163710845x290739607145165100` — USE: OBLIGATION AND NECESSITY — system `G25` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715033x768742528426968400` — FORM: MODAL VERBS — system `G40` — `bounded_pattern` / `integrated_required`
 
-**Word — 9**
+**Word — 5**
 
 - `oxford.o3000.p04.125` — allow — review row 25 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.015` — crowded — review row 191 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.131` — finger — review row 307 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.202` — hope — review row 378 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.006` — loudly — review row 462 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.101` — permission — review row 557 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.128` — present — review row 584 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.052` — need — review row 508 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.156` — quietly — review row 612 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.035` — sure — review row 771 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.041` — symbol — review row 777 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.077` — train — review row 813 — `contextual` / `integrated_required`
 
 ### Interactive — 3
 
@@ -1138,14 +1178,16 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.001` — Can make and accept offers. (N2000) — review row 155 — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.014` — Can ask for and give or refuse permission. (N2000) — review row 196 — `bounded_pattern` / `independent_possible`
 
-### Receptive — 2
+### Receptive — 4
 
-**Word — 2**
+**Word — 4**
 
 - `oxford.o3000.p04.108` — act — review row 8 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.196` — board — review row 96 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.025` — deal — review row 201 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.012` — major — review row 468 — `contextual` / `integrated_required`
 
-### Integrated Support — 7
+### Integrated Support — 8
 
 **Grammar — 3**
 
@@ -1153,21 +1195,22 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163715289x911878511149574100` — FORM: LINKING VERBS + ADJECTIVE — system `G43` — `quality_constraint` / `support_condition`
 - `egp.1741163715299x518076142407359000` — FORM: SEMI-MODAL AUXILIARY VERBS, 'HAVE (GOT) TO' — system `G43` — `quality_constraint` / `support_condition`
 
-**Word — 4**
+**Word — 5**
 
+- `oxford.o3000.p05.133` — first — review row 309 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p05.182` — have — review row 358 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p06.023` — may — review row 479 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p06.077` — ourselves — review row 533 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p07.120` — whose — review row 856 — `quality_constraint` / `support_condition`
 
-## U4-L03 — 45 source introductions / 30 active
+## U4-L03 — 42 source introductions / 24 active
 
-- productive: **30**
+- productive: **24**
 - interactive: **0**
-- receptive: **6**
+- receptive: **9**
 - integrated support: **9**
 
-### Productive — 30
+### Productive — 24
 
 **Ability — 3**
 
@@ -1175,13 +1218,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.004` — Can give simple opinions using basic fixed expressions. (P) — review row 131 — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.025` — Can give the reasons for a choice, using simple language. (P) — review row 207 — `bounded_pattern` / `independent_possible`
 
-**Phrase — 3**
+**Phrase — 4**
 
 - `oxford.phrase.online.0138` — believe in sb/sth — review row 30 — `formulaic` / `integrated_required`
-- `oxford.phrase.online.0299` — go for sth — review row 78 — `formulaic` / `integrated_required`
-- `oxford.phrase.online.0674` — the best thing — review row 160 — `formulaic` / `integrated_required`
+- `oxford.phrase.online.0324` — happy with sb/sth — review row 82 — `formulaic` / `integrated_required`
+- `oxford.phrase.online.0357` — I think so — review row 91 — `formulaic` / `integrated_required`
+- `oxford.phrase.online.0680` — the important thing — review row 163 — `formulaic` / `integrated_required`
 
-**Grammar — 9**
+**Grammar — 10**
 
 - `egp.1741163706722x170602944998903700` — USE: DEGREE WITH VERBS — system `G05` — `bounded_pattern` / `integrated_required`
 - `egp.1741163706722x982743824597498400` — USE: DEGREE, WITH ADJECTIVES — system `G05` — `bounded_pattern` / `integrated_required`
@@ -1192,26 +1236,19 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163710385x692584626357576800` — FORM: 'BE' + 'SURE' + CLAUSE — system `G23` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711528x595400239413859000` — USE: IMAGINED SITUATIONS — system `G29` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711535x744252869965837700` — FORM/USE: MID POSITION, HEDGING OR EMPHASIS — system `G23` — `bounded_pattern` / `integrated_required`
+- `egp.1741163713633x569058685257493250` — USE: MENTAL PROCESS VERBS — system `G38` — `bounded_pattern` / `integrated_required`
 
-**Word — 15**
+**Word — 7**
 
-- `oxford.o3000.p04.166` — awful — review row 66 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.217` — careful — review row 117 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.238` — choice — review row 138 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.009` — creative — review row 185 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.112` — fail — review row 288 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.120` — fear — review row 296 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.228` — intelligent — review row 404 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.054` — nervous — review row 510 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.072` — option — review row 528 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.118` — polite — review row 574 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.219` — scary — review row 675 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.275` — solution — review row 731 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.021` — strange — review row 757 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.270` — consider — review row 170 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.047` — disagree — review row 223 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.109` — extremely — review row 285 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.071` — opportunity — review row 527 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.218` — scared — review row 674 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.037` — surprised — review row 773 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.130` — worry — review row 866 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.045` — target — review row 781 — `contextual` / `integrated_required`
 
-### Receptive — 6
+### Receptive — 9
 
 **Ability — 4**
 
@@ -1220,10 +1257,13 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.003` — Can recognise when speakers agree in a conversation conducted slowly and clearly. (P) — review row 58 — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.004` — Can recognise simple expressions of agreement and disagreement in short discussions, if conducted slowly and clearly. (P) — review row 59 — `contextual` / `independent_possible`
 
-**Word — 2**
+**Word — 5**
 
 - `oxford.o3000.p04.107` — achieve — review row 7 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.058` — thinking — review row 794 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.147` — argue — review row 47 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.182` — belt — review row 82 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.113` — fair — review row 289 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.060` — thought — review row 796 — `contextual` / `integrated_required`
 
 ### Integrated Support — 9
 
@@ -1248,62 +1288,47 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `pronunciation.intonation_stance.a2` — Intonation, interaction, and stance — `quality_constraint` / `support_condition`
 
-## U4-L04 — 39 source introductions / 39 active
+## U4-L04 — 26 source introductions / 24 active
 
-- productive: **36**
+- productive: **21**
 - interactive: **3**
-- receptive: **0**
+- receptive: **2**
 - integrated support: **0**
 
-### Productive — 36
+### Productive — 21
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.003` — Can make suggestions about doing common everyday activities, using simple fixed expressions. (P) — review row 185 — `formulaic` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.020` — Can make basic informal suggestions in writing. (P) — review row 267 — `bounded_pattern` / `independent_possible`
 
-**Phrase — 6**
+**Phrase — 4**
 
-- `oxford.phrase.online.0159` — care about sth — review row 34 — `formulaic` / `integrated_required`
-- `oxford.phrase.online.0324` — happy with sb/sth — review row 82 — `formulaic` / `integrated_required`
+- `oxford.phrase.online.0243` — feel like sth — review row 60 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0365` — if you want to — review row 94 — `formulaic` / `integrated_required`
-- `oxford.phrase.online.0633` — solution to sth — review row 150 — `formulaic` / `integrated_required`
-- `oxford.phrase.online.0680` — the important thing — review row 163 — `formulaic` / `integrated_required`
+- `oxford.phrase.online.0452` — it depends — review row 108 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0725` — Why not…? — review row 172 — `formulaic` / `integrated_required`
 
-**Grammar — 10**
+**Grammar — 6**
 
-- `egp.1741163715620x337858640533236860` — USE: 'IF' CLAUSE + IMPERATIVE, HEDGING — system `G13` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715620x594637230902398300` — FORM: PRESENT SIMPLE 'IF' CLAUSE + IMPERATIVE — system `G13` — `bounded_pattern` / `integrated_required`
-- `egp.1741163709462x251946416286091620` — USE: SUGGESTIONS WITH 'SHALL' — system `G20` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715620x498638187111649860` — FORM/USE: PRESENT SIMPLE 'IF' CLAUSE, REAL CONDITIONS — system `G13` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711055x245124661514512830` — USE: SUGGESTIONS — system `G27` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711055x654239307859430400` — FORM: QUESTIONS — system `G27` — `bounded_pattern` / `integrated_required`
-- `egp.1741163711528x214459269683046980` — USE: SUGGESTIONS WITH 'IT WOULD BE' — system `G29` — `bounded_pattern` / `integrated_required`
 - `egp.1741163716292x917584988638321400` — USE: SUGGESTIONS — system `G27` — `bounded_pattern` / `integrated_required`
-- `egp.1741163713626x199664325289681020` — FORM/USE: REAL AND IMAGINED SITUATIONS AFTER 'IF' — system `G38` — `bounded_pattern` / `integrated_required`
-- `egp.1741163713633x569058685257493250` — USE: MENTAL PROCESS VERBS — system `G38` — `bounded_pattern` / `integrated_required`
+- `egp.1741163713633x403618875526840800` — FORM: WITH ADVERBS OF INDEFINITE FREQUENCY — system `G38` — `bounded_pattern` / `integrated_required`
 - `egp.1741163713633x569339192426698800` — USE: SUGGESTIONS — system `G38` — `bounded_pattern` / `integrated_required`
 
-**Word — 18**
+**Word — 9**
 
-- `oxford.o3000.p04.112` — advantage — review row 12 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.124` — all right — review row 24 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.162` — available — review row 62 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.260` — communicate — review row 160 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.266` — condition — review row 166 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.107` — expression — review row 283 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.165` — goal — review row 341 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.277` — likely — review row 453 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.011` — mail — review row 467 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.124` — possibility — review row 580 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.141` — progress — review row 597 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.155` — question — review row 611 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.184` — reply — review row 640 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.254` — sir — review row 710 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.276` — solve — review row 732 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.060` — thought — review row 796 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.105` — voice — review row 841 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.125` — wish — review row 861 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.130` — alternative — review row 30 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.229` — certainly — review row 129 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.233` — chat — review row 133 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.234` — invite — review row 410 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.072` — option — review row 528 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.100` — perhaps — review row 556 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.165` — receive — review row 621 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.030` — suggest — review row 766 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.031` — suggestion — review row 767 — `contextual` / `integrated_required`
 
 ### Interactive — 3
 
@@ -1313,12 +1338,19 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.029` — Can discuss what to do next using simple phrases. (Ca) — review row 211 — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.030` — Can make and respond to suggestions. (C) — review row 212 — `bounded_pattern` / `independent_possible`
 
-## U4-L05 — 23 source introductions / 21 active
+### Receptive — 2
+
+**Word — 2**
+
+- `oxford.o3000.p05.028` — decision — review row 204 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.058` — thinking — review row 794 — `contextual` / `integrated_required`
+
+## U4-L05 — 26 source introductions / 21 active
 
 - productive: **20**
 - interactive: **1**
-- receptive: **2**
-- integrated support: **0**
+- receptive: **4**
+- integrated support: **1**
 
 ### Productive — 20
 
@@ -1326,30 +1358,33 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.009` — Can give basic advice using simple language. (P) — review row 191 — `bounded_pattern` / `independent_possible`
 
-**Grammar — 5**
+**Phrase — 1**
 
+- `oxford.phrase.online.0633` — solution to sth — review row 150 — `formulaic` / `integrated_required`
+
+**Grammar — 7**
+
+- `egp.1741163715620x337858640533236860` — USE: 'IF' CLAUSE + IMPERATIVE, HEDGING — system `G13` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711057x166029897961398800` — FORM: NEGATIVE — system `G27` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711057x797005381900791200` — FORM: AFFIRMATIVE — system `G27` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711058x603830752946476500` — FORM: QUESTIONS — system `G27` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711058x671914948191553700` — USE: ADVICE — system `G27` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711286x540510273565590660` — USE: SUGGESTIONS — system `G27` — `bounded_pattern` / `integrated_required`
+- `egp.1741163711528x214459269683046980` — USE: SUGGESTIONS WITH 'IT WOULD BE' — system `G29` — `bounded_pattern` / `integrated_required`
 
-**Word — 14**
+**Word — 11**
 
-- `oxford.o3000.p04.130` — alternative — review row 30 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.200` — borrow — review row 100 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.228` — certain — review row 128 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.270` — consider — review row 170 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.018` — curly — review row 194 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.206` — ideal — review row 382 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.009` — luck — review row 465 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.050` — necessary — review row 506 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.127` — predict — review row 583 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.145` — provide — review row 601 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.152` — quality — review row 608 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.026` — succeed — review row 762 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.063` — tie — review row 799 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.218` — carefully — review row 118 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.030` — definitely — review row 206 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.034` — depend — review row 210 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.101` — expect — review row 277 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.029` — metal — review row 485 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.101` — permission — review row 557 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.171` — recommend — review row 627 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.275` — solution — review row 731 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.276` — solve — review row 732 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.082` — trouble — review row 818 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.090` — uniform — review row 826 — `contextual` / `integrated_required`
 
 ### Interactive — 1
 
@@ -1357,21 +1392,29 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.013` — Can ask for basic advice using simple language. (P) — review row 140 — `bounded_pattern` / `independent_possible`
 
-### Receptive — 2
+### Receptive — 4
 
-**Word — 2**
+**Word — 4**
 
 - `oxford.o3000.p04.119` — against — review row 19 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.132` — finish — review row 308 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.183` — benefit — review row 83 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.160` — gap — review row 336 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.164` — realize — review row 620 — `contextual` / `integrated_required`
 
-## U4-L06 — 32 source introductions / 30 active
+### Integrated Support — 1
 
-- productive: **29**
+**Word — 1**
+
+- `oxford.o3000.p06.227` — second1 (next after the first) — review row 683 — `quality_constraint` / `support_condition`
+
+## U4-L06 — 28 source introductions / 24 active
+
+- productive: **23**
 - interactive: **1**
-- receptive: **2**
+- receptive: **4**
 - integrated support: **0**
 
-### Productive — 29
+### Productive — 23
 
 **Ability — 4**
 
@@ -1389,30 +1432,24 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0517` — Oh well — review row 124 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0610` — respond to sth/sb — review row 145 — `formulaic` / `integrated_required`
 
-**Grammar — 2**
+**Grammar — 4**
 
 - `egp.1741163708343x138205144325988400` — FORM: 'WHAT A PITY' + ('THAT') CLAUSE — system `G10` — `bounded_pattern` / `integrated_required`
 - `egp.1741163708343x470186262730331460` — FORM: 'WHAT A …!' — system `G10` — `bounded_pattern` / `integrated_required`
+- `egp.1741163708343x892117738381544400` — FORM: NEGATIVE INTERROGATIVE — system `G10` — `bounded_pattern` / `integrated_required`
+- `egp.1741163708343x903441921851317900` — FORM: NEGATIVE 'WH-' INTERROGATIVE — system `G10` — `bounded_pattern` / `integrated_required`
 
-**Word — 17**
+**Word — 9**
 
-- `oxford.o3000.p04.147` — argue — review row 47 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.180` — behaviour — review row 80 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.245` — clever — review row 145 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.124` — all right — review row 24 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.207` — brilliant — review row 107 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.249` — clothing — review row 149 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.264` — complain — review row 164 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.098` — excellent — review row 274 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.172` — greet — review row 348 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.181` — happily — review row 357 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.240` — jewellery — review row 416 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.086` — pants — review row 542 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.163` — react — review row 619 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.187` — request — review row 643 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.206` — rude — review row 662 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.235` — serious — review row 691 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.025` — stupid — review row 761 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.030` — suggest — review row 766 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.038` — surprising — review row 774 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.115` — welcome — review row 851 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.216` — incredible — review row 392 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.007` — lovely — review row 463 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.177` — refuse1 — review row 633 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.021` — strange — review row 757 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.129` — worried — review row 865 — `contextual` / `integrated_required`
 
 ### Interactive — 1
 
@@ -1420,15 +1457,17 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.012` — Can respond to excuses using basic fixed expressions. (P) — review row 194 — `formulaic` / `integrated_required`
 
-### Receptive — 2
+### Receptive — 4
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p15.001` — Can understand excuses if expressed in simple language. (P) — review row 36 — `formulaic` / `integrated_required`
 
-**Word — 1**
+**Word — 3**
 
+- `oxford.o3000.p05.120` — fear — review row 296 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.016` — manner — review row 472 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.033` — support — review row 769 — `contextual` / `integrated_required`
 
 ## U5-L01 — 22 source introductions / 16 active
 
@@ -1483,14 +1522,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163711822x118139496998018510` — FORM: IRREGULAR PLURAL NOUNS — system `G31` — `quality_constraint` / `support_condition`
 - `egp.1741163711828x356216667164534850` — FORM: WITH DETERMINERS, QUANTITY — system `G31` — `quality_constraint` / `support_condition`
 
-## U5-L02 — 24 source introductions / 22 active
+## U5-L02 — 24 source introductions / 21 active
 
-- productive: **21**
+- productive: **20**
 - interactive: **1**
-- receptive: **2**
+- receptive: **3**
 - integrated support: **0**
 
-### Productive — 21
+### Productive — 20
 
 **Ability — 1**
 
@@ -1499,9 +1538,9 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 **Phrase — 4**
 
 - `oxford.phrase.online.0019` — a number of sth — review row 5 — `formulaic` / `integrated_required`
-- `oxford.phrase.online.0243` — feel like sth — review row 60 — `formulaic` / `integrated_required`
-- `oxford.phrase.online.0357` — I think so — review row 91 — `formulaic` / `integrated_required`
+- `oxford.phrase.online.0246` — find it difficult to do sth — review row 62 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0617` — save money — review row 146 — `formulaic` / `integrated_required`
+- `oxford.phrase.online.0674` — the best thing — review row 160 — `formulaic` / `integrated_required`
 
 **Grammar — 5**
 
@@ -1511,19 +1550,18 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163706534x741393105415276700` — FORM: WITH '-ST' — system `G04` — `bounded_pattern` / `integrated_required`
 - `egp.1741163706534x938846205163626000` — FORM: ELLIPSIS, WITH 'THE' — system `G04` — `bounded_pattern` / `integrated_required`
 
-**Word — 11**
+**Word — 10**
 
-- `oxford.o3000.p04.163` — average — review row 63 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.183` — benefit — review row 83 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.112` — advantage — review row 12 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.230` — chance — review row 130 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.010` — credit — review row 186 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.028` — decision — review row 204 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.057` — double — review row 233 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.206` — ideal — review row 382 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.271` — less — review row 447 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.152` — quality — review row 608 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.153` — quantity — review row 609 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.164` — realize — review row 620 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.232` — sense — review row 688 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.237` — service — review row 693 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.027` — successful — review row 763 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.059` — third — review row 795 — `contextual` / `integrated_required`
 
 ### Interactive — 1
 
@@ -1531,12 +1569,13 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p24.010` — Can ask basic questions about colour, size, price etc. when shopping. (CSEa) — review row 86 — `bounded_pattern` / `independent_possible`
 
-### Receptive — 2
+### Receptive — 3
 
-**Word — 2**
+**Word — 3**
 
-- `oxford.o3000.p06.022` — matter — review row 478 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.163` — average — review row 63 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.096` — penny — review row 552 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.059` — third — review row 795 — `contextual` / `integrated_required`
 
 ## U5-L03 — 17 source introductions / 9 active
 
@@ -1586,12 +1625,12 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163711822x210963616833492060` — FORM: UNCOUNTABLE NOUNS — system `G31` — `quality_constraint` / `support_condition`
 - `egp.1741163711828x527765417669890940` — FORM: CONTAINERS, QUANTITY EXPRESSIONS — system `G31` — `quality_constraint` / `support_condition`
 
-## U5-L04 — 13 source introductions / 9 active
+## U5-L04 — 14 source introductions / 9 active
 
 - productive: **9**
 - interactive: **0**
-- receptive: **1**
-- integrated support: **3**
+- receptive: **3**
+- integrated support: **2**
 
 ### Productive — 9
 
@@ -1605,30 +1644,31 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 **Word — 7**
 
-- `oxford.o3000.p04.218` — carefully — review row 118 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.041` — diary — review row 217 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.151` — free — review row 327 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.010` — lucky — review row 466 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.146` — pub — review row 602 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.033` — mind — review row 489 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.215` — sale — review row 671 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.231` — seem — review row 687 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.254` — sir — review row 710 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.018` — store — review row 754 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.064` — tip — review row 800 — `contextual` / `integrated_required`
 
-### Receptive — 1
+### Receptive — 3
 
-**Word — 1**
+**Word — 3**
 
-- `oxford.o3000.p05.025` — deal — review row 201 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.221` — case — review row 121 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.169` — good — review row 345 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.091` — unit — review row 827 — `contextual` / `integrated_required`
 
-### Integrated Support — 3
+### Integrated Support — 2
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.018` — Can understand enough to manage simple routine exchanges without undue effort. (C) — review row 73 — `quality_constraint` / `support_condition`
 
-**Word — 2**
+**Word — 1**
 
 - `oxford.o3000.p04.129` — already — review row 29 — `quality_constraint` / `support_condition`
-- `oxford.o3000.p05.133` — first — review row 309 — `quality_constraint` / `support_condition`
 
 ## U5-L05 — 9 source introductions / 7 active
 
@@ -1667,28 +1707,30 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.006` — Can exchange simple information on everyday topics, provided the other person speaks slowly and clearly and is prepared to help. (Ca) — review row 133 — `quality_constraint` / `support_condition`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.005` — Can communicate in routine tasks requiring simple, direct exchanges of information. (Ca) — review row 159 — `quality_constraint` / `support_condition`
 
-## U5-L06 — 24 source introductions / 9 active
+## U5-L06 — 24 source introductions / 11 active
 
-- productive: **9**
+- productive: **11**
 - interactive: **0**
-- receptive: **15**
+- receptive: **13**
 - integrated support: **0**
 
-### Productive — 9
+### Productive — 11
 
-**Word — 9**
+**Word — 11**
 
 - `oxford.o3000.p04.203` — bowl — review row 103 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.276` — cook — review row 176 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.030` — definitely — review row 206 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.050` — discover — review row 226 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.147` — fork — review row 323 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.175` — guide — review row 351 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.036` — missing — review row 492 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.113` — plate — review row 569 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.156` — quietly — review row 612 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.205` — rubbish — review row 661 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.245` — shout — review row 701 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.005` — spoon — review row 741 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.066` — top — review row 802 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.101` — variety — review row 837 — `contextual` / `integrated_required`
 
-### Receptive — 15
+### Receptive — 13
 
 **Ability — 3**
 
@@ -1701,27 +1743,25 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0250` — focus on sb/sth — review row 64 — `contextual` / `integrated_required`
 - `oxford.phrase.online.0602` — refer to sb/sth — review row 143 — `contextual` / `integrated_required`
 
-**Word — 10**
+**Word — 8**
 
 - `oxford.o3000.p04.117` — affect — review row 17 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.132` — among — review row 32 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.177` — beef — review row 77 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.221` — case — review row 121 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.240` — cigarette — review row 140 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.116` — farm — review row 292 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.160` — gap — review row 336 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.269` — lemon — review row 445 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.012` — major — review row 468 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.066` — ocean — review row 522 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.123` — wind1 — review row 859 — `contextual` / `integrated_required`
 
-## U6-L01 — 21 source introductions / 17 active
+## U6-L01 — 22 source introductions / 18 active
 
-- productive: **17**
+- productive: **18**
 - interactive: **0**
 - receptive: **2**
 - integrated support: **2**
 
-### Productive — 17
+### Productive — 18
 
 **Ability — 1**
 
@@ -1735,9 +1775,10 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0309` — go up — review row 79 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0714` — up and down — review row 171 — `formulaic` / `integrated_required`
 
-**Word — 11**
+**Word — 12**
 
 - `oxford.o3000.p04.205` — bridge — review row 105 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.247` — close2 — review row 147 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.045` — direction — review row 221 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.094` — everywhere — review row 270 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.180` — hall — review row 356 — `contextual` / `integrated_required`
@@ -1791,7 +1832,7 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p05.253` — lake — review row 429 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.078` — outside — review row 534 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.105` — photograph — review row 561 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.182` — repair — review row 638 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.239` — shake — review row 695 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.255` — site — review row 711 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.020` — straight — review row 756 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.094` — upstairs — review row 830 — `contextual` / `integrated_required`
@@ -1817,14 +1858,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163713112x864243593656802700` — FORM: COMPLEX — system `G36` — `quality_constraint` / `support_condition`
 - `egp.1741163713115x831925659489416200` — FORM: STRANDING — system `G36` — `quality_constraint` / `support_condition`
 
-## U6-L03 — 38 source introductions / 28 active
+## U6-L03 — 38 source introductions / 27 active
 
-- productive: **28**
+- productive: **27**
 - interactive: **0**
-- receptive: **3**
+- receptive: **4**
 - integrated support: **7**
 
-### Productive — 28
+### Productive — 27
 
 **Ability — 3**
 
@@ -1846,31 +1887,31 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163708331x150409111220634050` — USE: INSTRUCTIONS — system `G09` — `bounded_pattern` / `integrated_required`
 - `egp.1741163708331x843997098925344500` — FORM/USE: 'LET'S', SUGGESTION — system `G09` — `bounded_pattern` / `integrated_required`
 - `egp.1741163708331x925040480671095300` — USE: CLOSINGS — system `G09` — `bounded_pattern` / `integrated_required`
-- `egp.1741163713633x403618875526840800` — FORM: WITH ADVERBS OF INDEFINITE FREQUENCY — system `G38` — `bounded_pattern` / `integrated_required`
+- `egp.1741163713633x426061404387356740` — FORM: QUESTIONS — system `G38` — `bounded_pattern` / `integrated_required`
 - `egp.1741163713633x795560331040402300` — USE: INSTRUCTIONS AND DIRECTIONS — system `G38` — `bounded_pattern` / `integrated_required`
 
-**Word — 14**
+**Word — 13**
 
 - `oxford.o3000.p04.202` — bottom — review row 102 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.239` — church — review row 139 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.044` — direct — review row 220 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.059` — downstairs — review row 235 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.173` — ground — review row 349 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.194` — hill — review row 370 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.274` — lift — review row 450 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.031` — middle — review row 487 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.087` — parking — review row 543 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.108` — pick — review row 564 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.183` — replace — review row 639 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.149` — pull — review row 605 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.203` — round — review row 659 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.246` — shut — review row 702 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.277` — somewhere — review row 733 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.070` — towards — review row 806 — `contextual` / `integrated_required`
 
-### Receptive — 3
+### Receptive — 4
 
-**Word — 3**
+**Word — 4**
 
 - `oxford.o3000.p04.176` — beat — review row 76 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.044` — direct — review row 220 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.063` — drive — review row 239 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.099` — valley — review row 835 — `contextual` / `integrated_required`
 
@@ -1941,32 +1982,35 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p06.110` — planet — review row 566 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.069` — tourism — review row 805 — `contextual` / `integrated_required`
 
-## U6-L05 — 22 source introductions / 13 active
+## U6-L05 — 22 source introductions / 16 active
 
-- productive: **12**
+- productive: **15**
 - interactive: **1**
-- receptive: **7**
-- integrated support: **2**
+- receptive: **5**
+- integrated support: **1**
 
-### Productive — 12
+### Productive — 15
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.008` — Can get information from a tourist office of a straightforward, non-specialised nature. (Ca) — review row 190 — `bounded_pattern` / `independent_possible`
 
-**Word — 11**
+**Word — 14**
 
 - `oxford.o3000.p04.121` — airline — review row 21 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.041` — diary — review row 217 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.255` — collect — review row 155 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.052` — discussion — review row 228 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.142` — flying — review row 318 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.200` — hole — review row 376 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.004` — lost — review row 460 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.029` — metal — review row 485 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.056` — noise — review row 512 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.104` — petrol — review row 560 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.195` — ride — review row 651 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.243` — ship — review row 699 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.077` — train — review row 813 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.262` — slowly — review row 718 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.080` — transport — review row 816 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.100` — van — review row 836 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.119` — whole — review row 855 — `contextual` / `integrated_required`
 
 ### Interactive — 1
 
@@ -1974,36 +2018,33 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.003` — Can handle common everyday transactions (e.g. ‘buying a ticket’). (Ca) — review row 105 — `bounded_pattern` / `independent_possible`
 
-### Receptive — 7
+### Receptive — 5
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.011` — Can understand the instructions to buy tickets online. (P) — review row 27 — `contextual` / `independent_possible`
 
-**Word — 6**
+**Word — 4**
 
-- `oxford.o3000.p04.240` — cigarette — review row 140 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.250` — cloud — review row 150 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.146` — forest — review row 322 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.169` — good — review row 345 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.119` — pollution — review row 575 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.260` — sky — review row 716 — `contextual` / `integrated_required`
 
-### Integrated Support — 2
+### Integrated Support — 1
 
-**Word — 2**
+**Word — 1**
 
 - `oxford.o3000.p04.136` — any — review row 36 — `quality_constraint` / `support_condition`
-- `oxford.o3000.p06.227` — second1 (next after the first) — review row 683 — `quality_constraint` / `support_condition`
 
-## U6-L06 — 19 source introductions / 17 active
+## U6-L06 — 18 source introductions / 16 active
 
-- productive: **17**
+- productive: **16**
 - interactive: **0**
 - receptive: **2**
 - integrated support: **0**
 
-### Productive — 17
+### Productive — 16
 
 **Ability — 1**
 
@@ -2014,21 +2055,20 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0166` — check in — review row 37 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0167` — check out — review row 38 — `formulaic` / `integrated_required`
 
-**Word — 14**
+**Word — 13**
 
 - `oxford.o3000.p04.199` — book — review row 99 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.255` — collect — review row 155 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.050` — discover — review row 226 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.262` — compete — review row 162 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.089` — equipment — review row 265 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.162` — gate — review row 338 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.175` — guide — review row 351 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.033` — mind — review row 489 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.201` — home — review row 377 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.041` — motorcycle — review row 497 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.057` — noisy — review row 513 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.114` — platform — review row 570 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.204` — route — review row 660 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.231` — seem — review row 687 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.264` — smell — review row 720 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.013` — stay — review row 749 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.081` — traveller — review row 817 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.090` — uniform — review row 826 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.102` — vehicle — review row 838 — `contextual` / `integrated_required`
 
 ### Receptive — 2
@@ -2067,14 +2107,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p07.083` — truck — review row 819 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.106` — wait — review row 842 — `contextual` / `integrated_required`
 
-## U7-L01 — 27 source introductions / 22 active
+## U7-L01 — 32 source introductions / 27 active
 
-- productive: **20**
+- productive: **25**
 - interactive: **2**
 - receptive: **5**
 - integrated support: **0**
 
-### Productive — 20
+### Productive — 25
 
 **Ability — 6**
 
@@ -2092,15 +2132,20 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0542` — on time — review row 130 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0739` — would love to do sth — review row 175 — `formulaic` / `integrated_required`
 
-**Grammar — 1**
+**Grammar — 3**
 
+- `egp.1741163709462x251946416286091620` — USE: SUGGESTIONS WITH 'SHALL' — system `G20` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711528x635492123385210640` — FORM: QUESTIONS WITH 'LIKE' — system `G29` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715031x643536767928989600` — FORM/USE: NEGATIVE QUESTONS, SUGGESTIONS — system `G40` — `bounded_pattern` / `integrated_required`
 
-**Word — 9**
+**Word — 12**
 
+- `oxford.o3000.p04.104` — accept — review row 4 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.214` — camping — review row 114 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.257` — comedy — review row 157 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.061` — drawing — review row 237 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.233` — invitation — review row 409 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.009` — luck — review row 465 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.043` — musical — review row 499 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.099` — perform — review row 555 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.200` — rock (music) — review row 656 — `contextual` / `integrated_required`
@@ -2125,17 +2170,18 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p05.239` — jazz — review row 415 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.010` — star — review row 746 — `contextual` / `integrated_required`
 
-## U7-L02 — 6 source introductions / 4 active
+## U7-L02 — 7 source introductions / 5 active
 
-- productive: **1**
+- productive: **2**
 - interactive: **3**
 - receptive: **2**
 - integrated support: **0**
 
-### Productive — 1
+### Productive — 2
 
-**Word — 1**
+**Word — 2**
 
+- `oxford.o3000.p04.162` — available — review row 62 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.075` — organize — review row 531 — `contextual` / `integrated_required`
 
 ### Interactive — 3
@@ -2181,14 +2227,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p04.178` — before — review row 78 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p05.149` — fortunately — review row 325 — `quality_constraint` / `support_condition`
 
-## U7-L04 — 24 source introductions / 20 active
+## U7-L04 — 23 source introductions / 19 active
 
-- productive: **20**
+- productive: **19**
 - interactive: **0**
 - receptive: **4**
 - integrated support: **0**
 
-### Productive — 20
+### Productive — 19
 
 **Ability — 2**
 
@@ -2204,15 +2250,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163709470x917723267803535400` — USE: PREDICTIONS WITH 'BE' — system `G21` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711296x325230052368145900` — USE: PLANS AND INTENTIONS — system `G28` — `bounded_pattern` / `integrated_required`
 
-**Word — 12**
+**Word — 11**
 
-- `oxford.o3000.p04.229` — certainly — review row 129 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.263` — competition — review row 163 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.115` — fan — review row 291 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.136` — fishing — review row 312 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.202` — hope — review row 378 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.241` — joke — review row 417 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.044` — musician — review row 500 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.052` — need — review row 508 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.142` — promise — review row 598 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.209` — running — review row 665 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.252` — singing — review row 708 — `contextual` / `integrated_required`
@@ -2262,14 +2307,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.024` — Can ask and answer questions about basic plans and intentions. (P) — review row 178 — `bounded_pattern` / `independent_possible`
 
-## U7-L06 — 23 source introductions / 15 active
+## U7-L06 — 27 source introductions / 18 active
 
-- productive: **15**
+- productive: **18**
 - interactive: **0**
-- receptive: **2**
+- receptive: **3**
 - integrated support: **6**
 
-### Productive — 15
+### Productive — 18
 
 **Ability — 1**
 
@@ -2287,19 +2332,23 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163711296x650279021780509000` — FORM: NEGATIVE — system `G28` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711535x514214856539001000` — FORM: CLAUSE POSITION — system `G23` — `bounded_pattern` / `integrated_required`
 
-**Word — 5**
+**Word — 8**
 
-- `oxford.o3000.p05.101` — expect — review row 277 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.228` — certain — review row 128 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.161` — gas — review row 337 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.100` — perhaps — review row 556 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.277` — likely — review row 453 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.050` — necessary — review row 506 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.127` — predict — review row 583 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.130` — prevent — review row 586 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.034` — suppose — review row 770 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.125` — wish — review row 861 — `contextual` / `integrated_required`
 
-### Receptive — 2
+### Receptive — 3
 
-**Word — 2**
+**Word — 3**
 
 - `oxford.o3000.p05.035` — desert — review row 211 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.124` — possibility — review row 580 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.017` — stone — review row 753 — `contextual` / `integrated_required`
 
 ### Integrated Support — 6
@@ -2316,14 +2365,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p06.238` — several — review row 694 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p07.134` — yours — review row 870 — `quality_constraint` / `support_condition`
 
-## U8-L01 — 25 source introductions / 17 active
+## U8-L01 — 24 source introductions / 14 active
 
-- productive: **17**
+- productive: **14**
 - interactive: **0**
-- receptive: **3**
+- receptive: **5**
 - integrated support: **5**
 
-### Productive — 17
+### Productive — 14
 
 **Ability — 2**
 
@@ -2339,31 +2388,30 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163712739x218459335733744320` — FORM: AFFIRMATIVE — system `G34` — `bounded_pattern` / `integrated_required`
 - `egp.1741163712739x998605611367738000` — FORM: NEGATIVE — system `G34` — `bounded_pattern` / `integrated_required`
 
-**Word — 12**
+**Word — 9**
 
 - `oxford.o3000.p04.105` — accident — review row 5 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.150` — arrange — review row 50 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.244` — clearly — review row 144 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.262` — compete — review row 162 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.052` — discussion — review row 228 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.062` — dream — review row 238 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.157` — further — review row 333 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.192` — hide — review row 368 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.200` — hole — review row 376 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.264` — lead1 — review row 440 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.036` — missing — review row 492 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.245` — shout — review row 701 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.064` — number — review row 520 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.278` — sort — review row 734 — `contextual` / `integrated_required`
 
-### Receptive — 3
+### Receptive — 5
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.014` — Can understand a simple text about a past event. (P) — review row 30 — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.005` — Can identify activities occurring in the past in short, simple dialogues. (P) — review row 60 — `contextual` / `independent_possible`
 
-**Word — 1**
+**Word — 3**
 
-- `oxford.o3000.p07.091` — unit — review row 827 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.272` — context — review row 172 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.121` — feature — review row 297 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.235` — involve — review row 411 — `contextual` / `integrated_required`
 
 ### Integrated Support — 5
 
@@ -2378,14 +2426,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `pronunciation.grammatical_endings.a2` — Audible grammatical endings — `quality_constraint` / `support_condition`
 
-## U8-L02 — 13 source introductions / 11 active
+## U8-L02 — 12 source introductions / 9 active
 
-- productive: **10**
+- productive: **8**
 - interactive: **1**
-- receptive: **1**
+- receptive: **2**
 - integrated support: **1**
 
-### Productive — 10
+### Productive — 8
 
 **Ability — 1**
 
@@ -2400,14 +2448,12 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163712739x248735900919531140` — FORM: QUESTIONS — system `G34` — `bounded_pattern` / `integrated_required`
 - `egp.1741163712740x766192438162604200` — FORM: WITH 'WHEN' — system `G34` — `bounded_pattern` / `integrated_required`
 
-**Word — 6**
+**Word — 4**
 
 - `oxford.o3000.p04.151` — arrangement — review row 51 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.089` — equipment — review row 265 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.201` — home — review row 377 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.056` — noise — review row 512 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.262` — slowly — review row 718 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.101` — variety — review row 837 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.270` — lend — review row 446 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.080` — own — review row 536 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.011` — start — review row 747 — `contextual` / `integrated_required`
 
 ### Interactive — 1
 
@@ -2415,11 +2461,12 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.019` — Can ask and answer questions about past times and past activities. (C) — review row 201 — `bounded_pattern` / `independent_possible`
 
-### Receptive — 1
+### Receptive — 2
 
-**Word — 1**
+**Word — 2**
 
-- `oxford.o3000.p04.272` — context — review row 172 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.273` — continent — review row 173 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.125` — field — review row 301 — `contextual` / `integrated_required`
 
 ### Integrated Support — 1
 
@@ -2490,14 +2537,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `egp.1741163716068x574314163168649300` — FORM: AUXILIARY VERBS 'BE', 'HAVE', PRESENT — system `G30` — `quality_constraint` / `support_condition`
 
-## U8-L05 — 35 source introductions / 17 active
+## U8-L05 — 34 source introductions / 18 active
 
-- productive: **17**
+- productive: **18**
 - interactive: **0**
-- receptive: **7**
+- receptive: **5**
 - integrated support: **11**
 
-### Productive — 17
+### Productive — 18
 
 **Ability — 3**
 
@@ -2509,31 +2556,30 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `oxford.phrase.online.0475` — look back at sth — review row 114 — `formulaic` / `integrated_required`
 
-**Word — 13**
+**Word — 14**
 
 - `oxford.o3000.p04.127` — alone — review row 27 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.190` — birth — review row 90 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.020` — daily — review row 196 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.178` — habit — review row 354 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.244` — kid — review row 420 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.273` — lifestyle — review row 449 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.060` — normally — review row 516 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.144` — protect — review row 600 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.180` — relationship — review row 636 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.193` — rest (sleep/relax) — review row 649 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.253` — single — review row 709 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.062` — tidy — review row 798 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.098` — usual — review row 834 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.109` — washing — review row 845 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.113` — wedding — review row 849 — `contextual` / `integrated_required`
 
-### Receptive — 7
+### Receptive — 5
 
-**Word — 7**
+**Word — 5**
 
 - `oxford.o3000.p05.037` — destroy — review row 213 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.123` — female — review row 299 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.171` — grass — review row 347 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.218` — individual — review row 394 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.013` — male — review row 469 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.208` — runner — review row 664 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.019` — storm — review row 755 — `contextual` / `integrated_required`
 
@@ -2586,50 +2632,49 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2.p10.007` — Can get the gist of short, simple narratives, with visual support. (P) — review row 10 — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.002` — Can follow a simple conversation or narrative about familiar, everyday activities. (P) — review row 57 — `contextual` / `independent_possible`
 
-## U9-L02 — 16 source introductions / 11 active
+## U9-L02 — 15 source introductions / 12 active
 
-- productive: **11**
+- productive: **12**
 - interactive: **0**
-- receptive: **5**
+- receptive: **3**
 - integrated support: **0**
 
-### Productive — 11
+### Productive — 12
 
 **Grammar — 2**
 
 - `egp.1741163712321x580479358300843000` — FORM: WITH ADVERBS — system `G33` — `bounded_pattern` / `integrated_required`
 - `egp.1741163712321x644327601969835100` — USE: EVENTS IN PROGRESS — system `G33` — `bounded_pattern` / `integrated_required`
 
-**Word — 9**
+**Word — 10**
 
 - `oxford.o3000.p04.164` — avoid — review row 64 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.224` — catch — review row 124 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.274` — continue — review row 174 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.102` — experience — review row 278 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.129` — final — review row 305 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.199` — hold — review row 375 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.057` — noisy — review row 513 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.091` — past — review row 547 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.264` — smell — review row 720 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.128` — present — review row 584 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.029` — suddenly — review row 765 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.119` — whole — review row 855 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.041` — symbol — review row 777 — `contextual` / `integrated_required`
 
-### Receptive — 5
+### Receptive — 3
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.001` — Can follow a basic sequence of events in a simple text on a familiar topic. (P) — review row 17 — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.006` — Can follow the sequence of events in a short, simple dialogue or narrative. (P) — review row 61 — `contextual` / `independent_possible`
 
-**Word — 3**
+**Word — 1**
 
-- `oxford.o3000.p04.273` — continent — review row 173 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.121` — feature — review row 297 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.235` — involve — review row 411 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.002` — look — review row 458 — `contextual` / `integrated_required`
 
-## U9-L03 — 26 source introductions / 13 active
+## U9-L03 — 27 source introductions / 13 active
 
 - productive: **13**
 - interactive: **0**
-- receptive: **2**
+- receptive: **3**
 - integrated support: **11**
 
 ### Productive — 13
@@ -2649,19 +2694,20 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p05.249` — knock — review row 425 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.259` — later — review row 435 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.001` — lock — review row 457 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.149` — pull — review row 605 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.151` — push — review row 607 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.166` — recent — review row 622 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.239` — shake — review row 695 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.061` — throw — review row 797 — `contextual` / `integrated_required`
 
-### Receptive — 2
+### Receptive — 3
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.017` — Can follow the sequence of actions or events in a text on a familiar everyday topic. (P) — review row 33 — `contextual` / `independent_possible`
 
-**Word — 1**
+**Word — 2**
 
 - `oxford.o3000.p04.195` — blow — review row 95 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.210` — sadly — review row 666 — `contextual` / `integrated_required`
 
 ### Integrated Support — 11
 
@@ -2767,14 +2813,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.010` — Can tell a story or describe something in a simple list of points. (C) — review row 192 — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.012` — Can write a simple story or description of an event using basic time expressions. (P) — review row 259 — `bounded_pattern` / `independent_possible`
 
-## U10-L01 — 37 source introductions / 24 active
+## U10-L01 — 40 source introductions / 26 active
 
-- productive: **24**
+- productive: **26**
 - interactive: **0**
-- receptive: **12**
+- receptive: **13**
 - integrated support: **1**
 
-### Productive — 24
+### Productive — 26
 
 **Ability — 1**
 
@@ -2787,41 +2833,44 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0564` — pay attention — review row 134 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0709` — turn sth on — review row 170 — `formulaic` / `integrated_required`
 
-**Grammar — 9**
+**Grammar — 10**
 
 - `egp.1741163708330x197590942940390140` — FORM: AFFIRMATIVE — system `G09` — `bounded_pattern` / `integrated_required`
 - `egp.1741163708330x456690728495361200` — FORM: NEGATIVE DECLARATIVE WITH 'HAVE' — system `G09` — `bounded_pattern` / `integrated_required`
 - `egp.1741163708331x357890058176217500` — USE: EMPHASISING AN INSTRUCTION — system `G09` — `bounded_pattern` / `integrated_required`
 - `egp.1741163708331x891503713311455000` — FORM/USE: NEGATIVE — system `G09` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715620x498638187111649860` — FORM/USE: PRESENT SIMPLE 'IF' CLAUSE, REAL CONDITIONS — system `G13` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715620x594637230902398300` — FORM: PRESENT SIMPLE 'IF' CLAUSE + IMPERATIVE — system `G13` — `bounded_pattern` / `integrated_required`
 - `egp.1741163715620x681820697260531000` — FORM: 'IF' + PRESENT SIMPLE — system `G13` — `bounded_pattern` / `integrated_required`
 - `egp.1741163710614x486320350557277500` — FORM: NEGATIVE — system `G25` — `bounded_pattern` / `integrated_required`
 - `egp.1741163710614x653642415559389200` — USE: OBLIGATION — system `G25` — `bounded_pattern` / `integrated_required`
 - `egp.1741163710844x422781473749080900` — FORM: AFFIRMATIVE — system `G25` — `bounded_pattern` / `integrated_required`
+- `egp.1741163713626x199664325289681020` — FORM/USE: REAL AND IMAGINED SITUATIONS AFTER 'IF' — system `G38` — `bounded_pattern` / `integrated_required`
 
-**Word — 10**
+**Word — 11**
 
 - `oxford.o3000.p04.193` — blank — review row 93 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.210` — burn — review row 110 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.217` — careful — review row 117 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.225` — cause — review row 125 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.004` — correctly — review row 180 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.087` — enter — review row 263 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.131` — print — review row 587 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.151` — push — review row 607 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.162` — reach — review row 618 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.211` — safe — review row 667 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.246` — shut — review row 702 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.046` — task — review row 782 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.067` — touch — review row 803 — `contextual` / `integrated_required`
 
-### Receptive — 12
+### Receptive — 13
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p09.001` — Can understand simple safety instructions, with visual support. (P) — review row 1 — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p10.004` — Can understand rules and regulations (e.g. ‘safety’) if expressed in simple language. (C) — review row 20 — `contextual` / `independent_possible`
 
-**Word — 10**
+**Word — 11**
 
 - `oxford.o3000.p04.156` — attack — review row 56 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.158` — attention — review row 58 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.038` — detective — review row 214 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.039` — develop — review row 215 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.083` — energy — review row 259 — `contextual` / `integrated_required`
@@ -2838,14 +2887,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `egp.1741163716068x445742738976088800` — FORM: 'DO', IMPERATIVES — system `G30` — `quality_constraint` / `support_condition`
 
-## U10-L02 — 42 source introductions / 21 active
+## U10-L02 — 42 source introductions / 20 active
 
-- productive: **21**
+- productive: **20**
 - interactive: **0**
-- receptive: **14**
+- receptive: **15**
 - integrated support: **7**
 
-### Productive — 21
+### Productive — 20
 
 **Ability — 3**
 
@@ -2863,9 +2912,9 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `egp.1741163708567x890527430865632800` — FORM/USE: PURPOSE — system `G12` — `bounded_pattern` / `integrated_required`
 - `egp.1741163708788x790869024789763000` — FORM: SIMPLE — system `G12` — `bounded_pattern` / `integrated_required`
-- `egp.1741163713633x426061404387356740` — FORM: QUESTIONS — system `G38` — `bounded_pattern` / `integrated_required`
+- `egp.1741163713633x552588242206544260` — FORM: NEGATIVE — system `G38` — `bounded_pattern` / `integrated_required`
 
-**Word — 12**
+**Word — 11**
 
 - `oxford.o3000.p04.212` — button — review row 112 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.268` — connect — review row 168 — `contextual` / `integrated_required`
@@ -2873,14 +2922,13 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p05.152` — fresh — review row 328 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.215` — increase — review row 391 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.135` — process — review row 591 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.162` — reach — review row 618 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.169` — recipe — review row 625 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.181` — remove — review row 637 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.221` — schedule — review row 677 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.040` — sweet — review row 776 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.061` — throw — review row 797 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.065` — tool — review row 801 — `contextual` / `integrated_required`
 
-### Receptive — 14
+### Receptive — 15
 
 **Ability — 1**
 
@@ -2892,7 +2940,7 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163712047x585480674416874600` — FORM: PRESENT SIMPLE, AFFIRMATIVE — system `G32` — `bounded_pattern` / `integrated_required`
 - `egp.1741163712047x673355343552202160` — FORM/USE: WITH 'BY' TO ADD INFORMATION — system `G32` — `bounded_pattern` / `integrated_required`
 
-**Word — 10**
+**Word — 11**
 
 - `oxford.o3000.p04.191` — biscuit — review row 91 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.215` — can2 — review row 115 — `contextual` / `integrated_required`
@@ -2901,6 +2949,7 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p05.084` — engine — review row 260 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.114` — fall — review row 290 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.119` — fat — review row 295 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.275` — light (from the sun/a lamp) — review row 451 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.065` — nut — review row 521 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.070` — onto — review row 526 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.042` — system — review row 778 — `contextual` / `integrated_required`
@@ -2920,14 +2969,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163711821x273496650762721440` — FORM: PLURAL '-IES' — system `G31` — `quality_constraint` / `support_condition`
 - `egp.1741163711822x913552415415866000` — FORM: NOUNS ONLY USED IN THE PLURAL — system `G31` — `quality_constraint` / `support_condition`
 
-## U10-L03 — 24 source introductions / 16 active
+## U10-L03 — 25 source introductions / 17 active
 
-- productive: **16**
+- productive: **17**
 - interactive: **0**
 - receptive: **8**
 - integrated support: **0**
 
-### Productive — 16
+### Productive — 17
 
 **Ability — 1**
 
@@ -2939,7 +2988,7 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0384` — in danger — review row 96 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0708` — turn sth off — review row 169 — `formulaic` / `integrated_required`
 
-**Word — 12**
+**Word — 13**
 
 - `oxford.o3000.p04.234` — check — review row 134 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.269` — connected — review row 169 — `contextual` / `integrated_required`
@@ -2948,10 +2997,11 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p05.138` — fix — review row 314 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.225` — instruction — review row 401 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.089` — pass — review row 545 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.108` — pick — review row 564 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.132` — printer — review row 588 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.181` — remove — review row 637 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.182` — repair — review row 638 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.183` — replace — review row 639 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.043` — tablet — review row 779 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.067` — touch — review row 803 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.095` — use — review row 831 — `contextual` / `integrated_required`
 
 ### Receptive — 8
@@ -3065,31 +3115,34 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p05.184` — heart — review row 360 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.092` — patient — review row 548 — `contextual` / `integrated_required`
 
-## U10-L06 — 5 source introductions / 5 active
+## U10-L06 — 3 source introductions / 1 active
 
-- productive: **5**
+- productive: **1**
 - interactive: **0**
-- receptive: **0**
+- receptive: **2**
 - integrated support: **0**
 
-### Productive — 5
+### Productive — 1
 
-**Word — 5**
+**Word — 1**
 
-- `oxford.o3000.p04.230` — chance — review row 130 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.034` — depend — review row 210 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.071` — opportunity — review row 527 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.232` — sense — review row 688 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.045` — target — review row 781 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.238` — choice — review row 138 — `contextual` / `integrated_required`
 
-## U11-L01 — 43 source introductions / 18 active
+### Receptive — 2
 
-- productive: **15**
+**Word — 2**
+
+- `oxford.o3000.p06.022` — matter — review row 478 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.027` — successful — review row 763 — `contextual` / `integrated_required`
+
+## U11-L01 — 40 source introductions / 15 active
+
+- productive: **12**
 - interactive: **3**
 - receptive: **7**
 - integrated support: **18**
 
-### Productive — 15
+### Productive — 12
 
 **Phrase — 3**
 
@@ -3097,20 +3150,17 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0464` — let me know — review row 111 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0515` — Oh dear — review row 123 — `formulaic` / `integrated_required`
 
-**Word — 12**
+**Word — 9**
 
-- `oxford.o3000.p04.148` — argument — review row 48 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.026` — dear — review row 202 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.211` — immediately — review row 387 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.230` — introduction — review row 406 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.011` — mail — review row 467 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.028` — mention — review row 484 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.061` — notice — review row 517 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.165` — receive — review row 621 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.190` — respond — review row 646 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.280` — speaker — review row 736 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.031` — suggestion — review row 767 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.044` — talk — review row 780 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.053` — text — review row 789 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.132` — wow — review row 868 — `contextual` / `integrated_required`
 
 ### Interactive — 3
 
@@ -3167,12 +3217,18 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p06.040` — mostly — review row 496 — `quality_constraint` / `support_condition`
 - `oxford.o3000.p07.088` — unfortunately — review row 824 — `quality_constraint` / `support_condition`
 
-## U11-L02 — 7 source introductions / 2 active
+## U11-L02 — 8 source introductions / 3 active
 
-- productive: **0**
+- productive: **1**
 - interactive: **2**
 - receptive: **0**
 - integrated support: **5**
+
+### Productive — 1
+
+**Word — 1**
+
+- `oxford.o3000.p06.184` — reply — review row 640 — `contextual` / `integrated_required`
 
 ### Interactive — 2
 
@@ -3194,11 +3250,11 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `egp.1741163715815x672882522886991900` — FORM/USE: 'SO', SUMMARISING, INFORMAL — system `G18` — `quality_constraint` / `support_condition`
 
-## U11-L03 — 32 source introductions / 12 active
+## U11-L03 — 33 source introductions / 12 active
 
 - productive: **12**
 - interactive: **0**
-- receptive: **20**
+- receptive: **21**
 - integrated support: **0**
 
 ### Productive — 12
@@ -3218,7 +3274,7 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p06.224` — search — review row 680 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.002` — speech — review row 738 — `contextual` / `integrated_required`
 
-### Receptive — 20
+### Receptive — 21
 
 **Ability — 8**
 
@@ -3236,7 +3292,7 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0480` — look sth up — review row 115 — `contextual` / `integrated_required`
 - `oxford.phrase.online.0620` — search for sth/sb — review row 148 — `contextual` / `integrated_required`
 
-**Word — 10**
+**Word — 11**
 
 - `oxford.o3000.p04.115` — advertisement — review row 15 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.232` — charity — review row 132 — `contextual` / `integrated_required`
@@ -3247,13 +3303,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p05.127` — figure — review row 303 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.204` — human — review row 380 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.232` — invention — review row 408 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.001` — specific — review row 737 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.049` — technology — review row 785 — `contextual` / `integrated_required`
 
-## U11-L04 — 45 source introductions / 10 active
+## U11-L04 — 47 source introductions / 10 active
 
 - productive: **10**
 - interactive: **0**
-- receptive: **29**
+- receptive: **31**
 - integrated support: **6**
 
 ### Productive — 10
@@ -3271,7 +3328,7 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p06.248` — sign — review row 704 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.097` — user — review row 833 — `contextual` / `integrated_required`
 
-### Receptive — 29
+### Receptive — 31
 
 **Ability — 5**
 
@@ -3299,15 +3356,17 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163715277x561147037910384640` — FORM: VERBS + INDIRECT OBJECT CLAUSE — system `G41` — `bounded_pattern` / `integrated_required`
 - `egp.1741163715277x859067269502848500` — FORM: VERBS + DIRECT OBJECT CLAUSE WITHOUT 'THAT' — system `G41` — `bounded_pattern` / `integrated_required`
 
-**Word — 12**
+**Word — 14**
 
 - `oxford.o3000.p04.116` — advertising — review row 16 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.266` — condition — review row 166 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.275` — control — review row 175 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.011` — crime — review row 187 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.023` — data — review row 199 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.075` — electrical — review row 251 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.076` — electricity — review row 252 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.104` — expert — review row 280 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.108` — extreme — review row 284 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.030` — method — review row 486 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.068` — officer — review row 524 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.159` — raise — review row 615 — `contextual` / `integrated_required`
@@ -3366,11 +3425,11 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p07.014` — steal — review row 750 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.075` — tradition — review row 811 — `contextual` / `integrated_required`
 
-## U11-L06 — 30 source introductions / 18 active
+## U11-L06 — 32 source introductions / 18 active
 
 - productive: **16**
 - interactive: **2**
-- receptive: **12**
+- receptive: **14**
 - integrated support: **0**
 
 ### Productive — 16
@@ -3379,26 +3438,26 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.003` — Can answer simple questions in a face-to-face survey. (P) — review row 130 — `bounded_pattern` / `independent_possible`
 
-**Grammar — 4**
+**Grammar — 5**
 
-- `egp.1741163715031x105271547041443380` — FORM: WITH AUXILIARY 'HAVE' — system `G40` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715031x610001690827891800` — FORM: MODAL VERBS — system `G40` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715033x134646499658930300` — FORM: AUXILIARY 'BE' — system `G40` — `bounded_pattern` / `integrated_required`
-- `egp.1741163715033x661087028434845600` — FORM: MAIN VERB 'BE' — system `G40` — `bounded_pattern` / `integrated_required`
+- `egp.1741163713633x978808878460501800` — FORM: INDIRECT QUESTIONS — system `G38` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715026x780872145435740400` — FORM: WORD + WORD — system `G40` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715031x260861213622010530` — FORM: WITH AUXILIARY 'DO' — system `G40` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715031x898125206259626100` — FORM: MAIN VERB 'BE' — system `G40` — `bounded_pattern` / `integrated_required`
+- `egp.1741163715033x444139630968705800` — FORM: AUXILIARY 'HAVE' — system `G40` — `bounded_pattern` / `integrated_required`
 
-**Word — 11**
+**Word — 10**
 
+- `oxford.o3000.p04.157` — attend — review row 57 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.254` — colleague — review row 154 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.031` — degree — review row 207 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.056` — document — review row 232 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.079` — employee — review row 255 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.266` — learning — review row 442 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.014` — manage — review row 470 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.020` — mathematics — review row 476 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.137` — professional — review row 593 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.080` — employer — review row 256 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.143` — focus — review row 319 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.268` — lecture — review row 444 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.015` — manager — review row 471 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.176` — refer — review row 632 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.188` — research — review row 644 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.214` — salary — review row 670 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.039` — survey — review row 775 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.048` — teaching — review row 784 — `contextual` / `integrated_required`
 
 ### Interactive — 2
 
@@ -3407,57 +3466,56 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.a2.p26.008` — Can ask simple questions in a face-to-face survey. (P) — review row 135 — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.009` — Can answer simple questions and respond to simple statements in an interview. (C) — review row 163 — `bounded_pattern` / `independent_possible`
 
-### Receptive — 12
+### Receptive — 14
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p10.005` — Can understand simple questions in questionnaires on familiar topics. (P) — review row 8 — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p16.021` — Can understand the main points of a short, informal interview on a familiar topic. (P) — review row 76 — `contextual` / `independent_possible`
 
-**Word — 10**
+**Word — 12**
 
-- `oxford.o3000.p04.154` — assistant — review row 54 — `contextual` / `integrated_required`
 - `oxford.o3000.p04.160` — audience — review row 60 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.235` — chef — review row 135 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.236` — chemistry — review row 136 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.036` — designer — review row 212 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.103` — experiment — review row 279 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.226` — instructor — review row 402 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.046` — director — review row 222 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.242` — journalist — review row 418 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.024` — media — review row 480 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.107` — physics — review row 563 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.138` — professor — review row 594 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.148` — publish — review row 604 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.155` — question — review row 611 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.230` — secretary — review row 686 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.279` — source — review row 735 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.022` — strategy — review row 758 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.087` — understanding — review row 823 — `contextual` / `integrated_required`
 
-## U12-L01 — 29 source introductions / 15 active
+## U12-L01 — 28 source introductions / 12 active
 
-- productive: **15**
+- productive: **12**
 - interactive: **0**
-- receptive: **14**
+- receptive: **16**
 - integrated support: **0**
 
-### Productive — 15
+### Productive — 12
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.006` — Can give a simple description of their school or workplace. (CSEa) — review row 108 — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.a2.p25.022` — Can describe their home town or city using simple language. (P) — review row 124 — `bounded_pattern` / `independent_possible`
 
-**Word — 13**
+**Word — 10**
 
-- `oxford.o3000.p04.157` — attend — review row 57 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.254` — colleague — review row 154 — `contextual` / `integrated_required`
-- `oxford.o3000.p04.274` — continue — review row 174 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.031` — degree — review row 207 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.080` — employer — review row 256 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.143` — focus — review row 319 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.268` — lecture — review row 444 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.270` — lend — review row 446 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.015` — manager — review row 471 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.021` — maths — review row 477 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.064` — number — review row 520 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.278` — sort — review row 734 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.052` — term — review row 788 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.201` — boss — review row 101 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.068` — earn — review row 244 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.071` — education — review row 247 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.131` — finger — review row 307 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.006` — loudly — review row 462 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.017` — mark — review row 473 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.143` — pronounce — review row 599 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.048` — teaching — review row 784 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.064` — tip — review row 800 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.128` — working — review row 864 — `contextual` / `integrated_required`
 
-### Receptive — 14
+### Receptive — 16
 
 **Phrase — 5**
 
@@ -3467,23 +3525,25 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0554` — ordinary people — review row 133 — `contextual` / `integrated_required`
 - `oxford.phrase.online.0575` — police station — review row 138 — `contextual` / `integrated_required`
 
-**Word — 9**
+**Word — 11**
 
 - `oxford.o3000.p04.170` — bar — review row 70 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.046` — director — review row 222 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.125` — field — review row 301 — `contextual` / `integrated_required`
+- `oxford.o3000.p04.267` — conference — review row 167 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.014` — crowd — review row 190 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.085` — engineer — review row 261 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.170` — government — review row 346 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.242` — journalist — review row 418 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.250` — knowledge — review row 426 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.262` — lawyer — review row 438 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.047` — national — review row 503 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.138` — professor — review row 594 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.189` — researcher — review row 645 — `contextual` / `integrated_required`
-- `oxford.o3000.p06.230` — secretary — review row 686 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.084` — painter — review row 540 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.145` — provide — review row 601 — `contextual` / `integrated_required`
+- `oxford.o3000.p06.186` — reporter — review row 642 — `contextual` / `integrated_required`
 
-## U12-L02 — 27 source introductions / 8 active
+## U12-L02 — 28 source introductions / 8 active
 
 - productive: **8**
 - interactive: **0**
-- receptive: **19**
+- receptive: **20**
 - integrated support: **0**
 
 ### Productive — 8
@@ -3502,7 +3562,7 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p07.076` — traditional — review row 812 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.122` — wild — review row 858 — `contextual` / `integrated_required`
 
-### Receptive — 19
+### Receptive — 20
 
 **Phrase — 4**
 
@@ -3511,9 +3571,10 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0523` — on earth — review row 126 — `contextual` / `integrated_required`
 - `oxford.phrase.online.0574` — police officer — review row 137 — `contextual` / `integrated_required`
 
-**Word — 15**
+**Word — 16**
 
 - `oxford.o3000.p04.165` — award — review row 65 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.067` — dry — review row 243 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.069` — earth — review row 245 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.154` — frog — review row 330 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.166` — god — review row 342 — `contextual` / `integrated_required`

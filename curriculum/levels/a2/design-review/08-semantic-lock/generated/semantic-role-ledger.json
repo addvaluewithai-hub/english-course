@@ -12,9 +12,9 @@
     "pronunciation": 10
   },
   "mastery_mode_counts": {
-    "receptive": 338,
+    "receptive": 413,
     "integrated_support": 207,
-    "productive": 1026,
+    "productive": 951,
     "interactive": 46
   },
   "control_scope_counts": {
@@ -11966,13 +11966,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U2-L04"
         ],
         "practice": [
+          "U2-L04",
+          "U4-L03",
           "U4-L04",
           "U5-L02"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07",
           "U5-L07"
         ],
@@ -12943,12 +12946,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L04",
           "U5-L02"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U5-L07"
         ],
         "recycle": [
@@ -13015,17 +13020,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L04"
+          "U5-L02"
         ],
         "practice": [
-          "U2-L04",
-          "U4-L03",
-          "U4-L04",
           "U5-L02"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U4-L07",
           "U5-L07"
         ],
         "recycle": [
@@ -13627,14 +13627,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U2-L04"
         ],
         "practice": [
+          "U2-L04",
           "U4-L03",
           "U4-L04",
           "U5-L02"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07",
           "U5-L07"
         ],
@@ -13776,9 +13778,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
           "U4-L04",
           "U5-L02"
         ],
@@ -14122,12 +14125,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
+          "U4-L04",
           "U5-L02"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U5-L07"
         ],
         "recycle": [
@@ -14763,16 +14769,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L04"
+          "U4-L04"
         ],
         "practice": [
-          "U2-L04",
-          "U4-L03",
           "U4-L04",
           "U5-L02"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U4-L07",
           "U5-L07"
         ],
@@ -16373,10 +16376,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L05"
         ],
         "practice": [
-          "U4-L04",
           "U4-L05"
         ],
         "fresh_retrieval": [
@@ -16749,15 +16751,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U5-L02"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L04",
           "U5-L02"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U5-L07"
         ],
         "recycle": [
@@ -16864,9 +16863,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
           "U4-L04",
           "U5-L02"
         ],
@@ -20588,12 +20588,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U4-L06"
         ],
         "practice": [
-          "U1-L03",
-          "U1-L06",
-          "U4-L01",
           "U4-L06",
           "U5-L07",
           "U6-L08",
@@ -20603,7 +20600,6 @@
           "U11-L06"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U4-L07",
           "U7-L07",
           "U10-L07",
@@ -20647,12 +20643,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U4-L06"
         ],
         "practice": [
-          "U1-L03",
-          "U1-L06",
-          "U4-L01",
           "U4-L06",
           "U5-L07",
           "U6-L08",
@@ -20662,7 +20655,6 @@
           "U11-L06"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U4-L07",
           "U7-L07",
           "U10-L07",
@@ -21272,10 +21264,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L05"
         ],
         "practice": [
-          "U4-L04",
           "U4-L05",
           "U7-L04",
           "U7-L05",
@@ -21326,17 +21317,26 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L04",
+          "U4-L05",
+          "U7-L04",
+          "U7-L05",
+          "U7-L06",
           "U10-L01",
           "U10-L02",
           "U10-L03"
         ],
         "fresh_retrieval": [
+          "U4-L07",
+          "U7-L07",
           "U10-L07"
         ],
         "recycle": [
+          "U5-L07",
+          "U7-L01",
           "U10-L06",
           "U12-L04",
           "U12-L06"
@@ -21371,26 +21371,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U10-L01"
         ],
         "practice": [
-          "U4-L04",
-          "U4-L05",
-          "U7-L04",
-          "U7-L05",
-          "U7-L06",
           "U10-L01",
           "U10-L02",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U4-L07",
-          "U7-L07",
           "U10-L07"
         ],
         "recycle": [
-          "U5-L07",
-          "U7-L01",
           "U10-L06",
           "U12-L04",
           "U12-L06"
@@ -23124,22 +23115,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U7-L01"
         ],
         "practice": [
-          "U4-L04",
-          "U4-L05",
           "U7-L04",
           "U7-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
-          "U5-L07",
-          "U7-L01",
           "U10-L06",
           "U12-L04",
           "U12-L06"
@@ -25077,10 +25063,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L05"
         ],
         "practice": [
-          "U4-L04",
           "U4-L05",
           "U5-L02",
           "U7-L01",
@@ -28166,26 +28151,19 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U10-L01"
         ],
         "practice": [
-          "U4-L04",
-          "U4-L05",
           "U10-L01",
           "U10-L02",
           "U10-L03",
           "U11-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U10-L07",
           "U11-L07"
         ],
         "recycle": [
-          "U4-L07",
-          "U6-L08",
-          "U7-L07",
-          "U8-L06",
           "U10-L06",
           "U11-L07",
           "U12-L04",
@@ -28222,19 +28200,23 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L04",
+          "U4-L05",
           "U10-L01",
           "U10-L02",
           "U10-L03",
           "U11-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U10-L07",
           "U11-L07"
         ],
         "recycle": [
+          "U4-L07",
           "U6-L08",
           "U7-L07",
           "U8-L06",
@@ -28274,9 +28256,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U6-L03"
         ],
         "practice": [
+          "U10-L01",
           "U10-L02",
           "U10-L03",
           "U11-L06"
@@ -28286,6 +28269,9 @@
           "U11-L07"
         ],
         "recycle": [
+          "U6-L08",
+          "U7-L07",
+          "U8-L06",
           "U10-L06",
           "U11-L07",
           "U12-L04",
@@ -28322,31 +28308,18 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L03"
+          "U10-L02"
         ],
         "practice": [
-          "U2-L03",
-          "U2-L05",
-          "U2-L06",
-          "U4-L01",
-          "U4-L04",
-          "U4-L05",
-          "U10-L01",
           "U10-L02",
           "U10-L03",
           "U11-L06"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U4-L07",
           "U10-L07",
           "U11-L07"
         ],
         "recycle": [
-          "U4-L07",
-          "U6-L08",
-          "U7-L07",
-          "U8-L06",
           "U10-L06",
           "U11-L07",
           "U12-L04",
@@ -28383,7 +28356,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L03"
         ],
         "practice": [
           "U4-L04",
@@ -28547,35 +28520,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U11-L06"
         ],
         "practice": [
-          "U1-L03",
-          "U1-L06",
-          "U2-L03",
-          "U2-L05",
-          "U2-L06",
-          "U4-L01",
-          "U4-L04",
-          "U4-L05",
-          "U10-L01",
-          "U10-L02",
-          "U10-L03",
           "U11-L06"
         ],
         "fresh_retrieval": [
-          "U1-L07",
-          "U2-L07",
-          "U4-L07",
-          "U10-L07",
           "U11-L07"
         ],
         "recycle": [
-          "U4-L07",
-          "U6-L08",
-          "U7-L07",
-          "U8-L06",
-          "U10-L06",
           "U11-L07",
           "U12-L04",
           "U12-L06"
@@ -30193,29 +30146,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U11-L06"
         ],
         "practice": [
-          "U1-L03",
-          "U1-L06",
-          "U4-L01",
-          "U5-L07",
-          "U6-L08",
-          "U10-L06",
           "U11-L06"
         ],
         "fresh_retrieval": [
-          "U1-L07",
-          "U4-L07",
-          "U10-L07",
           "U11-L07"
         ],
         "recycle": [
-          "U4-L07",
-          "U5-L07",
-          "U6-L08",
-          "U8-L06",
-          "U10-L06",
           "U11-L07",
           "U12-L04"
         ],
@@ -30246,9 +30185,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L06"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
           "U1-L06",
           "U4-L01",
           "U5-L07",
@@ -30298,15 +30238,28 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U1-L06"
         ],
         "practice": [
+          "U1-L06",
+          "U4-L01",
+          "U5-L07",
+          "U6-L08",
+          "U10-L06",
           "U11-L06"
         ],
         "fresh_retrieval": [
+          "U1-L07",
+          "U4-L07",
+          "U10-L07",
           "U11-L07"
         ],
         "recycle": [
+          "U4-L07",
+          "U5-L07",
+          "U6-L08",
+          "U8-L06",
+          "U10-L06",
           "U11-L07",
           "U12-L04"
         ],
@@ -30337,29 +30290,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U11-L06"
         ],
         "practice": [
-          "U1-L03",
-          "U1-L06",
-          "U4-L01",
-          "U5-L07",
-          "U6-L08",
-          "U10-L06",
           "U11-L06"
         ],
         "fresh_retrieval": [
-          "U1-L07",
-          "U4-L07",
-          "U10-L07",
           "U11-L07"
         ],
         "recycle": [
-          "U4-L07",
-          "U5-L07",
-          "U6-L08",
-          "U8-L06",
-          "U10-L06",
           "U11-L07",
           "U12-L04"
         ],
@@ -30390,9 +30329,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L06"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
           "U1-L06",
           "U4-L01",
           "U5-L07",
@@ -30442,98 +30382,6 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
-        ],
-        "practice": [
-          "U11-L06"
-        ],
-        "fresh_retrieval": [
-          "U11-L07"
-        ],
-        "recycle": [
-          "U11-L07",
-          "U12-L04"
-        ],
-        "consolidate": [
-          "U12-L04"
-        ],
-        "exit_verify": [
-          "U12-L07"
-        ]
-      },
-      "review_row": 265,
-      "egp_spreadsheet_row": 1128,
-      "grammar_system": "G40",
-      "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
-      },
-      "semantic_decision_basis": "grammar.system:G40;group:productive_bounded"
-    },
-    {
-      "category": "grammar",
-      "item_id": "egp.1741163715031x643536767928989600",
-      "label": "FORM/USE: NEGATIVE QUESTONS, SUGGESTIONS",
-      "homes": [
-        "X04",
-        "C20"
-      ],
-      "lifecycle": {
-        "introduce": [
-          "U1-L03"
-        ],
-        "practice": [
-          "U1-L03",
-          "U1-L06",
-          "U4-L01",
-          "U5-L07",
-          "U6-L08",
-          "U10-L06",
-          "U11-L06"
-        ],
-        "fresh_retrieval": [
-          "U1-L07",
-          "U4-L07",
-          "U10-L07",
-          "U11-L07"
-        ],
-        "recycle": [
-          "U4-L07",
-          "U5-L07",
-          "U6-L08",
-          "U8-L06",
-          "U10-L06",
-          "U11-L07",
-          "U12-L04"
-        ],
-        "consolidate": [
-          "U12-L04"
-        ],
-        "exit_verify": [
-          "U12-L07"
-        ]
-      },
-      "review_row": 266,
-      "egp_spreadsheet_row": 1129,
-      "grammar_system": "G40",
-      "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
-      },
-      "semantic_decision_basis": "grammar.system:G40;group:productive_bounded"
-    },
-    {
-      "category": "grammar",
-      "item_id": "egp.1741163715031x898125206259626100",
-      "label": "FORM: MAIN VERB 'BE'",
-      "homes": [
-        "X04",
-        "C20"
-      ],
-      "lifecycle": {
-        "introduce": [
           "U1-L06"
         ],
         "practice": [
@@ -30566,6 +30414,88 @@
           "U12-L07"
         ]
       },
+      "review_row": 265,
+      "egp_spreadsheet_row": 1128,
+      "grammar_system": "G40",
+      "semantic_role": {
+        "mastery_mode": "productive",
+        "control_scope": "bounded_pattern",
+        "exit_evidence": "integrated_required"
+      },
+      "semantic_decision_basis": "grammar.system:G40;group:productive_bounded"
+    },
+    {
+      "category": "grammar",
+      "item_id": "egp.1741163715031x643536767928989600",
+      "label": "FORM/USE: NEGATIVE QUESTONS, SUGGESTIONS",
+      "homes": [
+        "X04",
+        "C20"
+      ],
+      "lifecycle": {
+        "introduce": [
+          "U7-L01"
+        ],
+        "practice": [
+          "U10-L06",
+          "U11-L06"
+        ],
+        "fresh_retrieval": [
+          "U10-L07",
+          "U11-L07"
+        ],
+        "recycle": [
+          "U8-L06",
+          "U10-L06",
+          "U11-L07",
+          "U12-L04"
+        ],
+        "consolidate": [
+          "U12-L04"
+        ],
+        "exit_verify": [
+          "U12-L07"
+        ]
+      },
+      "review_row": 266,
+      "egp_spreadsheet_row": 1129,
+      "grammar_system": "G40",
+      "semantic_role": {
+        "mastery_mode": "productive",
+        "control_scope": "bounded_pattern",
+        "exit_evidence": "integrated_required"
+      },
+      "semantic_decision_basis": "grammar.system:G40;group:productive_bounded"
+    },
+    {
+      "category": "grammar",
+      "item_id": "egp.1741163715031x898125206259626100",
+      "label": "FORM: MAIN VERB 'BE'",
+      "homes": [
+        "X04",
+        "C20"
+      ],
+      "lifecycle": {
+        "introduce": [
+          "U11-L06"
+        ],
+        "practice": [
+          "U11-L06"
+        ],
+        "fresh_retrieval": [
+          "U11-L07"
+        ],
+        "recycle": [
+          "U11-L07",
+          "U12-L04"
+        ],
+        "consolidate": [
+          "U12-L04"
+        ],
+        "exit_verify": [
+          "U12-L07"
+        ]
+      },
       "review_row": 267,
       "egp_spreadsheet_row": 1130,
       "grammar_system": "G40",
@@ -30586,15 +30516,29 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
+          "U1-L06",
+          "U4-L01",
+          "U5-L07",
+          "U6-L08",
+          "U10-L06",
           "U11-L06"
         ],
         "fresh_retrieval": [
+          "U1-L07",
+          "U4-L07",
+          "U10-L07",
           "U11-L07"
         ],
         "recycle": [
+          "U4-L07",
+          "U5-L07",
+          "U6-L08",
+          "U8-L06",
+          "U10-L06",
           "U11-L07",
           "U12-L04"
         ],
@@ -30625,10 +30569,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U1-L06"
         ],
         "practice": [
-          "U1-L03",
           "U1-L06",
           "U4-L01",
           "U5-L07",
@@ -30678,28 +30621,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L06"
+          "U11-L06"
         ],
         "practice": [
-          "U1-L06",
-          "U4-L01",
-          "U5-L07",
-          "U6-L08",
-          "U10-L06",
           "U11-L06"
         ],
         "fresh_retrieval": [
-          "U1-L07",
-          "U4-L07",
-          "U10-L07",
           "U11-L07"
         ],
         "recycle": [
-          "U4-L07",
-          "U5-L07",
-          "U6-L08",
-          "U8-L06",
-          "U10-L06",
           "U11-L07",
           "U12-L04"
         ],
@@ -30730,15 +30660,29 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
+          "U1-L06",
+          "U4-L01",
+          "U5-L07",
+          "U6-L08",
+          "U10-L06",
           "U11-L06"
         ],
         "fresh_retrieval": [
+          "U1-L07",
+          "U4-L07",
+          "U10-L07",
           "U11-L07"
         ],
         "recycle": [
+          "U4-L07",
+          "U5-L07",
+          "U6-L08",
+          "U8-L06",
+          "U10-L06",
           "U11-L07",
           "U12-L04"
         ],
@@ -30769,19 +30713,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U4-L02"
         ],
         "practice": [
-          "U1-L03",
-          "U1-L06",
-          "U4-L01",
           "U5-L07",
           "U6-L08",
           "U10-L06",
           "U11-L06"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U4-L07",
           "U10-L07",
           "U11-L07"
@@ -31915,16 +31855,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U7-L01"
         ],
         "practice": [
-          "U1-L01",
-          "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
-          "U1-L07",
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -32228,15 +32164,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U5-L02"
         ],
         "practice": [
-          "U4-L05",
           "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -32529,13 +32463,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L01"
+          "U1-L01"
         ],
         "practice": [
+          "U1-L01",
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -32677,7 +32613,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L06"
         ],
         "practice": [
           "U4-L06",
@@ -32902,7 +32838,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U4-L04"
         ],
         "practice": [
           "U4-L05",
@@ -33437,10 +33373,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U2-L05"
         ],
         "practice": [
-          "U1-L03",
           "U2-L05",
           "U11-L06",
           "U12-L01"
@@ -33478,9 +33413,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
           "U2-L05",
           "U11-L06",
           "U12-L01"
@@ -33554,7 +33490,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U4-L03"
         ],
         "practice": [
           "U4-L06",
@@ -33575,11 +33511,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:47;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:47;group:receptive_contextual",
       "review_row": 47
     },
     {
@@ -33591,12 +33527,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U4-L01"
         ],
         "practice": [
+          "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -33824,17 +33762,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -33940,12 +33881,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U11-L06"
         ],
         "practice": [
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -33975,15 +33918,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U10-L01"
         ],
         "practice": [
-          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
@@ -33998,11 +33939,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:58;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:58;group:receptive_contextual",
       "review_row": 58
     },
     {
@@ -34014,9 +33955,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L01",
           "U2-L02",
           "U4-L06"
         ],
@@ -34123,14 +34065,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U7-L02"
         ],
         "practice": [
-          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -34179,11 +34119,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:63;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:63;group:receptive_contextual",
       "review_row": 63
     },
     {
@@ -34271,12 +34211,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -34404,11 +34346,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:69;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:69;group:receptive_contextual",
       "review_row": 69
     },
     {
@@ -34781,11 +34723,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:79;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:79;group:receptive_contextual",
       "review_row": 79
     },
     {
@@ -34797,12 +34739,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -34816,11 +34760,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:80;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:80;group:receptive_contextual",
       "review_row": 80
     },
     {
@@ -34873,15 +34817,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U4-L03"
         ],
         "practice": [
-          "U2-L01",
-          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -34911,13 +34852,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U4-L05"
         ],
         "practice": [
+          "U4-L05",
           "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -34931,11 +34874,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:83;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:83;group:receptive_contextual",
       "review_row": 83
     },
     {
@@ -34947,15 +34890,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L04"
         ],
         "practice": [
-          "U2-L02",
-          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -34985,7 +34925,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U3-L03"
         ],
         "practice": [
           "U3-L03",
@@ -35134,7 +35074,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U1-L03"
         ],
         "practice": [
           "U2-L05",
@@ -35540,7 +35480,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U4-L01"
         ],
         "practice": [
           "U11-L04",
@@ -35581,21 +35521,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U12-L01"
         ],
         "practice": [
-          "U1-L03",
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -35769,13 +35703,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -35805,14 +35741,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U4-L06"
         ],
         "practice": [
-          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -35842,7 +35776,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L03"
+          "U3-L01"
         ],
         "practice": [
           "U3-L03",
@@ -35898,11 +35832,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:109;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:109;group:receptive_contextual",
       "review_row": 109
     },
     {
@@ -35949,9 +35883,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
           "U2-L05",
           "U11-L06",
           "U12-L01"
@@ -36140,15 +36075,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U2-L04"
         ],
         "practice": [
-          "U1-L01",
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -36179,14 +36112,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U10-L01"
         ],
-        "practice": [
-          "U4-L06"
-        ],
-        "fresh_retrieval": [
-          "U4-L07"
-        ],
+        "practice": [],
+        "fresh_retrieval": [],
         "recycle": [
           "U12-L05"
         ],
@@ -36214,7 +36143,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U4-L05"
         ],
         "practice": [
           "U11-L04",
@@ -36327,7 +36256,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -36593,14 +36522,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U7-L06"
         ],
         "practice": [
-          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -36630,12 +36557,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U7-L04"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -36665,9 +36594,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L06"
+          "U5-L02"
         ],
         "practice": [
+          "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
@@ -36774,7 +36704,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L01"
+          "U4-L04"
         ],
         "practice": [
           "U4-L06",
@@ -36849,17 +36779,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -36886,13 +36819,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
@@ -36960,16 +36895,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U10-L06"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L05",
-          "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -37036,7 +36967,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -37044,6 +36975,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -37151,9 +37083,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L04"
+          "U3-L02"
         ],
         "practice": [
+          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
@@ -37223,12 +37156,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -37242,11 +37177,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:145;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:145;group:receptive_contextual",
       "review_row": 145
     },
     {
@@ -37296,17 +37231,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U6-L01"
         ],
-        "practice": [
-          "U2-L02",
-          "U3-L03",
-          "U3-L04"
-        ],
-        "fresh_retrieval": [
-          "U2-L07",
-          "U3-L07"
-        ],
+        "practice": [],
+        "fresh_retrieval": [],
         "recycle": [
           "U12-L05"
         ],
@@ -37334,15 +37262,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L01"
         ],
         "practice": [
-          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -37356,11 +37282,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:148;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:148;group:receptive_contextual",
       "review_row": 148
     },
     {
@@ -37372,15 +37298,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U4-L06"
         ],
         "practice": [
-          "U2-L01",
-          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -37559,12 +37482,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U11-L06"
         ],
         "practice": [
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -37594,7 +37519,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -37709,7 +37634,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U3-L03"
         ],
         "practice": [
           "U3-L03",
@@ -37781,13 +37706,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U1-L06"
         ],
         "practice": [
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -37802,11 +37728,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:160;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:160;group:receptive_contextual",
       "review_row": 160
     },
     {
@@ -37855,7 +37781,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -37969,10 +37895,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U3-L04"
         ],
         "practice": [
-          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
@@ -37989,11 +37914,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:165;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:165;group:receptive_contextual",
       "review_row": 165
     },
     {
@@ -38005,15 +37930,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U11-L04"
         ],
-        "practice": [
-          "U4-L05",
-          "U5-L02",
-          "U10-L06"
-        ],
+        "practice": [],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -38027,11 +37947,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:166;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:166;group:receptive_contextual",
       "review_row": 166
     },
     {
@@ -38043,21 +37963,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U12-L01"
         ],
         "practice": [
-          "U1-L03",
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -38161,9 +38075,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
           "U4-L05",
           "U5-L02",
           "U10-L06"
@@ -38236,7 +38151,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U8-L01"
         ],
         "practice": [
           "U11-L04",
@@ -38276,7 +38191,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U8-L02"
         ],
         "practice": [
           "U11-L04",
@@ -38316,13 +38231,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U9-L02"
         ],
         "practice": [
+          "U11-L04",
           "U12-L01",
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -38689,9 +38607,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L01",
           "U2-L02",
           "U4-L06"
         ],
@@ -38710,11 +38629,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:184;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:184;group:receptive_contextual",
       "review_row": 184
     },
     {
@@ -38726,12 +38645,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -38908,17 +38829,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L05"
+          "U12-L01"
         ],
         "practice": [
-          "U11-L04",
           "U12-L01",
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
-          "U9-L06",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -38949,7 +38866,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L02"
+          "U3-L05"
         ],
         "practice": [
           "U11-L04",
@@ -39062,7 +38979,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U2-L01"
         ],
         "practice": [
           "U11-L04",
@@ -39070,6 +38987,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U5-L07",
           "U9-L06",
           "U11-L07",
@@ -39087,11 +39005,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:194;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:194;group:receptive_contextual",
       "review_row": 194
     },
     {
@@ -39215,13 +39133,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L03"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -39235,11 +39155,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:198;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:198;group:receptive_contextual",
       "review_row": 198
     },
     {
@@ -39323,7 +39243,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U4-L02"
         ],
         "practice": [
           "U11-L04",
@@ -39435,13 +39355,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L05",
           "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -39455,11 +39377,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:204;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:204;group:receptive_contextual",
       "review_row": 204
     },
     {
@@ -39471,12 +39393,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L04"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
+          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -39506,7 +39431,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U4-L05"
         ],
         "practice": [
           "U11-L04",
@@ -39547,12 +39472,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U11-L06"
         ],
         "practice": [
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -39617,9 +39544,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
           "U2-L05",
           "U11-L06",
           "U12-L01"
@@ -39657,12 +39585,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L06"
+          "U4-L05"
         ],
         "practice": [
+          "U4-L05",
+          "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -39730,17 +39661,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -39919,7 +39853,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -39927,6 +39861,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -39959,15 +39894,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U3-L01"
         ],
         "practice": [
-          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -39981,11 +39914,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:218;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:218;group:receptive_contextual",
       "review_row": 218
     },
     {
@@ -40053,11 +39986,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:220;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:220;group:receptive_contextual",
       "review_row": 220
     },
     {
@@ -40107,12 +40040,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U11-L06"
         ],
         "practice": [
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -40142,15 +40077,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U4-L03"
         ],
         "practice": [
-          "U1-L01",
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -40254,7 +40187,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -40262,6 +40195,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -40333,7 +40267,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -40654,11 +40588,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:236;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:236;group:receptive_contextual",
       "review_row": 236
     },
     {
@@ -40891,17 +40825,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U12-L02"
         ],
-        "practice": [
-          "U2-L02",
-          "U3-L03",
-          "U3-L04"
-        ],
-        "fresh_retrieval": [
-          "U2-L07",
-          "U3-L07"
-        ],
+        "practice": [],
+        "fresh_retrieval": [],
         "recycle": [
           "U12-L05"
         ],
@@ -40913,11 +40840,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:243;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:243;group:receptive_contextual",
       "review_row": 243
     },
     {
@@ -40929,21 +40856,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U12-L01"
         ],
         "practice": [
-          "U1-L03",
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -41006,7 +40927,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U3-L02"
         ],
         "practice": [
           "U3-L03",
@@ -41026,11 +40947,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:246;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:246;group:receptive_contextual",
       "review_row": 246
     },
     {
@@ -41042,16 +40963,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U12-L01"
         ],
         "practice": [
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -41309,9 +41226,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
           "U2-L05",
           "U11-L06",
           "U12-L01"
@@ -41349,17 +41267,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -41386,12 +41307,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U11-L06"
         ],
         "practice": [
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -41421,7 +41344,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U3-L03"
         ],
         "practice": [
           "U3-L03",
@@ -41572,21 +41495,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U12-L01"
         ],
         "practice": [
-          "U1-L03",
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -41613,10 +41530,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L03"
+          "U3-L04"
         ],
         "practice": [
-          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
@@ -41721,7 +41637,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -41836,7 +41752,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U1-L03"
         ],
         "practice": [
           "U2-L05",
@@ -41990,12 +41906,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L04"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L02",
+          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -42025,7 +41944,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U1-L06"
         ],
         "practice": [
           "U2-L02",
@@ -42063,12 +41982,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -42170,12 +42091,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U7-L06"
+          "U4-L05"
         ],
         "practice": [
+          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -42242,13 +42165,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
@@ -42352,13 +42277,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L01"
+          "U1-L01"
         ],
         "practice": [
+          "U1-L01",
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -42389,13 +42316,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U1-L06"
         ],
         "practice": [
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -42410,11 +42338,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:283;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:283;group:receptive_contextual",
       "review_row": 283
     },
     {
@@ -42426,17 +42354,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U11-L04"
         ],
-        "practice": [
-          "U2-L02",
-          "U3-L03",
-          "U3-L04"
-        ],
-        "fresh_retrieval": [
-          "U2-L07",
-          "U3-L07"
-        ],
+        "practice": [],
+        "fresh_retrieval": [],
         "recycle": [
           "U12-L05"
         ],
@@ -42448,11 +42369,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:284;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:284;group:receptive_contextual",
       "review_row": 284
     },
     {
@@ -42464,15 +42385,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U4-L03"
         ],
-        "practice": [
-          "U3-L03",
-          "U3-L04"
-        ],
-        "fresh_retrieval": [
-          "U3-L07"
-        ],
+        "practice": [],
+        "fresh_retrieval": [],
         "recycle": [
           "U12-L05"
         ],
@@ -42539,9 +42455,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
           "U2-L05",
           "U11-L06",
           "U12-L01"
@@ -42579,7 +42496,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U2-L05"
         ],
         "practice": [
           "U4-L03",
@@ -42618,15 +42535,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U4-L03"
         ],
         "practice": [
-          "U2-L01",
-          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -42640,11 +42554,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:289;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:289;group:receptive_contextual",
       "review_row": 289
     },
     {
@@ -42804,9 +42718,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L01",
           "U2-L02",
           "U4-L06"
         ],
@@ -42825,11 +42740,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:294;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:294;group:receptive_contextual",
       "review_row": 294
     },
     {
@@ -42876,7 +42791,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U4-L06"
         ],
         "practice": [
           "U4-L06"
@@ -42895,11 +42810,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:296;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:296;group:receptive_contextual",
       "review_row": 296
     },
     {
@@ -42911,7 +42826,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U8-L01"
         ],
         "practice": [
           "U11-L04",
@@ -43048,11 +42963,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:300;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:300;group:receptive_contextual",
       "review_row": 300
     },
     {
@@ -43064,13 +42979,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U8-L02"
         ],
         "practice": [
+          "U11-L04",
           "U12-L01",
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -43216,7 +43134,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L05"
+          "U9-L02"
         ],
         "practice": [
           "U11-L04",
@@ -43224,7 +43142,6 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -43293,17 +43210,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L02"
+          "U12-L01"
         ],
         "practice": [
-          "U11-L04",
           "U12-L01",
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
-          "U9-L06",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -43334,7 +43247,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U3-L05"
         ],
         "practice": [
           "U11-L04",
@@ -43375,7 +43288,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U4-L02"
         ],
         "practice": [
           "U11-L04",
@@ -43594,13 +43507,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -43739,12 +43654,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U11-L06"
         ],
         "practice": [
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -44365,7 +44282,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U4-L05"
         ],
         "practice": [
           "U11-L04",
@@ -44480,7 +44397,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L03"
+          "U3-L01"
         ],
         "practice": [
           "U3-L03",
@@ -44551,9 +44468,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U2-L05"
         ],
         "practice": [
+          "U4-L03",
           "U4-L05",
           "U5-L02",
           "U10-L06"
@@ -44573,11 +44491,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:341;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:341;group:receptive_contextual",
       "review_row": 341
     },
     {
@@ -44625,9 +44543,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L04"
+          "U3-L02"
         ],
         "practice": [
+          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
@@ -44698,7 +44617,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -44706,6 +44625,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -44812,13 +44732,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U1-L01"
         ],
         "practice": [
+          "U1-L01",
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -44924,7 +44846,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -44932,6 +44854,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -45001,7 +44924,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U1-L01"
         ],
         "practice": [
           "U1-L03",
@@ -45023,11 +44946,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:353;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:353;group:receptive_contextual",
       "review_row": 353
     },
     {
@@ -45096,11 +45019,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:355;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:355;group:receptive_contextual",
       "review_row": 355
     },
     {
@@ -45150,12 +45073,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L01",
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -45169,11 +45095,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:357;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:357;group:receptive_contextual",
       "review_row": 357
     },
     {
@@ -45333,15 +45259,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U3-L03"
         ],
         "practice": [
-          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -45409,10 +45333,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U2-L02"
         ],
         "practice": [
-          "U2-L01",
           "U2-L02",
           "U4-L06"
         ],
@@ -45866,7 +45789,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -45906,7 +45829,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -45946,14 +45869,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L02"
+          "U7-L04"
         ],
         "practice": [
-          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -45983,15 +45904,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L03"
         ],
         "practice": [
-          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -46095,15 +46014,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U5-L02"
         ],
         "practice": [
-          "U4-L05",
           "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -46313,13 +46230,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U2-L06"
         ],
         "practice": [
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -46466,14 +46384,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U4-L06"
         ],
         "practice": [
-          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -46503,7 +46419,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U3-L03"
         ],
         "practice": [
           "U3-L03",
@@ -46523,11 +46439,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:393;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:393;group:receptive_contextual",
       "review_row": 393
     },
     {
@@ -46539,12 +46455,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L05"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
           "U8-L05"
         ],
         "fresh_retrieval": [
+          "U1-L07",
           "U8-L06"
         ],
         "recycle": [
@@ -46834,17 +46752,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -46911,12 +46832,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -46982,12 +46905,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U4-L01"
         ],
         "practice": [
+          "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -47092,16 +47017,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U7-L01"
         ],
         "practice": [
-          "U1-L01",
-          "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
-          "U1-L07",
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -47131,7 +47052,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L01"
+          "U4-L04"
         ],
         "practice": [
           "U4-L06",
@@ -47168,7 +47089,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U8-L01"
         ],
         "practice": [
           "U11-L04",
@@ -47361,12 +47282,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L01",
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -47380,11 +47304,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:416;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:416;group:receptive_contextual",
       "review_row": 416
     },
     {
@@ -47433,12 +47357,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U11-L06"
         ],
         "practice": [
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -47505,14 +47431,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L02"
+          "U8-L05"
         ],
         "practice": [
-          "U1-L03",
           "U8-L05"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U8-L06"
         ],
         "recycle": [
@@ -47675,11 +47599,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:424;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:424;group:receptive_contextual",
       "review_row": 424
     },
     {
@@ -47727,16 +47651,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U12-L01"
         ],
         "practice": [
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -47766,7 +47686,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U1-L03"
         ],
         "practice": [
           "U2-L05",
@@ -47805,7 +47725,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U1-L01"
         ],
         "practice": [
           "U1-L03",
@@ -47827,11 +47747,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:428;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:428;group:receptive_contextual",
       "review_row": 428
     },
     {
@@ -48177,21 +48097,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U12-L01"
         ],
         "practice": [
-          "U1-L03",
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -48218,10 +48132,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U2-L02"
         ],
         "practice": [
-          "U2-L01",
           "U2-L02",
           "U4-L06"
         ],
@@ -48295,9 +48208,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
           "U2-L05",
           "U11-L06",
           "U12-L01"
@@ -48335,13 +48249,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
@@ -48408,12 +48324,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U11-L06"
         ],
         "practice": [
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -48479,13 +48397,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U8-L02"
         ],
         "practice": [
+          "U11-L04",
           "U12-L01",
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -48551,7 +48472,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U2-L05"
         ],
         "practice": [
           "U2-L05",
@@ -48574,11 +48495,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:448;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:448;group:receptive_contextual",
       "review_row": 448
     },
     {
@@ -48662,16 +48583,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U10-L02"
         ],
-        "practice": [
-          "U3-L01",
-          "U3-L02",
-          "U3-L06"
-        ],
-        "fresh_retrieval": [
-          "U3-L07"
-        ],
+        "practice": [],
+        "fresh_retrieval": [],
         "recycle": [
           "U12-L05"
         ],
@@ -48683,11 +48598,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:451;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:451;group:receptive_contextual",
       "review_row": 451
     },
     {
@@ -48699,10 +48614,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L03"
+          "U3-L04"
         ],
         "practice": [
-          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
@@ -48735,14 +48649,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U7-L06"
         ],
         "practice": [
-          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -48919,7 +48831,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L05"
+          "U9-L02"
         ],
         "practice": [
           "U11-L04",
@@ -48927,7 +48839,6 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -49034,12 +48945,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L04"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L02",
+          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -49069,17 +48983,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L02"
+          "U12-L01"
         ],
         "practice": [
-          "U11-L04",
           "U12-L01",
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
-          "U9-L06",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -49110,14 +49020,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U4-L06"
         ],
         "practice": [
-          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -49147,15 +49055,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U3-L03"
         ],
         "practice": [
-          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -49185,7 +49091,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U7-L01"
         ],
         "practice": [
           "U11-L04",
@@ -49193,7 +49099,6 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -49226,7 +49131,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U3-L05"
         ],
         "practice": [
           "U11-L04",
@@ -49267,14 +49172,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U11-L01"
         ],
         "practice": [
-          "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -49304,7 +49207,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U4-L02"
         ],
         "practice": [
           "U11-L04",
@@ -49345,12 +49248,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L05"
+          "U1-L02"
         ],
         "practice": [
+          "U1-L03",
           "U8-L05"
         ],
         "fresh_retrieval": [
+          "U1-L07",
           "U8-L06"
         ],
         "recycle": [
@@ -49381,17 +49286,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -49418,12 +49326,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U11-L06"
         ],
         "practice": [
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -49490,16 +49400,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U12-L01"
         ],
         "practice": [
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -49529,7 +49435,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L02"
+          "U1-L03"
         ],
         "practice": [
           "U1-L03",
@@ -49567,9 +49473,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U3-L01"
         ],
         "practice": [
+          "U3-L01",
           "U3-L02",
           "U3-L06"
         ],
@@ -49603,13 +49510,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U1-L03"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
@@ -49640,12 +49549,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -49675,10 +49588,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U10-L06"
         ],
         "practice": [
-          "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
@@ -49928,7 +49840,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U4-L05"
         ],
         "practice": [
           "U11-L04",
@@ -49936,6 +49848,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -50079,7 +49992,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -50087,6 +50000,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -50156,9 +50070,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L06"
+          "U3-L02"
         ],
         "practice": [
+          "U3-L02",
           "U3-L06"
         ],
         "fresh_retrieval": [
@@ -50191,7 +50106,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -50199,6 +50114,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -50559,15 +50475,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L03"
         ],
         "practice": [
-          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -50709,14 +50623,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U7-L06"
         ],
         "practice": [
-          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -50781,12 +50693,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U7-L04"
+          "U4-L02"
         ],
         "practice": [
+          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -50857,12 +50771,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -50930,7 +50846,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -50970,7 +50886,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -51186,11 +51102,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:518;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:518;group:receptive_contextual",
       "review_row": 518
     },
     {
@@ -51240,13 +51156,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U8-L01"
         ],
         "practice": [
+          "U11-L04",
           "U12-L01",
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -51350,15 +51269,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U4-L01"
         ],
         "practice": [
-          "U1-L01",
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -51499,12 +51416,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L06"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
+          "U4-L05",
+          "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -51534,10 +51455,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U4-L04"
         ],
         "practice": [
-          "U4-L03",
           "U4-L05",
           "U5-L02",
           "U10-L06"
@@ -51688,13 +51608,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -51708,11 +51630,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:532;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:532;group:receptive_contextual",
       "review_row": 532
     },
     {
@@ -51801,11 +51723,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U3-L06"
         ],
         "practice": [
-          "U3-L01",
-          "U3-L02",
           "U3-L06"
         ],
         "fresh_retrieval": [
@@ -51838,7 +51758,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L05"
+          "U8-L02"
         ],
         "practice": [
           "U11-L04",
@@ -51846,7 +51766,6 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -51879,9 +51798,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U3-L01"
         ],
         "practice": [
+          "U3-L01",
           "U3-L02",
           "U3-L06"
         ],
@@ -51986,21 +51906,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U12-L01"
         ],
         "practice": [
-          "U1-L03",
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -52063,12 +51977,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L01",
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -52082,11 +51999,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:542;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:542;group:receptive_contextual",
       "review_row": 542
     },
     {
@@ -52135,7 +52052,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U3-L01"
         ],
         "practice": [
           "U3-L03",
@@ -52155,11 +52072,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:544;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:544;group:receptive_contextual",
       "review_row": 544
     },
     {
@@ -52574,12 +52491,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U7-L06"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -52609,7 +52528,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L02"
+          "U4-L05"
         ],
         "practice": [
           "U4-L05",
@@ -52646,10 +52565,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U2-L02"
         ],
         "practice": [
-          "U2-L01",
           "U2-L02",
           "U4-L06"
         ],
@@ -52831,15 +52749,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U11-L06"
         ],
         "practice": [
-          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
@@ -52870,14 +52786,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U10-L03"
         ],
         "practice": [
-          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -52907,9 +52821,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
           "U2-L05",
           "U11-L06",
           "U12-L01"
@@ -53020,9 +52935,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L06"
+          "U3-L02"
         ],
         "practice": [
+          "U3-L02",
           "U3-L06"
         ],
         "fresh_retrieval": [
@@ -53127,13 +53043,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L01"
+          "U1-L01"
         ],
         "practice": [
+          "U1-L01",
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -53201,7 +53119,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U2-L01"
         ],
         "practice": [
           "U3-L01",
@@ -53222,11 +53140,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:573;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:573;group:receptive_contextual",
       "review_row": 573
     },
     {
@@ -53238,12 +53156,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -53422,10 +53342,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U3-L06"
         ],
         "practice": [
-          "U3-L02",
           "U3-L06"
         ],
         "fresh_retrieval": [
@@ -53458,14 +53377,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U7-L06"
         ],
         "practice": [
-          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -53479,11 +53396,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:580;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:580;group:receptive_contextual",
       "review_row": 580
     },
     {
@@ -53571,14 +53488,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U7-L06"
         ],
         "practice": [
-          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -53608,7 +53523,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L02"
+          "U9-L02"
         ],
         "practice": [
           "U11-L04",
@@ -53616,7 +53531,6 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -53952,17 +53866,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -53989,12 +53906,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U11-L06"
         ],
         "practice": [
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -54096,9 +54015,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U2-L05"
         ],
         "practice": [
+          "U4-L03",
           "U4-L05",
           "U5-L02",
           "U10-L06"
@@ -54118,11 +54038,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:597;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:597;group:receptive_contextual",
       "review_row": 597
     },
     {
@@ -54169,16 +54089,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U12-L01"
         ],
         "practice": [
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -54246,17 +54162,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U12-L01"
         ],
         "practice": [
-          "U11-L04",
           "U12-L01",
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
-          "U9-L06",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -54271,11 +54183,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:601;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:601;group:receptive_contextual",
       "review_row": 601
     },
     {
@@ -54287,7 +54199,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U3-L05"
         ],
         "practice": [
           "U11-L04",
@@ -54401,12 +54313,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L03"
+          "U6-L03"
         ],
         "practice": [
+          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
+          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -54473,7 +54387,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U9-L03"
         ],
         "practice": [
           "U10-L03"
@@ -54508,15 +54422,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U5-L02"
         ],
         "practice": [
-          "U4-L05",
           "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -54619,14 +54531,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U11-L06"
         ],
-        "practice": [
-          "U4-L06",
-          "U11-L01"
-        ],
+        "practice": [],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -54640,11 +54548,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:611;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:611;group:receptive_contextual",
       "review_row": 611
     },
     {
@@ -54656,7 +54564,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U4-L02"
         ],
         "practice": [
           "U11-L04",
@@ -54721,11 +54629,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:613;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:613;group:receptive_contextual",
       "review_row": 613
     },
     {
@@ -54831,11 +54739,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:616;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:616;group:receptive_contextual",
       "review_row": 616
     },
     {
@@ -54886,7 +54794,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U10-L01"
         ],
         "practice": [
           "U10-L03"
@@ -54921,7 +54829,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U4-L01"
         ],
         "practice": [
           "U4-L06",
@@ -54942,11 +54850,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:619;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:619;group:receptive_contextual",
       "review_row": 619
     },
     {
@@ -54958,13 +54866,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U4-L05"
         ],
         "practice": [
+          "U4-L05",
           "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -54978,11 +54888,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:620;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:620;group:receptive_contextual",
       "review_row": 620
     },
     {
@@ -54994,12 +54904,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -55211,15 +55123,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U4-L05"
         ],
         "practice": [
-          "U1-L01",
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -55432,7 +55342,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L01"
+          "U4-L06"
         ],
         "practice": [
           "U4-L06",
@@ -55546,14 +55456,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U8-L05"
         ],
         "practice": [
-          "U1-L03",
           "U8-L05"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U8-L06"
         ],
         "recycle": [
@@ -55584,7 +55492,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U10-L02"
         ],
         "practice": [
           "U10-L03"
@@ -55619,14 +55527,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L02"
+          "U10-L03"
         ],
         "practice": [
-          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -55656,14 +55562,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L03"
+          "U10-L03"
         ],
         "practice": [
-          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
-          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -55693,14 +55597,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U11-L02"
         ],
-        "practice": [
-          "U4-L06",
-          "U11-L01"
-        ],
+        "practice": [],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -55767,21 +55667,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U12-L01"
         ],
         "practice": [
-          "U1-L03",
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -55808,7 +55702,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U4-L01"
         ],
         "practice": [
           "U4-L06",
@@ -55829,11 +55723,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:643;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:643;group:receptive_contextual",
       "review_row": 643
     },
     {
@@ -55845,13 +55739,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U1-L03"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
@@ -55882,12 +55778,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -55975,11 +55875,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:647;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:647;group:receptive_contextual",
       "review_row": 647
     },
     {
@@ -56063,7 +55963,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U2-L05"
         ],
         "practice": [
           "U2-L05",
@@ -56086,11 +55986,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:650;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:650;group:receptive_contextual",
       "review_row": 650
     },
     {
@@ -56139,9 +56039,11 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L06"
+          "U3-L01"
         ],
         "practice": [
+          "U3-L01",
+          "U3-L02",
           "U3-L06"
         ],
         "fresh_retrieval": [
@@ -56322,9 +56224,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U1-L03"
         ],
         "practice": [
+          "U1-L03",
           "U2-L05",
           "U11-L06",
           "U12-L01"
@@ -56362,10 +56265,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U3-L02"
         ],
         "practice": [
-          "U3-L01",
           "U3-L02",
           "U3-L06"
         ],
@@ -56510,12 +56412,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -56656,17 +56560,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U9-L03"
         ],
-        "practice": [
-          "U2-L01",
-          "U2-L02",
-          "U4-L06"
-        ],
-        "fresh_retrieval": [
-          "U2-L07",
-          "U4-L07"
-        ],
+        "practice": [],
+        "fresh_retrieval": [],
         "recycle": [
           "U12-L05"
         ],
@@ -56678,11 +56575,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:666;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:666;group:receptive_contextual",
       "review_row": 666
     },
     {
@@ -56792,11 +56689,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:669;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:669;group:receptive_contextual",
       "review_row": 669
     },
     {
@@ -56808,17 +56705,20 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U2-L05"
         ],
         "practice": [
+          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
         "recycle": [
+          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -56953,14 +56853,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U4-L03"
         ],
         "practice": [
-          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -56990,12 +56888,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -57009,11 +56909,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:675;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:675;group:receptive_contextual",
       "review_row": 675
     },
     {
@@ -57283,7 +57183,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U4-L05"
         ],
         "practice": [
           "U11-L04",
@@ -57291,6 +57191,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -57399,12 +57300,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U11-L06"
         ],
         "practice": [
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -57434,7 +57337,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -57442,6 +57345,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -57474,9 +57378,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L06"
+          "U5-L02"
         ],
         "practice": [
+          "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
@@ -57509,7 +57414,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L03"
+          "U3-L02"
         ],
         "practice": [
           "U3-L03",
@@ -57529,11 +57434,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:689;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:689;group:receptive_contextual",
       "review_row": 689
     },
     {
@@ -57583,12 +57488,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -57729,12 +57636,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L03"
+          "U6-L02"
         ],
         "practice": [
+          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
+          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -57801,10 +57710,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U3-L06"
         ],
         "practice": [
-          "U3-L02",
           "U3-L06"
         ],
         "fresh_retrieval": [
@@ -57837,9 +57745,11 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L06"
+          "U3-L01"
         ],
         "practice": [
+          "U3-L01",
+          "U3-L02",
           "U3-L06"
         ],
         "fresh_retrieval": [
@@ -57944,7 +57854,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -57952,6 +57862,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -57984,12 +57895,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U6-L03"
         ],
         "practice": [
+          "U6-L03",
           "U10-L03"
         ],
         "fresh_retrieval": [
+          "U6-L08",
           "U10-L07"
         ],
         "recycle": [
@@ -58093,9 +58006,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L04"
+          "U3-L03"
         ],
         "practice": [
+          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
@@ -58128,15 +58042,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U3-L04"
         ],
         "practice": [
-          "U2-L02",
-          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -58244,12 +58155,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L05"
+          "U1-L02"
         ],
         "practice": [
+          "U1-L03",
           "U8-L05"
         ],
         "fresh_retrieval": [
+          "U1-L07",
           "U8-L06"
         ],
         "recycle": [
@@ -58280,14 +58193,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U5-L04"
         ],
         "practice": [
-          "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -58417,11 +58328,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:713;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:713;group:receptive_contextual",
       "review_row": 713
     },
     {
@@ -58584,7 +58495,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -58662,7 +58573,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U6-L06"
         ],
         "practice": [
           "U11-L04",
@@ -58702,10 +58613,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U2-L02"
         ],
         "practice": [
-          "U2-L01",
           "U2-L02",
           "U4-L06"
         ],
@@ -58724,11 +58634,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:721;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:721;group:receptive_contextual",
       "review_row": 721
     },
     {
@@ -58811,10 +58721,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U3-L02"
         ],
         "practice": [
-          "U3-L01",
           "U3-L02",
           "U3-L06"
         ],
@@ -58832,11 +58741,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:724;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:724;group:receptive_contextual",
       "review_row": 724
     },
     {
@@ -58958,9 +58867,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L01",
           "U2-L02",
           "U4-L06"
         ],
@@ -58979,11 +58889,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:728;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:728;group:receptive_contextual",
       "review_row": 728
     },
     {
@@ -58995,15 +58905,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L02"
         ],
         "practice": [
-          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -59071,10 +58979,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U4-L05"
         ],
         "practice": [
-          "U4-L03",
           "U4-L05",
           "U5-L02",
           "U10-L06"
@@ -59110,7 +59017,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L05"
         ],
         "practice": [
           "U4-L05",
@@ -59185,13 +59092,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U8-L01"
         ],
         "practice": [
+          "U11-L04",
           "U12-L01",
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U9-L06",
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -59294,15 +59204,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U11-L03"
         ],
-        "practice": [
-          "U3-L03",
-          "U3-L04"
-        ],
-        "fresh_retrieval": [
-          "U3-L07"
-        ],
+        "practice": [],
+        "fresh_retrieval": [],
         "recycle": [
           "U12-L05"
         ],
@@ -59314,11 +59219,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:737;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:737;group:receptive_contextual",
       "review_row": 737
     },
     {
@@ -59538,11 +59443,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:743;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:743;group:receptive_contextual",
       "review_row": 743
     },
     {
@@ -59554,10 +59459,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U3-L06"
         ],
         "practice": [
-          "U3-L02",
           "U3-L06"
         ],
         "fresh_retrieval": [
@@ -59669,7 +59573,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L05"
+          "U8-L02"
         ],
         "practice": [
           "U11-L04",
@@ -59677,7 +59581,6 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -60041,7 +59944,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U4-L06"
         ],
         "practice": [
           "U4-L06"
@@ -60076,15 +59979,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U11-L06"
         ],
         "practice": [
-          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
@@ -60190,12 +60091,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -60209,11 +60112,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:761;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:761;group:receptive_contextual",
       "review_row": 761
     },
     {
@@ -60225,9 +60128,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U2-L05"
         ],
         "practice": [
+          "U4-L03",
           "U4-L05",
           "U5-L02",
           "U10-L06"
@@ -60263,10 +60167,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U10-L06"
         ],
         "practice": [
-          "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
@@ -60283,11 +60186,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:763;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:763;group:receptive_contextual",
       "review_row": 763
     },
     {
@@ -60373,7 +60276,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U4-L04"
         ],
         "practice": [
           "U4-L06",
@@ -60410,12 +60313,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -60483,15 +60388,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L01"
+          "U4-L06"
         ],
         "practice": [
-          "U1-L01",
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -60506,11 +60409,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:769;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:769;group:receptive_contextual",
       "review_row": 769
     },
     {
@@ -60666,12 +60569,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -60685,11 +60590,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:774;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:774;group:receptive_contextual",
       "review_row": 774
     },
     {
@@ -60771,7 +60676,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L02"
+          "U9-L02"
         ],
         "practice": [
           "U11-L04",
@@ -60779,7 +60684,6 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -60889,14 +60793,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L01"
+          "U11-L01"
         ],
         "practice": [
-          "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -60926,12 +60828,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L06"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
+          "U4-L05",
+          "U5-L02",
           "U10-L06"
         ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -61036,14 +60942,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U12-L01"
         ],
         "practice": [
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -61109,7 +61013,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L02"
+          "U1-L03"
         ],
         "practice": [
           "U1-L03",
@@ -61185,12 +61089,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U1-L03"
         ],
         "practice": [
+          "U2-L05",
+          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
+          "U2-L07",
+          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -61298,13 +61206,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -61374,13 +61284,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L03"
+          "U2-L02"
         ],
         "practice": [
+          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -61410,10 +61322,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U4-L04"
         ],
         "practice": [
-          "U4-L03",
           "U4-L05",
           "U5-L02",
           "U10-L06"
@@ -61468,11 +61379,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:795;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:795;group:receptive_contextual",
       "review_row": 795
     },
     {
@@ -61484,9 +61395,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
           "U4-L05",
           "U5-L02",
           "U10-L06"
@@ -61506,11 +61418,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:796;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:796;group:receptive_contextual",
       "review_row": 796
     },
     {
@@ -61522,7 +61434,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U9-L03"
         ],
         "practice": [
           "U10-L03"
@@ -61592,7 +61504,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U2-L01"
         ],
         "practice": [
           "U11-L04",
@@ -61600,6 +61512,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U5-L07",
           "U9-L06",
           "U11-L07",
@@ -61617,11 +61530,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:799;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:799;group:receptive_contextual",
       "review_row": 799
     },
     {
@@ -61633,17 +61546,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U12-L01"
         ],
         "practice": [
-          "U11-L04",
           "U12-L01",
           "U12-L02"
         ],
         "fresh_retrieval": [
-          "U5-L07",
-          "U9-L06",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
@@ -61712,7 +61621,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U5-L06"
+          "U3-L05"
         ],
         "practice": [
           "U11-L04",
@@ -61753,7 +61662,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U10-L01"
         ],
         "practice": [
           "U10-L03"
@@ -61897,9 +61806,11 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L06"
+          "U3-L01"
         ],
         "practice": [
+          "U3-L01",
+          "U3-L02",
           "U3-L06"
         ],
         "fresh_retrieval": [
@@ -61970,10 +61881,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U3-L02"
         ],
         "practice": [
-          "U3-L01",
           "U3-L02",
           "U3-L06"
         ],
@@ -61991,11 +61901,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:809;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:809;group:receptive_contextual",
       "review_row": 809
     },
     {
@@ -62116,7 +62026,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L05"
+          "U4-L02"
         ],
         "practice": [
           "U11-L04",
@@ -62124,6 +62034,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -62180,11 +62091,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:814;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:814;group:receptive_contextual",
       "review_row": 814
     },
     {
@@ -62196,7 +62107,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U2-L05"
         ],
         "practice": [
           "U2-L05",
@@ -62381,7 +62292,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U1-L02"
         ],
         "practice": [
           "U1-L03",
@@ -62403,11 +62314,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:820;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:820;group:receptive_contextual",
       "review_row": 820
     },
     {
@@ -62495,15 +62406,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U11-L06"
         ],
         "practice": [
-          "U2-L05",
           "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U11-L07",
           "U12-L05"
         ],
@@ -62569,10 +62478,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U2-L02"
         ],
         "practice": [
-          "U2-L01",
           "U2-L02",
           "U4-L06"
         ],
@@ -62607,7 +62515,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U4-L05"
         ],
         "practice": [
           "U11-L04",
@@ -62615,6 +62523,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -62647,7 +62556,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U5-L04"
         ],
         "practice": [
           "U11-L04",
@@ -62655,6 +62564,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -62723,9 +62633,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L04"
+          "U3-L01"
         ],
         "practice": [
+          "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
@@ -63019,7 +62930,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U5-L06"
         ],
         "practice": [
           "U11-L04",
@@ -63027,6 +62938,7 @@
           "U12-L02"
         ],
         "fresh_retrieval": [
+          "U5-L07",
           "U9-L06",
           "U11-L07",
           "U12-L05"
@@ -63168,13 +63080,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U1-L04"
         ],
         "practice": [
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -63189,11 +63102,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:841;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:841;group:receptive_contextual",
       "review_row": 841
     },
     {
@@ -63537,13 +63450,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U1-L01"
         ],
         "practice": [
+          "U1-L01",
           "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U1-L07",
           "U4-L07",
           "U11-L07"
         ],
@@ -63687,7 +63602,7 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U6-L05"
         ],
         "practice": [
           "U11-L04",
@@ -63766,15 +63681,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L01"
+          "U3-L03"
         ],
         "practice": [
-          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -63915,14 +63828,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U7-L06"
         ],
         "practice": [
-          "U4-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
           "U7-L07"
         ],
         "recycle": [
@@ -63952,10 +63863,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L02"
+          "U3-L06"
         ],
         "practice": [
-          "U3-L02",
           "U3-L06"
         ],
         "fresh_retrieval": [
@@ -63988,9 +63898,11 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U3-L06"
+          "U3-L01"
         ],
         "practice": [
+          "U3-L01",
+          "U3-L02",
           "U3-L06"
         ],
         "fresh_retrieval": [
@@ -64023,21 +63935,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U12-L01"
         ],
         "practice": [
-          "U1-L03",
-          "U2-L05",
-          "U11-L06",
           "U12-L01"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U11-L07",
           "U12-L05"
         ],
         "recycle": [
-          "U11-L06",
           "U12-L05"
         ],
         "consolidate": [
@@ -64064,14 +63970,12 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U4-L06"
         ],
         "practice": [
-          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -64101,12 +64005,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U2-L01"
         ],
         "practice": [
+          "U2-L01",
+          "U2-L02",
           "U4-L06"
         ],
         "fresh_retrieval": [
+          "U2-L07",
           "U4-L07"
         ],
         "recycle": [
@@ -64136,15 +64043,13 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U2-L02"
+          "U3-L03"
         ],
         "practice": [
-          "U2-L02",
           "U3-L03",
           "U3-L04"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U3-L07"
         ],
         "recycle": [
@@ -64174,12 +64079,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U1-L01"
         ],
         "practice": [
+          "U1-L01",
+          "U4-L06",
           "U11-L01"
         ],
         "fresh_retrieval": [
+          "U1-L07",
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
