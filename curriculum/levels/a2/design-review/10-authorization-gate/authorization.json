@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "level": "A2",
+  "status": "human_lesson_design_authorization_reviewed_locked_v1",
+  "lesson_design_authorized": true,
+  "delivery_content_production_authorized": false,
+  "human_review_queue": 0,
+  "architecture": {
+    "units": 12,
+    "lesson_slots": 83
+  },
+  "decision": "The reviewed semantic/control lock, Stage-08.5 lifecycle/load reconciliation, complete 83-brief delivery blueprint, and whole-level critic jointly satisfy the curriculum lesson-design authorization gate. This authorizes the authoritative controlled-authoring contract only; it does not authorize lesson-package, audio, image, video, or other delivery production and does not modify or bypass TEST-002.",
+  "evidence_blobs": [
+    {
+      "path": "curriculum/levels/a2/design-review/06-coverage-ledger/generated/coverage-ledger.json",
+      "git_blob_sha": "88bbf016ffc739d3640af263ab407d25f537dfc1"
+    },
+    {
+      "path": "curriculum/levels/a2/design-review/08-semantic-lock/semantic-decisions.json",
+      "git_blob_sha": "aa24b2f8dec694912a55a3f030281b65a665ac14"
+    },
+    {
+      "path": "curriculum/levels/a2/design-review/08-semantic-lock/generated/semantic-role-ledger.json",
+      "git_blob_sha": "f543c1d7600be5fc553a9010fb6bbcea8178c1bb"
+    },
+    {
+      "path": "curriculum/levels/a2/design-review/08.5-role-aware-critic/overrides.json",
+      "git_blob_sha": "389184fa4f3a4994e2a1345705af1b999d8794cc"
+    },
+    {
+      "path": "curriculum/levels/a2/design-review/08.5-role-aware-critic/critic-decisions-v1.md",
+      "git_blob_sha": "d39eef2397294711c8a4c4dcc8038e5443fe2820"
+    },
+    {
+      "path": "curriculum/levels/a2/design-review/09-lesson-briefs/lesson-briefs.md",
+      "git_blob_sha": "899850a11b4d82f3f9d2a149fdb5689345131775"
+    }
+  ],
+  "gate_conditions": {
+    "semantic_roles_complete": "1617/1617",
+    "semantic_orphans": 0,
+    "automation_inferred_semantic_roles": 0,
+    "role_aware_hotspot_queue": "manually reviewed and closed in Stage 08.5",
+    "coverage_lifecycle_complete": true,
+    "lesson_briefs_complete": "83/83",
+    "rolling_unit_critics_complete": "12/12",
+    "whole_level_critic_complete": true,
+    "structural_changes_required": 0,
+    "semantic_reopenings_required": 0
+  }
+}
