@@ -1,8 +1,8 @@
 name: Build level source of truth
 
 # Generation order matters: base inventories -> grammar enrichment -> granular abilities
-# -> compact non-authoritative review aids -> reviewed A1 semantic finalization
-# -> Stage-07 delivery-boundary normalization.
+# -> compact non-authoritative review aids -> frozen A2 word-home expansion
+# -> reviewed A1 semantic finalization -> Stage-07 delivery-boundary normalization.
 on:
   push:
     branches:
@@ -12,6 +12,7 @@ on:
       - 'scripts/build_level_abilities.py'
       - 'scripts/enrich_level_grammar.py'
       - 'scripts/build_level_design_review_aids.py'
+      - 'scripts/build_a2_word_home_map.py'
       - 'scripts/finalize_a1_semantic_lock.py'
       - 'scripts/finalize_a1_stage07_handoff.py'
       - 'curriculum/levels/**'
@@ -54,6 +55,8 @@ jobs:
         run: python scripts/build_level_abilities.py
       - name: Build compact design review aids
         run: python scripts/build_level_design_review_aids.py
+      - name: Expand frozen A2 manual word-home decisions
+        run: python scripts/build_a2_word_home_map.py
       - name: Restore reviewed A1 semantic lock
         run: python scripts/finalize_a1_semantic_lock.py
       - name: Normalize Stage-07 delivery boundary
