@@ -35,21 +35,45 @@ class LevelSourceOfTruthTests(unittest.TestCase):
                     f"{level}/{name}",
                 )
 
-    def test_a1_is_authorized_only_after_semantic_lock(self):
-        manifest = self.load("a1", "manifest.json")
-        contract = self.load("a1", "exit_contract.json")
-        report = self.load_path(
+    def test_reviewed_levels_are_authorized_only_after_explicit_lock(self):
+        a1_manifest = self.load("a1", "manifest.json")
+        a1_contract = self.load("a1", "exit_contract.json")
+        a1_report = self.load_path(
             "curriculum/levels/a1/semantic-lock/semantic-lock-report.json"
         )
-        self.assertTrue(manifest["lesson_design_authorized"])
-        self.assertFalse(manifest["delivery_content_production_authorized"])
-        self.assertEqual(report["status"], "semantic_lock_reviewed_locked_v1")
-        self.assertTrue(report["lesson_design_authorized"])
-        self.assertEqual(report["summary"]["human_review_queue"], 0)
-        self.assertEqual(contract["status"], "semantic_inventory_locked_v1")
-        self.assertTrue(contract["semantic_lock"]["lesson_design_authorized"])
+        self.assertTrue(a1_manifest["lesson_design_authorized"])
+        self.assertFalse(a1_manifest["delivery_content_production_authorized"])
+        self.assertEqual(a1_report["status"], "semantic_lock_reviewed_locked_v1")
+        self.assertTrue(a1_report["lesson_design_authorized"])
+        self.assertEqual(a1_report["summary"]["human_review_queue"], 0)
+        self.assertEqual(a1_contract["status"], "semantic_inventory_locked_v1")
+        self.assertTrue(a1_contract["semantic_lock"]["lesson_design_authorized"])
 
-        for level in LEVELS[1:]:
+        a2_auth_path = ROOT / "curriculum/levels/a2/design-review/10-authorization-gate/authorization.json"
+        a2_manifest = self.load("a2", "manifest.json")
+        a2_contract = self.load("a2", "exit_contract.json")
+        if a2_auth_path.exists():
+            a2_auth = json.loads(a2_auth_path.read_text(encoding="utf-8"))
+            self.assertEqual(
+                a2_auth["status"],
+                "human_lesson_design_authorization_reviewed_locked_v1",
+            )
+            self.assertTrue(a2_auth["lesson_design_authorized"])
+            self.assertFalse(a2_auth["delivery_content_production_authorized"])
+            self.assertEqual(a2_auth["human_review_queue"], 0)
+            self.assertTrue(a2_manifest["lesson_design_authorized"])
+            self.assertFalse(a2_manifest["delivery_content_production_authorized"])
+            self.assertEqual(
+                a2_manifest["status"],
+                "semantic_design_lock_reviewed_lesson_design_authorized",
+            )
+            self.assertEqual(a2_contract["status"], "semantic_inventory_locked_v1")
+            self.assertTrue(a2_contract["semantic_lock"]["lesson_design_authorized"])
+            self.assertFalse(a2_contract["delivery_content_production_authorized"])
+        else:
+            self.assertFalse(a2_manifest["lesson_design_authorized"])
+
+        for level in LEVELS[2:]:
             other = self.load(level, "manifest.json")
             self.assertFalse(other["lesson_design_authorized"])
             self.assertEqual(other["level"], level.upper())
