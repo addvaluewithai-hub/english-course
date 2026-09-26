@@ -39,10 +39,7 @@
     "L24": ["aim", "expected", "intend", "intention", "planning", "prediction", "prepared", "tend", "unlikely"],
     "L25": ["emergency", "guard", "risk", "safety", "warning", "warn"],
     "L26": ["neither", "nor", "now", "ought", "ours", "plus", "since", "theirs", "though", "till", "unless", "unlike", "upon", "whatever", "whenever", "whether"],
-    "L27": ["bend", "climb", "direct", "drop", "empty", "face", "gather", "hand", "hang", "head", "kick", "lay", "place", "pull", "push", "roll", "shake", "shoot", "signal", "sink", "slow", "sort", "spread", "stick", "tip", "touch", "water", "wave"],
-    "L28": ["arrest", "damage", "emergency", "injure", "injured", "poison", "poisonous", "risk", "safety", "security", "survive", "victim", "warning", "weapon"],
-    "L29": ["analysis", "conclude", "conclusion", "diagram", "highlight", "indicate", "reference", "represent", "state", "summarize", "summary"],
-    "L30": ["access", "application", "button", "click", "file", "keyboard", "program", "software", "type", "update", "version"]
+    "L27": ["bend", "climb", "direct", "drop", "empty", "face", "gather", "hand", "hang", "head", "kick", "lay", "place", "pull", "push", "roll", "shake", "shoot", "signal", "sink", "slow", "sort", "spread", "tip", "touch", "water", "wave"]
   },
   "exact_item_overrides": {}
 }
