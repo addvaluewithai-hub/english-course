@@ -1,125 +1,153 @@
 # A2 Stage 08.5 — Role-Aware Lifecycle / Load Critic
 
-Status: **HUMAN CRITIC DECISIONS V1 — APPLY AND RE-AUDIT**  
+Status: **HUMAN CRITIC COMPLETE — ROLE-AWARE RECONCILIATION LOCKED**  
 Level: **A2**  
-Inputs: Stage-08 exact semantic ledger, Stage-06 exact lifecycle ledger, generated lesson semantic attribution, generated active-load aid.
+Architecture retained: **12 units / 83 lesson slots**
 
-This stage reconciles mastery role with first-introduction scheduling. It does **not** create lesson briefs, change the 83-slot architecture for cosmetic reasons, or use a numeric target as a curriculum objective.
+This stage reconciles the Stage-08 mastery roles with the exact Stage-06 lifecycle and lesson scheduling. It does **not** create lesson briefs, authorize delivery production, or use a numeric lesson-load target as a curriculum objective.
 
 ## Critic principles
 
-1. A high raw source-row count is not itself a failure; the critic judges teachable systems, productive lexical burden, phrase/chunk burden and the lesson's communicative outcome together.
-2. Semantic demotion is allowed only when a record is not required for independent learner production at A2. Demotion is never used merely to make a load report smaller.
-3. A word may remain productive but move to a later/more natural first-introduction lesson.
-4. Receptive/contextual words still require comprehensible exposure and lifecycle evidence; they are not deleted.
-5. Grammar rows remain inside their reviewed system identity. Row-level introduction moves distribute a system across natural functions without inventing new grammar systems.
-6. Automation may resolve review rows to exact IDs, apply these decisions, count and validate only. It may not choose a new role or move an item on its own.
+1. Raw source-row count is not the number of teaching objects.
+2. Semantic demotion is allowed only when independent A2 production is not required by the reviewed task contract.
+3. A productive item may move to a later or more natural first-introduction lesson without changing its mastery role.
+4. Receptive/contextual and integrated-support records remain taught/retrieved evidence; they are not deleted.
+5. Grammar rows remain inside their reviewed Stage-03 system identity.
+6. Automation may resolve review rows to exact source IDs, apply explicit human decisions, count and validate only.
 
----
+## Final semantic result after critic
 
-## Decision A — tighten active lexical obligation
+All **1,617 / 1,617** required A2 source records retain exactly one explicit human-authored semantic role.
 
-The first Stage-08 pass was intentionally conservative and left **591 / 871** words productive. Role-aware lesson review showed that some of those records were optional topic breadth, meta-language, low-necessity synonyms, or words whose A2 value is primarily receptive in this architecture.
+### Words — 871
 
-Demote the following **75 exact word-review rows** from `productive/contextual` to `receptive/contextual`:
+- productive/contextual: **500**
+- integrated support: **54**
+- receptive/contextual: **317**
 
-`47, 58, 63, 69, 79, 80, 83, 109, 145, 148, 160, 165, 166, 184, 194, 198, 204, 218, 220, 236, 243, 246, 283, 284, 289, 294, 296, 300, 341, 353, 355, 357, 393, 416, 424, 428, 448, 451, 518, 532, 542, 544, 573, 580, 597, 601, 611, 613, 616, 619, 620, 643, 647, 650, 666, 669, 675, 689, 713, 721, 724, 728, 737, 743, 761, 763, 769, 774, 795, 796, 799, 809, 814, 820, 841`.
+The first Stage-08 pass intentionally over-included productive vocabulary at 591 words. Stage 08.5 demoted **91 exact reviewed word rows** after role-aware lesson review showed that they were optional topic breadth, meta-language, low-necessity synonyms, or primarily receptive factual content in this A2 architecture.
 
-Representative reasons:
+The exact final row overrides are authoritative in `overrides.json`; automation is not allowed to infer additional demotions or promotions.
 
-- hobby/content breadth such as `drama`, `fiction`, `novel`, `race`, `sailing`, `ski`, `stage`, `trainer` does not have to be universally produced for C05/C06 success;
-- optional description/clothing/object labels such as `sock`, `jewellery`, `pants`, `toy`, `soap`, `knife`, `brush` can support input without becoming exit obligations;
-- meta-language such as `expression`, `question` (verb), `response`, `request` (noun), `voice` is not required merely because the course uses those concepts;
-- abstract/general nouns such as `condition`, `possibility`, `progress`, `thought`, `goal`, `benefit`, `decision` are useful receptive A2 content but are not necessary productive core for the mapped tasks;
-- overlapping evaluative/personality breadth is reduced where a smaller productive repertoire already supports the capability.
+Representative demotion reasons include:
 
-Expected lexical role count after this critic, if every override validates against the Stage-08 productive set: **516 productive / 54 integrated support / 301 receptive = 871**.
+- optional hobby/content breadth that is useful in input but not universally required for learner output;
+- optional clothing/object/detail labels where a smaller productive repertoire already supports the capability;
+- course/meta-language such as labels for communication processes that the learner need not independently produce;
+- abstract/general nouns whose principal role is carrying factual input rather than enabling a required A2 performance;
+- overlapping evaluative/personality breadth where core productive alternatives already satisfy the mapped task.
 
----
+### Phrases — 176
 
-## Decision B — U1-L03 keeps core question formation; expanded questions move later
+- productive/formulaic: **118**
+- receptive/contextual: **28**
+- integrated discourse/writing support: **30**
 
-`U1-L03 — Ask about another person's background` should introduce reliable core yes/no and wh-question formation, not the whole A2 question repertoire.
+### Grammar — 46 reviewed systems / 291 source rows
 
-Move grammar review rows:
+- productive bounded systems: **30**
+- integrated-support systems: **14**
+- receptive bounded systems: **2**
 
-- `65, 66` → `U4-L06` (negative-question/pragmatic use after basic interaction is established)
-- `230` → `U11-L06` (indirect questions fit questionnaire/interview information work)
-- `260` → `U11-L06` (alternative questions fit survey/interview work)
-- `266` → `U7-L01` (negative-question suggestion/invitation use)
-- `272` → `U4-L02` (modal yes/no questions with permission/obligation/action language)
+Expanded source-row roles after system ownership:
 
-Resulting intent: U1-L03 keeps the core `do/be/have/modal` and wh-question resources needed to ask about background, while later units expand question range in contexts that require it.
+- productive grammar rows: **184**
+- integrated-support rows: **98**
+- receptive rows: **9**
 
----
+### Abilities — 269
 
-## Decision C — U4-L04 becomes a focused suggestion repertoire
+- productive: **133**
+- interactive: **46**
+- receptive: **74**
+- integrated support: **16**
 
-`U4-L04 — Make and respond to suggestions` was the strongest Stage-08 hotspot: 39/39 source introductions were active in the first role-aware report. The issue was not one coherent dense system; it mixed C06 opinion chunks, broad vocabulary, and several grammar families whose wider control belongs elsewhere.
+### Pronunciation — 10
 
-### Phrase moves
+- receptive sound-perception requirement: **1**
+- distributed integrated-support/intelligibility requirements: **9**
 
-Move phrase review rows:
+## Applied scheduling decisions
 
-- `34 — care about sth` → `U2-L04` (preferences/interests)
-- `82 — happy with sb/sth` → `U4-L03` (opinion/evaluation)
-- `150 — solution to sth` → `U4-L05` (advice/problem solving)
-- `163 — the important thing` → `U4-L03` (opinion/reason framing)
+### U1-L03 — background questions
 
-Keep the directly suggestion-shaped repertoire in U4-L04, including `if you want to` and `Why not…?`.
+The lesson keeps reliable core question formation needed to ask about another person's background, while expanded question functions are introduced later in contexts that actually need them.
 
-### Grammar moves
+Examples of explicit moves:
 
-Move grammar review rows:
+- negative/pragmatic question rows → `U4-L06`;
+- indirect and alternative questions → `U11-L06` survey/interview work;
+- negative-question suggestion use → `U7-L01` invitation/arrangement work;
+- modal yes/no questions → `U4-L02` permission/obligation/action language.
 
-- `78` → `U4-L05` (conditional hedging works naturally with advice)
-- `80` → `U10-L01` (if + imperative belongs naturally with rules/instructions)
-- `118` → `U7-L01` (`shall we` suggestion is reused as invitation/arrangement language)
-- `161` → `U4-L05` (`it would be…` works as advice/evaluation)
-- `223` → `U10-L01` (broader present-simple `if` condition with practical rules/instructions)
-- `227` → `U4-L03` (mental-process verbs support opinions)
+Final active-load aid: approximately **13 teaching objects**, with **2 productive grammar systems**, 1 active phrase and 8 active words.
 
-U4-L04 therefore retains a bounded suggestion-pattern core rather than asking the learner to activate five broad grammar systems simultaneously.
+### U4-L04 — suggestions
 
----
+The original role-aware pass exposed a real mixed-load problem. Opinion/evaluation chunks, broad vocabulary and grammar functions were redistributed to their natural lessons.
 
-## Decision D — productive words move to the task that actually needs them
+The final lesson is deliberately narrow:
 
-Exact first-introduction moves are persisted separately as review-row scheduling overrides. Important examples:
+- capability: making/responding to suggestions;
+- productive grammar systems: **2**;
+- active phrases: `if you want to`, `Why not…?`;
+- active word: `suggest`.
 
-- `accept`, `invitation`, `luck` → invitation/social-arrangement work;
-- `offer`, `borrow` → requests/offers;
-- `disagree`, `extremely` → opinion/evaluation;
-- `recommend`, `solution`, `solve` → advice/problem solving;
-- `available`, `likely`, `predict`, `certain`, `wish` → arrangements/predictions;
-- `mail`, `reply` → correspondence;
-- `advantage`, `quality` → comparison/product choice;
-- `greet`, `welcome` → early social contact;
-- `careful` → practical rules/safety;
-- `pick`, `replace` → equipment/process instructions.
+Final active-load aid: approximately **6 teaching objects**.
 
-Receptive records may also be moved when their original first exposure was semantically awkward (for example clothing nouns away from pragmatic-reaction lessons).
+### Other exact moves
 
----
+The critic also moved productive language to the task that requires it, including invitation language, requests/offers, opinion/evaluation, advice/problem solving, future arrangements/predictions, correspondence, comparison/product choice, social-contact language, safety language and process/equipment language.
 
-## Decision E — no automatic lesson split yet
+The exact row-level scheduling decisions are persisted in `overrides.json`.
 
-The critic does **not** add lessons at this point. The 83-slot map has many low-load slots and the identified overloads are mainly caused by semantic overclaim or first-introduction placement, not by missing communicative outcomes.
+## Final hotspot review
 
-After applying these exact decisions, rerun:
+After the final Stage-08.5 pass, the remaining highest approximate teaching-object loads are not accidental mixed systems:
 
-1. Stage-06 coverage/lifecycle audit;
-2. Stage-08 semantic expansion;
-3. role-aware lesson attribution / active-load aid.
+- `U2-L02` — approx **19**: people/personality description within one coherent descriptive field plus one grammar system;
+- `U3-L03` — approx **19**: comparison/physical-property language with two related comparison systems;
+- `U10-L01` — approx **19**: practical rules/instructions/conditions in one procedural performance;
+- `U6-L03` — approx **18**: route/direction production with spatial language and two related systems;
+- `U10-L02` — approx **18**: process/instruction language in one procedural outcome;
+- `U4-L03` — approx **17**: opinion/evaluation with reason framing;
+- `U2-L03` — approx **16**: routine/activity description;
+- `U3-L02` — approx **19**: home/object material/ownership description.
 
-Only if a lesson remains cognitively incoherent after those corrections may Stage 08.5 split or repurpose a slot.
+These lessons were reviewed as **coherent performance systems**, not accepted merely because they are below a threshold. No remaining hotspot provides evidence for a new lesson split.
 
-## Lock condition
+Important contrast: raw-row-heavy `U11-L04` now contains approximately **10 active teaching objects** and no new active grammar/ability system, confirming that its earlier raw count was primarily receptive/support density rather than active teaching overload.
 
-Milestone 3 may close only when:
+## Architecture decision
 
-- every 1,617 source record still has exactly one explicit semantic role;
-- semantic automation reports zero inferred roles and zero orphans;
-- Stage-06 lifecycle remains complete and mechanically valid;
-- the revised role-aware hotspot queue has been manually reviewed;
-- any remaining high-load lesson is explicitly justified by one coherent performance/system rather than by accidental lexical or framework-row accumulation.
+**Retain 12 units / 83 lesson slots.**
+
+No lesson is added, removed, merged or split in Stage 08.5. The identified problems were solved through semantic correction and natural first-introduction placement rather than by protecting or chasing a lesson-count target.
+
+## Lock conditions — satisfied
+
+- exact semantic roles: **1,617 / 1,617**;
+- semantic orphans: **0**;
+- automation-inferred semantic roles: **0**;
+- Stage-06 exact lifecycle remains complete;
+- mechanical coverage overloads remain **0**;
+- designated transfer/evidence lessons remain zero-new;
+- role-aware hotspot queue manually reviewed;
+- remaining high-load lessons explicitly justified by one coherent communicative/system outcome.
+
+## Validation
+
+The human Stage-08.5 commit `1dbcbf636a8db9d659b4705592bbb6abeb5e2c0b` completed with **4 / 4 GitHub checks successful**, including the A2 semantic audit and repository build/audit checks.
+
+Generated evidence:
+
+- `../08-semantic-lock/generated/semantic-role-ledger.json`
+- `../08-semantic-lock/generated/semantic-role-report.md`
+- `../08-semantic-lock/generated/lesson-semantic-attribution.md`
+- `../08-semantic-lock/generated/active-load-aid.md`
+
+## Verdict
+
+**Stage 08 + Stage 08.5 are closed. Milestone 3 may close.**
+
+This authorizes the next curriculum-design milestone only. It does **not** authorize lesson/script/media production and does not change the A2 manifest production gate.
