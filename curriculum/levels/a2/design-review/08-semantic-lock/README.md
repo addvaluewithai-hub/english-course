@@ -1,10 +1,10 @@
 # A2 Stage 08 — Semantic / Mastery Lock
 
-Status: **IN PROGRESS — HUMAN SEMANTIC REVIEW**  
+Status: **LOCKED — HUMAN SEMANTIC REVIEW + STAGE 08.5 RECONCILIATION COMPLETE**  
 Level: **A2**  
 Structural prerequisite: Milestone 2 closed at **12 units / 83 lesson slots**.
 
-This stage decides what level of learner control is actually claimed for every required A2 source record. It exists to prevent a coverage ledger from silently becoming an all-active mastery contract.
+This stage defines the learner-control claim for every required A2 source record. It prevents the coverage ledger from becoming an accidental all-active mastery contract.
 
 ## Non-negotiable rule
 
@@ -12,100 +12,134 @@ This stage decides what level of learner control is actually claimed for every r
 
 A word is not productive because it appears in a lesson. A phrase is not generative because it contains grammar. An EGP row is not an independent teaching objective. A receptive ability is not converted into productive mastery. Cross-cutting support is not promoted into a fake standalone exit target.
 
-## Inputs
+## Semantic contract
 
-Authoritative human-reviewed inputs:
+Every exact source record has three dimensions.
+
+### `mastery_mode`
+
+- **productive** — learner independently produces the language/performance when the task calls for it.
+- **receptive** — learner recognises/understands/interprets it in bounded A2 input; independent production is not claimed.
+- **interactive** — successful control is defined through initiating/responding/repairing in an exchange.
+- **integrated_support** — the record supports another performance but is not an independent exit target.
+
+### `control_scope`
+
+- **generative** — new source-bounded combinations are possible.
+- **bounded_pattern** — limited A2 pattern/system control only.
+- **formulaic** — fixed or semi-fixed chunk control.
+- **contextual** — control tied to familiar lexical/content contexts.
+- **quality_constraint** — intelligibility, cohesion, reference, writing quality or interaction condition inside another performance.
+
+### `exit_evidence`
+
+- **independent_possible** — may legitimately be sampled as an explicit A2 exit requirement.
+- **integrated_required** — evidence belongs inside a larger communicative/receptive task.
+- **support_condition** — quality/condition on other evidence, not a standalone target.
+
+## Final exact role counts
+
+All **1,617 / 1,617** exact required A2 source records have one explicit human-authored role.
+
+### Abilities — 269
+
+- productive: **133**
+- interactive: **46**
+- receptive: **74**
+- integrated support: **16**
+
+### Phrases — 176
+
+- productive/formulaic: **118**
+- receptive/contextual: **28**
+- integrated support: **30**
+
+### Grammar — 291 rows / 46 reviewed systems
+
+System-level contract:
+
+- productive bounded systems: **30**
+- integrated-support systems: **14**
+- receptive bounded systems: **2**
+
+Expanded source rows:
+
+- productive: **184**
+- integrated support: **98**
+- receptive: **9**
+
+### Words — 871
+
+- productive/contextual: **500**
+- integrated support: **54**
+- receptive/contextual: **317**
+
+Stage 08.5 deliberately reduced the initial productive lexical claim after role-aware lesson review. Broad topic breadth, optional synonyms, meta-language and primarily factual-input vocabulary remain taught/recycled without becoming false independent output obligations.
+
+### Pronunciation — 10
+
+- receptive sound perception: **1**
+- integrated intelligibility/performance support: **9**
+
+Pronunciation remains distributed across communicative performances; it is not an accent target or a standalone capability.
+
+## Authoritative human-reviewed inputs
 
 - `../01-abilities/final-capability-map.md`
 - `../02-phrases/phrase-review.md`
 - `../03-grammar/grammar-review.md`
 - `../04-words/word-review.md`
-- `../04-words/generated/word-home-map.json`
 - `../04.5-pronunciation-exit-carry-forward/constraints.md`
 - `../05-curriculum-map/curriculum-map.md`
 - `../06-coverage-ledger/generated/coverage-ledger.json`
 - `../06.5-load-sequence-lock/load-sequence-lock.md`
+- `semantic-decisions.json`
+- `../08.5-role-aware-critic/overrides.json`
+- `../08.5-role-aware-critic/critic-decisions-v1.md`
 
-Canonical source inventories remain `curriculum/levels/a2/{abilities,phrases,grammar,words,pronunciation}.json`.
+Canonical inventories remain `curriculum/levels/a2/{abilities,phrases,grammar,words,pronunciation}.json`.
 
-## Semantic contract
+## Generated evidence
 
-Every exact source record receives three independent fields.
+- `generated/semantic-role-ledger.json` — exact 1,617-record role expansion.
+- `generated/semantic-role-report.md` — role counts and lesson-level active-load report.
+- `generated/lesson-semantic-attribution.md` — exact lesson attribution by role.
+- `generated/active-load-aid.md` — compact human-critic view that collapses grammar rows to reviewed systems.
 
-### 1. `mastery_mode`
+Generated outputs are evidence/audit views. Human decision files remain authoritative.
 
-- **productive** — learner must independently produce the language/performance when the communicative task calls for it.
-- **receptive** — learner must recognise, understand, locate or interpret it in source-bounded A2 input; independent production is not claimed.
-- **interactive** — successful control is defined through initiating/responding/repairing in an exchange, not through decontextualised production.
-- **integrated_support** — the record supports another learner performance and must be taught/reused, but is not an independent exit target.
+## Stage 08.5 result
 
-### 2. `control_scope`
+Role-aware reconciliation retained the **12-unit / 83-slot** architecture.
 
-- **generative** — learner can make new source-bounded combinations, not merely replay one model.
-- **bounded_pattern** — learner controls a limited A2 pattern/system in its reviewed functions; broader later-level meanings are excluded.
-- **formulaic** — learner can deploy/recognise a fixed or semi-fixed chunk as a unit; this is explicitly not evidence of unrestricted grammar.
-- **contextual** — control is tied to familiar lexical/content contexts or supported input rather than unrestricted topic mastery.
-- **quality_constraint** — the record changes intelligibility, cohesion, reference, writing quality or interaction conditions inside other performances.
+Key corrections included:
 
-### 3. `exit_evidence`
+- demoting optional productive lexical breadth to receptive/contextual control;
+- keeping U1-L03 focused on core background-question resources and moving expanded question functions later;
+- reducing U4-L04 from a mixed high-load lesson to a bounded suggestion system;
+- moving productive lexis/chunks to the task that actually requires them;
+- manually reviewing the remaining active-load hotspot queue.
 
-- **independent_possible** — the item/system may legitimately be sampled as an explicit task requirement at A2 exit.
-- **integrated_required** — exit evidence should occur inside a larger communicative/receptive task; a separate item test is unnecessary.
-- **support_condition** — the record is a condition/quality constraint on other exit evidence, not a standalone target.
+No remaining hotspot justified a lesson split. High raw-row lessons were accepted only when role-aware analysis showed one coherent communicative/system outcome.
 
-These dimensions are deliberately separate. For example:
+## Lock criteria — satisfied
 
-- a request ability may be `interactive + bounded_pattern + independent_possible`;
-- `Why not…?` may be `productive + formulaic + integrated_required`;
-- comparative grammar may be `productive + bounded_pattern + integrated_required`;
-- a broad factual word such as `government` may be `receptive + contextual + integrated_required`;
-- reference tracking may be `integrated_support + quality_constraint + support_condition`.
+- exact semantic coverage: **1,617 / 1,617**;
+- semantic orphans: **0**;
+- automation-inferred roles: **0**;
+- productive/formulaic/receptive/support distinctions explicit and auditable;
+- every productive claim remains inside reviewed A2 source boundaries;
+- role-aware lesson load manually reviewed;
+- Stage-06 lifecycle remains complete after Stage 08.5 scheduling changes;
+- transfer/evidence lessons remain zero-new;
+- no lesson was split merely to hit a numeric load target.
 
-## Category decision principles
+## Validation
 
-### Abilities
+Human Stage-08.5 commit `1dbcbf636a8db9d659b4705592bbb6abeb5e2c0b` completed with **4 / 4 GitHub checks successful**.
 
-Source mode/task semantics are authoritative. Reception stays receptive; interaction stays interaction when success requires exchange; production stays productive unless the source itself is only a support/quality condition. Fixed-expression wording narrows `control_scope` to formulaic/bounded rather than inventing generative control.
+## Boundary
 
-### Phrases
+**Stage 08 and Stage 08.5 are closed.**
 
-Oxford Phrase List inclusion establishes useful A2 phrase evidence, not universal active mastery. Transactional/social/repair chunks may receive formulaic productive control when they directly enable a required capability. Informational/content/discourse phrases may remain receptive or integrated support. Polysemy is always sense-bounded to the reviewed home.
-
-### Grammar
-
-The 291 EGP rows are interpreted through the 46 manually reviewed systems. A system may be generative/productive, receptive-supporting or embedded infrastructure. Raw row count never decides mastery. Fixed phrase evidence never expands grammar beyond canonical EGP support.
-
-### Words
-
-The 871 Oxford word records are not all active vocabulary. Productive control is reserved for lexis required to complete core A2 communicative tasks and linked descriptions. Broad environment/science/crime/media/society/culture vocabulary can be receptive/contextual when its main function is to carry factual input. Grammar-owned function words are integrated support under Stage-03 systems. Homographs/senses remain exact-record-specific.
-
-### Pronunciation
-
-Pronunciation is a distributed performance-quality contract. It is not an accent target and not a standalone capability. A2 requires generally understandable familiar-situation speech, with repetition/listener effort still possible. New A2 prominence/rhythm, connected speech and interactional intonation remain bounded and integrated.
-
-## Required outputs
-
-1. `ability-roles.md` — human role decisions for all 269 required ability rows.
-2. `phrase-roles.md` — human role decisions for all 176 phrases.
-3. `grammar-roles.md` — human role decisions for all 46 systems / 291 rows, including row exceptions where needed.
-4. `word-roles.md` — human role decisions for the 30 lexical sets + `LX-GENERAL`, with exact item overrides where needed.
-5. `pronunciation-roles.md` — human role decisions for all 10 strands.
-6. `semantic-decisions.json` — machine-readable human-authored family/set/row decisions; no inferred roles.
-7. `generated/semantic-role-ledger.json` — exact 1,617-record expansion.
-8. `generated/semantic-role-report.md` — counts/orphans/decision provenance and lesson-level active-load view.
-9. Stage 08.5 reconciliation after Stage 08 roles are locked.
-
-## Lock criteria
-
-Stage 08 may close only when:
-
-- all **1,617 / 1,617** exact records receive an explicit semantic role;
-- no role is inferred merely from lesson presence, frequency or source order;
-- productive/formulaic/receptive/support distinctions are visible and auditable;
-- every productive claim stays inside A2 source boundaries;
-- `LX-GENERAL` is not silently made active;
-- high-load lessons are re-counted by mastery role, not raw rows;
-- Stage 08.5 confirms the lifecycle can support the semantic claims without inventing extra mastery evidence;
-- any lesson reopening is based on a real role-aware learning/evidence problem.
-
-Do not start lesson briefs or production before Stage 08 + 08.5 are closed.
+The next curriculum-design milestone may begin, but A2 `lesson_design_authorized` remains `false` until its later authorization gate. This semantic lock does **not** authorize lesson/script/media production or modify `TEST-002`.
