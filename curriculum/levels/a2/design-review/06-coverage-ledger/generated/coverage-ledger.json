@@ -21190,27 +21190,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U7-L06"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L04",
-          "U4-L05",
-          "U5-L02",
-          "U7-L01",
-          "U7-L02",
-          "U7-L03",
-          "U7-L04",
-          "U7-L05",
           "U7-L06"
         ],
         "fresh_retrieval": [
-          "U4-L07",
-          "U5-L07",
           "U7-L07"
         ],
         "recycle": [
-          "U7-L06",
           "U10-L06",
           "U12-L04",
           "U12-L05",
@@ -27119,7 +27107,8 @@
           "U7-L01"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -27616,7 +27605,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -27736,7 +27726,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -28451,7 +28442,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -28480,7 +28472,8 @@
           "U11-L01"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -30548,7 +30541,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -30574,10 +30568,14 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U4-L03"
         ],
-        "practice": [],
-        "fresh_retrieval": [],
+        "practice": [
+          "U4-L06"
+        ],
+        "fresh_retrieval": [
+          "U4-L07"
+        ],
         "recycle": [
           "U12-L05"
         ],
@@ -31055,7 +31053,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -31477,10 +31476,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U2-L01"
         ],
-        "practice": [],
-        "fresh_retrieval": [],
+        "practice": [
+          "U2-L02",
+          "U3-L03",
+          "U3-L04"
+        ],
+        "fresh_retrieval": [
+          "U2-L07",
+          "U3-L07"
+        ],
         "recycle": [
           "U12-L05"
         ],
@@ -31866,7 +31872,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U1-L07",
@@ -31990,7 +31997,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -32045,10 +32053,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U4-L04"
         ],
-        "practice": [],
+        "practice": [
+          "U4-L05",
+          "U5-L02",
+          "U10-L06"
+        ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -33153,7 +33166,8 @@
           "U11-L01"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -33785,7 +33799,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -34388,10 +34403,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U2-L02"
         ],
-        "practice": [],
-        "fresh_retrieval": [],
+        "practice": [
+          "U2-L02",
+          "U3-L03",
+          "U3-L04"
+        ],
+        "fresh_retrieval": [
+          "U2-L07",
+          "U3-L07"
+        ],
         "recycle": [
           "U12-L05"
         ],
@@ -35573,7 +35595,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -35603,7 +35626,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U1-L07",
@@ -35630,10 +35654,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U2-L02"
         ],
-        "practice": [],
-        "fresh_retrieval": [],
+        "practice": [
+          "U2-L02",
+          "U3-L03",
+          "U3-L04"
+        ],
+        "fresh_retrieval": [
+          "U2-L07",
+          "U3-L07"
+        ],
         "recycle": [
           "U12-L05"
         ],
@@ -35654,10 +35685,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U3-L01"
         ],
-        "practice": [],
-        "fresh_retrieval": [],
+        "practice": [
+          "U3-L03",
+          "U3-L04"
+        ],
+        "fresh_retrieval": [
+          "U3-L07"
+        ],
         "recycle": [
           "U12-L05"
         ],
@@ -37563,7 +37599,8 @@
         "practice": [
           "U1-L01",
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U1-L07",
@@ -39323,7 +39360,8 @@
           "U11-L01"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -39412,7 +39450,8 @@
           "U7-L01"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -39441,7 +39480,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -40683,10 +40723,16 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U3-L01"
         ],
-        "practice": [],
-        "fresh_retrieval": [],
+        "practice": [
+          "U3-L01",
+          "U3-L02",
+          "U3-L06"
+        ],
+        "fresh_retrieval": [
+          "U3-L07"
+        ],
         "recycle": [
           "U12-L05"
         ],
@@ -41166,7 +41212,8 @@
           "U11-L01"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -41316,7 +41363,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -41671,7 +41719,8 @@
           "U11-L01"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -42856,7 +42905,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -44295,7 +44345,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -45500,10 +45551,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U4-L04"
         ],
-        "practice": [],
+        "practice": [
+          "U4-L06",
+          "U11-L01",
+          "U11-L02"
+        ],
         "fresh_retrieval": [
+          "U4-L07",
           "U11-L07"
         ],
         "recycle": [
@@ -45746,7 +45802,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -45804,7 +45861,8 @@
           "U11-L01"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -45980,7 +46038,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -46157,7 +46216,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -46365,7 +46425,9 @@
         "introduce": [
           "U11-L02"
         ],
-        "practice": [],
+        "practice": [
+          "U11-L02"
+        ],
         "fresh_retrieval": [
           "U11-L07"
         ],
@@ -46457,7 +46519,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -46544,7 +46607,8 @@
           "U11-L01"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -46574,7 +46638,8 @@
         "practice": [
           "U1-L01",
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U1-L07",
@@ -46753,7 +46818,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -47142,10 +47208,17 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L03"
+          "U2-L01"
         ],
-        "practice": [],
-        "fresh_retrieval": [],
+        "practice": [
+          "U2-L01",
+          "U2-L02",
+          "U4-L06"
+        ],
+        "fresh_retrieval": [
+          "U2-L07",
+          "U4-L07"
+        ],
         "recycle": [
           "U12-L05"
         ],
@@ -48458,7 +48531,8 @@
           "U5-L04"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -49275,10 +49349,15 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U11-L03"
+          "U3-L01"
         ],
-        "practice": [],
-        "fresh_retrieval": [],
+        "practice": [
+          "U3-L03",
+          "U3-L04"
+        ],
+        "fresh_retrieval": [
+          "U3-L07"
+        ],
         "recycle": [
           "U12-L05"
         ],
@@ -50153,7 +50232,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -50182,7 +50262,8 @@
           "U11-L01"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"
@@ -50243,7 +50324,8 @@
         "practice": [
           "U1-L01",
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U1-L07",
@@ -50573,7 +50655,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U4-L07",
@@ -52426,7 +52509,8 @@
         ],
         "practice": [
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U1-L07",
@@ -52727,7 +52811,8 @@
         "practice": [
           "U1-L01",
           "U4-L06",
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U1-L07",
@@ -53239,7 +53324,8 @@
           "U11-L01"
         ],
         "practice": [
-          "U11-L01"
+          "U11-L01",
+          "U11-L02"
         ],
         "fresh_retrieval": [
           "U11-L07"

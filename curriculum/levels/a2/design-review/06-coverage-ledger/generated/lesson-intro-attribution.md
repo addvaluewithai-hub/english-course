@@ -203,7 +203,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `pronunciation.chunking_monitoring_repair.a2` — Chunking, pausing, monitoring, and pronunciation repair — homes: pronunciation.chunking_monitoring_repair.a2
 
-## U2-L01 — 24 introductions (A 5 / P 2 / G 0 / W 16 / Pron 1)
+## U2-L01 — 26 introductions (A 5 / P 2 / G 0 / W 18 / Pron 1)
 
 ### Ability — 5
 
@@ -218,12 +218,13 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.phrase.online.0394` — in love — homes: C04
 - `oxford.phrase.online.0661` — take sth off — homes: C04
 
-### Word — 16
+### Word — 18
 
 - `oxford.o3000.p04.143` — appearance — homes: L02
 - `oxford.o3000.p04.159` — attractive — homes: L02
 - `oxford.o3000.p04.169` — badly — homes: L24
 - `oxford.o3000.p04.182` — belt — homes: L02
+- `oxford.o3000.p04.247` — close2 — homes: L24
 - `oxford.o3000.p04.249` — clothing — homes: L02
 - `oxford.o3000.p05.018` — curly — homes: LX-GENERAL
 - `oxford.o3000.p05.042` — differently — homes: L24
@@ -232,6 +233,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p05.240` — jewellery — homes: L02
 - `oxford.o3000.p06.086` — pants — homes: L02
 - `oxford.o3000.p06.117` — pocket — homes: L03
+- `oxford.o3000.p06.210` — sadly — homes: L02
 - `oxford.o3000.p06.250` — simple — homes: L24
 - `oxford.o3000.p06.272` — sock — homes: L02
 - `oxford.o3000.p07.032` — suit — homes: L02
@@ -241,7 +243,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `pronunciation.consonant_clarity.a2` — Consonant contrasts and place or manner clarity — homes: pronunciation.consonant_clarity.a2
 
-## U2-L02 — 40 introductions (A 5 / P 2 / G 10 / W 22 / Pron 1)
+## U2-L02 — 42 introductions (A 5 / P 2 / G 10 / W 24 / Pron 1)
 
 ### Ability — 5
 
@@ -269,13 +271,15 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163715289x979513878826105700` — FORM: AUXILIARY VERBS 'HAVE' AND 'DO' — homes: X04, C04, C12, C13, C15, C25
 - `egp.1741163715620x718213480807691900` — FORM: LINKING + COMPLEMENT — homes: C04, C23, X02
 
-### Word — 22
+### Word — 24
 
 - `oxford.o3000.p04.179` — behave — homes: LX-GENERAL
 - `oxford.o3000.p04.180` — behaviour — homes: L02
 - `oxford.o3000.p04.245` — clever — homes: L02
 - `oxford.o3000.p05.008` — crazy — homes: L02
 - `oxford.o3000.p05.009` — creative — homes: L02
+- `oxford.o3000.p05.067` — dry — homes: L24
+- `oxford.o3000.p05.108` — extreme — homes: L24
 - `oxford.o3000.p05.188` — helpful — homes: L02
 - `oxford.o3000.p05.228` — intelligent — homes: L02
 - `oxford.o3000.p05.263` — lazy — homes: L02
@@ -488,7 +492,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p04.101` — ability — homes: LX-GENERAL
 - `oxford.o3000.p05.212` — impossible — homes: L24
 
-## U3-L01 — 27 introductions (A 3 / P 3 / G 10 / W 11 / Pron 0)
+## U3-L01 — 30 introductions (A 3 / P 3 / G 10 / W 14 / Pron 0)
 
 ### Ability — 3
 
@@ -515,18 +519,21 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163715608x423925668920691600` — FORM: 'THERE IS' + UNCOUNTABLE — homes: C08, C09
 - `egp.1741163715608x515455874028492200` — FORM: 'THERE IS/ARE' + A LOT OF — homes: C08, C09
 
-### Word — 11
+### Word — 14
 
 - `oxford.o3000.p04.188` — bin — homes: L03
 - `oxford.o3000.p04.248` — closed — homes: L24
 - `oxford.o3000.p04.258` — comfortable — homes: L24
 - `oxford.o3000.p05.001` — cooker — homes: L03
 - `oxford.o3000.p05.070` — easily — homes: L24
+- `oxford.o3000.p05.109` — extremely — homes: L24
 - `oxford.o3000.p05.156` — furniture — homes: L03
+- `oxford.o3000.p05.275` — light (from the sun/a lamp) — homes: L03
 - `oxford.o3000.p06.076` — original — homes: L24
 - `oxford.o3000.p06.079` — oven — homes: L03
 - `oxford.o3000.p06.202` — roof — homes: L03
 - `oxford.o3000.p06.268` — soap — homes: L03
+- `oxford.o3000.p07.001` — specific — homes: L24
 - `oxford.o3000.p07.073` — toy — homes: L03
 
 ## U3-L02 — 43 introductions (A 6 / P 6 / G 10 / W 21 / Pron 0)
@@ -821,7 +828,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.041` — symbol — homes: LX-GENERAL
 - `oxford.o3000.p07.120` — whose — homes: L29
 
-## U4-L03 — 44 introductions (A 8 / P 9 / G 13 / W 13 / Pron 1)
+## U4-L03 — 43 introductions (A 8 / P 9 / G 12 / W 13 / Pron 1)
 
 ### Ability — 8
 
@@ -846,7 +853,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.phrase.online.0674` — the best thing — homes: C06
 - `oxford.phrase.online.0680` — the important thing — homes: C06
 
-### Grammar — 13
+### Grammar — 12
 
 - `egp.1741163706316x198445876411383900` — FORM: COMBINING TWO ADJECTIVES WITH 'BUT' — homes: X06, C04, C06
 - `egp.1741163706722x170602944998903700` — USE: DEGREE WITH VERBS — homes: C06, C07, C05
@@ -858,7 +865,6 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163706939x328491474615097540` — FORM: DEGREE, END POSITION — homes: C06, C07, C05
 - `egp.1741163708146x666253614436465000` — FORM: ADVERB + ADVERB — homes: C06, C07, C05
 - `egp.1741163710385x692584626357576800` — FORM: 'BE' + 'SURE' + CLAUSE — homes: C06, C15, X06
-- `egp.1741163711528x595400239413859000` — USE: IMAGINED SITUATIONS — homes: C06, C13, C14, C15
 - `egp.1741163711535x744252869965837700` — FORM/USE: MID POSITION, HEDGING OR EMPHASIS — homes: C06, C15, X06
 - `egp.1741163713633x569058685257493250` — USE: MENTAL PROCESS VERBS — homes: C05, C13, C18, X04
 
@@ -867,9 +873,9 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p04.107` — achieve — homes: L22
 - `oxford.o3000.p04.147` — argue — homes: L21
 - `oxford.o3000.p04.166` — awful — homes: L02
+- `oxford.o3000.p04.217` — careful — homes: L02
 - `oxford.o3000.p04.238` — choice — homes: L22
 - `oxford.o3000.p05.047` — disagree — homes: L21
-- `oxford.o3000.p05.109` — extremely — homes: L24
 - `oxford.o3000.p05.120` — fear — homes: L02
 - `oxford.o3000.p06.072` — option — homes: L22
 - `oxford.o3000.p07.021` — strange — homes: L02
@@ -882,7 +888,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `pronunciation.intonation_stance.a2` — Intonation, interaction, and stance — homes: pronunciation.intonation_stance.a2
 
-## U4-L04 — 12 introductions (A 5 / P 2 / G 4 / W 1 / Pron 0)
+## U4-L04 — 14 introductions (A 5 / P 2 / G 4 / W 3 / Pron 0)
 
 ### Ability — 5
 
@@ -904,8 +910,10 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163716292x917584988638321400` — USE: SUGGESTIONS — homes: C12, C13, C25
 - `egp.1741163713633x569339192426698800` — USE: SUGGESTIONS — homes: C05, C13, C18, X04
 
-### Word — 1
+### Word — 3
 
+- `oxford.o3000.p04.266` — condition — homes: L22
+- `oxford.o3000.p06.155` — question — homes: L21
 - `oxford.o3000.p07.030` — suggest — homes: L21
 
 ## U4-L05 — 21 introductions (A 2 / P 1 / G 7 / W 11 / Pron 0)
@@ -1169,7 +1177,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.066` — top — homes: LX-GENERAL
 - `oxford.o3000.p07.123` — wind1 — homes: L13
 
-## U6-L01 — 22 introductions (A 1 / P 5 / G 2 / W 14 / Pron 0)
+## U6-L01 — 21 introductions (A 1 / P 5 / G 2 / W 13 / Pron 0)
 
 ### Ability — 1
 
@@ -1188,11 +1196,10 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163713112x664516393932309100` — FORM: 'JUST' + PREPOSITION — homes: C08, C10, C11, X09
 - `egp.1741163713115x117482459797167540` — FORM: + '-ING' — homes: C08, C10, C11, X09
 
-### Word — 14
+### Word — 13
 
 - `oxford.o3000.p04.167` — back — homes: L11
 - `oxford.o3000.p04.205` — bridge — homes: L11
-- `oxford.o3000.p04.247` — close2 — homes: L24
 - `oxford.o3000.p04.252` — coast — homes: L11
 - `oxford.o3000.p05.045` — direction — homes: L11
 - `oxford.o3000.p05.094` — everywhere — homes: L11
@@ -1543,13 +1550,13 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163711296x618996248976702100` — FORM: QUESTIONS — homes: C12, C15, C13
 - `egp.1741163711296x854855921125381900` — FORM/USE: AFTER 'IF', FUTURE SITUATIONS — homes: C12, C15, C13
 
-## U7-L06 — 28 introductions (A 1 / P 0 / G 11 / W 16 / Pron 0)
+## U7-L06 — 29 introductions (A 1 / P 0 / G 12 / W 16 / Pron 0)
 
 ### Ability — 1
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.037` — Can make simple predictions about the future. (P) — homes: C15
 
-### Grammar — 11
+### Grammar — 12
 
 - `egp.1741163706723x300249420014393500` — USE: FOCUS — homes: X06, C06, X02
 - `egp.1741163706938x822778794256699800` — FORM: FRONT POSITION — homes: X06, C06, X02
@@ -1561,6 +1568,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163710842x165685210295420480` — FORM: AFFIRMATIVE — homes: C15, C06
 - `egp.1741163710842x597284439250826500` — USE: POSSIBILITY — homes: C15, C06
 - `egp.1741163711296x650279021780509000` — FORM: NEGATIVE — homes: C12, C15, C13
+- `egp.1741163711528x595400239413859000` — USE: IMAGINED SITUATIONS — homes: C06, C13, C14, C15
 - `egp.1741163711535x514214856539001000` — FORM: CLAUSE POSITION — homes: C06, C15, X06
 
 ### Word — 16
@@ -1793,7 +1801,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.029` — suddenly — homes: L23
 - `oxford.o3000.p07.119` — whole — homes: LX-GENERAL
 
-## U9-L03 — 27 introductions (A 2 / P 4 / G 6 / W 15 / Pron 0)
+## U9-L03 — 26 introductions (A 2 / P 4 / G 6 / W 14 / Pron 0)
 
 ### Ability — 2
 
@@ -1816,7 +1824,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163706938x493393825408503100` — FORM: MID POSITION — homes: C05, C16, C17, X06
 - `egp.1741163708145x367529311426601600` — FORM: SENTENCE ADVERB,  FRONT POSITION — homes: X06, C06, X02
 
-### Word — 15
+### Word — 14
 
 - `oxford.o3000.p04.138` — any more — homes: L28
 - `oxford.o3000.p04.195` — blow — homes: L25
@@ -1830,7 +1838,6 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.001` — lock — homes: L25
 - `oxford.o3000.p06.149` — pull — homes: L25
 - `oxford.o3000.p06.166` — recent — homes: L23
-- `oxford.o3000.p06.210` — sadly — homes: L02
 - `oxford.o3000.p06.239` — shake — homes: L25
 - `oxford.o3000.p07.028` — such — homes: L28
 
@@ -1889,7 +1896,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p28.010` — Can tell a story or describe something in a simple list of points. (C) — homes: C17
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p39.012` — Can write a simple story or description of an event using basic time expressions. (P) — homes: C17
 
-## U10-L01 — 41 introductions (A 3 / P 4 / G 12 / W 22 / Pron 0)
+## U10-L01 — 40 introductions (A 3 / P 4 / G 12 / W 21 / Pron 0)
 
 ### Ability — 3
 
@@ -1919,13 +1926,12 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163716068x445742738976088800` — FORM: 'DO', IMPERATIVES — homes: C05, C09, C12, C16, C18, C25
 - `egp.1741163713626x199664325289681020` — FORM/USE: REAL AND IMAGINED SITUATIONS AFTER 'IF' — homes: C05, C13, C18, X04
 
-### Word — 22
+### Word — 21
 
 - `oxford.o3000.p04.156` — attack — homes: L17
 - `oxford.o3000.p04.158` — attention — homes: L06
 - `oxford.o3000.p04.193` — blank — homes: L30
 - `oxford.o3000.p04.210` — burn — homes: L25
-- `oxford.o3000.p04.217` — careful — homes: L02
 - `oxford.o3000.p04.225` — cause — homes: L18
 - `oxford.o3000.p05.004` — correctly — homes: L30
 - `oxford.o3000.p05.038` — detective — homes: L17
@@ -1944,7 +1950,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.046` — task — homes: L30
 - `oxford.o3000.p07.107` — war — homes: L17
 
-## U10-L02 — 43 introductions (A 4 / P 7 / G 9 / W 23 / Pron 0)
+## U10-L02 — 42 introductions (A 4 / P 7 / G 9 / W 22 / Pron 0)
 
 ### Ability — 4
 
@@ -1975,7 +1981,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163712047x673355343552202160` — FORM/USE: WITH 'BY' TO ADD INFORMATION — homes: C18, C23, X02
 - `egp.1741163713633x426061404387356740` — FORM: QUESTIONS — homes: C05, C13, C18, X04
 
-### Word — 23
+### Word — 22
 
 - `oxford.o3000.p04.191` — biscuit — homes: L08
 - `oxford.o3000.p04.212` — button — homes: L30
@@ -1989,7 +1995,6 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p05.119` — fat — homes: L08
 - `oxford.o3000.p05.152` — fresh — homes: L08
 - `oxford.o3000.p05.215` — increase — homes: L18
-- `oxford.o3000.p05.275` — light (from the sun/a lamp) — homes: L03
 - `oxford.o3000.p06.065` — nut — homes: L08
 - `oxford.o3000.p06.070` — onto — homes: L25
 - `oxford.o3000.p06.135` — process — homes: L18
@@ -2196,7 +2201,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `oxford.o3000.p06.184` — reply — homes: L21
 
-## U11-L03 — 33 introductions (A 8 / P 2 / G 0 / W 23 / Pron 0)
+## U11-L03 — 32 introductions (A 8 / P 2 / G 0 / W 22 / Pron 0)
 
 ### Ability — 8
 
@@ -2214,7 +2219,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.phrase.online.0480` — look sth up — homes: C22
 - `oxford.phrase.online.0620` — search for sth/sb — homes: C22
 
-### Word — 23
+### Word — 22
 
 - `oxford.o3000.p04.115` — advertisement — homes: L16
 - `oxford.o3000.p04.232` — charity — homes: L19
@@ -2236,11 +2241,10 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.150` — purpose — homes: L18
 - `oxford.o3000.p06.172` — record — homes: L16
 - `oxford.o3000.p06.224` — search — homes: L16
-- `oxford.o3000.p07.001` — specific — homes: L24
 - `oxford.o3000.p07.002` — speech — homes: L16
 - `oxford.o3000.p07.049` — technology — homes: L15
 
-## U11-L04 — 47 introductions (A 5 / P 6 / G 12 / W 24 / Pron 0)
+## U11-L04 — 45 introductions (A 5 / P 6 / G 12 / W 22 / Pron 0)
 
 ### Ability — 5
 
@@ -2274,11 +2278,10 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163715277x561147037910384640` — FORM: VERBS + INDIRECT OBJECT CLAUSE — homes: C23, C21, X02
 - `egp.1741163715277x859067269502848500` — FORM: VERBS + DIRECT OBJECT CLAUSE WITHOUT 'THAT' — homes: C23, C21, X02
 
-### Word — 24
+### Word — 22
 
 - `oxford.o3000.p04.116` — advertising — homes: L16
 - `oxford.o3000.p04.259` — comment — homes: L16
-- `oxford.o3000.p04.266` — condition — homes: L22
 - `oxford.o3000.p04.275` — control — homes: L18
 - `oxford.o3000.p05.011` — crime — homes: L17
 - `oxford.o3000.p05.023` — data — homes: L18
@@ -2286,7 +2289,6 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p05.075` — electrical — homes: L18
 - `oxford.o3000.p05.076` — electricity — homes: L18
 - `oxford.o3000.p05.104` — expert — homes: L18
-- `oxford.o3000.p05.108` — extreme — homes: L24
 - `oxford.o3000.p05.126` — fight — homes: L17
 - `oxford.o3000.p05.278` — link — homes: L16
 - `oxford.o3000.p06.030` — method — homes: L18
@@ -2330,7 +2332,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.075` — tradition — homes: L20
 - `oxford.o3000.p07.116` — wet — homes: L13
 
-## U11-L06 — 33 introductions (A 5 / P 0 / G 6 / W 22 / Pron 0)
+## U11-L06 — 32 introductions (A 5 / P 0 / G 6 / W 21 / Pron 0)
 
 ### Ability — 5
 
@@ -2349,7 +2351,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163715033x134646499658930300` — FORM: AUXILIARY 'BE' — homes: X04, C20
 - `egp.1741163715033x661087028434845600` — FORM: MAIN VERB 'BE' — homes: X04, C20
 
-### Word — 22
+### Word — 21
 
 - `oxford.o3000.p04.154` — assistant — homes: L05
 - `oxford.o3000.p04.160` — audience — homes: L16
@@ -2366,7 +2368,6 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.024` — media — homes: L16
 - `oxford.o3000.p06.137` — professional — homes: L05
 - `oxford.o3000.p06.148` — publish — homes: L16
-- `oxford.o3000.p06.155` — question — homes: L21
 - `oxford.o3000.p06.176` — refer — homes: L16
 - `oxford.o3000.p06.188` — research — homes: L06
 - `oxford.o3000.p06.214` — salary — homes: L05
@@ -2414,7 +2415,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.278` — sort — homes: LX-GENERAL
 - `oxford.o3000.p07.052` — term — homes: L06
 
-## U12-L02 — 28 introductions (A 1 / P 4 / G 0 / W 23 / Pron 0)
+## U12-L02 — 27 introductions (A 1 / P 4 / G 0 / W 22 / Pron 0)
 
 ### Ability — 1
 
@@ -2427,11 +2428,10 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.phrase.online.0523` — on earth — homes: C26
 - `oxford.phrase.online.0574` — police officer — homes: C26
 
-### Word — 23
+### Word — 22
 
 - `oxford.o3000.p04.165` — award — homes: L20
 - `oxford.o3000.p04.226` — celebrate — homes: L20
-- `oxford.o3000.p05.067` — dry — homes: L24
 - `oxford.o3000.p05.069` — earth — homes: L13
 - `oxford.o3000.p05.135` — fish — homes: L14
 - `oxford.o3000.p05.145` — foreign — homes: L19
