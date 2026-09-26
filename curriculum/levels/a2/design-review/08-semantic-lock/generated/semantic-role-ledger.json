@@ -12,9 +12,9 @@
     "pronunciation": 10
   },
   "mastery_mode_counts": {
-    "receptive": 413,
+    "receptive": 429,
     "integrated_support": 207,
-    "productive": 951,
+    "productive": 935,
     "interactive": 46
   },
   "control_scope_counts": {
@@ -35994,11 +35994,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:114;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:114;group:receptive_contextual",
       "review_row": 114
     },
     {
@@ -37596,11 +37596,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:157;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:157;group:receptive_contextual",
       "review_row": 157
     },
     {
@@ -38882,11 +38882,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:191;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:191;group:receptive_contextual",
       "review_row": 191
     },
     {
@@ -40601,11 +40601,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:237;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:237;group:receptive_contextual",
       "review_row": 237
     },
     {
@@ -43227,11 +43227,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:307;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:307;group:receptive_contextual",
       "review_row": 307
     },
     {
@@ -43855,11 +43855,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:324;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:324;group:receptive_contextual",
       "review_row": 324
     },
     {
@@ -49002,11 +49002,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:462;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:462;group:receptive_contextual",
       "review_row": 462
     },
     {
@@ -50369,11 +50369,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:499;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:499;group:receptive_contextual",
       "review_row": 499
     },
     {
@@ -52464,11 +52464,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:555;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:555;group:receptive_contextual",
       "review_row": 555
     },
     {
@@ -53535,11 +53535,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:584;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:584;group:receptive_contextual",
       "review_row": 584
     },
     {
@@ -54772,11 +54772,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:617;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:617;group:receptive_contextual",
       "review_row": 617
     },
     {
@@ -56210,11 +56210,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:656;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:656;group:receptive_contextual",
       "review_row": 656
     },
     {
@@ -57028,11 +57028,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:678;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:678;group:receptive_contextual",
       "review_row": 678
     },
     {
@@ -58364,11 +58364,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:714;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:714;group:receptive_contextual",
       "review_row": 714
     },
     {
@@ -60710,11 +60710,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:777;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:777;group:receptive_contextual",
       "review_row": 777
     },
     {
@@ -63818,11 +63818,11 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.manual_review_row:860;group:productive",
+      "semantic_decision_basis": "word.manual_review_row:860;group:receptive_contextual",
       "review_row": 860
     },
     {

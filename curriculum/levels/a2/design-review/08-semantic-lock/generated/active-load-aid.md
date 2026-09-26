@@ -68,12 +68,12 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active words (14): creative [r185], helpful [r364], intelligent [r404], lazy [r439], nervous [r510], personality [r558], pleased [r572], polite [r574], rude [r662], scared [r674], serious [r691], surprise [r772], unhappy [r825], worried [r865]
 - formulaic active source records: 3
 
-## U2-L03 — approx teaching objects 18
+## U2-L03 — approx teaching objects 16
 
 - active ability homes (1): C05
 - productive grammar systems (2): G07, G38
 - active phrases (3): again and again [r8], look after sb/sth/yourself [r113], work out [r173]
-- active words (12): active [r9], asleep [r53], everyday [r269], formal [r324], last1 (taking time) [r434], normal [r515], rather [r617], regular [r635], run [r663], sleep [r717], typical [r821], wash [r844]
+- active words (10): active [r9], asleep [r53], everyday [r269], last1 (taking time) [r434], normal [r515], regular [r635], run [r663], sleep [r717], typical [r821], wash [r844]
 - formulaic active source records: 3
 
 ## U2-L04 — approx teaching objects 14
@@ -156,12 +156,12 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active words (8): borrow [r100], chat [r133], express [r282], invite [r410], offer [r523], refuse1 [r633], ring2 [r653], talk [r780]
 - formulaic active source records: 3
 
-## U4-L02 — approx teaching objects 15
+## U4-L02 — approx teaching objects 10
 
 - active ability homes (1): C12
 - productive grammar systems (3): G24, G25, G40
 - active phrases (2): be allowed to do sth [r28], have got to [r84]
-- active words (9): allow [r25], crowded [r191], finger [r307], hope [r378], loudly [r462], permission [r557], present [r584], sure [r771], symbol [r777]
+- active words (4): allow [r25], hope [r378], permission [r557], sure [r771]
 - formulaic active source records: 4
 
 ## U4-L03 — approx teaching objects 17
@@ -300,12 +300,12 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active words (8): coach [r151], land [r431], pack [r538], railway [r614], sail [r668], tour [r804], truck [r819], wait [r842]
 - formulaic active source records: 0
 
-## U7-L01 — approx teaching objects 21
+## U7-L01 — approx teaching objects 12
 
 - active ability homes (2): C14, X05
 - productive grammar systems (3): G20, G29, G40
 - active phrases (4): good luck [r80], not at all [r122], on time [r130], would love to do sth [r175]
-- active words (12): accept [r4], camping [r114], comedy [r157], drawing [r237], invitation [r409], luck [r465], musical [r499], perform [r555], rock (music) [r656], score [r678], skiing [r714], winner [r860]
+- active words (3): accept [r4], invitation [r409], luck [r465]
 - formulaic active source records: 8
 
 ## U7-L02 — approx teaching objects 3

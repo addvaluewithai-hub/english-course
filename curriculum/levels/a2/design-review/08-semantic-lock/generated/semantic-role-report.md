@@ -6,7 +6,7 @@ Exact records assigned: **1617 / 1617**
 
 ## Overall semantic counts
 
-- mastery modes: integrated_support: 207, interactive: 46, productive: 951, receptive: 413
+- mastery modes: integrated_support: 207, interactive: 46, productive: 935, receptive: 429
 - control scopes: bounded_pattern: 336, contextual: 915, formulaic: 158, quality_constraint: 208
 - exit-evidence roles: independent_possible: 238, integrated_required: 1171, support_condition: 208
 
@@ -17,12 +17,12 @@ Exact records assigned: **1617 / 1617**
 | ability | 133 | 46 | 74 | 16 | 269 |
 | phrase | 118 | 0 | 28 | 30 | 176 |
 | grammar | 184 | 0 | 9 | 98 | 291 |
-| word | 516 | 0 | 301 | 54 | 871 |
+| word | 500 | 0 | 317 | 54 | 871 |
 | pronunciation | 0 | 0 | 1 | 9 | 10 |
 
 ## Locked semantic checks
 
-- word roles: productive **516**, integrated support **54**, receptive **301** — total **871**
+- word roles: productive **500**, integrated support **54**, receptive **317** — total **871**
 - phrase roles: productive/formulaic **118**, receptive/contextual **28**, integrated support **30** — total **176**
 - grammar systems: productive bounded **30**, integrated support **14**, receptive bounded **2** — total **46**
 - semantic orphans: **0**
@@ -42,7 +42,7 @@ Exact records assigned: **1617 / 1617**
 | U1-L06 | 16 | 6 | 5 | 4 | 1 | 1 | 9 | 4 | 2 | 22 |
 | U2-L01 | 10 | 3 | 2 | 0 | 0 | 5 | 2 | 15 | 1 | 26 |
 | U2-L02 | 28 | 5 | 2 | 7 | 1 | 14 | 3 | 8 | 4 | 40 |
-| U2-L03 | 26 | 5 | 3 | 6 | 2 | 12 | 3 | 2 | 11 | 39 |
+| U2-L03 | 24 | 5 | 3 | 6 | 2 | 10 | 3 | 4 | 11 | 39 |
 | U2-L04 | 25 | 8 | 6 | 7 | 2 | 4 | 8 | 12 | 0 | 37 |
 | U2-L05 | 21 | 6 | 2 | 5 | 1 | 8 | 2 | 15 | 3 | 39 |
 | U2-L06 | 15 | 9 | 4 | 1 | 1 | 1 | 4 | 1 | 0 | 16 |
@@ -53,7 +53,7 @@ Exact records assigned: **1617 / 1617**
 | U3-L05 | 14 | 2 | 2 | 0 | 0 | 10 | 2 | 2 | 2 | 18 |
 | U3-L06 | 9 | 0 | 0 | 0 | 0 | 9 | 0 | 0 | 17 | 26 |
 | U4-L01 | 25 | 5 | 1 | 11 | 3 | 8 | 3 | 4 | 0 | 29 |
-| U4-L02 | 22 | 5 | 2 | 6 | 3 | 9 | 4 | 2 | 7 | 31 |
+| U4-L02 | 17 | 5 | 2 | 6 | 3 | 4 | 4 | 7 | 7 | 31 |
 | U4-L03 | 25 | 3 | 5 | 9 | 3 | 8 | 6 | 9 | 9 | 43 |
 | U4-L04 | 12 | 5 | 2 | 4 | 2 | 1 | 4 | 2 | 0 | 14 |
 | U4-L05 | 18 | 2 | 1 | 7 | 3 | 8 | 1 | 3 | 0 | 21 |
@@ -71,7 +71,7 @@ Exact records assigned: **1617 / 1617**
 | U6-L05 | 13 | 2 | 0 | 0 | 0 | 11 | 0 | 7 | 2 | 22 |
 | U6-L06 | 17 | 1 | 2 | 0 | 0 | 14 | 2 | 2 | 0 | 19 |
 | U6-L07 | 11 | 3 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 11 |
-| U7-L01 | 27 | 8 | 4 | 3 | 3 | 12 | 8 | 5 | 0 | 32 |
+| U7-L01 | 18 | 8 | 4 | 3 | 3 | 3 | 8 | 14 | 0 | 32 |
 | U7-L02 | 5 | 3 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 7 |
 | U7-L03 | 5 | 3 | 0 | 0 | 0 | 2 | 0 | 0 | 3 | 8 |
 | U7-L04 | 20 | 2 | 0 | 6 | 3 | 12 | 0 | 4 | 0 | 24 |
@@ -109,16 +109,16 @@ The following lessons have the highest active-source introduction counts after s
 
 - **U2-L02** — active rows 28; active words 14; active abilities 5; active phrases 2; productive grammar systems 1; receptive/support rows 8/4.
 - **U3-L03** — active rows 28; active words 13; active abilities 2; active phrases 3; productive grammar systems 2; receptive/support rows 9/1.
-- **U7-L01** — active rows 27; active words 12; active abilities 8; active phrases 4; productive grammar systems 3; receptive/support rows 5/0.
 - **U10-L01** — active rows 26; active words 10; active abilities 1; active phrases 4; productive grammar systems 4; receptive/support rows 13/1.
-- **U2-L03** — active rows 26; active words 12; active abilities 5; active phrases 3; productive grammar systems 2; receptive/support rows 2/11.
 - **U4-L03** — active rows 25; active words 8; active abilities 3; active phrases 5; productive grammar systems 3; receptive/support rows 9/9.
 - **U2-L04** — active rows 25; active words 4; active abilities 8; active phrases 6; productive grammar systems 2; receptive/support rows 12/0.
 - **U6-L03** — active rows 25; active words 11; active abilities 3; active phrases 4; productive grammar systems 2; receptive/support rows 4/7.
 - **U4-L01** — active rows 25; active words 8; active abilities 5; active phrases 1; productive grammar systems 3; receptive/support rows 4/0.
 - **U3-L02** — active rows 24; active words 12; active abilities 6; active phrases 6; productive grammar systems 0; receptive/support rows 5/14.
+- **U2-L03** — active rows 24; active words 10; active abilities 5; active phrases 3; productive grammar systems 2; receptive/support rows 4/11.
 - **U1-L03** — active rows 22; active words 8; active abilities 7; active phrases 1; productive grammar systems 2; receptive/support rows 9/0.
-- **U4-L02** — active rows 22; active words 9; active abilities 5; active phrases 2; productive grammar systems 3; receptive/support rows 2/7.
+- **U10-L02** — active rows 21; active words 12; active abilities 3; active phrases 3; productive grammar systems 2; receptive/support rows 14/7.
+- **U2-L05** — active rows 21; active words 8; active abilities 6; active phrases 2; productive grammar systems 1; receptive/support rows 15/3.
 
 ## Audit verdict
 
