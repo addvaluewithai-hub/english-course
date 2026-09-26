@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "level": "A2",
-  "status": "generated_pending_inventory_review",
+  "status": "semantic_design_lock_reviewed_lesson_design_authorized",
   "source_of_truth_version": "v1",
   "inventory_semantics": "new_at_level_with_cumulative_exit_contract",
   "categories": [
@@ -11,7 +11,7 @@
     "abilities",
     "pronunciation"
   ],
-  "lesson_design_authorized": false,
+  "lesson_design_authorized": true,
   "counts": {
     "words": 871,
     "phrases": 176,
@@ -28,5 +28,22 @@
     "reviewed_total": 529,
     "function_stages": 35
   },
-  "ability_inventory_status": "reviewed_granular_source_assignments_v1"
+  "ability_inventory_status": "reviewed_granular_source_assignments_v1",
+  "delivery_content_production_authorized": false,
+  "delivery_gate_note": "A2 curriculum lesson design and controlled authoring planning are authorized. Lesson-package/audio/image/video production remains governed by the separate delivery workstream and does not modify or bypass TEST-002.",
+  "semantic_lock": {
+    "status": "human_semantic_decisions_v1_plus_stage_08_5_critic_locked",
+    "report": "curriculum/levels/a2/design-review/08-semantic-lock/generated/semantic-role-report.md",
+    "critic": "curriculum/levels/a2/design-review/08.5-role-aware-critic/critic-decisions-v1.md",
+    "human_review_queue": 0,
+    "total_primary_items": 1617
+  },
+  "authorization_gate": {
+    "status": "human_lesson_design_authorization_reviewed_locked_v1",
+    "declaration": "curriculum/levels/a2/design-review/10-authorization-gate/authorization.json",
+    "architecture": {
+      "units": 12,
+      "lesson_slots": 83
+    }
+  }
 }
