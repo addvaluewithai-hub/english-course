@@ -1,0 +1,6512 @@
+{
+  "schema_version": 1,
+  "level": "B1",
+  "status": "expanded_from_frozen_manual_word_home_policy",
+  "source_git_blob_sha": "22d2692fe20ebf4c130fec8a100f197732c7db5e",
+  "record_count": 809,
+  "default_home": "LX-GENERAL",
+  "home_counts": {
+    "L01": 25,
+    "L02": 41,
+    "L03": 23,
+    "L04": 27,
+    "L05": 29,
+    "L06": 12,
+    "L07": 18,
+    "L08": 19,
+    "L09": 20,
+    "L10": 23,
+    "L11": 13,
+    "L12": 19,
+    "L13": 14,
+    "L14": 17,
+    "L15": 33,
+    "L16": 15,
+    "L17": 4,
+    "L18": 12,
+    "L19": 26,
+    "L20": 16,
+    "L21": 46,
+    "L22": 20,
+    "L23": 17,
+    "L24": 9,
+    "L25": 6,
+    "L26": 16,
+    "L27": 27,
+    "LX-GENERAL": 262
+  },
+  "records": [
+    {
+      "item_id": "oxford.o3000.p07.136",
+      "headword": "absolutely",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.137",
+      "headword": "academic",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.138",
+      "headword": "access",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L17",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.139",
+      "headword": "accommodation",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.140",
+      "headword": "account",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.141",
+      "headword": "achievement",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.142",
+      "headword": "act",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.143",
+      "headword": "ad",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.144",
+      "headword": "addition",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.145",
+      "headword": "admire",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.146",
+      "headword": "admit",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.147",
+      "headword": "advanced",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.148",
+      "headword": "advise",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.149",
+      "headword": "afford",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.150",
+      "headword": "age",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.151",
+      "headword": "aged",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.152",
+      "headword": "agent",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.153",
+      "headword": "agreement",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.154",
+      "headword": "ahead",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.155",
+      "headword": "aim",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.156",
+      "headword": "alarm",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.157",
+      "headword": "album",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.158",
+      "headword": "alcohol",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.159",
+      "headword": "alcoholic",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.160",
+      "headword": "alternative",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.161",
+      "headword": "amazed",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.162",
+      "headword": "ambition",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.163",
+      "headword": "ambitious",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.164",
+      "headword": "analyse",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.165",
+      "headword": "analysis",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.166",
+      "headword": "announce",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.167",
+      "headword": "announcement",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.168",
+      "headword": "annoy",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.169",
+      "headword": "annoyed",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.170",
+      "headword": "annoying",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.171",
+      "headword": "apart",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.172",
+      "headword": "apologize",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.173",
+      "headword": "application",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.174",
+      "headword": "appointment",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.175",
+      "headword": "appreciate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.176",
+      "headword": "approximately",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.177",
+      "headword": "arrest",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.178",
+      "headword": "arrival",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.179",
+      "headword": "assignment",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.180",
+      "headword": "assist",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.181",
+      "headword": "atmosphere",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.182",
+      "headword": "attach",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.183",
+      "headword": "attitude",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.184",
+      "headword": "attract",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.185",
+      "headword": "attraction",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.186",
+      "headword": "authority",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.187",
+      "headword": "average",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.188",
+      "headword": "award",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.189",
+      "headword": "aware",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.190",
+      "headword": "backwards",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.191",
+      "headword": "bake",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.192",
+      "headword": "balance",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.193",
+      "headword": "ban",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.194",
+      "headword": "bank",
+      "part_of_speech": "n.",
+      "qualifier": "(river)",
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.195",
+      "headword": "base",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.196",
+      "headword": "basic",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.197",
+      "headword": "basis",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.198",
+      "headword": "battery",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.199",
+      "headword": "battle",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.200",
+      "headword": "beauty",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.201",
+      "headword": "bee",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.202",
+      "headword": "belief",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.203",
+      "headword": "bell",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.204",
+      "headword": "bend",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.205",
+      "headword": "benefit",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.206",
+      "headword": "better",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.207",
+      "headword": "bite",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.208",
+      "headword": "block",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.209",
+      "headword": "board",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.210",
+      "headword": "bomb",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.211",
+      "headword": "border",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.212",
+      "headword": "bother",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.213",
+      "headword": "branch",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.214",
+      "headword": "brand",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.215",
+      "headword": "brave",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.216",
+      "headword": "breath",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.217",
+      "headword": "breathe",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.218",
+      "headword": "breathing",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.219",
+      "headword": "bride",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.220",
+      "headword": "bubble",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.221",
+      "headword": "bury",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.222",
+      "headword": "by",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.223",
+      "headword": "calm",
+      "part_of_speech": "adj., v., n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.224",
+      "headword": "campaign",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.225",
+      "headword": "campus",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.226",
+      "headword": "candidate",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.227",
+      "headword": "cap",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.228",
+      "headword": "captain",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.229",
+      "headword": "careless",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.230",
+      "headword": "category",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.231",
+      "headword": "ceiling",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.232",
+      "headword": "celebration",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.233",
+      "headword": "central",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.234",
+      "headword": "centre",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.235",
+      "headword": "ceremony",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.236",
+      "headword": "chain",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.237",
+      "headword": "challenge",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.238",
+      "headword": "champion",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.239",
+      "headword": "channel",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.240",
+      "headword": "chapter",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.241",
+      "headword": "charge",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.242",
+      "headword": "cheap",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.243",
+      "headword": "cheat",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.244",
+      "headword": "cheerful",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.245",
+      "headword": "chemical",
+      "part_of_speech": "adj., n.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.246",
+      "headword": "chest",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.247",
+      "headword": "childhood",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.248",
+      "headword": "claim",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.249",
+      "headword": "clause",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.250",
+      "headword": "clear",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.251",
+      "headword": "click",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.252",
+      "headword": "client",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.253",
+      "headword": "climb",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.254",
+      "headword": "close",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.255",
+      "headword": "cloth",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.256",
+      "headword": "clue",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.257",
+      "headword": "coach",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.258",
+      "headword": "coal",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.259",
+      "headword": "coin",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.260",
+      "headword": "collection",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.261",
+      "headword": "coloured",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.262",
+      "headword": "combine",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.263",
+      "headword": "comment",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.264",
+      "headword": "commercial",
+      "part_of_speech": "adj., n.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.265",
+      "headword": "commit",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.266",
+      "headword": "communication",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.267",
+      "headword": "comparison",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.268",
+      "headword": "competitor",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.269",
+      "headword": "competitive",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.270",
+      "headword": "complaint",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.271",
+      "headword": "complex",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.272",
+      "headword": "concentrate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p07.273",
+      "headword": "conclude",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.274",
+      "headword": "conclusion",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.275",
+      "headword": "confident",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p07.276",
+      "headword": "confirm",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.001",
+      "headword": "confuse",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.002",
+      "headword": "confused",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.003",
+      "headword": "connection",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.004",
+      "headword": "consequence",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.005",
+      "headword": "consist",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.006",
+      "headword": "consume",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.007",
+      "headword": "consumer",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.008",
+      "headword": "contact",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.009",
+      "headword": "container",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.010",
+      "headword": "content",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.011",
+      "headword": "continuous",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.012",
+      "headword": "contrast",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.013",
+      "headword": "convenient",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.014",
+      "headword": "convince",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.015",
+      "headword": "cool",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.016",
+      "headword": "costume",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.017",
+      "headword": "cottage",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.018",
+      "headword": "cotton",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.019",
+      "headword": "count",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.020",
+      "headword": "countryside",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.021",
+      "headword": "court",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.022",
+      "headword": "cover",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.023",
+      "headword": "covered",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.024",
+      "headword": "cream",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.025",
+      "headword": "criminal",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.026",
+      "headword": "cruel",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.027",
+      "headword": "cultural",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.028",
+      "headword": "currency",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.029",
+      "headword": "current",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.030",
+      "headword": "currently",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.031",
+      "headword": "curtain",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.032",
+      "headword": "custom",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.033",
+      "headword": "cut",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.034",
+      "headword": "daily",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.035",
+      "headword": "damage",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.036",
+      "headword": "deal",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.037",
+      "headword": "decade",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.038",
+      "headword": "decorate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.039",
+      "headword": "deep",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.040",
+      "headword": "define",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.041",
+      "headword": "definite",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.042",
+      "headword": "definition",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.043",
+      "headword": "deliver",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.044",
+      "headword": "departure",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.045",
+      "headword": "despite",
+      "part_of_speech": "prep.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.046",
+      "headword": "destination",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.047",
+      "headword": "determine",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.048",
+      "headword": "determined",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.049",
+      "headword": "development",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.050",
+      "headword": "diagram",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.051",
+      "headword": "diamond",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.052",
+      "headword": "difficulty",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.053",
+      "headword": "direct",
+      "part_of_speech": "v., adv.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.054",
+      "headword": "directly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.055",
+      "headword": "dirt",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.056",
+      "headword": "disadvantage",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.057",
+      "headword": "disappointed",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.058",
+      "headword": "disappointing",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.059",
+      "headword": "discount",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.060",
+      "headword": "dislike",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.061",
+      "headword": "divide",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.062",
+      "headword": "documentary",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.063",
+      "headword": "donate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.064",
+      "headword": "double",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.065",
+      "headword": "doubt",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.066",
+      "headword": "dressed",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.067",
+      "headword": "drop",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.068",
+      "headword": "drum",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.069",
+      "headword": "drunk",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.070",
+      "headword": "due",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.071",
+      "headword": "dust",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.072",
+      "headword": "duty",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.073",
+      "headword": "earthquake",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.074",
+      "headword": "eastern",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.075",
+      "headword": "economic",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.076",
+      "headword": "economy",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.077",
+      "headword": "edge",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.078",
+      "headword": "editor",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.079",
+      "headword": "educate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.080",
+      "headword": "educated",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.081",
+      "headword": "educational",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.082",
+      "headword": "effective",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.083",
+      "headword": "effectively",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.084",
+      "headword": "effort",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.085",
+      "headword": "election",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.086",
+      "headword": "element",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.087",
+      "headword": "embarrassed",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.088",
+      "headword": "embarrassing",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.089",
+      "headword": "emergency",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.090",
+      "headword": "emotion",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.091",
+      "headword": "employment",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.092",
+      "headword": "empty",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.093",
+      "headword": "encourage",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.094",
+      "headword": "enemy",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.095",
+      "headword": "engaged",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.096",
+      "headword": "engineering",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.097",
+      "headword": "entertain",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.098",
+      "headword": "entertainment",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.099",
+      "headword": "entrance",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.100",
+      "headword": "entry",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.101",
+      "headword": "environmental",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.102",
+      "headword": "episode",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.103",
+      "headword": "equal",
+      "part_of_speech": "adj., v.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.104",
+      "headword": "equally",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.105",
+      "headword": "escape",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.106",
+      "headword": "essential",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.107",
+      "headword": "eventually",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.108",
+      "headword": "examine",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.109",
+      "headword": "except",
+      "part_of_speech": "conj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.110",
+      "headword": "exchange",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.111",
+      "headword": "excitement",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.112",
+      "headword": "exhibition",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.113",
+      "headword": "expand",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.114",
+      "headword": "expected",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.115",
+      "headword": "expedition",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.116",
+      "headword": "experience",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.117",
+      "headword": "experienced",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.118",
+      "headword": "experiment",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.119",
+      "headword": "explode",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.120",
+      "headword": "explore",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.121",
+      "headword": "explosion",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.122",
+      "headword": "export",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.123",
+      "headword": "extra",
+      "part_of_speech": "n., adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.124",
+      "headword": "face",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.125",
+      "headword": "fairly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.126",
+      "headword": "familiar",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.127",
+      "headword": "fancy",
+      "part_of_speech": "v., adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.128",
+      "headword": "far",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.129",
+      "headword": "fascinating",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.130",
+      "headword": "fashionable",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.131",
+      "headword": "fasten",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.132",
+      "headword": "favour",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.133",
+      "headword": "fear",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.134",
+      "headword": "feature",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.135",
+      "headword": "fence",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.136",
+      "headword": "fighting",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.137",
+      "headword": "file",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.138",
+      "headword": "financial",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.139",
+      "headword": "fire",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.140",
+      "headword": "fitness",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.141",
+      "headword": "fixed",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.142",
+      "headword": "flag",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.143",
+      "headword": "flood",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.144",
+      "headword": "flour",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.145",
+      "headword": "flow",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.146",
+      "headword": "fold",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.147",
+      "headword": "folk",
+      "part_of_speech": "n., adj.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.148",
+      "headword": "following",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.149",
+      "headword": "force",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.150",
+      "headword": "forever",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.151",
+      "headword": "frame",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.152",
+      "headword": "freeze",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.153",
+      "headword": "frequently",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.154",
+      "headword": "friendship",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.155",
+      "headword": "frighten",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.156",
+      "headword": "frightened",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.157",
+      "headword": "frightening",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.158",
+      "headword": "frozen",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.159",
+      "headword": "fry",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.160",
+      "headword": "fuel",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.161",
+      "headword": "function",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.162",
+      "headword": "fur",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.163",
+      "headword": "further",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.164",
+      "headword": "garage",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.165",
+      "headword": "gather",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.166",
+      "headword": "generally",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.167",
+      "headword": "generation",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.168",
+      "headword": "generous",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.169",
+      "headword": "gentle",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.170",
+      "headword": "gentleman",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.171",
+      "headword": "ghost",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.172",
+      "headword": "giant",
+      "part_of_speech": "adj., n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.173",
+      "headword": "glad",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.174",
+      "headword": "global",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.175",
+      "headword": "glove",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.176",
+      "headword": "go",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.177",
+      "headword": "goods",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.178",
+      "headword": "grade",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.179",
+      "headword": "graduate",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.180",
+      "headword": "grain",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.181",
+      "headword": "grateful",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.182",
+      "headword": "growth",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.183",
+      "headword": "guard",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.184",
+      "headword": "guilty",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.185",
+      "headword": "hand",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.186",
+      "headword": "hang",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.187",
+      "headword": "happiness",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.188",
+      "headword": "hardly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.189",
+      "headword": "hate",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.190",
+      "headword": "head",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.191",
+      "headword": "headline",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.192",
+      "headword": "heating",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.193",
+      "headword": "heavily",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.194",
+      "headword": "helicopter",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.195",
+      "headword": "highlight",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.196",
+      "headword": "highly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.197",
+      "headword": "hire",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.198",
+      "headword": "historic",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.199",
+      "headword": "historical",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.200",
+      "headword": "honest",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.201",
+      "headword": "horrible",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.202",
+      "headword": "horror",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.203",
+      "headword": "host",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.204",
+      "headword": "hunt",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.205",
+      "headword": "hurricane",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.206",
+      "headword": "hurry",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.207",
+      "headword": "identity",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.208",
+      "headword": "ignore",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.209",
+      "headword": "illegal",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.210",
+      "headword": "imaginary",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.211",
+      "headword": "immediate",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.212",
+      "headword": "immigrant",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.213",
+      "headword": "impact",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.214",
+      "headword": "import",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.215",
+      "headword": "importance",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.216",
+      "headword": "impression",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.217",
+      "headword": "impressive",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.218",
+      "headword": "improvement",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.219",
+      "headword": "incredibly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.220",
+      "headword": "indeed",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.221",
+      "headword": "indicate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.222",
+      "headword": "indirect",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.223",
+      "headword": "indoor",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.224",
+      "headword": "indoors",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.225",
+      "headword": "influence",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.226",
+      "headword": "ingredient",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.227",
+      "headword": "injure",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.228",
+      "headword": "injured",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.229",
+      "headword": "innocent",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.230",
+      "headword": "intelligence",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.231",
+      "headword": "intend",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.232",
+      "headword": "intention",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.233",
+      "headword": "invest",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.234",
+      "headword": "investigate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.235",
+      "headword": "involved",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.236",
+      "headword": "iron",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.237",
+      "headword": "issue",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.238",
+      "headword": "IT",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L17",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.239",
+      "headword": "journal",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.240",
+      "headword": "judge",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.241",
+      "headword": "keen",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.242",
+      "headword": "key",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.243",
+      "headword": "keyboard",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.244",
+      "headword": "kick",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.245",
+      "headword": "killing",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.246",
+      "headword": "kind",
+      "part_of_speech": "adj.",
+      "qualifier": "(caring)",
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.247",
+      "headword": "kiss",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.248",
+      "headword": "knock",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.249",
+      "headword": "label",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.250",
+      "headword": "laboratory",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.251",
+      "headword": "lack",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.252",
+      "headword": "latest",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.253",
+      "headword": "lay",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.254",
+      "headword": "layer",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.255",
+      "headword": "lead",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.256",
+      "headword": "leading",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.257",
+      "headword": "leaf",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.258",
+      "headword": "leather",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.259",
+      "headword": "legal",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.260",
+      "headword": "leisure",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.261",
+      "headword": "length",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.262",
+      "headword": "level",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.263",
+      "headword": "lie",
+      "part_of_speech": "v., n.",
+      "qualifier": "(tell a lie)",
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.264",
+      "headword": "like",
+      "part_of_speech": "n.",
+      "qualifier": "(find sb/sth pleasant)",
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.265",
+      "headword": "limit",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.266",
+      "headword": "lip",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.267",
+      "headword": "liquid",
+      "part_of_speech": "n., adj.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.268",
+      "headword": "literature",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.269",
+      "headword": "live",
+      "part_of_speech": "adj., adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.270",
+      "headword": "living",
+      "part_of_speech": "adj., n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.271",
+      "headword": "local",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.272",
+      "headword": "locate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.273",
+      "headword": "located",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.274",
+      "headword": "location",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.275",
+      "headword": "lonely",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.276",
+      "headword": "loss",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.277",
+      "headword": "luxury",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p08.278",
+      "headword": "mad",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.279",
+      "headword": "magic",
+      "part_of_speech": "n., adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p08.280",
+      "headword": "mainly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.001",
+      "headword": "mall",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.002",
+      "headword": "management",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.003",
+      "headword": "market",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.004",
+      "headword": "marketing",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.005",
+      "headword": "marriage",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.006",
+      "headword": "meanwhile",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.007",
+      "headword": "measure",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.008",
+      "headword": "medium",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.009",
+      "headword": "mental",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.010",
+      "headword": "mention",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.011",
+      "headword": "mess",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.012",
+      "headword": "mild",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.013",
+      "headword": "mine",
+      "part_of_speech": "n.",
+      "qualifier": "(hole in the ground)",
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.014",
+      "headword": "mix",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.015",
+      "headword": "mixture",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.016",
+      "headword": "mood",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.017",
+      "headword": "move",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.018",
+      "headword": "mud",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.019",
+      "headword": "murder",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.020",
+      "headword": "muscle",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.021",
+      "headword": "musical",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.022",
+      "headword": "mystery",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.023",
+      "headword": "nail",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.024",
+      "headword": "narrative",
+      "part_of_speech": "n., adj.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.025",
+      "headword": "nation",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.026",
+      "headword": "native",
+      "part_of_speech": "adj., n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.027",
+      "headword": "naturally",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.028",
+      "headword": "necessarily",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.029",
+      "headword": "need",
+      "part_of_speech": "modal v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.030",
+      "headword": "needle",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.031",
+      "headword": "neighbourhood",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.032",
+      "headword": "neither",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.033",
+      "headword": "net",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.034",
+      "headword": "next",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.035",
+      "headword": "nor",
+      "part_of_speech": "conj./adv.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.036",
+      "headword": "normal",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.037",
+      "headword": "northern",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.038",
+      "headword": "note",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.039",
+      "headword": "now",
+      "part_of_speech": "conj.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.040",
+      "headword": "nuclear",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.041",
+      "headword": "obvious",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.042",
+      "headword": "obviously",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.043",
+      "headword": "occasion",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.044",
+      "headword": "occur",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.045",
+      "headword": "odd",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.046",
+      "headword": "official",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.047",
+      "headword": "old-fashioned",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.048",
+      "headword": "once",
+      "part_of_speech": "conj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.049",
+      "headword": "operation",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.050",
+      "headword": "organized",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.051",
+      "headword": "organizer",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.052",
+      "headword": "original",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.053",
+      "headword": "originally",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.054",
+      "headword": "ought",
+      "part_of_speech": "modal v.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.055",
+      "headword": "ours",
+      "part_of_speech": "pron.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.056",
+      "headword": "outdoor",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.057",
+      "headword": "outdoors",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.058",
+      "headword": "pack",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.059",
+      "headword": "package",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.060",
+      "headword": "painful",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.061",
+      "headword": "pale",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.062",
+      "headword": "pan",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.063",
+      "headword": "participate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.064",
+      "headword": "particularly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.065",
+      "headword": "pass",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.066",
+      "headword": "passion",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.067",
+      "headword": "path",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.068",
+      "headword": "payment",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.069",
+      "headword": "peaceful",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.070",
+      "headword": "percentage",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.071",
+      "headword": "perfectly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.072",
+      "headword": "performance",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.073",
+      "headword": "personally",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.074",
+      "headword": "persuade",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.075",
+      "headword": "photographer",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.076",
+      "headword": "photography",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.077",
+      "headword": "pin",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.078",
+      "headword": "pipe",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.079",
+      "headword": "place",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.080",
+      "headword": "planning",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.081",
+      "headword": "pleasant",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.082",
+      "headword": "pleasure",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.083",
+      "headword": "plenty",
+      "part_of_speech": "pron.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.084",
+      "headword": "plot",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.085",
+      "headword": "plus",
+      "part_of_speech": "prep.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.086",
+      "headword": "poem",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.087",
+      "headword": "poet",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.088",
+      "headword": "poetry",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.089",
+      "headword": "point",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.090",
+      "headword": "poison",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.091",
+      "headword": "poisonous",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.092",
+      "headword": "policy",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.093",
+      "headword": "political",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.094",
+      "headword": "politician",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.095",
+      "headword": "politics",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.096",
+      "headword": "port",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.097",
+      "headword": "portrait",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.098",
+      "headword": "possibly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.099",
+      "headword": "pot",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.100",
+      "headword": "pour",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.101",
+      "headword": "poverty",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.102",
+      "headword": "powder",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.103",
+      "headword": "powerful",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.104",
+      "headword": "practical",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.105",
+      "headword": "pray",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.106",
+      "headword": "prayer",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.107",
+      "headword": "prediction",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.108",
+      "headword": "prepared",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.109",
+      "headword": "presentation",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.110",
+      "headword": "press",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.111",
+      "headword": "pressure",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.112",
+      "headword": "pretend",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.113",
+      "headword": "previous",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.114",
+      "headword": "previously",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.115",
+      "headword": "priest",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.116",
+      "headword": "primary",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.117",
+      "headword": "prince",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.118",
+      "headword": "princess",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.119",
+      "headword": "printing",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.120",
+      "headword": "prisoner",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.121",
+      "headword": "private",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.122",
+      "headword": "producer",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.123",
+      "headword": "production",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.124",
+      "headword": "profession",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.125",
+      "headword": "profit",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.126",
+      "headword": "program",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L17",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.127",
+      "headword": "promote",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.128",
+      "headword": "proper",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.129",
+      "headword": "properly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.130",
+      "headword": "property",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.131",
+      "headword": "protest",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.132",
+      "headword": "proud",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.133",
+      "headword": "prove",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.134",
+      "headword": "pull",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.135",
+      "headword": "punish",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.136",
+      "headword": "punishment",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.137",
+      "headword": "push",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.138",
+      "headword": "qualification",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.139",
+      "headword": "qualified",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.140",
+      "headword": "qualify",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.141",
+      "headword": "queue",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.142",
+      "headword": "quit",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.143",
+      "headword": "quotation",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.144",
+      "headword": "quote",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.145",
+      "headword": "race",
+      "part_of_speech": "n.",
+      "qualifier": "(people)",
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.146",
+      "headword": "racing",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.147",
+      "headword": "range",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.148",
+      "headword": "rare",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.149",
+      "headword": "rarely",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.150",
+      "headword": "reaction",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.151",
+      "headword": "reality",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.152",
+      "headword": "receipt",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.153",
+      "headword": "recommendation",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.154",
+      "headword": "reference",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.155",
+      "headword": "reflect",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.156",
+      "headword": "regularly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.157",
+      "headword": "reject",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.158",
+      "headword": "relate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.159",
+      "headword": "related",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.160",
+      "headword": "relation",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.161",
+      "headword": "relative",
+      "part_of_speech": "adj., n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.162",
+      "headword": "relaxed",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.163",
+      "headword": "relaxing",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.164",
+      "headword": "release",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.165",
+      "headword": "reliable",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.166",
+      "headword": "religion",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.167",
+      "headword": "religious",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.168",
+      "headword": "remain",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.169",
+      "headword": "remind",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.170",
+      "headword": "remote",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.171",
+      "headword": "rent",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.172",
+      "headword": "repair",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.173",
+      "headword": "repeat",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.174",
+      "headword": "repeated",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.175",
+      "headword": "represent",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.176",
+      "headword": "request",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.177",
+      "headword": "require",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.178",
+      "headword": "reservation",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L06",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.179",
+      "headword": "resource",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.180",
+      "headword": "respect",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.181",
+      "headword": "responsibility",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.182",
+      "headword": "responsible",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.183",
+      "headword": "result",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.184",
+      "headword": "retire",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.185",
+      "headword": "retired",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.186",
+      "headword": "revise",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.187",
+      "headword": "ring",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.188",
+      "headword": "rise",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.189",
+      "headword": "risk",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.190",
+      "headword": "robot",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.191",
+      "headword": "roll",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.192",
+      "headword": "romantic",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.193",
+      "headword": "rope",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.194",
+      "headword": "rough",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.195",
+      "headword": "row",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.196",
+      "headword": "royal",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.197",
+      "headword": "rugby",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.198",
+      "headword": "rule",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.199",
+      "headword": "safety",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.200",
+      "headword": "sail",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.201",
+      "headword": "sailor",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.202",
+      "headword": "sample",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.203",
+      "headword": "sand",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.204",
+      "headword": "scan",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.205",
+      "headword": "scientific",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.206",
+      "headword": "script",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.207",
+      "headword": "sculpture",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.208",
+      "headword": "secondary",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.209",
+      "headword": "security",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.210",
+      "headword": "seed",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.211",
+      "headword": "sensible",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.212",
+      "headword": "separate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.213",
+      "headword": "seriously",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.214",
+      "headword": "servant",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.215",
+      "headword": "set",
+      "part_of_speech": "v.",
+      "qualifier": "(put)",
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.216",
+      "headword": "set",
+      "part_of_speech": "n.",
+      "qualifier": "(group)",
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.217",
+      "headword": "setting",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.218",
+      "headword": "sex",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.219",
+      "headword": "sexual",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.220",
+      "headword": "shake",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.221",
+      "headword": "share",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.222",
+      "headword": "sharp",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.223",
+      "headword": "shelf",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.224",
+      "headword": "shell",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.225",
+      "headword": "shift",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.226",
+      "headword": "shine",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.227",
+      "headword": "shiny",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.228",
+      "headword": "shoot",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.229",
+      "headword": "shy",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.230",
+      "headword": "sight",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.231",
+      "headword": "signal",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.232",
+      "headword": "silent",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.233",
+      "headword": "silly",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.234",
+      "headword": "similarity",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.235",
+      "headword": "similarly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.236",
+      "headword": "simply",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.237",
+      "headword": "since",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.238",
+      "headword": "sink",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.239",
+      "headword": "slice",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.240",
+      "headword": "slightly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.241",
+      "headword": "slow",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.242",
+      "headword": "smart",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.243",
+      "headword": "smooth",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.244",
+      "headword": "software",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.245",
+      "headword": "soil",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.246",
+      "headword": "solid",
+      "part_of_speech": "adj., n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.247",
+      "headword": "sort",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.248",
+      "headword": "southern",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.249",
+      "headword": "specifically",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.250",
+      "headword": "spending",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.251",
+      "headword": "spicy",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.252",
+      "headword": "spirit",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.253",
+      "headword": "spoken",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.254",
+      "headword": "spot",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.255",
+      "headword": "spread",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.256",
+      "headword": "spring",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.257",
+      "headword": "stadium",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.258",
+      "headword": "staff",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L01",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.259",
+      "headword": "standard",
+      "part_of_speech": "n., adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.260",
+      "headword": "state",
+      "part_of_speech": "adj., v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.261",
+      "headword": "statistic",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.262",
+      "headword": "statue",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.263",
+      "headword": "stick",
+      "part_of_speech": "v.",
+      "qualifier": "(push into/attach)",
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.264",
+      "headword": "stick",
+      "part_of_speech": "n.",
+      "qualifier": "(piece of wood)",
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.265",
+      "headword": "still",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.266",
+      "headword": "store",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.267",
+      "headword": "stranger",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.268",
+      "headword": "strength",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.269",
+      "headword": "string",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.270",
+      "headword": "strongly",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.271",
+      "headword": "studio",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.272",
+      "headword": "stuff",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.273",
+      "headword": "substance",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.274",
+      "headword": "successfully",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.275",
+      "headword": "sudden",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.276",
+      "headword": "suffer",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.277",
+      "headword": "suit",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p09.278",
+      "headword": "suitable",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.279",
+      "headword": "summarize",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p09.280",
+      "headword": "summary",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.001",
+      "headword": "supply",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.002",
+      "headword": "supporter",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.003",
+      "headword": "surely",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.004",
+      "headword": "surface",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.005",
+      "headword": "survive",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L04",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.006",
+      "headword": "swim",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.007",
+      "headword": "switch",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.008",
+      "headword": "symptom",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.009",
+      "headword": "tail",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.010",
+      "headword": "talent",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.011",
+      "headword": "talented",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.012",
+      "headword": "tape",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.013",
+      "headword": "tax",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.014",
+      "headword": "technical",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.015",
+      "headword": "technique",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L09",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.016",
+      "headword": "tend",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.017",
+      "headword": "tent",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.018",
+      "headword": "that",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.019",
+      "headword": "theirs",
+      "part_of_speech": "pron.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.020",
+      "headword": "theme",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L19",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.021",
+      "headword": "theory",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L18",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.022",
+      "headword": "therefore",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L23",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.023",
+      "headword": "this",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.024",
+      "headword": "though",
+      "part_of_speech": "conj., adv.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.025",
+      "headword": "throat",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.026",
+      "headword": "throughout",
+      "part_of_speech": "prep./adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.027",
+      "headword": "tight",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.028",
+      "headword": "till",
+      "part_of_speech": "conj./prep.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.029",
+      "headword": "tin",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L11",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.030",
+      "headword": "tiny",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.031",
+      "headword": "tip",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.032",
+      "headword": "toe",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.033",
+      "headword": "tongue",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.034",
+      "headword": "total",
+      "part_of_speech": "adj., n.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.035",
+      "headword": "totally",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.036",
+      "headword": "touch",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.037",
+      "headword": "tour",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.038",
+      "headword": "trade",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.039",
+      "headword": "translate",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.040",
+      "headword": "translation",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.041",
+      "headword": "transport",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.042",
+      "headword": "treat",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.043",
+      "headword": "treatment",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L10",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.044",
+      "headword": "trend",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.045",
+      "headword": "trick",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.046",
+      "headword": "truth",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.047",
+      "headword": "tube",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.048",
+      "headword": "type",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L17",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.049",
+      "headword": "typically",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.050",
+      "headword": "tyre",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L07",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.051",
+      "headword": "ugly",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.052",
+      "headword": "unable",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.053",
+      "headword": "uncomfortable",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.054",
+      "headword": "underwear",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.055",
+      "headword": "unemployed",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.056",
+      "headword": "unemployment",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L16",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.057",
+      "headword": "unfair",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.058",
+      "headword": "union",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.059",
+      "headword": "unless",
+      "part_of_speech": "conj.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.060",
+      "headword": "unlike",
+      "part_of_speech": "prep.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.061",
+      "headword": "unlikely",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L24",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.062",
+      "headword": "unnecessary",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.063",
+      "headword": "unpleasant",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L21",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.064",
+      "headword": "update",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.065",
+      "headword": "upon",
+      "part_of_speech": "prep.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.066",
+      "headword": "upset",
+      "part_of_speech": "adj., v.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.067",
+      "headword": "used",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.068",
+      "headword": "used",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.069",
+      "headword": "valuable",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.070",
+      "headword": "value",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.071",
+      "headword": "various",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.072",
+      "headword": "version",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.073",
+      "headword": "victim",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.074",
+      "headword": "view",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.075",
+      "headword": "viewer",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.076",
+      "headword": "violent",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.077",
+      "headword": "volunteer",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.078",
+      "headword": "vote",
+      "part_of_speech": "n., v.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.079",
+      "headword": "warm",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.080",
+      "headword": "warn",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.081",
+      "headword": "warning",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L25",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.082",
+      "headword": "waste",
+      "part_of_speech": "n., v., adj.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.083",
+      "headword": "water",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.084",
+      "headword": "wave",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L27",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.085",
+      "headword": "weapon",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L15",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.086",
+      "headword": "weigh",
+      "part_of_speech": "v.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.087",
+      "headword": "western",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.088",
+      "headword": "whatever",
+      "part_of_speech": "det./pron.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.089",
+      "headword": "whenever",
+      "part_of_speech": "conj.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.090",
+      "headword": "whether",
+      "part_of_speech": "conj.",
+      "qualifier": null,
+      "primary_home": "L26",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.091",
+      "headword": "while",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.092",
+      "headword": "whole",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.093",
+      "headword": "will",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.094",
+      "headword": "win",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L20",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.095",
+      "headword": "wing",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.096",
+      "headword": "within",
+      "part_of_speech": "prep.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.097",
+      "headword": "wonder",
+      "part_of_speech": "v., n.",
+      "qualifier": null,
+      "primary_home": "L03",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.098",
+      "headword": "wool",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L12",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.099",
+      "headword": "worldwide",
+      "part_of_speech": "adj., adv.",
+      "qualifier": null,
+      "primary_home": "L14",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.100",
+      "headword": "worry",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.101",
+      "headword": "worse",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.102",
+      "headword": "worst",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "L22",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.103",
+      "headword": "worth",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L08",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.104",
+      "headword": "written",
+      "part_of_speech": "adj.",
+      "qualifier": null,
+      "primary_home": "L05",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.105",
+      "headword": "wrong",
+      "part_of_speech": "adv.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.106",
+      "headword": "yard",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L13",
+      "decision_source": "explicit_headword_home"
+    },
+    {
+      "item_id": "oxford.o3000.p10.107",
+      "headword": "young",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "LX-GENERAL",
+      "decision_source": "frozen_reviewed_remainder"
+    },
+    {
+      "item_id": "oxford.o3000.p10.108",
+      "headword": "youth",
+      "part_of_speech": "n.",
+      "qualifier": null,
+      "primary_home": "L02",
+      "decision_source": "explicit_headword_home"
+    }
+  ]
+}
