@@ -21,6 +21,12 @@ def key(lid: str):
     return tuple(map(int, m.groups())) if m else (999, 999)
 
 
+def tagged(record: dict) -> str:
+    row = record.get("review_row")
+    suffix = f" [r{row}]" if row is not None else ""
+    return f"{record['label']}{suffix}"
+
+
 def main() -> None:
     records = json.loads(LEDGER.read_text(encoding="utf-8"))["records"]
     by_lesson: dict[str, list[dict]] = defaultdict(list)
@@ -33,13 +39,13 @@ def main() -> None:
         "",
         "Status: **GENERATED HUMAN-CRITIC AID — NON-DECISIONAL**",
         "",
-        "This view hides receptive/support records and collapses productive grammar rows to distinct reviewed systems. It does not judge or move anything.",
+        "This view hides receptive/support records and collapses productive grammar rows to distinct reviewed systems. It does not judge or move anything. Review-row tags are included for exact human follow-up.",
         "",
     ]
     for lid in sorted(by_lesson, key=key):
         rows = by_lesson[lid]
-        words = [x["label"] for x in rows if x["category"] == "word"]
-        phrases = [x["label"] for x in rows if x["category"] == "phrase"]
+        words = [tagged(x) for x in rows if x["category"] == "word"]
+        phrases = [tagged(x) for x in rows if x["category"] == "phrase"]
         systems = sorted({x["grammar_system"] for x in rows if x["category"] == "grammar"})
         ability_homes = sorted({x["homes"][0] for x in rows if x["category"] == "ability"})
         formulaic = sum(1 for x in rows if x["semantic_role"]["control_scope"] == "formulaic")
