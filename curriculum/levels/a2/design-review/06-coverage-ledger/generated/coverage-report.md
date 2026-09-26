@@ -33,7 +33,7 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 | U1-L06 | 9 | 5 | 4 | 3 | 1 | 22 |
 | U1-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U2-L01 | 5 | 2 | 0 | 18 | 1 | 26 |
-| U2-L02 | 5 | 2 | 10 | 24 | 1 | 42 |
+| U2-L02 | 5 | 2 | 10 | 22 | 1 | 40 |
 | U2-L03 | 9 | 8 | 6 | 16 | 0 | 39 |
 | U2-L04 | 9 | 6 | 7 | 15 | 0 | 37 |
 | U2-L05 | 8 | 2 | 5 | 22 | 2 | 39 |
@@ -41,7 +41,7 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 | U2-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U3-L01 | 3 | 3 | 10 | 14 | 0 | 30 |
 | U3-L02 | 6 | 6 | 10 | 21 | 0 | 43 |
-| U3-L03 | 3 | 3 | 10 | 20 | 0 | 36 |
+| U3-L03 | 3 | 3 | 10 | 22 | 0 | 38 |
 | U3-L04 | 0 | 1 | 8 | 8 | 0 | 17 |
 | U3-L05 | 2 | 2 | 1 | 13 | 0 | 18 |
 | U3-L06 | 2 | 0 | 11 | 13 | 0 | 26 |
@@ -111,23 +111,12 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 
 ## Mechanical load result
 
-**OVERLOADS FOUND — human scheduling revision required; do not raise thresholds merely to pass.**
-- U2-L02: word = 24 > 22
+**PASS — no mechanical introduction threshold exceeded.**
 
 ## Transfer / evidence lessons with new source introductions
 
 **PASS — all designated transfer/evidence lessons are zero-new.**
 
-## Overload attribution
-
-### U2-L02
-- **ability (5)**: Can give compliments, using fixed expressions. (P); Can express how they feel in simple terms. (Ca); Can use simple language to describe people’s personality and emotions. (P); Can say how they or someone else feels, giving brief reasons. (P); Can write very short, simple sentences about their feelings. (P)
-- **phrase (2)**: put sth on; worried about sb/sth
-- **grammar (10)**: FORM: WITH 'TOO'; FORM: WITH PREPOSITIONAL PHRASE; FORM: WITH 'TOO' + PREPOSITIONAL PHRASE; FORM: WITH DEGREE ADVERBS; FORM/USE: LIMITING ADJECTIVES; FORM: PREDICATIVE, WITH 'BE'; FORM: PREDICATIVE, WITH LINKING VERBS; FORM: MODAL AUXILIARY VERBS; FORM: AUXILIARY VERBS 'HAVE' AND 'DO'; FORM: LINKING + COMPLEMENT
-- **word (24)**: behave; behaviour; clever; crazy; creative; dry; extreme; helpful; intelligent; lazy; nervous; personality; pleased; polite; rude; scared; scary; serious; smile; stupid; surprise; surprising; unhappy; worried
-- **pronunciation (1)**: Vowel contrasts and reduced vowels
-
-
 ## Audit verdict
 
-**FAIL — lifecycle complete, but 1 introduction-load threshold violations require manual rebalancing.**
+**PASS — exact source coverage and provisional lifecycle are complete with no mechanical overloads. Human load critic is still required before Stage 07.**

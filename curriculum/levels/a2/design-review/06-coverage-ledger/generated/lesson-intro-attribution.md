@@ -243,7 +243,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 
 - `pronunciation.consonant_clarity.a2` — Consonant contrasts and place or manner clarity — homes: pronunciation.consonant_clarity.a2
 
-## U2-L02 — 42 introductions (A 5 / P 2 / G 10 / W 24 / Pron 1)
+## U2-L02 — 40 introductions (A 5 / P 2 / G 10 / W 22 / Pron 1)
 
 ### Ability — 5
 
@@ -271,15 +271,13 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163715289x979513878826105700` — FORM: AUXILIARY VERBS 'HAVE' AND 'DO' — homes: X04, C04, C12, C13, C15, C25
 - `egp.1741163715620x718213480807691900` — FORM: LINKING + COMPLEMENT — homes: C04, C23, X02
 
-### Word — 24
+### Word — 22
 
 - `oxford.o3000.p04.179` — behave — homes: LX-GENERAL
 - `oxford.o3000.p04.180` — behaviour — homes: L02
 - `oxford.o3000.p04.245` — clever — homes: L02
 - `oxford.o3000.p05.008` — crazy — homes: L02
 - `oxford.o3000.p05.009` — creative — homes: L02
-- `oxford.o3000.p05.067` — dry — homes: L24
-- `oxford.o3000.p05.108` — extreme — homes: L24
 - `oxford.o3000.p05.188` — helpful — homes: L02
 - `oxford.o3000.p05.228` — intelligent — homes: L02
 - `oxford.o3000.p05.263` — lazy — homes: L02
@@ -593,7 +591,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p07.055` — thick — homes: L24
 - `oxford.o3000.p07.126` — wood — homes: L03
 
-## U3-L03 — 36 introductions (A 3 / P 3 / G 10 / W 20 / Pron 0)
+## U3-L03 — 38 introductions (A 3 / P 3 / G 10 / W 22 / Pron 0)
 
 ### Ability — 3
 
@@ -620,14 +618,16 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163706324x902426433063664400` — FORM: WITH 'THAN' — homes: C07
 - `egp.1741163708149x720696896419150700` — FORM: 'BE LIKE' + NOUN OR PRONOUN — homes: C04, C07
 
-### Word — 20
+### Word — 22
 
 - `oxford.o3000.p04.123` — all — homes: L27
 - `oxford.o3000.p04.185` — better — homes: L24
 - `oxford.o3000.p04.187` — billion — homes: L27
 - `oxford.o3000.p04.208` — broken — homes: L24
 - `oxford.o3000.p05.022` — dark — homes: L24
+- `oxford.o3000.p05.067` — dry — homes: L24
 - `oxford.o3000.p05.086` — enormous — homes: L24
+- `oxford.o3000.p05.108` — extreme — homes: L24
 - `oxford.o3000.p05.163` — general — homes: L24
 - `oxford.o3000.p05.179` — half — homes: L27
 - `oxford.o3000.p05.186` — heavy — homes: L24
