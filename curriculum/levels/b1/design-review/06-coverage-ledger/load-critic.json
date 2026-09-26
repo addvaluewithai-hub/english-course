@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "level": "B1",
+  "status": "human_stage06_load_critic_reviewed_v1",
+  "coverage_report": "curriculum/levels/b1/design-review/06-coverage-ledger/generated/coverage-report.md",
+  "expected_coverage_report_git_blob_sha": "b4195f974ddf9912b9b6f72f3759f58e9e528d36",
+  "architecture": {
+    "units": 12,
+    "lesson_slots": 85,
+    "designated_zero_new_slots": 16,
+    "decision": "retain"
+  },
+  "structural_checks": {
+    "source_records": 1581,
+    "orphans": 0,
+    "practice_gaps": 0,
+    "fresh_retrieval_gaps": 0,
+    "recycle_gaps": 0,
+    "consolidate_gaps": 0,
+    "exit_verify_gaps": 0,
+    "zero_new_transfer_violations": 0
+  },
+  "policy": {
+    "raw_source_rows_are_not_teaching_object_counts": true,
+    "warning_thresholds_are_unchanged": true,
+    "accepted_warnings_are_not_mastery_claims": true,
+    "semantic_roles_must_reaudit_load_at_stage_08_5": true,
+    "new_or_changed_warning_requires_human_rereview": true
+  },
+  "accepted_warnings": [
+    {"lesson":"U3-L02","category":"grammar","count":15,"limit":12},
+    {"lesson":"U3-L03","category":"grammar","count":16,"limit":12},
+    {"lesson":"U3-L03","category":"total","count":47,"limit":46},
+    {"lesson":"U3-L04","category":"word","count":23,"limit":22},
+    {"lesson":"U4-L01","category":"word","count":29,"limit":22},
+    {"lesson":"U5-L02","category":"grammar","count":18,"limit":12},
+    {"lesson":"U5-L02","category":"total","count":48,"limit":46},
+    {"lesson":"U6-L02","category":"grammar","count":16,"limit":12},
+    {"lesson":"U6-L05","category":"grammar","count":15,"limit":12},
+    {"lesson":"U10-L01","category":"phrase","count":11,"limit":10},
+    {"lesson":"U10-L01","category":"grammar","count":14,"limit":12},
+    {"lesson":"U10-L02","category":"phrase","count":11,"limit":10},
+    {"lesson":"U10-L02","category":"word","count":33,"limit":22},
+    {"lesson":"U10-L02","category":"total","count":56,"limit":46},
+    {"lesson":"U11-L02","category":"grammar","count":20,"limit":12}
+  ],
+  "lesson_decisions": {
+    "U3-L02": "Retain. Comparison/choice language contains multiple EGP source rows that function as a small set of comparison, degree and noun-phrase resources rather than fifteen independent teaching objects.",
+    "U3-L03": "Retain. The excess is small at total level and the grammar rows cluster around stance, question forms, hedging, deduction and agreement management serving one interaction performance.",
+    "U3-L04": "Retain. The lexical warning is one row over the warning threshold; lexical records are contextual candidates pending productive/receptive/support roles.",
+    "U4-L01": "Retain as reception-first. Narrative input can carry broader contextual/cultural/emotional lexicon without requiring productive mastery of all 29 records.",
+    "U5-L02": "Retain as reception-led factual-text work. Grammar rows largely support text structure/reference/comprehension and must not be promoted automatically to productive grammar.",
+    "U6-L02": "Retain. Grammar rows support summarising, reference and information packaging; system-level teaching objects are materially fewer than raw EGP rows.",
+    "U6-L05": "Retain. Reporting/viewpoint grammar rows are infrastructure for a single relay performance, not fifteen separate grammar targets.",
+    "U10-L01": "Retain. Phrase and grammar rows are connected-explanation resources and remain bounded by one communicative outcome.",
+    "U10-L02": "Conditionally retain. This is the highest remaining raw-load warning. Cause/result/comparison/example language remains one coherent explanation performance, but Stage 08 must keep broad topic lexis role-aware and Stage 08.5 must explicitly re-audit active teaching-object load. Reopen/split if productive-role assignment makes the lesson cognitively dense.",
+    "U11-L02": "Retain. The grammar rows are mainly correspondence cohesion/reference/writing infrastructure; Stage 08 must prevent support rows from becoming a twenty-rule productive grammar lesson."
+  }
+}
