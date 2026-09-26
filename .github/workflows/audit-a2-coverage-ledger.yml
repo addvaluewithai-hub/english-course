@@ -15,6 +15,13 @@ on:
       - .github/workflows/audit-a2-coverage-ledger.yml
   workflow_dispatch:
 
+# Coverage and semantic audits both persist generated snapshots to this branch.
+# Serialize them so bot commits cannot race each other; do not cancel an audit
+# already in progress because its snapshot/result is part of the audit trail.
+concurrency:
+  group: a2-curriculum-audit-snapshots
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -82,7 +89,8 @@ jobs:
             curriculum/levels/a2/design-review/06-coverage-ledger/generated
           if ! git diff --cached --quiet; then
             git commit -m "Update A2 coverage ledger audit snapshot [skip ci]"
-            git push
+            git pull --rebase origin curriculum/level-source-of-truth-v1
+            git push origin HEAD:curriculum/level-source-of-truth-v1
           fi
 
       - name: Enforce audit result
