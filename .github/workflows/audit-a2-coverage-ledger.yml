@@ -9,6 +9,7 @@ on:
     paths:
       - curriculum/levels/a2/**
       - scripts/build_a2_coverage_ledger.py
+      - scripts/run_a2_coverage_ledger.py
       - scripts/analyze_a2_coverage_ledger.py
       - scripts/build_a2_word_home_map.py
       - .github/workflows/audit-a2-coverage-ledger.yml
@@ -36,7 +37,7 @@ jobs:
         shell: bash
         run: |
           set +e
-          python scripts/build_a2_coverage_ledger.py \
+          python scripts/run_a2_coverage_ledger.py \
             --output /tmp/a2-coverage-ledger.json \
             --report /tmp/a2-coverage-report.md \
             > /tmp/a2-coverage-run.log 2>&1
