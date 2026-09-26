@@ -53,7 +53,7 @@ Exact records assigned: **1617 / 1617**
 | U3-L05 | 14 | 2 | 2 | 0 | 0 | 10 | 2 | 2 | 2 | 18 |
 | U3-L06 | 9 | 0 | 0 | 0 | 0 | 9 | 0 | 0 | 17 | 26 |
 | U4-L01 | 25 | 5 | 1 | 11 | 3 | 8 | 3 | 4 | 0 | 29 |
-| U4-L02 | 17 | 5 | 2 | 6 | 3 | 4 | 4 | 7 | 7 | 31 |
+| U4-L02 | 15 | 5 | 2 | 6 | 3 | 2 | 4 | 7 | 7 | 29 |
 | U4-L03 | 25 | 3 | 5 | 9 | 3 | 8 | 6 | 9 | 9 | 43 |
 | U4-L04 | 12 | 5 | 2 | 4 | 2 | 1 | 4 | 2 | 0 | 14 |
 | U4-L05 | 18 | 2 | 1 | 7 | 3 | 8 | 1 | 3 | 0 | 21 |
@@ -76,7 +76,7 @@ Exact records assigned: **1617 / 1617**
 | U7-L03 | 5 | 3 | 0 | 0 | 0 | 2 | 0 | 0 | 3 | 8 |
 | U7-L04 | 20 | 2 | 0 | 6 | 3 | 12 | 0 | 4 | 0 | 24 |
 | U7-L05 | 14 | 2 | 0 | 12 | 5 | 0 | 0 | 0 | 0 | 14 |
-| U7-L06 | 20 | 1 | 0 | 10 | 6 | 9 | 0 | 3 | 6 | 29 |
+| U7-L06 | 22 | 1 | 0 | 10 | 6 | 11 | 0 | 3 | 6 | 31 |
 | U8-L01 | 17 | 2 | 1 | 2 | 1 | 12 | 2 | 3 | 5 | 25 |
 | U8-L02 | 11 | 2 | 1 | 2 | 1 | 6 | 1 | 1 | 1 | 13 |
 | U8-L03 | 7 | 1 | 2 | 4 | 1 | 0 | 2 | 0 | 3 | 10 |
@@ -117,8 +117,8 @@ The following lessons have the highest active-source introduction counts after s
 - **U3-L02** — active rows 24; active words 12; active abilities 6; active phrases 6; productive grammar systems 0; receptive/support rows 5/14.
 - **U2-L03** — active rows 24; active words 10; active abilities 5; active phrases 3; productive grammar systems 2; receptive/support rows 4/11.
 - **U1-L03** — active rows 22; active words 8; active abilities 7; active phrases 1; productive grammar systems 2; receptive/support rows 9/0.
+- **U7-L06** — active rows 22; active words 11; active abilities 1; active phrases 0; productive grammar systems 6; receptive/support rows 3/6.
 - **U10-L02** — active rows 21; active words 12; active abilities 3; active phrases 3; productive grammar systems 2; receptive/support rows 14/7.
-- **U2-L05** — active rows 21; active words 8; active abilities 6; active phrases 2; productive grammar systems 1; receptive/support rows 15/3.
 
 ## Audit verdict
 

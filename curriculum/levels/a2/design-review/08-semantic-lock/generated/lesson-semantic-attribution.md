@@ -1140,14 +1140,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p06.115` — please — review row 571 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.187` — request — review row 643 — `contextual` / `integrated_required`
 
-## U4-L02 — 31 source introductions / 17 active
+## U4-L02 — 29 source introductions / 15 active
 
-- productive: **14**
+- productive: **12**
 - interactive: **3**
 - receptive: **7**
 - integrated support: **7**
 
-### Productive — 14
+### Productive — 12
 
 **Ability — 2**
 
@@ -1168,12 +1168,10 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163710845x290739607145165100` — USE: OBLIGATION AND NECESSITY — system `G25` — `bounded_pattern` / `integrated_required`
 - `egp.1741163715033x768742528426968400` — FORM: MODAL VERBS — system `G40` — `bounded_pattern` / `integrated_required`
 
-**Word — 4**
+**Word — 2**
 
 - `oxford.o3000.p04.125` — allow — review row 25 — `contextual` / `integrated_required`
-- `oxford.o3000.p05.202` — hope — review row 378 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.101` — permission — review row 557 — `contextual` / `integrated_required`
-- `oxford.o3000.p07.035` — sure — review row 771 — `contextual` / `integrated_required`
 
 ### Interactive — 3
 
@@ -2291,14 +2289,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.a2_plus.p27.024` — Can ask and answer questions about basic plans and intentions. (P) — review row 178 — `bounded_pattern` / `independent_possible`
 
-## U7-L06 — 29 source introductions / 20 active
+## U7-L06 — 31 source introductions / 22 active
 
-- productive: **20**
+- productive: **22**
 - interactive: **0**
 - receptive: **3**
 - integrated support: **6**
 
-### Productive — 20
+### Productive — 22
 
 **Ability — 1**
 
@@ -2317,16 +2315,18 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163711528x595400239413859000` — USE: IMAGINED SITUATIONS — system `G29` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711535x514214856539001000` — FORM: CLAUSE POSITION — system `G23` — `bounded_pattern` / `integrated_required`
 
-**Word — 9**
+**Word — 11**
 
 - `oxford.o3000.p04.228` — certain — review row 128 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.101` — expect — review row 277 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.161` — gas — review row 337 — `contextual` / `integrated_required`
+- `oxford.o3000.p05.202` — hope — review row 378 — `contextual` / `integrated_required`
 - `oxford.o3000.p05.277` — likely — review row 453 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.100` — perhaps — review row 556 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.127` — predict — review row 583 — `contextual` / `integrated_required`
 - `oxford.o3000.p06.130` — prevent — review row 586 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.034` — suppose — review row 770 — `contextual` / `integrated_required`
+- `oxford.o3000.p07.035` — sure — review row 771 — `contextual` / `integrated_required`
 - `oxford.o3000.p07.125` — wish — review row 861 — `contextual` / `integrated_required`
 
 ### Receptive — 3

@@ -156,12 +156,12 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active words (8): borrow [r100], chat [r133], express [r282], invite [r410], offer [r523], refuse1 [r633], ring2 [r653], talk [r780]
 - formulaic active source records: 3
 
-## U4-L02 — approx teaching objects 10
+## U4-L02 — approx teaching objects 8
 
 - active ability homes (1): C12
 - productive grammar systems (3): G24, G25, G40
 - active phrases (2): be allowed to do sth [r28], have got to [r84]
-- active words (4): allow [r25], hope [r378], permission [r557], sure [r771]
+- active words (2): allow [r25], permission [r557]
 - formulaic active source records: 4
 
 ## U4-L03 — approx teaching objects 17
@@ -340,12 +340,12 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active words (0): —
 - formulaic active source records: 0
 
-## U7-L06 — approx teaching objects 16
+## U7-L06 — approx teaching objects 18
 
 - active ability homes (1): C15
 - productive grammar systems (6): G20, G23, G24, G26, G28, G29
 - active phrases (0): —
-- active words (9): certain [r128], expect [r277], gas [r337], likely [r453], perhaps [r556], predict [r583], prevent [r586], suppose [r770], wish [r861]
+- active words (11): certain [r128], expect [r277], gas [r337], hope [r378], likely [r453], perhaps [r556], predict [r583], prevent [r586], suppose [r770], sure [r771], wish [r861]
 - formulaic active source records: 0
 
 ## U8-L01 — approx teaching objects 15
