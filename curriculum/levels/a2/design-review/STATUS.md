@@ -1,46 +1,59 @@
 # A2 Design Review Status
 
-Status: **MILESTONE 1 CLOSED — FOUNDATION + EXACT COVERAGE COMPLETE**
+Status: **MILESTONE 2 CLOSED — CURRICULUM LOAD + SEQUENCE LOCKED**
 
-This file is the session-independent handoff for A2 curriculum design. It records the current authoritative design state and the next milestone boundary. It does not authorize lesson production.
+This is the session-independent handoff for A2. It records the current authoritative curriculum-design state and the next milestone boundary. It does **not** authorize lesson/script/media production.
 
-## Milestone 1 scope completed
+## Completed foundation
 
-A2 source-of-truth inventory reviewed and incorporated:
+A2 reviewed source inventory:
 
 - abilities: **269 / 269** required rows manually reviewed
 - phrases: **176 / 176** manually reviewed
 - grammar: **291 / 291** manually reviewed into **46** usable systems/infrastructure families
 - words: **871 / 871** manually reviewed into lexical/content homes
 - pronunciation: **10 / 10** reviewed
-- total exact source records in the provisional lifecycle ledger: **1,617 / 1,617**
+- exact source records in the provisional lifecycle ledger: **1,617 / 1,617**
 
-Current communicative architecture:
+Current architecture:
 
 - **26** top-level capability families
 - **9** cross-cutting requirements
-- **30** lexical/content sets plus an intentional frozen general remainder
-
-Exact A2 word-home expansion:
-
-- source records: **871 / 871**
-- exact primary homes: **871**
-- explicit headword/exact-ID decisions: **788**
-- intentional reviewed `LX-GENERAL` remainder: **83**
+- **30** lexical/content sets plus a frozen intentional general remainder
+- exact word primary homes: **871 / 871**
 - word-home orphans: **0**
 
-## Current course skeleton
+## Milestone 2 structural lock
 
-Stage-05 baseline currently remains:
+After the exact Stage-06 ledger, generated lesson-attribution aid, and human lesson-by-lesson load/sequence critic, the A2 course shape is now retained as:
 
 - **12 units**
 - **83 lesson slots**
 
-The 83-slot count is still a design baseline, not a sacred target. Milestone 2 may split, merge or resequence slots if the human cognitive-load/sequence critic finds a real pedagogical reason.
+No lesson was added, removed, merged or split merely to satisfy a validator. The human critic found that the main problems were source-row scheduling inside multi-branch capabilities, not an insufficient lesson count.
 
-## Exact coverage ledger result
+The authoritative Milestone-2 decision record is:
 
-Stage-06 exact expansion currently passes:
+`06.5-load-sequence-lock/load-sequence-lock.md`
+
+Key corrections included:
+
+- explicit human routing of all 269 required ability review rows to lesson performances instead of broad-family round-robin assignment;
+- separate phone-call mechanics from phone-message/repair work;
+- separate travel/ticket/tourist/accommodation/reservation outcomes;
+- separate request/borrow, offer/permission, opinion, suggestion and advice branches;
+- separate invitation/arrangement, future intention, scheduled future and prediction branches;
+- realign past factual/experience evidence separately from narrative background/sequence/story production;
+- realign rules/process/equipment instruction and symptom/medical-form branches;
+- separate personal correspondence, information requests, practical scanning, factual-media comprehension and survey/interview tasks;
+- route local-place versus cultural-information evidence separately;
+- remove social-reaction language from the correspondence lesson;
+- remove arbitrary `LX-GENERAL` vocabulary from the basic phone-call lesson;
+- make `U12-L03` a true rehearsed-delivery lesson with **2 abilities and zero new words/phrases/grammar**.
+
+## Exact ledger at Milestone-2 close
+
+Current Stage-06 audit:
 
 - exact records scheduled: **1,617 / 1,617**
 - orphan records: **0**
@@ -52,82 +65,66 @@ Stage-06 exact expansion currently passes:
 - mechanical introduction overloads: **0**
 - designated transfer/evidence lessons with new introductions: **0**
 
-Current mechanical guardrails remain:
+Mechanical guardrails remain:
 
 - words introduced per lesson: max **22**
-- phrases introduced per lesson: max **10**
-- grammar source rows introduced per lesson: max **12**
-- ability source rows introduced per lesson: max **9**
-- pronunciation source rows introduced per lesson: max **2**
-- total source introductions per lesson: max **46**
+- phrases: max **10**
+- grammar source rows: max **12**
+- ability source rows: max **9**
+- pronunciation rows: max **2**
+- total source introductions: max **46**
 
-Current highest total introduction load is **44** source records (`U1-L03`). A source-record count is a mechanical guardrail only; it is not a claim that every row is an independent teaching object.
+Highest current total introduction load is **45** source records (`U4-L03` and `U11-L04`). Those lessons were retained after human review because their raw rows collapse into a small number of coherent performance/support systems; raw row count is not treated as the number of teaching objectives.
+
+Generated exact report:
+
+`06-coverage-ledger/generated/coverage-report.md`
+
+Generated human critic aid:
+
+`06-coverage-ledger/generated/lesson-intro-attribution.md`
 
 ## Important interpretation
 
-This is still a **pre-semantic-lock provisional lifecycle**.
+The lifecycle is still **pre-semantic-lock**.
 
-Milestone 1 proves that every required A2 source record has a deliberate instructional home and complete provisional lifecycle without mechanical overload. It does **not** yet decide final productive/receptive/formulaic/embedded mastery roles for every item.
+Milestones 1–2 establish deliberate instructional homes, sequence, provisional retrieval/recycle and a stable lesson architecture. They do **not** yet claim that every source item must be independently produced by the learner.
 
-Do not infer mastery from coverage alone.
+Coverage is not mastery.
 
-## What the rebalancing changed
-
-The first exact ledger exposed heavy concentrations even though the semantic homes were valid. Human scheduling decisions redistributed introduction windows without changing semantic ownership. Examples:
-
-- social-contact, interaction-condition and repair rows were spread across the actual social/repair lessons instead of being concentrated at the start of Unit 1;
-- cohesion/discourse phrases were distributed across routine, opinion, direction, narrative, process and writing contexts;
-- reference grammar was distributed across profile, description, experience and factual-media tasks rather than making `U3-L06` a 55-row grammar dump;
-- broad factual lexis was distributed across practical reading, narrative, inference, local-world and presentation contexts rather than leaving 79 words in `U11-L04` or 76 in `U12-L02`;
-- no thresholds were raised merely to obtain a green audit;
-- no new lesson slot was added merely to satisfy the validator.
-
-Automation only expanded/counts/validated inside human-approved windows. It did not choose semantic homes.
-
-## CI state at milestone close
-
-- A2 exact coverage-ledger workflow: **SUCCESS**
-- global level source-of-truth audit on the milestone-closing design commit: **SUCCESS**
-
-Generated Stage-06 report is authoritative for exact mechanical coverage:
-
-`curriculum/levels/a2/design-review/06-coverage-ledger/generated/coverage-report.md`
+High-load lessons must be revisited in Stage 08.5 if Milestone 3 unexpectedly classifies too much of their content as independently productive.
 
 ## What is NOT closed yet
 
-Do not treat the following as complete:
-
-- final lesson cognitive-load judgment
-- final unit/lesson sequence lock
-- productive vs receptive vs formulaic vs embedded semantic roles
+- productive / receptive / formulaic / embedded semantic role for every item
 - role-aware lifecycle reconciliation
 - lesson authoring briefs
 - lesson/script/media production
 - A2 manifest lesson-design authorization
 
-## Next session — Milestone 2
+`lesson_design_authorized` for A2 must remain `false` until the later authorization gate is legitimately satisfied.
 
-Start with **Milestone 2: Curriculum Load & Sequence Lock**.
+## Next session — Milestone 3
+
+Start **Milestone 3: Semantic / Mastery Lock**.
 
 Required process:
 
 1. Read this `STATUS.md`.
-2. Read `05-curriculum-map/curriculum-map.md`.
-3. Read the final Stage-06 `generated/coverage-report.md` and exact ledger as needed.
-4. Perform a human lesson-by-lesson cognitive-load and sequence critic across the 83 slots.
-5. Treat raw source-row counts as warnings/evidence, not pedagogy by themselves.
-6. Check whether each slot contains a coherent primary communicative/evidence outcome, not merely a legal set of source rows.
-7. Split, merge, move or resequence only when the human critic finds a real learning reason.
-8. Keep unit-end transfer/evidence tasks zero-new unless an explicit redesign decision says otherwise.
-9. Re-run exact coverage/lifecycle audit after every structural scheduling change.
-10. Close Milestone 2 only when the human critic and the exact ledger agree on a stable unit/lesson architecture.
-
-Do **not** start Stage-08 semantic-lock classification or Stage-07 lesson authoring briefs before Milestone 2 is explicitly closed.
+2. Read `06.5-load-sequence-lock/load-sequence-lock.md`.
+3. Use the stable 83-slot architecture and exact Stage-06 ledger as evidence for semantic-role decisions.
+4. Decide final control roles manually; do not classify items productive merely because they appear in a lesson.
+5. Treat words, phrases, grammar, abilities and pronunciation according to their own source/evidence semantics.
+6. Keep formulaic control distinct from generative control.
+7. Keep receptive/embedded support from becoming fake independent exit obligations.
+8. After semantic decisions, run Stage 08.5 role-aware lifecycle reconciliation against the 83-slot lock.
+9. Reopen a lesson only if semantic-role evidence creates a genuine cognitive-load or evidence problem.
+10. Close Milestone 3 before starting lesson authoring briefs.
 
 ## Boundaries
 
 - Branch: `curriculum/level-source-of-truth-v1`
-- `main` remains untouched by this A2 design work.
-- A1 remains locked and must not be silently edited to solve an A2 issue.
+- `main` remains untouched.
+- A1 remains locked and must not be silently edited to solve A2 issues.
 - `TEST-002` / delivery-production gates remain separate and untouched.
-- `lesson_design_authorized` for A2 must remain false until the later authorization gate is legitimately satisfied.
+- Do not start Stage-07 lesson briefs or production work before Milestone 3 and Stage 08.5 are closed.
