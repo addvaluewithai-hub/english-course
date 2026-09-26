@@ -15,9 +15,9 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 
 ## Lifecycle completeness
 
-- records missing `practice`: **70**
-- records missing `fresh_retrieval`: **10**
-- records missing `recycle`: **20**
+- records missing `practice`: **0**
+- records missing `fresh_retrieval`: **0**
+- records missing `recycle`: **0**
 - records missing `consolidate`: **0**
 - records missing `exit_verify`: **0**
 
@@ -265,4 +265,4 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 
 ## Audit verdict
 
-**FAIL — 100 lifecycle-stage gaps require manual plan revision.**
+**FAIL — lifecycle complete, but 30 introduction-load threshold violations require manual rebalancing.**
