@@ -80,9 +80,9 @@ def parse_ability_homes(markdown: str) -> dict[int, str]:
             continue
         if not current or "Source-review row" not in line:
             continue
-        bold = re.findall(r"\*\*([^*]+)\*\*", line)
-        source = " ".join(bold) if bold else line
-        for row in [int(x) for x in re.findall(r"\d+", source)]:
+        # Stage-01 puts the label in bold and the actual row numbers after it,
+        # so parse numbers from the full line rather than from bold spans only.
+        for row in [int(x) for x in re.findall(r"\d+", line)]:
             if row in homes and homes[row] != current:
                 raise ValueError(f"ability review row {row} mapped to multiple primary homes: {homes[row]}, {current}")
             homes[row] = current
@@ -250,7 +250,6 @@ def main() -> None:
     order = {lid: i for i, lid in enumerate(lessons)}
     validate_refs(plan, overrides, lessons)
 
-    # --- Exact source inputs ---
     abilities_all = load_json(A2 / "abilities.json")["items"]
     abilities = [x for x in abilities_all if x.get("curriculum_role") == "include_for_spine"]
     phrases = load_json(A2 / "phrases.json")["items"]
@@ -266,7 +265,6 @@ def main() -> None:
     if source_counts != expected_counts:
         raise ValueError(f"A2 source count drift: {source_counts} != {expected_counts}")
 
-    # --- Ability exact row -> source -> canonical item -> manual home ---
     ability_aid = text(REVIEW / "01-abilities/generated/ability-review-aid.md")
     ability_row_source = parse_aid_row_ids(ability_aid, r"[^`]+")
     ability_row_home = parse_ability_homes(text(REVIEW / "01-abilities/final-capability-map.md"))
@@ -290,7 +288,6 @@ def main() -> None:
         overrides.get("source_intro_overrides", {}).get("ability", {}),
     )
 
-    # --- Phrase exact review row -> canonical ID -> manual home ---
     phrase_row_id = parse_aid_row_ids(text(REVIEW / "02-phrases/generated/phrase-review-aid.md"), r"oxford\.phrase\.online\.\d+")
     phrase_row_home = parse_phrase_homes(text(REVIEW / "02-phrases/phrase-review.md"))
     if set(phrase_row_id) != set(range(1, 177)) or set(phrase_row_home) != set(range(1, 177)):
@@ -315,7 +312,6 @@ def main() -> None:
         phrase_exact,
     )
 
-    # --- Grammar review rows -> G systems -> exact EGP source records ---
     grammar_review_index_to_egp_row = parse_grammar_aid(text(REVIEW / "03-grammar/generated/grammar-review-aid.md"))
     grammar_review_system, grammar_system_homes = parse_grammar_systems(text(REVIEW / "03-grammar/grammar-review.md"))
     expected_review_rows = set(range(1, 292))
@@ -336,7 +332,7 @@ def main() -> None:
         if not homes:
             raise ValueError(f"grammar system {system} has no explicit manual C/X lifecycle homes")
         for home in homes:
-            family_plan(plan, home)  # fail if unknown
+            family_plan(plan, home)
         grammar_records.append({
             **grammar_by_egp_row[egp_row],
             "review_row": review_row,
@@ -363,7 +359,6 @@ def main() -> None:
         for i, record in enumerate(records):
             grammar_intro[record["item_id"]] = windows[i % len(windows)]
 
-    # --- Exact frozen word home map ---
     word_map = load_json(WORD_MAP_PATH)
     if word_map.get("record_count") != 871:
         raise ValueError("generated A2 word-home map is missing or stale")
@@ -379,7 +374,6 @@ def main() -> None:
         overrides.get("source_intro_overrides", {}).get("word", {}),
     )
 
-    # --- Expand all categories ---
     records: list[dict] = []
     for item in ability_records:
         homes = [item["primary_home"]]
@@ -432,7 +426,6 @@ def main() -> None:
                 "exit_verify": lifecycle["exit_verify"],
             },
         }
-        # Pronunciation is explicit, but still require fresh evidence after introduction.
         if any(order[x] <= order[intro] for x in record["lifecycle"]["fresh_retrieval"]):
             raise ValueError(f"pronunciation fresh retrieval not later than introduction: {iid}")
         records.append(record)
