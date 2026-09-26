@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "level": "A2",
-  "status": "human_stage_08_5_role_aware_overrides_v2_post_frozen_assignment_audit",
+  "status": "human_stage_08_5_role_aware_overrides_v3_final_raw_rebalance_candidate",
   "rule": "These are exact human-authored critic decisions. Automation may resolve review rows to source IDs, apply, count and validate only.",
   "semantic": {
     "word_to_receptive_review_rows": "47, 58, 63, 69, 79, 80, 83, 109, 145, 148, 160, 165, 166, 184, 194, 198, 204, 218, 220, 236, 243, 246, 283, 284, 289, 294, 296, 300, 341, 353, 355, 357, 393, 416, 424, 428, 448, 451, 518, 532, 542, 544, 573, 580, 597, 601, 611, 613, 616, 619, 620, 643, 647, 650, 666, 669, 675, 689, 713, 721, 724, 728, 737, 743, 761, 763, 769, 774, 795, 796, 799, 809, 814, 820, 841",
@@ -52,8 +52,10 @@
       "185": "U2-L02",
       "194": "U2-L01",
       "223": "U4-L03",
+      "243": "U3-L03",
       "273": "U1-L06",
       "283": "U1-L06",
+      "284": "U3-L03",
       "288": "U2-L05",
       "294": "U2-L01",
       "341": "U2-L05",
