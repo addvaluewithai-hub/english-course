@@ -1,0 +1,52 @@
+name: Audit A2 semantic lock
+
+# Mechanical expansion/audit only. All semantic roles are human-authored in
+# curriculum/levels/a2/design-review/08-semantic-lock/semantic-decisions.json.
+on:
+  push:
+    branches:
+      - curriculum/level-source-of-truth-v1
+    paths:
+      - curriculum/levels/a2/abilities.json
+      - curriculum/levels/a2/phrases.json
+      - curriculum/levels/a2/grammar.json
+      - curriculum/levels/a2/words.json
+      - curriculum/levels/a2/pronunciation.json
+      - curriculum/levels/a2/design-review/01-abilities/**
+      - curriculum/levels/a2/design-review/02-phrases/**
+      - curriculum/levels/a2/design-review/03-grammar/**
+      - curriculum/levels/a2/design-review/04-words/**
+      - curriculum/levels/a2/design-review/06-coverage-ledger/generated/coverage-ledger.json
+      - curriculum/levels/a2/design-review/08-semantic-lock/**
+      - scripts/build_a2_semantic_role_ledger.py
+      - .github/workflows/audit-a2-semantic-lock.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: curriculum/level-source-of-truth-v1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Expand and validate human A2 semantic decisions
+        run: python scripts/build_a2_semantic_role_ledger.py
+
+      - name: Commit deterministic semantic audit snapshot
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add curriculum/levels/a2/design-review/08-semantic-lock/generated
+          if ! git diff --cached --quiet; then
+            git commit -m "Update A2 semantic-lock audit snapshot [skip ci]"
+            git push
+          fi
