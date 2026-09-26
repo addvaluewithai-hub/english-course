@@ -19,6 +19,7 @@ on:
       - curriculum/levels/a2/design-review/06-coverage-ledger/generated/coverage-ledger.json
       - curriculum/levels/a2/design-review/08-semantic-lock/**
       - scripts/build_a2_semantic_role_ledger.py
+      - scripts/build_a2_semantic_lesson_aid.py
       - .github/workflows/audit-a2-semantic-lock.yml
   workflow_dispatch:
 
@@ -39,6 +40,9 @@ jobs:
 
       - name: Expand and validate human A2 semantic decisions
         run: python scripts/build_a2_semantic_role_ledger.py
+
+      - name: Generate role-aware lesson critic aid
+        run: python scripts/build_a2_semantic_lesson_aid.py
 
       - name: Commit deterministic semantic audit snapshot
         shell: bash
