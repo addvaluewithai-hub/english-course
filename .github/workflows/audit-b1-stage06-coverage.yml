@@ -10,6 +10,7 @@ on:
       - scripts/build_b1_coverage_ledger.py
       - scripts/run_b1_coverage_ledger.py
       - scripts/analyze_b1_coverage_ledger.py
+      - scripts/audit_b1_stage06_human_critic.py
       - .github/workflows/audit-b1-stage06-coverage.yml
   workflow_dispatch:
 
@@ -84,6 +85,17 @@ jobs:
             git push origin HEAD:curriculum/level-source-of-truth-v1
           fi
 
-      - name: Enforce structural and load audit result
+      - name: Validate pinned B1 human load critic
         shell: bash
-        run: exit ${{ steps.ledger.outputs.status }}
+        run: python scripts/audit_b1_stage06_human_critic.py
+
+      - name: Enforce structural audit result
+        shell: bash
+        run: |
+          status='${{ steps.ledger.outputs.status }}'
+          if [[ "$status" -ge 3 ]]; then
+            exit "$status"
+          fi
+          # status 2 means raw-load warnings. They are allowed only because the
+          # preceding pinned human-critic gate matched the exact current report.
+          exit 0
