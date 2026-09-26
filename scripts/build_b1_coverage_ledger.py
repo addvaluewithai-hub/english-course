@@ -173,7 +173,19 @@ def validate_refs(plan: dict, lessons: list[str]) -> None:
         raise ValueError(f"lifecycle plan references unknown lessons: {bad[:30]}")
 
 
-def balanced_assignment(records: list[dict], key_fn, windows_fn) -> dict[str, str]:
+def stable_offset(key: str, size: int) -> int:
+    if size <= 1:
+        return 0
+    return sum((i + 1) * ord(ch) for i, ch in enumerate(key)) % size
+
+
+def balanced_assignment(records: list[dict], key_fn, windows_fn, *, salt: str) -> dict[str, str]:
+    """Mechanically round-robin only inside human-approved windows.
+
+    The stable salt/key offset prevents every independent family/category from
+    stacking its first record onto the first approved lesson. It does not change
+    any semantic home or introduce a lesson outside the human-approved window.
+    """
     assigned: dict[str, str] = {}
     groups: dict[str, list[dict]] = defaultdict(list)
     for record in records:
@@ -182,8 +194,9 @@ def balanced_assignment(records: list[dict], key_fn, windows_fn) -> dict[str, st
         windows = windows_fn(key)
         if not windows:
             raise ValueError(f"no human-approved introduction window for {key}")
+        offset = stable_offset(f"{salt}:{key}", len(windows))
         for i, record in enumerate(values):
-            assigned[record["item_id"]] = windows[i % len(windows)]
+            assigned[record["item_id"]] = windows[(i + offset) % len(windows)]
     return assigned
 
 
@@ -259,7 +272,7 @@ def main() -> None:
         if source_id not in ability_by_source:
             raise ValueError(f"ability source row missing from canonical inventory: row={row} source={source_id}")
         ability_records.append({**ability_by_source[source_id], "review_row": row, "primary_home": ability_row_home[row]})
-    ability_intro = balanced_assignment(ability_records, lambda x: x["primary_home"], lambda h: family_plan(plan, h)["introduce"])
+    ability_intro = balanced_assignment(ability_records, lambda x: x["primary_home"], lambda h: family_plan(plan, h)["introduce"], salt="ability")
 
     phrase_row_id = parse_aid_row_ids(text(REVIEW / "02-phrases/generated/phrase-review-aid.md"), r"oxford\.phrase\.online\.\d+")
     phrase_row_home = parse_phrase_homes(text(REVIEW / "02-phrases/phrase-review.md"))
@@ -268,7 +281,7 @@ def main() -> None:
         raise ValueError("B1 phrase review rows must map exactly 1..175")
     phrase_by_id = {x["item_id"]: x for x in phrases}
     phrase_records = [{**phrase_by_id[phrase_row_id[row]], "review_row": row, "primary_home": phrase_row_home[row]} for row in range(1, 176)]
-    phrase_intro = balanced_assignment(phrase_records, lambda x: x["primary_home"], lambda h: family_plan(plan, h)["introduce"])
+    phrase_intro = balanced_assignment(phrase_records, lambda x: x["primary_home"], lambda h: family_plan(plan, h)["introduce"], salt="phrase")
 
     grammar_row_to_source = parse_grammar_aid(text(REVIEW / "03-grammar/generated/grammar-review-aid.md"))
     grammar_row_system, grammar_system_homes = parse_grammar_systems(text(REVIEW / "03-grammar/grammar-review.md"))
@@ -297,8 +310,9 @@ def main() -> None:
         windows = plan["grammar_system_intro"].get(system, [])
         if not windows:
             raise ValueError(f"grammar system {system} has no human-approved intro windows")
+        offset = stable_offset(f"grammar:{system}", len(windows))
         for i, record in enumerate(values):
-            grammar_intro[record["item_id"]] = windows[i % len(windows)]
+            grammar_intro[record["item_id"]] = windows[(i + offset) % len(windows)]
 
     word_map = load_json(WORD_MAP_PATH)
     if word_map.get("record_count") != 809:
@@ -308,7 +322,7 @@ def main() -> None:
     if set(word_home_by_id) != set(word_by_id):
         raise ValueError("exact B1 word-home map IDs do not match canonical B1 words")
     word_records = [{**item, "primary_home": word_home_by_id[item["item_id"]]} for item in words]
-    word_intro = balanced_assignment(word_records, lambda x: x["primary_home"], lambda h: family_plan(plan, h)["introduce"])
+    word_intro = balanced_assignment(word_records, lambda x: x["primary_home"], lambda h: family_plan(plan, h)["introduce"], salt="word")
 
     records: list[dict] = []
     for item in ability_records:
