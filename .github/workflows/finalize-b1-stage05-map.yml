@@ -1,0 +1,39 @@
+name: Finalize B1 Stage 5 map
+
+# Deterministically applies one explicit human curriculum correction:
+# C18 review/simple-essay writing gets its own instructional slot.
+on:
+  push:
+    branches:
+      - curriculum/level-source-of-truth-v1
+    paths:
+      - scripts/finalize_b1_stage05_map.py
+      - .github/workflows/finalize-b1-stage05-map.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: curriculum/level-source-of-truth-v1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply reviewed Stage 5 correction
+        run: python scripts/finalize_b1_stage05_map.py
+      - name: Commit corrected B1 map
+        run: |
+          if git diff --quiet -- curriculum/levels/b1/design-review/05-curriculum-map/curriculum-map.md; then
+            echo 'B1 Stage-05 map already finalized.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add curriculum/levels/b1/design-review/05-curriculum-map/curriculum-map.md
+          git commit -m 'curriculum: finalize B1 Stage 5 at 85 lessons [skip ci]'
+          git push origin HEAD:curriculum/level-source-of-truth-v1
