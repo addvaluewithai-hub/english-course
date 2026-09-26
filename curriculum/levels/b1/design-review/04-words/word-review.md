@@ -1,14 +1,24 @@
 # B1 Word Review — Manual Curriculum Decisions
 
-Status: **STAGE 04 HUMAN REVIEW COMPLETE — 809 / 809 WORD RECORDS READ; EXACT HOME EXPANSION PENDING MECHANICAL AUDIT**  
+Status: **STAGE 04 COMPLETE — 809 / 809 WORD RECORDS MANUALLY REVIEWED AND EXACT-HOME AUDITED**  
 Level: **B1**  
 Canonical inventory: `curriculum/levels/b1/words.json`  
 Frozen manual policy: `word-home-decisions.json`  
-Mechanical review aid: `generated/word-review-aid.md` — non-authoritative exact ID/headword/POS projection only.
+Mechanical review aid: `generated/word-review-aid.md` — non-authoritative exact ID/headword/POS projection only.  
+Exact expansion audit: `generated/word-home-report.md` — **809 / 809 exact primary homes; 0 orphans**.
 
 This file records the human curriculum decisions after reading all **809 B1 Oxford lexical records**. It does not duplicate the canonical inventory and does not decide final productive/receptive mastery before curriculum-map and lesson evidence exist.
 
 The exact-home policy is frozen to the reviewed `words.json` Git blob. Explicit semantic sets receive one primary home; the remaining records intentionally receive `LX-GENERAL`, meaning they were reviewed but do not have a stronger single semantic teaching home. Any source-blob change invalidates the expansion and requires renewed human review.
+
+## Exact expansion result
+
+- source records: **809 / 809**
+- exact primary homes assigned: **809**
+- explicit semantic-home decisions: **547**
+- intentional reviewed `LX-GENERAL` remainder: **262**
+- orphans: **0**
+- ambiguous/duplicate primary ownership accepted silently: **0**
 
 ## Executive decision
 
@@ -165,7 +175,7 @@ Boundary: exact sense remains source-record-specific; phrasal/prepositional exte
 ## LX-GENERAL — Intentional reviewed remainder
 Every B1 word not explicitly assigned above receives this primary home after exact mechanical expansion against the frozen source blob.
 
-This is **not an orphan bucket**. It is the reviewed home for broadly usable factual/descriptive/high-frequency B1 lexis whose strongest curriculum value is contextual breadth rather than one single semantic set. The generated report must expose the exact remainder for later human critic before Stage-06 lifecycle lock.
+This is **not an orphan bucket**. It is the reviewed home for broadly usable factual/descriptive/high-frequency B1 lexis whose strongest curriculum value is contextual breadth rather than one single semantic set. The generated report exposes the exact **262-record** remainder for later human critic before Stage-06 lifecycle lock.
 
 ---
 
@@ -191,4 +201,4 @@ This is **not an orphan bucket**. It is the reviewed home for broadly usable fac
 
 # Stage-04 handoff
 
-After exact expansion validates **809 / 809** records with one primary home and zero orphans, proceed to Stage 4.5: B1 pronunciation + B1 exit constraints + locked A2 carry-forward. Then run the whole-architecture critic before any unit/lesson count is chosen.
+**Stage 04 is closed.** Proceed to Stage 4.5: review B1 pronunciation, the B1 target exit contract, and locked A2 carry-forward. Then run a whole-architecture critic before deciding units/lesson count.
