@@ -2,7 +2,8 @@ name: Build level source of truth
 
 # Generation order matters: base inventories -> grammar enrichment -> granular abilities
 # -> compact non-authoritative review aids -> frozen A2 word-home expansion
-# -> reviewed A1 semantic finalization -> Stage-07 delivery-boundary normalization.
+# -> reviewed A1 semantic finalization -> Stage-07 delivery-boundary normalization
+# -> reviewed A2 Stage-9 authorization finalization.
 on:
   push:
     branches:
@@ -15,6 +16,7 @@ on:
       - 'scripts/build_a2_word_home_map.py'
       - 'scripts/finalize_a1_semantic_lock.py'
       - 'scripts/finalize_a1_stage07_handoff.py'
+      - 'scripts/finalize_a2_authorization.py'
       - 'curriculum/levels/**'
       - 'data/derived/egp-all-levels.json'
       - 'data/derived/gse-grammar-all.json'
@@ -61,6 +63,8 @@ jobs:
         run: python scripts/finalize_a1_semantic_lock.py
       - name: Normalize Stage-07 delivery boundary
         run: python scripts/finalize_a1_stage07_handoff.py
+      - name: Restore reviewed A2 Stage-9 authorization
+        run: python scripts/finalize_a2_authorization.py
       - name: Validate level source of truth
         run: python -m unittest tests.test_level_source_of_truth
       - name: Commit generated inventories and review aids
