@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "level": "A2",
+  "status": "manual_coverage_overrides_v1",
+  "grammar_system_homes": {
+    "G42": ["C05", "C10", "C11", "C18"],
+    "G43": ["X04", "C04", "C12", "C13", "C15", "C25"]
+  },
+  "source_intro_overrides": {
+    "ability": {},
+    "phrase": {},
+    "grammar": {},
+    "word": {}
+  },
+  "notes": [
+    "G42 is phrasal-verb word-order infrastructure distributed through activity, movement/travel and instruction tasks; it is not a standalone semantic capability.",
+    "G43 is modal/auxiliary/linking infrastructure reused by question, description, request/advice/future and ability performances; it is not a standalone semantic capability.",
+    "source_intro_overrides is reserved for later human load rebalancing after the first exact ledger audit; automation must not populate it automatically."
+  ]
+}
