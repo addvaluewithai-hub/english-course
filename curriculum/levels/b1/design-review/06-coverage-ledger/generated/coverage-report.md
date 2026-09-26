@@ -15,7 +15,7 @@ This ledger schedules exact B1 source records before semantic-role lock. Stage 0
 
 ## Lifecycle completeness
 
-- records missing `practice`: **7**
+- records missing `practice`: **0**
 - records missing `fresh_retrieval`: **0**
 - records missing `recycle`: **0**
 - records missing `consolidate`: **0**
@@ -196,4 +196,4 @@ This ledger schedules exact B1 source records before semantic-role lock. Stage 0
 
 ## Audit verdict
 
-**FAIL — 7 lifecycle-stage gaps require manual lifecycle revision.**
+**REVIEW REQUIRED — lifecycle complete, but 15 mechanical load warnings require a human cognitive/load critic.**
