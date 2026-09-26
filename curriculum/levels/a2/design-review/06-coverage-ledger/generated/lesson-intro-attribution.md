@@ -783,7 +783,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.197` — ring2 — homes: L21
 - `oxford.o3000.p07.044` — talk — homes: L21
 
-## U4-L02 — 31 introductions (A 5 / P 2 / G 9 / W 15 / Pron 0)
+## U4-L02 — 29 introductions (A 5 / P 2 / G 9 / W 13 / Pron 0)
 
 ### Ability — 5
 
@@ -810,7 +810,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163715289x911878511149574100` — FORM: LINKING VERBS + ADJECTIVE — homes: X04, C04, C12, C13, C15, C25
 - `egp.1741163715299x518076142407359000` — FORM: SEMI-MODAL AUXILIARY VERBS, 'HAVE (GOT) TO' — homes: X04, C04, C12, C13, C15, C25
 
-### Word — 15
+### Word — 13
 
 - `oxford.o3000.p04.108` — act — homes: LX-GENERAL
 - `oxford.o3000.p04.125` — allow — homes: L26
@@ -818,13 +818,11 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p05.015` — crowded — homes: LX-GENERAL
 - `oxford.o3000.p05.131` — finger — homes: LX-GENERAL
 - `oxford.o3000.p05.182` — have — homes: L29
-- `oxford.o3000.p05.202` — hope — homes: L26
 - `oxford.o3000.p06.006` — loudly — homes: LX-GENERAL
 - `oxford.o3000.p06.023` — may — homes: L29
 - `oxford.o3000.p06.077` — ourselves — homes: L29
 - `oxford.o3000.p06.101` — permission — homes: L26
 - `oxford.o3000.p06.128` — present — homes: LX-GENERAL
-- `oxford.o3000.p07.035` — sure — homes: L26
 - `oxford.o3000.p07.041` — symbol — homes: LX-GENERAL
 - `oxford.o3000.p07.120` — whose — homes: L29
 
@@ -1550,7 +1548,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163711296x618996248976702100` — FORM: QUESTIONS — homes: C12, C15, C13
 - `egp.1741163711296x854855921125381900` — FORM/USE: AFTER 'IF', FUTURE SITUATIONS — homes: C12, C15, C13
 
-## U7-L06 — 29 introductions (A 1 / P 0 / G 12 / W 16 / Pron 0)
+## U7-L06 — 31 introductions (A 1 / P 0 / G 12 / W 18 / Pron 0)
 
 ### Ability — 1
 
@@ -1571,13 +1569,14 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `egp.1741163711528x595400239413859000` — USE: IMAGINED SITUATIONS — homes: C06, C13, C14, C15
 - `egp.1741163711535x514214856539001000` — FORM: CLAUSE POSITION — homes: C06, C15, X06
 
-### Word — 16
+### Word — 18
 
 - `oxford.o3000.p04.228` — certain — homes: L26
 - `oxford.o3000.p05.035` — desert — homes: L13
 - `oxford.o3000.p05.101` — expect — homes: L26
 - `oxford.o3000.p05.161` — gas — homes: L13
 - `oxford.o3000.p05.190` — hers — homes: L29
+- `oxford.o3000.p05.202` — hope — homes: L26
 - `oxford.o3000.p05.277` — likely — homes: L26
 - `oxford.o3000.p06.032` — might — homes: L29
 - `oxford.o3000.p06.100` — perhaps — homes: L26
@@ -1587,6 +1586,7 @@ judge cognitive coherence. It does not choose homes, semantic roles, splits, mer
 - `oxford.o3000.p06.238` — several — homes: L29
 - `oxford.o3000.p07.017` — stone — homes: L13
 - `oxford.o3000.p07.034` — suppose — homes: L26
+- `oxford.o3000.p07.035` — sure — homes: L26
 - `oxford.o3000.p07.125` — wish — homes: L26
 - `oxford.o3000.p07.134` — yours — homes: L29
 

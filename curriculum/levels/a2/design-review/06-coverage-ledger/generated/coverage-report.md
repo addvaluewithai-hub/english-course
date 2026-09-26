@@ -47,7 +47,7 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 | U3-L06 | 2 | 0 | 11 | 13 | 0 | 26 |
 | U3-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U4-L01 | 6 | 1 | 11 | 11 | 0 | 29 |
-| U4-L02 | 5 | 2 | 9 | 15 | 0 | 31 |
+| U4-L02 | 5 | 2 | 9 | 13 | 0 | 29 |
 | U4-L03 | 8 | 9 | 12 | 13 | 1 | 43 |
 | U4-L04 | 5 | 2 | 4 | 3 | 0 | 14 |
 | U4-L05 | 2 | 1 | 7 | 11 | 0 | 21 |
@@ -73,7 +73,7 @@ This ledger is intentionally pre-semantic-lock: every source record is scheduled
 | U7-L03 | 3 | 0 | 0 | 5 | 0 | 8 |
 | U7-L04 | 2 | 0 | 6 | 16 | 0 | 24 |
 | U7-L05 | 2 | 0 | 12 | 0 | 0 | 14 |
-| U7-L06 | 1 | 0 | 12 | 16 | 0 | 29 |
+| U7-L06 | 1 | 0 | 12 | 18 | 0 | 31 |
 | U7-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U8-L01 | 4 | 1 | 2 | 17 | 1 | 25 |
 | U8-L02 | 2 | 1 | 3 | 7 | 0 | 13 |
