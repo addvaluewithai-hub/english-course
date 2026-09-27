@@ -2841,24 +2841,18 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163712047x184306606922612260` — FORM/USE: WITH 'BY' IN A RELATIVE CLAUSE| — system `G39` — `quality_constraint` / `support_condition`
 - `egp.1741163712048x834192566226660200` — FORM: INFINITIVE — system `G39` — `quality_constraint` / `support_condition`
 
-## U9-L05 — 25 source introductions / 2 active
+## U9-L05 — 24 source introductions / 0 active
 
-- productive: **2**
+- productive: **0**
 - interactive: **0**
-- receptive: **23**
+- receptive: **24**
 - integrated support: **0**
 
-### Productive — 2
+### Receptive — 24
 
 **Ability — 1**
 
-- `ability.gse_all_objectives.gse.adult.2022.b1_plus.p31.010` — Can describe basic symptoms to a doctor, but with limited precision. (Ca) — review row 151 — source mode `production` — `bounded_pattern` / `independent_possible`
-
-**Phrase — 1**
-
-- `oxford.phrase.online.0743` — wrong with sb/sth — review row 174 — `formulaic` / `integrated_required`
-
-### Receptive — 23
+- `ability.gse_all_objectives.gse.adult.2022.b1.p11.006` — Can understand written instructions for taking medication. (P) — review row 6 — source mode `reception` — `contextual` / `independent_possible`
 
 **Phrase — 1**
 
@@ -2889,22 +2883,24 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p10.043` — treatment — `contextual` / `integrated_required`
 - `oxford.o3000.p10.096` — within — `contextual` / `integrated_required`
 
-## U9-L06 — 22 source introductions / 13 active
+## U9-L06 — 23 source introductions / 15 active
 
-- productive: **13**
+- productive: **15**
 - interactive: **0**
-- receptive: **9**
+- receptive: **8**
 - integrated support: **0**
 
-### Productive — 13
+### Productive — 15
 
-**Ability — 1**
+**Ability — 2**
 
+- `ability.gse_all_objectives.gse.adult.2022.b1_plus.p31.010` — Can describe basic symptoms to a doctor, but with limited precision. (Ca) — review row 151 — source mode `production` — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p41.008` — Can complete a form requiring health information. (P) — review row 230 — source mode `production` — `bounded_pattern` / `independent_possible`
 
-**Phrase — 1**
+**Phrase — 2**
 
 - `oxford.phrase.online.0650` — suffer from sth — review row 150 — `formulaic` / `integrated_required`
+- `oxford.phrase.online.0743` — wrong with sb/sth — review row 174 — `formulaic` / `integrated_required`
 
 **Word — 11**
 
@@ -2920,11 +2916,7 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p10.008` — symptom — `contextual` / `integrated_required`
 - `oxford.o3000.p10.042` — treat — `contextual` / `integrated_required`
 
-### Receptive — 9
-
-**Ability — 1**
-
-- `ability.gse_all_objectives.gse.adult.2022.b1.p11.006` — Can understand written instructions for taking medication. (P) — review row 6 — source mode `reception` — `contextual` / `independent_possible`
+### Receptive — 8
 
 **Word — 8**
 

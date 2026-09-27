@@ -244,9 +244,10 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L06"
+          "U9-L05"
         ],
         "practice": [
+          "U9-L05",
           "U9-L06"
         ],
         "fresh_retrieval": [
@@ -264,6 +265,7 @@
       },
       "review_row": 6,
       "source_record_id": "gse.adult.2022.b1.p11.006",
+      "stage_08_5_scheduling_override": true,
       "semantic_role": {
         "mastery_mode": "receptive",
         "control_scope": "contextual",
@@ -6395,10 +6397,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L05"
+          "U9-L06"
         ],
         "practice": [
-          "U9-L05",
           "U9-L06"
         ],
         "fresh_retrieval": [
@@ -6416,6 +6417,7 @@
       },
       "review_row": 151,
       "source_record_id": "gse.adult.2022.b1_plus.p31.010",
+      "stage_08_5_scheduling_override": true,
       "semantic_role": {
         "mastery_mode": "productive",
         "control_scope": "bounded_pattern",
@@ -17632,10 +17634,9 @@
       ],
       "lifecycle": {
         "introduce": [
-          "U9-L05"
+          "U9-L06"
         ],
         "practice": [
-          "U9-L05",
           "U9-L06"
         ],
         "fresh_retrieval": [
@@ -17652,6 +17653,7 @@
         ]
       },
       "review_row": 174,
+      "stage_08_5_scheduling_override": true,
       "semantic_role": {
         "mastery_mode": "productive",
         "control_scope": "formulaic",

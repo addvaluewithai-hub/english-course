@@ -481,22 +481,13 @@ This view hides receptive/support records and collapses productive grammar rows 
 - formulaic active source records: 2
 - active mediation ability records: 0
 
-## U9-L05 — approx teaching objects 2
+## U9-L06 — approx teaching objects 14
 
 - active ability homes (1): C14
 - productive grammar systems (0): —
-- active phrases (1): wrong with sb/sth [r174]
-- active words (0): —
-- formulaic active source records: 1
-- active mediation ability records: 0
-
-## U9-L06 — approx teaching objects 13
-
-- active ability homes (1): C14
-- productive grammar systems (0): —
-- active phrases (1): suffer from sth [r150]
+- active phrases (2): suffer from sth [r150], wrong with sb/sth [r174]
 - active words (11): alcoholic, breathe, chest, injure, mental, muscle, painful, poison, pressure, symptom, treat
-- formulaic active source records: 1
+- formulaic active source records: 2
 - active mediation ability records: 0
 
 ## U10-L01 — approx teaching objects 9
