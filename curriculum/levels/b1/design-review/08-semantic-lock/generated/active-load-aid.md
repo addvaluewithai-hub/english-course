@@ -121,30 +121,30 @@ This view hides receptive/support records and collapses productive grammar rows 
 - formulaic active source records: 3
 - active mediation ability records: 0
 
-## U3-L02 — approx teaching objects 27
+## U3-L02 — approx teaching objects 16
 
 - active ability homes (1): C07
 - productive grammar systems (3): G02, G07, G51
 - active phrases (3): as much as [r18], far more [r54], ought to [r121]
-- active words (20): average, aware, brand, count, definite, discount, equal, familiar, importance, length, obvious, perfectly, profit, rare, seriously, similarity, standard, uncomfortable, value, weigh
+- active words (9): average, brand, discount, equal, length, similarity, standard, value, weigh
 - formulaic active source records: 3
 - active mediation ability records: 0
 
-## U3-L03 — approx teaching objects 27
+## U3-L03 — approx teaching objects 16
 
 - active ability homes (3): C07, X04, X05
-- productive grammar systems (6): G10, G22, G28, G29, G35, G52
+- productive grammar systems (2): G35, G52
 - active phrases (3): benefit from sth [r28], If I were you [r77], point of view [r126]
-- active words (15): apologize, basic, conclusion, determined, equally, fascinating, favour, impressive, obviously, practical, rarely, request, slightly, strongly, unfair
+- active words (8): conclusion, equally, favour, practical, request, slightly, strongly, unfair
 - formulaic active source records: 7
 - active mediation ability records: 0
 
-## U3-L04 — approx teaching objects 25
+## U3-L04 — approx teaching objects 15
 
 - active ability homes (1): C07
-- productive grammar systems (5): G26, G28, G30, G31, G35
+- productive grammar systems (3): G30, G31, G35
 - active phrases (3): choose to do sth [r35], in favour of sb/sth [r83], point out [r127]
-- active words (16): absolutely, central, comment, confirm, effective, essential, fashionable, incredibly, mention, odd, proper, reliable, respect, smart, suitable, unnecessary
+- active words (8): comment, confirm, effective, essential, reliable, respect, suitable, unnecessary
 - formulaic active source records: 3
 - active mediation ability records: 0
 
@@ -173,15 +173,6 @@ This view hides receptive/support records and collapses productive grammar rows 
 - active phrases (6): a lot more [r7], decide on sth [r42], in other words [r87], move on [r108], no more than… [r110], work sth out [r173]
 - active words (5): admit, communication, convince, persuade, truth
 - formulaic active source records: 8
-- active mediation ability records: 0
-
-## U4-L01 — approx teaching objects 20
-
-- active ability homes (0): —
-- productive grammar systems (0): —
-- active phrases (0): —
-- active words (20): admire, annoying, bride, calm, ceremony, confuse, embarrassed, excitement, expedition, glad, hurry, kind (caring), mystery, occur, pleasant, previous, reality, relaxing, survive, youth
-- formulaic active source records: 0
 - active mediation ability records: 0
 
 ## U4-L02 — approx teaching objects 13
@@ -490,13 +481,13 @@ This view hides receptive/support records and collapses productive grammar rows 
 - formulaic active source records: 2
 - active mediation ability records: 0
 
-## U9-L05 — approx teaching objects 17
+## U9-L05 — approx teaching objects 2
 
 - active ability homes (1): C14
 - productive grammar systems (0): —
-- active phrases (2): heart disease [r73], wrong with sb/sth [r174]
-- active words (14): alcohol, breath, breathing, emergency, fitness, injured, mild, operation, pale, poisonous, safety, suffer, throat, treatment
-- formulaic active source records: 2
+- active phrases (1): wrong with sb/sth [r174]
+- active words (0): —
+- formulaic active source records: 1
 - active mediation ability records: 0
 
 ## U9-L06 — approx teaching objects 13
@@ -589,12 +580,12 @@ This view hides receptive/support records and collapses productive grammar rows 
 - formulaic active source records: 4
 - active mediation ability records: 0
 
-## U11-L04 — approx teaching objects 22
+## U11-L04 — approx teaching objects 14
 
 - active ability homes (2): C17, X04
-- productive grammar systems (3): G28, G31, G34
+- productive grammar systems (2): G31, G34
 - active phrases (2): look forward to sth [r101], tell the truth [r155]
-- active words (15): advise, annoy, attitude, childhood, complaint, disappointed, doubt, emotion, generous, happiness, mood, proud, recommendation, upset, view
+- active words (8): advise, complaint, disappointed, doubt, proud, recommendation, upset, view
 - formulaic active source records: 4
 - active mediation ability records: 0
 

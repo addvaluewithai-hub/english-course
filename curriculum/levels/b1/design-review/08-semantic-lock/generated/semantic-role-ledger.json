@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "level": "B1",
-  "status": "expanded_from_human_stage08_semantic_decisions",
+  "status": "expanded_from_human_stage08_plus_stage08_5_critic",
   "record_count": 1581,
   "record_counts": {
     "ability": 249,
@@ -13,21 +13,21 @@
   "automation_inferred_semantic_roles": 0,
   "human_semantic_orphans": 0,
   "mastery_counts": {
-    "integrated_support": 299,
+    "integrated_support": 316,
     "interactive": 57,
-    "productive": 682,
-    "receptive": 543
+    "productive": 597,
+    "receptive": 611
   },
   "control_scope_counts": {
-    "bounded_pattern": 286,
-    "contextual": 844,
-    "formulaic": 151,
-    "quality_constraint": 300
+    "bounded_pattern": 269,
+    "contextual": 845,
+    "formulaic": 150,
+    "quality_constraint": 317
   },
   "exit_evidence_counts": {
     "independent_possible": 195,
-    "integrated_required": 1086,
-    "support_condition": 300
+    "integrated_required": 1069,
+    "support_condition": 317
   },
   "records": [
     {
@@ -13516,12 +13516,13 @@
       },
       "review_row": 73,
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "formulaic",
+        "mastery_mode": "receptive",
+        "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "phrase.home:C14;group:productive_formulaic",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:phrase_to_receptive;base=phrase.home:C14;group:productive_formulaic",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "heart disease belongs to health-instruction/input breadth in U9-L05 and does not require independent formulaic production at B1 exit."
     },
     {
       "category": "phrase",
@@ -21329,12 +21330,13 @@
       "egp_spreadsheet_row": 213,
       "grammar_system": "G10",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G10;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G10;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -21455,12 +21457,13 @@
       "egp_spreadsheet_row": 217,
       "grammar_system": "G10",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G10;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G10;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -25556,12 +25559,13 @@
       "egp_spreadsheet_row": 446,
       "grammar_system": "G22",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G22;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G22;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -26703,12 +26707,13 @@
       "egp_spreadsheet_row": 499,
       "grammar_system": "G26",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G26;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G26;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -26989,12 +26994,13 @@
       "egp_spreadsheet_row": 518,
       "grammar_system": "G26",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G26;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G26;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -27446,12 +27452,13 @@
       "egp_spreadsheet_row": 554,
       "grammar_system": "G28",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G28;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G28;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -27525,12 +27532,13 @@
       "egp_spreadsheet_row": 555,
       "grammar_system": "G28",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G28;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G28;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -27603,12 +27611,13 @@
       "egp_spreadsheet_row": 556,
       "grammar_system": "G28",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G28;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G28;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -27723,12 +27732,13 @@
       "egp_spreadsheet_row": 570,
       "grammar_system": "G28",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G28;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G28;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -27802,12 +27812,13 @@
       "egp_spreadsheet_row": 571,
       "grammar_system": "G28",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G28;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G28;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -27880,12 +27891,13 @@
       "egp_spreadsheet_row": 572,
       "grammar_system": "G28",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G28;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G28;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -28000,12 +28012,13 @@
       "egp_spreadsheet_row": 577,
       "grammar_system": "G28",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G28;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G28;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -28134,12 +28147,13 @@
       "egp_spreadsheet_row": 586,
       "grammar_system": "G29",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G29;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G29;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -28336,12 +28350,13 @@
       "egp_spreadsheet_row": 590,
       "grammar_system": "G29",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G29;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G29;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -28771,12 +28786,13 @@
       "egp_spreadsheet_row": 635,
       "grammar_system": "G31",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G31;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G31;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -28849,12 +28865,13 @@
       "egp_spreadsheet_row": 636,
       "grammar_system": "G31",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G31;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G31;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -29249,12 +29266,13 @@
       "egp_spreadsheet_row": 644,
       "grammar_system": "G31",
       "semantic_role": {
-        "mastery_mode": "productive",
-        "control_scope": "bounded_pattern",
-        "exit_evidence": "integrated_required"
+        "mastery_mode": "integrated_support",
+        "control_scope": "quality_constraint",
+        "exit_evidence": "support_condition"
       },
-      "semantic_decision_basis": "grammar.system:G31;group:productive_bounded",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:grammar_to_support;base=grammar.system:G31;group:productive_bounded",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Exact rows are real B1 grammar evidence but are not independent productive objectives in the lesson where the mechanical Stage-06 routing introduced them. Their system remains available as embedded support while the lesson foreground stays performance-led."
     },
     {
       "category": "grammar",
@@ -40689,12 +40707,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -41049,12 +41068,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -41567,12 +41587,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -41943,12 +41964,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -42023,12 +42045,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -42110,12 +42133,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L03;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L03;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -42538,12 +42562,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -42784,12 +42809,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -43065,12 +43091,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -43837,12 +43864,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -43908,12 +43936,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -43945,12 +43974,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L04;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L04;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -44096,12 +44126,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -44471,12 +44502,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -44564,12 +44596,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L04;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L04;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -45064,12 +45097,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -46355,12 +46389,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -47094,12 +47129,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L22;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L22;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -47957,12 +47993,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -48228,12 +48265,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -49899,12 +49937,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -49971,12 +50010,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L25;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L25;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -50007,12 +50047,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -50823,12 +50864,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -50983,12 +51025,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L04;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L04;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -51430,12 +51473,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -51550,12 +51594,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -51585,12 +51630,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -51974,12 +52020,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -53107,12 +53154,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -53326,12 +53374,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -53885,12 +53934,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -54672,12 +54722,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L04;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L04;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -55043,12 +55094,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -55114,12 +55166,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -55195,12 +55248,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -55551,12 +55605,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -56263,12 +56318,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -58088,12 +58144,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L03;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L03;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -58174,12 +58231,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -58354,12 +58412,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -58580,12 +58639,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L04;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L04;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -59345,12 +59405,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -59381,12 +59442,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -59453,12 +59515,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L04;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L04;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -59488,12 +59551,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -59646,12 +59710,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -60106,12 +60171,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -60503,12 +60569,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -60897,12 +60964,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -61302,12 +61370,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -62194,12 +62263,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L04;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L04;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -62686,12 +62756,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L08;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L08;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -62808,12 +62879,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -63606,12 +63678,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -63642,12 +63715,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -63714,12 +63788,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L04;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L04;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -64223,12 +64298,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -65661,12 +65737,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L25;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L25;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -66224,12 +66301,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -67477,12 +67555,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -68806,12 +68885,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -69165,12 +69245,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L04;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L04;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -69987,12 +70068,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -70741,12 +70823,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L10;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L10;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -71148,12 +71231,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L21;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L21;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "word",
@@ -73329,12 +73413,13 @@
         ]
       },
       "semantic_role": {
-        "mastery_mode": "productive",
+        "mastery_mode": "receptive",
         "control_scope": "contextual",
         "exit_evidence": "integrated_required"
       },
-      "semantic_decision_basis": "word.reviewed_home:L02;group:productive_contextual",
-      "semantic_decision_source": "human_stage08"
+      "semantic_decision_basis": "stage08.5.exact_item_override:word_to_receptive;base=word.reviewed_home:L02;group:productive_contextual",
+      "semantic_decision_source": "human_stage08_5_critic",
+      "stage_08_5_reason": "Role-aware critic keeps only a small task-essential productive lexical core in high-load opinion/advice/correspondence lessons, restores U4-L01 as genuinely receptive narrative input, and keeps U9-L05 health-instruction vocabulary contextual/receptive rather than forcing free production."
     },
     {
       "category": "pronunciation",
@@ -73716,5 +73801,12 @@
       "semantic_decision_basis": "pronunciation.item:pronunciation.chunking_monitoring_repair.b1",
       "semantic_decision_source": "human_stage08"
     }
-  ]
+  ],
+  "stage_08_5_applied": {
+    "source": "../08.5-role-aware-critic/overrides.json",
+    "word_to_receptive_count": 67,
+    "grammar_to_support_count": 17,
+    "phrase_to_receptive_count": 1,
+    "total_exact_semantic_overrides": 85
+  }
 }

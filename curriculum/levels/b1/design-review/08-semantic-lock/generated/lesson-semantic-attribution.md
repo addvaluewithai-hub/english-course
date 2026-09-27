@@ -619,14 +619,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p08.225` — influence — `quality_constraint` / `support_condition`
 - `oxford.o3000.p09.064` — particularly — `quality_constraint` / `support_condition`
 
-## U3-L02 — 42 source introductions / 33 active
+## U3-L02 — 42 source introductions / 22 active
 
-- productive: **32**
+- productive: **21**
 - interactive: **1**
-- receptive: **0**
+- receptive: **11**
 - integrated support: **9**
 
-### Productive — 32
+### Productive — 21
 
 **Ability — 3**
 
@@ -649,26 +649,15 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163708151x354364358587738300` — FORM: 'SO' + ADJECTIVE + 'THAT' CLAUSE — system `G07` — `bounded_pattern` / `integrated_required`
 - `egp.1741163715026x510674477671172500` — FORM: PHRASE + PHRASE — system `G51` — `bounded_pattern` / `integrated_required`
 
-**Word — 20**
+**Word — 9**
 
 - `oxford.o3000.p07.187` — average — `contextual` / `integrated_required`
-- `oxford.o3000.p07.189` — aware — `contextual` / `integrated_required`
 - `oxford.o3000.p07.214` — brand — `contextual` / `integrated_required`
-- `oxford.o3000.p08.019` — count — `contextual` / `integrated_required`
-- `oxford.o3000.p08.041` — definite — `contextual` / `integrated_required`
 - `oxford.o3000.p08.059` — discount — `contextual` / `integrated_required`
 - `oxford.o3000.p08.103` — equal — `contextual` / `integrated_required`
-- `oxford.o3000.p08.126` — familiar — `contextual` / `integrated_required`
-- `oxford.o3000.p08.215` — importance — `contextual` / `integrated_required`
 - `oxford.o3000.p08.261` — length — `contextual` / `integrated_required`
-- `oxford.o3000.p09.041` — obvious — `contextual` / `integrated_required`
-- `oxford.o3000.p09.071` — perfectly — `contextual` / `integrated_required`
-- `oxford.o3000.p09.125` — profit — `contextual` / `integrated_required`
-- `oxford.o3000.p09.148` — rare — `contextual` / `integrated_required`
-- `oxford.o3000.p09.213` — seriously — `contextual` / `integrated_required`
 - `oxford.o3000.p09.234` — similarity — `contextual` / `integrated_required`
 - `oxford.o3000.p09.259` — standard — `contextual` / `integrated_required`
-- `oxford.o3000.p10.053` — uncomfortable — `contextual` / `integrated_required`
 - `oxford.o3000.p10.070` — value — `contextual` / `integrated_required`
 - `oxford.o3000.p10.086` — weigh — `contextual` / `integrated_required`
 
@@ -677,6 +666,22 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.b1.p30.016` — Can discuss films, books or plays in simple terms, using fixed expressions. (P) — review row 125 — source mode `interaction` — `bounded_pattern` / `independent_possible`
+
+### Receptive — 11
+
+**Word — 11**
+
+- `oxford.o3000.p07.189` — aware — `contextual` / `integrated_required`
+- `oxford.o3000.p08.019` — count — `contextual` / `integrated_required`
+- `oxford.o3000.p08.041` — definite — `contextual` / `integrated_required`
+- `oxford.o3000.p08.126` — familiar — `contextual` / `integrated_required`
+- `oxford.o3000.p08.215` — importance — `contextual` / `integrated_required`
+- `oxford.o3000.p09.041` — obvious — `contextual` / `integrated_required`
+- `oxford.o3000.p09.071` — perfectly — `contextual` / `integrated_required`
+- `oxford.o3000.p09.125` — profit — `contextual` / `integrated_required`
+- `oxford.o3000.p09.148` — rare — `contextual` / `integrated_required`
+- `oxford.o3000.p09.213` — seriously — `contextual` / `integrated_required`
+- `oxford.o3000.p10.053` — uncomfortable — `contextual` / `integrated_required`
 
 ### Integrated Support — 9
 
@@ -692,14 +697,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163709231x447456423959638800` — FORM: 'SO MUCH', 'TOO MUCH' WITH UNCOUNTABLE NOUNS — system `G18` — `quality_constraint` / `support_condition`
 - `egp.1741163709231x799263972459703900` — FORM: 'MANY' WITH PLURAL NOUNS, INTERROGATIVE — system `G18` — `quality_constraint` / `support_condition`
 
-## U3-L03 — 47 source introductions / 38 active
+## U3-L03 — 47 source introductions / 24 active
 
-- productive: **34**
+- productive: **20**
 - interactive: **4**
-- receptive: **2**
-- integrated support: **7**
+- receptive: **9**
+- integrated support: **14**
 
-### Productive — 34
+### Productive — 20
 
 **Ability — 3**
 
@@ -713,15 +718,8 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0362` — If I were you — review row 77 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0572` — point of view — review row 126 — `formulaic` / `integrated_required`
 
-**Grammar — 13**
+**Grammar — 6**
 
-- `egp.1741163708343x784452436860678700` — FORM: INTERROGATIVE + ADVERB — system `G10` — `bounded_pattern` / `integrated_required`
-- `egp.1741163708344x316156631249672000` — FORM: 'HOW' + ADJECTIVE — system `G10` — `bounded_pattern` / `integrated_required`
-- `egp.1741163709462x479959298523018100` — USE: PREDICTIONS WITH 'WILL' — system `G22` — `bounded_pattern` / `integrated_required`
-- `egp.1741163710839x443299354624711040` — FORM: QUESTIONS — system `G28` — `bounded_pattern` / `integrated_required`
-- `egp.1741163710842x294632080213531140` — FORM: PAST AFFIRMATIVE — system `G28` — `bounded_pattern` / `integrated_required`
-- `egp.1741163710845x174924654487421900` — FORM: WITH ADVERBS — system `G29` — `bounded_pattern` / `integrated_required`
-- `egp.1741163710845x798749370290314700` — USE: DEDUCTIONS AND CONCLUSIONS — system `G29` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711538x884306688947976100` — FORM/USE: MODAL VERB + MODAL ADVERB, HEDGING OR EMPHASIS — system `G35` — `bounded_pattern` / `integrated_required`
 - `egp.1741163716294x808126531664035200` — USE: POSSIBILITY — system `G35` — `bounded_pattern` / `integrated_required`
 - `egp.1741163715029x648987133230414000` — FORM: AFFIRMATIVE MAIN CLAUSES + NEGATIVE QUESTION TAGS — system `G52` — `bounded_pattern` / `integrated_required`
@@ -729,19 +727,12 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163715034x128016271247440200` — FORM: NEGATIVE QUESTIONS WITH 'BE' — system `G52` — `bounded_pattern` / `integrated_required`
 - `egp.1741163715034x328104656808845060` — FORM: NEGATIVE QUESTIONS MODAL VERBS — system `G52` — `bounded_pattern` / `integrated_required`
 
-**Word — 15**
+**Word — 8**
 
-- `oxford.o3000.p07.172` — apologize — `contextual` / `integrated_required`
-- `oxford.o3000.p07.196` — basic — `contextual` / `integrated_required`
 - `oxford.o3000.p07.274` — conclusion — `contextual` / `integrated_required`
-- `oxford.o3000.p08.048` — determined — `contextual` / `integrated_required`
 - `oxford.o3000.p08.104` — equally — `contextual` / `integrated_required`
-- `oxford.o3000.p08.129` — fascinating — `contextual` / `integrated_required`
 - `oxford.o3000.p08.132` — favour — `contextual` / `integrated_required`
-- `oxford.o3000.p08.217` — impressive — `contextual` / `integrated_required`
-- `oxford.o3000.p09.042` — obviously — `contextual` / `integrated_required`
 - `oxford.o3000.p09.104` — practical — `contextual` / `integrated_required`
-- `oxford.o3000.p09.149` — rarely — `contextual` / `integrated_required`
 - `oxford.o3000.p09.176` — request — `contextual` / `integrated_required`
 - `oxford.o3000.p09.240` — slightly — `contextual` / `integrated_required`
 - `oxford.o3000.p09.270` — strongly — `contextual` / `integrated_required`
@@ -756,18 +747,35 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p31.016` — Can politely interrupt during a formal conversation, using fixed expressions (P) — review row 157 — source mode `interaction` — `formulaic` / `integrated_required`
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p31.026` — Can express approval and appreciation of other people’s ideas in a discussion. (Wa) — review row 167 — source mode `interaction` — `formulaic` / `integrated_required`
 
-### Receptive — 2
+### Receptive — 9
 
 **Ability — 2**
 
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p11.011` — Can understand cause and effect relationships in a structured text. (P) — review row 27 — source mode `reception` — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p17.004` — Can infer speakers’ opinions in conversations on familiar everyday topics. (P) — review row 56 — source mode `reception` — `contextual` / `independent_possible`
 
-### Integrated Support — 7
+**Word — 7**
 
-**Grammar — 3**
+- `oxford.o3000.p07.172` — apologize — `contextual` / `integrated_required`
+- `oxford.o3000.p07.196` — basic — `contextual` / `integrated_required`
+- `oxford.o3000.p08.048` — determined — `contextual` / `integrated_required`
+- `oxford.o3000.p08.129` — fascinating — `contextual` / `integrated_required`
+- `oxford.o3000.p08.217` — impressive — `contextual` / `integrated_required`
+- `oxford.o3000.p09.042` — obviously — `contextual` / `integrated_required`
+- `oxford.o3000.p09.149` — rarely — `contextual` / `integrated_required`
+
+### Integrated Support — 14
+
+**Grammar — 10**
 
 - `egp.1741163708332x482855077867024000` — FORM/USE: 'DO', EMPHASIS — system `G09` — `quality_constraint` / `support_condition`
+- `egp.1741163708343x784452436860678700` — FORM: INTERROGATIVE + ADVERB — system `G10` — `quality_constraint` / `support_condition`
+- `egp.1741163708344x316156631249672000` — FORM: 'HOW' + ADJECTIVE — system `G10` — `quality_constraint` / `support_condition`
+- `egp.1741163709462x479959298523018100` — USE: PREDICTIONS WITH 'WILL' — system `G22` — `quality_constraint` / `support_condition`
+- `egp.1741163710839x443299354624711040` — FORM: QUESTIONS — system `G28` — `quality_constraint` / `support_condition`
+- `egp.1741163710842x294632080213531140` — FORM: PAST AFFIRMATIVE — system `G28` — `quality_constraint` / `support_condition`
+- `egp.1741163710845x174924654487421900` — FORM: WITH ADVERBS — system `G29` — `quality_constraint` / `support_condition`
+- `egp.1741163710845x798749370290314700` — USE: DEDUCTIONS AND CONCLUSIONS — system `G29` — `quality_constraint` / `support_condition`
 - `egp.1741163716069x352116208624451400` — FORM: QUESTIONS — system `G36` — `quality_constraint` / `support_condition`
 - `egp.1741163716070x446178260215358340` — USE: SEEKING AGREEMENT — system `G36` — `quality_constraint` / `support_condition`
 
@@ -778,14 +786,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.o3000.p10.028` — till — `quality_constraint` / `support_condition`
 - `oxford.o3000.p10.088` — whatever — `quality_constraint` / `support_condition`
 
-## U3-L04 — 42 source introductions / 33 active
+## U3-L04 — 42 source introductions / 19 active
 
-- productive: **31**
+- productive: **17**
 - interactive: **2**
-- receptive: **8**
-- integrated support: **1**
+- receptive: **16**
+- integrated support: **7**
 
-### Productive — 31
+### Productive — 17
 
 **Ability — 1**
 
@@ -797,36 +805,22 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0387` — in favour of sb/sth — review row 83 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0573` — point out — review row 127 — `formulaic` / `integrated_required`
 
-**Grammar — 11**
+**Grammar — 5**
 
-- `egp.1741163710391x702389034373436300` — FORM: WITH ADVERBS — system `G26` — `bounded_pattern` / `integrated_required`
-- `egp.1741163710609x537948380593027840` — USE: 'BE ALLOWED TO', PERMISSION — system `G26` — `bounded_pattern` / `integrated_required`
-- `egp.1741163710839x649757077040261000` — USE: PERMISSION — system `G28` — `bounded_pattern` / `integrated_required`
-- `egp.1741163710842x376058808932568060` — USE: REPORTED SPEECH — system `G28` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711031x618063039110384000` — USE: ADVICE — system `G30` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711057x774242678413627800` — USE: SEEKING ADVICE — system `G30` — `bounded_pattern` / `integrated_required`
-- `egp.1741163711286x245382741783872320` — FORM: PAST AFFIRMATIVE — system `G31` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711287x214849958095665100` — USE: IDEAL OR DESIRED SITUATIONS — system `G31` — `bounded_pattern` / `integrated_required`
-- `egp.1741163711287x879466057870175200` — USE: REGRET — system `G31` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711538x973037262394288500` — FORM/USE, 'POSSIBLY', POLITENESS — system `G35` — `bounded_pattern` / `integrated_required`
 - `egp.1741163716294x857600764651929500` — USE: SUGGESTIONS — system `G35` — `bounded_pattern` / `integrated_required`
 
-**Word — 16**
+**Word — 8**
 
-- `oxford.o3000.p07.136` — absolutely — `contextual` / `integrated_required`
-- `oxford.o3000.p07.233` — central — `contextual` / `integrated_required`
 - `oxford.o3000.p07.263` — comment — `contextual` / `integrated_required`
 - `oxford.o3000.p07.276` — confirm — `contextual` / `integrated_required`
 - `oxford.o3000.p08.082` — effective — `contextual` / `integrated_required`
 - `oxford.o3000.p08.106` — essential — `contextual` / `integrated_required`
-- `oxford.o3000.p08.130` — fashionable — `contextual` / `integrated_required`
-- `oxford.o3000.p08.219` — incredibly — `contextual` / `integrated_required`
-- `oxford.o3000.p09.010` — mention — `contextual` / `integrated_required`
-- `oxford.o3000.p09.045` — odd — `contextual` / `integrated_required`
-- `oxford.o3000.p09.128` — proper — `contextual` / `integrated_required`
 - `oxford.o3000.p09.165` — reliable — `contextual` / `integrated_required`
 - `oxford.o3000.p09.180` — respect — `contextual` / `integrated_required`
-- `oxford.o3000.p09.242` — smart — `contextual` / `integrated_required`
 - `oxford.o3000.p09.278` — suitable — `contextual` / `integrated_required`
 - `oxford.o3000.p10.062` — unnecessary — `contextual` / `integrated_required`
 
@@ -837,26 +831,40 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.b1.p29.028` — Can give an opinion when asked directly, provided they can ask for repetition. (Ca) — review row 103 — source mode `interaction` — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p31.015` — Can respond to ideas and suggestions in informal discussions. (Ca) — review row 156 — source mode `interaction` — `bounded_pattern` / `independent_possible`
 
-### Receptive — 8
+### Receptive — 16
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.b1.p17.009` — Can recognise simple expressions of agreement and disagreement in extended discussions, if conducted in clear standard speech. (P) — review row 41 — source mode `reception` — `contextual` / `independent_possible`
 
-**Word — 7**
+**Word — 15**
 
+- `oxford.o3000.p07.136` — absolutely — `contextual` / `integrated_required`
+- `oxford.o3000.p07.233` — central — `contextual` / `integrated_required`
 - `oxford.o3000.p07.240` — chapter — `contextual` / `integrated_required`
 - `oxford.o3000.p08.054` — directly — `contextual` / `integrated_required`
+- `oxford.o3000.p08.130` — fashionable — `contextual` / `integrated_required`
 - `oxford.o3000.p08.156` — frightened — `contextual` / `integrated_required`
+- `oxford.o3000.p08.219` — incredibly — `contextual` / `integrated_required`
 - `oxford.o3000.p08.264` — like (find sb/sth pleasant) — `contextual` / `integrated_required`
+- `oxford.o3000.p09.010` — mention — `contextual` / `integrated_required`
+- `oxford.o3000.p09.045` — odd — `contextual` / `integrated_required`
 - `oxford.o3000.p09.083` — plenty — `contextual` / `integrated_required`
+- `oxford.o3000.p09.128` — proper — `contextual` / `integrated_required`
 - `oxford.o3000.p09.208` — secondary — `contextual` / `integrated_required`
+- `oxford.o3000.p09.242` — smart — `contextual` / `integrated_required`
 - `oxford.o3000.p10.012` — tape — `contextual` / `integrated_required`
 
-### Integrated Support — 1
+### Integrated Support — 7
 
-**Grammar — 1**
+**Grammar — 7**
 
+- `egp.1741163710391x702389034373436300` — FORM: WITH ADVERBS — system `G26` — `quality_constraint` / `support_condition`
+- `egp.1741163710609x537948380593027840` — USE: 'BE ALLOWED TO', PERMISSION — system `G26` — `quality_constraint` / `support_condition`
+- `egp.1741163710839x649757077040261000` — USE: PERMISSION — system `G28` — `quality_constraint` / `support_condition`
+- `egp.1741163710842x376058808932568060` — USE: REPORTED SPEECH — system `G28` — `quality_constraint` / `support_condition`
+- `egp.1741163711286x245382741783872320` — FORM: PAST AFFIRMATIVE — system `G31` — `quality_constraint` / `support_condition`
+- `egp.1741163711287x879466057870175200` — USE: REGRET — system `G31` — `quality_constraint` / `support_condition`
 - `egp.1741163715599x226684987670247260` — FORM: 'MAKE', 'LET' + INFINITIVE WITHOUT 'TO' — system `G58` — `quality_constraint` / `support_condition`
 
 ## U3-L05 — 31 source introductions / 17 active
@@ -1034,39 +1042,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p18.011` — Can recognise misunderstandings without explicit prompting. (P) — review row 73 — source mode `reception` — `contextual` / `independent_possible`
 
-## U4-L01 — 34 source introductions / 20 active
+## U4-L01 — 34 source introductions / 0 active
 
-- productive: **20**
+- productive: **0**
 - interactive: **0**
-- receptive: **14**
+- receptive: **34**
 - integrated support: **0**
 
-### Productive — 20
-
-**Word — 20**
-
-- `oxford.o3000.p07.145` — admire — `contextual` / `integrated_required`
-- `oxford.o3000.p07.170` — annoying — `contextual` / `integrated_required`
-- `oxford.o3000.p07.219` — bride — `contextual` / `integrated_required`
-- `oxford.o3000.p07.223` — calm — `contextual` / `integrated_required`
-- `oxford.o3000.p07.235` — ceremony — `contextual` / `integrated_required`
-- `oxford.o3000.p08.001` — confuse — `contextual` / `integrated_required`
-- `oxford.o3000.p08.087` — embarrassed — `contextual` / `integrated_required`
-- `oxford.o3000.p08.111` — excitement — `contextual` / `integrated_required`
-- `oxford.o3000.p08.115` — expedition — `contextual` / `integrated_required`
-- `oxford.o3000.p08.173` — glad — `contextual` / `integrated_required`
-- `oxford.o3000.p08.206` — hurry — `contextual` / `integrated_required`
-- `oxford.o3000.p08.246` — kind (caring) — `contextual` / `integrated_required`
-- `oxford.o3000.p09.022` — mystery — `contextual` / `integrated_required`
-- `oxford.o3000.p09.044` — occur — `contextual` / `integrated_required`
-- `oxford.o3000.p09.081` — pleasant — `contextual` / `integrated_required`
-- `oxford.o3000.p09.113` — previous — `contextual` / `integrated_required`
-- `oxford.o3000.p09.151` — reality — `contextual` / `integrated_required`
-- `oxford.o3000.p09.163` — relaxing — `contextual` / `integrated_required`
-- `oxford.o3000.p10.005` — survive — `contextual` / `integrated_required`
-- `oxford.o3000.p10.108` — youth — `contextual` / `integrated_required`
-
-### Receptive — 14
+### Receptive — 34
 
 **Ability — 5**
 
@@ -1076,17 +1059,37 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.b1.p17.012` — Can understand the main points of narratives and conversations about familiar topics (e.g. ‘work’, ‘leisure’) delivered in clear standard speech. (Ca) — review row 44 — source mode `reception` — `contextual` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p17.008` — Can follow many films in which visuals and action carry much of the storyline. (Ca) — review row 60 — source mode `reception` — `contextual` / `independent_possible`
 
-**Word — 9**
+**Word — 29**
 
+- `oxford.o3000.p07.145` — admire — `contextual` / `integrated_required`
 - `oxford.o3000.p07.157` — album — `contextual` / `integrated_required`
+- `oxford.o3000.p07.170` — annoying — `contextual` / `integrated_required`
+- `oxford.o3000.p07.219` — bride — `contextual` / `integrated_required`
+- `oxford.o3000.p07.223` — calm — `contextual` / `integrated_required`
+- `oxford.o3000.p07.235` — ceremony — `contextual` / `integrated_required`
+- `oxford.o3000.p08.001` — confuse — `contextual` / `integrated_required`
 - `oxford.o3000.p08.016` — costume — `contextual` / `integrated_required`
+- `oxford.o3000.p08.087` — embarrassed — `contextual` / `integrated_required`
+- `oxford.o3000.p08.111` — excitement — `contextual` / `integrated_required`
 - `oxford.o3000.p08.112` — exhibition — `contextual` / `integrated_required`
+- `oxford.o3000.p08.115` — expedition — `contextual` / `integrated_required`
+- `oxford.o3000.p08.173` — glad — `contextual` / `integrated_required`
 - `oxford.o3000.p08.199` — historical — `contextual` / `integrated_required`
+- `oxford.o3000.p08.206` — hurry — `contextual` / `integrated_required`
+- `oxford.o3000.p08.246` — kind (caring) — `contextual` / `integrated_required`
+- `oxford.o3000.p09.022` — mystery — `contextual` / `integrated_required`
+- `oxford.o3000.p09.044` — occur — `contextual` / `integrated_required`
+- `oxford.o3000.p09.081` — pleasant — `contextual` / `integrated_required`
 - `oxford.o3000.p09.086` — poem — `contextual` / `integrated_required`
 - `oxford.o3000.p09.097` — portrait — `contextual` / `integrated_required`
+- `oxford.o3000.p09.113` — previous — `contextual` / `integrated_required`
 - `oxford.o3000.p09.118` — princess — `contextual` / `integrated_required`
+- `oxford.o3000.p09.151` — reality — `contextual` / `integrated_required`
+- `oxford.o3000.p09.163` — relaxing — `contextual` / `integrated_required`
 - `oxford.o3000.p09.196` — royal — `contextual` / `integrated_required`
 - `oxford.o3000.p09.271` — studio — `contextual` / `integrated_required`
+- `oxford.o3000.p10.005` — survive — `contextual` / `integrated_required`
+- `oxford.o3000.p10.108` — youth — `contextual` / `integrated_required`
 
 ## U4-L02 — 25 source introductions / 16 active
 
@@ -2838,52 +2841,52 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163712047x184306606922612260` — FORM/USE: WITH 'BY' IN A RELATIVE CLAUSE| — system `G39` — `quality_constraint` / `support_condition`
 - `egp.1741163712048x834192566226660200` — FORM: INFINITIVE — system `G39` — `quality_constraint` / `support_condition`
 
-## U9-L05 — 25 source introductions / 17 active
+## U9-L05 — 25 source introductions / 2 active
 
-- productive: **17**
+- productive: **2**
 - interactive: **0**
-- receptive: **8**
+- receptive: **23**
 - integrated support: **0**
 
-### Productive — 17
+### Productive — 2
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p31.010` — Can describe basic symptoms to a doctor, but with limited precision. (Ca) — review row 151 — source mode `production` — `bounded_pattern` / `independent_possible`
 
-**Phrase — 2**
+**Phrase — 1**
 
-- `oxford.phrase.online.0340` — heart disease — review row 73 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0743` — wrong with sb/sth — review row 174 — `formulaic` / `integrated_required`
 
-**Word — 14**
+### Receptive — 23
+
+**Phrase — 1**
+
+- `oxford.phrase.online.0340` — heart disease — review row 73 — `contextual` / `integrated_required`
+
+**Word — 22**
 
 - `oxford.o3000.p07.158` — alcohol — `contextual` / `integrated_required`
+- `oxford.o3000.p07.203` — bell — `contextual` / `integrated_required`
 - `oxford.o3000.p07.216` — breath — `contextual` / `integrated_required`
 - `oxford.o3000.p07.218` — breathing — `contextual` / `integrated_required`
+- `oxford.o3000.p08.029` — current — `contextual` / `integrated_required`
 - `oxford.o3000.p08.089` — emergency — `contextual` / `integrated_required`
+- `oxford.o3000.p08.127` — fancy — `contextual` / `integrated_required`
 - `oxford.o3000.p08.140` — fitness — `contextual` / `integrated_required`
 - `oxford.o3000.p08.228` — injured — `contextual` / `integrated_required`
+- `oxford.o3000.p08.241` — keen — `contextual` / `integrated_required`
 - `oxford.o3000.p09.012` — mild — `contextual` / `integrated_required`
+- `oxford.o3000.p09.048` — once — `contextual` / `integrated_required`
 - `oxford.o3000.p09.049` — operation — `contextual` / `integrated_required`
 - `oxford.o3000.p09.061` — pale — `contextual` / `integrated_required`
 - `oxford.o3000.p09.091` — poisonous — `contextual` / `integrated_required`
+- `oxford.o3000.p09.174` — repeated — `contextual` / `integrated_required`
 - `oxford.o3000.p09.199` — safety — `contextual` / `integrated_required`
+- `oxford.o3000.p09.264` — stick (piece of wood) — `contextual` / `integrated_required`
 - `oxford.o3000.p09.276` — suffer — `contextual` / `integrated_required`
 - `oxford.o3000.p10.025` — throat — `contextual` / `integrated_required`
 - `oxford.o3000.p10.043` — treatment — `contextual` / `integrated_required`
-
-### Receptive — 8
-
-**Word — 8**
-
-- `oxford.o3000.p07.203` — bell — `contextual` / `integrated_required`
-- `oxford.o3000.p08.029` — current — `contextual` / `integrated_required`
-- `oxford.o3000.p08.127` — fancy — `contextual` / `integrated_required`
-- `oxford.o3000.p08.241` — keen — `contextual` / `integrated_required`
-- `oxford.o3000.p09.048` — once — `contextual` / `integrated_required`
-- `oxford.o3000.p09.174` — repeated — `contextual` / `integrated_required`
-- `oxford.o3000.p09.264` — stick (piece of wood) — `contextual` / `integrated_required`
 - `oxford.o3000.p10.096` — within — `contextual` / `integrated_required`
 
 ## U9-L06 — 22 source introductions / 13 active
@@ -3439,14 +3442,14 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `egp.1741163713116x829257725032760800` — FORM: 'ADVERB' + PREPOSITION — system `G45` — `quality_constraint` / `support_condition`
 - `egp.1741163715599x129252813485304160` — FORM: VERB + '-ING' FORM — system `G58` — `quality_constraint` / `support_condition`
 
-## U11-L04 — 40 source introductions / 28 active
+## U11-L04 — 40 source introductions / 17 active
 
-- productive: **24**
+- productive: **13**
 - interactive: **4**
-- receptive: **8**
-- integrated support: **4**
+- receptive: **15**
+- integrated support: **8**
 
-### Productive — 24
+### Productive — 13
 
 **Ability — 1**
 
@@ -3457,28 +3460,17 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `oxford.phrase.online.0477` — look forward to sth — review row 101 — `formulaic` / `integrated_required`
 - `oxford.phrase.online.0666` — tell the truth — review row 155 — `formulaic` / `integrated_required`
 
-**Grammar — 6**
+**Grammar — 2**
 
-- `egp.1741163710619x872875552573129100` — FORM: NEGATIVE — system `G28` — `bounded_pattern` / `integrated_required`
-- `egp.1741163710842x255780476758331600` — USE: POSSIBILITY IN THE PAST — system `G28` — `bounded_pattern` / `integrated_required`
-- `egp.1741163710843x377860994738539200` — USE: FOCUS — system `G28` — `bounded_pattern` / `integrated_required`
-- `egp.1741163711286x101954602280780900` — FORM: PAST NEGATIVE — system `G31` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711287x155607228538747300` — USE: LIKELIHOOD — system `G31` — `bounded_pattern` / `integrated_required`
 - `egp.1741163711534x225764774682792860` — USE: POLITE REQUESTS — system `G34` — `bounded_pattern` / `integrated_required`
 
-**Word — 15**
+**Word — 8**
 
 - `oxford.o3000.p07.148` — advise — `contextual` / `integrated_required`
-- `oxford.o3000.p07.168` — annoy — `contextual` / `integrated_required`
-- `oxford.o3000.p07.183` — attitude — `contextual` / `integrated_required`
-- `oxford.o3000.p07.247` — childhood — `contextual` / `integrated_required`
 - `oxford.o3000.p07.270` — complaint — `contextual` / `integrated_required`
 - `oxford.o3000.p08.057` — disappointed — `contextual` / `integrated_required`
 - `oxford.o3000.p08.065` — doubt — `contextual` / `integrated_required`
-- `oxford.o3000.p08.090` — emotion — `contextual` / `integrated_required`
-- `oxford.o3000.p08.168` — generous — `contextual` / `integrated_required`
-- `oxford.o3000.p08.187` — happiness — `contextual` / `integrated_required`
-- `oxford.o3000.p09.016` — mood — `contextual` / `integrated_required`
 - `oxford.o3000.p09.132` — proud — `contextual` / `integrated_required`
 - `oxford.o3000.p09.153` — recommendation — `contextual` / `integrated_required`
 - `oxford.o3000.p10.066` — upset — `contextual` / `integrated_required`
@@ -3493,26 +3485,37 @@ This file groups the exact Stage-08 semantic ledger by first-introduction lesson
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p41.012` — Can write a formal email/letter accepting or declining an invitation. (P) — review row 234 — source mode `interaction` — `bounded_pattern` / `independent_possible`
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p41.013` — Can vary the formality of greetings in emails/letters based on intended recipients. (P) — review row 235 — source mode `interaction` — `formulaic` / `integrated_required`
 
-### Receptive — 8
+### Receptive — 15
 
 **Ability — 1**
 
 - `ability.gse_all_objectives.gse.adult.2022.b1_plus.p18.001` — Can understand a range of formal and informal excuses. (P) — review row 64 — source mode `reception` — `formulaic` / `integrated_required`
 
-**Word — 7**
+**Word — 14**
 
+- `oxford.o3000.p07.168` — annoy — `contextual` / `integrated_required`
+- `oxford.o3000.p07.183` — attitude — `contextual` / `integrated_required`
 - `oxford.o3000.p07.227` — cap — `contextual` / `integrated_required`
+- `oxford.o3000.p07.247` — childhood — `contextual` / `integrated_required`
 - `oxford.o3000.p08.049` — development — `contextual` / `integrated_required`
+- `oxford.o3000.p08.090` — emotion — `contextual` / `integrated_required`
 - `oxford.o3000.p08.150` — forever — `contextual` / `integrated_required`
+- `oxford.o3000.p08.168` — generous — `contextual` / `integrated_required`
+- `oxford.o3000.p08.187` — happiness — `contextual` / `integrated_required`
 - `oxford.o3000.p08.257` — leaf — `contextual` / `integrated_required`
+- `oxford.o3000.p09.016` — mood — `contextual` / `integrated_required`
 - `oxford.o3000.p09.063` — participate — `contextual` / `integrated_required`
 - `oxford.o3000.p09.193` — rope — `contextual` / `integrated_required`
 - `oxford.o3000.p09.277` — suit — `contextual` / `integrated_required`
 
-### Integrated Support — 4
+### Integrated Support — 8
 
-**Grammar — 4**
+**Grammar — 8**
 
+- `egp.1741163710619x872875552573129100` — FORM: NEGATIVE — system `G28` — `quality_constraint` / `support_condition`
+- `egp.1741163710842x255780476758331600` — USE: POSSIBILITY IN THE PAST — system `G28` — `quality_constraint` / `support_condition`
+- `egp.1741163710843x377860994738539200` — USE: FOCUS — system `G28` — `quality_constraint` / `support_condition`
+- `egp.1741163711286x101954602280780900` — FORM: PAST NEGATIVE — system `G31` — `quality_constraint` / `support_condition`
 - `egp.1741163711287x768774727410203500` — USE: NARRATIVE DEVICE — system `G31` — `quality_constraint` / `support_condition`
 - `egp.1741163711528x505214348491108700` — FORM: PAST NEGATIVE — system `G34` — `quality_constraint` / `support_condition`
 - `egp.1741163711529x426495349233583900` — USE: FUTURE IN THE PAST — system `G34` — `quality_constraint` / `support_condition`
