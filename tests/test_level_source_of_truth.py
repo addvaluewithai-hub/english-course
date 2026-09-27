@@ -73,7 +73,34 @@ class LevelSourceOfTruthTests(unittest.TestCase):
         else:
             self.assertFalse(a2_manifest["lesson_design_authorized"])
 
-        for level in LEVELS[2:]:
+        b1_auth_path = ROOT / "curriculum/levels/b1/design-review/09-authorization-gate/authorization.json"
+        b1_manifest = self.load("b1", "manifest.json")
+        b1_contract = self.load("b1", "exit_contract.json")
+        if b1_auth_path.exists():
+            b1_auth = json.loads(b1_auth_path.read_text(encoding="utf-8"))
+            self.assertEqual(
+                b1_auth["status"],
+                "human_lesson_design_authorization_reviewed_locked_v1",
+            )
+            self.assertTrue(b1_auth["lesson_design_authorized"])
+            self.assertFalse(b1_auth["delivery_content_production_authorized"])
+            self.assertEqual(b1_auth["human_review_queue"], 0)
+            self.assertEqual(b1_auth["architecture"], {"units": 12, "lesson_slots": 85})
+            self.assertTrue(b1_manifest["lesson_design_authorized"])
+            self.assertFalse(b1_manifest["delivery_content_production_authorized"])
+            self.assertEqual(
+                b1_manifest["status"],
+                "semantic_design_lock_reviewed_lesson_design_authorized",
+            )
+            self.assertEqual(b1_manifest["semantic_lock"]["human_review_queue"], 0)
+            self.assertEqual(b1_contract["status"], "semantic_inventory_locked_v1")
+            self.assertTrue(b1_contract["semantic_lock"]["lesson_design_authorized"])
+            self.assertEqual(b1_contract["semantic_lock"]["human_review_queue"], 0)
+            self.assertFalse(b1_contract["delivery_content_production_authorized"])
+        else:
+            self.assertFalse(b1_manifest["lesson_design_authorized"])
+
+        for level in LEVELS[3:]:
             other = self.load(level, "manifest.json")
             self.assertFalse(other["lesson_design_authorized"])
             self.assertEqual(other["level"], level.upper())
