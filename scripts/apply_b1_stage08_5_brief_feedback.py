@@ -53,6 +53,34 @@ REPLACEMENTS = [
         "- U10-L02 is **conditionally retained** only until Stage-08.5 role-aware load review.",
         "- U10-L02 **passes the Stage-08.5 role-aware load review** at approximately 16 active teaching objects and is retained without a split.",
     ),
+    (
+        "- **Decision:** retain all 7 slots now; mandatory Stage-08.5 reopening test for U10-L02.",
+        "- **Decision:** retain all 7 slots; Stage-08.5 role-aware load review is complete and requires no split/merge.",
+    ),
+    (
+        "- U11-L02 grammar warning remains infrastructure pending Stage 08/8.5.",
+        "- U11-L02 passes Stage-08.5 at approximately 12 active teaching objects; its remaining grammar rows stay infrastructure/support rather than a twenty-rule productive sequence.",
+    ),
+    (
+        "- **Decision:** retain all 7 slots; mandatory Stage-08.5 revisit for U11-L02.",
+        "- **Decision:** retain all 7 slots; Stage-08.5 revisit is complete and requires no split/merge.",
+    ),
+    (
+        "High raw EGP counts in U3/U5/U6/U10/U11 are briefed as systems/infrastructure, not separate rules. Stage 08 must preserve this distinction when formal roles are assigned.",
+        "High raw EGP counts in U3/U5/U6/U10/U11 are briefed as systems/infrastructure, not separate rules. Stage 08/8.5 preserves this distinction in the final exact roles.",
+    ),
+    (
+        "The briefs explicitly preserve the flagged load boundaries. In particular, U10-L02 is **conditionally retained**, and Stage 08.5 must reopen it if productive-role assignment turns contextual rows into too many independent active objects.",
+        "The briefs explicitly preserve the flagged load boundaries. Stage 08.5 has now re-audited every warning role-aware; U10-L02 resolves to approximately 16 active teaching objects and remains coherent without a split.",
+    ),
+    (
+        "## 12. Semantic lock is still genuinely open\nThese briefs deliberately use `Foreground candidate` / `Embedded/support candidate` language. Stage 08 must decide exact productive, receptive, interactive, formulaic and supporting roles from the now-complete design evidence; Stage 07 has not pre-empted that decision.",
+        "## 12. Semantic lock is now reconciled\nThe briefs retain their original `Foreground candidate` / `Embedded/support candidate` wording as design history, but Stage 08 + Stage 08.5 now provide the authoritative exact productive, receptive, interactive, formulaic and support roles. Where candidate prose conflicted with the final role-aware critic, the brief/ledger feedback loop was applied explicitly.",
+    ),
+    (
+        "Next: **Stage 08 — formal semantic/control-role reconciliation** across all **1,581** exact B1 source records using the completed design evidence. Do not authorize lesson authoring or delivery/media production before the later semantic reconciliation and authorization gate are closed.",
+        "Stage 08 + Stage 08.5 are now closed across all **1,581** exact B1 source records. Next: **Stage 9 — deterministic lesson-design authorization**. Delivery/media production remains separately unauthorized.",
+    ),
 ]
 
 
