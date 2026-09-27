@@ -3,7 +3,7 @@
   "level": "B1",
   "status": "human_stage06_load_critic_reviewed_v1",
   "coverage_report": "curriculum/levels/b1/design-review/06-coverage-ledger/generated/coverage-report.md",
-  "expected_coverage_report_git_blob_sha": "b4195f974ddf9912b9b6f72f3759f58e9e528d36",
+  "expected_coverage_report_git_blob_sha": "afc47f0a09515b67d8cc1cd5044f60fdd85cf054",
   "architecture": {
     "units": 12,
     "lesson_slots": 85,
@@ -26,6 +26,26 @@
     "accepted_warnings_are_not_mastery_claims": true,
     "semantic_roles_must_reaudit_load_at_stage_08_5": true,
     "new_or_changed_warning_requires_human_rereview": true
+  },
+  "stage_08_5_reaudit": {
+    "status": "human_role_aware_feedback_reaudited_v1",
+    "trigger": "Stage 08.5 found U9-L05/U9-L06 reception-versus-production routing inverted by the provisional round-robin assignment.",
+    "exact_feedback": [
+      "ability review row 6 -> U9-L05",
+      "ability review row 151 -> U9-L06",
+      "phrase review row 174 -> U9-L06"
+    ],
+    "result": {
+      "source_records": 1581,
+      "orphans": 0,
+      "required_lifecycle_gaps": 0,
+      "zero_new_transfer_violations": 0,
+      "raw_warning_set_changed": false,
+      "warning_count": 15,
+      "architecture_changed": false
+    },
+    "reviewed_coverage_report_git_blob_sha": "afc47f0a09515b67d8cc1cd5044f60fdd85cf054",
+    "decision": "accept exact Stage-08.5 routing feedback and retain 12 units / 85 slots"
   },
   "accepted_warnings": [
     {"lesson":"U3-L02","category":"grammar","count":15,"limit":12},
