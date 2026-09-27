@@ -1,8 +1,8 @@
 name: Audit level source of truth
 
-# A1/A2 curriculum lesson-design authorization is valid only when each reviewed
+# A1/A2/B1 curriculum lesson-design authorization is valid only when each reviewed
 # semantic/design lock is explicitly closed. Delivery production remains a separate
-# TEST-002-gated concern, and later levels remain locked until independently reviewed.
+# TEST-002-gated concern, and B2-C2 remain locked until independently reviewed.
 on:
   push:
     branches:
