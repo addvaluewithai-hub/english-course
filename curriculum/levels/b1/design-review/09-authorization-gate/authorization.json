@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "level": "B1",
+  "status": "human_lesson_design_authorization_reviewed_locked_v1",
+  "lesson_design_authorized": true,
+  "delivery_content_production_authorized": false,
+  "human_review_queue": 0,
+  "architecture": {
+    "units": 12,
+    "lesson_slots": 85
+  },
+  "decision": "The reviewed B1 capability/phrase/grammar/lexical/pronunciation design, exact 1,581-record lifecycle ledger, complete 85-brief architecture, Stage-08 semantic lock and mandatory Stage-08.5 role-aware reconciliation satisfy the lesson-design authorization gate. This authorizes the locked curriculum as a controlled authoring contract only. It does not authorize lesson-package, audio, image, video or other delivery/media production, and it does not modify or bypass TEST-002.",
+  "evidence_blobs": [
+    {
+      "path": "curriculum/levels/b1/design-review/06-coverage-ledger/generated/coverage-ledger.json",
+      "git_blob_sha": "e10a9cb7ea2b91e6073a11af5ebe05c9461c041f"
+    },
+    {
+      "path": "curriculum/levels/b1/design-review/06-coverage-ledger/load-critic.json",
+      "git_blob_sha": "8412d47e5f23119b3a26f551c968215abb692e85"
+    },
+    {
+      "path": "curriculum/levels/b1/design-review/08-semantic-lock/semantic-decisions.json",
+      "git_blob_sha": "652fd7112c302ed26203d4069b0dfc6d44481fdf"
+    },
+    {
+      "path": "curriculum/levels/b1/design-review/08-semantic-lock/generated/semantic-role-ledger.json",
+      "git_blob_sha": "59d572363ea4a72e1b53adbdd4e7a087e5b04c6a"
+    },
+    {
+      "path": "curriculum/levels/b1/design-review/08.5-role-aware-critic/overrides.json",
+      "git_blob_sha": "87db4f1c9a6da7a82f895fe1494cac88bdfba3eb"
+    },
+    {
+      "path": "curriculum/levels/b1/design-review/08.5-role-aware-critic/critic-decisions.md",
+      "git_blob_sha": "bc3ba26f19e9840cd5733e602b999477f0782c1b"
+    },
+    {
+      "path": "curriculum/levels/b1/design-review/07-lesson-briefs/lesson-briefs.md",
+      "git_blob_sha": "bdfe64881eeb35f1e128b891b4a3f443d673e98c"
+    }
+  ],
+  "gate_conditions": {
+    "exact_semantic_roles": "1581/1581",
+    "semantic_orphans": 0,
+    "automation_inferred_semantic_roles": 0,
+    "human_review_queue": 0,
+    "stage_08_5_exact_semantic_overrides": 85,
+    "stage_08_5_exact_scheduling_corrections": 3,
+    "coverage_lifecycle_gaps": 0,
+    "zero_new_transfer_integration_slots": "16/16",
+    "lesson_briefs": "85/85",
+    "rolling_unit_critics": "12/12",
+    "whole_level_critic": "closed",
+    "structural_changes_after_role_aware_critic": 0,
+    "architecture_retained": "12 units / 85 lesson slots",
+    "mediation_source_mode_preserved": true,
+    "pronunciation_intelligibility_only": true,
+    "a2_prerequisite_unchanged": true
+  }
+}
