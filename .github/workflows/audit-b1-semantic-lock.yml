@@ -14,6 +14,7 @@ on:
       - curriculum/levels/b1/design-review/06-coverage-ledger/generated/coverage-ledger.json
       - curriculum/levels/b1/design-review/07-lesson-briefs/**
       - curriculum/levels/b1/design-review/08-semantic-lock/**
+      - curriculum/levels/b1/design-review/08.5-role-aware-critic/**
       - scripts/build_b1_semantic_role_ledger.py
       - scripts/run_b1_semantic_lock.py
       - scripts/build_b1_semantic_lesson_aid.py
@@ -38,7 +39,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Expand and validate human B1 Stage 8 semantic decisions
+      - name: Expand and validate human B1 Stage 8 plus Stage 8.5 semantic decisions
         run: python scripts/run_b1_semantic_lock.py
       - name: Generate B1 lesson semantic attribution aid
         run: python scripts/build_b1_semantic_lesson_aid.py
