@@ -1,24 +1,24 @@
 # B1 Lesson Authoring Briefs — Stage 07
 
-Status: **STAGE 07 COMPLETE — 85 / 85 MANUAL AUTHORING-CONTRACT CANDIDATES + 12 ROLLING UNIT CRITICS + WHOLE-LEVEL CRITIC**  
+Status: **STAGE 07 COMPLETE; STAGE 08.5 FEEDBACK RECONCILED — 85 / 85 MANUAL AUTHORING-CONTRACT CANDIDATES + 12 ROLLING UNIT CRITICS + WHOLE-LEVEL CRITIC**  
 Level: **B1**  
 Locked load/sequence baseline: **12 units / 85 lesson slots**  
 Prerequisite: Milestone 2 load/sequence lock closed at `../06.5-load-sequence-lock/load-sequence-lock.md`.
 
-These briefs are **authoring-contract candidates, not finished lessons**. Stage 08 must still reconcile every exact item into a formal semantic/control role. Therefore `Foreground candidate` and `Embedded/support candidate` below are design hypotheses grounded in the learner performance and exact Stage-06 placement; they are not yet mastery declarations.
+These briefs are **authoring-contract candidates, not finished lessons**. Stage 08 + Stage 08.5 now supply the authoritative exact semantic/control-role boundary. The original `Foreground candidate` and `Embedded/support candidate` labels remain useful design descriptions, but they may not promote any item beyond its locked role; exact Stage-08.5 feedback below supersedes an earlier candidate hypothesis where the critic found a contradiction.
 
 ## Authoring rules for B1 Stage 07
 
 1. One primary communicative/evidence outcome per instructional lesson; integrated skills are allowed only when they serve that outcome.
 2. Source rows are not separate teaching objects. Multiple EGP rows may form one usable system and broad lexical rows may be contextual/receptive support.
 3. A2 language is prerequisite/retrieval, not new B1 inventory.
-4. Foreground only what the performance genuinely needs; Stage 08 may downgrade candidates to receptive/support or identify formulaic control.
+4. Foreground only what the performance genuinely needs; the Stage-08/8.5 semantic ledger is authoritative, so receptive/support/formulaic items may not be silently promoted by authoring prose.
 5. Grammar serves the performance; no one-row/one-rule lesson design.
 6. Pronunciation serves intelligibility, processing and interaction; no accent-elimination goal.
 7. Fresh transfer changes context/prompt and reduces support.
 8. All 11 unit-end transfers and all 5 final integration slots are **zero-new**.
-9. The 15 Stage-06 raw-load warnings remain pinned. `U10-L02` is explicitly conditional and must be revisited in Stage 08.5.
-10. If Stage 08/8.5 evidence contradicts a brief, reopen the brief/ledger rather than silently promoting support content.
+9. The 15 Stage-06 raw-load warnings remain pinned as diagnostics. Stage 08.5 has now re-audited them role-aware; `U10-L02` is retained without a split after active-load reconciliation.
+10. If later evidence contradicts the Stage-08/8.5 lock, reopen the brief/ledger explicitly rather than silently promoting support content.
 
 ---
 
@@ -635,7 +635,7 @@ These briefs are **authoring-contract candidates, not finished lessons**. Stage 
 - **Embedded/support candidate:** body/health vocabulary and general warning language.
 - **Boundary:** comprehension only; no medical diagnosis, prescription or specialist advice.
 - **Retrieval/evidence:** new label/leaflet/advice extract → identify safe action and limitation.
-- **Exact introductions:** abilities **1** · phrases **2** · grammar **0** · words **22** · pronunciation **0** · total **25**.
+- **Exact introductions:** abilities **1** · phrases **1** · grammar **0** · words **22** · pronunciation **0** · total **24**.
 
 ## U9-L06 — Describe symptoms and complete health information
 - **Outcome:** communicate basic symptoms with limited precision and complete relevant familiar health fields.
@@ -643,7 +643,7 @@ These briefs are **authoring-contract candidates, not finished lessons**. Stage 
 - **Embedded/support candidate:** general health/body vocabulary.
 - **Boundary:** survival/practical health only; no diagnostic language or treatment recommendation.
 - **Retrieval/evidence:** new clinic/pharmacy-style scenario → describe → clarify → complete key fields.
-- **Exact introductions:** abilities **2** · phrases **1** · grammar **0** · words **19** · pronunciation **0** · total **22**.
+- **Exact introductions:** abilities **2** · phrases **2** · grammar **0** · words **19** · pronunciation **0** · total **23**.
 
 ## U9-L07 — Fresh practical-process/health transfer
 - **Outcome:** interpret a new practical text/scenario, explain/record needed action and clarify one risk/detail.
@@ -657,7 +657,8 @@ These briefs are **authoring-contract candidates, not finished lessons**. Stage 
 - Safety/process and health remain separate performance branches despite shared modal/instruction resources.
 - Passive/modals are embedded according to use and may remain receptive/support after Stage 08.
 - Practical writing remains reader-purpose driven.
-- **Decision:** retain all 7 slots; no Stage-06 reopening required.
+- **Stage-08.5 feedback:** the exact ledger was reopened only to swap medication-instruction reception into U9-L05, symptom production into U9-L06, and move `wrong with sb/sth` with symptom communication; lifecycle and zero-new invariants remained intact.
+- **Decision:** retain all 7 slots; no split/merge required after the exact feedback re-audit.
 
 ---
 
@@ -677,7 +678,7 @@ These briefs are **authoring-contract candidates, not finished lessons**. Stage 
 - **Outcome:** make relationships among ideas explicit so a listener/reader can follow the explanation.
 - **Foreground candidate:** cause/result, comparison and example-signalling systems required by the explanation.
 - **Embedded/support candidate:** **33 word rows** across broad familiar content and support/reference systems; most must not become an active list by default.
-- **Boundary:** **highest conditional Stage-06 warning: 56 raw rows**. Stage 08 must assign roles conservatively; Stage 08.5 must split/reopen if active teaching-object load is not coherent.
+- **Boundary:** the raw Stage-06 count remains **56 source rows**, but Stage 08.5 resolves these to approximately **16 active teaching objects** (C10 + G07/G12 + 8 formulaic phrases + 5 active words); the remaining rows are receptive/support context, so no split is required.
 - **Retrieval/evidence:** new familiar-topic evidence → explain relationships, not merely list facts.
 - **Exact introductions:** abilities **3** · phrases **11** · grammar **9** · words **33** · pronunciation **0** · total **56**.
 
@@ -724,7 +725,7 @@ These briefs are **authoring-contract candidates, not finished lessons**. Stage 
 ### Unit 10 rolling critic
 - U10-L03 fixes the real C18 genre gap and remains independently necessary.
 - U10-L01/L02 must be taught as discourse systems serving explanation, not as phrase/grammar dumps.
-- U10-L02 is **conditionally retained** only until Stage-08.5 role-aware load review.
+- U10-L02 **passes the Stage-08.5 role-aware load review** at approximately 16 active teaching objects and is retained without a split.
 - Presentation planning, delivery and Q&A retain different evidence boundaries.
 - **Decision:** retain all 7 slots now; mandatory Stage-08.5 reopening test for U10-L02.
 
