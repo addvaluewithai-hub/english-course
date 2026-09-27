@@ -15,6 +15,7 @@ on:
       - curriculum/levels/b1/design-review/07-lesson-briefs/**
       - curriculum/levels/b1/design-review/08-semantic-lock/**
       - scripts/build_b1_semantic_role_ledger.py
+      - scripts/run_b1_semantic_lock.py
       - .github/workflows/audit-b1-semantic-lock.yml
   workflow_dispatch:
 
@@ -36,7 +37,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Expand and validate human B1 Stage 8 semantic decisions
-        run: python scripts/build_b1_semantic_role_ledger.py
+        run: python scripts/run_b1_semantic_lock.py
       - name: Commit deterministic B1 semantic snapshot
         shell: bash
         run: |
