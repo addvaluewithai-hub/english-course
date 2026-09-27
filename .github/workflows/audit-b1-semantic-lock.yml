@@ -16,6 +16,8 @@ on:
       - curriculum/levels/b1/design-review/08-semantic-lock/**
       - scripts/build_b1_semantic_role_ledger.py
       - scripts/run_b1_semantic_lock.py
+      - scripts/build_b1_semantic_lesson_aid.py
+      - scripts/build_b1_active_load_aid.py
       - .github/workflows/audit-b1-semantic-lock.yml
   workflow_dispatch:
 
@@ -38,6 +40,10 @@ jobs:
           python-version: '3.12'
       - name: Expand and validate human B1 Stage 8 semantic decisions
         run: python scripts/run_b1_semantic_lock.py
+      - name: Generate B1 lesson semantic attribution aid
+        run: python scripts/build_b1_semantic_lesson_aid.py
+      - name: Generate B1 compact active-load critic aid
+        run: python scripts/build_b1_active_load_aid.py
       - name: Commit deterministic B1 semantic snapshot
         shell: bash
         run: |
