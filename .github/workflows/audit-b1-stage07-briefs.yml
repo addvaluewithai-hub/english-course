@@ -9,12 +9,18 @@ on:
       - curriculum/levels/b1/design-review/06-coverage-ledger/**
       - curriculum/levels/b1/design-review/06.5-load-sequence-lock/**
       - curriculum/levels/b1/design-review/07-lesson-briefs/**
+      - curriculum/levels/b1/design-review/08.5-role-aware-critic/**
+      - scripts/apply_b1_stage08_5_brief_feedback.py
       - scripts/audit_b1_stage07_briefs.py
       - .github/workflows/audit-b1-stage07-briefs.yml
   workflow_dispatch:
 
+concurrency:
+  group: b1-curriculum-audit-snapshots
+  cancel-in-progress: false
+
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   audit:
@@ -26,5 +32,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Apply exact human Stage 8.5 feedback to B1 briefs
+        run: python scripts/apply_b1_stage08_5_brief_feedback.py
       - name: Validate B1 Stage 7 briefs against exact Stage 6 ledger
         run: python scripts/audit_b1_stage07_briefs.py
+      - name: Commit deterministic Stage 8.5 brief reconciliation
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add curriculum/levels/b1/design-review/07-lesson-briefs/lesson-briefs.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Reconcile B1 Stage 8.5 feedback into lesson briefs [skip ci]"
+            git pull --rebase origin curriculum/level-source-of-truth-v1
+            git push origin HEAD:curriculum/level-source-of-truth-v1
+          fi
