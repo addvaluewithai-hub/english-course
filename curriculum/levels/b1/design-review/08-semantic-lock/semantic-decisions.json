@@ -12,7 +12,8 @@
     "capability_source_mode_policy": {
       "reception": {"mastery_mode": "receptive", "control_scope": "contextual", "exit_evidence": "independent_possible"},
       "production": {"mastery_mode": "productive", "control_scope": "bounded_pattern", "exit_evidence": "independent_possible"},
-      "interaction": {"mastery_mode": "interactive", "control_scope": "bounded_pattern", "exit_evidence": "independent_possible"}
+      "interaction": {"mastery_mode": "interactive", "control_scope": "bounded_pattern", "exit_evidence": "independent_possible"},
+      "mediation": {"mastery_mode": "productive", "control_scope": "bounded_pattern", "exit_evidence": "independent_possible"}
     },
     "cross_cutting_home_policy": {
       "X01": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"},
@@ -23,7 +24,7 @@
       "X06": {"mastery_mode": "receptive", "control_scope": "contextual", "exit_evidence": "integrated_required"},
       "X07": {"mastery_mode": "integrated_support", "control_scope": "quality_constraint", "exit_evidence": "support_condition"}
     },
-    "note": "X08 was added by grammar evidence and owns no Stage-01 ability rows; its exact grammar rows are reconciled through grammar system roles."
+    "note": "Mediation is preserved as a distinct GSE source mode in the exact ledger; its semantic mastery is productive bounded source transformation, not silently relabelled source production. X08 was added by grammar evidence and owns no Stage-01 ability rows; its exact grammar rows are reconciled through grammar system roles."
   },
   "phrases": {
     "productive_formulaic_homes": ["C06", "C07", "C08", "C09", "C10", "C12", "C13", "C14", "C16", "C17", "C19", "X04", "X05"],
