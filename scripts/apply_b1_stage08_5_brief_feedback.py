@@ -42,8 +42,8 @@ REPLACEMENTS = [
         "- **Exact introductions:** abilities **2** · phrases **2** · grammar **0** · words **19** · pronunciation **0** · total **23**.",
     ),
     (
-        "- **Decision:** retain all 7 slots; no Stage-06 reopening required.",
-        "- **Stage-08.5 feedback:** the exact ledger was reopened only to swap medication-instruction reception into U9-L05, symptom production into U9-L06, and move `wrong with sb/sth` with symptom communication; lifecycle and zero-new invariants remained intact.\n- **Decision:** retain all 7 slots; no split/merge required after the exact feedback re-audit.",
+        "- Practical writing remains reader-purpose driven.\n- **Decision:** retain all 7 slots; no Stage-06 reopening required.",
+        "- Practical writing remains reader-purpose driven.\n- **Stage-08.5 feedback:** the exact ledger was reopened only to swap medication-instruction reception into U9-L05, symptom production into U9-L06, and move `wrong with sb/sth` with symptom communication; lifecycle and zero-new invariants remained intact.\n- **Decision:** retain all 7 slots; no split/merge required after the exact feedback re-audit.",
     ),
     (
         "- **Boundary:** **highest conditional Stage-06 warning: 56 raw rows**. Stage 08 must assign roles conservatively; Stage 08.5 must split/reopen if active teaching-object load is not coherent.",
