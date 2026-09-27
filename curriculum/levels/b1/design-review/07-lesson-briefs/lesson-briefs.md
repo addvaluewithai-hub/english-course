@@ -727,7 +727,7 @@ These briefs are **authoring-contract candidates, not finished lessons**. Stage 
 - U10-L01/L02 must be taught as discourse systems serving explanation, not as phrase/grammar dumps.
 - U10-L02 **passes the Stage-08.5 role-aware load review** at approximately 16 active teaching objects and is retained without a split.
 - Presentation planning, delivery and Q&A retain different evidence boundaries.
-- **Decision:** retain all 7 slots now; mandatory Stage-08.5 reopening test for U10-L02.
+- **Decision:** retain all 7 slots; Stage-08.5 role-aware load review is complete and requires no split/merge.
 
 ---
 
@@ -794,9 +794,9 @@ These briefs are **authoring-contract candidates, not finished lessons**. Stage 
 ### Unit 11 rolling critic
 - Correspondence reception and production remain independently evidenced.
 - Personal email, formal enquiry/application, personal response and online chain are not collapsed into generic “email writing.”
-- U11-L02 grammar warning remains infrastructure pending Stage 08/8.5.
+- U11-L02 passes Stage-08.5 at approximately 12 active teaching objects; its remaining grammar rows stay infrastructure/support rather than a twenty-rule productive sequence.
 - U11-L06 lifecycle correction is contextual practice, not a new semantic-home move.
-- **Decision:** retain all 7 slots; mandatory Stage-08.5 revisit for U11-L02.
+- **Decision:** retain all 7 slots; Stage-08.5 revisit is complete and requires no split/merge.
 
 ---
 
@@ -870,13 +870,13 @@ U1 introduces unprepared interaction early; U3 adds reasoned choice/negotiation;
 - reasoned response: U3-L08 Context 1 + materially different U12-L02 Context 2.
 
 ## 5. Grammar remains performance-owned
-High raw EGP counts in U3/U5/U6/U10/U11 are briefed as systems/infrastructure, not separate rules. Stage 08 must preserve this distinction when formal roles are assigned.
+High raw EGP counts in U3/U5/U6/U10/U11 are briefed as systems/infrastructure, not separate rules. Stage 08/8.5 preserves this distinction in the final exact roles.
 
 ## 6. Broad lexical domains do not take over the syllabus
 Work, media, public life, environment, science, culture, health, services and technology remain contexts attached to performances. No new topic-only unit was needed during authoring-brief review.
 
 ## 7. Stage-06 warnings remain visible rather than hidden
-The briefs explicitly preserve the flagged load boundaries. In particular, U10-L02 is **conditionally retained**, and Stage 08.5 must reopen it if productive-role assignment turns contextual rows into too many independent active objects.
+The briefs explicitly preserve the flagged load boundaries. Stage 08.5 has now re-audited every warning role-aware; U10-L02 resolves to approximately 16 active teaching objects and remains coherent without a split.
 
 ## 8. Transfer freshness survives briefing
 All 11 unit transfers and all 5 Unit-12 integration slots remain zero-new, use changed contexts/prompts and prohibit complete model copying.
@@ -890,8 +890,8 @@ Pronunciation is attached to listening, interaction, narrative/explanation and p
 ## 11. The 85-slot architecture remains viable after authoring-contract pressure
 Writing concise briefs did not expose a new hidden performance requiring a split/merge. The earlier C18 problem is resolved by U10-L03. No Stage-05/06 structural reopening is required at Stage 07 close.
 
-## 12. Semantic lock is still genuinely open
-These briefs deliberately use `Foreground candidate` / `Embedded/support candidate` language. Stage 08 must decide exact productive, receptive, interactive, formulaic and supporting roles from the now-complete design evidence; Stage 07 has not pre-empted that decision.
+## 12. Semantic lock is now reconciled
+The briefs retain their original `Foreground candidate` / `Embedded/support candidate` wording as design history, but Stage 08 + Stage 08.5 now provide the authoritative exact productive, receptive, interactive, formulaic and support roles. Where candidate prose conflicted with the final role-aware critic, the brief/ledger feedback loop was applied explicitly.
 
 # Stage-07 close decision
 
@@ -902,4 +902,4 @@ New source introductions in designated zero-new slots: **0**.
 Stage-06 semantic-home reopenings: **0**.  
 A2 modifications: **0**.
 
-Next: **Stage 08 — formal semantic/control-role reconciliation** across all **1,581** exact B1 source records using the completed design evidence. Do not authorize lesson authoring or delivery/media production before the later semantic reconciliation and authorization gate are closed.
+Stage 08 + Stage 08.5 are now closed across all **1,581** exact B1 source records. Next: **Stage 9 — deterministic lesson-design authorization**. Delivery/media production remains separately unauthorized.
