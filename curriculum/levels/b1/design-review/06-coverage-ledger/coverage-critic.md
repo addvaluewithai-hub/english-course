@@ -56,6 +56,31 @@ This retention is provisional with respect to semantic-role evidence. Stage 08.5
 - The three B1 exit-policy evidence strands remain visible: unscripted familiar problem, connected narrative, and reasoned response in more than one context.
 - Completion/scheduling is not mastery.
 
+## Stage-08.5 feedback re-audit
+
+The role-aware critic later found one genuine Stage-06 routing contradiction rather than a new architecture problem: the provisional round-robin had placed **medication/health-instruction reception** and **symptom production** on the wrong sides of `U9-L05` / `U9-L06`.
+
+Human Stage-08.5 feedback therefore made exactly three first-introduction corrections:
+
+- ability review row **6** → `U9-L05` — medication/health-instruction reception;
+- ability review row **151** → `U9-L06` — symptom communication;
+- phrase review row **174** → `U9-L06` — `wrong with sb/sth` with symptom communication.
+
+The corrected exact report was manually re-reviewed. Result:
+
+- exact records remain **1,581 / 1,581**;
+- orphans remain **0**;
+- all five required later lifecycle stages remain **0 gaps**;
+- all **16 / 16** designated transfer/integration slots remain zero-new;
+- the raw mechanical warning set remains **exactly the same 15 warnings**;
+- thresholds were not changed;
+- no new lesson, split, merge or unit change is justified by the correction;
+- the reviewed coverage-report Git blob is `afc47f0a09515b67d8cc1cd5044f60fdd85cf054`.
+
+**Stage-08.5 coverage feedback decision: accept the exact routing corrections and retain the 12-unit / 85-slot architecture.**
+
+This re-audit does not itself close semantic/mastery lock; the final Stage-08.5 role-aware load critic still has to confirm that productive/interactive teaching-object load is coherent after exact semantic demotions.
+
 ## Stage-06 close decision
 
 **STAGE 06 CLOSED FOR PROVISIONAL COVERAGE/LIFECYCLE DESIGN.**
