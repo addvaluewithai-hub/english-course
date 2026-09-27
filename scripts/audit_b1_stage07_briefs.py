@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate B1 Stage-07 lesson briefs against the exact Stage-06 ledger."""
+"""Validate B1 lesson briefs against the exact reconciled lifecycle ledger."""
 from __future__ import annotations
 
 import json
@@ -46,7 +46,6 @@ def main() -> None:
     if "# Whole-level Stage-07 adversarial critic" not in briefs:
         fail("whole-level critic missing")
 
-    # Every brief must expose the same six authoring-contract fields.
     chunks = re.split(r"(?=^## U\d+-L\d+ — )", briefs, flags=re.MULTILINE)[1:]
     if len(chunks) != 85:
         fail(f"expected 85 brief chunks; found {len(chunks)}")
@@ -63,7 +62,6 @@ def main() -> None:
             if field not in chunk:
                 fail(f"{lid} missing required field {field}")
 
-    # Compute exact introductions directly from the frozen generated ledger.
     counts: dict[str, Counter] = {lid: Counter() for lid in map_ids}
     for record in ledger["records"]:
         intro = record["lifecycle"]["introduce"][0]
@@ -97,14 +95,17 @@ def main() -> None:
         "Structural changes at Stage 07: **0**.",
         "New source introductions in designated zero-new slots: **0**.",
         "A2 modifications: **0**.",
-        "U10-L02 is **conditionally retained**",
+        "U10-L02 **passes the Stage-08.5 role-aware load review**",
+        "## 12. Semantic lock is now reconciled",
+        "Stage 08 + Stage 08.5 are now closed across all **1,581** exact B1 source records.",
     ):
         if marker not in briefs:
-            fail(f"required Stage-07 close marker missing: {marker}")
+            fail(f"required reconciled brief marker missing: {marker}")
 
     print(
-        "B1 STAGE-07 AUDIT PASS — 85/85 briefs match exact Stage-06 loads; "
-        "12/12 rolling critics + whole-level critic present; 16/16 zero-new slots protected"
+        "B1 STAGE-07/08.5 BRIEF AUDIT PASS — 85/85 briefs match exact reconciled loads; "
+        "12/12 rolling critics + whole-level critic present; 16/16 zero-new slots protected; "
+        "role-aware feedback markers closed"
     )
 
 
