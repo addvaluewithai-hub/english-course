@@ -1,8 +1,0 @@
-{
-  "schema_version": 1,
-  "items": [
-    {"when": "next_day", "task": "Write three fresh spoken digit groups."},
-    {"when": "three_days", "task": "Capture a new fictional name and phone number after one replay."},
-    {"when": "seven_days", "task": "Complete a fresh contact-message probe with a new voice and number pattern."}
-  ]
-}

@@ -1,7 +1,0 @@
-{
-  "schema_version": 1,
-  "video_readable_equivalent": "video/transcript.txt",
-  "captions": {"required": true, "source": "video/transcript.txt", "timing": "apply_after_final_audio"},
-  "messaging": {"sender_and_turn_labels_programmatic": true, "keyboard_entry": true, "speech_to_text_optional": true, "message_order_screen_reader_clear": true},
-  "feedback": {"color_only": false, "request_or_reply_label_required": true}
-}

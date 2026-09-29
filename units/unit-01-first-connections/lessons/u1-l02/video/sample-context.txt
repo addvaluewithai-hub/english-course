@@ -1,7 +1,0 @@
-Speaker 1 is a warm Egyptian English teacher speaking directly to one Arabic-speaking adult beginner.
-
-Use natural Egyptian Arabic for explanation and clean General American pronunciation for every English span. The teacher sounds observant and reassuring, showing the learner how to listen for meaning without translating every word.
-
-Read the first English model slowly and clearly, then repeat key contrasts at a relaxed natural pace. Make first-person and third-person forms audibly distinct without exaggeration.
-
-SSML language and phoneme elements are silent pronunciation instructions. Apply them but never read markup, attributes, or IPA symbols aloud. Bracketed tags are silent performance directions. Preserve the transcript exactly and do not add questions that require the learner to pause or answer during the video.
