@@ -1,8 +1,8 @@
 # B2 Stage 1 — Manual Ability Review
 
-Status: **HUMAN-REVIEWED STAGE-1 ARCHITECTURE V1 — OPEN TO LATER EVIDENCE-DRIVEN REOPENING**
+Status: **MANUAL REVIEW CANDIDATE V1 — OWNER HUMAN APPROVAL PENDING**
 
-This is the authoritative Stage-1 human curriculum decision file for B2. It does **not** set unit counts, lesson counts, final semantic/control roles, or delivery-production authorization.
+This is the Stage-1 curriculum review candidate for B2. It records an explicit manual disposition proposal for every required ability and a critic-reviewed capability architecture, but it is **not** a claim of human semantic approval. Under the project rules, human curriculum decisions remain authoritative. This file does **not** set unit counts, lesson counts, final semantic/control roles, or delivery-production authorization.
 
 ## Pinned review input and traceability
 
@@ -12,7 +12,7 @@ Manual review covered all **270 required B2 abilities** using:
 - compact review aid: `curriculum/levels/b2/design-review/01-abilities/generated/ability-review-aid.md`
 - pinned review-aid blob SHA: `7d6668752896c1afb3b27c1114b02d49d6ffcfa3`
 
-The numbered rows in the disposition matrix below are one-to-one pointers to the pinned review aid. The review aid carries the **exact source record ID, source mode, skill, function tags, and source ability text** for every row. Row numbers are used here only to keep the human decision file compact; exact source IDs remain authoritative in the pinned companion file.
+The numbered rows in the disposition matrix below are one-to-one pointers to the pinned review aid. The review aid carries the **exact source record ID, source mode, skill, function tags, and source ability text** for every row. Row numbers are used here only to keep the review file compact; exact source IDs remain authoritative in the pinned companion file.
 
 No source record is deleted or duplicated by a design split. `SPLIT` creates multiple design components while retaining one source record.
 
@@ -23,7 +23,7 @@ No source record is deleted or duplicated by a design split. `SPLIT` creates mul
 - `P:<capability>+<capability>` = **SPLIT** into multiple design components; the source row remains one source record.
 - `S:<requirement>` = **SUPPORTING** cross-cutting requirement, not a fake standalone top-level capability.
 
-Manual disposition totals:
+Candidate disposition totals:
 
 - KEEP: **15**
 - MERGE: **209**
@@ -163,9 +163,9 @@ The critic specifically checked against accidental modality collapse.
 - orphan required abilities: **0**
 - duplicate source inflation from splits: **0**
 - predetermined units/lessons: **0**
-- unresolved modality collapse: **0 identified at this stage**
-- architecture status: **accepted for Stage 2 phrase review, with explicit right to reopen when phrase/grammar/lexical evidence requires it**
+- unresolved modality collapse: **0 identified in this candidate review**
+- architecture status: **candidate ready for owner human review and for Stage-2 evidence testing; it is not a human semantic lock**
 
 ## Next action
 
-Proceed to **Stage 2 — manual phrase review**. Phrase evidence may merge, split, rename or otherwise reopen these capability families if the source evidence shows that the current architecture hides or invents a communicative boundary.
+Proceed to **Stage 2 — manual phrase review** as an evidence-testing stage. Phrase evidence may merge, split, rename or otherwise reopen these capability families if the source evidence shows that the current architecture hides or invents a communicative boundary. Human owner approval remains required before treating Stage 1 as an authoritative human curriculum decision.
