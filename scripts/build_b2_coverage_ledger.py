@@ -91,7 +91,7 @@ def union_cap_lifecycle(plan,cap_codes,order):
     result={stage:[] for stage in STAGES.values()}
     for cap in cap_codes:
         raw=plan["capabilities"][cap]
-        for short,stage in STAGES.items(): result[stage].extend(csv(raw[short]))
+        for short,stage in STAGES.items(): result[stage].extend(raw[stage] if stage in raw else csv(raw[short]))
     for stage in result: result[stage]=sorted(set(result[stage]),key=order.__getitem__)
     return result
 
