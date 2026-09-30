@@ -109,7 +109,6 @@ def parse_map(md: str) -> tuple[list[str], dict[str, dict], dict[str, dict]]:
 
     flush_lesson()
 
-    # Unit critics can appear after the final lesson body; capture them independently.
     current_unit = None
     for raw in lines:
         unit_match = re.match(r"^# Unit (\d+)\s+[—-]\s+(.+?)\s*$", raw)
@@ -224,13 +223,14 @@ def build() -> str:
     policy = load_json(POLICY_PATH)
     critic = load_json(LOAD_CRITIC_PATH)
     records = ledger["records"]
+    warning_count = critic.get("warning_count")
 
     if ledger.get("lesson_count") != 95 or len(records) != 2075:
         raise ValueError("Stage-07 input drift: expected Stage-06 ledger with 95 lessons / 2075 records")
-    if critic.get("warning_count") != len(critic.get("accepted_warnings", [])):
+    if warning_count != len(critic.get("accepted_warnings", [])):
         raise ValueError("Stage-06 load critic warning count is internally inconsistent")
-    if critic.get("warning_count") != 30:
-        raise ValueError(f"Stage-07 currently expects reviewed Stage-06 warning set of 30, got {critic.get('warning_count')}")
+    if warning_count != 31:
+        raise ValueError(f"Stage-07 currently expects reviewed Stage-06 warning set of 31, got {warning_count}")
 
     intro_by: dict[str, list[dict]] = {lid: [] for lid in order}
     for rec in records:
@@ -274,7 +274,7 @@ def build() -> str:
         "- Stage-5 lesson slots: **95**",
         "- Stage-6 exact source records: **2,075**",
         "- designated zero-new slots: **18**",
-        "- documented Stage-6 raw load warnings: **30** (thresholds unchanged)",
+        f"- documented Stage-6 raw load warnings: **{warning_count}** (thresholds unchanged)",
         "- final semantic/control roles: **pending Stage 8**",
         "",
     ]
@@ -398,7 +398,7 @@ def build() -> str:
         "- exact Stage-6 source records represented through lesson introduction contracts: **2,075 / 2,075**",
         "- duplicate exact introduction ownership: **0**",
         "- designated zero-new slots: **18 / 18 protected**",
-        "- Stage-6 raw warning set represented in briefs: **30 / 30**",
+        f"- Stage-6 raw warning set represented in briefs: **{warning_count} / {warning_count}**",
         "",
         "## Modality and performance integrity",
         "",
@@ -414,7 +414,7 @@ def build() -> str:
         "",
         "## Load integrity",
         "",
-        "The exact existing set of 30 raw Stage-6 warnings remains visible; thresholds were not raised and warnings were not erased by prose. U5 and U10 remain conditional role-sensitive pressure points. Stage 8.5 must rerun load after exact semantic/control roles are locked.",
+        f"The exact existing set of {warning_count} raw Stage-6 warnings remains visible; thresholds were not raised and warnings were not erased by prose. U5 and U10 remain conditional role-sensitive pressure points. Stage 8.5 must rerun load after exact semantic/control roles are locked.",
         "",
         "## Architecture decision",
         "",
@@ -432,7 +432,7 @@ def main() -> None:
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(result + "\n", encoding="utf-8")
     print("B2 STAGE-07 BRIEFS BUILT")
-    print("lessons=95 source_records=2075 zero_new=18 stage06_warning_rows=30")
+    print("lessons=95 source_records=2075 zero_new=18 stage06_warning_rows=31")
     print("semantic/control roles remain pending Stage 8; owner approval remains required")
 
 
