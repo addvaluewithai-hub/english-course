@@ -49,17 +49,21 @@ def compatible_intro_units(item: dict) -> set[str]:
 
     if production:
         if speaking:
-            units.update({"U4", "U5"})
+            # A source-coded spoken production component can be introduced inside
+            # discussion/negotiation/formal-interaction/mediation lessons so long as
+            # the source mode remains a production evidence subcomponent. What we
+            # must prevent is its first introduction inside reception or writing units.
+            units.update({"U4", "U5", "U6", "U7", "U8", "U9"})
         if writing:
             units.update({"U10", "U11", "U12"})
         if not speaking and not writing:
-            units.update({"U4", "U5", "U10", "U11", "U12"})
+            units.update({"U4", "U5", "U6", "U7", "U8", "U9", "U10", "U11", "U12"})
 
     if interaction:
         if writing:
             units.add("U12")
         if speaking or not writing:
-            units.update({"U6", "U7", "U8"})
+            units.update({"U6", "U7", "U8", "U9"})
 
     if mediation:
         units.add("U9")
