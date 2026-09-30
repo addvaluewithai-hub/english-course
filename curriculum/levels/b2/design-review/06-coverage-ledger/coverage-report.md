@@ -40,35 +40,35 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 | U2-L05 | 0 | 2 | 0 | 17 | 0 | 19 |
 | U2-L06 | 9 | 1 | 0 | 13 | 0 | 23 |
 | U2-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| U3-L01 | 21 | 1 | 0 | 20 | 3 | 45 |
-| U3-L02 | 2 | 2 | 0 | 20 | 0 | 24 |
-| U3-L03 | 1 | 2 | 0 | 20 | 0 | 23 |
-| U3-L04 | 10 | 1 | 0 | 15 | 0 | 26 |
-| U3-L05 | 6 | 1 | 0 | 15 | 1 | 23 |
+| U3-L01 | 9 | 1 | 0 | 20 | 3 | 33 |
+| U3-L02 | 9 | 2 | 0 | 20 | 0 | 31 |
+| U3-L03 | 6 | 2 | 0 | 20 | 0 | 28 |
+| U3-L04 | 9 | 1 | 0 | 15 | 0 | 25 |
+| U3-L05 | 7 | 1 | 0 | 15 | 1 | 24 |
 | U3-L06 | 3 | 0 | 0 | 19 | 0 | 22 |
 | U3-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| U4-L01 | 15 | 4 | 13 | 28 | 2 | 62 |
-| U4-L02 | 1 | 4 | 3 | 28 | 0 | 36 |
+| U4-L01 | 9 | 4 | 13 | 28 | 2 | 56 |
+| U4-L02 | 6 | 4 | 3 | 28 | 0 | 41 |
 | U4-L03 | 3 | 4 | 5 | 28 | 2 | 42 |
 | U4-L04 | 2 | 4 | 10 | 28 | 1 | 45 |
 | U4-L05 | 2 | 4 | 8 | 27 | 0 | 41 |
 | U4-L06 | 3 | 4 | 0 | 27 | 0 | 34 |
-| U4-L07 | 4 | 4 | 0 | 28 | 1 | 37 |
+| U4-L07 | 5 | 4 | 0 | 28 | 1 | 38 |
 | U4-L08 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U5-L01 | 6 | 5 | 4 | 19 | 0 | 34 |
 | U5-L02 | 4 | 5 | 6 | 19 | 0 | 34 |
 | U5-L03 | 6 | 5 | 7 | 18 | 0 | 36 |
 | U5-L04 | 3 | 5 | 4 | 20 | 0 | 32 |
-| U5-L05 | 3 | 1 | 21 | 10 | 0 | 35 |
+| U5-L05 | 4 | 1 | 21 | 10 | 0 | 36 |
 | U5-L06 | 4 | 0 | 13 | 10 | 0 | 27 |
 | U5-L07 | 4 | 1 | 3 | 9 | 0 | 17 |
 | U5-L08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| U6-L01 | 3 | 2 | 0 | 12 | 0 | 17 |
+| U6-L01 | 9 | 2 | 0 | 12 | 0 | 23 |
 | U6-L02 | 1 | 1 | 0 | 12 | 0 | 14 |
-| U6-L03 | 1 | 1 | 0 | 13 | 0 | 15 |
+| U6-L03 | 3 | 1 | 0 | 13 | 0 | 17 |
 | U6-L04 | 1 | 0 | 15 | 13 | 0 | 29 |
-| U6-L05 | 0 | 1 | 4 | 14 | 0 | 19 |
-| U6-L06 | 21 | 1 | 0 | 13 | 0 | 35 |
+| U6-L05 | 1 | 1 | 4 | 14 | 0 | 20 |
+| U6-L06 | 9 | 1 | 0 | 13 | 0 | 23 |
 | U6-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U7-L01 | 1 | 3 | 2 | 14 | 0 | 20 |
 | U7-L02 | 2 | 3 | 10 | 14 | 0 | 29 |
@@ -81,8 +81,8 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 | U8-L02 | 1 | 0 | 0 | 10 | 0 | 11 |
 | U8-L03 | 1 | 1 | 0 | 9 | 0 | 11 |
 | U8-L04 | 2 | 1 | 0 | 10 | 0 | 13 |
-| U8-L05 | 6 | 1 | 0 | 10 | 0 | 17 |
-| U8-L06 | 0 | 0 | 0 | 10 | 0 | 10 |
+| U8-L05 | 7 | 1 | 0 | 10 | 0 | 18 |
+| U8-L06 | 1 | 0 | 0 | 10 | 0 | 11 |
 | U8-L07 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U9-L01 | 6 | 2 | 0 | 14 | 0 | 22 |
 | U9-L02 | 0 | 2 | 1 | 14 | 0 | 17 |
@@ -93,7 +93,7 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 | U9-L07 | 1 | 1 | 0 | 14 | 0 | 16 |
 | U9-L08 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U10-L01 | 6 | 1 | 16 | 30 | 0 | 53 |
-| U10-L02 | 6 | 1 | 5 | 31 | 0 | 43 |
+| U10-L02 | 7 | 1 | 5 | 31 | 0 | 44 |
 | U10-L03 | 3 | 1 | 5 | 32 | 0 | 41 |
 | U10-L04 | 1 | 1 | 3 | 30 | 0 | 35 |
 | U10-L05 | 4 | 2 | 4 | 31 | 0 | 41 |
@@ -104,8 +104,8 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 | U11-L03 | 0 | 2 | 0 | 26 | 0 | 28 |
 | U11-L04 | 0 | 3 | 5 | 25 | 0 | 33 |
 | U11-L05 | 5 | 1 | 3 | 24 | 0 | 33 |
-| U11-L06 | 11 | 0 | 0 | 23 | 0 | 34 |
-| U11-L07 | 3 | 0 | 4 | 22 | 0 | 29 |
+| U11-L06 | 9 | 0 | 0 | 23 | 0 | 32 |
+| U11-L07 | 4 | 0 | 4 | 22 | 0 | 30 |
 | U11-L08 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U12-L01 | 0 | 0 | 2 | 16 | 0 | 18 |
 | U12-L02 | 6 | 0 | 2 | 16 | 0 | 24 |
@@ -125,13 +125,10 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 ## Mechanical load result
 
 **OVERLOAD WARNINGS FOUND — Stage-06 load critic required; thresholds were not raised to force a pass.**
-- U3-L01: ability = 21 > 9
 - U3-L01: pronunciation = 3 > 2
-- U3-L04: ability = 10 > 9
-- U4-L01: ability = 15 > 9
 - U4-L01: grammar = 13 > 12
 - U4-L01: word = 28 > 22
-- U4-L01: total = 62 > 46
+- U4-L01: total = 56 > 46
 - U4-L02: word = 28 > 22
 - U4-L03: word = 28 > 22
 - U4-L04: word = 28 > 22
@@ -141,7 +138,6 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 - U5-L05: grammar = 21 > 12
 - U5-L06: grammar = 13 > 12
 - U6-L04: grammar = 15 > 12
-- U6-L06: ability = 21 > 9
 - U10-L01: grammar = 16 > 12
 - U10-L01: word = 30 > 22
 - U10-L01: total = 53 > 46
@@ -155,7 +151,6 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 - U11-L03: word = 26 > 22
 - U11-L04: word = 25 > 22
 - U11-L05: word = 24 > 22
-- U11-L06: ability = 11 > 9
 - U11-L06: word = 23 > 22
 - U12-L05: word = 26 > 22
 - U12-L06: word = 27 > 22
@@ -168,25 +163,20 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 ## Overload attribution
 
 ### U3-L01
-- **ability (21)**: Can relate information in a presentation to the same information given in graphs, charts and tables. (Wa); Can distinguish between relevant and irrelevant content in extended informal speech. (P); Can understand most of a radio programme about a familiar topic. (Ca); Can understand scripted speech delivered quickly, if the accent is familiar. (Ca); Can follow changes of topic in factual TV news items and form an idea of the main content. (C); Can recognise when examples are being given in a structured presentation on an unfamiliar topic. (P); Can follow a natural group discussion, but may find it difficult to participate effectively. (Ca); Can understand unscripted speech delivered quickly, if the accent is familiar. (Ca); Can understand main points and check comprehension by using contextual clues. (Ca); Can understand cause and effect relationships in informal conversation at natural speed. (P); Can understand most of a radio programme aimed at a general audience. (P); Can follow chronological sequences in extended informal speech at natural speed. (P); Can understand the main ideas of complex technical discussions in their field. (Ca); Can extract specific details from poor quality public announcements, e.g., in a ‘station’, ‘sports stadium’, etc. (N2000a); Can identify key information in linguistically complex conversations at natural speed. (P); Can understand the main points of complex and abstract presentations in their field. (Ca); Can understand most TV news and current affairs programmes. (C); Can understand the main points of complex academic/professional presentations. (Ca); Can follow extended speech expressing unstructured ideas and thoughts. (P); Can follow an animated conversation between two fluent speakers. (Ca); Can follow extended speech on abstract and complex topics outside their field, if able to ask for confirmation of details. (Ca)
+- **ability (9)**: Can relate information in a presentation to the same information given in graphs, charts and tables. (Wa); Can understand most of a radio programme about a familiar topic. (Ca); Can understand scripted speech delivered quickly, if the accent is familiar. (Ca); Can understand unscripted speech delivered quickly, if the accent is familiar. (Ca); Can understand main points and check comprehension by using contextual clues. (Ca); Can extract specific details from poor quality public announcements, e.g., in a ‘station’, ‘sports stadium’, etc. (N2000a); Can understand the main points of complex and abstract presentations in their field. (Ca); Can understand the main points of complex academic/professional presentations. (Ca); Can follow extended speech on abstract and complex topics outside their field, if able to ask for confirmation of details. (Ca)
 - **phrase (1)**: come across sb/sth
 - **word (20)**: artificial; cite; collapse; demonstrate; estate; initially; lord; potential; shame; ship; therapy; tune; wound; accountant; carbon; clerk; freely; perception; pill; sponsorship
 - **pronunciation (3)**: Sound perception and word recognition; Sentence prominence and rhythm; Connected-speech perception and production
 
-### U3-L04
-- **ability (10)**: Can identify the main reasons for and against an argument or idea in a discussion delivered in clear standard speech. (P); Can recognise that a speaker is expressing concerns in a formal discussion. (P); Can recognise the speaker’s point of view in a structured presentation. (P); Can understand the advantages and disadvantages of different options during a discussion. (P); Can extract the main points from news items, etc. with opinions, arguments and discussion. (Ca); Can understand the speaker’s point of view on most topics delivered at natural speed and in standard language. (CJa); Can distinguish between fact and opinion in informal discussion at natural speed. (P); Can understand summaries of data or research used to support an extended argument. (P); Can understand when something is being said ironically in a casual conversation. (N2007a); Can recognise the language and strategies used when a speaker is avoiding answering a question. (P)
-- **phrase (1)**: more or less
-- **word (15)**: associated; criticism; emotional; entire; examination; master; shooting; thus; tough; collector; conspiracy; furious; gorgeous; potentially; proceed
-
 ### U4-L01
-- **ability (15)**: Can describe objects, possessions and products in detail, including their characteristics and special features. (P); Can tell a short story about something funny or interesting that has happened, including detail to maintain the listener’s interest. (P); Can describe people’s personality and emotions in some detail. (P); Can describe the plot of a book or film in some detail. (CSEa); Can describe the degree of necessity of various actions. (P); Can give a clear, detailed spoken description of how to carry out a procedure. (C); Can make spontaneous announcements clearly and fluently. (Ca); Can talk about financial problems. (P); Can describe goals using a range of expressions. (P); Can outline an issue or problem clearly. (Ca); Can give clear, detailed descriptions on a wide range of familiar subjects. (Ca); Can use a variety of linking words efficiently to mark clearly the relationships between ideas. (N2000); Can talk about personal experiences in detail using linguistically complex language. (P); Can describe places in detail using linguistically complex language. (P); Can talk in detail about choices that have been significant or life changing using linguistically complex language. (P)
+- **ability (9)**: Can describe objects, possessions and products in detail, including their characteristics and special features. (P); Can tell a short story about something funny or interesting that has happened, including detail to maintain the listener’s interest. (P); Can give a clear, detailed spoken description of how to carry out a procedure. (C); Can make spontaneous announcements clearly and fluently. (Ca); Can talk about financial problems. (P); Can outline an issue or problem clearly. (Ca); Can give clear, detailed descriptions on a wide range of familiar subjects. (Ca); Can use a variety of linking words efficiently to mark clearly the relationships between ideas. (N2000); Can talk about personal experiences in detail using linguistically complex language. (P)
 - **phrase (4)**: a means of sth; as follows…; control over sb/sth; dependent on sb/sth
 - **grammar (13)**: FORM: PHRASES MODIFYING NOUNS; FORM: WITH 'RATHER A'; FORM/USE: DEGREE ADJECTIVES BEFORE NOUNS; FORM: DEGREE, MODIFYING DETERMINERS; FORM: PRONOUN + PREPOSITION; FORM/USE: SENTENCE, EVALUATIVE; FORM: PLURAL NOUN + 'S''; FORM: 'ITS'; FORM: POSTMODIFYING WITH ADJECTIVE PHRASE; FORM: NO ARTICLE; FORM: 'OURS' AS OBJECT; FORM: +  'OF OURS'; FORM: 'HERS' AS OBJECT
 - **word (28)**: angle; back; but; decline; enthusiastic; expense; external; fold; melt; panel; rapid; slave; slide; stream; structure; ultimately; unknown; zone; ballet; bug; chase; comparative; emission; genetic; innovative; promotion; recruitment; spare
 - **pronunciation (2)**: Consonant contrasts and place or manner clarity; Vowel contrasts and reduced vowels
 
 ### U4-L02
-- **ability (1)**: Can describe how to do something, giving detailed instructions. (C)
+- **ability (6)**: Can describe people’s personality and emotions in some detail. (P); Can describe the plot of a book or film in some detail. (CSEa); Can describe the degree of necessity of various actions. (P); Can describe how to do something, giving detailed instructions. (C); Can describe goals using a range of expressions. (P); Can describe places in detail using linguistically complex language. (P)
 - **phrase (4)**: account for sth; as for sb/sth; engage in sth; find yourself doing sth
 - **grammar (3)**: FORM: INFINITIVE; FORM: PAST PERFECT SIMPLE, NEGATIVE; FORM: WITH VERBS TAKING TWO OBJECTS, , WITH PREPOSITIONAL PHRASE
 - **word (28)**: bar; bunch; decrease; exploration; extraordinary; faith; following; grab; mission; plain; rapidly; slip; soul; tank; vast; briefly; cabin; choir; chop; circuit; completion; delete; fossil; genius; modest; protein; scholar; steam
@@ -217,13 +207,13 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 - **word (27)**: being; curved; enhance; feather; ideal; modify; mount; raw; somewhat; spot; step; via; anxiety; astonishing; cave; concrete; craft; downtown; globe; insert; installation; instantly; outstanding; random; spill; sustainable; workplace
 
 ### U4-L07
-- **ability (4)**: Can use a limited number of cohesive devices with some ‘jumpiness’ in a long contribution. (Ca); Can plan what is to be said and the means to say it, considering the effect on the recipient. (Ca); Can use stock phrases to gain time and keep the turn whilst formulating what to say. (Ca); Can relate their own contribution skilfully to those of other speakers. (C)
+- **ability (5)**: Can use a limited number of cohesive devices with some ‘jumpiness’ in a long contribution. (Ca); Can plan what is to be said and the means to say it, considering the effect on the recipient. (Ca); Can use stock phrases to gain time and keep the turn whilst formulating what to say. (Ca); Can talk in detail about choices that have been significant or life changing using linguistically complex language. (P); Can relate their own contribution skilfully to those of other speakers. (C)
 - **phrase (4)**: at this point; decline in sth; go off; turn into sth
 - **word (28)**: absolute; bent; depth; establish; fee; initial; moral; narrow; root; stage; stretch; volume; whereas; awkward; cliff; confusion; creativity; disappointment; fare; golden; interval; manufacture; precious; rat; receiver; swallow; tsunami; workshop
 - **pronunciation (1)**: Chunking, pausing, monitoring, and pronunciation repair
 
 ### U5-L05
-- **ability (3)**: Can describe future plans and intentions in detail, giving degrees of probability. (P); Can describe what they would do and how they would react to situations in a text. (P); Can use a range of language to express degrees of reluctance. (P)
+- **ability (4)**: Can describe future plans and intentions in detail, giving degrees of probability. (P); Can describe what they would do and how they would react to situations in a text. (P); Can use a range of language to express degrees of enthusiasm. (P); Can use a range of language to express degrees of reluctance. (P)
 - **phrase (1)**: potential for sth
 - **grammar (21)**: FORM: 'BE ABOUT TO'; FORM: 'BE TO'; USE: IMMEDIATE FUTURE WITH 'BE ABOUT TO'; FORM: WITH ADVERBS; USE: GUESSES AND PREDICTIONS; FORM: NEGATIVE; FORM: AFFIRMATIVE; USE: BRAVADO; FORM: 'BE' EXPRESSIONS + INFINITIVE; USE: 'BE DUE TO', 'BE TO', SCHEDULES; FORM/USE: 'BE MORE/LESS LIKELY', COMPARISON; USE: 'BE BOUND TO', CERTAINTY; USE: 'BE SUPPOSED TO', OBLIGATION, EXPECTATION; USE: 'BE SURE/CERTAIN TO'; USE: 'BE OBLIGED TO', OBLIGATION; FORM: QUESTIONS; USE: EMPHASIS; USE: OBLIGATION AND NECESSITY; USE: CONCESSIONS; FORM: SEMI-MODAL AUXILIARY VERBS, 'DARE', 'NEED'; FORM: VERB + '-ING' FORM
 - **word (10)**: blame; extend; file; nerve; surrounding; crack; dare; herb; relieved; speculation
@@ -238,11 +228,6 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 - **grammar (15)**: FORM/USE: 'LET'S NOT', SUGGESTION; FORM/USE: NEGATIVE INTERROGATIVE; FORM: QUESTIONS; USE: GENERAL TRUTHS AND TENDENCIES; USE: REPROACHES AND APPEALS; USE: SUGGESTION; USE: COMMAND; USE: POLITE REQUEST; USE: OPINION; FORM: ELLIPSIS; USE: HABITUAL PAST; FORM: NEGATIVE; USE: POLITENESS: 'I WONDERED' AND 'I WANTED'; FORM/USE: WITH ADVERBS OF INDEFINITE FREQUENCY; USE: STORIES AND COMMENTARIES
 - **word (13)**: catch; concerned; folding; housing; obtain; opposed; track; cheer; deadly; illusion; optimistic; prompt; revision
 
-### U6-L06
-- **ability (21)**: Can discuss options and possible actions. (P); Can exchange information on a wide range of topics within their field with some confidence. (Ca); Can show interest and appreciation in conversation using a range of expressions. (P); Can bring relevant personal experiences into a conversation to illustrate a point. (P); Can justify a viewpoint on a topical issue by discussing pros and cons of various options. (Ca); Can engage in extended conversation in a clearly participatory fashion on most general topics. (Ca); Can express their opinions in discussions on contemporary social issues and current affairs. (CSEa); Can use a range of language to express degrees of enthusiasm. (P); Can express views clearly and evaluate hypothetical proposals in informal discussions. (Ca); Can use intonation to indicate various degrees of certainty during a discussion. (P); Can contribute to a conversation fluently and naturally, provided the topic is not too abstract or complex. (P); Can adjust to the changes of direction, style and emphasis normally found in conversation. (C); Can initiate, maintain and end discourse naturally with effective turn-taking. (Ca); Can emphasise a point in a conversation using rhetorical questions. (P); Can comment tactfully on other people’s contributions to a discussion. (Wa); Can politely avoid answering a question without making it obvious to the listener. (N2007a); Can use hyperbole to emphasise a point (e.g. ‘It’s going to take me years to do this.’). (P); Can ask detailed questions in discussions on contemporary social issues and current affairs. (CSEa); Can evaluate arguments in a debate or discussion and justify the evaluation. (P); Can give a detailed response to a counter-argument presented by someone else during a discussion. (N2007a); Can manage discussions to ensure that they are based on facts and evidence rather than speculation. (P)
-- **phrase (1)**: at the end of the day
-- **word (13)**: chairman; demand; expectation; fortune; minority; opening; perspective; trust; defender; gig; incentive; patience; rose
-
 ### U10-L01
 - **ability (6)**: Can write a detailed description of an object, device or product. (P); Can write detailed descriptions of real or imaginary people. (P); Can write an extended description of events taking place in their immediate environment. (P); Can write detailed descriptions of real or imaginary places. (P); Can develop a clear written description or narrative with relevant supporting detail and examples. (Ca); Can write clear, detailed descriptions on a variety of subjects related to their field of interest. (C)
 - **phrase (1)**: in turn
@@ -250,7 +235,7 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 - **word (30)**: agenda; appropriate; crisis; cure; disc; holy; massive; pace; privacy; rubber; split; strike; weakness; accent; challenging; corridor; dramatically; emotionally; heal; literary; logo; manufacturing; marathon; pity; prior; rail; risky; stall; tag; trap
 
 ### U10-L02
-- **ability (6)**: Can clearly signal cause and effect relationships in a structured text. (P); Can write instructions on how to repair an object, device or product. (P); Can organise complex written material into numbered sections and sub-sections. (P); Can write a detailed description of a complex process. (P); Can structure longer complex texts using a range of cohesive devices. (P); Can prepare questions for a quiz using linguistically complex language. (P)
+- **ability (7)**: Can clearly signal cause and effect relationships in a structured text. (P); Can write instructions on how to repair an object, device or product. (P); Can write engaging headlines or titles to capture a reader’s attention. (P); Can organise complex written material into numbered sections and sub-sections. (P); Can write a detailed description of a complex process. (P); Can structure longer complex texts using a range of cohesive devices. (P); Can prepare questions for a quiz using linguistically complex language. (P)
 - **phrase (1)**: no matter…
 - **grammar (5)**: FORM: MODAL PERFECT; FORM: PRESENT CONTINUOUS, NEGATIVE; FORM: WITH MODAL VERBS; FORM: VERB + PARTICLE + PREPOSITION + OBJECT; FORM: NO OBJECT
 - **word (31)**: anger; assessment; brief; cry; display; host; infection; minor; pile; produce; shade; stuff; transform; accidentally; charming; counter (long flat surface); duration; envelope; healthcare; lottery; lyric; mechanical; medal; obstacle; pride; shocking; shortly; starve; tap; terminal; wander
@@ -300,13 +285,13 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 - **word (25)**: accompany; civil; crucial; desert; extent; impress; income; outline; regard; relatively; reveal; sincere; altogether; assumption; disabled; exception; failed; infer; mechanic; offender; retail; roughly; teens; variation; weird
 
 ### U11-L05
-- **ability (5)**: Can end a discursive argument with a clear conclusion and opinion. (P); Can summarise in writing different points of view. (Wa); Can show the relationship between an opinion and a counter-argument in a discursive text. (P); Can summarise opposing arguments in writing, including supporting evidence. (Wa); Can write a detailed, reasoned argument for or against a case. (N2007a)
+- **ability (5)**: Can give advice, including reasons. (P); Can summarise in writing different points of view. (Wa); Can show the relationship between an opinion and a counter-argument in a discursive text. (P); Can summarise opposing arguments in writing, including supporting evidence. (Wa); Can write a detailed, reasoned argument for or against a case. (N2007a)
 - **phrase (1)**: whether or not…
 - **grammar (3)**: FORM/USE: FORMAL; FORM: DIRECT SPEECH, REPORTING CLAUSE, MID POSITION; FORM/USE: CITATION, PRESENT SIMPLE
 - **word (24)**: adapt; decent; defence; deserve; frequency; impressed; investment; prime; relevant; relief; slight; survey; amusing; certainty; diverse; exclude; fake; integrate; membership; penalty; revenue; steadily; terms; widespread
 
 ### U11-L06
-- **ability (11)**: Can give advice, including reasons. (P); Can compare information from different sources. (P); Can signal additional information in a formal structured text with a range of language. (P); Can edit notes or bullet points to make them more concise. (P); Can correctly attribute information from different sources. (P); Can write engaging headlines or titles to capture a reader’s attention. (P); Can adopt a level of formality appropriate to the circumstances. (N2000); Can synthesise and evaluate familiar information and arguments from a number of sources. (Ca); Can write relevant subheadings to structure longer more complex texts. (P); Can express the same idea with a different level of formality appropriate to the audience. (P); Can edit a text to make the style more neutral or formal. (P)
+- **ability (9)**: Can compare information from different sources. (P); Can signal additional information in a formal structured text with a range of language. (P); Can edit notes or bullet points to make them more concise. (P); Can correctly attribute information from different sources. (P); Can adopt a level of formality appropriate to the circumstances. (N2000); Can synthesise and evaluate familiar information and arguments from a number of sources. (Ca); Can write relevant subheadings to structure longer more complex texts. (P); Can express the same idea with a different level of formality appropriate to the audience. (P); Can edit a text to make the style more neutral or formal. (P)
 - **word (23)**: adopt; defend; deliberate; desire; incident; loan; mass; rely; remark; representative; stable; title; analyst; diversity; exit; firm; hopefully; interpretation; memorable; protester; terribly; ton; trading
 
 ### U12-L05
@@ -324,4 +309,4 @@ Exact source coverage is not a mastery claim; final role-aware evidence remains 
 
 ## Audit verdict
 
-**REVIEW REQUIRED — lifecycle complete, but 35 mechanical load warnings require critic review.**
+**REVIEW REQUIRED — lifecycle complete, but 30 mechanical load warnings require critic review.**
