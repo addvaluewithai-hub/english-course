@@ -27,19 +27,18 @@ def main() -> None:
     md = args.briefs.read_text(encoding="utf-8")
     ledger = json.loads(LEDGER.read_text(encoding="utf-8"))
     critic = json.loads(CRITIC.read_text(encoding="utf-8"))
+    warning_count = critic.get("warning_count")
 
     lesson_ids = re.findall(r"^###\s+(U\d+-L\d+)\s+[—-]\s+", md, flags=re.M)
     if len(lesson_ids) != 95 or len(set(lesson_ids)) != 95:
         raise SystemExit(f"Stage-07 brief headings must be 95 unique lessons, got {len(lesson_ids)} / {len(set(lesson_ids))}")
 
-    ledger_lessons = set()
     intro_counts: dict[str, int] = {lid: 0 for lid in lesson_ids}
     for rec in ledger["records"]:
         intro = rec["lifecycle"]["introduce"]
         if len(intro) != 1:
             raise SystemExit(f"invalid Stage-06 intro ownership for {rec['item_id']}: {intro}")
         lid = intro[0]
-        ledger_lessons.add(lid)
         if lid not in intro_counts:
             raise SystemExit(f"ledger introduction references lesson absent from Stage-07 briefs: {lid}")
         intro_counts[lid] += 1
@@ -48,17 +47,6 @@ def main() -> None:
     if zero_new != EXPECTED_ZERO_NEW:
         raise SystemExit(f"Stage-07 zero-new set mismatch: {sorted(zero_new ^ EXPECTED_ZERO_NEW)}")
 
-    # Every brief must expose the contract fields required by the playbook.
-    required_fields = (
-        "**Primary communicative/evidence outcome:**",
-        "**Exact new-source load:**",
-        "**Foreground core:**",  # zero-new slots
-        "**Semantic / grammar boundary:**",
-        "**Prerequisites / recycled B1:**",
-        "**Pronunciation / cross-cutting:**",
-        "**Fresh retrieval rule:**",
-        "**Stage-6 load critic:**",
-    )
     instructional_fields = (
         "**Foreground capability evidence:**",
         "**Foreground phrase/chunk evidence:**",
@@ -101,8 +89,8 @@ def main() -> None:
                     raise SystemExit(f"{lid} instructional brief missing {field}")
 
     warning_rows = critic.get("accepted_warnings", [])
-    if len(warning_rows) != 30:
-        raise SystemExit(f"expected 30 Stage-06 warning rows, got {len(warning_rows)}")
+    if warning_count != 31 or len(warning_rows) != warning_count:
+        raise SystemExit(f"expected reconciled 31-row Stage-06 warning set, got count={warning_count} rows={len(warning_rows)}")
     for row in warning_rows:
         needle = f"{row['category']} {row['count']} > {row['limit']}"
         if needle not in parsed[row["lesson"]]:
@@ -118,7 +106,7 @@ def main() -> None:
         "lesson briefs: **95 / 95**",
         "**2,075 / 2,075**",
         "**18 / 18 protected**",
-        "**30 / 30**",
+        f"**{warning_count} / {warning_count}**",
         "retain 13 units / 95 slots provisionally",
         "pending Stage 8",
     ):
@@ -137,7 +125,7 @@ def main() -> None:
             raise SystemExit(f"forbidden premature Stage-7 claim: {phrase}")
 
     print("B2 STAGE-07 BRIEF VALIDATION PASS")
-    print("lesson_briefs=95 exact_records=2075 zero_new=18 warning_rows=30 unit_critics=13")
+    print(f"lesson_briefs=95 exact_records=2075 zero_new=18 warning_rows={warning_count} unit_critics=13")
     print("semantic/control roles remain pending Stage 8; owner human approval remains required")
 
 
