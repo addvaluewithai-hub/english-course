@@ -55,13 +55,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U1-L02"
+          "U1-L06"
         ],
         "practice": [
-          "U1-L02",
-          "U1-L03",
-          "U1-L04",
-          "U1-L05",
           "U1-L06",
           "U2-L01",
           "U2-L02",
@@ -146,7 +142,20 @@
         ]
       },
       "review_row": 2,
-      "source_record_id": "gse.adult.2022.b2.p12.002"
+      "source_record_id": "gse.adult.2022.b2.p12.002",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "reception"
+        ],
+        "source_skill_codes": [
+          "reading"
+        ],
+        "allowed_intro_units": [
+          "U1",
+          "U2"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -431,9 +440,25 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L01"
+          "U1-L04"
         ],
         "practice": [
+          "U1-L04",
+          "U1-L05",
+          "U1-L06",
+          "U2-L01",
+          "U2-L02",
+          "U2-L03",
+          "U3-L01",
+          "U3-L02",
+          "U3-L03",
+          "U4-L01",
+          "U4-L02",
+          "U4-L03",
+          "U4-L04",
+          "U4-L05",
+          "U4-L06",
+          "U4-L07",
           "U5-L01",
           "U5-L02",
           "U5-L03",
@@ -463,6 +488,10 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
+          "U1-L07",
+          "U2-L07",
+          "U3-L07",
+          "U4-L08",
           "U5-L08",
           "U8-L07",
           "U9-L08",
@@ -509,7 +538,20 @@
         ]
       },
       "review_row": 11,
-      "source_record_id": "gse.adult.2022.b2.p12.011"
+      "source_record_id": "gse.adult.2022.b2.p12.011",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "reception"
+        ],
+        "source_skill_codes": [
+          "reading"
+        ],
+        "allowed_intro_units": [
+          "U1",
+          "U2"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -622,13 +664,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U2-L01"
         ],
         "practice": [
-          "U1-L03",
-          "U1-L04",
-          "U1-L05",
-          "U1-L06",
           "U2-L01",
           "U2-L02",
           "U2-L03",
@@ -666,7 +704,6 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U2-L07",
           "U4-L08",
           "U8-L07",
@@ -712,7 +749,20 @@
         ]
       },
       "review_row": 15,
-      "source_record_id": "gse.adult.2022.b2.p12.015"
+      "source_record_id": "gse.adult.2022.b2.p12.015",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "reception"
+        ],
+        "source_skill_codes": [
+          "reading"
+        ],
+        "allowed_intro_units": [
+          "U1",
+          "U2"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -795,9 +845,25 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U1-L05"
         ],
         "practice": [
+          "U1-L05",
+          "U1-L06",
+          "U2-L01",
+          "U2-L02",
+          "U2-L03",
+          "U3-L01",
+          "U3-L02",
+          "U3-L03",
+          "U4-L01",
+          "U4-L02",
+          "U4-L03",
+          "U4-L04",
+          "U4-L05",
+          "U4-L06",
+          "U4-L07",
+          "U5-L01",
           "U5-L02",
           "U5-L03",
           "U5-L04",
@@ -826,6 +892,10 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
+          "U1-L07",
+          "U2-L07",
+          "U3-L07",
+          "U4-L08",
           "U5-L08",
           "U8-L07",
           "U9-L08",
@@ -872,7 +942,20 @@
         ]
       },
       "review_row": 18,
-      "source_record_id": "gse.adult.2022.b2_plus.p12.001"
+      "source_record_id": "gse.adult.2022.b2_plus.p12.001",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "reception"
+        ],
+        "source_skill_codes": [
+          "reading"
+        ],
+        "allowed_intro_units": [
+          "U1",
+          "U2"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -920,12 +1003,48 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L07"
+          "U2-L04"
         ],
         "practice": [
+          "U2-L04",
+          "U2-L05",
+          "U5-L01",
+          "U5-L02",
+          "U5-L03",
+          "U5-L04",
+          "U7-L01",
+          "U7-L02",
+          "U7-L03",
+          "U7-L04",
+          "U7-L05",
+          "U7-L06",
+          "U8-L01",
+          "U8-L02",
+          "U8-L03",
+          "U8-L04",
+          "U8-L05",
+          "U8-L06",
+          "U11-L01",
+          "U11-L02",
+          "U11-L03",
+          "U11-L04",
+          "U11-L05",
+          "U11-L06",
+          "U11-L07",
+          "U12-L01",
+          "U12-L02",
+          "U12-L03",
+          "U12-L04",
+          "U12-L05",
+          "U12-L06",
           "U12-L07"
         ],
         "fresh_retrieval": [
+          "U2-L07",
+          "U5-L08",
+          "U7-L07",
+          "U8-L07",
+          "U11-L08",
           "U12-L08",
           "U13-L01",
           "U13-L02",
@@ -934,6 +1053,17 @@
           "U13-L06"
         ],
         "recycle": [
+          "U6-L04",
+          "U7-L01",
+          "U7-L04",
+          "U8-L04",
+          "U8-L05",
+          "U9-L06",
+          "U11-L01",
+          "U12-L01",
+          "U12-L03",
+          "U12-L05",
+          "U12-L07",
           "U13-L06"
         ],
         "consolidate": [
@@ -952,7 +1082,20 @@
         ]
       },
       "review_row": 20,
-      "source_record_id": "gse.adult.2022.b2_plus.p12.003"
+      "source_record_id": "gse.adult.2022.b2_plus.p12.003",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "reception"
+        ],
+        "source_skill_codes": [
+          "reading"
+        ],
+        "allowed_intro_units": [
+          "U1",
+          "U2"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -1099,9 +1242,27 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U7-L05"
+          "U1-L02"
         ],
         "practice": [
+          "U1-L02",
+          "U1-L03",
+          "U1-L04",
+          "U1-L05",
+          "U1-L06",
+          "U2-L06",
+          "U3-L04",
+          "U3-L05",
+          "U6-L01",
+          "U6-L02",
+          "U6-L03",
+          "U6-L04",
+          "U6-L05",
+          "U6-L06",
+          "U7-L01",
+          "U7-L02",
+          "U7-L03",
+          "U7-L04",
           "U7-L05",
           "U7-L06",
           "U8-L01",
@@ -1117,6 +1278,10 @@
           "U12-L04"
         ],
         "fresh_retrieval": [
+          "U1-L07",
+          "U2-L07",
+          "U3-L07",
+          "U6-L07",
           "U7-L07",
           "U8-L07",
           "U12-L08",
@@ -1126,6 +1291,8 @@
           "U13-L06"
         ],
         "recycle": [
+          "U6-L04",
+          "U7-L04",
           "U8-L04",
           "U9-L04",
           "U9-L06",
@@ -1149,7 +1316,20 @@
         ]
       },
       "review_row": 25,
-      "source_record_id": "gse.adult.2022.b2_plus.p12.008"
+      "source_record_id": "gse.adult.2022.b2_plus.p12.008",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "reception"
+        ],
+        "source_skill_codes": [
+          "reading"
+        ],
+        "allowed_intro_units": [
+          "U1",
+          "U2"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -1227,13 +1407,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U1-L04"
+          "U2-L02"
         ],
         "practice": [
-          "U1-L04",
-          "U1-L05",
-          "U1-L06",
-          "U2-L01",
           "U2-L02",
           "U2-L03",
           "U2-L04",
@@ -1270,7 +1446,6 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U2-L07",
           "U4-L08",
           "U8-L07",
@@ -1316,7 +1491,20 @@
         ]
       },
       "review_row": 28,
-      "source_record_id": "gse.adult.2022.b2_plus.p12.011"
+      "source_record_id": "gse.adult.2022.b2_plus.p12.011",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "reception"
+        ],
+        "source_skill_codes": [
+          "reading"
+        ],
+        "allowed_intro_units": [
+          "U1",
+          "U2"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -1464,13 +1652,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U1-L03"
+          "U2-L01"
         ],
         "practice": [
-          "U1-L03",
-          "U1-L04",
-          "U1-L05",
-          "U1-L06",
           "U2-L01",
           "U2-L02",
           "U2-L03",
@@ -1493,7 +1677,6 @@
           "U10-L04"
         ],
         "fresh_retrieval": [
-          "U1-L07",
           "U2-L07",
           "U3-L07",
           "U9-L08",
@@ -1526,7 +1709,20 @@
         ]
       },
       "review_row": 33,
-      "source_record_id": "gse.adult.2022.b2_plus.p13.003"
+      "source_record_id": "gse.adult.2022.b2_plus.p13.003",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "reception"
+        ],
+        "source_skill_codes": [
+          "reading"
+        ],
+        "allowed_intro_units": [
+          "U1",
+          "U2"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -2013,9 +2209,19 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L03"
+          "U3-L03"
         ],
         "practice": [
+          "U3-L03",
+          "U4-L01",
+          "U4-L02",
+          "U4-L03",
+          "U4-L04",
+          "U4-L05",
+          "U4-L06",
+          "U4-L07",
+          "U5-L01",
+          "U5-L02",
           "U5-L03",
           "U5-L04",
           "U9-L01",
@@ -2043,6 +2249,8 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
+          "U3-L07",
+          "U4-L08",
           "U5-L08",
           "U8-L07",
           "U9-L08",
@@ -2089,7 +2297,19 @@
         ]
       },
       "review_row": 48,
-      "source_record_id": "gse.adult.2022.b2.p18.008"
+      "source_record_id": "gse.adult.2022.b2.p18.008",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "reception"
+        ],
+        "source_skill_codes": [
+          "listening"
+        ],
+        "allowed_intro_units": [
+          "U3"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -2371,9 +2591,22 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U7-L06"
+          "U3-L04"
         ],
         "practice": [
+          "U3-L04",
+          "U3-L05",
+          "U6-L01",
+          "U6-L02",
+          "U6-L03",
+          "U6-L04",
+          "U6-L05",
+          "U6-L06",
+          "U7-L01",
+          "U7-L02",
+          "U7-L03",
+          "U7-L04",
+          "U7-L05",
           "U7-L06",
           "U8-L01",
           "U8-L02",
@@ -2388,6 +2621,8 @@
           "U12-L04"
         ],
         "fresh_retrieval": [
+          "U3-L07",
+          "U6-L07",
           "U7-L07",
           "U8-L07",
           "U12-L08",
@@ -2397,6 +2632,8 @@
           "U13-L06"
         ],
         "recycle": [
+          "U6-L04",
+          "U7-L04",
           "U8-L04",
           "U9-L04",
           "U9-L06",
@@ -2420,7 +2657,19 @@
         ]
       },
       "review_row": 57,
-      "source_record_id": "gse.adult.2022.b2.p18.017"
+      "source_record_id": "gse.adult.2022.b2.p18.017",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "reception"
+        ],
+        "source_skill_codes": [
+          "listening"
+        ],
+        "allowed_intro_units": [
+          "U3"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -3015,9 +3264,22 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U3-L01"
         ],
         "practice": [
+          "U3-L01",
+          "U3-L02",
+          "U3-L03",
+          "U4-L01",
+          "U4-L02",
+          "U4-L03",
+          "U4-L04",
+          "U4-L05",
+          "U4-L06",
+          "U4-L07",
+          "U5-L01",
+          "U5-L02",
+          "U5-L03",
           "U5-L04",
           "U9-L01",
           "U9-L02",
@@ -3044,6 +3306,8 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
+          "U3-L07",
+          "U4-L08",
           "U5-L08",
           "U8-L07",
           "U9-L08",
@@ -3090,7 +3354,19 @@
         ]
       },
       "review_row": 75,
-      "source_record_id": "gse.adult.2022.b2_plus.p19.012"
+      "source_record_id": "gse.adult.2022.b2_plus.p19.012",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "reception"
+        ],
+        "source_skill_codes": [
+          "listening"
+        ],
+        "allowed_intro_units": [
+          "U3"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -3374,13 +3650,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L01"
+          "U4-L05"
         ],
         "practice": [
-          "U4-L01",
-          "U4-L02",
-          "U4-L03",
-          "U4-L04",
           "U4-L05",
           "U4-L06",
           "U4-L07"
@@ -3452,13 +3724,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L02"
+          "U4-L06"
         ],
         "practice": [
-          "U4-L02",
-          "U4-L03",
-          "U4-L04",
-          "U4-L05",
           "U4-L06",
           "U4-L07"
         ],
@@ -3492,13 +3760,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U4-L07"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L04",
-          "U4-L05",
-          "U4-L06",
           "U4-L07"
         ],
         "fresh_retrieval": [
@@ -3531,9 +3795,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L01"
         ],
         "practice": [
+          "U4-L01",
+          "U4-L02",
+          "U4-L03",
           "U4-L04",
           "U4-L05",
           "U4-L06",
@@ -3569,9 +3836,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U4-L02"
         ],
         "practice": [
+          "U4-L02",
+          "U4-L03",
+          "U4-L04",
           "U4-L05",
           "U4-L06",
           "U4-L07"
@@ -3681,9 +3951,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L03"
+          "U5-L01"
         ],
         "practice": [
+          "U5-L01",
+          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -3754,13 +4026,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U9-L06"
         ],
         "practice": [
-          "U9-L02",
-          "U9-L03",
-          "U9-L04",
-          "U9-L05",
           "U9-L06",
           "U9-L07"
         ],
@@ -3933,9 +4201,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U5-L02"
         ],
         "practice": [
+          "U5-L02",
+          "U5-L03",
           "U5-L04"
         ],
         "fresh_retrieval": [
@@ -4043,11 +4313,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L01"
+          "U5-L03"
         ],
         "practice": [
-          "U5-L01",
-          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -4122,13 +4390,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L03"
+          "U9-L07"
         ],
         "practice": [
-          "U9-L03",
-          "U9-L04",
-          "U9-L05",
-          "U9-L06",
           "U9-L07"
         ],
         "fresh_retrieval": [
@@ -4159,9 +4423,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
+          "U4-L04",
+          "U4-L05",
           "U4-L06",
           "U4-L07"
         ],
@@ -4195,14 +4462,35 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U7-L03"
         ],
         "practice": [
+          "U7-L03",
+          "U7-L04",
+          "U7-L05",
+          "U7-L06",
+          "U8-L01",
+          "U8-L02",
+          "U8-L03",
+          "U8-L04",
+          "U8-L05",
+          "U8-L06",
+          "U9-L01",
+          "U9-L02",
+          "U9-L03",
+          "U9-L04",
+          "U9-L05",
+          "U9-L06",
+          "U9-L07",
+          "U12-L01",
           "U12-L02",
           "U12-L03",
           "U12-L04"
         ],
         "fresh_retrieval": [
+          "U7-L07",
+          "U8-L07",
+          "U9-L08",
           "U12-L08",
           "U13-L02",
           "U13-L04",
@@ -4210,6 +4498,11 @@
           "U13-L06"
         ],
         "recycle": [
+          "U7-L04",
+          "U8-L04",
+          "U9-L06",
+          "U9-L07",
+          "U11-L05",
           "U12-L03",
           "U12-L04",
           "U13-L06"
@@ -4228,7 +4521,24 @@
         ]
       },
       "review_row": 106,
-      "source_record_id": "gse.adult.2022.b2.p32.023"
+      "source_record_id": "gse.adult.2022.b2.p32.023",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -4278,11 +4588,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U5-L04"
         ],
         "practice": [
-          "U5-L02",
-          "U5-L03",
           "U5-L04"
         ],
         "fresh_retrieval": [
@@ -4429,9 +4737,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L07"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L04",
+          "U4-L05",
+          "U4-L06",
           "U4-L07"
         ],
         "fresh_retrieval": [
@@ -4501,9 +4812,19 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L01"
+          "U4-L02"
         ],
         "practice": [
+          "U4-L02",
+          "U4-L03",
+          "U4-L04",
+          "U4-L05",
+          "U4-L06",
+          "U4-L07",
+          "U5-L01",
+          "U5-L02",
+          "U5-L03",
+          "U5-L04",
           "U9-L01",
           "U9-L02",
           "U9-L03",
@@ -4529,6 +4850,9 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
+          "U4-L08",
+          "U5-L08",
+          "U8-L07",
           "U9-L08",
           "U10-L07",
           "U11-L08",
@@ -4540,6 +4864,9 @@
           "U13-L06"
         ],
         "recycle": [
+          "U6-L04",
+          "U7-L04",
+          "U8-L05",
           "U9-L03",
           "U9-L04",
           "U9-L05",
@@ -4570,7 +4897,24 @@
         ]
       },
       "review_row": 114,
-      "source_record_id": "gse.adult.2022.b2.p33.008"
+      "source_record_id": "gse.adult.2022.b2.p33.008",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -4619,9 +4963,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L03"
+          "U5-L01"
         ],
         "practice": [
+          "U5-L01",
+          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -4656,9 +5002,15 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U10-L05"
+          "U4-L06"
         ],
         "practice": [
+          "U4-L06",
+          "U4-L07",
+          "U10-L01",
+          "U10-L02",
+          "U10-L03",
+          "U10-L04",
           "U10-L05",
           "U10-L06",
           "U11-L01",
@@ -4677,6 +5029,8 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
+          "U4-L08",
+          "U8-L07",
           "U10-L07",
           "U11-L08",
           "U12-L08",
@@ -4685,6 +5039,8 @@
           "U13-L06"
         ],
         "recycle": [
+          "U8-L05",
+          "U9-L06",
           "U12-L05",
           "U12-L07",
           "U13-L03",
@@ -4702,7 +5058,24 @@
         ]
       },
       "review_row": 117,
-      "source_record_id": "gse.adult.2022.b2.p33.011"
+      "source_record_id": "gse.adult.2022.b2.p33.011",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -4714,9 +5087,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U5-L02"
         ],
         "practice": [
+          "U5-L02",
+          "U5-L03",
           "U5-L04"
         ],
         "fresh_retrieval": [
@@ -4750,9 +5125,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L04"
+          "U9-L01"
         ],
         "practice": [
+          "U9-L01",
+          "U9-L02",
+          "U9-L03",
           "U9-L04",
           "U9-L05",
           "U9-L06",
@@ -4786,17 +5164,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U1-L04"
+          "U5-L04"
         ],
         "practice": [
-          "U1-L04",
-          "U1-L05",
-          "U1-L06",
-          "U3-L04",
-          "U3-L05",
-          "U5-L01",
-          "U5-L02",
-          "U5-L03",
           "U5-L04",
           "U5-L05",
           "U5-L06",
@@ -4822,8 +5192,6 @@
           "U11-L07"
         ],
         "fresh_retrieval": [
-          "U1-L07",
-          "U3-L07",
           "U5-L08",
           "U6-L07",
           "U7-L07",
@@ -4865,7 +5233,24 @@
         ]
       },
       "review_row": 120,
-      "source_record_id": "gse.adult.2022.b2.p33.014"
+      "source_record_id": "gse.adult.2022.b2.p33.014",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -4877,13 +5262,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L01"
+          "U4-L05"
         ],
         "practice": [
-          "U4-L01",
-          "U4-L02",
-          "U4-L03",
-          "U4-L04",
           "U4-L05",
           "U4-L06",
           "U4-L07"
@@ -4953,11 +5334,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L01"
+          "U5-L03"
         ],
         "practice": [
-          "U5-L01",
-          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -5062,11 +5441,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U5-L04"
         ],
         "practice": [
-          "U5-L02",
-          "U5-L03",
           "U5-L04"
         ],
         "fresh_retrieval": [
@@ -5100,13 +5477,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L02"
+          "U4-L06"
         ],
         "practice": [
-          "U4-L02",
-          "U4-L03",
-          "U4-L04",
-          "U4-L05",
           "U4-L06",
           "U4-L07"
         ],
@@ -5176,13 +5549,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U4-L07"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L04",
-          "U4-L05",
-          "U4-L06",
           "U4-L07"
         ],
         "fresh_retrieval": [
@@ -5215,9 +5584,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L01"
         ],
         "practice": [
+          "U4-L01",
+          "U4-L02",
+          "U4-L03",
           "U4-L04",
           "U4-L05",
           "U4-L06",
@@ -5254,10 +5626,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L05"
+          "U5-L06"
         ],
         "practice": [
-          "U5-L05",
           "U5-L06",
           "U5-L07"
         ],
@@ -5294,9 +5665,25 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L02"
+          "U5-L02"
         ],
         "practice": [
+          "U5-L02",
+          "U5-L03",
+          "U5-L04",
+          "U8-L01",
+          "U8-L02",
+          "U8-L03",
+          "U8-L04",
+          "U8-L05",
+          "U8-L06",
+          "U10-L01",
+          "U10-L02",
+          "U10-L03",
+          "U10-L04",
+          "U10-L05",
+          "U10-L06",
+          "U11-L01",
           "U11-L02",
           "U11-L03",
           "U11-L04",
@@ -5312,6 +5699,9 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
+          "U5-L08",
+          "U8-L07",
+          "U10-L07",
           "U11-L08",
           "U12-L08",
           "U13-L02",
@@ -5320,6 +5710,11 @@
           "U13-L06"
         ],
         "recycle": [
+          "U6-L04",
+          "U7-L04",
+          "U8-L05",
+          "U9-L06",
+          "U11-L01",
           "U12-L05",
           "U12-L07",
           "U13-L03",
@@ -5339,7 +5734,24 @@
         ]
       },
       "review_row": 132,
-      "source_record_id": "gse.adult.2022.b2.p33.026"
+      "source_record_id": "gse.adult.2022.b2.p33.026",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -5351,27 +5763,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U9-L02"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L04",
-          "U4-L05",
-          "U4-L06",
-          "U4-L07",
-          "U6-L01",
-          "U6-L02",
-          "U6-L03",
-          "U6-L04",
-          "U6-L05",
-          "U6-L06",
-          "U8-L01",
-          "U8-L02",
-          "U8-L03",
-          "U8-L04",
-          "U8-L05",
-          "U8-L06",
-          "U9-L01",
           "U9-L02",
           "U9-L03",
           "U9-L04",
@@ -5380,18 +5774,12 @@
           "U9-L07"
         ],
         "fresh_retrieval": [
-          "U4-L08",
-          "U6-L07",
-          "U8-L07",
           "U9-L08",
           "U13-L02",
           "U13-L04",
           "U13-L06"
         ],
         "recycle": [
-          "U7-L04",
-          "U8-L04",
-          "U8-L05",
           "U9-L06",
           "U9-L07",
           "U11-L05",
@@ -5411,7 +5799,24 @@
         ]
       },
       "review_row": 133,
-      "source_record_id": "gse.adult.2022.b2.p33.027"
+      "source_record_id": "gse.adult.2022.b2.p33.027",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -5423,13 +5828,34 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L03"
+          "U7-L04"
         ],
         "practice": [
+          "U7-L04",
+          "U7-L05",
+          "U7-L06",
+          "U8-L01",
+          "U8-L02",
+          "U8-L03",
+          "U8-L04",
+          "U8-L05",
+          "U8-L06",
+          "U9-L01",
+          "U9-L02",
+          "U9-L03",
+          "U9-L04",
+          "U9-L05",
+          "U9-L06",
+          "U9-L07",
+          "U12-L01",
+          "U12-L02",
           "U12-L03",
           "U12-L04"
         ],
         "fresh_retrieval": [
+          "U7-L07",
+          "U8-L07",
+          "U9-L08",
           "U12-L08",
           "U13-L02",
           "U13-L04",
@@ -5437,6 +5863,11 @@
           "U13-L06"
         ],
         "recycle": [
+          "U8-L04",
+          "U9-L06",
+          "U9-L07",
+          "U11-L05",
+          "U12-L03",
           "U12-L04",
           "U13-L06"
         ],
@@ -5454,7 +5885,24 @@
         ]
       },
       "review_row": 134,
-      "source_record_id": "gse.adult.2022.b2.p33.028"
+      "source_record_id": "gse.adult.2022.b2.p33.028",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -5534,9 +5982,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L05"
+          "U9-L02"
         ],
         "practice": [
+          "U9-L02",
+          "U9-L03",
+          "U9-L04",
           "U9-L05",
           "U9-L06",
           "U9-L07"
@@ -5604,9 +6055,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U4-L02"
         ],
         "practice": [
+          "U4-L02",
+          "U4-L03",
+          "U4-L04",
           "U4-L05",
           "U4-L06",
           "U4-L07"
@@ -5681,9 +6135,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
+          "U4-L04",
+          "U4-L05",
           "U4-L06",
           "U4-L07"
         ],
@@ -5717,9 +6174,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U6-L03"
         ],
         "practice": [
+          "U6-L03",
+          "U6-L04",
+          "U6-L05",
           "U6-L06",
           "U8-L01",
           "U8-L02",
@@ -5737,6 +6197,7 @@
           "U13-L03"
         ],
         "recycle": [
+          "U6-L04",
           "U7-L04",
           "U8-L04",
           "U8-L05",
@@ -5759,7 +6220,22 @@
         ]
       },
       "review_row": 142,
-      "source_record_id": "gse.adult.2022.b2.p34.004"
+      "source_record_id": "gse.adult.2022.b2.p34.004",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "interaction"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -5771,9 +6247,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L03"
+          "U5-L01"
         ],
         "practice": [
+          "U5-L01",
+          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -5808,17 +6286,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U1-L05"
+          "U5-L05"
         ],
         "practice": [
-          "U1-L05",
-          "U1-L06",
-          "U3-L04",
-          "U3-L05",
-          "U5-L01",
-          "U5-L02",
-          "U5-L03",
-          "U5-L04",
           "U5-L05",
           "U5-L06",
           "U5-L07",
@@ -5843,8 +6313,6 @@
           "U11-L07"
         ],
         "fresh_retrieval": [
-          "U1-L07",
-          "U3-L07",
           "U5-L08",
           "U6-L07",
           "U7-L07",
@@ -5886,7 +6354,24 @@
         ]
       },
       "review_row": 144,
-      "source_record_id": "gse.adult.2022.b2.p34.006"
+      "source_record_id": "gse.adult.2022.b2.p34.006",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -5898,9 +6383,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L06"
+          "U9-L03"
         ],
         "practice": [
+          "U9-L03",
+          "U9-L04",
+          "U9-L05",
           "U9-L06",
           "U9-L07"
         ],
@@ -5932,9 +6420,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L07"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L04",
+          "U4-L05",
+          "U4-L06",
           "U4-L07"
         ],
         "fresh_retrieval": [
@@ -6001,9 +6492,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U5-L02"
         ],
         "practice": [
+          "U5-L02",
+          "U5-L03",
           "U5-L04"
         ],
         "fresh_retrieval": [
@@ -6037,11 +6530,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L01"
+          "U5-L03"
         ],
         "practice": [
-          "U5-L01",
-          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -6076,13 +6567,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L01"
+          "U4-L05"
         ],
         "practice": [
-          "U4-L01",
-          "U4-L02",
-          "U4-L03",
-          "U4-L04",
           "U4-L05",
           "U4-L06",
           "U4-L07"
@@ -6230,11 +6717,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U5-L04"
         ],
         "practice": [
-          "U5-L02",
-          "U5-L03",
           "U5-L04"
         ],
         "fresh_retrieval": [
@@ -6304,13 +6789,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L02"
+          "U4-L06"
         ],
         "practice": [
-          "U4-L02",
-          "U4-L03",
-          "U4-L04",
-          "U4-L05",
           "U4-L06",
           "U4-L07"
         ],
@@ -6565,9 +7046,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L07"
+          "U9-L04"
         ],
         "practice": [
+          "U9-L04",
+          "U9-L05",
+          "U9-L06",
           "U9-L07"
         ],
         "fresh_retrieval": [
@@ -6637,9 +7121,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L03"
+          "U5-L01"
         ],
         "practice": [
+          "U5-L01",
+          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -6674,13 +7160,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U4-L07"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L04",
-          "U4-L05",
-          "U4-L06",
           "U4-L07"
         ],
         "fresh_retrieval": [
@@ -6713,9 +7195,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L04"
+          "U4-L01"
         ],
         "practice": [
+          "U4-L01",
+          "U4-L02",
+          "U4-L03",
           "U4-L04",
           "U4-L05",
           "U4-L06",
@@ -6751,9 +7236,10 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U8-L01"
+          "U7-L06"
         ],
         "practice": [
+          "U7-L06",
           "U8-L01",
           "U8-L02",
           "U8-L03",
@@ -6767,6 +7253,7 @@
           "U12-L04"
         ],
         "fresh_retrieval": [
+          "U7-L07",
           "U8-L07",
           "U12-L08",
           "U13-L01",
@@ -6798,7 +7285,24 @@
         ]
       },
       "review_row": 168,
-      "source_record_id": "gse.adult.2022.b2_plus.p34.014"
+      "source_record_id": "gse.adult.2022.b2_plus.p34.014",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -6955,9 +7459,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U5-L02"
         ],
         "practice": [
+          "U5-L02",
+          "U5-L03",
           "U5-L04"
         ],
         "fresh_retrieval": [
@@ -6991,11 +7497,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L01"
+          "U5-L03"
         ],
         "practice": [
-          "U5-L01",
-          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -7030,11 +7534,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U5-L04"
         ],
         "practice": [
-          "U5-L02",
-          "U5-L03",
           "U5-L04"
         ],
         "fresh_retrieval": [
@@ -7102,9 +7604,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L03"
+          "U5-L01"
         ],
         "practice": [
+          "U5-L01",
+          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -7139,9 +7643,19 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
+          "U4-L04",
+          "U4-L05",
+          "U4-L06",
+          "U4-L07",
+          "U5-L01",
+          "U5-L02",
+          "U5-L03",
+          "U5-L04",
+          "U9-L01",
           "U9-L02",
           "U9-L03",
           "U9-L04",
@@ -7166,6 +7680,9 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
+          "U4-L08",
+          "U5-L08",
+          "U8-L07",
           "U9-L08",
           "U10-L07",
           "U11-L08",
@@ -7177,6 +7694,9 @@
           "U13-L06"
         ],
         "recycle": [
+          "U6-L04",
+          "U7-L04",
+          "U8-L05",
           "U9-L03",
           "U9-L04",
           "U9-L05",
@@ -7207,7 +7727,24 @@
         ]
       },
       "review_row": 178,
-      "source_record_id": "gse.adult.2022.b2_plus.p35.010"
+      "source_record_id": "gse.adult.2022.b2_plus.p35.010",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -7257,9 +7794,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L05"
+          "U4-L02"
         ],
         "practice": [
+          "U4-L02",
+          "U4-L03",
+          "U4-L04",
           "U4-L05",
           "U4-L06",
           "U4-L07"
@@ -7294,9 +7834,10 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U8-L02"
+          "U8-L01"
         ],
         "practice": [
+          "U8-L01",
           "U8-L02",
           "U8-L03",
           "U8-L04",
@@ -7340,7 +7881,24 @@
         ]
       },
       "review_row": 181,
-      "source_record_id": "gse.adult.2022.b2_plus.p35.013"
+      "source_record_id": "gse.adult.2022.b2_plus.p35.013",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -7429,9 +7987,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L06"
+          "U4-L03"
         ],
         "practice": [
+          "U4-L03",
+          "U4-L04",
+          "U4-L05",
           "U4-L06",
           "U4-L07"
         ],
@@ -7465,12 +8026,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U2-L04"
+          "U5-L02"
         ],
         "practice": [
-          "U2-L04",
-          "U2-L05",
-          "U5-L01",
           "U5-L02",
           "U5-L03",
           "U5-L04",
@@ -7502,7 +8060,6 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U2-L07",
           "U5-L08",
           "U7-L07",
           "U8-L07",
@@ -7544,7 +8101,24 @@
         ]
       },
       "review_row": 185,
-      "source_record_id": "gse.adult.2022.b2_plus.p35.017"
+      "source_record_id": "gse.adult.2022.b2_plus.p35.017",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -7556,9 +8130,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L07"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L04",
+          "U4-L05",
+          "U4-L06",
           "U4-L07"
         ],
         "fresh_retrieval": [
@@ -7626,13 +8203,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L01"
+          "U4-L05"
         ],
         "practice": [
-          "U4-L01",
-          "U4-L02",
-          "U4-L03",
-          "U4-L04",
           "U4-L05",
           "U4-L06",
           "U4-L07"
@@ -7667,13 +8240,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L02"
+          "U4-L06"
         ],
         "practice": [
-          "U4-L02",
-          "U4-L03",
-          "U4-L04",
-          "U4-L05",
           "U4-L06",
           "U4-L07"
         ],
@@ -7744,12 +8313,33 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L04"
+          "U7-L05"
         ],
         "practice": [
+          "U7-L05",
+          "U7-L06",
+          "U8-L01",
+          "U8-L02",
+          "U8-L03",
+          "U8-L04",
+          "U8-L05",
+          "U8-L06",
+          "U9-L01",
+          "U9-L02",
+          "U9-L03",
+          "U9-L04",
+          "U9-L05",
+          "U9-L06",
+          "U9-L07",
+          "U12-L01",
+          "U12-L02",
+          "U12-L03",
           "U12-L04"
         ],
         "fresh_retrieval": [
+          "U7-L07",
+          "U8-L07",
+          "U9-L08",
           "U12-L08",
           "U13-L02",
           "U13-L04",
@@ -7757,6 +8347,12 @@
           "U13-L06"
         ],
         "recycle": [
+          "U8-L04",
+          "U9-L06",
+          "U9-L07",
+          "U11-L05",
+          "U12-L03",
+          "U12-L04",
           "U13-L06"
         ],
         "consolidate": [
@@ -7773,7 +8369,24 @@
         ]
       },
       "review_row": 191,
-      "source_record_id": "gse.adult.2022.b2_plus.p35.023"
+      "source_record_id": "gse.adult.2022.b2_plus.p35.023",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -7785,9 +8398,19 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L03"
+          "U4-L04"
         ],
         "practice": [
+          "U4-L04",
+          "U4-L05",
+          "U4-L06",
+          "U4-L07",
+          "U5-L01",
+          "U5-L02",
+          "U5-L03",
+          "U5-L04",
+          "U9-L01",
+          "U9-L02",
           "U9-L03",
           "U9-L04",
           "U9-L05",
@@ -7811,6 +8434,9 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
+          "U4-L08",
+          "U5-L08",
+          "U8-L07",
           "U9-L08",
           "U10-L07",
           "U11-L08",
@@ -7822,6 +8448,10 @@
           "U13-L06"
         ],
         "recycle": [
+          "U6-L04",
+          "U7-L04",
+          "U8-L05",
+          "U9-L03",
           "U9-L04",
           "U9-L05",
           "U9-L06",
@@ -7851,7 +8481,24 @@
         ]
       },
       "review_row": 192,
-      "source_record_id": "gse.adult.2022.b2_plus.p35.024"
+      "source_record_id": "gse.adult.2022.b2_plus.p35.024",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "speaking"
+        ],
+        "allowed_intro_units": [
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -7863,9 +8510,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L04"
+          "U5-L02"
         ],
         "practice": [
+          "U5-L02",
+          "U5-L03",
           "U5-L04"
         ],
         "fresh_retrieval": [
@@ -7899,13 +8548,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L01"
+          "U9-L05"
         ],
         "practice": [
-          "U9-L01",
-          "U9-L02",
-          "U9-L03",
-          "U9-L04",
           "U9-L05",
           "U9-L06",
           "U9-L07"
@@ -8011,13 +8656,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U4-L03"
+          "U4-L07"
         ],
         "practice": [
-          "U4-L03",
-          "U4-L04",
-          "U4-L05",
-          "U4-L06",
           "U4-L07"
         ],
         "fresh_retrieval": [
@@ -8198,11 +8839,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L01"
+          "U5-L03"
         ],
         "practice": [
-          "U5-L01",
-          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -8237,9 +8876,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L03"
+          "U12-L01"
         ],
         "practice": [
+          "U12-L01",
+          "U12-L02",
           "U12-L03",
           "U12-L04"
         ],
@@ -8337,34 +8978,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L04"
+          "U12-L07"
         ],
         "practice": [
-          "U9-L04",
-          "U9-L05",
-          "U9-L06",
-          "U9-L07",
-          "U10-L01",
-          "U10-L02",
-          "U10-L03",
-          "U10-L04",
-          "U10-L05",
-          "U10-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L05",
-          "U12-L06",
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U9-L08",
-          "U10-L07",
-          "U11-L08",
           "U12-L08",
           "U13-L01",
           "U13-L03",
@@ -8373,15 +8992,6 @@
           "U13-L06"
         ],
         "recycle": [
-          "U9-L05",
-          "U9-L06",
-          "U11-L01",
-          "U11-L03",
-          "U11-L05",
-          "U11-L06",
-          "U12-L04",
-          "U12-L05",
-          "U12-L07",
           "U13-L03",
           "U13-L06"
         ],
@@ -8401,7 +9011,21 @@
         ]
       },
       "review_row": 206,
-      "source_record_id": "gse.adult.2022.b2.p41.004"
+      "source_record_id": "gse.adult.2022.b2.p41.004",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -8413,13 +9037,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L02"
+          "U9-L06"
         ],
         "practice": [
-          "U9-L02",
-          "U9-L03",
-          "U9-L04",
-          "U9-L05",
           "U9-L06",
           "U9-L07"
         ],
@@ -8489,9 +9109,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L04"
+          "U12-L02"
         ],
         "practice": [
+          "U12-L02",
+          "U12-L03",
           "U12-L04"
         ],
         "fresh_retrieval": [
@@ -8521,11 +9143,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U12-L03"
         ],
         "practice": [
-          "U12-L01",
-          "U12-L02",
           "U12-L03",
           "U12-L04"
         ],
@@ -8556,11 +9176,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U12-L04"
         ],
         "practice": [
-          "U12-L02",
-          "U12-L03",
           "U12-L04"
         ],
         "fresh_retrieval": [
@@ -8590,12 +9208,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L05"
+          "U10-L01"
         ],
         "practice": [
-          "U9-L05",
-          "U9-L06",
-          "U9-L07",
           "U10-L01",
           "U10-L02",
           "U10-L03",
@@ -8614,7 +9229,6 @@
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U9-L08",
           "U10-L07",
           "U11-L08",
           "U12-L08",
@@ -8625,7 +9239,6 @@
           "U13-L06"
         ],
         "recycle": [
-          "U9-L06",
           "U11-L01",
           "U11-L03",
           "U11-L05",
@@ -8652,7 +9265,21 @@
         ]
       },
       "review_row": 212,
-      "source_record_id": "gse.adult.2022.b2.p42.003"
+      "source_record_id": "gse.adult.2022.b2.p42.003",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -8664,13 +9291,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L03"
+          "U11-L07"
         ],
         "practice": [
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
           "U11-L07"
         ],
         "fresh_retrieval": [
@@ -8703,9 +9326,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U11-L01"
         ],
         "practice": [
+          "U11-L01",
+          "U11-L02",
+          "U11-L03",
           "U11-L04",
           "U11-L05",
           "U11-L06",
@@ -8814,44 +9440,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U12-L04"
         ],
         "practice": [
-          "U6-L01",
-          "U6-L02",
-          "U6-L03",
-          "U6-L04",
-          "U6-L05",
-          "U6-L06",
-          "U7-L01",
-          "U7-L02",
-          "U7-L03",
-          "U7-L04",
-          "U7-L05",
-          "U7-L06",
-          "U8-L01",
-          "U8-L02",
-          "U8-L03",
-          "U8-L04",
-          "U8-L05",
-          "U8-L06",
-          "U9-L01",
-          "U9-L02",
-          "U9-L03",
-          "U9-L04",
-          "U9-L05",
-          "U9-L06",
-          "U9-L07",
-          "U12-L01",
-          "U12-L02",
-          "U12-L03",
           "U12-L04"
         ],
         "fresh_retrieval": [
-          "U6-L07",
-          "U7-L07",
-          "U8-L07",
-          "U9-L08",
           "U12-L08",
           "U13-L02",
           "U13-L04",
@@ -8859,13 +9453,6 @@
           "U13-L06"
         ],
         "recycle": [
-          "U7-L04",
-          "U8-L04",
-          "U9-L06",
-          "U9-L07",
-          "U11-L05",
-          "U12-L03",
-          "U12-L04",
           "U13-L06"
         ],
         "consolidate": [
@@ -8882,7 +9469,21 @@
         ]
       },
       "review_row": 217,
-      "source_record_id": "gse.adult.2022.b2.p42.008"
+      "source_record_id": "gse.adult.2022.b2.p42.008",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -8894,9 +9495,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L05"
+          "U11-L02"
         ],
         "practice": [
+          "U11-L02",
+          "U11-L03",
+          "U11-L04",
           "U11-L05",
           "U11-L06",
           "U11-L07"
@@ -8931,9 +9535,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U11-L03"
         ],
         "practice": [
+          "U11-L03",
+          "U11-L04",
+          "U11-L05",
           "U11-L06",
           "U11-L07"
         ],
@@ -9000,535 +9607,6 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L06"
-        ],
-        "practice": [
-          "U9-L06",
-          "U9-L07",
-          "U10-L01",
-          "U10-L02",
-          "U10-L03",
-          "U10-L04",
-          "U10-L05",
-          "U10-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L05",
-          "U12-L06",
-          "U12-L07"
-        ],
-        "fresh_retrieval": [
-          "U9-L08",
-          "U10-L07",
-          "U11-L08",
-          "U12-L08",
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05",
-          "U13-L06"
-        ],
-        "recycle": [
-          "U11-L01",
-          "U11-L03",
-          "U11-L05",
-          "U11-L06",
-          "U12-L04",
-          "U12-L05",
-          "U12-L07",
-          "U13-L03",
-          "U13-L06"
-        ],
-        "consolidate": [
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05",
-          "U13-L06"
-        ],
-        "exit_verify": [
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05",
-          "U13-L06"
-        ]
-      },
-      "review_row": 221,
-      "source_record_id": "gse.adult.2022.b2.p42.012"
-    },
-    {
-      "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.013",
-      "label": "Can clearly signal problem and solution relationships in structured text. (P)",
-      "homes": [
-        "C18"
-      ],
-      "provisional_semantic_role": "pending_stage_8_reconciliation",
-      "lifecycle": {
-        "introduce": [
-          "U12-L07"
-        ],
-        "practice": [
-          "U12-L07"
-        ],
-        "fresh_retrieval": [
-          "U12-L08",
-          "U13-L05"
-        ],
-        "recycle": [
-          "U13-L06"
-        ],
-        "consolidate": [
-          "U13-L05"
-        ],
-        "exit_verify": [
-          "U13-L05"
-        ]
-      },
-      "review_row": 222,
-      "source_record_id": "gse.adult.2022.b2.p42.013"
-    },
-    {
-      "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.014",
-      "label": "Can write informal emails or letters using a range of idiomatic phrases. (P)",
-      "homes": [
-        "C17"
-      ],
-      "provisional_semantic_role": "pending_stage_8_reconciliation",
-      "lifecycle": {
-        "introduce": [
-          "U12-L03"
-        ],
-        "practice": [
-          "U12-L03",
-          "U12-L04"
-        ],
-        "fresh_retrieval": [
-          "U12-L08",
-          "U13-L05"
-        ],
-        "recycle": [
-          "U13-L06"
-        ],
-        "consolidate": [
-          "U13-L05"
-        ],
-        "exit_verify": [
-          "U13-L05"
-        ]
-      },
-      "review_row": 223,
-      "source_record_id": "gse.adult.2022.b2.p42.014"
-    },
-    {
-      "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.015",
-      "label": "Can signal additional information in a formal structured text with a range of language. (P)",
-      "homes": [
-        "X-DISCOURSE"
-      ],
-      "provisional_semantic_role": "pending_stage_8_reconciliation",
-      "lifecycle": {
-        "introduce": [
-          "U9-L07"
-        ],
-        "practice": [
-          "U9-L07",
-          "U10-L01",
-          "U10-L02",
-          "U10-L03",
-          "U10-L04",
-          "U10-L05",
-          "U10-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L05",
-          "U12-L06",
-          "U12-L07"
-        ],
-        "fresh_retrieval": [
-          "U9-L08",
-          "U10-L07",
-          "U11-L08",
-          "U12-L08",
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05",
-          "U13-L06"
-        ],
-        "recycle": [
-          "U11-L01",
-          "U11-L03",
-          "U11-L05",
-          "U11-L06",
-          "U12-L04",
-          "U12-L05",
-          "U12-L07",
-          "U13-L03",
-          "U13-L06"
-        ],
-        "consolidate": [
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05",
-          "U13-L06"
-        ],
-        "exit_verify": [
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05",
-          "U13-L06"
-        ]
-      },
-      "review_row": 224,
-      "source_record_id": "gse.adult.2022.b2.p42.015"
-    },
-    {
-      "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.016",
-      "label": "Can present additional ideas using a range of linking words and phrases. (P)",
-      "homes": [
-        "X-DISCOURSE"
-      ],
-      "provisional_semantic_role": "pending_stage_8_reconciliation",
-      "lifecycle": {
-        "introduce": [
-          "U10-L01"
-        ],
-        "practice": [
-          "U10-L01",
-          "U10-L02",
-          "U10-L03",
-          "U10-L04",
-          "U10-L05",
-          "U10-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L05",
-          "U12-L06",
-          "U12-L07"
-        ],
-        "fresh_retrieval": [
-          "U10-L07",
-          "U11-L08",
-          "U12-L08",
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05",
-          "U13-L06"
-        ],
-        "recycle": [
-          "U11-L01",
-          "U11-L03",
-          "U11-L05",
-          "U11-L06",
-          "U12-L04",
-          "U12-L05",
-          "U12-L07",
-          "U13-L03",
-          "U13-L06"
-        ],
-        "consolidate": [
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05",
-          "U13-L06"
-        ],
-        "exit_verify": [
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05",
-          "U13-L06"
-        ]
-      },
-      "review_row": 225,
-      "source_record_id": "gse.adult.2022.b2.p42.016"
-    },
-    {
-      "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.017",
-      "label": "Can write detailed descriptions of real or imaginary places. (P)",
-      "homes": [
-        "C15"
-      ],
-      "provisional_semantic_role": "pending_stage_8_reconciliation",
-      "lifecycle": {
-        "introduce": [
-          "U10-L04"
-        ],
-        "practice": [
-          "U10-L04",
-          "U10-L05",
-          "U10-L06"
-        ],
-        "fresh_retrieval": [
-          "U10-L07",
-          "U13-L05"
-        ],
-        "recycle": [
-          "U12-L05",
-          "U13-L03"
-        ],
-        "consolidate": [
-          "U13-L05"
-        ],
-        "exit_verify": [
-          "U13-L05"
-        ]
-      },
-      "review_row": 226,
-      "source_record_id": "gse.adult.2022.b2.p42.017"
-    },
-    {
-      "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.018",
-      "label": "Can summarise in writing different points of view. (Wa)",
-      "homes": [
-        "C16"
-      ],
-      "provisional_semantic_role": "pending_stage_8_reconciliation",
-      "lifecycle": {
-        "introduce": [
-          "U11-L07"
-        ],
-        "practice": [
-          "U11-L07"
-        ],
-        "fresh_retrieval": [
-          "U11-L08",
-          "U13-L03",
-          "U13-L05"
-        ],
-        "recycle": [
-          "U12-L05",
-          "U12-L07"
-        ],
-        "consolidate": [
-          "U13-L03"
-        ],
-        "exit_verify": [
-          "U13-L03",
-          "U13-L05"
-        ]
-      },
-      "review_row": 227,
-      "source_record_id": "gse.adult.2022.b2.p42.018"
-    },
-    {
-      "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.019",
-      "label": "Can edit notes or bullet points to make them more concise. (P)",
-      "homes": [
-        "X-EDITING"
-      ],
-      "provisional_semantic_role": "pending_stage_8_reconciliation",
-      "lifecycle": {
-        "introduce": [
-          "U10-L05"
-        ],
-        "practice": [
-          "U10-L05",
-          "U10-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L01",
-          "U12-L02",
-          "U12-L03",
-          "U12-L04",
-          "U12-L05",
-          "U12-L06",
-          "U12-L07"
-        ],
-        "fresh_retrieval": [
-          "U10-L07",
-          "U11-L08",
-          "U12-L08",
-          "U13-L03",
-          "U13-L05"
-        ],
-        "recycle": [
-          "U12-L05",
-          "U12-L07",
-          "U13-L03",
-          "U13-L06"
-        ],
-        "consolidate": [
-          "U13-L03",
-          "U13-L05"
-        ],
-        "exit_verify": [
-          "U13-L03",
-          "U13-L05"
-        ]
-      },
-      "review_row": 228,
-      "source_record_id": "gse.adult.2022.b2.p42.019"
-    },
-    {
-      "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.020",
-      "label": "Can correctly attribute information from different sources. (P)",
-      "homes": [
-        "X-SOURCE-USE"
-      ],
-      "provisional_semantic_role": "pending_stage_8_reconciliation",
-      "lifecycle": {
-        "introduce": [
-          "U9-L07"
-        ],
-        "practice": [
-          "U9-L07",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L05",
-          "U12-L06",
-          "U12-L07"
-        ],
-        "fresh_retrieval": [
-          "U9-L08",
-          "U11-L08",
-          "U12-L08",
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05"
-        ],
-        "recycle": [
-          "U11-L05",
-          "U11-L06",
-          "U12-L04",
-          "U12-L05",
-          "U12-L07",
-          "U13-L06"
-        ],
-        "consolidate": [
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05"
-        ],
-        "exit_verify": [
-          "U13-L01",
-          "U13-L03",
-          "U13-L04",
-          "U13-L05"
-        ]
-      },
-      "review_row": 229,
-      "source_record_id": "gse.adult.2022.b2.p42.020"
-    },
-    {
-      "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.021",
-      "label": "Can write personal emails/letters about abstract or cultural topics (e.g. ‘music’, ‘films’). (Ca)",
-      "homes": [
-        "C17"
-      ],
-      "provisional_semantic_role": "pending_stage_8_reconciliation",
-      "lifecycle": {
-        "introduce": [
-          "U12-L04"
-        ],
-        "practice": [
-          "U12-L04"
-        ],
-        "fresh_retrieval": [
-          "U12-L08",
-          "U13-L05"
-        ],
-        "recycle": [
-          "U13-L06"
-        ],
-        "consolidate": [
-          "U13-L05"
-        ],
-        "exit_verify": [
-          "U13-L05"
-        ]
-      },
-      "review_row": 230,
-      "source_record_id": "gse.adult.2022.b2.p42.021"
-    },
-    {
-      "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.022",
-      "label": "Can write a concise summary of the main ideas of a longer structured text. (P)",
-      "homes": [
-        "C14"
-      ],
-      "provisional_semantic_role": "pending_stage_8_reconciliation",
-      "lifecycle": {
-        "introduce": [
-          "U9-L03"
-        ],
-        "practice": [
-          "U9-L03",
-          "U9-L04",
-          "U9-L05",
-          "U9-L06",
-          "U9-L07"
-        ],
-        "fresh_retrieval": [
-          "U9-L08",
-          "U13-L04"
-        ],
-        "recycle": [
-          "U11-L05",
-          "U12-L04"
-        ],
-        "consolidate": [
-          "U13-L04"
-        ],
-        "exit_verify": [
-          "U13-L04"
-        ]
-      },
-      "review_row": 231,
-      "source_record_id": "gse.adult.2022.b2.p42.022"
-    },
-    {
-      "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.023",
-      "label": "Can structure longer texts in clear, logical paragraphs. (P)",
-      "homes": [
-        "X-DISCOURSE"
-      ],
-      "provisional_semantic_role": "pending_stage_8_reconciliation",
-      "lifecycle": {
-        "introduce": [
           "U10-L02"
         ],
         "practice": [
@@ -9584,13 +9662,59 @@
           "U13-L06"
         ]
       },
-      "review_row": 232,
-      "source_record_id": "gse.adult.2022.b2.p42.023"
+      "review_row": 221,
+      "source_record_id": "gse.adult.2022.b2.p42.012",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
-      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.024",
-      "label": "Can express news and views effectively in writing and relate to those of others. (C)",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.013",
+      "label": "Can clearly signal problem and solution relationships in structured text. (P)",
+      "homes": [
+        "C18"
+      ],
+      "provisional_semantic_role": "pending_stage_8_reconciliation",
+      "lifecycle": {
+        "introduce": [
+          "U12-L07"
+        ],
+        "practice": [
+          "U12-L07"
+        ],
+        "fresh_retrieval": [
+          "U12-L08",
+          "U13-L05"
+        ],
+        "recycle": [
+          "U13-L06"
+        ],
+        "consolidate": [
+          "U13-L05"
+        ],
+        "exit_verify": [
+          "U13-L05"
+        ]
+      },
+      "review_row": 222,
+      "source_record_id": "gse.adult.2022.b2.p42.013"
+    },
+    {
+      "category": "ability",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.014",
+      "label": "Can write informal emails or letters using a range of idiomatic phrases. (P)",
       "homes": [
         "C17"
       ],
@@ -9602,6 +9726,546 @@
         "practice": [
           "U12-L01",
           "U12-L02",
+          "U12-L03",
+          "U12-L04"
+        ],
+        "fresh_retrieval": [
+          "U12-L08",
+          "U13-L05"
+        ],
+        "recycle": [
+          "U13-L06"
+        ],
+        "consolidate": [
+          "U13-L05"
+        ],
+        "exit_verify": [
+          "U13-L05"
+        ]
+      },
+      "review_row": 223,
+      "source_record_id": "gse.adult.2022.b2.p42.014"
+    },
+    {
+      "category": "ability",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.015",
+      "label": "Can signal additional information in a formal structured text with a range of language. (P)",
+      "homes": [
+        "X-DISCOURSE"
+      ],
+      "provisional_semantic_role": "pending_stage_8_reconciliation",
+      "lifecycle": {
+        "introduce": [
+          "U10-L03"
+        ],
+        "practice": [
+          "U10-L03",
+          "U10-L04",
+          "U10-L05",
+          "U10-L06",
+          "U11-L01",
+          "U11-L02",
+          "U11-L03",
+          "U11-L04",
+          "U11-L05",
+          "U11-L06",
+          "U11-L07",
+          "U12-L05",
+          "U12-L06",
+          "U12-L07"
+        ],
+        "fresh_retrieval": [
+          "U10-L07",
+          "U11-L08",
+          "U12-L08",
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05",
+          "U13-L06"
+        ],
+        "recycle": [
+          "U11-L01",
+          "U11-L03",
+          "U11-L05",
+          "U11-L06",
+          "U12-L04",
+          "U12-L05",
+          "U12-L07",
+          "U13-L03",
+          "U13-L06"
+        ],
+        "consolidate": [
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05",
+          "U13-L06"
+        ],
+        "exit_verify": [
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05",
+          "U13-L06"
+        ]
+      },
+      "review_row": 224,
+      "source_record_id": "gse.adult.2022.b2.p42.015",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
+    },
+    {
+      "category": "ability",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.016",
+      "label": "Can present additional ideas using a range of linking words and phrases. (P)",
+      "homes": [
+        "X-DISCOURSE"
+      ],
+      "provisional_semantic_role": "pending_stage_8_reconciliation",
+      "lifecycle": {
+        "introduce": [
+          "U10-L04"
+        ],
+        "practice": [
+          "U10-L04",
+          "U10-L05",
+          "U10-L06",
+          "U11-L01",
+          "U11-L02",
+          "U11-L03",
+          "U11-L04",
+          "U11-L05",
+          "U11-L06",
+          "U11-L07",
+          "U12-L05",
+          "U12-L06",
+          "U12-L07"
+        ],
+        "fresh_retrieval": [
+          "U10-L07",
+          "U11-L08",
+          "U12-L08",
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05",
+          "U13-L06"
+        ],
+        "recycle": [
+          "U11-L01",
+          "U11-L03",
+          "U11-L05",
+          "U11-L06",
+          "U12-L04",
+          "U12-L05",
+          "U12-L07",
+          "U13-L03",
+          "U13-L06"
+        ],
+        "consolidate": [
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05",
+          "U13-L06"
+        ],
+        "exit_verify": [
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05",
+          "U13-L06"
+        ]
+      },
+      "review_row": 225,
+      "source_record_id": "gse.adult.2022.b2.p42.016",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
+    },
+    {
+      "category": "ability",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.017",
+      "label": "Can write detailed descriptions of real or imaginary places. (P)",
+      "homes": [
+        "C15"
+      ],
+      "provisional_semantic_role": "pending_stage_8_reconciliation",
+      "lifecycle": {
+        "introduce": [
+          "U10-L04"
+        ],
+        "practice": [
+          "U10-L04",
+          "U10-L05",
+          "U10-L06"
+        ],
+        "fresh_retrieval": [
+          "U10-L07",
+          "U13-L05"
+        ],
+        "recycle": [
+          "U12-L05",
+          "U13-L03"
+        ],
+        "consolidate": [
+          "U13-L05"
+        ],
+        "exit_verify": [
+          "U13-L05"
+        ]
+      },
+      "review_row": 226,
+      "source_record_id": "gse.adult.2022.b2.p42.017"
+    },
+    {
+      "category": "ability",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.018",
+      "label": "Can summarise in writing different points of view. (Wa)",
+      "homes": [
+        "C16"
+      ],
+      "provisional_semantic_role": "pending_stage_8_reconciliation",
+      "lifecycle": {
+        "introduce": [
+          "U11-L04"
+        ],
+        "practice": [
+          "U11-L04",
+          "U11-L05",
+          "U11-L06",
+          "U11-L07"
+        ],
+        "fresh_retrieval": [
+          "U11-L08",
+          "U13-L03",
+          "U13-L05"
+        ],
+        "recycle": [
+          "U12-L05",
+          "U12-L07"
+        ],
+        "consolidate": [
+          "U13-L03"
+        ],
+        "exit_verify": [
+          "U13-L03",
+          "U13-L05"
+        ]
+      },
+      "review_row": 227,
+      "source_record_id": "gse.adult.2022.b2.p42.018"
+    },
+    {
+      "category": "ability",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.019",
+      "label": "Can edit notes or bullet points to make them more concise. (P)",
+      "homes": [
+        "X-EDITING"
+      ],
+      "provisional_semantic_role": "pending_stage_8_reconciliation",
+      "lifecycle": {
+        "introduce": [
+          "U11-L03"
+        ],
+        "practice": [
+          "U11-L03",
+          "U11-L04",
+          "U11-L05",
+          "U11-L06",
+          "U11-L07",
+          "U12-L01",
+          "U12-L02",
+          "U12-L03",
+          "U12-L04",
+          "U12-L05",
+          "U12-L06",
+          "U12-L07"
+        ],
+        "fresh_retrieval": [
+          "U11-L08",
+          "U12-L08",
+          "U13-L03",
+          "U13-L05"
+        ],
+        "recycle": [
+          "U12-L05",
+          "U12-L07",
+          "U13-L03",
+          "U13-L06"
+        ],
+        "consolidate": [
+          "U13-L03",
+          "U13-L05"
+        ],
+        "exit_verify": [
+          "U13-L03",
+          "U13-L05"
+        ]
+      },
+      "review_row": 228,
+      "source_record_id": "gse.adult.2022.b2.p42.019",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
+    },
+    {
+      "category": "ability",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.020",
+      "label": "Can correctly attribute information from different sources. (P)",
+      "homes": [
+        "X-SOURCE-USE"
+      ],
+      "provisional_semantic_role": "pending_stage_8_reconciliation",
+      "lifecycle": {
+        "introduce": [
+          "U11-L06"
+        ],
+        "practice": [
+          "U11-L06",
+          "U11-L07",
+          "U12-L05",
+          "U12-L06",
+          "U12-L07"
+        ],
+        "fresh_retrieval": [
+          "U11-L08",
+          "U12-L08",
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05"
+        ],
+        "recycle": [
+          "U12-L04",
+          "U12-L05",
+          "U12-L07",
+          "U13-L06"
+        ],
+        "consolidate": [
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05"
+        ],
+        "exit_verify": [
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05"
+        ]
+      },
+      "review_row": 229,
+      "source_record_id": "gse.adult.2022.b2.p42.020",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
+    },
+    {
+      "category": "ability",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.021",
+      "label": "Can write personal emails/letters about abstract or cultural topics (e.g. ‘music’, ‘films’). (Ca)",
+      "homes": [
+        "C17"
+      ],
+      "provisional_semantic_role": "pending_stage_8_reconciliation",
+      "lifecycle": {
+        "introduce": [
+          "U12-L02"
+        ],
+        "practice": [
+          "U12-L02",
+          "U12-L03",
+          "U12-L04"
+        ],
+        "fresh_retrieval": [
+          "U12-L08",
+          "U13-L05"
+        ],
+        "recycle": [
+          "U13-L06"
+        ],
+        "consolidate": [
+          "U13-L05"
+        ],
+        "exit_verify": [
+          "U13-L05"
+        ]
+      },
+      "review_row": 230,
+      "source_record_id": "gse.adult.2022.b2.p42.021"
+    },
+    {
+      "category": "ability",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.022",
+      "label": "Can write a concise summary of the main ideas of a longer structured text. (P)",
+      "homes": [
+        "C14"
+      ],
+      "provisional_semantic_role": "pending_stage_8_reconciliation",
+      "lifecycle": {
+        "introduce": [
+          "U9-L07"
+        ],
+        "practice": [
+          "U9-L07"
+        ],
+        "fresh_retrieval": [
+          "U9-L08",
+          "U13-L04"
+        ],
+        "recycle": [
+          "U11-L05",
+          "U12-L04"
+        ],
+        "consolidate": [
+          "U13-L04"
+        ],
+        "exit_verify": [
+          "U13-L04"
+        ]
+      },
+      "review_row": 231,
+      "source_record_id": "gse.adult.2022.b2.p42.022"
+    },
+    {
+      "category": "ability",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.023",
+      "label": "Can structure longer texts in clear, logical paragraphs. (P)",
+      "homes": [
+        "X-DISCOURSE"
+      ],
+      "provisional_semantic_role": "pending_stage_8_reconciliation",
+      "lifecycle": {
+        "introduce": [
+          "U10-L05"
+        ],
+        "practice": [
+          "U10-L05",
+          "U10-L06",
+          "U11-L01",
+          "U11-L02",
+          "U11-L03",
+          "U11-L04",
+          "U11-L05",
+          "U11-L06",
+          "U11-L07",
+          "U12-L05",
+          "U12-L06",
+          "U12-L07"
+        ],
+        "fresh_retrieval": [
+          "U10-L07",
+          "U11-L08",
+          "U12-L08",
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05",
+          "U13-L06"
+        ],
+        "recycle": [
+          "U11-L01",
+          "U11-L03",
+          "U11-L05",
+          "U11-L06",
+          "U12-L04",
+          "U12-L05",
+          "U12-L07",
+          "U13-L03",
+          "U13-L06"
+        ],
+        "consolidate": [
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05",
+          "U13-L06"
+        ],
+        "exit_verify": [
+          "U13-L01",
+          "U13-L03",
+          "U13-L04",
+          "U13-L05",
+          "U13-L06"
+        ]
+      },
+      "review_row": 232,
+      "source_record_id": "gse.adult.2022.b2.p42.023",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
+    },
+    {
+      "category": "ability",
+      "item_id": "ability.gse_all_objectives.gse.adult.2022.b2.p42.024",
+      "label": "Can express news and views effectively in writing and relate to those of others. (C)",
+      "homes": [
+        "C17"
+      ],
+      "provisional_semantic_role": "pending_stage_8_reconciliation",
+      "lifecycle": {
+        "introduce": [
+          "U12-L03"
+        ],
+        "practice": [
           "U12-L03",
           "U12-L04"
         ],
@@ -9632,11 +10296,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U12-L04"
         ],
         "practice": [
-          "U12-L02",
-          "U12-L03",
           "U12-L04"
         ],
         "fresh_retrieval": [
@@ -9733,13 +10395,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U11-L05"
         ],
         "practice": [
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
           "U11-L05",
           "U11-L06",
           "U11-L07"
@@ -9774,9 +10432,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L03"
+          "U12-L01"
         ],
         "practice": [
+          "U12-L01",
+          "U12-L02",
           "U12-L03",
           "U12-L04"
         ],
@@ -9807,9 +10467,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L04"
+          "U9-L01"
         ],
         "practice": [
+          "U9-L01",
+          "U9-L02",
+          "U9-L03",
           "U9-L04",
           "U9-L05",
           "U9-L06",
@@ -9843,9 +10506,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L05"
+          "U9-L02"
         ],
         "practice": [
+          "U9-L02",
+          "U9-L03",
+          "U9-L04",
           "U9-L05",
           "U9-L06",
           "U9-L07"
@@ -9878,13 +10544,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L02"
+          "U11-L06"
         ],
         "practice": [
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
           "U11-L06",
           "U11-L07"
         ],
@@ -9918,13 +10580,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L03"
+          "U11-L07"
         ],
         "practice": [
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
           "U11-L07"
         ],
         "fresh_retrieval": [
@@ -9957,33 +10615,15 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U10-L01"
+          "U12-L04"
         ],
         "practice": [
-          "U10-L01",
-          "U10-L02",
-          "U10-L03",
-          "U10-L04",
-          "U10-L05",
-          "U10-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L01",
-          "U12-L02",
-          "U12-L03",
           "U12-L04",
           "U12-L05",
           "U12-L06",
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L08",
           "U12-L08",
           "U13-L03",
           "U13-L05"
@@ -10004,7 +10644,21 @@
         ]
       },
       "review_row": 243,
-      "source_record_id": "gse.adult.2022.b2.p42.034"
+      "source_record_id": "gse.adult.2022.b2.p42.034",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -10016,47 +10670,14 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U2-L05"
+          "U12-L05"
         ],
         "practice": [
-          "U2-L05",
-          "U5-L01",
-          "U5-L02",
-          "U5-L03",
-          "U5-L04",
-          "U7-L01",
-          "U7-L02",
-          "U7-L03",
-          "U7-L04",
-          "U7-L05",
-          "U7-L06",
-          "U8-L01",
-          "U8-L02",
-          "U8-L03",
-          "U8-L04",
-          "U8-L05",
-          "U8-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L01",
-          "U12-L02",
-          "U12-L03",
-          "U12-L04",
           "U12-L05",
           "U12-L06",
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U2-L07",
-          "U5-L08",
-          "U7-L07",
-          "U8-L07",
-          "U11-L08",
           "U12-L08",
           "U13-L01",
           "U13-L02",
@@ -10065,16 +10686,6 @@
           "U13-L06"
         ],
         "recycle": [
-          "U6-L04",
-          "U7-L01",
-          "U7-L04",
-          "U8-L04",
-          "U8-L05",
-          "U9-L06",
-          "U11-L01",
-          "U12-L01",
-          "U12-L03",
-          "U12-L05",
           "U12-L07",
           "U13-L06"
         ],
@@ -10094,7 +10705,21 @@
         ]
       },
       "review_row": 244,
-      "source_record_id": "gse.adult.2022.b2.p42.035"
+      "source_record_id": "gse.adult.2022.b2.p42.035",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -10106,9 +10731,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U11-L01"
         ],
         "practice": [
+          "U11-L01",
+          "U11-L02",
+          "U11-L03",
           "U11-L04",
           "U11-L05",
           "U11-L06",
@@ -10182,9 +10810,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L04"
+          "U12-L02"
         ],
         "practice": [
+          "U12-L02",
+          "U12-L03",
           "U12-L04"
         ],
         "fresh_retrieval": [
@@ -10214,38 +10844,19 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U10-L02"
+          "U12-L05"
         ],
         "practice": [
-          "U10-L02",
-          "U10-L03",
-          "U10-L04",
-          "U10-L05",
-          "U10-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L01",
-          "U12-L02",
-          "U12-L03",
-          "U12-L04",
           "U12-L05",
           "U12-L06",
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L08",
           "U12-L08",
           "U13-L03",
           "U13-L05"
         ],
         "recycle": [
-          "U12-L05",
           "U12-L07",
           "U13-L03",
           "U13-L06"
@@ -10260,7 +10871,21 @@
         ]
       },
       "review_row": 248,
-      "source_record_id": "gse.adult.2022.b2_plus.p43.004"
+      "source_record_id": "gse.adult.2022.b2_plus.p43.004",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -10272,9 +10897,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L05"
+          "U11-L02"
         ],
         "practice": [
+          "U11-L02",
+          "U11-L03",
+          "U11-L04",
           "U11-L05",
           "U11-L06",
           "U11-L07"
@@ -10346,11 +10974,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L01"
+          "U12-L03"
         ],
         "practice": [
-          "U12-L01",
-          "U12-L02",
           "U12-L03",
           "U12-L04"
         ],
@@ -10381,11 +11007,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U12-L02"
+          "U12-L04"
         ],
         "practice": [
-          "U12-L02",
-          "U12-L03",
           "U12-L04"
         ],
         "fresh_retrieval": [
@@ -10415,9 +11039,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L06"
+          "U11-L03"
         ],
         "practice": [
+          "U11-L03",
+          "U11-L04",
+          "U11-L05",
           "U11-L06",
           "U11-L07"
         ],
@@ -10485,37 +11112,18 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U12-L06"
         ],
         "practice": [
-          "U10-L03",
-          "U10-L04",
-          "U10-L05",
-          "U10-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L01",
-          "U12-L02",
-          "U12-L03",
-          "U12-L04",
-          "U12-L05",
           "U12-L06",
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L08",
           "U12-L08",
           "U13-L03",
           "U13-L05"
         ],
         "recycle": [
-          "U12-L05",
           "U12-L07",
           "U13-L03",
           "U13-L06"
@@ -10530,7 +11138,21 @@
         ]
       },
       "review_row": 255,
-      "source_record_id": "gse.adult.2022.b2_plus.p43.011"
+      "source_record_id": "gse.adult.2022.b2_plus.p43.011",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -10578,9 +11200,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L07"
+          "U11-L04"
         ],
         "practice": [
+          "U11-L04",
+          "U11-L05",
+          "U11-L06",
           "U11-L07"
         ],
         "fresh_retrieval": [
@@ -10613,45 +11238,13 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L01"
+          "U12-L06"
         ],
         "practice": [
-          "U5-L01",
-          "U5-L02",
-          "U5-L03",
-          "U5-L04",
-          "U7-L01",
-          "U7-L02",
-          "U7-L03",
-          "U7-L04",
-          "U7-L05",
-          "U7-L06",
-          "U8-L01",
-          "U8-L02",
-          "U8-L03",
-          "U8-L04",
-          "U8-L05",
-          "U8-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L01",
-          "U12-L02",
-          "U12-L03",
-          "U12-L04",
-          "U12-L05",
           "U12-L06",
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U5-L08",
-          "U7-L07",
-          "U8-L07",
-          "U11-L08",
           "U12-L08",
           "U13-L01",
           "U13-L02",
@@ -10660,16 +11253,6 @@
           "U13-L06"
         ],
         "recycle": [
-          "U6-L04",
-          "U7-L01",
-          "U7-L04",
-          "U8-L04",
-          "U8-L05",
-          "U9-L06",
-          "U11-L01",
-          "U12-L01",
-          "U12-L03",
-          "U12-L05",
           "U12-L07",
           "U13-L06"
         ],
@@ -10689,7 +11272,21 @@
         ]
       },
       "review_row": 258,
-      "source_record_id": "gse.adult.2022.b2_plus.p43.014"
+      "source_record_id": "gse.adult.2022.b2_plus.p43.014",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -10701,13 +11298,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L01"
+          "U11-L05"
         ],
         "practice": [
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
           "U11-L05",
           "U11-L06",
           "U11-L07"
@@ -10775,37 +11368,17 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U10-L04"
+          "U12-L07"
         ],
         "practice": [
-          "U10-L04",
-          "U10-L05",
-          "U10-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L01",
-          "U12-L02",
-          "U12-L03",
-          "U12-L04",
-          "U12-L05",
-          "U12-L06",
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U10-L07",
-          "U11-L08",
           "U12-L08",
           "U13-L03",
           "U13-L05"
         ],
         "recycle": [
-          "U12-L05",
-          "U12-L07",
           "U13-L03",
           "U13-L06"
         ],
@@ -10819,7 +11392,21 @@
         ]
       },
       "review_row": 261,
-      "source_record_id": "gse.adult.2022.b2_plus.p43.017"
+      "source_record_id": "gse.adult.2022.b2_plus.p43.017",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -10866,13 +11453,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L02"
+          "U11-L06"
         ],
         "practice": [
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
           "U11-L06",
           "U11-L07"
         ],
@@ -10906,13 +11489,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L03"
+          "U11-L07"
         ],
         "practice": [
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
           "U11-L07"
         ],
         "fresh_retrieval": [
@@ -10945,9 +11524,11 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U10-L06"
+          "U10-L04"
         ],
         "practice": [
+          "U10-L04",
+          "U10-L05",
           "U10-L06",
           "U11-L01",
           "U11-L02",
@@ -10987,7 +11568,21 @@
         ]
       },
       "review_row": 265,
-      "source_record_id": "gse.adult.2022.b2_plus.p43.021"
+      "source_record_id": "gse.adult.2022.b2_plus.p43.021",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -10999,9 +11594,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U11-L04"
+          "U11-L01"
         ],
         "practice": [
+          "U11-L01",
+          "U11-L02",
+          "U11-L03",
           "U11-L04",
           "U11-L05",
           "U11-L06",
@@ -11071,12 +11669,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U10-L03"
+          "U10-L06"
         ],
         "practice": [
-          "U10-L03",
-          "U10-L04",
-          "U10-L05",
           "U10-L06",
           "U11-L01",
           "U11-L02",
@@ -11126,7 +11721,21 @@
         ]
       },
       "review_row": 268,
-      "source_record_id": "gse.adult.2022.b2_plus.p43.024"
+      "source_record_id": "gse.adult.2022.b2_plus.p43.024",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
@@ -11138,44 +11747,12 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L02"
+          "U12-L07"
         ],
         "practice": [
-          "U5-L02",
-          "U5-L03",
-          "U5-L04",
-          "U7-L01",
-          "U7-L02",
-          "U7-L03",
-          "U7-L04",
-          "U7-L05",
-          "U7-L06",
-          "U8-L01",
-          "U8-L02",
-          "U8-L03",
-          "U8-L04",
-          "U8-L05",
-          "U8-L06",
-          "U11-L01",
-          "U11-L02",
-          "U11-L03",
-          "U11-L04",
-          "U11-L05",
-          "U11-L06",
-          "U11-L07",
-          "U12-L01",
-          "U12-L02",
-          "U12-L03",
-          "U12-L04",
-          "U12-L05",
-          "U12-L06",
           "U12-L07"
         ],
         "fresh_retrieval": [
-          "U5-L08",
-          "U7-L07",
-          "U8-L07",
-          "U11-L08",
           "U12-L08",
           "U13-L01",
           "U13-L02",
@@ -11184,17 +11761,6 @@
           "U13-L06"
         ],
         "recycle": [
-          "U6-L04",
-          "U7-L01",
-          "U7-L04",
-          "U8-L04",
-          "U8-L05",
-          "U9-L06",
-          "U11-L01",
-          "U12-L01",
-          "U12-L03",
-          "U12-L05",
-          "U12-L07",
           "U13-L06"
         ],
         "consolidate": [
@@ -11213,7 +11779,21 @@
         ]
       },
       "review_row": 269,
-      "source_record_id": "gse.adult.2022.b2_plus.p43.025"
+      "source_record_id": "gse.adult.2022.b2_plus.p43.025",
+      "stage_07_intro_routing": {
+        "reason": "cross_cutting_ability_source_modality_guard",
+        "source_mode_codes": [
+          "production"
+        ],
+        "source_skill_codes": [
+          "writing"
+        ],
+        "allowed_intro_units": [
+          "U10",
+          "U11",
+          "U12"
+        ]
+      }
     },
     {
       "category": "ability",
