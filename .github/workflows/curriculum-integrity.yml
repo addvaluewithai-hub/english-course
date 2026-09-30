@@ -31,15 +31,13 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref || github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -47,40 +45,29 @@ jobs:
         run: python scripts/audit_level_source_of_truth_v4.py
       - name: Run level source-of-truth tests
         run: python -m unittest tests.test_level_source_of_truth
-      - name: Build B2 Stage-06 provisional exact ledger
+      - name: Rebuild B2 Stage-06 provisional exact ledger
         id: b2_stage06
         shell: bash
         run: |
           set +e
-          mkdir -p curriculum/levels/b2/design-review/06-coverage-ledger/generated
+          mkdir -p /tmp/b2-stage06
           python scripts/build_b2_coverage_ledger.py \
-            --output curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json \
-            --source-home-index curriculum/levels/b2/design-review/06-coverage-ledger/generated/source-home-index.json \
-            --report curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md
+            --output /tmp/b2-stage06/coverage-ledger.json \
+            --source-home-index /tmp/b2-stage06/source-home-index.json \
+            --report /tmp/b2-stage06/coverage-report.md
           code=$?
           echo "exit_code=$code" >> "$GITHUB_OUTPUT"
           exit 0
       - name: Validate documented B2 Stage-06 load-warning set
         if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
-        run: python scripts/validate_b2_stage06_load_critic.py curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md
-      - name: Materialize deterministic B2 Stage-06 evidence on PR branch
-        if: github.event_name == 'pull_request' && (steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2')
+        run: python scripts/validate_b2_stage06_load_critic.py /tmp/b2-stage06/coverage-report.md
+      - name: Verify committed B2 Stage-06 evidence is deterministic
+        if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
         shell: bash
         run: |
-          paths=(
-            curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md
-            curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json
-            curriculum/levels/b2/design-review/06-coverage-ledger/generated/source-home-index.json
-          )
-          if [ -z "$(git status --porcelain -- "${paths[@]}")" ]; then
-            echo "B2 Stage-06 generated evidence already matches."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "${paths[@]}"
-          git commit -m "chore(curriculum): materialize B2 Stage 6 exact ledger"
-          git push origin HEAD:${{ github.head_ref }}
+          cmp /tmp/b2-stage06/coverage-ledger.json curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json
+          cmp /tmp/b2-stage06/source-home-index.json curriculum/levels/b2/design-review/06-coverage-ledger/generated/source-home-index.json
+          cmp /tmp/b2-stage06/coverage-report.md curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md
       - name: Enforce B2 Stage-06 structural result
         if: steps.b2_stage06.outputs.exit_code != '0' && steps.b2_stage06.outputs.exit_code != '2'
         run: |
