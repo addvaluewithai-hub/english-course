@@ -9,6 +9,8 @@ This map is the first B2 stage allowed to propose unit and lesson-slot architect
 
 The **95-slot** baseline emerged from keeping B2 reception, production, interaction, mediation and writing performance boundaries independently teachable while protecting later fresh retrieval, the three explicit B2 assessment requirements, cumulative pronunciation/fluency evidence, and zero-new transfer slots. Stage 06 exact source-record/load/lifecycle work may still move, merge or split slots when evidence requires it.
 
+This candidate map **does not authorize lesson design** and does not change `manifest.json`; `lesson_design_authorized` remains `false` until the later semantic/reconciliation/authorization gates are satisfied and owner human review is complete.
+
 ## Shape accounting
 
 - **13 units**
