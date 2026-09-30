@@ -43,39 +43,59 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - name: Audit source-of-truth integrity
         run: python scripts/audit_level_source_of_truth_v4.py
+
       - name: Run level source-of-truth tests
         run: python -m unittest tests.test_level_source_of_truth
-      - name: Rebuild modality-aware B2 Stage-06 exact ledger
+
+      - name: Rebuild Stage-7-balanced B2 Stage-06 exact ledger
         id: b2_stage06
         shell: bash
         run: |
           set +e
           mkdir -p curriculum/levels/b2/design-review/06-coverage-ledger/generated
-          python scripts/run_b2_coverage_ledger.py \
+          python scripts/run_b2_coverage_ledger_stage07_balanced.py \
             --output curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json \
             --source-home-index curriculum/levels/b2/design-review/06-coverage-ledger/generated/source-home-index.json \
             --report curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md
           code=$?
           echo "exit_code=$code" >> "$GITHUB_OUTPUT"
           exit 0
+
+      - name: Validate documented B2 Stage-06 load-warning set
+        if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
+        run: python scripts/validate_b2_stage06_load_critic.py curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md
+
       - name: Enforce B2 Stage-06 structural result
         if: steps.b2_stage06.outputs.exit_code != '0' && steps.b2_stage06.outputs.exit_code != '2'
         run: |
           echo "B2 Stage-06 ledger generator exited with structural code ${{ steps.b2_stage06.outputs.exit_code }}"
           exit 1
-      - name: Materialize modality-aware B2 Stage-06 evidence on PR branch
+
+      - name: Build B2 Stage-07 lesson authoring briefs
+        if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
+        run: |
+          mkdir -p curriculum/levels/b2/design-review/07-lesson-briefs
+          python scripts/build_b2_lesson_briefs.py \
+            --output curriculum/levels/b2/design-review/07-lesson-briefs/lesson-briefs.md
+
+      - name: Validate B2 Stage-07 lesson authoring briefs
+        if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
+        run: python scripts/validate_b2_stage07_briefs.py curriculum/levels/b2/design-review/07-lesson-briefs/lesson-briefs.md
+
+      - name: Materialize deterministic B2 Stage-06 and Stage-07 evidence on PR branch
         if: github.event_name == 'pull_request' && (steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2')
         shell: bash
         run: |
-          paths="curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json curriculum/levels/b2/design-review/06-coverage-ledger/generated/source-home-index.json"
+          paths="curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json curriculum/levels/b2/design-review/06-coverage-ledger/generated/source-home-index.json curriculum/levels/b2/design-review/07-lesson-briefs/lesson-briefs.md"
           if [ -z "$(git status --porcelain -- $paths)" ]; then
-            echo "B2 Stage-06 modality-aware evidence already matches."
+            echo "B2 Stage-06/07 evidence already matches."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add $paths
-          git commit -m "chore(curriculum): reroute B2 cross-cutting ability introductions by modality"
+          git commit -m "chore(curriculum): materialize B2 Stage 7 authoring evidence"
           git push origin HEAD:${{ github.head_ref }}
