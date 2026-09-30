@@ -7,9 +7,11 @@ ability rows can span several capability families, so a purely semantic round-ro
 first introduce a production-coded source row inside a reception lesson (or vice versa).
 
 This wrapper does NOT change Stage-1 semantic homes and does NOT infer final Stage-8
-control roles. It only narrows first-introduction windows for ability records to units
-compatible with their canonical source mode/skill while retaining all existing Stage-06
-lifecycle, coverage, zero-new, and load checks.
+control roles. It only narrows first-introduction windows for SUPPORTING cross-cutting
+ability records to units compatible with their canonical source mode/skill. Direct
+C01-C18 capability ownership remains authoritative, including families that deliberately
+contain source-mode subcomponents. Existing Stage-06 lifecycle, coverage, zero-new, and
+load checks remain in force.
 """
 from __future__ import annotations
 
@@ -62,8 +64,6 @@ def compatible_intro_units(item: dict) -> set[str]:
     if mediation:
         units.add("U9")
 
-    # Unknown/mixed metadata should not cause a silent exclusion. In that case the
-    # reviewed semantic-home window remains the authority.
     return units
 
 
@@ -78,7 +78,10 @@ def balanced_with_modality(records, key_fn, windows_fn, salt):
     groups = defaultdict(list)
     for record in records:
         key = key_fn(record)
-        allowed = compatible_intro_units(record)
+        # Only SUPPORTING cross-cutting homes need this guard. Direct C01-C18
+        # capability homes retain the Stage-1 reviewed family even when that family
+        # intentionally contains different source-mode subcomponents.
+        allowed = compatible_intro_units(record) if "X-" in key else set()
         groups[(key, tuple(sorted(allowed)))].append(record)
 
     assigned = {}
