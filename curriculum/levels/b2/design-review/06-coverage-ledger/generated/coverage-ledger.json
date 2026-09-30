@@ -2883,11 +2883,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U3-L03"
         ],
         "practice": [
-          "U3-L01",
-          "U3-L02",
           "U3-L03"
         ],
         "fresh_retrieval": [
@@ -2977,9 +2975,10 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U3-L05"
+          "U3-L04"
         ],
         "practice": [
+          "U3-L04",
           "U3-L05"
         ],
         "fresh_retrieval": [
@@ -3355,10 +3354,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U3-L02"
         ],
         "practice": [
-          "U3-L01",
           "U3-L02",
           "U3-L03"
         ],
@@ -3781,10 +3779,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U3-L02"
         ],
         "practice": [
-          "U3-L01",
           "U3-L02",
           "U3-L03"
         ],
@@ -3923,10 +3920,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U3-L01"
+          "U3-L02"
         ],
         "practice": [
-          "U3-L01",
           "U3-L02",
           "U3-L03"
         ],
@@ -5528,11 +5524,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L01"
+          "U5-L03"
         ],
         "practice": [
-          "U5-L01",
-          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -5734,9 +5728,24 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U9-L06"
+          "U7-L03"
         ],
         "practice": [
+          "U7-L03",
+          "U7-L04",
+          "U7-L05",
+          "U7-L06",
+          "U8-L01",
+          "U8-L02",
+          "U8-L03",
+          "U8-L04",
+          "U8-L05",
+          "U8-L06",
+          "U9-L01",
+          "U9-L02",
+          "U9-L03",
+          "U9-L04",
+          "U9-L05",
           "U9-L06",
           "U9-L07",
           "U12-L01",
@@ -5745,6 +5754,8 @@
           "U12-L04"
         ],
         "fresh_retrieval": [
+          "U7-L07",
+          "U8-L07",
           "U9-L08",
           "U12-L08",
           "U13-L02",
@@ -5753,6 +5764,9 @@
           "U13-L06"
         ],
         "recycle": [
+          "U7-L04",
+          "U8-L04",
+          "U9-L06",
           "U9-L07",
           "U11-L05",
           "U12-L03",
@@ -5853,11 +5867,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L01"
+          "U5-L03"
         ],
         "practice": [
-          "U5-L01",
-          "U5-L02",
           "U5-L03",
           "U5-L04"
         ],
@@ -6003,14 +6015,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U6-L06"
         ],
         "practice": [
-          "U6-L01",
-          "U6-L02",
-          "U6-L03",
-          "U6-L04",
-          "U6-L05",
           "U6-L06"
         ],
         "fresh_retrieval": [
@@ -6554,9 +6561,17 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U6-L06"
+          "U5-L05"
         ],
         "practice": [
+          "U5-L05",
+          "U5-L06",
+          "U5-L07",
+          "U6-L01",
+          "U6-L02",
+          "U6-L03",
+          "U6-L04",
+          "U6-L05",
           "U6-L06",
           "U7-L01",
           "U7-L02",
@@ -6573,6 +6588,7 @@
           "U11-L07"
         ],
         "fresh_retrieval": [
+          "U5-L08",
           "U6-L07",
           "U7-L07",
           "U8-L07",
@@ -6584,6 +6600,8 @@
           "U13-L06"
         ],
         "recycle": [
+          "U6-L04",
+          "U6-L06",
           "U7-L04",
           "U8-L04",
           "U8-L05",
@@ -8201,12 +8219,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L01"
+          "U5-L04"
         ],
         "practice": [
-          "U5-L01",
-          "U5-L02",
-          "U5-L03",
           "U5-L04"
         ],
         "fresh_retrieval": [
@@ -9364,10 +9379,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U6-L02"
         ],
         "practice": [
-          "U6-L01",
           "U6-L02",
           "U6-L03",
           "U6-L04",
@@ -10351,14 +10365,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U6-L06"
         ],
         "practice": [
-          "U6-L01",
-          "U6-L02",
-          "U6-L03",
-          "U6-L04",
-          "U6-L05",
           "U6-L06"
         ],
         "fresh_retrieval": [
@@ -11050,14 +11059,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U6-L01"
+          "U6-L06"
         ],
         "practice": [
-          "U6-L01",
-          "U6-L02",
-          "U6-L03",
-          "U6-L04",
-          "U6-L05",
           "U6-L06"
         ],
         "fresh_retrieval": [
@@ -11205,12 +11209,9 @@
       "provisional_semantic_role": "pending_stage_8_reconciliation",
       "lifecycle": {
         "introduce": [
-          "U5-L01"
+          "U5-L04"
         ],
         "practice": [
-          "U5-L01",
-          "U5-L02",
-          "U5-L03",
           "U5-L04"
         ],
         "fresh_retrieval": [
