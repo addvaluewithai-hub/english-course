@@ -4,15 +4,19 @@
 Stage 06 proved exact coverage/lifecycle completeness. Stage 07 authoring inspection then
 exposed a narrower scheduling issue: round-robin balancing inside a valid capability or
 cross-cutting home can still place a source ability in the wrong *lesson* inside that
-reviewed window (for example, a trend ability before the dedicated trend lesson).
+reviewed window.
 
 This wrapper keeps Stage-1 semantic homes authoritative and keeps all scheduling inside
-the Stage-06 reviewed introduction windows. It adds two bounded routing constraints:
+the Stage-06 reviewed introduction windows. It adds three bounded routing constraints:
 1. SUPPORTING X-* ability rows cannot first appear in a clearly incompatible modality
    block (e.g. spoken production first introduced in a reading unit).
 2. Within the remaining reviewed window, source text/function tags are matched against
-   the Stage-5 lesson title/outcome so exact introductions land in the most defensible
-   lesson-level home. Ties remain load-balanced and deterministic.
+   the Stage-5 lesson title/outcome so exact introductions prefer the most defensible
+   lesson-level home.
+3. Semantic routing is globally balanced against the existing Stage-06 ability warning
+   threshold (9 introductions) so a generic similarity signal cannot collapse a whole
+   capability into one lesson. Strong semantic matches are placed first; weaker ties use
+   remaining capacity deterministically.
 
 No final productive/receptive/formulaic/support role is inferred here; Stage 8 owns that
 lock and Stage 8.5 must re-audit role-aware lifecycle/load.
@@ -20,11 +24,12 @@ lock and Stage 8.5 must re-audit role-aware lifecycle/load.
 from __future__ import annotations
 
 import re
-from collections import Counter, defaultdict
+from collections import Counter
 
 import build_b2_coverage_ledger as ledger
 
 MAP_PATH = ledger.REVIEW / "05-curriculum-map/curriculum-map.md"
+ABILITY_LIMIT = 9
 
 STOP = {
     "a", "an", "and", "are", "as", "at", "be", "been", "being", "by", "can", "could",
@@ -34,7 +39,7 @@ STOP = {
 }
 
 CONCEPT_GROUPS = [
-    {"argument", "claim", "reason", "evidence", "conclusion", "support", "supporting"},
+    {"argument", "claim", "reason", "reasons", "evidence", "conclusion", "support", "supporting"},
     {"fact", "opinion", "inference", "interpretation", "evaluate", "evaluation"},
     {"contrast", "contrasting", "compare", "comparison", "viewpoint", "viewpoints", "position", "positions"},
     {"purpose", "audience", "persuade", "persuasion", "persuasive", "rhetorical"},
@@ -43,7 +48,7 @@ CONCEPT_GROUPS = [
     {"integrate", "synthesise", "synthesize", "sources", "source", "combine"},
     {"diagram", "graph", "graphs", "chart", "charts", "table", "tables", "visual", "data"},
     {"instruction", "instructions", "process", "procedure", "procedures", "stage", "stages", "steps", "technical", "advice"},
-    {"narrative", "story", "plot", "event", "events", "character", "characters"},
+    {"narrative", "narrate", "story", "plot", "event", "events", "character", "characters"},
     {"main", "points", "sequence", "extended", "presentation", "presentations", "broadcast", "media"},
     {"describe", "description", "person", "people", "place", "places", "product", "products", "characteristics"},
     {"explain", "explanation", "factual", "field", "information", "informative"},
@@ -126,10 +131,7 @@ def lesson_contexts() -> dict[str, dict[str, str]]:
             out[current] = {"title": m.group(2), "outcome": ""}
             buffer = []
         elif current:
-            if raw.startswith("### ") or raw.startswith("# Unit "):
-                flush()
-            else:
-                buffer.append(raw)
+            buffer.append(raw)
     flush()
     if len(out) != 95:
         raise ValueError(f"Stage-07 semantic router expected 95 lesson contexts, got {len(out)}")
@@ -212,44 +214,47 @@ def balanced_with_stage07_semantics(records, key_fn, windows_fn, salt):
     if salt != "ability":
         return _original_balanced(records, key_fn, windows_fn, salt)
 
-    groups = defaultdict(list)
+    plans = []
     for record in records:
         key = key_fn(record)
-        allowed = compatible_intro_units(record) if "X-" in key else set()
-        groups[(key, tuple(sorted(allowed)))].append(record)
-
-    assigned = {}
-    for (key, allowed_tuple), values in groups.items():
         windows = windows_fn(key)
         if not windows:
             raise ValueError(f"no B2 ability introduction window for {key}")
-        if allowed_tuple:
-            allowed = set(allowed_tuple)
+
+        allowed = compatible_intro_units(record) if "X-" in key else set()
+        if allowed:
             windows = [lid for lid in windows if unit_of(lid) in allowed]
         if not windows:
             raise ValueError(
                 f"cross-cutting ability introduction has no mode-compatible lesson: "
-                f"home={key} allowed_units={list(allowed_tuple)}"
+                f"home={key} allowed_units={sorted(allowed)}"
             )
 
-        loads: Counter = Counter()
-        # Put records with a strong semantic signal first; weak/tied records then fill
-        # remaining capacity deterministically.
-        ranked = []
-        for record in values:
-            scores = {lid: semantic_score(record, lid) for lid in windows}
-            ranked.append((max(scores.values()), record, scores))
-        ranked.sort(key=lambda x: (-x[0], x[1]["item_id"]))
+        scores = {lid: semantic_score(record, lid) for lid in windows}
+        ordered_scores = sorted(scores.values(), reverse=True)
+        best = ordered_scores[0]
+        second = ordered_scores[1] if len(ordered_scores) > 1 else best
+        confidence = best - second
+        plans.append((best, confidence, record["item_id"], record, windows, scores))
 
-        for _, record, scores in ranked:
-            best_score = max(scores.values())
-            best = [lid for lid in windows if scores[lid] == best_score]
-            min_load = min(loads[lid] for lid in best)
-            best = [lid for lid in best if loads[lid] == min_load]
-            idx = ledger.stable_offset(f"ability-semantic:{record['item_id']}", len(best))
-            chosen = best[idx]
-            assigned[record["item_id"]] = chosen
-            loads[chosen] += 1
+    # Strong/unique semantic matches get first access to their natural lesson. Generic
+    # or tied items fill remaining capacity afterwards.
+    plans.sort(key=lambda x: (-x[1], -x[0], x[2]))
+    loads: Counter = Counter()
+    assigned = {}
+
+    for _, _, _, record, windows, scores in plans:
+        under_limit = [lid for lid in windows if loads[lid] < ABILITY_LIMIT]
+        candidates = under_limit or list(windows)
+        best_score = max(scores[lid] for lid in candidates)
+        best = [lid for lid in candidates if scores[lid] == best_score]
+        min_load = min(loads[lid] for lid in best)
+        best = [lid for lid in best if loads[lid] == min_load]
+        idx = ledger.stable_offset(f"ability-semantic:{record['item_id']}", len(best))
+        chosen = best[idx]
+        assigned[record["item_id"]] = chosen
+        loads[chosen] += 1
+
     return assigned
 
 
@@ -263,11 +268,12 @@ def build_record_with_routing(category, item, label, homes, intro, plan, order, 
                 f"intro={intro} allowed={sorted(allowed)}"
             )
         record["stage_07_intro_routing"] = {
-            "reason": "lesson_semantic_match_within_reviewed_stage06_window",
+            "reason": "lesson_semantic_match_within_reviewed_stage06_window_with_global_load_guard",
             "source_mode_codes": item.get("mode_codes", []),
             "source_skill_codes": item.get("skill_codes", []),
             "cross_cutting_allowed_intro_units": sorted(allowed),
             "stage_1_homes_unchanged": True,
+            "ability_warning_threshold_used_as_soft_capacity": ABILITY_LIMIT,
         }
     return record
 
