@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "level": "B2",
+  "status": "ai_assisted_stage08_semantic_control_candidate_owner_approval_pending",
+  "authority_note": "These are explicit AI-assisted curriculum-role decisions prepared for owner human review. Automation may expand and validate them but must not claim human semantic approval or curriculum authorization.",
+  "role_dimensions": {
+    "mastery_mode": ["productive", "receptive", "interactive", "integrated_support"],
+    "control_scope": ["generative", "bounded_pattern", "formulaic", "contextual", "quality_constraint"],
+    "exit_evidence": ["independent_possible", "integrated_required", "support_condition"]
+  },
+  "abilities": {
+    "capability_source_mode_policy": {
+      "reception": {"mastery_mode":"receptive","control_scope":"contextual","exit_evidence":"independent_possible"},
+      "production": {"mastery_mode":"productive","control_scope":"bounded_pattern","exit_evidence":"independent_possible"},
+      "interaction": {"mastery_mode":"interactive","control_scope":"bounded_pattern","exit_evidence":"independent_possible"},
+      "mediation": {"mastery_mode":"productive","control_scope":"bounded_pattern","exit_evidence":"independent_possible"}
+    },
+    "cross_cutting_home_policy": {
+      "X-REFERENCE": {"mastery_mode":"source_mode","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+      "X-DISCOURSE": {"mastery_mode":"source_mode","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+      "X-REGISTER": {"mastery_mode":"source_mode","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+      "X-PRAGMATICS": {"mastery_mode":"source_mode","control_scope":"bounded_pattern","exit_evidence":"integrated_required"},
+      "X-LEXICAL-STRATEGY": {"mastery_mode":"integrated_support","control_scope":"contextual","exit_evidence":"support_condition"},
+      "X-REPAIR": {"mastery_mode":"source_mode","control_scope":"bounded_pattern","exit_evidence":"integrated_required"},
+      "X-METACOGNITION": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"support_condition"},
+      "X-STANCE": {"mastery_mode":"source_mode","control_scope":"bounded_pattern","exit_evidence":"integrated_required"},
+      "X-PLANNING-AUDIENCE": {"mastery_mode":"source_mode","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+      "X-FLUENCY-TURN": {"mastery_mode":"source_mode","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+      "X-PRON-STANCE": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"support_condition"},
+      "X-EDITING": {"mastery_mode":"source_mode","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+      "X-SOURCE-USE": {"mastery_mode":"source_mode","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+      "X-GENRE": {"mastery_mode":"source_mode","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+      "X-ACCURACY": {"mastery_mode":"source_mode","control_scope":"quality_constraint","exit_evidence":"integrated_required"}
+    }
+  },
+  "phrases": {
+    "role_templates": {
+      "productive_formulaic": {"mastery_mode":"productive","control_scope":"formulaic","exit_evidence":"integrated_required"},
+      "receptive_contextual": {"mastery_mode":"receptive","control_scope":"contextual","exit_evidence":"support_condition"}
+    },
+    "productive_formulaic_homes": ["C08","C09","C10","C11","C12","C13","C14","C15","C16","C17","C18","X-DISCOURSE","X-STANCE","X-PRAGMATICS","X-REGISTER"],
+    "receptive_contextual_homes": ["C01","C02","C03","C04","C05","C06","C07","X-LEXICAL-CONTENT"],
+    "boundary": "A phrase is controlled only in its source-linked sense/frame. Formulaic control does not license a broader grammar system or unrelated phrasal-verb senses."
+  },
+  "grammar": {
+    "role_templates": {
+      "productive_bounded": {"mastery_mode":"productive","control_scope":"bounded_pattern","exit_evidence":"integrated_required"},
+      "integrated_support": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"support_condition"}
+    },
+    "productive_bounded_systems": ["G02","G04","G07","G09","G12","G14","G17","G18","G19","G20","G22","G24","G25","G27","G28","G29","G33","G34","G35","G36","G37","G39","G40","G41","G42","G43","G44","G45","G46","G47"],
+    "integrated_support_systems": ["G01","G03","G05","G06","G08","G10","G11","G13","G15","G16","G21","G23","G26","G30","G31","G32","G38"],
+    "review_row_overrides": {},
+    "boundary": "System membership groups exact EGP rows for usable performance. Integrated-support rows remain available in comprehension and quality evidence but are not independent productive exit targets by default."
+  },
+  "words": {
+    "role_templates": {
+      "productive_contextual": {"mastery_mode":"productive","control_scope":"contextual","exit_evidence":"integrated_required"},
+      "integrated_support": {"mastery_mode":"integrated_support","control_scope":"contextual","exit_evidence":"support_condition"},
+      "receptive_contextual": {"mastery_mode":"receptive","control_scope":"contextual","exit_evidence":"support_condition"}
+    },
+    "productive_contextual_homes": ["L02","L03","L04","L18","L19","L20","L21","L22","L23","L24"],
+    "integrated_support_homes": ["L01","L05","L06","L07","L13","L14","L25","L27","L28"],
+    "receptive_contextual_homes": ["L08","L09","L10","L11","L12","L15","L16","L17","L26","LX-GENERAL"],
+    "boundary": "Lexical home is not a mastery claim. Productive-contextual items require usable source-linked sense in relevant performance; receptive/support items require reliable interpretation and contextual availability, not forced isolated recall."
+  },
+  "pronunciation": {
+    "pronunciation.sound_perception.b2": {"mastery_mode":"receptive","control_scope":"quality_constraint","exit_evidence":"support_condition"},
+    "pronunciation.consonant_clarity.b2": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+    "pronunciation.vowel_clarity.b2": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+    "pronunciation.syllable_shape.b2": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+    "pronunciation.grammatical_endings.b2": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+    "pronunciation.word_stress.b2": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+    "pronunciation.prominence_rhythm.b2": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+    "pronunciation.connected_speech.b2": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+    "pronunciation.intonation_stance.b2": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"integrated_required"},
+    "pronunciation.chunking_monitoring_repair.b2": {"mastery_mode":"integrated_support","control_scope":"quality_constraint","exit_evidence":"integrated_required"}
+  },
+  "stage08_critic": {
+    "coverage_is_not_mastery": true,
+    "receptive_not_upgraded_by_output_task": true,
+    "interaction_requires_exchange": true,
+    "mediation_source_mode_preserved": true,
+    "phrase_sense_boundaries_preserved": true,
+    "grammar_systems_not_one_row_per_target": true,
+    "broad_topic_lexis_not_forced_productive": true,
+    "pronunciation_not_accent_perfection": true,
+    "zero_new_transfer_slots_must_remain_zero_new": true,
+    "stage_08_5_role_aware_reconciliation_required": true,
+    "owner_human_approval_required": true
+  }
+}
