@@ -100,7 +100,36 @@ class LevelSourceOfTruthTests(unittest.TestCase):
         else:
             self.assertFalse(b1_manifest["lesson_design_authorized"])
 
-        for level in LEVELS[3:]:
+        b2_auth_path = ROOT / "curriculum/levels/b2/design-review/09-authorization-gate/authorization.json"
+        b2_manifest = self.load("b2", "manifest.json")
+        b2_contract = self.load("b2", "exit_contract.json")
+        if b2_auth_path.exists():
+            b2_auth = json.loads(b2_auth_path.read_text(encoding="utf-8"))
+            self.assertEqual(
+                b2_auth["status"],
+                "human_lesson_design_authorization_reviewed_locked_v1",
+            )
+            self.assertTrue(b2_auth["lesson_design_authorized"])
+            self.assertFalse(b2_auth["delivery_content_production_authorized"])
+            self.assertEqual(b2_auth["human_review_queue"], 0)
+            self.assertEqual(b2_auth["architecture"]["units"], 13)
+            self.assertEqual(b2_auth["architecture"]["lesson_slots"], 95)
+            self.assertEqual(b2_auth["architecture"]["zero_new_transfer_exit_slots"], 18)
+            self.assertTrue(b2_manifest["lesson_design_authorized"])
+            self.assertFalse(b2_manifest["delivery_content_production_authorized"])
+            self.assertEqual(
+                b2_manifest["status"],
+                "semantic_design_lock_reviewed_lesson_design_authorized",
+            )
+            self.assertEqual(b2_manifest["semantic_lock"]["human_review_queue"], 0)
+            self.assertEqual(b2_contract["status"], "semantic_inventory_locked_v1")
+            self.assertTrue(b2_contract["semantic_lock"]["lesson_design_authorized"])
+            self.assertEqual(b2_contract["semantic_lock"]["human_review_queue"], 0)
+            self.assertFalse(b2_contract["delivery_content_production_authorized"])
+        else:
+            self.assertFalse(b2_manifest["lesson_design_authorized"])
+
+        for level in LEVELS[4:]:
             other = self.load(level, "manifest.json")
             self.assertFalse(other["lesson_design_authorized"])
             self.assertEqual(other["level"], level.upper())

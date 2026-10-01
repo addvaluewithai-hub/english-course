@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "level": "B2",
+  "status": "ai_assisted_manual_review_candidate_v1_owner_approval_pending",
+  "source_path": "curriculum/levels/b2/words.json",
+  "expected_git_blob_sha": "a6c35a17f5d6e079f54b95a47b9b40470c796272",
+  "policy": {
+    "reviewed_inventory_count": 1427,
+    "primary_home_exactly_one": true,
+    "resolution_order": [
+      "exact_item_overrides",
+      "explicit_headword_homes",
+      "LX-GENERAL"
+    ],
+    "default_home": "LX-GENERAL",
+    "default_home_meaning": "Intentional reviewed remainder: general factual/descriptive/high-frequency B2 lexis without a stronger single semantic teaching home. It is not an orphan bucket and does not imply productive mastery.",
+    "final_productive_receptive_not_decided_here": true,
+    "same_surface_form_requires_source_record_identity": true,
+    "headword_rules_require_unique_surface_in_frozen_blob": true,
+    "inventory_change_requires_re_review": true
+  },
+  "explicit_headword_homes": {
+    "L01": ["academic","administration","agency","agenda","assessment","committee","corporate","council","executive","institution","institute","leadership","professional","pupil","applicant","assign","curriculum","deadline","expertise","scholar","scholarship","seminar","workforce","workplace","workshop","recruit","recruitment","occupation"],
+    "L02": ["anger","anxious","ashamed","comfort","confidence","delight","delighted","depressed","depressing","desperate","emotional","enthusiasm","enthusiastic","faith","joy","patience","pride","sympathy","sympathetic","anxiety","disappointment","miserable","optimistic","passionate","pity","satisfaction","tension","wisdom","loyal","honesty"],
+    "L03": ["acknowledge","approval","approve","assume","challenge","consideration","convinced","critic","critical","criticism","criticize","debate","ethical","evaluate","evaluation","justify","judgement","objective","oppose","opposed","opposition","perspective","praise","principle","regard","relevant","remark","stance","viewpoint","bias","controversial","controversy","convincing","evident","valid","reasonable"],
+    "L04": ["appeal","command","concern","concerned","conflict","demand","deny","engage","enquiry","insist","interrupt","negotiate","negotiation","object","offend","offensive","propose","proposal","resolve","settle","urge","assure","clarify","confess","convey","cope","disagreement","discourage","interact","interaction","participation","partnership","prompt","reinforce"],
+    "L05": ["broadcast","cite","document","edit","edition","feedback","finding","genre","illustrate","illustration","inform","interpret","publication","register","reveal","survey","title","tone","coverage","broadcaster","editorial","extract","format","forum","journalism","leaflet","reporting","publicity","publishing","questionnaire"],
+    "L06": ["accurate","accuracy","accurately","assess","calculate","concept","criterion","demonstrate","estimate","hypothesis","infer","interpretation","observation","observe","proof","sample","classify","comprehensive","framework","indication","integrate","precise","precisely","specify","testing","thesis","thorough","thoroughly"],
+    "L07": ["delivery","licence","permit","procedure","regulation","requirement","schedule","session","submit","certificate","guideline","ID","password","registration","restriction","visa","booking","deposit"],
+    "L08": ["budget","contract","finance","fund","funding","income","investment","loan","pension","purchase","revenue","saving","stock","wage","wealth","wealthy","accountant","affordable","asset","auction","bargain","bid","corporation","consumption","economics","economist","entrepreneur","inflation","investor","mortgage","ownership","retail","trading","recession"],
+    "L09": ["armed","arms","battle","bullet","civil","defence","defend","elect","govern","minister","parliament","justice","military","offence","official","sentence","suspect","trial","violence","victory","wound","bombing","commander","conspiracy","democracy","democratic","fraud","governor","invade","invasion","jail","jury","offender","penalty","protester","rob","robbery","scandal","spokesman","spokesperson","spokeswoman","terror","terrorism","terrorist","theft","troop","voting"],
+    "L10": ["citizen","elderly","freedom","household","housing","majority","minority","resident","welfare","civilization","disability","disabled","diverse","diversity","gender","homeless","immigration","independence","inhabitant","norm","peer","racial","racism","racist","refugee","unity","universal"],
+    "L11": ["bacteria","breast","cancer","cell","cure","infection","lung","organ","pregnant","psychologist","psychology","surgery","therapy","vitamin","AIDS","addiction","ambulance","clinic","depression","disorder","fever","heal","healthcare","immune","medication","nutrition","obesity","oxygen","pill","psychological","radiation","screening","stroke","surgeon","therapist","tissue","wrist","hip","elbow","skull"],
+    "L12": ["crop","fuel","mineral","rural","satellite","solar","species","tropical","urban","wildlife","agriculture","carbon","conservation","drought","emission","fossil","greenhouse","habitat","organic","sustainable","warming","wheat","tsunami"],
+    "L13": ["component","construct","construction","function","install","operate","process","structure","mechanism","mechanical","manufacture","manufacturing","infrastructure","installation","output","transmit","technological","database","electronics","circuit","programming"],
+    "L14": ["audio","automatic","automatically","bug","delete","graphic","graphics","input","insert","receiver","tag","tap","virtual","visual","screen","monitor"],
+    "L15": ["aircraft","border","cable","crew","district","facility","landscape","map","resort","shelter","ship","tunnel","venue","zone","cabin","canal","cruise","depart","downtown","fare","harbour","headquarters","highway","lane","navigation","overseas","rail","transportation","terminal"],
+    "L16": ["artistic","classic","creation","honour","humorous","humour","philosophy","plot","tale","rhythm","tune","animation","artwork","ballet","choir","comic","compose","composer","craft","creativity","empire","era","exhibit","fantasy","historian","icon","legend","literary","lyric","metaphor","monument","mosque","myth","novelist","opera","orchestra","romance","temple","tragedy","tragic"],
+    "L17": ["championship","cheer","gaming","gig","marathon","medal","parade","referee","rival","sporting","spectator","sponsorship","tournament","spectacular"],
+    "L18": ["abandon","accompany","adapt","adopt","advance","alter","arise","capture","collapse","convert","crash","decline","decrease","delay","emerge","encounter","enhance","establish","extend","failure","gain","generate","launch","maintain","progress","recover","reduction","restore","shift","split","transform","transition","unfold","evolve","expansion","rebuild","recovery","variation"],
+    "L19": ["absolute","acceptable","actual","aggressive","apparent","appropriate","brief","broad","capable","characteristic","complicated","consistent","constant","contemporary","crucial","decent","deliberate","detailed","efficient","entire","equal","external","extraordinary","fundamental","grand","harmful","ideal","initial","intense","internal","limited","logical","massive","minor","multiple","mysterious","neat","realistic","sensitive","severe","significant","sincere","slight","stable","steady","strict","tough","unique","unknown","vast","vital","wise","adequate","astonishing","awkward","balanced","beneficial","bold","casual","challenging","charming","considerable","dynamic","elegant","elementary","enjoyable","entertaining","excessive","failed","fake","fortunate","genuine","gorgeous","inevitable","innovative","modest","moving","nasty","neutral","outstanding","precious","predictable","promising","remarkable","ridiculous","risky","shocking","sophisticated","stunning","sufficient","unacceptable","unfortunate","useless","visible","widespread","weird"],
+    "L20": ["amount","annual","capacity","concentration","extent","frequency","mass","maximum","measurement","minimum","numerous","overall","partly","phase","potential","range","rank","rapid","rapidly","rate","scale","significantly","somewhat","volume","way","widely","annually","considerably","dramatically","duration","fraction","margin","monthly","parallel","portion","proportion","rating","roughly","steadily","ton","tonne","trillion","weekly"],
+    "L21": ["afterwards","constantly","former","initially","permanent","temporary","ultimately","briefly","formerly","frequent","instant","instantly","interval","lately","lifetime","newly","nowadays","ongoing","overnight","permanently","prior","shortly","short-term","subsequent","subsequently","temporarily","timing"],
+    "L22": ["additional","contribute","contribution","dependent","enable","ensure","impose","outcome","thus","additionally","alongside","besides","consequently","derive","hence","implication","incorporate","likewise","moreover","otherwise","precede","primarily","purely","spite"],
+    "L23": ["apparently","certainty","expectation","prospect","regret","uncertainty","anticipate","assumption","inevitably","probability","probable","potentially","scenario","speculate","speculation","tendency","hopefully","reckon"],
+    "L24": ["alarm","barrier","fault","handle","harm","obstacle","resist","rescue","secure","struggle","threat","threaten","trouble","weakness","panic","shortage","tackle","urgent","survival","survivor"],
+    "L25": ["drag","dig","fold","grab","lean","load","lower","mount","narrow","pace","pile","position","rub","rush","seat","shape","slide","slip","slope","speed","spread","step","stretch","strike","stuff","surround","sweep","transfer","trip","wander","withdraw","chase","chop","dive","dump","embrace","swallow","spill","trap"],
+    "L26": ["angle","bunch","bush","chain","curve","curved","depth","disc","display","inch","inner","loose","material","medium","outer","package","panel","plain","pointed","presence","print","raw","root","rubber","shade","shadow","shallow","silk","steel","steep","sticky","stiff","stream","tank","upper","vertical","wire","brick","cave","cliff","corridor","deck","fabric","fragment","lens","lighting","palm","shore","spare","steam","territory"],
+    "L27": ["but","plus","subject","wherever","whom","dare","whoever","via","very","following","whereas","yet","bound"],
+    "L28": ["conduct","declare","outline","prime","representative","appropriately","broadly","convention","conventional","critically","essentially","fundamentally","openly","principal","strictly"]
+  },
+  "exact_item_overrides": {
+    "oxford.o3000.p11.103": {"home":"L08","reason":"firm (n.): business/company sense; exact-ID override avoids collision with adjective firm."},
+    "oxford.o5000.p02.013": {"home":"L19","reason":"firm (adj.): quality/degree description; exact-ID override avoids collision with noun firm."},
+    "oxford.o3000.p12.207": {"home":"L25","reason":"tear (v., n.): rip/pull-apart action sense; exact-ID override avoids collision with tear = drop from eye."},
+    "oxford.o3000.p12.208": {"home":"L02","reason":"tear (n.): emotional/eye-tear sense; exact-ID override avoids collision with rip sense."},
+    "oxford.o3000.p10.168": {"home":"L24","reason":"bear (v., qualifier: deal with): coping/tolerating difficulty; qualifier-specific exact sense."},
+    "oxford.o5000.p01.137": {"home":"L26","reason":"counter (n., qualifier: long flat surface): physical/service object; qualifier-specific exact sense."}
+  }
+}

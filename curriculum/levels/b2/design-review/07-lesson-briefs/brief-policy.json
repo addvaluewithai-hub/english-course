@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "level": "B2",
+  "status": "ai_assisted_stage07_brief_policy_candidate_owner_approval_pending",
+  "source_of_truth": {
+    "curriculum_map": "curriculum/levels/b2/design-review/05-curriculum-map/curriculum-map.md",
+    "coverage_ledger": "curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json",
+    "load_critic": "curriculum/levels/b2/design-review/06-coverage-ledger/load-critic.json"
+  },
+  "global_rules": {
+    "one_primary_performance_per_lesson": true,
+    "source_row_is_not_a_separate_teaching_object": true,
+    "final_semantic_control_roles_remain_pending_stage_8": true,
+    "lexical_coverage_is_not_automatic_productive_mastery": true,
+    "grammar_rows_may_be_taught_as_bounded_systems": true,
+    "receptive_evidence_must_not_be_silently_upgraded_to_productive": true,
+    "pronunciation_serves_intelligibility_and_real_use": true,
+    "fresh_retrieval_requires_changed_prompt_or_context": true,
+    "zero_new_slots_may_not_introduce_required_b2_records": true,
+    "copying_or_model_imitation_is_not_mastery_evidence": true,
+    "stage_7_may_reopen_stage_5_or_6_if_a_brief_cannot_fit_honestly": true
+  },
+  "unit_profiles": {
+    "U1": {
+      "boundary": "Complex written input: locating, structuring and interpreting information. Do not turn content vocabulary, reference devices or isolated grammar rows into unrelated production targets.",
+      "b1_carry_forward": "Retrieve B1 main-point/detail reading, paragraph cohesion, instruction following and reference tracking without relabelling them as new B2 content.",
+      "cross_cutting": "X-DISCOURSE, X-REFERENCE; register/stance only where the source task requires them."
+    },
+    "U2": {
+      "boundary": "Argument, stance and implication in written input. Keep recognition of persuasion/tone/position distinct from independent argumentative production until later units.",
+      "b1_carry_forward": "Retrieve B1 viewpoint recognition, reason/result links and text organisation.",
+      "cross_cutting": "X-STANCE, X-DISCOURSE, X-REFERENCE, X-REGISTER."
+    },
+    "U3": {
+      "boundary": "Extended listening and multi-modal interpretation. Pronunciation cues support perception and intelligibility; they are not accent-perfection targets or three isolated pronunciation lessons.",
+      "b1_carry_forward": "Retrieve B1 main-point/detail listening, familiar-speaker repair and note-selection skills.",
+      "cross_cutting": "X-REFERENCE and X-DISCOURSE through source tracking; pronunciation is perception-first where appropriate."
+    },
+    "U4": {
+      "boundary": "Detailed spoken description, explanation, procedure and narrative. Broad descriptive lexis is contextual/support unless later Stage-8 evidence requires independent production; grammar rows must stay grouped into functional systems.",
+      "b1_carry_forward": "Retrieve B1 connected description, sequencing, narrative time and explanation while extending detail, precision and sustained turn length.",
+      "cross_cutting": "X-DISCOURSE, X-REFERENCE, X-PRAGMATICS plus intelligibility-focused pronunciation."
+    },
+    "U5": {
+      "boundary": "Supported viewpoint, evaluation, probability and speculation. Keep certainty, modal, hypothetical and comparison resources meaning-bounded; do not make one grammar rule per EGP row.",
+      "b1_carry_forward": "Retrieve B1 opinion/reason support, comparison and basic modal/conditional foundations without reteaching them as new.",
+      "cross_cutting": "X-STANCE, X-DISCOURSE, X-PRAGMATICS, X-REFERENCE."
+    },
+    "U6": {
+      "boundary": "Collaborative discussion and spontaneous contribution. Language resources serve turn management, precision, disagreement and repair; scripted model reproduction cannot substitute for spontaneous evidence.",
+      "b1_carry_forward": "Retrieve B1 conversation management, agreeing/disagreeing, clarification and repair in less predictable exchanges.",
+      "cross_cutting": "X-PRAGMATICS, X-STANCE, X-DISCOURSE; pronunciation supports turn-taking and comprehensibility."
+    },
+    "U7": {
+      "boundary": "Problems, complaints, negotiation and resolution. Keep request/obligation/politeness forms tied to interpersonal effect and outcome; avoid decontextualised transformation practice as the evidence target.",
+      "b1_carry_forward": "Retrieve B1 problem description, requests, suggestions and practical resolution language under greater pressure and detail.",
+      "cross_cutting": "X-PRAGMATICS, X-REGISTER, X-STANCE."
+    },
+    "U8": {
+      "boundary": "Formal discussion, interview, survey and presentation Q&A. Formality is audience/task-sensitive, not a list of formal synonyms; prepared presentation cannot substitute for responsive Q&A evidence.",
+      "b1_carry_forward": "Retrieve B1 prepared speaking and question handling, then extend precision, follow-up and register control.",
+      "cross_cutting": "X-REGISTER, X-PRAGMATICS, X-DISCOURSE; pronunciation supports sustained formal interaction."
+    },
+    "U9": {
+      "boundary": "Mediation, relay, paraphrase, synthesis and facilitation. Preserve source stance and recipient need; mediation is not verbatim copying and is not proof of unrestricted independent production of every source form.",
+      "b1_carry_forward": "Retrieve B1 summary/relay and clarification skills with denser sources and more explicit recipient adaptation.",
+      "cross_cutting": "X-REFERENCE, X-DISCOURSE, X-REGISTER, X-PRAGMATICS."
+    },
+    "U10": {
+      "boundary": "Detailed descriptive, explanatory, procedural and narrative writing. Broad lexical coverage remains contextual/support pending Stage 8; dense reference/noun-phrase grammar must serve text clarity rather than become a multi-rule grammar chapter.",
+      "b1_carry_forward": "Retrieve B1 connected paragraphing, sequencing, description/narrative and editing while extending length, detail and information density.",
+      "cross_cutting": "X-REFERENCE, X-DISCOURSE, X-REGISTER where genre requires it."
+    },
+    "U11": {
+      "boundary": "Written argument, evaluation and source-informed synthesis. Issue vocabulary may remain receptive/contextual; evidence requires reasoning, source relationship and audience adaptation rather than lexical display.",
+      "b1_carry_forward": "Retrieve B1 opinion paragraphs, reasons/examples and basic comparison while extending counter-position, evidence and synthesis.",
+      "cross_cutting": "X-STANCE, X-DISCOURSE, X-REFERENCE, X-REGISTER."
+    },
+    "U12": {
+      "boundary": "Correspondence, online collaboration, reports and reviews. Preserve distinct genre success conditions; formal/content vocabulary exposure does not make every word a productive target.",
+      "b1_carry_forward": "Retrieve B1 audience/register, practical correspondence and structured factual writing while extending interaction chains and standalone genres.",
+      "cross_cutting": "X-REGISTER, X-DISCOURSE, X-REFERENCE, X-PRAGMATICS."
+    },
+    "U13": {
+      "boundary": "Cumulative exit evidence only. These six slots introduce no required B2 source record; they sample previously taught capabilities under changed topics, audiences, speakers, sources and reduced model dependence.",
+      "b1_carry_forward": "Sample retained B1 foundations only as prerequisites inside integrated B2 performance; do not relabel or reteach them as B2 inventory.",
+      "cross_cutting": "All relevant cross-cutting resources are sampled role-appropriately; no new system, phrase, lexical target or pronunciation strand is introduced."
+    }
+  }
+}

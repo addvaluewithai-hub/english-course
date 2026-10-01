@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "level": "B2",
+  "status": "human_lesson_design_authorization_reviewed_locked_v1",
+  "lesson_design_authorized": true,
+  "delivery_content_production_authorized": false,
+  "human_review_queue": 0,
+  "owner_approval": {
+    "explicit": true,
+    "approved_on": "2026-10-01",
+    "approved_scope": "B2 Stage 0-8.5 reviewed candidate for Stage 9 curriculum-design authorization",
+    "provenance_note": "The pinned Stage-0 through Stage-8.5 artifacts intentionally retain their pre-authorization candidate/pending labels as immutable audit evidence. This Stage-9 declaration records the owner's explicit approval of those exact pinned blobs and supersedes the earlier approval-pending gate for curriculum-design authorization only."
+  },
+  "architecture": {
+    "units": 13,
+    "lesson_slots": 95,
+    "zero_new_transfer_exit_slots": 18
+  },
+  "decision": "The explicitly owner-approved B2 capability, phrase, grammar, lexical, pronunciation, curriculum-map, exact 2,075-record lifecycle, 95-brief authoring architecture, Stage-08 semantic/control candidate, and mandatory Stage-08.5 role-aware reconciliation satisfy the curriculum lesson-design authorization gate. This authorizes the locked B2 curriculum as a controlled authoring contract only. It does not authorize lesson-package, audio, image, video, or other delivery/media production and does not alter locked B1 artifacts or bypass any separate delivery gate.",
+  "evidence_blobs": [
+    {
+      "path": "curriculum/levels/b2/design-review/05-curriculum-map/curriculum-map.md",
+      "git_blob_sha": "27ab164f2366d7f07e9fe06f6f6159d3da157db6"
+    },
+    {
+      "path": "curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json",
+      "git_blob_sha": "523f77909e2af6a716ec7efcbc4078968aa0eb97"
+    },
+    {
+      "path": "curriculum/levels/b2/design-review/07-lesson-briefs/lesson-briefs.md",
+      "git_blob_sha": "da6466bb36df7d71b35d0c1fa8fc0d10326de3ef"
+    },
+    {
+      "path": "curriculum/levels/b2/design-review/08-semantic-lock/semantic-decisions.json",
+      "git_blob_sha": "4b8e7c5f31fce194ad556b99f1be2fa780a1fec9"
+    },
+    {
+      "path": "curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-ledger.json",
+      "git_blob_sha": "d8452b21e132220d22cdfcd96d2398f67fcda56f"
+    },
+    {
+      "path": "curriculum/levels/b2/design-review/08.5-role-reconciliation/reconciliation-decisions.json",
+      "git_blob_sha": "6fa641c1fc35d311f1e8cf28c7fc17771be65bf2"
+    },
+    {
+      "path": "curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/reconciled-semantic-role-ledger.json",
+      "git_blob_sha": "2ad3791014e0bb40102ede325e8afbb65dbfbd9c"
+    },
+    {
+      "path": "curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/role-aware-reconciliation-report.md",
+      "git_blob_sha": "e15d61529270473dc5b34abb9fef03df2dcbdfb7"
+    },
+    {
+      "path": "curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/lesson-brief-reconciliation-amendments.md",
+      "git_blob_sha": "0e438303410fd43b73991ffae9e2b1807805815c"
+    }
+  ],
+  "gate_conditions": {
+    "exact_semantic_roles": "2075/2075",
+    "semantic_orphans": 0,
+    "automation_inferred_semantic_roles": 0,
+    "human_review_queue": 0,
+    "stage_08_5_exact_grammar_lifecycle_moves": 18,
+    "stage_08_5_semantic_role_changes": 0,
+    "stage_08_5_semantic_home_changes": 0,
+    "coverage_lifecycle_gaps": 0,
+    "later_fresh_retrieval_gaps": 0,
+    "later_exit_verification_gaps": 0,
+    "zero_new_transfer_exit_slots": "18/18",
+    "lesson_briefs": "95/95",
+    "rolling_unit_critics": "13/13",
+    "whole_level_critic": "closed",
+    "raw_stage_06_warning_rows_reviewed": 31,
+    "architecture_retained": "13 units / 95 lesson slots",
+    "mediation_source_mode_preserved": true,
+    "pronunciation_intelligibility_only": true,
+    "b1_prerequisite_unchanged": true,
+    "delivery_media_gate_remains_separate": true
+  }
+}

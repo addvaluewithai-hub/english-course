@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Strict source coverage audit plus reviewed A1/A2/B1 lesson-design gates.
+"""Strict source coverage audit plus reviewed A1/A2/B1/B2 lesson-design gates.
 
 v3 remains the historical source-coverage audit. This wrapper validates explicit
-reviewed authorization for A1, A2 and B1, keeps B2-C2 locked, then delegates the
+reviewed authorization for A1, A2, B1 and B2, keeps C1-C2 locked, then delegates the
 unchanged source-coverage checks while masking only v3's retired assumption that
 every level manifest must keep lesson design locked.
 """
@@ -15,7 +15,7 @@ from typing import Any
 import audit_level_source_of_truth_v3 as v3
 
 ROOT = Path(__file__).resolve().parents[1]
-LOCKED_LEVELS = ("b2", "c1", "c2")
+LOCKED_LEVELS = ("c1", "c2")
 
 
 def load(path: str) -> dict[str, Any]:
@@ -41,8 +41,9 @@ def audit_reviewed_level(
         errors.append(f"{upper} Stage-9 declaration must not authorize delivery production")
     if auth.get("human_review_queue") != 0:
         errors.append(f"{upper} Stage-9 human review queue is not zero")
-    if auth.get("architecture") != architecture:
-        errors.append(f"{upper} Stage-9 architecture drift: {auth.get('architecture')}")
+    auth_arch = auth.get("architecture", {})
+    if {k: auth_arch.get(k) for k in architecture} != architecture:
+        errors.append(f"{upper} Stage-9 architecture drift: {auth_arch}")
 
     if manifest.get("status") != "semantic_design_lock_reviewed_lesson_design_authorized":
         errors.append(f"{upper} manifest does not reflect reviewed Stage-9 authorization status")
@@ -102,6 +103,12 @@ def audit_authorization() -> None:
         {"units": 12, "lesson_slots": 85},
         errors,
     )
+    audit_reviewed_level(
+        "b2",
+        "curriculum/levels/b2/design-review/09-authorization-gate/authorization.json",
+        {"units": 13, "lesson_slots": 95},
+        errors,
+    )
 
     for level in LOCKED_LEVELS:
         other = load(f"curriculum/levels/{level}/manifest.json")
@@ -115,8 +122,8 @@ def audit_authorization() -> None:
         raise SystemExit(1)
 
     print(
-        "AUTHORIZATION PASS — A1, A2 and B1 reviewed lesson-design gates are locked; "
-        "delivery production remains unauthorized; B2-C2 remain locked"
+        "AUTHORIZATION PASS — A1, A2, B1 and B2 reviewed lesson-design gates are locked; "
+        "delivery production remains unauthorized; C1-C2 remain locked"
     )
 
 
@@ -130,6 +137,7 @@ def main() -> None:
             "curriculum/levels/a1/manifest.json",
             "curriculum/levels/a2/manifest.json",
             "curriculum/levels/b1/manifest.json",
+            "curriculum/levels/b2/manifest.json",
         }:
             data = dict(data)
             data["lesson_design_authorized"] = False

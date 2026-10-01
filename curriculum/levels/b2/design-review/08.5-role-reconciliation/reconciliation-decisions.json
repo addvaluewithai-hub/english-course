@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "level": "B2",
+  "status": "ai_assisted_stage08_5_reconciliation_candidate_owner_approval_pending",
+  "authority_note": "Exact review-row moves below are explicit curriculum-review decisions. Automation may apply, count, and validate them but may not infer additional semantic moves or claim owner human approval.",
+  "policy": {
+    "baseline_semantic_role_ledger": "curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-ledger.json",
+    "zero_new_slots_must_remain_zero_new": true,
+    "semantic_roles_must_not_change_here": true,
+    "source_ids_and_stage1_homes_must_not_change": true,
+    "moved_records_must_recompute_lifecycle_after_new_intro": true,
+    "every_record_requires_later_fresh_retrieval": true,
+    "every_record_requires_role_appropriate_exit_path": true,
+    "load_triggers_are_review_prompts_not_authorization_thresholds": true
+  },
+  "grammar_review_row_intro_overrides": {
+    "28": {"from":"U6-L04","to":"U7-L04","reason":"Let's not is a bounded suggestion resource; it belongs with proposing/modifying solutions rather than the core disagreement-load cluster."},
+    "56": {"from":"U6-L04","to":"U8-L01","reason":"Future-continuous question forms support purposeful formal questioning; U8-L01 is the direct performance home."},
+    "78": {"from":"U6-L04","to":"U5-L01","reason":"Can for general truths/tendencies supports generalisation in viewpoint development, not tactful disagreement."},
+    "97": {"from":"U6-L04","to":"U7-L04","reason":"You have got to as strong suggestion belongs with proposing and modifying solutions."},
+    "98": {"from":"U5-L03","to":"U5-L05","reason":"May with adverbial modification belongs with probability/stance control rather than recommendation language."},
+    "99": {"from":"U6-L04","to":"U8-L01","reason":"Formal may-I request/command is a purposeful formal-questioning resource."},
+    "100": {"from":"U5-L03","to":"U5-L06","reason":"May have + past participle is past possibility and belongs with past alternatives/speculation."},
+    "101": {"from":"U6-L04","to":"U8-L01","reason":"May I for polite permission is a formal interaction/question resource, not a disagreement system."},
+    "102": {"from":"U5-L03","to":"U8-L05","reason":"You may know shared-knowledge focus is naturally evidenced in presentation/audience management."},
+    "120": {"from":"U6-L04","to":"U4-L04","reason":"Used-to ellipsis is past narrative/reference control; it is not a disagreement-management target."},
+    "122": {"from":"U6-L04","to":"U4-L04","reason":"Habitual would is a narrative-past resource and belongs with extended event narration."},
+    "174": {"from":"U4-L04","to":"U6-L01","reason":"Expanded past-simple question forms are better introduced in multi-turn conversation than inside an already dense narrative-time lesson."},
+    "175": {"from":"U6-L04","to":"U10-L04","reason":"Expanded past-simple negative control is better evidenced in extended written narrative than tactful disagreement."},
+    "176": {"from":"U12-L02","to":"U10-L04","reason":"Past simple with subordinating conjunctions is narrative sequencing infrastructure, not correspondence convention."},
+    "178": {"from":"U6-L04","to":"U12-L02","reason":"I wondered/I wanted politeness directly supports formal requests and enquiries in correspondence."},
+    "188": {"from":"U6-L04","to":"U6-L06","reason":"Present continuous with indefinite-frequency adverbs fits spontaneous commentary on changing/undesirable situations better than the disagreement core."},
+    "190": {"from":"U6-L04","to":"U10-L04","reason":"Present simple for stories/commentaries is a narrative-writing resource, not disagreement management."},
+    "191": {"from":"U5-L01","to":"U6-L04","reason":"Speech-act verbs such as agree, accept and advise directly support tactful stance management in discussion."}
+  },
+  "manual_hotspot_dispositions": {
+    "U4-L04": "RETAIN_AFTER_REROUTE — active grammar remains a bounded narrative-time cluster plus narrative habituality; the lesson keeps one narrative performance and uses B1 narrative control as prerequisite.",
+    "U5-L05": "RETAIN_WITH_BOUNDED_SYSTEM_AUTHORING — high row count represents probability/certainty/expectation systems serving one semantic continuum; authoring must not present one rule per row.",
+    "U5-L06": "RETAIN_WITH_BOUNDED_SYSTEM_AUTHORING — past possibility/regret/speculation rows form one past-hypothesis performance family; exact forms remain source-bounded.",
+    "U6-L04": "REROUTE_REQUIRED — round-robin placement mixed narrative, request, prediction and commentary grammar into disagreement. Keep only directly relevant disagreement/stance grammar after exact-row moves.",
+    "U10-L01": "RETAIN — role-aware pressure is concentrated in two productive reference systems plus contextual lexis; eight source abilities are variants inside one C15 descriptive performance, not eight separate lesson objectives.",
+    "U10-L05": "RETAIN_WITH_ACTIVE_CORE_LIMIT — controlled load is largely contextual productive lexis plus one cohesion/reference system; authoring must foreground only task-relevant active lexical choices.",
+    "U11-L01": "RETAIN — independent rows are multiple evidence statements for one written-argument performance; productive lexis/grammar remain integrated into argument construction.",
+    "U11-L02": "RETAIN — comparison/evaluation resources form one coherent decision/evaluation performance; no separate grammar chapter is licensed.",
+    "U11-L06": "RETAIN — apparent load is dominated by source-use/register/editing quality constraints and contextual lexis inside synthesis, not independent micro-objectives."
+  },
+  "stage08_5_critic": {
+    "reception_not_upgraded": true,
+    "interaction_exchange_preserved": true,
+    "mediation_transformation_preserved": true,
+    "formulaic_scope_preserved": true,
+    "grammar_rows_grouped_by_system": true,
+    "productive_words_contextual_not_flashcard_targets": true,
+    "zero_new_slots_protected": true,
+    "semantic_roles_unchanged": true,
+    "lesson_count_not_forced_to_change": true,
+    "stage5_6_7_may_be_reopened_if_reconciliation_fails": true,
+    "owner_human_approval_required": true
+  }
+}

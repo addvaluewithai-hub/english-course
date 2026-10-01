@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "level": "B2",
+  "status": "no_exact_source_overrides_required_at_stage06_candidate",
+  "ability_review_row_intro_overrides": {},
+  "phrase_review_row_intro_overrides": {},
+  "grammar_review_row_intro_overrides": {},
+  "word_item_intro_overrides": {},
+  "note": "Stage 06 currently retains the family/system-level scheduling candidate. Exact source overrides remain available for Stage 7/8.5 feedback and do not authorize semantic-role changes."
+}
