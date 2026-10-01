@@ -85,17 +85,36 @@ jobs:
         if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
         run: python scripts/validate_b2_stage07_briefs.py curriculum/levels/b2/design-review/07-lesson-briefs/lesson-briefs.md
 
-      - name: Materialize deterministic B2 Stage-06 and Stage-07 evidence on PR branch
+      - name: Build B2 Stage-08 semantic/control candidate evidence
+        if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
+        run: |
+          mkdir -p curriculum/levels/b2/design-review/08-semantic-lock/generated
+          python scripts/build_b2_semantic_role_ledger.py \
+            --output curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-ledger.json \
+            --report curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-report.md \
+            --lesson-attribution curriculum/levels/b2/design-review/08-semantic-lock/generated/lesson-semantic-attribution.md \
+            --active-load curriculum/levels/b2/design-review/08-semantic-lock/generated/active-load-aid.md
+
+      - name: Validate B2 Stage-08 semantic/control candidate
+        if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
+        run: |
+          python scripts/validate_b2_stage08_semantic_lock.py \
+            curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-ledger.json \
+            curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-report.md \
+            curriculum/levels/b2/design-review/08-semantic-lock/generated/lesson-semantic-attribution.md \
+            curriculum/levels/b2/design-review/08-semantic-lock/generated/active-load-aid.md
+
+      - name: Materialize deterministic B2 Stage-06 through Stage-08 evidence on PR branch
         if: github.event_name == 'pull_request' && (steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2')
         shell: bash
         run: |
-          paths="curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json curriculum/levels/b2/design-review/06-coverage-ledger/generated/source-home-index.json curriculum/levels/b2/design-review/07-lesson-briefs/lesson-briefs.md"
+          paths="curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json curriculum/levels/b2/design-review/06-coverage-ledger/generated/source-home-index.json curriculum/levels/b2/design-review/07-lesson-briefs/lesson-briefs.md curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-ledger.json curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-report.md curriculum/levels/b2/design-review/08-semantic-lock/generated/lesson-semantic-attribution.md curriculum/levels/b2/design-review/08-semantic-lock/generated/active-load-aid.md"
           if [ -z "$(git status --porcelain -- $paths)" ]; then
-            echo "B2 Stage-06/07 evidence already matches."
+            echo "B2 Stage-06/07/08 evidence already matches."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add $paths
-          git commit -m "chore(curriculum): materialize B2 Stage 7 authoring evidence"
+          git commit -m "chore(curriculum): materialize B2 Stage 8 candidate evidence"
           git push origin HEAD:${{ github.head_ref }}
