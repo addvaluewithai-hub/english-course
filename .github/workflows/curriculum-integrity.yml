@@ -44,6 +44,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Finalize owner-approved B2 Stage-09 authorization state
+        run: python scripts/finalize_b2_stage09_authorization.py
+
       - name: Audit source-of-truth integrity
         run: python scripts/audit_level_source_of_truth_v4.py
 
@@ -123,10 +126,6 @@ jobs:
             curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/role-aware-reconciliation-report.md \
             curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/lesson-brief-reconciliation-amendments.md \
             curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/reconciled-active-load.md
-
-      - name: Finalize owner-approved B2 Stage-09 authorization state
-        if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
-        run: python scripts/finalize_b2_stage09_authorization.py
 
       - name: Validate owner-approved B2 Stage-09 authorization gate
         if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
