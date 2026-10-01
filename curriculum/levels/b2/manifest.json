@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "level": "B2",
-  "status": "generated_pending_inventory_review",
+  "status": "semantic_design_lock_reviewed_lesson_design_authorized",
   "source_of_truth_version": "v1",
   "inventory_semantics": "new_at_level_with_cumulative_exit_contract",
   "categories": [
@@ -11,7 +11,7 @@
     "abilities",
     "pronunciation"
   ],
-  "lesson_design_authorized": false,
+  "lesson_design_authorized": true,
   "counts": {
     "words": 1427,
     "phrases": 125,
@@ -28,5 +28,22 @@
     "reviewed_total": 550,
     "function_stages": 41
   },
-  "ability_inventory_status": "reviewed_granular_source_assignments_v1"
+  "ability_inventory_status": "reviewed_granular_source_assignments_v1",
+  "delivery_content_production_authorized": false,
+  "delivery_gate_note": "B2 curriculum lesson design and controlled authoring planning are authorized. Lesson-package/audio/image/video production remains governed by the separate delivery workstream and is not authorized by this curriculum-design gate.",
+  "semantic_lock": {
+    "status": "owner_approved_stage08_candidate_plus_stage08_5_reconciliation_locked_v1",
+    "report": "curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-report.md",
+    "critic": "curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/role-aware-reconciliation-report.md",
+    "human_review_queue": 0,
+    "total_primary_items": 2075
+  },
+  "authorization_gate": {
+    "status": "human_lesson_design_authorization_reviewed_locked_v1",
+    "declaration": "curriculum/levels/b2/design-review/09-authorization-gate/authorization.json",
+    "architecture": {
+      "units": 13,
+      "lesson_slots": 95
+    }
+  }
 }
