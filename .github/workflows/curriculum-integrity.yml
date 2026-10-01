@@ -124,17 +124,25 @@ jobs:
             curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/lesson-brief-reconciliation-amendments.md \
             curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/reconciled-active-load.md
 
-      - name: Materialize deterministic B2 Stage-06 through Stage-08.5 evidence on PR branch
+      - name: Finalize owner-approved B2 Stage-09 authorization state
+        if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
+        run: python scripts/finalize_b2_stage09_authorization.py
+
+      - name: Validate owner-approved B2 Stage-09 authorization gate
+        if: steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2'
+        run: python scripts/validate_b2_stage09_authorization.py
+
+      - name: Materialize deterministic B2 Stage-06 through Stage-09 evidence on PR branch
         if: github.event_name == 'pull_request' && (steps.b2_stage06.outputs.exit_code == '0' || steps.b2_stage06.outputs.exit_code == '2')
         shell: bash
         run: |
-          paths="curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json curriculum/levels/b2/design-review/06-coverage-ledger/generated/source-home-index.json curriculum/levels/b2/design-review/07-lesson-briefs/lesson-briefs.md curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-ledger.json curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-report.md curriculum/levels/b2/design-review/08-semantic-lock/generated/lesson-semantic-attribution.md curriculum/levels/b2/design-review/08-semantic-lock/generated/active-load-aid.md curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/reconciled-semantic-role-ledger.json curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/role-aware-reconciliation-report.md curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/lesson-brief-reconciliation-amendments.md curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/reconciled-active-load.md"
+          paths="curriculum/levels/b2/manifest.json curriculum/levels/b2/exit_contract.json curriculum/levels/b2/design-review/06-coverage-ledger/coverage-report.md curriculum/levels/b2/design-review/06-coverage-ledger/generated/coverage-ledger.json curriculum/levels/b2/design-review/06-coverage-ledger/generated/source-home-index.json curriculum/levels/b2/design-review/07-lesson-briefs/lesson-briefs.md curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-ledger.json curriculum/levels/b2/design-review/08-semantic-lock/generated/semantic-role-report.md curriculum/levels/b2/design-review/08-semantic-lock/generated/lesson-semantic-attribution.md curriculum/levels/b2/design-review/08-semantic-lock/generated/active-load-aid.md curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/reconciled-semantic-role-ledger.json curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/role-aware-reconciliation-report.md curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/lesson-brief-reconciliation-amendments.md curriculum/levels/b2/design-review/08.5-role-reconciliation/generated/reconciled-active-load.md"
           if [ -z "$(git status --porcelain -- $paths)" ]; then
-            echo "B2 Stage-06 through Stage-08.5 evidence already matches."
+            echo "B2 Stage-06 through Stage-09 evidence already matches."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add $paths
-          git commit -m "chore(curriculum): materialize B2 Stage 8.5 reconciliation evidence"
+          git commit -m "chore(curriculum): materialize B2 Stage 9 authorization state"
           git push origin HEAD:${{ github.head_ref }}
