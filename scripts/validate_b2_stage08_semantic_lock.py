@@ -12,6 +12,10 @@ VALID_SCOPE={"generative","bounded_pattern","formulaic","contextual","quality_co
 VALID_EXIT={"independent_possible","integrated_required","support_condition"}
 
 
+def normalized(text: str) -> str:
+    return text.replace(",", "")
+
+
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("ledger",type=Path)
@@ -37,13 +41,15 @@ def main():
         if r.get("semantic_decision_source")!="explicit_ai_assisted_stage08_candidate_owner_approval_pending": raise SystemExit(f"invalid decision source {r['item_id']}")
         if len(r.get("lifecycle",{}).get("introduce",[]))!=1: raise SystemExit(f"lifecycle introduction changed for {r['item_id']}")
     report=a.report.read_text(encoding="utf-8")
-    for marker in ("2,075","candidate semantic orphans: **0**","automation-inferred semantic roles: **0**","OWNER HUMAN APPROVAL PENDING","lesson-design authorization changed: **no**"):
-        if marker.lower() not in report.lower(): raise SystemExit(f"Stage-08 report missing marker: {marker}")
+    report_n=normalized(report)
+    for marker in ("2075","candidate semantic orphans: **0**","automation-inferred semantic roles: **0**","OWNER HUMAN APPROVAL PENDING","lesson-design authorization changed: **no**"):
+        if marker.lower() not in report_n.lower(): raise SystemExit(f"Stage-08 report missing marker: {marker}")
     attr=a.lesson_attribution.read_text(encoding="utf-8")
     headings=re.findall(r"^## (U\d+-L\d+)$",attr,re.M)
     if len(headings)!=95 or len(set(headings))!=95: raise SystemExit(f"Stage-08 attribution must cover 95 unique lessons, got {len(headings)}")
-    for marker in ("exact records: **2,075 / 2,075**","zero-new slots unchanged: **18 / 18**"):
-        if marker not in attr: raise SystemExit(f"Stage-08 attribution missing {marker}")
+    attr_n=normalized(attr)
+    for marker in ("exact records: **2075 / 2075**","zero-new slots unchanged: **18 / 18**"):
+        if marker not in attr_n: raise SystemExit(f"Stage-08 attribution missing {marker}")
     active=a.active_load.read_text(encoding="utf-8")
     rows=re.findall(r"^\| (U\d+-L\d+) \|",active,re.M)
     if len(rows)!=95 or len(set(rows))!=95: raise SystemExit(f"active-load aid must cover 95 unique lessons, got {len(rows)}")
