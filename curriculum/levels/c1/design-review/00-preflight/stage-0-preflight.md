@@ -1,8 +1,9 @@
 # C1 Stage 0 — Preflight and Invariants
 
-Status: **PREFLIGHT CANDIDATE PASS — CI CONFIRMATION PENDING**  
+Status: **PREFLIGHT PASS — CI CONFIRMED**  
 Date: 2026-10-03  
-Branch: `curriculum/c1-stage-0-1`
+Branch: `curriculum/c1-stage-0-1`  
+CI evidence: Curriculum Integrity run **#75** (`37119723373`) — `success`
 
 ## Purpose
 
@@ -103,9 +104,21 @@ The current C1 exit contract requires later curriculum evidence for at least:
 
 These are constraints on later architecture and assessment. They do **not** determine a Stage-0 unit/lesson count.
 
+## CI confirmation
+
+Curriculum Integrity run #75 passed on the Stage-0/Stage-1 PR head. The run completed:
+
+- source-of-truth integrity audit: **success**;
+- level source-of-truth unit tests: **success**;
+- deterministic rebuild/validation of the locked B2 prerequisite evidence: **success**;
+- B2 Stage-9 authorization validation: **success**;
+- no B2 materialization drift requiring a new curriculum decision.
+
+This confirms that beginning C1 review does not break the canonical A1–C2 source contract or the locked B2 prerequisite.
+
 ## Stage-0 critic
 
-- Source totals: **candidate PASS**, subject to strict CI audit on this branch/PR.
+- Source totals / strict source audit: **PASS**.
 - Eight standard files: **PASS**.
 - Target/previous-level boundary: **PASS**; no B2 change made.
 - Licensing/production gates preserved: **PASS**.
@@ -116,4 +129,4 @@ These are constraints on later architecture and assessment. They do **not** dete
 
 ## Decision
 
-C1 curriculum research/design review may proceed to Stage 1 while `lesson_design_authorized` remains false. Stage 0 is not a semantic lock or authoring authorization. Strict source-of-truth CI must confirm the candidate preflight after the branch is opened as a PR.
+**Stage 0 is complete.** C1 curriculum research/design review may proceed while `lesson_design_authorized` remains false. This preflight is not a semantic lock or authoring authorization. Stage 1 remains an owner-pending manual-review candidate.
