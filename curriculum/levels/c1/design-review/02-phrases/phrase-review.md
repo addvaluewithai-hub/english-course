@@ -183,6 +183,7 @@ Phrase evidence is a boundary/input for Stage 3, not permission to declare those
 - Duplicate primary phrase ownership: **0**.
 - New top-level capabilities created from lexical similarity: **0**.
 - New cross-cutting refinement: **1 (`X-EVIDENTIAL-ATTRIBUTION`)**.
+- Candidate cross-cutting requirement groups after Stage-2 refinement: **8**.
 - Final productive/receptive/formulaic roles assigned: **0**.
 - Unit count selected: **0**.
 - Lesson count selected: **0**.
