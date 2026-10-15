@@ -21,6 +21,9 @@ An agent should deliver a **teachable, inspected lesson** rather than a stack of
 
 ## Start any lesson production request
 
+For automatic next-lesson selection, the short entry point is [AGENTS.md](AGENTS.md); the six status queues are under [status/](status/), and the inspector is `python3 interactive-content-production/tools/production_status.py next A1`. No agent should guess which lesson has already shipped.
+
+
 1. Identify **exact** `level/unit/lesson` by the canonical lesson brief/semantic ledger (not a stale prototype ID). Record repo/ref/commit, source path and approved semantic roles.
 2. Read [WORKFLOW.md](WORKFLOW.md), [LESSON_CONTRACT.md](LESSON_CONTRACT.md), and [FRAME_QA.md](FRAME_QA.md) *before* authoring.
 3. Copy [templates/PRODUCTION_STATUS.template.md](templates/PRODUCTION_STATUS.template.md) and [templates/QA_REPORT.template.md](templates/QA_REPORT.template.md) into the scoped lesson production branch/artifact directory. **Never mark review passed without actual evidence**.
