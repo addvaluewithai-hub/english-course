@@ -32,6 +32,10 @@ The complete pre-cleanup snapshot is preserved on:
 
 Use the archive only to trace historical decisions. Do not continue active curriculum design there.
 
+## Interactive lesson production (optional authoring workstream)
+
+For authorized conversion of **existing, approved** English lesson briefs into Otti-led interactive lessons, start at [Interactive content production — إنتاج المحتوى التفاعلي](interactive-content-production/README.md). It contains a reusable agent skill, authored lesson/board contract, real-browser frame-sheet QA procedure, production status and defect templates. The runtime and screenshot runner are implemented against the actual **EnglishLive product** in a separate PR; this repository still owns only canonical curriculum and authoring guidance.
+
 ## Scope boundary
 
 This workspace is for curriculum design and its evidence. Old delivery pilots, prototype lesson packages, gold-lesson experiments, learner-research kits and legacy conversations are intentionally not part of the active tree. They remain recoverable from the archive branch.
