@@ -27,3 +27,7 @@ Before changing curriculum, read:
 ## Scope
 
 This branch contains active curriculum design, evidence and validation tooling. Do not restore removed pilot/prototype/gold/research/legacy delivery material into `main` unless the owner explicitly reopens that workstream.
+
+## Interactive lesson production (separate workstream)
+
+For a user-authorized task turning an existing lesson brief into an interactive Otti Learn experience, read [interactive-content-production/README.md](interactive-content-production/README.md) and the discoverable [production skill](.agents/skills/produce-interactive-english-lesson/SKILL.md). These are **process guidance only**; product rendering, Playwright screenshots and actual voice QA belong in the product repo. Preserve canonical source/semantic locks, keep feature work on a scoped draft PR, and do not restore old delivery prototypes into this curriculum source tree.
