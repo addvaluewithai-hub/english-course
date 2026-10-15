@@ -1,0 +1,79 @@
+{
+  "note": "EXAMPLE ONLY: product QA fixture routes are not implemented in EnglishLive yet.",
+  "canonicalBeats": [
+    {
+      "scene": "react-follow-up",
+      "beat": "news"
+    },
+    {
+      "scene": "react-follow-up",
+      "beat": "two-moves"
+    },
+    {
+      "scene": "fresh-speaking",
+      "beat": "scenario"
+    }
+  ],
+  "quizScenes": [
+    "react-follow-up"
+  ],
+  "requiresFinalSpeaking": true,
+  "cases": [
+    {
+      "id": "react-news",
+      "scene": "react-follow-up",
+      "beat": "news",
+      "state": "teaching",
+      "path": "/qa/lessons/b1-u1-l02?scene=react-follow-up&beat=news&state=teaching"
+    },
+    {
+      "id": "react-moves",
+      "scene": "react-follow-up",
+      "beat": "two-moves",
+      "state": "teaching",
+      "path": "/qa/lessons/b1-u1-l02?scene=react-follow-up&beat=two-moves&state=teaching"
+    },
+    {
+      "id": "react-question",
+      "scene": "react-follow-up",
+      "beat": "two-moves",
+      "state": "question",
+      "path": "/qa/lessons/b1-u1-l02?scene=react-follow-up&beat=two-moves&state=question"
+    },
+    {
+      "id": "react-correct",
+      "scene": "react-follow-up",
+      "beat": "two-moves",
+      "state": "correct-feedback",
+      "path": "/qa/lessons/b1-u1-l02?scene=react-follow-up&beat=two-moves&state=correct-feedback"
+    },
+    {
+      "id": "react-wrong",
+      "scene": "react-follow-up",
+      "beat": "two-moves",
+      "state": "wrong-feedback",
+      "path": "/qa/lessons/b1-u1-l02?scene=react-follow-up&beat=two-moves&state=wrong-feedback"
+    },
+    {
+      "id": "speaking-ready",
+      "scene": "fresh-speaking",
+      "beat": "scenario",
+      "state": "speaking-listening",
+      "path": "/qa/lessons/b1-u1-l02?scene=fresh-speaking&beat=scenario&state=speaking-listening"
+    },
+    {
+      "id": "speaking-otti",
+      "scene": "fresh-speaking",
+      "beat": "scenario",
+      "state": "speaking-otti",
+      "path": "/qa/lessons/b1-u1-l02?scene=fresh-speaking&beat=scenario&state=speaking-otti"
+    },
+    {
+      "id": "speaking-complete",
+      "scene": "fresh-speaking",
+      "beat": "scenario",
+      "state": "complete",
+      "path": "/qa/lessons/b1-u1-l02?scene=fresh-speaking&beat=scenario&state=complete"
+    }
+  ]
+}
