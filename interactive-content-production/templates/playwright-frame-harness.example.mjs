@@ -42,7 +42,6 @@ assert.ok(Array.isArray(manifest.canonicalBeats) && manifest.canonicalBeats.leng
 assert.ok(Array.isArray(manifest.quizScenes), 'Missing quiz-scene inventory.');
 assert.equal(manifest.requiresFinalSpeaking, true,
   'The current EnglishLive teaching contract requires final Speaking.');
-const stateKeys = new Set(manifest.cases.map(c=>c.scene+'|'+c.beat+'|'+c.state));
 for(const item of manifest.canonicalBeats) {
   const match = manifest.cases.some(c=>c.scene===item.scene && c.beat===item.beat);
   assert.ok(match, 'Missing screenshot fixture for authored beat '+item.scene+'/'+item.beat);
