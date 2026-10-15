@@ -24,9 +24,10 @@ An agent should deliver a **teachable, inspected lesson** rather than a stack of
 1. Identify **exact** `level/unit/lesson` by the canonical lesson brief/semantic ledger (not a stale prototype ID). Record repo/ref/commit, source path and approved semantic roles.
 2. Read [WORKFLOW.md](WORKFLOW.md), [LESSON_CONTRACT.md](LESSON_CONTRACT.md), and [FRAME_QA.md](FRAME_QA.md) *before* authoring.
 3. Copy [templates/PRODUCTION_STATUS.template.md](templates/PRODUCTION_STATUS.template.md) and [templates/QA_REPORT.template.md](templates/QA_REPORT.template.md) into the scoped lesson production branch/artifact directory. **Never mark review passed without actual evidence**.
-4. For a scoped requested gate only, author/critique and stop. A comment from the owner revises that gate. If the owner requests a complete multi-stage run explicitly, work within that scope but still report the quality gates and unresolved real-browser/human steps.
-5. Keep **all changes on a scoped branch/draft PR**, with separate lesson IDs and fixtures. No writes to other agents' Practice PRs.
-6. Store final render/interaction tests and screenshots with the **product PR or its CI artifacts**, linked from the production status. Do not check binary screenshot dumps into this curriculum source of truth.
+4. See the [example fixture matrix](templates/fixture-cases.example.json) and [portable Playwright frame harness](templates/playwright-frame-harness.example.mjs): they define the *future EnglishLive product-side fixture contract*, not screenshots that exist already.
+5. For a scoped requested gate only, author/critique and stop. A comment from the owner revises that gate. If the owner requests a complete multi-stage run explicitly, work within that scope but still report the quality gates and unresolved real-browser/human steps.
+6. Keep **all changes on a scoped branch/draft PR**, with separate lesson IDs and fixtures. No writes to other agents' Practice PRs.
+7. Store final render/interaction tests and screenshots with the **product PR or its CI artifacts**, linked from the production status. Do not check binary screenshot dumps into this curriculum source of truth.
 
 ## Required delivery inventory (for each interactive lesson)
 
