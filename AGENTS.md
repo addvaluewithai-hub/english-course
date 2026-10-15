@@ -31,3 +31,7 @@ This branch contains active curriculum design, evidence and validation tooling. 
 ## Interactive lesson production (separate workstream)
 
 For a user-authorized task turning an existing lesson brief into an interactive Otti Learn experience, read [interactive-content-production/README.md](interactive-content-production/README.md) and the discoverable [production skill](.agents/skills/produce-interactive-english-lesson/SKILL.md). These are **process guidance only**; product rendering, Playwright screenshots and actual voice QA belong in the product repo. Preserve canonical source/semantic locks, keep feature work on a scoped draft PR, and do not restore old delivery prototypes into this curriculum source tree.
+
+## Interactive content production and autonomous next-lesson queue
+
+For any request such as **"شوف A1 واقف فين وكمل"** or a user asking to produce the next lesson, follow [interactive-content-production/AGENTS.md](interactive-content-production/AGENTS.md). It defines six reviewed production status tables, deterministic `next LEVEL` lookup, scoped PR claims, source-lock checks, screenshot QA and owner acceptance. Do **not** silently treat curricular briefs or previous pilots as completed interactive lessons. Lesson production is a **separate delivery workstream** and cannot by itself bypass curriculum authorization or commercial gates.
