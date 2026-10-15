@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "0.1-editorial-example",
+  "deliveryScope": "pilot-chapter-NOT-full-B1-lesson",
+  "status": "draft-NOT-authorized-for-product-release",
+  "source": {
+    "repo": "addvaluewithai-hub/english-course",
+    "branch": "main",
+    "commit": "REPLACE_WITH_VERIFIED_SHA",
+    "levelId": "b1",
+    "unitId": "u1",
+    "lessonId": "u1-l02",
+    "brief": "curriculum/levels/b1/design-review/07-lesson-briefs/lesson-briefs.md#u1-l02--keep-a-familiar-conversation-going",
+    "semanticLock": "curriculum/levels/b1/design-review/08-semantic-lock/semantic-decisions.json",
+    "exactSourceRolesMustBeChecked": true
+  },
+  "learningOutcome": "Sustain a familiar conversation using acknowledgement, a relevant follow-up and simple turn management.",
+  "roleNotes": {
+    "foreground": [
+      "acknowledge",
+      "choose a relevant detail",
+      "generate a follow-up"
+    ],
+    "support": [
+      "get to know",
+      "keep in touch"
+    ],
+    "retrieval": [],
+    "notEvidenceOfSpeaking": [
+      "multiple-choice choice"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "react-follow-up",
+      "purpose": "Distinguish a useful reaction-plus-next-question from a topic-ending answer.",
+      "beats": [
+        {
+          "id": "news",
+          "speech": "تخيل إن صاحبك بيقول: I joined a photography club last week.",
+          "readText": "صاحبك اشترك في نادي تصوير الأسبوع الماضي.",
+          "boardStateId": "club-update",
+          "visualIntent": "One friend shares news; leave conversation open",
+          "altText": "Speech bubble with a photography club update."
+        },
+        {
+          "id": "two-moves",
+          "speech": "ممكن ترد Really? وبعدها تختار تفصيلة من كلامه وتسأل: What do you do there?",
+          "readText": "رد باهتمام ثم اسأل سؤالًا مرتبطًا بنادي التصوير.",
+          "boardStateId": "react-detail-follow-up",
+          "visualIntent": "Reveal reaction, selected detail, follow-up in that order",
+          "altText": "Three linked steps: react, select club detail, ask what they do."
+        }
+      ],
+      "visual": {
+        "portrait": "Vertical stacked three-step diagram; reserve Otti lower-right outside text safe area",
+        "landscape": "Three horizontally linked steps with generous labels",
+        "boardNoInternalScroll": true
+      },
+      "assessment": {
+        "kind": "single-choice",
+        "id": "q-react",
+        "prompt": "صاحبك قال إنه دخل نادي تصوير. أنهي رد يخلي الكلام يكمل؟",
+        "options": [
+          {
+            "id": "ask",
+            "text": "Really? What do you do there?",
+            "misconception": null
+          },
+          {
+            "id": "end",
+            "text": "Okay.",
+            "misconception": "Acknowledgement only; no follow-up"
+          }
+        ],
+        "correctOptionId": "ask",
+        "correctFeedback": "صح! أظهرت اهتمامك وسألت عن تفصيلة في الخبر؛ كده الحوار يقدر يكمل.",
+        "wrongFeedback": "Okay رد مفهوم، لكنه لوحده غالبًا مش بيكمل الكلام. جرّب Really? What do you do there? عشان السؤال يتعلق بالخبر.",
+        "onWrong": "record-incorrect-explain-then-continue"
+      }
+    },
+    {
+      "id": "fresh-speaking",
+      "purpose": "Use a changed workplace scenario to sustain a meaningful conversation.",
+      "beats": [
+        {
+          "id": "scenario",
+          "speech": "دلوقتي موقف جديد. Our team changed this month, and I met three new colleagues. رد عليّ واسألني عن تفصيلة من اللي قلته.",
+          "readText": "زميلك قال إن فريقه اتغير واتعرف على زملاء جدد. رد واسأل عن تفصيلة جديدة.",
+          "boardStateId": "none",
+          "visualIntent": "Remove answer-bearing board; show Otti full attention",
+          "altText": "Otti listening; no model answer shown."
+        }
+      ],
+      "assessment": {
+        "kind": "live-speaking-otti-judgment",
+        "evidence": [
+          "relevant reaction",
+          "meaningful follow-up",
+          "continued independent turn"
+        ],
+        "doesNotCount": [
+          "silence",
+          "generic okay only",
+          "polite goodbye loop"
+        ],
+        "intervention": "Otti explains or asks for a new meaningful turn rather than passing automatically"
+      }
+    }
+  ],
+  "fixturesRequired": [
+    "all-authored-beats",
+    "quiz-unanswered",
+    "quiz-correct-feedback",
+    "quiz-wrong-feedback",
+    "speaking-listening",
+    "speaking-otti",
+    "complete"
+  ],
+  "review": {
+    "editorial": "untested",
+    "visual": "not-captured",
+    "live": "not-tested",
+    "ownerApproved": false
+  }
+}
