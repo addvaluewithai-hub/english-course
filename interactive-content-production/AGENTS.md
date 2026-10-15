@@ -6,7 +6,7 @@ This directory guides production and its QA; the canonical curriculum/semantic l
 
 ## Read these files first, in order
 
-1. `../../AGENTS.md`, `../../START_HERE.md`, `../../CURRENT_STATE.md`
+1. `../AGENTS.md`, `../START_HERE.md`, `../CURRENT_STATE.md`
 2. `README.md`, `WORKFLOW.md`, `LESSON_CONTRACT.md`, `FRAME_QA.md`
 3. `status/A1.md`, `status/A2.md`, `status/B1.md`, `status/B2.md`, `status/C1.md`, `status/C2.md` as relevant.
 4. `../.agents/skills/produce-interactive-english-lesson/SKILL.md` (from repo root: `.agents/skills/produce-interactive-english-lesson/SKILL.md`).
