@@ -7,7 +7,8 @@
  *
  * Usage in product repo (after running a local fixture server):
  *   BASE_URL=http://127.0.0.1:5173 node scripts/lesson-frame-sheets.mjs qa/cases.json
- * Example cases.json:
+ * Example cases.json (also needs canonicalBeats, quizScenes,
+ * requiresFinalSpeaking — see fixture-cases.example.json):
  *   {"cases":[
  *     {"id":"S01-teach","scene":"S01","beat":"reaction","state":"teaching",
  *      "path":"/qa/lessons/b1-u1-l02?scene=S01&beat=reaction&state=teaching"},
@@ -34,6 +35,25 @@ if (!base || !file) throw Error('Set BASE_URL and pass a cases.json manifest.');
 const manifest = JSON.parse(await readFile(file, 'utf8'));
 assert.ok(Array.isArray(manifest.cases) && manifest.cases.length,
   'Need at least one explicit fixture state.');
+// The fixture must declare the canonical inventory derived from the lesson
+// package, not merely the screenshots an agent happened to choose to take.
+assert.ok(Array.isArray(manifest.canonicalBeats) && manifest.canonicalBeats.length,
+  'Missing canonical beat inventory.');
+assert.ok(Array.isArray(manifest.quizScenes), 'Missing quiz-scene inventory.');
+assert.equal(manifest.requiresFinalSpeaking, true,
+  'The current EnglishLive teaching contract requires final Speaking.');
+const stateKeys = new Set(manifest.cases.map(c=>c.scene+'|'+c.beat+'|'+c.state));
+for(const item of manifest.canonicalBeats) {
+  const match = manifest.cases.some(c=>c.scene===item.scene && c.beat===item.beat);
+  assert.ok(match, 'Missing screenshot fixture for authored beat '+item.scene+'/'+item.beat);
+}
+for(const scene of manifest.quizScenes) {
+  for(const state of ['question','correct-feedback','wrong-feedback'])
+    assert.ok(manifest.cases.some(c=>c.scene===scene && c.state===state),
+      'Missing '+state+' screenshot fixture in '+scene);
+}
+for(const state of ['speaking-listening','speaking-otti','complete'])
+  assert.ok(manifest.cases.some(c=>c.state===state), 'Missing '+state+' fixture');
 const ids = new Set();
 for(const test of manifest.cases) {
   for(const prop of ['id','scene','beat','state','path'])
