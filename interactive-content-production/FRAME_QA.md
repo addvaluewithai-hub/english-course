@@ -67,7 +67,7 @@ Playwright runner belongs next to the real product tests, for example `englishli
 6. Upload PNG contact sheets and report even on failure (`if: always()`, retention ~30 days).
 7. Reviewer opens and critiques all sheets; fixes and reruns. Only after actual human/agent inspection update `QA_REPORT` to `visual-reviewed`.
 
-For an **illustrative** harness starter (not hooked to EnglishLive yet) see [templates/playwright-frame-harness.example.mjs](templates/playwright-frame-harness.example.mjs). Do not paste its placeholder fixtures into production and claim coverage.
+For an **illustrative** harness starter (not hooked to EnglishLive yet) see [templates/playwright-frame-harness.example.mjs](templates/playwright-frame-harness.example.mjs) and its [fixture-cases.example.json](templates/fixture-cases.example.json). The runner requires a `canonicalBeats` inventory, all `quizScenes` (unanswered + right/wrong branches) and final Speaking states. Generate that inventory from the canonical lesson package — a manually shortened list can still conceal missing coverage. Do not paste placeholder fixture routes into production and claim screenshots were verified.
 
 ## Live-only gates
 
