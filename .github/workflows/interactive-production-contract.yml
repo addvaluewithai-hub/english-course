@@ -1,0 +1,46 @@
+name: Interactive production contract checks
+
+on:
+  pull_request:
+    paths:
+      - 'interactive-content-production/**'
+      - '.agents/skills/produce-interactive-english-lesson/**'
+      - '.github/workflows/interactive-production-contract.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  factory-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check portable Playwright template syntax
+        run: node --check interactive-content-production/templates/playwright-frame-harness.example.mjs
+      - name: Validate editorial example JSON
+        run: python3 -m json.tool interactive-content-production/templates/lesson-package.example.json > /dev/null
+      - name: Check factory and agent references
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          root=Path('interactive-content-production')
+          targets=[
+            root/'README.md', root/'WORKFLOW.md', root/'LESSON_CONTRACT.md',
+            root/'FRAME_QA.md', root/'templates/QA_REPORT.template.md',
+            root/'templates/PRODUCTION_STATUS.template.md',
+            root/'templates/playwright-frame-harness.example.mjs',
+            root/'templates/lesson-package.example.json',
+            Path('.agents/skills/produce-interactive-english-lesson/SKILL.md'),
+          ]
+          missing=[str(p) for p in targets if not p.is_file() or not p.read_text().strip()]
+          assert not missing, 'Missing/empty factory files: '+', '.join(missing)
+          assert targets[-1].read_text().startswith('---\nname: produce-interactive-english-lesson\n')
+          print('Factory contract files present; syntax and JSON checked separately.')
+          PY
