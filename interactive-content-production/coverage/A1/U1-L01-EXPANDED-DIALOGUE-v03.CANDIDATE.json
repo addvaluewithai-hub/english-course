@@ -1,0 +1,116 @@
+{
+  "turns": [
+    {
+      "speaker": "Maya",
+      "text": "Good morning! I'm Maya. What's your name?",
+      "style": "Warm first greeting; natural A1 pace."
+    },
+    {
+      "speaker": "Leo",
+      "text": "Hi, Maya! My name is Leo. It's my first English class.",
+      "style": "Friendly and slightly tentative."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Welcome, Leo! How are you?",
+      "style": "Warm short question."
+    },
+    {
+      "speaker": "Leo",
+      "text": "Pretty good, thanks. I'm feeling excited. And you?",
+      "style": "Positive but new-class nerves."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Really good, thank you. I like meeting new people.",
+      "style": "Warm and confident, no exaggerated emphasis."
+    },
+    {
+      "speaker": "Leo",
+      "text": "I'm excited, but I'm a little afraid, too.",
+      "style": "Genuine mild nervousness."
+    },
+    {
+      "speaker": "Maya",
+      "text": "That's okay. You're not alone. The people here are friendly.",
+      "style": "Reassuring, one clear thought at a time."
+    },
+    {
+      "speaker": "Leo",
+      "text": "The teacher says, 'Introduce yourself.' What can I say?",
+      "style": "Curious; quote the classroom instruction clearly."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Start with your name. Then show something you like.",
+      "style": "Short, simple advice."
+    },
+    {
+      "speaker": "Leo",
+      "text": "Like this photograph? It's my cat. Its name is Coco.",
+      "style": "Shows photograph; articulate its versus it's naturally."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Coco looks sad in this photograph.",
+      "style": "Gentle observation, not theatrical."
+    },
+    {
+      "speaker": "Leo",
+      "text": "No, Coco isn't sad. Coco is tired.",
+      "style": "Clear corrective contrast; not a grammar chant."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Oh, I see. Is everything okay?",
+      "style": "Natural clarification."
+    },
+    {
+      "speaker": "Leo",
+      "text": "Yes, nothing is wrong. But can I ask for advice?",
+      "style": "Matter-of-fact; uncomplicated pacing."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Of course. Just say hello and smile.",
+      "style": "Kind concrete advice."
+    },
+    {
+      "speaker": "Leo",
+      "text": "Thank you! I'm not afraid now. I'm feeling really good.",
+      "style": "Relief without excessive emotion."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Great! See you in class, Leo!",
+      "style": "Simple warm close."
+    },
+    {
+      "speaker": "Leo",
+      "text": "Bye, Maya!",
+      "style": "Short friendly goodbye."
+    }
+  ],
+  "speakers": {
+    "Maya": "Aoede",
+    "Leo": "Achird"
+  },
+  "routing": "quality",
+  "format": "wav",
+  "sample_rate": 24000,
+  "temperature": 1,
+  "allow_model_fallback": true,
+  "transcript": {
+    "language_codes": [
+      "en-US"
+    ],
+    "diarization": true,
+    "write_vtt": true
+  },
+  "metadata": {
+    "lessonId": "a1-u1-l01-listening-lab",
+    "sourceLessonId": "U1-L01",
+    "purpose": "EDITORIAL-DRAFT-DO-NOT-DISPATCH",
+    "edition": "expanded-candidate-v03-unapproved"
+  }
+}
