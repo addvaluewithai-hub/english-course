@@ -587,5 +587,13 @@
       "review": "reviewed",
       "approvalRef": null
     }
-  ]
+  ],
+  "qualityGates": {
+    "sourceReview": "agent-audited-pending-owner",
+    "scriptCritique": "pending",
+    "screenshotReview": "pending",
+    "liveAudio": "pending",
+    "speakingReview": "pending",
+    "ownerAcceptance": "pending"
+  }
 }
