@@ -64,3 +64,18 @@ FINAL_SPEAKING -> Otti listens/responds/repairs -> Otti decides completion
 The authoritative brief: `curriculum/levels/b1/design-review/07-lesson-briefs/lesson-briefs.md#u1-l02--keep-a-familiar-conversation-going`. **Main goal:** sustain several turns, acknowledge, relevant follow-up and simple turn management. Formulaic phrases and integrated grammar support that goal; the selected prototype's 4 MC steps are not a full lesson nor sufficient evidence of conversational independence.
 
 A staged chapter can teach `react -> pick detail -> ask follow-up`, `get to know` and `keep in touch`, then MC recognition and finally spoken new-context transfer. Later production extends the approved full B1 content without changing the locked authoring roles.
+
+## Listening-first conversational lessons and reusable factory audio
+
+Where the **authorized performance** naturally involves listening to social dialogue, prefer a short first-listen task before dissecting phrases/grammar. Start with a non-answer-bearing situation setup; reveal the transcript selectively after the first listening. It is a recommended **content pattern, not a mandatory opener for every reading/writing lesson**.
+
+For authored dialogue recordings, use [Gemini TTS Factory](https://github.com/addvaluewithai-hub/gemini-tts) to produce the **static lesson audio offline**. Read the factory's `docs/AGENT.md` and `docs/API.md`. The factory supports two-speaker requests and delivers WAV, source/recognized transcript with *actual-audio word-level timestamps*, VTT, and Cloudinary URLs. Register in the lesson package:
+- factory repo/job ID, exact reviewed written script, speaker/voice mapping and delivery edition;
+- final `audio_url`, `transcript_url`, `vtt_url` from a **completed** factory job;
+- reviewed speaker-turn start/end times and authored `clipId` boundaries, mapped onto the final rendered audio, not estimated from text length;
+- the initial full-listen task, contextual replay points in the teacher script, and error/interrupt behavior;
+- audio QA verdict, reviewer and recording/version provenance.
+
+The `play_lesson_audio({clipId})` live tool should only play **preapproved, pre-authored named clips**, with app-owned audible-completion signaling, non-overlap with Otti PCM or learner microphone, and time-synced transcript/board. It must never synthesize on demand, allow arbitrary URLs/timing, feed teacher audio through microphone input, or claim that an unavailable recording was heard. The generic `gemini-tts` GitHub Action is a paid/asynchronous content factory; generating a recording requires an explicitly approved job. Its existing owner-gated Issue gateway is currently limited to `learn-curriculums` formats; don't reuse it for EnglishLive without reviewed gateway support.
+
+Recognition MC checks and later live Speaking continue to measure different things. Audio/caption file existence is **not** permission to mark the lesson done: the voice, transcript alignment, clip starts/cuts, interaction timing and real final speaking still require QA.

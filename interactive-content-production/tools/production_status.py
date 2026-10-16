@@ -76,21 +76,27 @@ def next_lesson(level: str):
                           "reason": "Unit/lesson architecture not authorized; do not invent lessons."}))
         return
     items = rows(level)
-    candidate = next((r for r in items if r["status"] == "not-started"), None)
+    # Sequential production: never silently skip an unfinished, claimed, or
+    # QA-blocked earlier lesson and begin another unit lesson.
+    candidate = next((r for r in items if r["status"] != "done"), None)
     if candidate is None:
-        print(json.dumps({"level":level,"state":"NO_UNCLAIMED_LESSONS",
-                          "note":"Review QA-pending and in-progress PRs; never duplicate claims."}))
+        print(json.dumps({"level":level, "state":"ALL_LESSONS_ACCEPTED",
+                          "note":"All rows show owner-accepted done; verify release evidence."}))
         return
     idx = items.index(candidate)
+    in_flight = candidate["status"] != "not-started"
     result = {
         "level": level,
-        "state": "SUGGESTED_NOT_CLAIMED",
+        "state": "IN_FLIGHT_REVIEW" if in_flight else "SUGGESTED_NOT_CLAIMED",
         "lesson": candidate,
         "position": idx + 1,
         "total": len(items),
         "source": f"curriculum/levels/{level.lower()}/design-review/{BRIEFS[level][0]}-lesson-briefs/lesson-briefs.md",
         "delivery_authorized_in_manifest": manifest.get("delivery_content_production_authorized") is True,
-        "instruction": "Check open PRs. Make a scoped product branch, claim this row with owner/PR link, then follow production skill P0-P6. No mass release."
+        "instruction": ("An earlier lesson is in progress or blocked. Check linked PR / owner, "
+                         "resume ONLY if assigned or authorized. Do not silently claim the next one."
+                         if in_flight else
+                         "Check open PRs. Claim this row in a linked PR, then work P0-P6. No bulk release.")
     }
     print(json.dumps(result, ensure_ascii=False, indent=2))
 

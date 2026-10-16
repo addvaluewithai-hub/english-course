@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "level": "A1",
+  "lessonId": "U1-L01",
+  "sourceRefs": {
+    "ledger": "curriculum/levels/a1/design-review/06-coverage-ledger/generated/coverage-ledger.json",
+    "brief": "curriculum/levels/a1/design-review/07-lesson-briefs/lesson-briefs.md",
+    "phraseRoles": "curriculum/levels/a1/semantic-lock/phrase-control-decisions.json",
+    "wordRoles": "curriculum/levels/a1/semantic-lock/word-control-decisions.json"
+  },
+  "status": "draft-curriculum-audit-not-release-approval",
+  "sourceItemCount": 36,
+  "notes": "Teaching/receptive/production roles must be reviewed pedagogically. Some ledger introduction placements conflict with U1-L01 canonical brief; never expand the lesson solely to turn the report green. Review == agent source review, not human approval.",
+  "items": [
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p09.007",
+      "label": "Can understand basic phrases in short, simple texts. (P)",
+      "category": "ability",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "escalate",
+      "rationale": "This objective includes reading short texts, but the listening-led first-contact chapter has no authored reading check; discuss cross-skill placement.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p14.001",
+      "label": "Can understand the main information when people introduce themselves (e.g. ‘name’, ‘age’, ‘where they are from’). (P)",
+      "category": "ability",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "Source ability includes name, age and origin examples, while the locked U1-L01 brief limits this chapter to names; keep age/origin for later approved lessons.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "say-your-name",
+          "beatId": "name-chunk"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p14.012",
+      "label": "Can follow speech which is very slow and carefully articulated, with long pauses. (Ca)",
+      "category": "ability",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "teach",
+      "rationale": "Ensure first listening audio is learner-paced, and enable focused replay of clearly articulated first-contact lines.",
+      "evidence": [
+        {
+          "kind": "listening",
+          "sceneId": "first-listen",
+          "beatId": "scene-set"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p22.009",
+      "label": "Can give key information to introduce themselves (e.g. ‘name’, ‘age’, ‘where they are from’). (P)",
+      "category": "ability",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "Source ability includes name, age and origin examples, while the locked U1-L01 brief limits this chapter to names; keep age/origin for later approved lessons.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "say-your-name",
+          "beatId": "name-chunk"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p22.018",
+      "label": "Can ask and answer simple questions in areas of immediate need or on very familiar topics. (Ca)",
+      "category": "ability",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "teach",
+      "rationale": "This first-contact interaction can assess one short exchange in which the learner responds and initiates a relevant personal question.",
+      "evidence": [
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-meeting",
+          "beatId": "new-person"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p22.020",
+      "label": "Can accurately repeat clearly spoken words, phrases, and short sentences. (P)",
+      "category": "ability",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "A1 repetition skill can be supported by optional phrase echoes, but MC screenshots alone cannot verify accurate vocal repetition.",
+      "evidence": [
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-meeting",
+          "beatId": "new-person"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p22.023",
+      "label": "Can introduce themselves, their hobbies and interests in a basic way. (CJa)",
+      "category": "ability",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "The broader source ability covers hobbies and interests, but this lesson brief explicitly limits production to first-contact name and wellbeing.",
+      "evidence": [
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-meeting",
+          "beatId": "new-person"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p23.012",
+      "label": "Can make an introduction and use basic greeting and leave-taking expressions. (C)",
+      "category": "ability",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "Simple leave-taking naturally ends the recorded exchange and optional final Speaking; do not turn it into a separate exit-mastery gate.",
+      "evidence": [
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-meeting",
+          "beatId": "new-person"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.phrase.online.0314",
+      "label": "Good morning",
+      "category": "phrase",
+      "semanticRole": "formulaic_productive_required",
+      "disposition": "teach",
+      "rationale": "Teach as the time-of-day greeting before listening and let the learner use it naturally in a changed first meeting.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "say-your-name",
+          "beatId": "name-chunk"
+        },
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-meeting",
+          "beatId": "new-person"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.phrase.online.0346",
+      "label": "How are you?",
+      "category": "phrase",
+      "semanticRole": "formulaic_productive_required",
+      "disposition": "teach",
+      "rationale": "Introduce the wellbeing question with the recorded exchange and elicit an independent use in final first-meeting Speaking.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "ask-how-are-you",
+          "beatId": "wellbeing-meaning"
+        },
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-meeting",
+          "beatId": "new-person"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.phrase.online.0579",
+      "label": "pretty good",
+      "category": "phrase",
+      "semanticRole": "formulaic_productive_required",
+      "disposition": "teach",
+      "rationale": "Show one natural positive reply inside the wellbeing teaching and accept it productively in changed-context Speaking.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "ask-how-are-you",
+          "beatId": "wellbeing-meaning"
+        },
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-meeting",
+          "beatId": "new-person"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.phrase.online.0599",
+      "label": "really good",
+      "category": "phrase",
+      "semanticRole": "formulaic_productive_required",
+      "disposition": "teach",
+      "rationale": "Contrast this stronger positive reply with pretty good; invite learner production without inventing a grammar-comparison target.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "ask-how-are-you",
+          "beatId": "wellbeing-meaning"
+        },
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-meeting",
+          "beatId": "new-person"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.phrase.online.0668",
+      "label": "Thank you",
+      "category": "phrase",
+      "semanticRole": "formulaic_productive_required",
+      "disposition": "teach",
+      "rationale": "Explain short politeness response from authored audio and require natural polite response in final unscripted first-contact speaking.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "ask-how-are-you",
+          "beatId": "wellbeing-meaning"
+        },
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-meeting",
+          "beatId": "new-person"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "egp.1741163706530x753542801715210100",
+      "label": "FORM: PREDICATIVE, WITH 'BE'",
+      "category": "grammar",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "contextual",
+      "rationale": "Teach minimum I am / I'm in familiar first-contact utterances, not the broader grammatical category or a full paradigm.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "say-your-name",
+          "beatId": "name-chunk"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "egp.1741163708329x286701804737242940",
+      "label": "FORM: AFFIRMATIVE DECLARATIVE",
+      "category": "grammar",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "Provide I am and My name is affirmative examples as supports only, without promoting every declarative form into an independent A1 target.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "say-your-name",
+          "beatId": "name-chunk"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "egp.1741163708329x778951051617750700",
+      "label": "FORM: NEGATIVE DECLARATIVE WITH 'BE'",
+      "category": "grammar",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "escalate",
+      "rationale": "Negative be is present in the ledger but not in the narrow first-contact brief; adding a negative conjugation drill would exceed scope.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "egp.1741163708789x105964971324936210",
+      "label": "FORM: WITH NOUNS",
+      "category": "grammar",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "Use name slot My name is Leo naturally without requiring an independent nouns grammar exercise.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "say-your-name",
+          "beatId": "name-chunk"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "egp.1741163716067x824562184770361200",
+      "label": "FORM: MAIN VERB 'BE'",
+      "category": "grammar",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "contextual",
+      "rationale": "Model first-person be in I am and I'm with a simple name; broader be system deliberately deferred.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "say-your-name",
+          "beatId": "name-chunk"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "egp.1741163713868x463659211645272000",
+      "label": "FORM: (SUBJECT) STATEMENTS",
+      "category": "grammar",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "Use basic subject plus be statements only as formulaic contexts, not a general syntax lesson.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "say-your-name",
+          "beatId": "name-chunk"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "egp.1741163715288x539616242661052000",
+      "label": "FORM: LINKING VERB, 'BE'",
+      "category": "grammar",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "contextual",
+      "rationale": "I am Maya and I'm fine give familiar linking-be context; this is one integrated chunk, not a separate chart.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "say-your-name",
+          "beatId": "name-chunk"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "egp.1741163715608x123988758899529200",
+      "label": "FORM: 'BE' + COMPLEMENT",
+      "category": "grammar",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "contextual",
+      "rationale": "Use I'm Maya and I'm okay as short meaningful chunks, without generalizing beyond scope.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "ask-how-are-you",
+          "beatId": "wellbeing-meaning"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p01.012",
+      "label": "advice",
+      "category": "word",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "Coverage ledger introduces this item in first-contact lesson even though the canonical brief does not teach advice; needs an explicit approved disposition.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p01.013",
+      "label": "afraid",
+      "category": "word",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "Afraid is a wider feelings adjective; no separate productive or receptive teaching requirement is established in the narrow introduction brief.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p01.061",
+      "label": "be",
+      "category": "word",
+      "semanticRole": "receptive_required",
+      "disposition": "contextual",
+      "rationale": "Controlled as a grammar/function system in I am and I'm; avoid declaring separate dictionary-word lexical mastery.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "say-your-name",
+          "beatId": "name-chunk"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p02.011",
+      "label": "excited",
+      "category": "word",
+      "semanticRole": "productive_required",
+      "disposition": "escalate",
+      "rationale": "Level-wide productive adjective does not automatically belong to this first-contact script; review scope and lifecycle without forcing an extra feelings chart.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p02.034",
+      "label": "feeling",
+      "category": "word",
+      "semanticRole": "productive_required",
+      "disposition": "escalate",
+      "rationale": "Word has a level-wide productive role but the locked first-contact brief is narrow; curriculum reviewer must decide whether it belongs in this opening lesson.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p02.160",
+      "label": "its",
+      "category": "word",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "Possessive its is not taught by the minimum first/second person be chunk in the lesson brief; grammar owner should review placement.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.007",
+      "label": "nothing",
+      "category": "word",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The target word does not arise naturally in the approved basic first-contact goal and should not become a random vocabulary card.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.056",
+      "label": "people",
+      "category": "word",
+      "semanticRole": "receptive_required",
+      "disposition": "bounded",
+      "rationale": "Incidental classroom-context noun for two people meeting; should not be a mandatory independent production target.",
+      "evidence": [
+        {
+          "kind": "listening",
+          "sceneId": "first-listen",
+          "beatId": "big-picture"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.064",
+      "label": "photograph",
+      "category": "word",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "Photograph is tied to this lesson in the ledger but not to greeting, names or wellbeing; requires curriculum review rather than invented picture dialogue.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.136",
+      "label": "sad",
+      "category": "word",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "Sad is a broader feelings item outside core short positive wellbeing answers; reviewer should decide teaching placement.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.252",
+      "label": "thanks",
+      "category": "word",
+      "semanticRole": "receptive_required",
+      "disposition": "teach",
+      "rationale": "Teach the everyday politeness word in I'm fine, thanks; it is a spoken formula here, not an unrelated dictionary card.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "ask-how-are-you",
+          "beatId": "wellbeing-meaning"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.274",
+      "label": "tired",
+      "category": "word",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "Tired is a wider wellbeing adjective than the authored beginner first-meeting exchange; scope must be approved.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p04.100",
+      "label": "yourself",
+      "category": "word",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "Reflexive yourself would introduce unsupported complexity beyond the initial greetings and name exchange; must be reviewed.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "pronunciation.sound_perception.a1",
+      "label": "Sound perception and word recognition",
+      "category": "pronunciation",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "teach",
+      "rationale": "First uninterrupted listening, then focused replays train recognition of names and greetings at realistic learner-paced speech.",
+      "evidence": [
+        {
+          "kind": "listening",
+          "sceneId": "first-listen",
+          "beatId": "scene-set"
+        },
+        {
+          "kind": "listening",
+          "sceneId": "say-your-name",
+          "beatId": "listen-again"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "pronunciation.intonation_stance.a1",
+      "label": "Intonation, interaction, and stance",
+      "category": "pronunciation",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "teach",
+      "rationale": "Contrast rising-question intonation in What's your name? and How are you? with the natural reply during focused listening and Speaking.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "ask-how-are-you",
+          "beatId": "wellbeing-meaning"
+        },
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-meeting",
+          "beatId": "new-person"
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    }
+  ],
+  "qualityGates": {
+    "sourceReview": "agent-audited-pending-owner",
+    "scriptCritique": "pending",
+    "screenshotReview": "pending",
+    "liveAudio": "pending",
+    "speakingReview": "pending",
+    "ownerAcceptance": "pending"
+  }
+}
