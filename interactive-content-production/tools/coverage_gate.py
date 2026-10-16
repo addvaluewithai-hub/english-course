@@ -3,6 +3,7 @@
 
   python3 interactive-content-production/tools/coverage_gate.py check A1 U1-L01
   python3 interactive-content-production/tools/coverage_gate.py ready A1 U1-L01
+  python3 interactive-content-production/tools/coverage_gate.py check-all
 
 check: verifies exact source item set, locked role, source paths, decisions and evidence
        WITHOUT claiming pedagogical quality or passing an incomplete lesson.
@@ -108,7 +109,26 @@ def audit(level, lesson, ready=False):
         raise SystemExit(f"NOT READY: {len(problems)} unresolved curriculum/evidence decisions")
 
 
+def check_all():
+    """CI checks every authored coverage map, never only a hard-coded A1 pilot."""
+    directory = ROOT / "interactive-content-production" / "coverage"
+    files = sorted(directory.glob("*/*.json"))
+    if not files:
+        raise SystemExit("No source coverage maps registered; refusing empty green CI")
+    for file in files:
+        level = file.parent.name
+        lesson = file.stem
+        if not re.fullmatch(r"[ABC][12]", level) or not re.fullmatch(r"U[0-9]+-L[0-9]+", lesson):
+            raise SystemExit("Invalid lesson coverage map location: " + str(file))
+        audit(level, lesson, ready=False)
+    print(json.dumps({"coverageMapsChecked": len(files), "structuralResult": "PASS",
+                      "note": "This does not mean approved or ready for publication."}))
+
+
 if __name__ == "__main__":
-    if len(sys.argv) != 4 or sys.argv[1] not in {"check", "ready"}:
+    if len(sys.argv) == 2 and sys.argv[1] == "check-all":
+        check_all()
+    elif len(sys.argv) == 4 and sys.argv[1] in {"check", "ready"}:
+        audit(sys.argv[2].upper(), sys.argv[3], sys.argv[1] == "ready")
+    else:
         raise SystemExit(__doc__)
-    audit(sys.argv[2].upper(), sys.argv[3], sys.argv[1] == "ready")
