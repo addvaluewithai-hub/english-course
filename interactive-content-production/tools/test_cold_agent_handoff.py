@@ -8,6 +8,8 @@ import contextlib
 import importlib.util
 import io
 import json
+import subprocess
+import sys
 import unittest
 from pathlib import Path
 
@@ -35,6 +37,20 @@ class ColdAgentHandoffTest(unittest.TestCase):
         self.assertEqual(data['lesson']['status'],'in-progress')
         self.assertIn('/englishlive/pull/54',data['lesson']['evidence'])
         self.assertFalse(data['delivery_authorized_in_manifest'])
+
+    def test_coverage_is_structurally_valid_but_release_is_deliberately_blocked(self):
+        tool=ROOT/'interactive-content-production/tools/coverage_gate.py'
+        check=subprocess.run([sys.executable,str(tool),'check','A1','U1-L01'],
+                             capture_output=True,text=True,check=True)
+        data=json.loads(check.stdout)
+        self.assertTrue(data['structuralValid'])
+        self.assertEqual(data['canonicalItems'],36)
+        self.assertFalse(data['ready'])
+        self.assertGreaterEqual(len(data['blockers']),12)
+        ready=subprocess.run([sys.executable,str(tool),'ready','A1','U1-L01'],
+                             capture_output=True,text=True)
+        self.assertNotEqual(ready.returncode,0)
+        self.assertIn('NOT READY',ready.stderr)
 
     def test_source_and_review_gates_are_discoverable(self):
         instructions=(ROOT/'interactive-content-production/AGENTS.md').read_text()
