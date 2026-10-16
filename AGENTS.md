@@ -1,5 +1,9 @@
 # Agent Rules — Curriculum Workspace
 
+## Shared execution control (start here for production / review)
+
+For requests such as "افتح وكمل", "شوف إحنا واقفين فين", producing a Learn lesson, reviewing one lesson, reviewing each five-lesson batch, or coordinating Practice missions, **first open [`ENGLOTTI_MASTER_WORKFLOW.md`](ENGLOTTI_MASTER_WORKFLOW.md)** on the latest `main`. Verify the live status queues and open PRs; its cached control panel is a snapshot, not permission to override curriculum locks or ownership. Follow its `STEP 0 → STEP 1 → STEP 2`, then use the domain-specific instructions below. Keep the master workflow and status/PR evidence aligned in each handoff. Never silently merge/deploy, pay for media, or mark a lesson `done` without the required acceptance.
+
 Before changing curriculum, read:
 
 1. `START_HERE.md`
