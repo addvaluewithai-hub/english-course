@@ -14,18 +14,18 @@
 ```yaml
 control_version: 1
 last_verified_date: 2026-10-17
-shared_control_file_installed_in_repo: VERIFY_ON_MAIN  # derived from GitHub; never trust a static snapshot
+shared_control_file_installed_in_repo: true  # verified on english-course/main 2026-10-17; reverify each session
 primary_lane: LEARN                         # LEARN | PRACTICE
 selected_level: A1
 current_role: LESSON_REVIEWER               # LESSON_PRODUCER | LESSON_REVIEWER | FIVE_LESSON_REVIEWER | UNIT_REVIEWER | PRACTICE_REVIEWER | OWNER_DECISION_WAIT
-current_step: TRIAGE_CURRICULUM_CONFLICTS
+current_step: OWNER_DECISION_WAIT
 active_lesson: A1/U1-L01
 active_lesson_title: "Hello. I'm …"
 active_product_pr: https://github.com/addvaluewithai-hub/englishlive/pull/54
 active_pr_state_at_verification: OPEN_DRAFT
 owner_decision_required: true
-owner_decision_topic: "12 unresolved curriculum source-scope decisions; paid Gemini TTS pilot02 approval"
-next_permitted_action: "Read the source-scope review and current draft; prepare evidence-based resolutions for owner review. Do not silently alter semantic locks, pay for TTS, or start U1-L02."
+owner_decision_topic: "12 U1-L01 source-scope rulings; 2 P1 pedagogical review fixes; explicit pilot02 paid TTS approval"
+next_permitted_action: "Owner reviews 12-ID decision brief and P1 counterexamples; existing U1-L01 producer revises after rulings, then independent re-review. No paid TTS, semantic-lock edit, merge or U1-L02 without approvals."
 next_not_yet_authorized_lesson: A1/U1-L02
 
 learn_progress:                # canonical lesson status; verify on every start
@@ -240,7 +240,7 @@ python3 interactive-content-production/tools/coverage_gate.py ready A1 U1-L01
 - `A1 U1-L01 — Hello. I'm …` على `englishlive` في **Draft PR [#54](https://github.com/addvaluewithai-hub/englishlive/pull/54)**؛ Status داخل `english-course` = `in-progress` وليس `done`.
 - المصدر يحتوي **36 Source IDs**؛ خمسة Phrases مستهدفة معروفة في خطة المنتج، لكن توجد **12 قضية تحديد موضع/نطاق** لم يصدر بشأنها قرار المالك.
 - اقرأ أولًا: [`interactive-content-production/coverage/A1/U1-L01-REVIEW.md`](https://github.com/addvaluewithai-hub/english-course/blob/main/interactive-content-production/coverage/A1/U1-L01-REVIEW.md)؛ ثم `coverage/A1/U1-L01.json` ثم [`production/a1-u1-l01/QA_STATUS.md`](https://github.com/addvaluewithai-hub/englishlive/blob/feat/a1-u1-l01-listening-led-otti-pilot/production/a1-u1-l01/QA_STATUS.md) في فرع PR #54.
-- راجع اقتراحات القرارات التربوية والتوقيت الأنسب لكل عنصر؛ جهّز **Decision Brief للـ12 نقطة** مع البدائل وأسبابها وتأثير كل اختيار على الدروس اللاحقة. لا تغيّر locked source وحدك.
+- **Decision Brief أُعدّ للمراجعة ولم يُعتمد بعد:** [`U1-L01-OWNER-DECISION-BRIEF-2026-10-17.md`](interactive-content-production/coverage/A1/U1-L01-OWNER-DECISION-BRIEF-2026-10-17.md). يراجع الـ12 عنصرًا واحدًا واحدًا، مع بدائل، أثر على lifecycle، ومشكلتين تربويتين P1 (تسريب إجابة أول Listening، ونقص دليل Speaking مستقل للـ5 productive phrases). القرار النهائي للمالك؛ لا تغيّر locked source وحدك.
 - صوت Gemini TTS `pilot02` لم يتم توليده مدفوعًا عند آخر فحص؛ موافقة التكلفة، سماع WAV وفحص timestamps والتجارب الصوتية/الميكروفون الحقيقية لازمة. Visual QA وحده غير كافٍ.
 - **الدور الآن:** `LESSON_REVIEWER` لتحديد الفجوات ورفع القرارات، لا `LESSON_PRODUCER` لدرس U1-L02، ولا `FIVE_LESSON_REVIEWER` لأننا لم ننتج خمسة.
 - لما القرارات تتعتمد وتكمل أدلة الدرس الأول، ارجع لـ`STEP 1` وحدّث الحالة، ثم انتقل للدور التالي **حسب حالة GitHub الفعلية**.
@@ -249,6 +249,7 @@ python3 interactive-content-production/tools/coverage_gate.py ready A1 U1-L01
 
 | Date | Role | Scope | Verified work / evidence | Next role and exact action | Blockers |
 |---|---|---|---|---|---|
+| 2026-10-17 | LESSON_REVIEWER | LEARN A1 / U1-L01 | GitHub verified all six production status files and manifests, Stage-06 lifecycle for 12 IDs, Stage-07 U1 briefs, EnglishLive Draft #54 @ `d9081dda`, source dialogue and product QA. Authored [12-ID owner brief](interactive-content-production/coverage/A1/U1-L01-OWNER-DECISION-BRIEF-2026-10-17.md) with alternative placements and 2 independent P1 pedagogical counterexamples; no source locks or product code changed. | `LESSON_REVIEWER` remains `OWNER_DECISION_WAIT`; owner rules on 12 IDs, producer fixes first-listen answer leak and productive Speaking evidence, separately approves/denies `pilot02` paid TTS; then independent recheck. | Owner scope rulings, paid TTS, real WAV/Live/audio, QA acceptance; PR #54 Draft. |
 | 2026-10-17 | WORKFLOW_BOOTSTRAP | LEARN A1 | Verified the six status files, `english-course` agent workflow, `speaking-practice` QA docs, `englishlive` PR #54 and current QA ledger. This control file was prepared for a scoped GitHub PR; verify whether that PR was merged on `main` before treating it as a shared source. | `LESSON_REVIEWER` → read `U1-L01-REVIEW.md`, critique 12 scope decisions, prepare owner decision brief; do not skip U1-L01. | Owner decisions, paid TTS permission, live audio/Speaking and owner acceptance. |
 
 ### Handoff report template (every session)
