@@ -15,8 +15,8 @@ This directory guides production and its QA; the canonical curriculum/semantic l
 ## Just follow this protocol when owner says "كمل A1"
 
 1. Pull `main` of **both repos** and run `python3 interactive-content-production/tools/production_status.py validate`.
-2. Run `python3 interactive-content-production/tools/production_status.py next A1`. This returns the **first unclaimed lesson in canonical unit/lesson order** and source-brief path. For other levels replace A1. If C1/C2 lacks authorized lesson design: STOP, no invented lessons.
-3. **Before claiming**, search open branches/PRs in `english-course` and `englishlive` for the same level/unit/lesson, as status may be slightly behind active work. If another agent has claimed it, pick the next verified unclaimed row and reconcile status via PR. Never silently work on the same lesson.
+2. Run `python3 interactive-content-production/tools/production_status.py next A1`. This returns the **first UNFINISHED lesson in canonical unit/lesson order**, not an arbitrarily later one and source-brief path. For other levels replace A1. If C1/C2 lacks authorized lesson design: STOP, no invented lessons.
+3. **Before claiming or resuming**, search open branches/PRs in `english-course` and `englishlive` for the same level/unit/lesson. If command returns `IN_FLIGHT_REVIEW`, the prior lesson is owned or blocked: inspect linked PR and await assignment/explicit owner authorization to resume. **Do not skip to a later unfinished lesson or overwrite another agent's branch.** The Markdown table is a queue, not an atomic distributed lock.
 4. Verify that level semantic/lesson-design status allows planning. The manifests currently distinguish approved *design* from **delivery production**, which is still `false` for A1/A2/B1/B2; an explicit owner request authorizes a **scoped draft** but does not alter the delivery gate or authorize bulk publishing. If permission is unclear, ask rather than editing locked files.
 5. Create an isolated feature branch and **Draft PR** for the selected lesson in `englishlive`, and a linked status PR/commit in `english-course`. Change the corresponding row to `claimed` with your agent handle, PR URL and a date, then push quickly to minimize race conditions. This row is a shared queue, not a distributed lock; GitHub PR conflicts must be resolved before claiming complete ownership.
 6. **Mandatory P0.5 before any script or paid audio:** inspect all source item IDs, semantic role and lifecycle. Run `python3 interactive-content-production/tools/coverage_gate.py check A1 U1-L01` for a supported lesson. Make a per-lesson JSON map in `coverage/LEVEL/Ux-Lyy.json` and update each item's planned scene/beat/evidence; stop for owner review on conflicts. `ready` must NOT pass with any item escalated, unreviewed or QA/owner gate pending. A checked ledger row is not proof the learner mastered the item.
@@ -37,7 +37,7 @@ This directory guides production and its QA; the canonical curriculum/semantic l
 
 ## First next lesson: A1
 
-`python3 interactive-content-production/tools/production_status.py next A1` currently points to `U1-L01 — Hello. I'm …`, **unless another agent has claimed it in a newer PR**. Read `curriculum/levels/a1/design-review/07-lesson-briefs/lesson-briefs.md` and stage/semantic controls. Existing legacy A1 scenes are examples, not certified deliveries.
+`python3 interactive-content-production/tools/production_status.py next A1` currently points to **IN-FLIGHT U1-L01 — Hello. I'm …**, owned by linked Draft PR #54. Inspect that PR first; do not start U1-L02 just because U1-L01 is already claimed. Read `curriculum/levels/a1/design-review/07-lesson-briefs/lesson-briefs.md` and stage/semantic controls. Existing legacy A1 scenes are examples, not certified deliveries.
 
 ## Keep PRs clean
 
