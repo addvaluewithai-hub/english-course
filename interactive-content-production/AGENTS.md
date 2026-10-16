@@ -1,5 +1,7 @@
 # AGENTS — إنتاج المحتوى التفاعلي (Interactive Lesson Production)
 
+> **Central dispatcher:** First read [`../ENGLOTTI_MASTER_WORKFLOW.md`](../ENGLOTTI_MASTER_WORKFLOW.md) for the active role (`LESSON_PRODUCER` / `LESSON_REVIEWER` / `FIVE_LESSON_REVIEWER` / `UNIT_REVIEWER`), live status sync and next permitted action. This file remains the specialized Learn-production protocol; do not skip a blocked lesson or a due five-lesson review.
+
 **This is the short entry point** for an agent who hears: "شوف إحنا واقفين فين في A1 وكمل".
 
 This directory guides production and its QA; the canonical curriculum/semantic locks live elsewhere in **this same repo**. Never pretend that finished lesson briefs or pre-existing scenes mean a released interactive lesson.
