@@ -52,6 +52,13 @@ class ColdAgentHandoffTest(unittest.TestCase):
         self.assertNotEqual(ready.returncode,0)
         self.assertIn('NOT READY',ready.stderr)
 
+    def test_all_registered_coverage_runs_not_only_hardcoded_A1(self):
+        tool=ROOT/'interactive-content-production/tools/coverage_gate.py'
+        result=subprocess.run([sys.executable,str(tool),'check-all'],
+                              capture_output=True,text=True,check=True)
+        self.assertIn('"coverageMapsChecked": 1',result.stdout)
+        self.assertIn('"structuralResult": "PASS"',result.stdout)
+
     def test_source_and_review_gates_are_discoverable(self):
         instructions=(ROOT/'interactive-content-production/AGENTS.md').read_text()
         self.assertIn('coverage_gate.py check',instructions)
