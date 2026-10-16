@@ -96,6 +96,11 @@ def audit(level, lesson, ready=False):
         if row.get("approvalRef") and row["approvalRef"] == "auto-approved":
             raise AssertionError(f"{id}: fake approval reference")
     assert len(actual) == len(source), "Source count mismatch"
+    required = ("sourceReview", "scriptCritique", "screenshotReview", "liveAudio", "speakingReview", "ownerAcceptance")
+    quality = package.get("qualityGates", {})
+    for gate in required:
+        if quality.get(gate) != "accepted":
+            problems.append("QA/owner gate not accepted: " + gate)
     result = {"level":level.upper(), "lessonId":lesson, "canonicalItems":len(source),
               "structuralValid":True, "ready":not problems, "blockers":problems}
     print(json.dumps(result, ensure_ascii=False, indent=2))
