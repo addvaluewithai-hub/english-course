@@ -19,6 +19,7 @@ Read in order:
 
 - Pin canonical repo/path/commit; distinguish new, support, receptive and retrieval material. Don't infer mastery from coverage or promote support language into required Speaking targets.
 - Honor the user's explicit stage/scope. Otherwise complete ONE production gate, document it and STOP; revise current gate if corrected. No self-authorized skipping of real browser or learner QA.
+- BEFORE writing or commissioning any script/audio, verify **every canonical introduced item ID** via `interactive-content-production/tools/coverage_gate.py check LEVEL Ux-Lyy`. Populate a source-grounded `coverage/LEVEL/Ux-Lyy.json` item mapping with real semantic role, whether to teach/contextualize/bound/escalate, rationale, named scene/beat and reception/production evidence. Do not convert a whole ledger into isolated flashcards. `ready` must fail if there are unresolved source conflicts, incomplete testing or no owner acceptance.
 - Write a coherent speakable lesson **before** splitting into small author-owned beats. Each beat has `speech`, purpose, board intent/state and a visual reason. Narration/feedback in the final authored package are canonical.
 - Plan genuine subject-specific visuals as bespoke SVG/React states. Show meaning progressively, do not fill a card with text and call it a board. Preserve safe stage/canvas zone for the talking Otti character, on portrait and landscape.
 - Add deterministic MC with keyed answer IDs and spoken **why-right / why-wrong**; wrong choice can advance after explanation but must stay recorded as incorrect.
