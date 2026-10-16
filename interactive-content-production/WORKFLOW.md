@@ -12,6 +12,10 @@ Adapted from `learn-curriculums/instructions/stage-gates.md`, but adapted to **a
 | **P5 — Screenshot audit + repair** | Run real browser capture for every semantic beat and interactive state in `400x860` portrait and `1280x900` landscape (also `320x640` compact phone). Generate one contact sheet per scene, warnings and a report. **Open every sheet**; fix specific faults; re-run and inspect before/after. CI or screenshot existence is NOT inspection. |
 | **P6 — Live voice / learner trial / handoff** | Try actual Otti audio, correct and wrong choices, pronunciation/mixed language, interruptions, final Speaking with weak answers. Compare `SCRIPT` vs actual model speech. Record learner findings and owner decisions; release remains an independent product approval. |
 
+## Listening-first extension
+
+For conversational/receptive lessons with a suitable scenario, first author a listening source dialogue and review the **actual recording** separately. Refer to [LISTENING_FIRST.md](LISTENING_FIRST.md) for stable clip IDs, Gemini tool playback, audio synchronization and evidence gates. Do not interpret the P5 visual pass as a P6 audio pass.
+
 ## Parallel agent roles
 
 - **Curriculum mapper:** accepts only authorized semantic/control decisions; maps learning goals and evidence; never silently reopens locked levels.
