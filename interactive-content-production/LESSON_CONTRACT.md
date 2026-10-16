@@ -10,6 +10,10 @@ Each package references:
 - `contentRevision` and `ownerStatus`, with explicit scope: sample chapter, full authored lesson, or deployed product.
 - Stable scene/beat IDs; any reordering/replacement is recorded in a content change note.
 
+## Listening-led branch (when appropriate)
+
+For real spoken or receptive conversation lessons, follow [LISTENING_FIRST.md](LISTENING_FIRST.md): author a two-speaker dialogue and its educational purpose, generate/review the recording separately, attach trusted rendered-audio timestamps and named replay clips, then tie actual clip playback to authored explanation beats. Do **not** treat missing prerecorded audio or synthetic preview as successful listening.
+
 ## Teaching unit fields
 
 Every `scene` must declare:

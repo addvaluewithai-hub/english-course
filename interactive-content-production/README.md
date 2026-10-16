@@ -32,6 +32,10 @@ For automatic next-lesson selection, the short entry point is [AGENTS.md](AGENTS
 6. Keep **all changes on a scoped branch/draft PR**, with separate lesson IDs and fixtures. No writes to other agents' Practice PRs.
 7. Store final render/interaction tests and screenshots with the **product PR or its CI artifacts**, linked from the production status. Do not check binary screenshot dumps into this curriculum source of truth.
 
+## Listening-led lessons
+
+When the canonical skill involves conversation or listening, read [LISTENING_FIRST.md](LISTENING_FIRST.md) and design the actual audio/dialogue and clipped replay plan before splitting teaching into scene beats. This is recommended, not a universal requirement for reading/writing lessons. Audio produced but not listened to and audited cannot be called approved.
+
 ## Required delivery inventory (for each interactive lesson)
 
 - Canonical source/role mapping and prerequisites; what is **new**, **recycled**, **receptive**, or **deferred**.

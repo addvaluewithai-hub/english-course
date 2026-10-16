@@ -19,6 +19,7 @@ Read in order:
 
 - Pin canonical repo/path/commit; distinguish new, support, receptive and retrieval material. Don't infer mastery from coverage or promote support language into required Speaking targets.
 - Honor the user's explicit stage/scope. Otherwise complete ONE production gate, document it and STOP; revise current gate if corrected. No self-authorized skipping of real browser or learner QA.
+- When the canonical brief involves conversational listening, read `interactive-content-production/LISTENING_FIRST.md`; author a dialogue and quality-reviewed recording before teaching beats. Studio WAV/timing approvals are separate from UI screenshot checks and cannot be simulated as mastered listening.
 - Write a coherent speakable lesson **before** splitting into small author-owned beats. Each beat has `speech`, purpose, board intent/state and a visual reason. Narration/feedback in the final authored package are canonical.
 - Plan genuine subject-specific visuals as bespoke SVG/React states. Show meaning progressively, do not fill a card with text and call it a board. Preserve safe stage/canvas zone for the talking Otti character, on portrait and landscape.
 - Add deterministic MC with keyed answer IDs and spoken **why-right / why-wrong**; wrong choice can advance after explanation but must stay recorded as incorrect.

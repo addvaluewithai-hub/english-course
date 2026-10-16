@@ -69,6 +69,10 @@ Playwright runner belongs next to the real product tests, for example `englishli
 
 For an **illustrative** harness starter (not hooked to EnglishLive yet) see [templates/playwright-frame-harness.example.mjs](templates/playwright-frame-harness.example.mjs) and its [fixture-cases.example.json](templates/fixture-cases.example.json). The runner requires a `canonicalBeats` inventory, all `quizScenes` (unanswered + right/wrong branches) and final Speaking states. Generate that inventory from the canonical lesson package — a manually shortened list can still conceal missing coverage. Do not paste placeholder fixture routes into production and claim screenshots were verified.
 
+## Listening-first states (when source content uses audio)
+
+See [LISTENING_FIRST.md](LISTENING_FIRST.md). Capture `listening-before`, each actual clip's `audio-playing` board state, `replay-available`, `audio-unavailable/retry`, transcript reveal, and final Speaking. Fixture screenshots are not evidence of audio playback; independently verify real WAV, timings and Otti/microphone coordination before release.
+
 ## Live-only gates
 
 A deterministic fixture cannot establish: Otti's real pronunciation, script fidelity, interruption races with Gemini, provider latency, mic permissions or educational quality of AI's Speaking judgment. Test real voice with (a) correct quiz, (b) wrong quiz, (c) weak/no-sense speaking, (d) adequate speaking, (e) interrupted narration and reconnection. Compare authored `SCRIPT` against `AI` transcript and audio, using synthetic test learners only.
