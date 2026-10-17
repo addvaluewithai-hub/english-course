@@ -144,18 +144,18 @@
         "options": [
           {
             "id": "talk-last-class",
-            "text": "Two friends discuss an English class they finished.",
-            "misconception": "Past class rather than before"
+            "text": "صاحبين بيتكلموا عن كلاس إنجليزي خلص",
+            "misconception": "Past completed class, not first contact before class"
           },
           {
             "id": "teacher-intro",
-            "text": "A teacher introduces the class to a student.",
-            "misconception": "Teacher/student instead of two new classmates"
+            "text": "مدرس بيشرح نظام الكلاس لطالب",
+            "misconception": "Teacher-student explanation, not two classmates greeting"
           },
           {
             "id": "new-classmates",
-            "text": "Two people meet before an English class.",
-            "misconception": "Actual situation"
+            "text": "اتنين بيتعرفوا على بعض قبل كلاس إنجليزي",
+            "misconception": "Actual short dialogue gist"
           }
         ],
         "correctOptionId": "new-classmates",
@@ -293,24 +293,24 @@
         "options": [
           {
             "id": "name-good",
-            "text": "My name is Good.",
-            "misconception": "Confuses wellbeing with name"
+            "text": "هي بتقول إنها كويسة شوية، لكن مش قوي",
+            "misconception": "Confuses pretty good and really good intensity"
           },
           {
             "id": "feels-very-good",
-            "text": "I'm feeling very good. Thank you.",
-            "misconception": "Correct strong positive wellbeing"
+            "text": "هي بتقول إنها كويسة جدًا وبتشكره",
+            "misconception": "Correct wellbeing plus politeness"
           },
           {
             "id": "asks-about-you",
-            "text": "How are you?",
-            "misconception": "Asks instead of answering"
+            "text": "هي بتسأله هو عامل إيه",
+            "misconception": "Confuses answer with initiating question"
           }
         ],
         "correctOptionId": "feels-very-good",
         "correctFeedbackAr": "مظبوط. Really good هنا معناها إني كويسة جدًا، وThank you للشكر. الرد مش سؤال عن الاسم.",
         "wrongFeedbackByOptionAr": {
-          "name-good": "الكلام هنا عن حالها، مش اسمها. Really good يعني كويسة جدًا.",
+          "name-good": "Pretty good معناها كويس إلى حد كبير، لكن Really good أقوى وبتعني كويس جدًا.",
           "asks-about-you": "الجملة رد عن حالها، مش سؤال. السؤال نفسه How are you?"
         },
         "evidenceIntent": {
@@ -345,18 +345,18 @@
         "options": [
           {
             "id": "new-classmate",
-            "text": "A different classmate will introduce you.",
-            "misconception": "Wrong agent of introduction"
+            "text": "زميل تاني هيعرّفك بالناس",
+            "misconception": "Misreads yourself as somebody introducing the learner"
           },
           {
             "id": "the-teacher",
-            "text": "Only the teacher introduces themselves.",
-            "misconception": "Wrong speaker"
+            "text": "المدرس بس هو اللي هيعرّف بنفسه",
+            "misconception": "Wrong actor of instruction"
           },
           {
             "id": "you",
-            "text": "You introduce yourself to another person.",
-            "misconception": "Correct reflexive reference"
+            "text": "أنت هتعرّف بنفسك لشخص تاني",
+            "misconception": "Correct self-reference in written instruction"
           }
         ],
         "correctOptionId": "you",
@@ -401,18 +401,18 @@
         "options": [
           {
             "id": "low-energy",
-            "text": "I don't have much energy today.",
+            "text": "حاسس بتعب ومحتاج راحة",
             "misconception": "Correct tired meaning"
           },
           {
             "id": "very-excited",
-            "text": "I'm very excited.",
-            "misconception": "Opposite feeling"
+            "text": "حاسس بحماس شديد",
+            "misconception": "Confuses tired with excited"
           },
           {
             "id": "feels-fine",
-            "text": "I'm doing pretty well.",
-            "misconception": "Positive wellbeing"
+            "text": "كويس إلى حد كبير",
+            "misconception": "Confuses fatigue with positive reply"
           }
         ],
         "correctOptionId": "low-energy",
@@ -850,5 +850,6 @@
     "quiz": "Choice IDs immutable, right/wrong feedback read after response and PCM completion; preserve wrong answer attempt",
     "wordSync": "Only prerecorded source audio with audited timestamps can be word-synced; Live Otti is beat-synced",
     "interruption": "Cancel stale callbacks, never double-complete or open mic during source PCM"
-  }
+  },
+  "assessmentLanguagePolicy": "Listening MC uses Arabic options to avoid a hidden English reading test before the first lesson; phrase-form identification uses English options; independent reading card remains English with Arabic meaning-choice to isolate the reading target. Correct keys still ID-based."
 }
