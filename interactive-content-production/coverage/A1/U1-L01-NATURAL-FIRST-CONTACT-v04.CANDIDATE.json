@@ -88,6 +88,14 @@
       "startMs": null,
       "endMs": null,
       "approved": false
+    },
+    {
+      "clipId": "how-are-you-question",
+      "startTurn": "t03",
+      "endTurn": "t03",
+      "startMs": null,
+      "endMs": null,
+      "approved": false
     }
   ],
   "audio": {
@@ -160,7 +168,8 @@
           "skill": "first-listen-gist",
           "requireActuallyHeardAudio": true,
           "noPreAudioAnswerCues": true
-        }
+        },
+        "kind": "deterministic-mc"
       }
     },
     {
@@ -230,7 +239,8 @@
         "evidenceIntent": {
           "skill": "identify-name-question",
           "receptiveOnly": true
-        }
+        },
+        "kind": "deterministic-mc"
       }
     },
     {
@@ -306,7 +316,8 @@
         "evidenceIntent": {
           "skill": "receptive-wellbeing",
           "productiveEvidenceIsSeparate": true
-        }
+        },
+        "kind": "deterministic-mc"
       }
     },
     {
@@ -361,7 +372,8 @@
             "people",
             "yourself"
           ]
-        }
+        },
+        "kind": "deterministic-mc"
       }
     },
     {
@@ -412,7 +424,8 @@
         "evidenceIntent": {
           "skill": "bounded-receptive-tired",
           "ownerDecisionPending": true
-        }
+        },
+        "kind": "deterministic-mc"
       }
     },
     {
@@ -424,8 +437,7 @@
           "teacherSpeech": "اسمع How are you? تاني، ولاحظ نبرة السؤال. وبعدها جرّب تقولها بصوتك؛ لو الميكروفون مش متاح، هنعتبر التدريب مش متقيّم.",
           "boardStateId": "B06-question-contour",
           "kind": "play-lesson-audio",
-          "audioClipId": "wellbeing",
-          "targetTurn": 3,
+          "audioClipId": "how-are-you-question",
           "learnerMic": "off"
         },
         {
