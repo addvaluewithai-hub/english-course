@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "level": "A1",
+  "lessonId": "U1-L02",
+  "sourceRefs": {
+    "ledger": "curriculum/levels/a1/design-review/06-coverage-ledger/generated/coverage-ledger.json",
+    "brief": "curriculum/levels/a1/design-review/07-lesson-briefs/lesson-briefs.md",
+    "phraseRoles": "curriculum/levels/a1/semantic-lock/phrase-control-decisions.json",
+    "wordRoles": "curriculum/levels/a1/semantic-lock/word-control-decisions.json"
+  },
+  "status": "draft-source-mapping-not-owner-approved",
+  "sourceItemCount": 29,
+  "notes": "Owner explicitly asked to try lesson two, but 14 of the 29 canonical source introductions conflict with age/numbers scope and need owner curriculum/lifecycle rulings. All 29 source IDs and semantic roles remain authoritative; no silent relocation. Lesson one has 12 separate unresolved decisions. No TTS or actual product built.",
+  "items": [
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p09.001",
+      "category": "ability",
+      "label": "Can recognise cardinal numbers from 11-100. (P)",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "teach",
+      "rationale": "Recognize examples of spoken cardinal numbers across 11–100 by sound, including teen/ty contrast. Real Otti/audio perception still needs external playback test.",
+      "evidence": [
+        {
+          "kind": "listening",
+          "sceneId": "number-patterns",
+          "beatId": "number-choice",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p14.008",
+      "category": "ability",
+      "label": "Can understand basic questions about objects in pictures or in their immediate surroundings. (P)",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "A spoken question about numbered visible cards provides one object-in-picture comprehension check. Do not claim general object vocabulary mastery.",
+      "evidence": [
+        {
+          "kind": "receptive-question",
+          "sceneId": "pictured-cards",
+          "beatId": "picture-query",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p15.011",
+      "category": "ability",
+      "label": "Can understand a phone number from a recorded message. (P)",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "teach",
+      "rationale": "Separate genuinely recorded fictional telephone message, never just the age conversation or unplayed script. Missing recorded clip blocks mastery.",
+      "evidence": [
+        {
+          "kind": "recorded-listening",
+          "sceneId": "voicemail",
+          "beatId": "voicemail-question",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p23.017",
+      "category": "ability",
+      "label": "Can use brief, everyday expressions to describe wants and needs, and request information. (Ca)",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "Asking about age requests familiar information in a changed situation, only partially demonstrates the broader wants/needs communicative objective.",
+      "evidence": [
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-speaking",
+          "beatId": "ask-sam",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.phrase.online.0748",
+      "category": "phrase",
+      "label": "X years old",
+      "semanticRole": "formulaic_productive_required",
+      "disposition": "teach",
+      "rationale": "The exact productive frame X years old needs a meaningful independently observed age response in a new fictional role; a heard dialogue alone cannot count.",
+      "evidence": [
+        {
+          "kind": "productive-speaking",
+          "sceneId": "fresh-speaking",
+          "beatId": "sam-role",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "egp.1741163708336x928067678664856700",
+      "category": "grammar",
+      "label": "FORM: AFFIRMATIVE INTERROGATIVE, WITH 'BE'",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "Are you nineteen? in a realistic age confirmation demonstrates affirmative be interrogative usage narrowly, not every subject/person/conjugation.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "be-questions",
+          "beatId": "are-you",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "egp.1741163713867x150062658595893500",
+      "category": "grammar",
+      "label": "FORM: (SUBJECT) QUESTIONS WITH 'BE'",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "bounded",
+      "rationale": "Who is nineteen? provides a natural who/subject question tied to two pictured ages. Verify EGP objective interpretation with source owner before claiming full grammar coverage.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "be-questions",
+          "beatId": "who-is",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p01.002",
+      "category": "word",
+      "label": "about",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces about in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p01.022",
+      "category": "word",
+      "label": "all",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces all in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p01.064",
+      "category": "word",
+      "label": "because",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces because in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p01.232",
+      "category": "word",
+      "label": "eight",
+      "semanticRole": "receptive_required",
+      "disposition": "teach",
+      "rationale": "Eight is a short cardinal form used when recognizing spoken number examples and in a separately recorded practice phone number.",
+      "evidence": [
+        {
+          "kind": "listening",
+          "sceneId": "number-patterns",
+          "beatId": "number-hear",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p01.237",
+      "category": "word",
+      "label": "else",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces else in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p02.005",
+      "category": "word",
+      "label": "every",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces every in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p02.049",
+      "category": "word",
+      "label": "five",
+      "semanticRole": "receptive_required",
+      "disposition": "teach",
+      "rationale": "Five is audibly present in a standalone recorded sample telephone number, with independently checked word timing after synthesis.",
+      "evidence": [
+        {
+          "kind": "recorded-listening",
+          "sceneId": "voicemail",
+          "beatId": "voicemail-context",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p02.122",
+      "category": "word",
+      "label": "his",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces his in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p02.137",
+      "category": "word",
+      "label": "hundred",
+      "semanticRole": "receptive_required",
+      "disposition": "bounded",
+      "rationale": "One hundred is shown as a recognition example within the 11–100 number range, not a plausible ordinary human age or large-number language chapter.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "number-patterns",
+          "beatId": "twenty-one",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p02.189",
+      "category": "word",
+      "label": "let",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces let in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p02.235",
+      "category": "word",
+      "label": "mile",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces mile in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p02.277",
+      "category": "word",
+      "label": "nineteen",
+      "semanticRole": "receptive_required",
+      "disposition": "teach",
+      "rationale": "Nineteen is the main meaningful example in the conversation and number comparison, followed by changed-context speech where appropriate.",
+      "evidence": [
+        {
+          "kind": "productive-speaking",
+          "sceneId": "age-meaning",
+          "beatId": "answer-age",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.015",
+      "category": "word",
+      "label": "of",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces of in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.103",
+      "category": "word",
+      "label": "quarter",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces quarter in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.176",
+      "category": "word",
+      "label": "six",
+      "semanticRole": "receptive_required",
+      "disposition": "teach",
+      "rationale": "Six is one short spoken digit in a separate simple recorded phone message; listening evidence only after the actual clip exists.",
+      "evidence": [
+        {
+          "kind": "recorded-listening",
+          "sceneId": "voicemail",
+          "beatId": "voicemail-context",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.188",
+      "category": "word",
+      "label": "somebody",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces somebody in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.260",
+      "category": "word",
+      "label": "they",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces they in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p03.265",
+      "category": "word",
+      "label": "thirteen",
+      "semanticRole": "receptive_required",
+      "disposition": "teach",
+      "rationale": "Thirteen is directly contrasted with thirty by real speech and the digits 13 and 30; no need to force it into a dialogue about age.",
+      "evidence": [
+        {
+          "kind": "listening",
+          "sceneId": "number-patterns",
+          "beatId": "teen-ty",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p04.024",
+      "category": "word",
+      "label": "two",
+      "semanticRole": "receptive_required",
+      "disposition": "teach",
+      "rationale": "Two appears as a spoken digit in the separate message and also within twenty-one; listening reception, not forced exact word production.",
+      "evidence": [
+        {
+          "kind": "recorded-listening",
+          "sceneId": "voicemail",
+          "beatId": "voicemail-context",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p04.056",
+      "category": "word",
+      "label": "we",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces we in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "oxford.o3000.p04.074",
+      "category": "word",
+      "label": "will",
+      "semanticRole": "receptive_required",
+      "disposition": "escalate",
+      "rationale": "The canonical ledger introduces will in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
+      "evidence": [],
+      "review": "needs-review",
+      "approvalRef": null
+    },
+    {
+      "sourceId": "pronunciation.word_stress.a1",
+      "category": "pronunciation",
+      "label": "Word stress and stress-sensitive recognition",
+      "semanticRole": "role_requires_explicit_pedagogical_decision",
+      "disposition": "teach",
+      "rationale": "NINETEEN versus NINETY and THIRTEEN versus THIRTY require audible stress-pattern comparison and actual learner observation, not a generic rising pitch diagram.",
+      "evidence": [
+        {
+          "kind": "listening",
+          "sceneId": "number-patterns",
+          "beatId": "teen-ty",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
+      "approvalRef": null
+    }
+  ],
+  "qualityGates": {
+    "sourceReview": "agent-audited-pending-owner",
+    "scriptCritique": "pending",
+    "screenshotReview": "pending",
+    "liveAudio": "pending",
+    "speakingReview": "pending",
+    "ownerAcceptance": "pending"
+  }
+}
