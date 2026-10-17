@@ -33,7 +33,7 @@
       {
         "id": "t04",
         "speaker": "Leo",
-        "text": "I'm nineteen years old. And you?"
+        "text": "I'm nineteen years old. What about you?"
       },
       {
         "id": "t05",
@@ -56,7 +56,7 @@
         "text": "Great, thank you!"
       }
     ],
-    "wordCount": 40,
+    "wordCount": 41,
     "approvedForPaidAudio": false
   },
   "supplementaryRecordedMessage": {
@@ -222,13 +222,13 @@
         },
         {
           "id": "two-ages",
-          "teacherSpeechAr": "Maya قالت I'm twenty-one. الرد الأقصر طبيعي برضه. مش لازم تكرر years old كل مرة لما السياق واضح.",
+          "teacherSpeechAr": "Maya قالت I'm twenty-one. الرد الأقصر طبيعي برضه لما السياق واضح. وLeo سأل What about you? يعني وإنت؟ تعبير بنرجع بيه نفس السؤال لصاحبنا.",
           "visualMode": "age-contrast",
           "boardStateId": "board-two-ages",
           "board": {
-            "head": "I'm nineteen years old.",
-            "subtitle": "I'm twenty-one.",
-            "relationship": "Complete and short age reply in balanced cards"
+            "head": "What about you?",
+            "subtitle": "وإنت؟ · I'm twenty-one.",
+            "relationship": "Return the same age question naturally, then contrast short and full age response."
           },
           "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
         },
