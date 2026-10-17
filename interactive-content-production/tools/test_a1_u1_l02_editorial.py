@@ -92,7 +92,10 @@ class A1U1L02Editorial(unittest.TestCase):
         self.assertEqual(positions,[1,0,2,0,2,1])
         first=self.lesson['scenes'][0]
         self.assertEqual(first['id'],'listen-first')
-        before=first['beats'][0]['teacherSpeechAr']+' '+str(first['beats'][0]['board'])
+        # Relationship is an unrendered design instruction (e.g. 'no age graphics');
+        # check only text the learner/teacher actually hears or sees before audio.
+        board=first['beats'][0]['board']
+        before=first['beats'][0]['teacherSpeechAr']+' '+board['head']+' '+board['subtitle']
         for spoiler in ('class card','age','nineteen','بيكتبوا','كلاس','سن'):
             self.assertNotIn(spoiler,before.lower())
         age=next(s for s in self.lesson['scenes'] if s['id']=='age-meaning')
