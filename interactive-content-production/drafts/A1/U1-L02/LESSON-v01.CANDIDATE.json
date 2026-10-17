@@ -63,7 +63,7 @@
     "id": "phone-message",
     "status": "SCRIPT_ONLY_NOT_RECORDED",
     "channel": "separate prerecorded English voicemail, not part of Maya/Leo age exchange",
-    "speech": "Hello. This is a practice number: five, zero, two, six, eight, three, one, nine. Thank you.",
+    "speech": "Hello. This is a practice number: five, zero, two, six, eight, three, six, eight. Thank you.",
     "spokenDigits": [
       "5",
       "0",
@@ -71,8 +71,8 @@
       "6",
       "8",
       "3",
-      "1",
-      "9"
+      "6",
+      "8"
     ],
     "fakeNumber": true,
     "playbackRequiresActualAuditedWAV": true,
@@ -251,14 +251,14 @@
         "questionAr": "إنت عايز تسأل زميلك عن سنّه، أنهي سؤال مناسب؟",
         "options": [
           {
-            "id": "name",
-            "text": "What's your name?",
-            "misconception": "Identity, not age"
-          },
-          {
             "id": "old",
             "text": "How old are you?",
             "misconception": "Correct age question"
+          },
+          {
+            "id": "name",
+            "text": "What's your name?",
+            "misconception": "Identity, not age"
           },
           {
             "id": "class",
@@ -299,13 +299,13 @@
         },
         {
           "id": "teen-ty",
-          "teacherSpeechAr": "Thirteen نهايتها teen، لكن thirty نهايتها ty. ونفس الفكرة nineteen وninety. اسمع كويس مش بس تبص على الرقم.",
+          "teacherSpeechAr": "اسمع مكان النبرة: thirTEEN بنأكد على النهاية، لكن THIRty بنأكد على أول الكلمة. ونفس الفرق بين nineTEEN وNINEty. عشان كده مش بس الحروف مهمة، النبرة نفسها مهمة.",
           "visualMode": "number-contrast",
           "boardStateId": "board-teen-ty",
           "board": {
-            "head": "13 · thirteen",
-            "subtitle": "30 · thirty",
-            "relationship": "13↔30 and 19↔90 recognition not text-only memorization"
+            "head": "thirTEEN · THIRty",
+            "subtitle": "13 ≠ 30 / 19 ≠ 90",
+            "relationship": "Audible word-stress contrast, emphasis on teen vs beginning of ty numbers; no fabricated pitch telemetry"
           },
           "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
         },
@@ -347,14 +347,14 @@
             "misconception": "Confuses teen with ty"
           },
           {
-            "id": "90",
-            "text": "90",
-            "misconception": "Correct ninety"
-          },
-          {
             "id": "9",
             "text": "9",
             "misconception": "Confuses nine with ninety"
+          },
+          {
+            "id": "90",
+            "text": "90",
+            "misconception": "Correct ninety"
           }
         ],
         "correctId": "90",
@@ -403,14 +403,14 @@
         "questionAr": "Which card shows nineteen?",
         "options": [
           {
-            "id": "13",
-            "text": "13",
-            "misconception": "Misidentifies thirteen"
-          },
-          {
             "id": "19",
             "text": "19",
             "misconception": "Correct nineteen"
+          },
+          {
+            "id": "13",
+            "text": "13",
+            "misconception": "Misidentifies thirteen"
           },
           {
             "id": "90",
@@ -466,24 +466,24 @@
         "questionAr": "آخر رقمين في الرسالة المسجلة كانوا إيه؟",
         "options": [
           {
-            "id": "91",
-            "text": "91",
-            "misconception": "Reverses last pair"
+            "id": "86",
+            "text": "86",
+            "misconception": "Reversed sequence"
           },
           {
-            "id": "13",
-            "text": "13",
-            "misconception": "Confuses middle digits with end"
+            "id": "63",
+            "text": "63",
+            "misconception": "Grabs a wrong adjacent pair"
           },
           {
-            "id": "19",
-            "text": "19",
-            "misconception": "Correct final two digits"
+            "id": "68",
+            "text": "68",
+            "misconception": "Correct final digits"
           }
         ],
-        "correctId": "19",
-        "correctFeedbackAr": "مظبوط. آخر رقمين اتقالوا هما one, nine يعني 1 ثم 9.",
-        "wrongFeedbackAr": "اسمع نهاية الرسالة تاني. هتسمع one وبعدها nine، يعني 19 بالترتيب، مش 91.",
+        "correctId": "68",
+        "correctFeedbackAr": "مظبوط. آخر رقمين اتقالوا هما six, eight يعني 6 وبعدها 8.",
+        "wrongFeedbackAr": "اسمع نهاية الرسالة تاني. هتسمع six وبعدها eight، يعني 68 بالترتيب، مش 86.",
         "evidence": {
           "skill": "recorded-phone-number-reception",
           "mustUseActualRecordedMessage": true,
@@ -539,6 +539,11 @@
         "questionAr": "زميلك كتب 19، وإنت عايز تتأكد من سنه. تقول إيه؟",
         "options": [
           {
+            "id": "who",
+            "text": "Who is nineteen?",
+            "misconception": "Asks which person, not confirming this person's age"
+          },
+          {
             "id": "are",
             "text": "Are you nineteen?",
             "misconception": "Correct confirmation"
@@ -547,11 +552,6 @@
             "id": "how",
             "text": "How old are you?",
             "misconception": "Asks age afresh rather than confirming 19"
-          },
-          {
-            "id": "who",
-            "text": "Who is nineteen?",
-            "misconception": "Asks which person, not confirming this person's age"
           }
         ],
         "correctId": "are",
