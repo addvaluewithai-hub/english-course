@@ -10,7 +10,7 @@
   },
   "status": "draft-source-mapping-not-owner-approved",
   "sourceItemCount": 29,
-  "notes": "Owner explicitly asked to try lesson two, but 14 of the 29 canonical source introductions conflict with age/numbers scope and need owner curriculum/lifecycle rulings. All 29 source IDs and semantic roles remain authoritative; no silent relocation. Lesson one has 12 separate unresolved decisions. No TTS or actual product built.",
+  "notes": "Scoped lesson-two trial: 13 of 29 canonical source introductions lack a credible age/numbers role and need separate owner-approved lifecycle resolution. The phrase What about you? naturally supplies bounded receptive about, not a new preposition unit. All source IDs/semantic roles stay unchanged; prior lesson still has 12 unresolved. No paid audio or product implementation.",
   "items": [
     {
       "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p09.001",
@@ -143,10 +143,17 @@
       "category": "word",
       "label": "about",
       "semanticRole": "receptive_required",
-      "disposition": "escalate",
-      "rationale": "The canonical ledger introduces about in U1-L02, but its reviewed familiar sense does not serve age or basic functional numbers naturally; adding it to the class card dialogue would be artificial. Seek approved new semantic home and complete lifecycle propagation.",
-      "evidence": [],
-      "review": "needs-review",
+      "disposition": "bounded",
+      "rationale": "What about you? is a natural return question in the age exchange, giving contextual reception of about without opening a general about-preposition lesson or requiring separate lexical production.",
+      "evidence": [
+        {
+          "kind": "guided-explanation",
+          "sceneId": "age-meaning",
+          "beatId": "two-ages",
+          "plannedNotObserved": true
+        }
+      ],
+      "review": "reviewed",
       "approvalRef": null
     },
     {
