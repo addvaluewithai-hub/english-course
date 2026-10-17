@@ -434,7 +434,7 @@
       "beats": [
         {
           "beatId": "listen-question",
-          "teacherSpeech": "اسمع How are you? تاني، ولاحظ نبرة السؤال. وبعدها جرّب تقولها بصوتك؛ لو الميكروفون مش متاح، هنعتبر التدريب مش متقيّم.",
+          "teacherSpeech": "اسمع نبرة How are you? زي ما اتقالت في التسجيل، وخد بالك من إيقاع الكلمات. نبرة السؤال مش لازم تكون طالعة دايمًا. بعدها جرّب تقولها بصوتك لو الميكروفون متاح.",
           "boardStateId": "B06-question-contour",
           "kind": "play-lesson-audio",
           "audioClipId": "how-are-you-question",
@@ -784,9 +784,9 @@
     },
     {
       "boardStateId": "B06-question-contour",
-      "title": "Sound of question",
-      "visualIntent": "Simple pitch curve only, with 'How are you?' after clip, not pretending to measure microphone pitch.",
-      "altText": "A spoken English question with illustrative rising/connected intonation.",
+      "title": "Natural question rhythm",
+      "visualIntent": "A modest stress/rhythm line tied to a REVIEWED audible clip, not an invented always-rising pitch contour; WH questions like How are you? often fall naturally.",
+      "altText": "Example of a polite How are you? question, with emphasis and intonation to be checked against real speech, not an automatic rising curve.",
       "portrait": "Static line graph with accessible labels.",
       "landscape": "Static line graph with accessible labels.",
       "authoredBeatId": "listen-question",
