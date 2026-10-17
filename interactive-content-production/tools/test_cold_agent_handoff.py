@@ -56,8 +56,16 @@ class ColdAgentHandoffTest(unittest.TestCase):
         tool=ROOT/'interactive-content-production/tools/coverage_gate.py'
         result=subprocess.run([sys.executable,str(tool),'check-all'],
                               capture_output=True,text=True,check=True)
-        self.assertIn('"coverageMapsChecked": 1',result.stdout)
-        self.assertIn('"structuralResult": "PASS"',result.stdout)
+        # Every registered level/lesson coverage file must be checked; adding
+        # U1-L02 must not require incrementing a hard-coded single-lesson count.
+        expected_count=len(list((ROOT/'interactive-content-production/coverage').glob('*/*.json')))
+        self.assertGreaterEqual(expected_count,2)
+        marker=result.stdout.rfind('{"coverageMapsChecked":')
+        self.assertGreaterEqual(marker,0, "missing final aggregate coverage audit")
+        summary=json.loads(result.stdout[marker:].strip())
+        self.assertEqual(summary['coverageMapsChecked'],expected_count)
+        self.assertEqual(summary['structuralResult'],'PASS')
+        self.assertIn('"lessonId": "U1-L02"',result.stdout)
 
     def test_source_and_review_gates_are_discoverable(self):
         instructions=(ROOT/'interactive-content-production/AGENTS.md').read_text()
