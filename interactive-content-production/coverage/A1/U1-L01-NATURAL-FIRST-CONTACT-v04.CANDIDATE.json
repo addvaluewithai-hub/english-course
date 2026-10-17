@@ -1,0 +1,855 @@
+{
+  "schemaVersion": "U1-L01-editorial-candidate-v04",
+  "stage": "EDITORIAL_REDESIGN_FOR_TRIAL_ONLY",
+  "sourceLevel": "A1",
+  "sourceLesson": "U1-L01",
+  "sourceRepo": "addvaluewithai-hub/english-course",
+  "ownerDesignApproach": "natural core conversation + fit-for-purpose activities; no forced insertion of 36 IDs into source audio",
+  "releaseAuthorized": false,
+  "productPR": "https://github.com/addvaluewithai-hub/englishlive/pull/54",
+  "sourceDialogue": {
+    "edition": "v04-first-contact-core-UNAPPROVED",
+    "speakerVoices": {
+      "Maya": "Aoede",
+      "Leo": "Achird"
+    },
+    "turns": [
+      {
+        "id": "t01",
+        "speaker": "Maya",
+        "text": "Good morning! I'm Maya. What's your name?"
+      },
+      {
+        "id": "t02",
+        "speaker": "Leo",
+        "text": "Hi! My name is Leo."
+      },
+      {
+        "id": "t03",
+        "speaker": "Maya",
+        "text": "Nice to meet you, Leo. How are you?"
+      },
+      {
+        "id": "t04",
+        "speaker": "Leo",
+        "text": "Pretty good, thanks. I'm feeling excited about our English class. And you?"
+      },
+      {
+        "id": "t05",
+        "speaker": "Maya",
+        "text": "Really good, thank you. I'm excited, too."
+      },
+      {
+        "id": "t06",
+        "speaker": "Leo",
+        "text": "Great! Is this your first class?"
+      },
+      {
+        "id": "t07",
+        "speaker": "Maya",
+        "text": "Yes, it is. See you inside!"
+      },
+      {
+        "id": "t08",
+        "speaker": "Leo",
+        "text": "See you, Maya!"
+      }
+    ]
+  },
+  "clips": [
+    {
+      "clipId": "full-conversation",
+      "startTurn": "t01",
+      "endTurn": "t08",
+      "startMs": null,
+      "endMs": null,
+      "approved": false
+    },
+    {
+      "clipId": "greetings-names",
+      "startTurn": "t01",
+      "endTurn": "t03",
+      "startMs": null,
+      "endMs": null,
+      "approved": false
+    },
+    {
+      "clipId": "wellbeing",
+      "startTurn": "t03",
+      "endTurn": "t05",
+      "startMs": null,
+      "endMs": null,
+      "approved": false
+    },
+    {
+      "clipId": "closing",
+      "startTurn": "t06",
+      "endTurn": "t08",
+      "startMs": null,
+      "endMs": null,
+      "approved": false
+    },
+    {
+      "clipId": "how-are-you-question",
+      "startTurn": "t03",
+      "endTurn": "t03",
+      "startMs": null,
+      "endMs": null,
+      "approved": false
+    }
+  ],
+  "audio": {
+    "factoryJobId": null,
+    "approved": false,
+    "audioUrl": null,
+    "transcriptUrl": null,
+    "vttUrl": null,
+    "purchaseApproved": false,
+    "spendCap": null,
+    "realWordTimestamps": false,
+    "teacherAudioMode": "Gemini Live PCM separately",
+    "sourceTranscriptBeforeFirstMC": "hidden",
+    "boardSync": "beat-event-based-not-live-word-aligned"
+  },
+  "scenes": [
+    {
+      "id": "s01-first-listen",
+      "purpose": "Understand the overall situation without written or narrated spoilers",
+      "beats": [
+        {
+          "beatId": "neutral-instruction",
+          "teacherSpeech": "هتسمع دلوقتي حوار قصير بين اتنين. ركّز في سبب كلامهم مع بعض، مش كل كلمة. مش لازم تفهم كل حاجة من أول مرة.",
+          "boardStateId": "B01-neutral",
+          "kind": "teach"
+        },
+        {
+          "beatId": "play-full",
+          "teacherSpeech": "اسمع الحوار كامل. ولو محتاج تسمعه تاني، استخدم زر إعادة الاستماع.",
+          "boardStateId": "B01-listening",
+          "kind": "play-lesson-audio",
+          "audioClipId": "full-conversation",
+          "transcriptVisibility": "hidden",
+          "learnerMic": "off"
+        },
+        {
+          "beatId": "gist-choice",
+          "teacherSpeech": "دلوقتي اختار وصف الموقف اللي سمعته. الإجابة مش موجودة على البورد.",
+          "boardStateId": "B01-question",
+          "kind": "quiz"
+        }
+      ],
+      "assessment": {
+        "questionId": "q01-gist",
+        "promptAr": "الموقف الأساسي في الحوار إيه؟",
+        "options": [
+          {
+            "id": "talk-last-class",
+            "text": "صاحبين بيتكلموا عن كلاس إنجليزي خلص",
+            "misconception": "Past completed class, not first contact before class"
+          },
+          {
+            "id": "teacher-intro",
+            "text": "مدرس بيشرح نظام الكلاس لطالب",
+            "misconception": "Teacher-student explanation, not two classmates greeting"
+          },
+          {
+            "id": "new-classmates",
+            "text": "اتنين بيتعرفوا على بعض قبل كلاس إنجليزي",
+            "misconception": "Actual short dialogue gist"
+          }
+        ],
+        "correctOptionId": "new-classmates",
+        "correctFeedbackAr": "صح. هما بيتعرفوا قبل كلاس إنجليزي. عرفت ده من سؤال الاسم وحديثهم عن الكلاس، مش من شكل البورد.",
+        "wrongFeedbackByOptionAr": {
+          "talk-last-class": "هم بيتكلموا قبل بداية الكلاس، مش عن كلاس خلص. اسمع عبارة excited about our English class، وبعدين See you inside.",
+          "teacher-intro": "الاتنين بيتعرفوا على بعض كزمايل، ومفيش حد فيهم بيشرح الكلاس. اسمع What's your name? وMy name is Leo."
+        },
+        "evidenceIntent": {
+          "skill": "first-listen-gist",
+          "requireActuallyHeardAudio": true,
+          "noPreAudioAnswerCues": true
+        },
+        "kind": "deterministic-mc"
+      }
+    },
+    {
+      "id": "s02-greet-names",
+      "purpose": "Understand and use greetings and name exchange in a first meeting",
+      "beats": [
+        {
+          "beatId": "replay-intro",
+          "teacherSpeech": "نسمع أول تلات جمل تاني، وبعدين ناخد التحية والاسم واحدة واحدة.",
+          "boardStateId": "B02-replay",
+          "kind": "play-lesson-audio",
+          "audioClipId": "greetings-names",
+          "transcriptVisibility": "hidden-until-playback-complete",
+          "learnerMic": "off"
+        },
+        {
+          "beatId": "greet",
+          "teacherSpeech": "Maya بدأت Good morning، تحية بنقولها الصبح. Leo رد Hi. الاتنين طرق طبيعية لبدء الكلام.",
+          "boardStateId": "B02-greeting-arrow",
+          "kind": "teach"
+        },
+        {
+          "beatId": "give-name",
+          "teacherSpeech": "Maya قالت I'm Maya، وLeo قال My name is Leo. الاتنين بيقولوا الاسم. I'm اختصار I am؛ مش محتاجين جدول قواعد كامل دلوقتي.",
+          "boardStateId": "B02-two-name-cards",
+          "kind": "teach"
+        },
+        {
+          "beatId": "ask-name",
+          "teacherSpeech": "Maya سألت What's your name? يعني اسمك إيه؟ عشان تسأل عن اسم حد، استخدم نفس السؤال؛ ولما تجاوب قول اسمك أنت.",
+          "boardStateId": "B02-question-to-name",
+          "kind": "teach"
+        },
+        {
+          "beatId": "name-choice",
+          "teacherSpeech": "جرّب تميّز سؤال الاسم عن سؤال الحال في موقف مختلف.",
+          "boardStateId": "B02-question",
+          "kind": "quiz"
+        }
+      ],
+      "assessment": {
+        "questionId": "q02-name",
+        "promptAr": "إنت عايز تسأل زميل جديد عن اسمه. هتقول إيه؟",
+        "options": [
+          {
+            "id": "what-name",
+            "text": "What's your name?",
+            "misconception": "Correct question about person's name"
+          },
+          {
+            "id": "how-you",
+            "text": "How are you?",
+            "misconception": "Question about wellbeing"
+          },
+          {
+            "id": "name-of-teacher",
+            "text": "What's the teacher's name?",
+            "misconception": "Asks about a third person's name instead"
+          }
+        ],
+        "correctOptionId": "what-name",
+        "correctFeedbackAr": "بالضبط. What's your name? معناها اسمك إيه؟ وبعدها ممكن الشخص يقول I'm Sara أو My name is Sara.",
+        "wrongFeedbackByOptionAr": {
+          "how-you": "How are you? معناها إزيك، مش اسمك إيه. سؤال الاسم هو What's your name?",
+          "name-of-teacher": "What's the teacher's name? بيسأل عن اسم المدرس، مش الشخص اللي قدامك. قول What's your name?"
+        },
+        "evidenceIntent": {
+          "skill": "identify-name-question",
+          "receptiveOnly": true
+        },
+        "kind": "deterministic-mc"
+      }
+    },
+    {
+      "id": "s03-wellbeing",
+      "purpose": "Recognize and contrast ordinary wellbeing replies and first-day feelings",
+      "beats": [
+        {
+          "beatId": "replay-how",
+          "teacherSpeech": "نسمع تاني الجزء اللي بيسألوا فيه عن الحال. اسمع رد Leo ورد Maya، وبعدين هنفهم الفرق.",
+          "boardStateId": "B03-unlabelled-two-bubbles",
+          "kind": "play-lesson-audio",
+          "audioClipId": "wellbeing",
+          "transcriptVisibility": "hidden-until-playback-complete",
+          "learnerMic": "off"
+        },
+        {
+          "beatId": "how-question",
+          "teacherSpeech": "How are you? يعني إزيك؟ السؤال هنا عن حالك، مش عن اسمك.",
+          "boardStateId": "B03-question-to-two-bubbles",
+          "kind": "teach"
+        },
+        {
+          "beatId": "two-replies",
+          "teacherSpeech": "Leo رد Pretty good, thanks؛ يعني كويس إلى حد كبير، شكرًا. Maya قالت Really good, thank you؛ يعني كويسة جدًا، شكرًا. دي ردود طبيعية، مش درجات لازم تحفظ ترتيبها.",
+          "boardStateId": "B03-pretty-vs-really",
+          "kind": "teach"
+        },
+        {
+          "beatId": "feeling-excited",
+          "teacherSpeech": "Leo قال I'm feeling excited about our English class، يعني أنا حاسس بحماس للكلاس. Maya كمان قالت I'm excited, too. Excited إحساس بالحماس، وfeeling هنا بمعنى حاسس.",
+          "boardStateId": "B03-person-feeling",
+          "kind": "teach"
+        },
+        {
+          "beatId": "thank-you",
+          "teacherSpeech": "Thanks وThank you للتعبير عن الشكر. وAnd you? بترجع نفس السؤال للشخص التاني.",
+          "boardStateId": "B03-polite-return",
+          "kind": "teach"
+        },
+        {
+          "beatId": "wellbeing-choice",
+          "teacherSpeech": "دلوقتي اختار معنى رد مناسب في موقف جديد.",
+          "boardStateId": "B03-question",
+          "kind": "quiz"
+        }
+      ],
+      "assessment": {
+        "questionId": "q03-reply",
+        "promptAr": "زميلة بتقول Really good, thank you. هي تقصد إيه؟",
+        "options": [
+          {
+            "id": "name-good",
+            "text": "هي بتقول إنها كويسة شوية، لكن مش قوي",
+            "misconception": "Confuses pretty good and really good intensity"
+          },
+          {
+            "id": "feels-very-good",
+            "text": "هي بتقول إنها كويسة جدًا وبتشكره",
+            "misconception": "Correct wellbeing plus politeness"
+          },
+          {
+            "id": "asks-about-you",
+            "text": "هي بتسأله هو عامل إيه",
+            "misconception": "Confuses answer with initiating question"
+          }
+        ],
+        "correctOptionId": "feels-very-good",
+        "correctFeedbackAr": "مظبوط. Really good هنا معناها إني كويسة جدًا، وThank you للشكر. الرد مش سؤال عن الاسم.",
+        "wrongFeedbackByOptionAr": {
+          "name-good": "Pretty good معناها كويس إلى حد كبير، لكن Really good أقوى وبتعني كويس جدًا.",
+          "asks-about-you": "الجملة رد عن حالها، مش سؤال. السؤال نفسه How are you?"
+        },
+        "evidenceIntent": {
+          "skill": "receptive-wellbeing",
+          "productiveEvidenceIsSeparate": true
+        },
+        "kind": "deterministic-mc"
+      }
+    },
+    {
+      "id": "s04-reading-note",
+      "purpose": "Read a different short written class note independently",
+      "beats": [
+        {
+          "beatId": "read-silently",
+          "teacherSpeech": "دلوقتي في ورقة قصيرة من الكلاس. اقراها بنفسك من غير ما أقولك محتواها، وبعدها جاوب.",
+          "boardStateId": "B04-actual-written-note",
+          "kind": "reading",
+          "readText": "WELCOME TO ENGLISH CLASS\nMeet new people.\nWrite your name on this card.\nIntroduce yourself to one person.\nThank you!",
+          "teacherMustNotReadNoteUntilAfterAnswer": true
+        },
+        {
+          "beatId": "reading-choice",
+          "teacherSpeech": "اختار مين المطلوب منه يعرّف بنفسه حسب التعليمات المكتوبة.",
+          "boardStateId": "B04-note-question",
+          "kind": "quiz"
+        }
+      ],
+      "assessment": {
+        "questionId": "q04-yourself",
+        "promptAr": "الورقة بتقول Introduce yourself. مين المفروض يعرّف بنفسه؟",
+        "options": [
+          {
+            "id": "new-classmate",
+            "text": "زميل تاني هيعرّفك بالناس",
+            "misconception": "Misreads yourself as somebody introducing the learner"
+          },
+          {
+            "id": "the-teacher",
+            "text": "المدرس بس هو اللي هيعرّف بنفسه",
+            "misconception": "Wrong actor of instruction"
+          },
+          {
+            "id": "you",
+            "text": "أنت هتعرّف بنفسك لشخص تاني",
+            "misconception": "Correct self-reference in written instruction"
+          }
+        ],
+        "correctOptionId": "you",
+        "correctFeedbackAr": "صح. Introduce yourself يعني عرّف بنفسك أنت. الورقة بتطلب منك تقول اسمك لشخص تاني.",
+        "wrongFeedbackByOptionAr": {
+          "new-classmate": "التعليمات بتقول yourself؛ المقصود أنت اللي تعرّف بنفسك، مش حد يعملها بدالك.",
+          "the-teacher": "المطلوب منك أنت، مش من المدرس فقط. كلمة yourself هنا بتشير لنفس الشخص اللي بياخد التعليمات."
+        },
+        "evidenceIntent": {
+          "skill": "new-short-text-reading",
+          "independentTextBeforeQuestion": true,
+          "wordEvidence": [
+            "people",
+            "yourself"
+          ]
+        },
+        "kind": "deterministic-mc"
+      }
+    },
+    {
+      "id": "s05-short-variant",
+      "purpose": "Optional bounded alternative wellbeing reply, not a second story",
+      "beats": [
+        {
+          "beatId": "tired-variant",
+          "teacherSpeech": "فيه رد طبيعي تاني لسؤال How are you؟ اسمع الجملة دي: I'm tired today. وخمّن معناها.",
+          "boardStateId": "B05-no-emotion-answer",
+          "kind": "teacher-spoken-stimulus",
+          "stimulusEn": "I'm tired today.",
+          "doNotShowMeaningBeforeAnswer": true
+        },
+        {
+          "beatId": "tired-choice",
+          "teacherSpeech": "اختار المعنى المناسب للجملة القصيرة اللي سمعتها.",
+          "boardStateId": "B05-question",
+          "kind": "quiz"
+        }
+      ],
+      "assessment": {
+        "questionId": "q05-tired",
+        "promptAr": "حد قال I'm tired today. ده معناه إيه؟",
+        "options": [
+          {
+            "id": "low-energy",
+            "text": "حاسس بتعب ومحتاج راحة",
+            "misconception": "Correct tired meaning"
+          },
+          {
+            "id": "very-excited",
+            "text": "حاسس بحماس شديد",
+            "misconception": "Confuses tired with excited"
+          },
+          {
+            "id": "feels-fine",
+            "text": "كويس إلى حد كبير",
+            "misconception": "Confuses fatigue with positive reply"
+          }
+        ],
+        "correctOptionId": "low-energy",
+        "correctFeedbackAr": "بالضبط. Tired يعني تعبان أو محتاج راحة. ده رد ممكن تسمعه على How are you؟",
+        "wrongFeedbackByOptionAr": {
+          "very-excited": "Excited معناها متحمس. Tired معناها تعبان.",
+          "feels-fine": "Pretty good معناها كويس، أما tired معناها تعبان أو مجهد."
+        },
+        "evidenceIntent": {
+          "skill": "bounded-receptive-tired",
+          "ownerDecisionPending": true
+        },
+        "kind": "deterministic-mc"
+      }
+    },
+    {
+      "id": "s06-pronunciation",
+      "purpose": "Listen/repeat question intonation and short clear A1 phrases; don't confuse echo with independent mastery",
+      "beats": [
+        {
+          "beatId": "listen-question",
+          "teacherSpeech": "اسمع نبرة How are you? زي ما اتقالت في التسجيل، وخد بالك من إيقاع الكلمات. نبرة السؤال مش لازم تكون طالعة دايمًا. بعدها جرّب تقولها بصوتك لو الميكروفون متاح.",
+          "boardStateId": "B06-question-contour",
+          "kind": "play-lesson-audio",
+          "audioClipId": "how-are-you-question",
+          "learnerMic": "off"
+        },
+        {
+          "beatId": "student-repeat",
+          "teacherSpeech": "دلوقتي قول How are you? وسجّل المحاولة لو الميكروفون شغال. بعد كده جرّب Thanks بنبرة لطيفة. مش هسجل إتقان نطق من مجرد ضغط زر.",
+          "boardStateId": "B06-intonation-active",
+          "kind": "live-repeat",
+          "speechEvidenceRequired": true,
+          "teacherCanGiveSupport": true,
+          "markStatusWhenNoMic": "not_tested"
+        }
+      ],
+      "assessment": {
+        "kind": "speech-observation",
+        "checks": [
+          "question-intonation-attempt",
+          "spoken-recognition-or-repetition"
+        ],
+        "noSpeechOrNoMicrophone": "not_evidenced",
+        "noAutomaticMastery": true
+      }
+    },
+    {
+      "id": "s07-new-speaking",
+      "purpose": "Independent fresh first contact + separate short changed moments for phrase and feeling evidence",
+      "beats": [
+        {
+          "beatId": "new-person",
+          "teacherSpeech": "هتقابل زميل جديد اسمه Sam في صباح يوم مختلف. اتكلم معاه بالإنجليزي من غير جمل جاهزة على البورد: سلّم، عرّف بنفسك، اسأل عن اسمه وحاله، ورد بأدب.",
+          "boardStateId": "B07-blank-person",
+          "kind": "live-speaking",
+          "speakerContext": "Sam, different class and morning",
+          "noModelAnswers": true
+        },
+        {
+          "beatId": "changed-moments",
+          "teacherSpeech": "بعد التعارف، هنجرب مواقف قصيرة جديدة: زميل بيسألك عن حالك قبل الكلاس، وبعد الكلاس، وبعدها عن إحساسك باليوم. كل مرة تجاوب بطريقتك.",
+          "boardStateId": "B07-neutral-context-icons",
+          "kind": "live-speaking-followups",
+          "opportunities": [
+            "wellbeing-before-class",
+            "wellbeing-after-class",
+            "feeling-about-first-day"
+          ],
+          "noFixedForcedAnswer": true
+        }
+      ],
+      "assessment": {
+        "kind": "live-teacher-judged",
+        "success": "meaningful-natural-first-contact",
+        "failExamples": [
+          "silence",
+          "Okay only",
+          "repeated Bye",
+          "name only without exchange",
+          "parroting unsupported lines"
+        ],
+        "separateProductiveEvidence": {
+          "requiredSourceIds": [
+            "oxford.phrase.online.0314",
+            "oxford.phrase.online.0346",
+            "oxford.phrase.online.0579",
+            "oxford.phrase.online.0599",
+            "oxford.phrase.online.0668",
+            "oxford.o3000.p02.011",
+            "oxford.o3000.p02.034"
+          ],
+          "statuses": [
+            "independently_observed",
+            "observed_after_support",
+            "not_observed",
+            "not_tested"
+          ],
+          "doNotAutoAwardOnLessonCompletion": true,
+          "trackActualLearnerTurnIds": true,
+          "allowMeaningfulSynonymsForConversationSuccess": true
+        }
+      }
+    }
+  ],
+  "requiredVisualStates": "Every boardStateId is a semantic SVG/React IMPLEMENTATION SPEC only; no visuals yet coded/QA",
+  "assessmentDisclosurePolicy": "Questions never appear with keyed feedback until after a learner response",
+  "qualityGates": {
+    "editorial": "draft-with-full-authored-beats-not-reviewed",
+    "curriculumOwner": "12 escalation rulings pending",
+    "productImplementation": "not_done",
+    "svgQA": "not_done",
+    "audioQA": "not_done",
+    "liveOtti": "not_done",
+    "ownerRelease": "not_authorized"
+  },
+  "boardStates": [
+    {
+      "boardStateId": "B01-neutral",
+      "title": "Listen first",
+      "visualIntent": "Two unlabeled speaker silhouettes and a neutral waveform; no class/greeting/location/answer text.",
+      "altText": "Listen to two unidentified speakers.",
+      "portrait": "Use vertically stacked figures, keep Otti lower-right clear.",
+      "landscape": "Use left/right speakers and centered play strip.",
+      "authoredBeatId": "neutral-instruction",
+      "revealPhase": "pre-audio",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B01-listening",
+      "title": "Audio active",
+      "visualIntent": "Waveform plus two speaker indicators, disabled answer cards; spoken-source transcript remains hidden until response.",
+      "altText": "Recorded two-speaker dialogue is playing.",
+      "portrait": "Place large replay/status line above safe-zone.",
+      "landscape": "Place player at center with wide margins.",
+      "authoredBeatId": "play-full",
+      "revealPhase": "source-audio-playing",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B01-question",
+      "title": "What is happening?",
+      "visualIntent": "Only the 3 authored balanced answer cards, no audio transcript or source hints.",
+      "altText": "Choose what the speakers are doing.",
+      "portrait": "Cards stacked; no scroll inside board.",
+      "landscape": "Cards in one accessible column.",
+      "authoredBeatId": "gist-choice",
+      "revealPhase": "quiz-only",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B02-replay",
+      "title": "Hear greetings",
+      "visualIntent": "Two unnamed speech bubbles with playback indicator; no word labels before replay.",
+      "altText": "Replay the greetings and names.",
+      "portrait": "Two vertical bubbles.",
+      "landscape": "Two adjacent bubbles.",
+      "authoredBeatId": "replay-intro",
+      "revealPhase": "source-audio-playing",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B02-greeting-arrow",
+      "title": "Morning greeting",
+      "visualIntent": "Sunrise icon by Maya; greeting arrow to Leo; reveal Good morning and Hi only with Otti narration.",
+      "altText": "Morning greeting followed by Hi.",
+      "portrait": "Two stacked bubbles and connector.",
+      "landscape": "Two horizontal bubbles and connector.",
+      "authoredBeatId": "greet",
+      "revealPhase": "teacher-beat",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B02-two-name-cards",
+      "title": "Names",
+      "visualIntent": "Identity badges with Maya / Leo and their distinct I'm / My name is expressions.",
+      "altText": "Maya says I'm Maya; Leo says My name is Leo.",
+      "portrait": "Stack cards vertically.",
+      "landscape": "Two cards side-by-side.",
+      "authoredBeatId": "give-name",
+      "revealPhase": "teacher-beat",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B02-question-to-name",
+      "title": "Name question",
+      "visualIntent": "What's your name? points to empty learner name slot, not an already chosen correct answer.",
+      "altText": "A question invites the other person's name.",
+      "portrait": "Question above blank card.",
+      "landscape": "Question left, blank name card right.",
+      "authoredBeatId": "ask-name",
+      "revealPhase": "teacher-beat",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B02-question",
+      "title": "Choose question",
+      "visualIntent": "Only authored name-question options; no board marking right answer.",
+      "altText": "Select which English question asks a classmate's name.",
+      "portrait": "Three button rows.",
+      "landscape": "Three button rows.",
+      "authoredBeatId": "name-choice",
+      "revealPhase": "quiz-only",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B03-unlabelled-two-bubbles",
+      "title": "Listen for replies",
+      "visualIntent": "Question symbol plus two blank speaker-answer bubbles during replay, no pretty/really labels yet.",
+      "altText": "Listen to two wellbeing replies.",
+      "portrait": "Vertical speaker bubbles.",
+      "landscape": "Side-by-side speaker bubbles.",
+      "authoredBeatId": "replay-how",
+      "revealPhase": "source-audio-playing",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B03-question-to-two-bubbles",
+      "title": "How are you",
+      "visualIntent": "How are you? question and arrows to two possible replies; answer text still hidden until next beat.",
+      "altText": "Question How are you? with two possible responses.",
+      "portrait": "Vertical arrows.",
+      "landscape": "Horizontal arrows.",
+      "authoredBeatId": "how-question",
+      "revealPhase": "teacher-beat",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B03-pretty-vs-really",
+      "title": "Two natural replies",
+      "visualIntent": "Leo pretty good, thanks versus Maya really good, thank you. No ranked mastery meter.",
+      "altText": "Two natural positive wellbeing replies.",
+      "portrait": "Two large accessible cards.",
+      "landscape": "Two cards, equally sized.",
+      "authoredBeatId": "two-replies",
+      "revealPhase": "teacher-beat",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B03-person-feeling",
+      "title": "Excited about class",
+      "visualIntent": "Single student's speech and class icon with 'I'm feeling excited'; show Maya's 'I'm excited, too' as response.",
+      "altText": "A first-day student feels excited.",
+      "portrait": "One labeled bubble at a time.",
+      "landscape": "Two bubbles with shared class icon.",
+      "authoredBeatId": "feeling-excited",
+      "revealPhase": "teacher-beat",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B03-polite-return",
+      "title": "Polite answer",
+      "visualIntent": "Speech exchange: Thanks/Thank you then And you? return arrow.",
+      "altText": "A thank-you followed by a return question.",
+      "portrait": "Two short connected steps.",
+      "landscape": "Two short horizontal steps.",
+      "authoredBeatId": "thank-you",
+      "revealPhase": "teacher-beat",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B03-question",
+      "title": "How is she?",
+      "visualIntent": "Three authored choices with equally weighted typography; no answer marked before grading.",
+      "altText": "Select the meaning of Really good, thank you.",
+      "portrait": "Single column.",
+      "landscape": "Single column.",
+      "authoredBeatId": "wellbeing-choice",
+      "revealPhase": "quiz-only",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B04-actual-written-note",
+      "title": "Class note",
+      "visualIntent": "A paper card with the exact accessible SELECTABLE English text; no Otti recitation, no answer highlight.",
+      "altText": "A welcome note asks the student to meet people, write their name and introduce themselves.",
+      "portrait": "Readable real text in portrait paper panel.",
+      "landscape": "Paper and accessible real text panel.",
+      "authoredBeatId": "read-silently",
+      "revealPhase": "reading",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B04-note-question",
+      "title": "Read and choose",
+      "visualIntent": "Keep written note readable while presenting multiple-choice options; no highlighted answer.",
+      "altText": "Choose who should introduce themselves.",
+      "portrait": "Text then answer cards; permit page scroll but no board internal scroll.",
+      "landscape": "Text left, answer cards right without masking.",
+      "authoredBeatId": "reading-choice",
+      "revealPhase": "quiz-only",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B05-no-emotion-answer",
+      "title": "Hear tired",
+      "visualIntent": "Single source sentence played via Otti, neutral face outlines; NO sleepy icon/translation before answer.",
+      "altText": "Listen to one alternative wellbeing reply.",
+      "portrait": "Neutral speech bubble.",
+      "landscape": "Neutral speech bubble.",
+      "authoredBeatId": "tired-variant",
+      "revealPhase": "teacher-beat",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B05-question",
+      "title": "Tired meaning",
+      "visualIntent": "Three plausible wellbeing meanings, with no correct-state decorations before click.",
+      "altText": "Choose the meaning of I'm tired.",
+      "portrait": "Three button rows.",
+      "landscape": "Three button rows.",
+      "authoredBeatId": "tired-choice",
+      "revealPhase": "quiz-only",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B06-question-contour",
+      "title": "Natural question rhythm",
+      "visualIntent": "A modest stress/rhythm line tied to a REVIEWED audible clip, not an invented always-rising pitch contour; WH questions like How are you? often fall naturally.",
+      "altText": "Example of a polite How are you? question, with emphasis and intonation to be checked against real speech, not an automatic rising curve.",
+      "portrait": "Static line graph with accessible labels.",
+      "landscape": "Static line graph with accessible labels.",
+      "authoredBeatId": "listen-question",
+      "revealPhase": "source-audio-playing",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B06-intonation-active",
+      "title": "Your spoken attempt",
+      "visualIntent": "Microphone readiness status, question text optionally once playback ended; no artificial pass confetti.",
+      "altText": "Learner is invited to repeat How are you and Thanks.",
+      "portrait": "Mic target in Otti-safe-zone.",
+      "landscape": "Mic target next to centered speaking prompt.",
+      "authoredBeatId": "student-repeat",
+      "revealPhase": "live-microphone",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B07-blank-person",
+      "title": "Meet Sam",
+      "visualIntent": "New fictional character only, NO modeled target phrase anywhere on board.",
+      "altText": "A new person is ready to meet the student.",
+      "portrait": "One character with clear input zone.",
+      "landscape": "Two facing characters with safe input zone.",
+      "authoredBeatId": "new-person",
+      "revealPhase": "live-speaking",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    },
+    {
+      "boardStateId": "B07-neutral-context-icons",
+      "title": "Different situations",
+      "visualIntent": "Small class-door and end-of-class pictograms without target words; prompts are spoken.",
+      "altText": "After-meeting situations invite new responses.",
+      "portrait": "Vertical neutral icons.",
+      "landscape": "Horizontal neutral icons.",
+      "authoredBeatId": "changed-moments",
+      "revealPhase": "live-speaking",
+      "implemented": false,
+      "inspectedAt320": false,
+      "inspectedAt400": false,
+      "inspectedAt1280": false
+    }
+  ],
+  "syncContract": {
+    "speechToBoard": "Board state enters with the named authored beat; no word-level promise for Live Otti.",
+    "teacherVoice": "Exact beat teacherSpeech via Gemini Live, wait for PCM actually drained before advancing.",
+    "sourceAudio": "Factory WAV only after owner-approved new edition; transcript/vtt/timestamps derived from actual rendered bytes.",
+    "audioToMic": "Mic closed before starting/while playing source WAV, opened only for voice attempt/Speaking; no captured WAV as learner speech.",
+    "playbackFailure": "fail-closed with retry, no fake listened/graded state",
+    "singleStepAdvance": "one audible completion at most one authored beat",
+    "clipValidation": "ordered non-overlapping turn boundaries, reviewed containment, exact source version, no invented ms",
+    "quiz": "Choice IDs immutable, right/wrong feedback read after response and PCM completion; preserve wrong answer attempt",
+    "wordSync": "Only prerecorded source audio with audited timestamps can be word-synced; Live Otti is beat-synced",
+    "interruption": "Cancel stale callbacks, never double-complete or open mic during source PCM"
+  },
+  "assessmentLanguagePolicy": "Listening MC uses Arabic options to avoid a hidden English reading test before the first lesson; phrase-form identification uses English options; independent reading card remains English with Arabic meaning-choice to isolate the reading target. Correct keys still ID-based."
+}

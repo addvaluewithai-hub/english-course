@@ -1,0 +1,709 @@
+{
+  "schema": "editorial-candidate-v03",
+  "status": "DRAFT_NOT_PRODUCT_CODE",
+  "sourceOfTruth": "interactive-content-production/coverage/A1/U1-L01.json",
+  "dialogueSource": "U1-L01-EXPANDED-DIALOGUE-v03.CANDIDATE.json",
+  "authoredTeacherSpeech": "U1-L01-EXPANDED-FULL-LESSON-DESIGN-v03.md",
+  "product": "https://github.com/addvaluewithai-hub/englishlive/pull/54",
+  "lessonId": "U1-L01",
+  "clips": [
+    {
+      "clipId": "full-conversation",
+      "firstTurn": 1,
+      "lastTurn": 18,
+      "startMs": null,
+      "endMs": null,
+      "audioApproved": false
+    },
+    {
+      "clipId": "first-contact",
+      "firstTurn": 1,
+      "lastTurn": 7,
+      "startMs": null,
+      "endMs": null,
+      "audioApproved": false
+    },
+    {
+      "clipId": "wellbeing-contrast",
+      "firstTurn": 3,
+      "lastTurn": 7,
+      "startMs": null,
+      "endMs": null,
+      "audioApproved": false
+    },
+    {
+      "clipId": "class-photograph",
+      "firstTurn": 8,
+      "lastTurn": 12,
+      "startMs": null,
+      "endMs": null,
+      "audioApproved": false
+    },
+    {
+      "clipId": "advice-and-close",
+      "firstTurn": 13,
+      "lastTurn": 18,
+      "startMs": null,
+      "endMs": null,
+      "audioApproved": false
+    },
+    {
+      "clipId": "leave-taking",
+      "firstTurn": 16,
+      "lastTurn": 18,
+      "startMs": null,
+      "endMs": null,
+      "audioApproved": false
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s01-gist",
+      "beats": [
+        {
+          "beatId": "s01-set",
+          "boardStateId": "B01-neutral",
+          "audioClipId": "full-conversation"
+        },
+        {
+          "beatId": "s01-choice",
+          "boardStateId": "B01-choice",
+          "audioClipId": null
+        }
+      ],
+      "assessment": {
+        "kind": "deterministic-mc",
+        "questionId": "q01",
+        "correctOptionId": "photo-of-cat",
+        "choiceIds": [
+          "photo-of-cat",
+          "photo-of-friend",
+          "class-book"
+        ],
+        "feedback": "full exact Arabic authoring in linked editorial script"
+      }
+    },
+    {
+      "id": "s02-names",
+      "beats": [
+        {
+          "beatId": "s02-replay",
+          "boardStateId": "B02-neutral",
+          "audioClipId": "first-contact"
+        },
+        {
+          "beatId": "s02-greet",
+          "boardStateId": "B02-greet",
+          "audioClipId": null
+        },
+        {
+          "beatId": "s02-name",
+          "boardStateId": "B02-names",
+          "audioClipId": null
+        },
+        {
+          "beatId": "s02-ask",
+          "boardStateId": "B02-question",
+          "audioClipId": null
+        }
+      ],
+      "assessment": {
+        "kind": "deterministic-mc",
+        "questionId": "q02",
+        "correctOptionId": "i-am-omar",
+        "choiceIds": [
+          "i-am-omar",
+          "feeling-fine",
+          "goodbye"
+        ],
+        "feedback": "full exact Arabic authoring in linked editorial script"
+      }
+    },
+    {
+      "id": "s03-wellbeing",
+      "beats": [
+        {
+          "beatId": "s03-replay",
+          "boardStateId": "B03-neutral",
+          "audioClipId": "wellbeing-contrast"
+        },
+        {
+          "beatId": "s03-answers",
+          "boardStateId": "B03-replies",
+          "audioClipId": null
+        },
+        {
+          "beatId": "s03-feelings",
+          "boardStateId": "B03-feelings",
+          "audioClipId": null
+        },
+        {
+          "beatId": "s03-sound",
+          "boardStateId": "B03-intonation",
+          "audioClipId": null
+        }
+      ],
+      "assessment": {
+        "kind": "deterministic-mc",
+        "questionId": "q03",
+        "correctOptionId": "both",
+        "choiceIds": [
+          "both",
+          "only-tired",
+          "only-sad"
+        ],
+        "feedback": "full exact Arabic authoring in linked editorial script"
+      }
+    },
+    {
+      "id": "s04-photo",
+      "beats": [
+        {
+          "beatId": "s04-replay",
+          "boardStateId": "B04-unrevealed",
+          "audioClipId": "class-photograph"
+        },
+        {
+          "beatId": "s04-class-instruction",
+          "boardStateId": "B04-instruction",
+          "audioClipId": null
+        },
+        {
+          "beatId": "s04-photo",
+          "boardStateId": "B04-photo",
+          "audioClipId": null
+        },
+        {
+          "beatId": "s04-correction",
+          "boardStateId": "B04-contrast",
+          "audioClipId": null
+        }
+      ],
+      "assessment": {
+        "kind": "deterministic-mc",
+        "questionId": "q04",
+        "correctOptionId": "not-sad",
+        "choiceIds": [
+          "not-sad",
+          "excited",
+          "name"
+        ],
+        "feedback": "full exact Arabic authoring in linked editorial script"
+      }
+    },
+    {
+      "id": "s05-advice",
+      "beats": [
+        {
+          "beatId": "s05-replay",
+          "boardStateId": "B05-neutral",
+          "audioClipId": "advice-and-close"
+        },
+        {
+          "beatId": "s05-nothing",
+          "boardStateId": "B05-status",
+          "audioClipId": null
+        },
+        {
+          "beatId": "s05-advice",
+          "boardStateId": "B05-tip",
+          "audioClipId": null
+        },
+        {
+          "beatId": "s05-close",
+          "boardStateId": "B05-change",
+          "audioClipId": null
+        }
+      ],
+      "assessment": {
+        "kind": "deterministic-mc",
+        "questionId": "q05",
+        "correctOptionId": "hello",
+        "choiceIds": [
+          "hello",
+          "go-home",
+          "no-name"
+        ],
+        "feedback": "full exact Arabic authoring in linked editorial script"
+      }
+    },
+    {
+      "id": "s06-read",
+      "beats": [
+        {
+          "beatId": "s06-set",
+          "boardStateId": "B06-note",
+          "audioClipId": null
+        }
+      ],
+      "assessment": {
+        "kind": "deterministic-mc",
+        "questionId": "q06",
+        "correctOptionId": "write-name",
+        "choiceIds": [
+          "write-name",
+          "buy-note",
+          "age-job"
+        ],
+        "feedback": "full exact Arabic authoring in linked editorial script"
+      }
+    },
+    {
+      "id": "s07-speaking",
+      "beats": [
+        {
+          "beatId": "s07-new-person",
+          "boardStateId": "B07-clear",
+          "audioClipId": null
+        }
+      ],
+      "assessment": {
+        "kind": "gemini-live-fresh-speaking",
+        "evidence": "semantic-turns-plus-seven-exact-productive-target-evidence-ledger"
+      }
+    }
+  ],
+  "sourceMappings": [
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p09.007",
+      "category": "ability",
+      "label": "Can understand basic phrases in short, simple texts. (P)",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s06-read",
+      "proposedBeatId": "s06-set",
+      "candidateEvidenceKind": "reading",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p14.001",
+      "category": "ability",
+      "label": "Can understand the main information when people introduce themselves (e.g. ‘name’, ‘age’, ‘where they are from’). (P)",
+      "originalDisposition": "bounded",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s01-gist",
+      "proposedBeatId": "s01-choice",
+      "candidateEvidenceKind": "listening",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p14.012",
+      "category": "ability",
+      "label": "Can follow speech which is very slow and carefully articulated, with long pauses. (Ca)",
+      "originalDisposition": "teach",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s01-gist",
+      "proposedBeatId": "s01-choice",
+      "candidateEvidenceKind": "listening",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p22.009",
+      "category": "ability",
+      "label": "Can give key information to introduce themselves (e.g. ‘name’, ‘age’, ‘where they are from’). (P)",
+      "originalDisposition": "bounded",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s07-speaking",
+      "proposedBeatId": "s07-new-person",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p22.018",
+      "category": "ability",
+      "label": "Can ask and answer simple questions in areas of immediate need or on very familiar topics. (Ca)",
+      "originalDisposition": "teach",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s07-speaking",
+      "proposedBeatId": "s07-new-person",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p22.020",
+      "category": "ability",
+      "label": "Can accurately repeat clearly spoken words, phrases, and short sentences. (P)",
+      "originalDisposition": "bounded",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s03-wellbeing",
+      "proposedBeatId": "s03-sound",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p22.023",
+      "category": "ability",
+      "label": "Can introduce themselves, their hobbies and interests in a basic way. (CJa)",
+      "originalDisposition": "bounded",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s07-speaking",
+      "proposedBeatId": "s07-new-person",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "ability.gse_all_objectives.gse.adult.2022.a1.p23.012",
+      "category": "ability",
+      "label": "Can make an introduction and use basic greeting and leave-taking expressions. (C)",
+      "originalDisposition": "bounded",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s07-speaking",
+      "proposedBeatId": "s07-new-person",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.phrase.online.0314",
+      "category": "phrase",
+      "label": "Good morning",
+      "originalDisposition": "teach",
+      "lockedSemanticRole": "formulaic_productive_required",
+      "proposedSceneId": "s07-speaking",
+      "proposedBeatId": "s07-new-person",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.phrase.online.0346",
+      "category": "phrase",
+      "label": "How are you?",
+      "originalDisposition": "teach",
+      "lockedSemanticRole": "formulaic_productive_required",
+      "proposedSceneId": "s07-speaking",
+      "proposedBeatId": "s07-new-person",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.phrase.online.0579",
+      "category": "phrase",
+      "label": "pretty good",
+      "originalDisposition": "teach",
+      "lockedSemanticRole": "formulaic_productive_required",
+      "proposedSceneId": "s07-speaking",
+      "proposedBeatId": "s07-new-person",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.phrase.online.0599",
+      "category": "phrase",
+      "label": "really good",
+      "originalDisposition": "teach",
+      "lockedSemanticRole": "formulaic_productive_required",
+      "proposedSceneId": "s07-speaking",
+      "proposedBeatId": "s07-new-person",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.phrase.online.0668",
+      "category": "phrase",
+      "label": "Thank you",
+      "originalDisposition": "teach",
+      "lockedSemanticRole": "formulaic_productive_required",
+      "proposedSceneId": "s07-speaking",
+      "proposedBeatId": "s07-new-person",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "egp.1741163706530x753542801715210100",
+      "category": "grammar",
+      "label": "FORM: PREDICATIVE, WITH 'BE'",
+      "originalDisposition": "contextual",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s02-names",
+      "proposedBeatId": "s02-name",
+      "candidateEvidenceKind": "guided-explanation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "egp.1741163708329x286701804737242940",
+      "category": "grammar",
+      "label": "FORM: AFFIRMATIVE DECLARATIVE",
+      "originalDisposition": "bounded",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s02-names",
+      "proposedBeatId": "s02-name",
+      "candidateEvidenceKind": "guided-explanation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "egp.1741163708329x778951051617750700",
+      "category": "grammar",
+      "label": "FORM: NEGATIVE DECLARATIVE WITH 'BE'",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s04-photo",
+      "proposedBeatId": "s04-correction",
+      "candidateEvidenceKind": "receptive-question",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "egp.1741163708789x105964971324936210",
+      "category": "grammar",
+      "label": "FORM: WITH NOUNS",
+      "originalDisposition": "bounded",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s02-names",
+      "proposedBeatId": "s02-name",
+      "candidateEvidenceKind": "guided-explanation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "egp.1741163716067x824562184770361200",
+      "category": "grammar",
+      "label": "FORM: MAIN VERB 'BE'",
+      "originalDisposition": "contextual",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s02-names",
+      "proposedBeatId": "s02-name",
+      "candidateEvidenceKind": "guided-explanation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "egp.1741163713868x463659211645272000",
+      "category": "grammar",
+      "label": "FORM: (SUBJECT) STATEMENTS",
+      "originalDisposition": "bounded",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s02-names",
+      "proposedBeatId": "s02-name",
+      "candidateEvidenceKind": "guided-explanation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "egp.1741163715288x539616242661052000",
+      "category": "grammar",
+      "label": "FORM: LINKING VERB, 'BE'",
+      "originalDisposition": "contextual",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s04-photo",
+      "proposedBeatId": "s04-correction",
+      "candidateEvidenceKind": "guided-explanation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "egp.1741163715608x123988758899529200",
+      "category": "grammar",
+      "label": "FORM: 'BE' + COMPLEMENT",
+      "originalDisposition": "contextual",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s03-wellbeing",
+      "proposedBeatId": "s03-answers",
+      "candidateEvidenceKind": "guided-explanation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p01.012",
+      "category": "word",
+      "label": "advice",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "receptive_required",
+      "proposedSceneId": "s05-advice",
+      "proposedBeatId": "s05-advice",
+      "candidateEvidenceKind": "receptive-question",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p01.013",
+      "category": "word",
+      "label": "afraid",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "receptive_required",
+      "proposedSceneId": "s03-wellbeing",
+      "proposedBeatId": "s03-feelings",
+      "candidateEvidenceKind": "receptive-question",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p01.061",
+      "category": "word",
+      "label": "be",
+      "originalDisposition": "contextual",
+      "lockedSemanticRole": "receptive_required",
+      "proposedSceneId": "s02-names",
+      "proposedBeatId": "s02-name",
+      "candidateEvidenceKind": "guided-explanation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p02.011",
+      "category": "word",
+      "label": "excited",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "productive_required",
+      "proposedSceneId": "s07-speaking",
+      "proposedBeatId": "s07-new-person",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p02.034",
+      "category": "word",
+      "label": "feeling",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "productive_required",
+      "proposedSceneId": "s07-speaking",
+      "proposedBeatId": "s07-new-person",
+      "candidateEvidenceKind": "productive-speaking",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p02.160",
+      "category": "word",
+      "label": "its",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "receptive_required",
+      "proposedSceneId": "s04-photo",
+      "proposedBeatId": "s04-photo",
+      "candidateEvidenceKind": "receptive-question",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p03.007",
+      "category": "word",
+      "label": "nothing",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "receptive_required",
+      "proposedSceneId": "s05-advice",
+      "proposedBeatId": "s05-nothing",
+      "candidateEvidenceKind": "receptive-question",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p03.056",
+      "category": "word",
+      "label": "people",
+      "originalDisposition": "bounded",
+      "lockedSemanticRole": "receptive_required",
+      "proposedSceneId": "s03-wellbeing",
+      "proposedBeatId": "s03-answers",
+      "candidateEvidenceKind": "guided-explanation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p03.064",
+      "category": "word",
+      "label": "photograph",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "receptive_required",
+      "proposedSceneId": "s04-photo",
+      "proposedBeatId": "s04-photo",
+      "candidateEvidenceKind": "receptive-question",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p03.136",
+      "category": "word",
+      "label": "sad",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "receptive_required",
+      "proposedSceneId": "s04-photo",
+      "proposedBeatId": "s04-correction",
+      "candidateEvidenceKind": "receptive-question",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p03.252",
+      "category": "word",
+      "label": "thanks",
+      "originalDisposition": "teach",
+      "lockedSemanticRole": "receptive_required",
+      "proposedSceneId": "s03-wellbeing",
+      "proposedBeatId": "s03-answers",
+      "candidateEvidenceKind": "guided-explanation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p03.274",
+      "category": "word",
+      "label": "tired",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "receptive_required",
+      "proposedSceneId": "s04-photo",
+      "proposedBeatId": "s04-correction",
+      "candidateEvidenceKind": "receptive-question",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "oxford.o3000.p04.100",
+      "category": "word",
+      "label": "yourself",
+      "originalDisposition": "escalate",
+      "lockedSemanticRole": "receptive_required",
+      "proposedSceneId": "s04-photo",
+      "proposedBeatId": "s04-class-instruction",
+      "candidateEvidenceKind": "reading",
+      "ownerRuling": "REQUIRED_PER_SOURCE",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "pronunciation.sound_perception.a1",
+      "category": "pronunciation",
+      "label": "Sound perception and word recognition",
+      "originalDisposition": "teach",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s03-wellbeing",
+      "proposedBeatId": "s03-sound",
+      "candidateEvidenceKind": "pronunciation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    },
+    {
+      "sourceId": "pronunciation.intonation_stance.a1",
+      "category": "pronunciation",
+      "label": "Intonation, interaction, and stance",
+      "originalDisposition": "teach",
+      "lockedSemanticRole": "role_requires_explicit_pedagogical_decision",
+      "proposedSceneId": "s03-wellbeing",
+      "proposedBeatId": "s03-sound",
+      "candidateEvidenceKind": "pronunciation",
+      "ownerRuling": "NOT_CHANGED",
+      "actualStudentEvidence": "NOT_COLLECTED"
+    }
+  ],
+  "qualityGates": {
+    "ownerSourceScope": "pending",
+    "recordingCost": "not_approved",
+    "actualWAV": "missing",
+    "productSVGBuild": "not_done",
+    "browserFrames": "not_run",
+    "liveSpeaking": "not_tested",
+    "release": "not_authorized"
+  }
+}
