@@ -1,0 +1,649 @@
+{
+  "schema": "A1-U1-L02-lesson-editorial-v01",
+  "status": "SCOPE_AUTHORIZED_TO_DRAFT_ONLY_NO_RELEASE",
+  "canon": "curriculum/levels/a1/design-review/07-lesson-briefs/lesson-briefs.md#u1-l02--how-old-are-you",
+  "sourceBranch": "english-course/main",
+  "semanticDecisionsPending": true,
+  "sourceOwnerGates": 13,
+  "disclosure": "Audio missing for v01; cannot claim learner heard original dialogue or recorded phone number. No paid TTS has run.",
+  "goal": "Ask/say age, hear and recognize basic functional numbers, and read age-related cards without turning the number list into a single dialogue.",
+  "ownerApprovedMethod": "Meaning-first target boards; avoid repeated two-person portraits; authentic selectable text.",
+  "sourceIntroIds": 29,
+  "dialogue": {
+    "speakers": {
+      "Maya": "Aoede",
+      "Leo": "Achird"
+    },
+    "turns": [
+      {
+        "id": "t01",
+        "speaker": "Maya",
+        "text": "Here's your English class card, Leo."
+      },
+      {
+        "id": "t02",
+        "speaker": "Leo",
+        "text": "Thanks! What do I write?"
+      },
+      {
+        "id": "t03",
+        "speaker": "Maya",
+        "text": "Your name and age. How old are you?"
+      },
+      {
+        "id": "t04",
+        "speaker": "Leo",
+        "text": "I'm nineteen years old. What about you?"
+      },
+      {
+        "id": "t05",
+        "speaker": "Maya",
+        "text": "I'm twenty-one."
+      },
+      {
+        "id": "t06",
+        "speaker": "Leo",
+        "text": "Nineteen goes here, right?"
+      },
+      {
+        "id": "t07",
+        "speaker": "Maya",
+        "text": "Yes. Write nineteen in this box."
+      },
+      {
+        "id": "t08",
+        "speaker": "Leo",
+        "text": "Great, thank you!"
+      }
+    ],
+    "wordCount": 41,
+    "approvedForPaidAudio": false
+  },
+  "supplementaryRecordedMessage": {
+    "id": "phone-message",
+    "status": "SCRIPT_ONLY_NOT_RECORDED",
+    "channel": "separate prerecorded English voicemail, not part of Maya/Leo age exchange",
+    "speech": "Hello. This is a practice number: five, zero, two, six, eight, three, six, eight. Thank you.",
+    "spokenDigits": [
+      "5",
+      "0",
+      "2",
+      "6",
+      "8",
+      "3",
+      "6",
+      "8"
+    ],
+    "fakeNumber": true,
+    "playbackRequiresActualAuditedWAV": true,
+    "afterFirstAttemptCanShowTranscript": true
+  },
+  "clips": [
+    {
+      "id": "full",
+      "turns": [
+        "t01",
+        "t02",
+        "t03",
+        "t04",
+        "t05",
+        "t06",
+        "t07",
+        "t08"
+      ],
+      "startMs": null,
+      "endMs": null,
+      "approved": false
+    },
+    {
+      "id": "age-exchange",
+      "turns": [
+        "t03",
+        "t04",
+        "t05"
+      ],
+      "startMs": null,
+      "endMs": null,
+      "approved": false
+    },
+    {
+      "id": "phone-message",
+      "independentRecordedMessage": true,
+      "startMs": null,
+      "endMs": null,
+      "approved": false
+    }
+  ],
+  "scenes": [
+    {
+      "id": "listen-first",
+      "goal": "Recognize the broad practical situation by listening, with no spoiler",
+      "beats": [
+        {
+          "id": "listen-neutral",
+          "teacherSpeechAr": "هتسمع دلوقتي اتنين بيتكلموا بالإنجليزي. مش مطلوب تفهم كل كلمة. اسمع، وبعدين اختار هما بيعملوا إيه.",
+          "visualMode": "neutral-listen",
+          "boardStateId": "board-listen-neutral",
+          "board": {
+            "head": "LISTEN",
+            "subtitle": "اسمع من غير ما تعرف الإجابة",
+            "relationship": "Neutral waveform; not a form, age, or numbers graphic"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered",
+          "sourceAudioClipId": "full",
+          "revealPolicy": "no answers or transcript before first quiz"
+        },
+        {
+          "id": "listen-question",
+          "teacherSpeechAr": "دلوقتي جاوب حسب اللي سمعته. لو محتاج، اسمعه تاني.",
+          "visualMode": "unanswered-question",
+          "boardStateId": "board-listen-question",
+          "board": {
+            "head": "WHAT IS HAPPENING?",
+            "subtitle": "فكر في الموقف قبل الإجابة",
+            "relationship": "Neutral question mark; no topic labels"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered",
+          "replayAllowed": true
+        }
+      ],
+      "assessment": {
+        "id": "q-listen",
+        "kind": "deterministic-mc",
+        "questionAr": "هما بيعملوا إيه في الحوار؟",
+        "options": [
+          {
+            "id": "finished",
+            "text": "بيتكلموا عن كلاس خلص",
+            "misconception": "Mishears present form as post-class recap"
+          },
+          {
+            "id": "card",
+            "text": "بيكتبوا بياناتهم على بطاقة للكلاس",
+            "misconception": "The source gist"
+          },
+          {
+            "id": "tickets",
+            "text": "بيشتروا تذاكر بأرقام مختلفة",
+            "misconception": "Mistakes numeric information as price/tickets"
+          }
+        ],
+        "correctId": "card",
+        "correctFeedbackAr": "صح. Maya بتساعد Leo يكتب بياناته على بطاقة الكلاس، ومن ضمنها السن.",
+        "wrongFeedbackAr": "مش بالضبط. في التسجيل فيه class card وwrite وage. دول بيدلوا على بطاقة فيها بيانات، مش تذاكر أو كلاس انتهى.",
+        "evidence": {
+          "skill": "audio-gist",
+          "requireAudio": true
+        },
+        "answerHiddenBeforeAttempt": true
+      }
+    },
+    {
+      "id": "age-meaning",
+      "goal": "Understand and use How old are you? and X years old as a social information exchange",
+      "beats": [
+        {
+          "id": "replay-age",
+          "teacherSpeechAr": "نسمع الجزء اللي Maya بتسأل فيه عن السن، وLeo بيرد.",
+          "visualMode": "neutral-replay",
+          "boardStateId": "board-replay-age",
+          "board": {
+            "head": "AGE QUESTION",
+            "subtitle": "اسمع السؤال والرد",
+            "relationship": "Neutral two blank speech bubbles"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered",
+          "sourceAudioClipId": "age-exchange",
+          "revealPolicy": "do not expose phrase before replay"
+        },
+        {
+          "id": "ask-age",
+          "teacherSpeechAr": "How old are you؟ يعني عندك كام سنة؟ ده سؤال عن السن. بنستخدمه لما الموقف مناسب، زي استمارة الكلاس.",
+          "visualMode": "question-meaning",
+          "boardStateId": "board-ask-age",
+          "board": {
+            "head": "How old are you?",
+            "subtitle": "عندك كام سنة؟",
+            "relationship": "Question arrow to empty age slot"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
+        },
+        {
+          "id": "answer-age",
+          "teacherSpeechAr": "Leo قال I'm nineteen years old. يعني عندي تسعتاشر سنة. عبارة years old بتيجي بعد الرقم عشان نقول السن.",
+          "visualMode": "phrase-chunk",
+          "boardStateId": "board-answer-age",
+          "board": {
+            "head": "I'm nineteen years old.",
+            "subtitle": "أنا عندي ١٩ سنة",
+            "relationship": "I’m + 19 + years old with visually separate age slot"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
+        },
+        {
+          "id": "two-ages",
+          "teacherSpeechAr": "Maya قالت I'm twenty-one. الرد الأقصر طبيعي برضه لما السياق واضح. وLeo سأل What about you? يعني وإنت؟ تعبير بنرجع بيه نفس السؤال لصاحبنا.",
+          "visualMode": "age-contrast",
+          "boardStateId": "board-two-ages",
+          "board": {
+            "head": "What about you?",
+            "subtitle": "وإنت؟ · I'm twenty-one.",
+            "relationship": "Return the same age question naturally, then contrast short and full age response."
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
+        },
+        {
+          "id": "age-choice",
+          "teacherSpeechAr": "سمعت Leo قال عمره كام في الحوار؟ افتكر الرقم اللي قاله بعد I'm، ولو محتاج اسمع مقطع السن تاني.",
+          "visualMode": "unanswered-question",
+          "boardStateId": "board-age-choice",
+          "board": {
+            "head": "WHAT AGE DID LEO SAY?",
+            "subtitle": "اسمع · افتكر · اختار",
+            "relationship": "Neutral listening question; no exact age printed before learner answer."
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered",
+          "sourceAudioClipId": "age-exchange",
+          "replayAllowed": true
+        }
+      ],
+      "assessment": {
+        "id": "q-age-listening",
+        "kind": "deterministic-mc",
+        "questionAr": "Leo قال عمره كام سنة في التسجيل؟",
+        "options": [
+          {
+            "id": "19",
+            "text": "19",
+            "misconception": "Correct speaker age, nineteen years old"
+          },
+          {
+            "id": "21",
+            "text": "21",
+            "misconception": "Confuses Maya's age with Leo's"
+          },
+          {
+            "id": "90",
+            "text": "90",
+            "misconception": "Confuses nineteen/ninety sound"
+          }
+        ],
+        "correctId": "19",
+        "correctFeedbackAr": "مظبوط. Leo قال I'm nineteen years old، يعني عنده 19 سنة. Maya سنها 21.",
+        "wrongFeedbackAr": "اسمع Leo في مقطع السن تاني. هو قال nineteen يعني 19، لكن twenty-one هي Maya.",
+        "evidence": {
+          "skill": "source-recording-age-comprehension",
+          "requireAudio": true,
+          "noTranscriptPreAnswer": true
+        },
+        "answerHiddenBeforeAttempt": true
+      }
+    },
+    {
+      "id": "number-patterns",
+      "goal": "Hear and distinguish functional numbers 11–100, without turning every word into a production objective",
+      "beats": [
+        {
+          "id": "number-hear",
+          "teacherSpeechAr": "الأرقام مهمة هنا. اسمع ثلاثة عشر وتلاتين بالإنجليزي: thirteen وthirty. اسمع الفرق في النهاية.",
+          "visualMode": "neutral-listen",
+          "boardStateId": "board-number-hear",
+          "board": {
+            "head": "HEAR TWO NUMBERS",
+            "subtitle": "اسمع الأول",
+            "relationship": "Unlabelled side-by-side audio circles"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered",
+          "teacherStimuliEn": [
+            "thirteen",
+            "thirty"
+          ],
+          "realAudioRecognitionRequired": true
+        },
+        {
+          "id": "teen-ty",
+          "teacherSpeechAr": "اسمع مكان النبرة: thirTEEN بنأكد على النهاية، لكن THIRty بنأكد على أول الكلمة. ونفس الفرق بين nineTEEN وNINEty. عشان كده مش بس الحروف مهمة، النبرة نفسها مهمة.",
+          "visualMode": "number-contrast",
+          "boardStateId": "board-teen-ty",
+          "board": {
+            "head": "thirTEEN · THIRty",
+            "subtitle": "13 ≠ 30 / 19 ≠ 90",
+            "relationship": "Audible word-stress contrast, emphasis on teen vs beginning of ty numbers; no fabricated pitch telemetry"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
+        },
+        {
+          "id": "twenty-one",
+          "teacherSpeechAr": "أما twenty-one فهي عشرين وواحد. رقم 21. ونقدر نقول thirty-two يعني 32. ومئة نقول one hundred؛ دي معرفة الرقم مش سن واحد.",
+          "visualMode": "number-builder",
+          "boardStateId": "board-twenty-one",
+          "board": {
+            "head": "twenty + one = 21",
+            "subtitle": "one hundred = 100",
+            "relationship": "tens and units build a number; 100 outside routine age practice"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
+        },
+        {
+          "id": "number-choice",
+          "teacherSpeechAr": "دلوقتي هقول رقم مرة جديدة من غير ما أوريك الكتابة الأول: ninety. اختار الرقم اللي سمعته.",
+          "visualMode": "audio-question",
+          "boardStateId": "board-number-choice",
+          "board": {
+            "head": "LISTEN TO THE NUMBER",
+            "subtitle": "اختار اللي سمعت",
+            "relationship": "Three equal number tiles shown only after spoken stimulus"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered",
+          "teacherStimulusEn": "ninety",
+          "readStimulusBeforeChoices": true
+        }
+      ],
+      "assessment": {
+        "id": "q-number-hear",
+        "kind": "deterministic-mc",
+        "questionAr": "سمعت كلمة ninety. ده أنهي رقم؟",
+        "options": [
+          {
+            "id": "19",
+            "text": "19",
+            "misconception": "Confuses teen with ty"
+          },
+          {
+            "id": "9",
+            "text": "9",
+            "misconception": "Confuses nine with ninety"
+          },
+          {
+            "id": "90",
+            "text": "90",
+            "misconception": "Correct ninety"
+          }
+        ],
+        "correctId": "90",
+        "correctFeedbackAr": "مظبوط. Ninety هي تسعين. Nineteen هي تسعتاشر؛ اسمع نهاية الكلمة.",
+        "wrongFeedbackAr": "Ninety نهايتها ty ودي 90. لكن nineteen نهايتها teen ودي 19. جرّب تسمع الفرق مرة تانية.",
+        "evidence": {
+          "skill": "spoken-number-recognition",
+          "notReadNumberBeforeStimulus": true
+        },
+        "answerHiddenBeforeAttempt": true
+      }
+    },
+    {
+      "id": "pictured-cards",
+      "goal": "Answer a basic question about a visible numbered object/card",
+      "beats": [
+        {
+          "id": "picture-set",
+          "teacherSpeechAr": "قدامك تلات بطاقات أرقام. هسألك عن بطاقة محددة. بص على الأرقام واسمع السؤال.",
+          "visualMode": "number-cards",
+          "boardStateId": "board-picture-set",
+          "board": {
+            "head": "NUMBER CARDS",
+            "subtitle": "13   ·   19   ·   90",
+            "relationship": "Three real labeled card objects, not a person portrait"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
+        },
+        {
+          "id": "picture-query",
+          "teacherSpeechAr": "Which card shows nineteen? يعني أنهي بطاقة عليها رقم تسعتاشر؟ اختار البطاقة المناسبة.",
+          "visualMode": "audio-question",
+          "boardStateId": "board-picture-query",
+          "board": {
+            "head": "WHICH CARD?",
+            "subtitle": "اختار البطاقة بعد السؤال",
+            "relationship": "No highlighted correct card"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered",
+          "teacherStimulusEn": "Which card shows nineteen?"
+        }
+      ],
+      "assessment": {
+        "id": "q-card",
+        "kind": "deterministic-mc",
+        "questionAr": "Which card shows nineteen?",
+        "options": [
+          {
+            "id": "19",
+            "text": "19",
+            "misconception": "Correct nineteen"
+          },
+          {
+            "id": "13",
+            "text": "13",
+            "misconception": "Misidentifies thirteen"
+          },
+          {
+            "id": "90",
+            "text": "90",
+            "misconception": "Confuses nineteen and ninety"
+          }
+        ],
+        "correctId": "19",
+        "correctFeedbackAr": "صح. Nineteen يعني 19. بطاقتها مختلفة عن 90 اللي هي ninety.",
+        "wrongFeedbackAr": "شوف الرقم 19. Nineteen فيها teen. لو اخترت 90 فدي ninety.",
+        "evidence": {
+          "skill": "spoken-question-with-picture",
+          "visualCardEvidence": true
+        },
+        "answerHiddenBeforeAttempt": true
+      }
+    },
+    {
+      "id": "voicemail",
+      "goal": "Understand a simple phone number from a separate recorded message, not from age conversation",
+      "beats": [
+        {
+          "id": "voicemail-context",
+          "teacherSpeechAr": "نشاط مختلف شوية: هتسمع رسالة مسجلة فيها رقم تليفون للتدريب. دي أرقام خيالية ومش بيانات شخص حقيقي. اسمع من غير أرقام مكتوبة.",
+          "visualMode": "neutral-listen",
+          "boardStateId": "board-voicemail-context",
+          "board": {
+            "head": "LISTEN TO A MESSAGE",
+            "subtitle": "الرقم مش ظاهر قبل الاستماع",
+            "relationship": "Neutral audio waveform, no keypad digits"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered",
+          "sourceAudioClipId": "phone-message",
+          "requireSeparateRecordedVoice": true,
+          "transcriptVisibility": "hidden-until-graded"
+        },
+        {
+          "id": "voicemail-question",
+          "teacherSpeechAr": "إيه آخر رقمين سمعتهم في التسجيل؟ لو محتاج تقدر تعيد الرسالة.",
+          "visualMode": "unanswered-question",
+          "boardStateId": "board-voicemail-question",
+          "board": {
+            "head": "LAST TWO DIGITS?",
+            "subtitle": "اختار من اللي سمعت",
+            "relationship": "Three answer tiles shown, none selected"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
+        }
+      ],
+      "assessment": {
+        "id": "q-phone",
+        "kind": "deterministic-mc",
+        "questionAr": "آخر رقمين في الرسالة المسجلة كانوا إيه؟",
+        "options": [
+          {
+            "id": "86",
+            "text": "86",
+            "misconception": "Reversed sequence"
+          },
+          {
+            "id": "63",
+            "text": "63",
+            "misconception": "Grabs a wrong adjacent pair"
+          },
+          {
+            "id": "68",
+            "text": "68",
+            "misconception": "Correct final digits"
+          }
+        ],
+        "correctId": "68",
+        "correctFeedbackAr": "مظبوط. آخر رقمين اتقالوا هما six, eight يعني 6 وبعدها 8.",
+        "wrongFeedbackAr": "اسمع نهاية الرسالة تاني. هتسمع six وبعدها eight، يعني 68 بالترتيب، مش 86.",
+        "evidence": {
+          "skill": "recorded-phone-number-reception",
+          "mustUseActualRecordedMessage": true,
+          "failClosedWhenMissing": true
+        },
+        "answerHiddenBeforeAttempt": true
+      }
+    },
+    {
+      "id": "be-questions",
+      "goal": "Bounded everyday be questions for age, no whole grammar-system lecture",
+      "beats": [
+        {
+          "id": "are-you",
+          "teacherSpeechAr": "في السن ممكن تسأل Are you nineteen? يعني هل عندك تسعتاشر سنة؟ دي صيغة سؤال للتأكيد غير How old are you اللي بيسأل عن الرقم من الأول.",
+          "visualMode": "grammar-contrast",
+          "boardStateId": "board-are-you",
+          "board": {
+            "head": "How old are you?",
+            "subtitle": "Are you nineteen?",
+            "relationship": "Open question asks age; yes/no question confirms a guess"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
+        },
+        {
+          "id": "who-is",
+          "teacherSpeechAr": "ولما قدامك بطاقتين لشخصين، تسأل Who is nineteen? يعني مين اللي عنده 19؟ هنا Who هي اللي بتسأل عن الشخص. هنستخدمها في سياق واضح وبس.",
+          "visualMode": "grammar-subject",
+          "boardStateId": "board-who-is",
+          "board": {
+            "head": "Who is nineteen?",
+            "subtitle": "مين عنده 19؟",
+            "relationship": "Who → the relevant profile card, not verb conjugation table"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
+        },
+        {
+          "id": "question-check",
+          "teacherSpeechAr": "قدامك بطاقة سن مكتوب عليها 19، وعايز تتأكد إن صاحبها سنه 19. اختار سؤال التأكيد.",
+          "visualMode": "unanswered-question",
+          "boardStateId": "board-question-check",
+          "board": {
+            "head": "CONFIRM THE AGE",
+            "subtitle": "مش مطلوب تقول رقم جديد",
+            "relationship": "One 19 card remains visible, answer alternatives not on board"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
+        }
+      ],
+      "assessment": {
+        "id": "q-be-confirm",
+        "kind": "deterministic-mc",
+        "questionAr": "زميلك كتب 19، وإنت عايز تتأكد من سنه. تقول إيه؟",
+        "options": [
+          {
+            "id": "who",
+            "text": "Who is nineteen?",
+            "misconception": "Asks which person, not confirming this person's age"
+          },
+          {
+            "id": "are",
+            "text": "Are you nineteen?",
+            "misconception": "Correct confirmation"
+          },
+          {
+            "id": "how",
+            "text": "How old are you?",
+            "misconception": "Asks age afresh rather than confirming 19"
+          }
+        ],
+        "correctId": "are",
+        "correctFeedbackAr": "صح. Are you nineteen? معناها هل عندك تسعتاشر سنة؟ دي مناسبة للتأكد من الرقم اللي شفته.",
+        "wrongFeedbackAr": "How old are you? هتسأل عن الرقم من البداية. Who is nineteen? هتسأل مين الشخص. لكن للتأكد: Are you nineteen?",
+        "evidence": {
+          "skill": "bounded-be-interrogative",
+          "subjectQuestionSeparate": true
+        },
+        "answerHiddenBeforeAttempt": true
+      }
+    },
+    {
+      "id": "fresh-speaking",
+      "goal": "Independently ask and give age with a new fictional identity, not reading a complete answer",
+      "beats": [
+        {
+          "id": "sam-role",
+          "teacherSpeechAr": "دلوقتي موقف جديد: إنت بتملأ بطاقة دخول لكلاس جديد، وشخص اسمه Sam بيسألك عن سنك. البطاقة الخيالية مكتوب فيها 24. جاوبه بجملة طبيعية من غير ما أظهرلك الجملة كاملة.",
+          "visualMode": "speaking-number-card",
+          "boardStateId": "board-sam-role",
+          "board": {
+            "head": "ROLE CARD · 24",
+            "subtitle": "YOU ↔ SAM",
+            "relationship": "Only the role number 24 shown; no English model answer"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered",
+          "roleAge": 24,
+          "mode": "fictional-persona"
+        },
+        {
+          "id": "ask-sam",
+          "teacherSpeechAr": "دلوقتي إنت اسأل Sam عن سنّه. وبعد رده، اسأله سؤال تأكيد مناسب لو محتاج. أنا هسمع ردّك وأسئلتك.",
+          "visualMode": "unprompted-transfer",
+          "boardStateId": "board-ask-sam",
+          "board": {
+            "head": "ASK SAM",
+            "subtitle": "سؤالك بصوتك",
+            "relationship": "Empty speech area; no How old are you? answer cheat"
+          },
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered",
+          "expectedIndependentEvidence": [
+            "X years old",
+            "age question",
+            "bounded confirmation"
+          ],
+          "doNotAutoPass": true
+        }
+      ],
+      "assessment": {
+        "kind": "gemini-live-speaking",
+        "purpose": "Genuine short age-information exchange and meaning, with exact phrase proof separately.",
+        "success": "Meaningful age answer in English and learner-initiated age question in a changed context.",
+        "sourcePhraseEvidence": [
+          {
+            "sourceId": "oxford.phrase.online.0748",
+            "requiredStatus": "independent_observed",
+            "target": "X years old"
+          }
+        ],
+        "grammarEvidence": "Be questions observed when produced, not automatically mastered from MC.",
+        "falsePassExamples": [
+          "silence",
+          "okay only",
+          "reading a preprinted English answer",
+          "speaking nineteen for a displayed 24",
+          "answering only a name",
+          "repeating Bye"
+        ],
+        "uncertaintyPolicy": "If mic unavailable or teacher unsure, mark NOT_TESTED/NOT_EVIDENCED, not mastered."
+      }
+    }
+  ],
+  "transitionContract": {
+    "primary": "one authored beat per drained Otti PCM; audio clips finish audibly before next",
+    "sourcePlayback": "never autoplay synthetic/fake WAV, fail closed if not commissioned",
+    "board": "one meaning-oriented board per beat; Otti bottom safe zone",
+    "answers": "board never shows keyed response pre-first-listen or during unanswered MC",
+    "speaking": "Gemini Live teacher with independent utterance evidence and weak-answer counterexamples"
+  },
+  "qualityGates": {
+    "scriptCritique": "PENDING_SECOND_REVIEW",
+    "sourceReview": "14_ROWS_OWNER_PENDING",
+    "svgReact": "NOT_IMPLEMENTED",
+    "sourceWav": "NOT_COMMISSIONED",
+    "phoneMessageWav": "NOT_COMMISSIONED",
+    "browserFrames": "NOT_RUN",
+    "liveOtti": "NOT_TESTED",
+    "ownerAcceptance": "NOT_APPROVED",
+    "release": "BLOCKED"
+  }
+}
