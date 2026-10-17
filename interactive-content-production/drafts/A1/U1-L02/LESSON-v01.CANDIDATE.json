@@ -234,44 +234,47 @@
         },
         {
           "id": "age-choice",
-          "teacherSpeechAr": "خلّينا نجرب سؤال جديد عن العمر.",
+          "teacherSpeechAr": "سمعت Leo قال عمره كام في الحوار؟ افتكر الرقم اللي قاله بعد I'm، ولو محتاج اسمع مقطع السن تاني.",
           "visualMode": "unanswered-question",
           "boardStateId": "board-age-choice",
           "board": {
-            "head": "ASK ABOUT AGE",
-            "subtitle": "اختار السؤال الصح",
-            "relationship": "Question-only; hide keyed phrase"
+            "head": "WHAT AGE DID LEO SAY?",
+            "subtitle": "اسمع · افتكر · اختار",
+            "relationship": "Neutral listening question; no exact age printed before learner answer."
           },
-          "teacherAudio": "Gemini Live PCM, NOT pre-rendered"
+          "teacherAudio": "Gemini Live PCM, NOT pre-rendered",
+          "sourceAudioClipId": "age-exchange",
+          "replayAllowed": true
         }
       ],
       "assessment": {
-        "id": "q-age-question",
+        "id": "q-age-listening",
         "kind": "deterministic-mc",
-        "questionAr": "إنت عايز تسأل زميلك عن سنّه، أنهي سؤال مناسب؟",
+        "questionAr": "Leo قال عمره كام سنة في التسجيل؟",
         "options": [
           {
-            "id": "old",
-            "text": "How old are you?",
-            "misconception": "Correct age question"
+            "id": "19",
+            "text": "19",
+            "misconception": "Correct speaker age, nineteen years old"
           },
           {
-            "id": "name",
-            "text": "What's your name?",
-            "misconception": "Identity, not age"
+            "id": "21",
+            "text": "21",
+            "misconception": "Confuses Maya's age with Leo's"
           },
           {
-            "id": "class",
-            "text": "Are you in this class?",
-            "misconception": "Class membership, not age"
+            "id": "90",
+            "text": "90",
+            "misconception": "Confuses nineteen/ninety sound"
           }
         ],
-        "correctId": "old",
-        "correctFeedbackAr": "مظبوط. How old are you؟ معناها عندك كام سنة، والرد ممكن يكون I'm nineteen years old.",
-        "wrongFeedbackAr": "What's your name؟ ده عن الاسم، وAre you in this class؟ عن الكلاس. سؤال السن هو How old are you؟",
+        "correctId": "19",
+        "correctFeedbackAr": "مظبوط. Leo قال I'm nineteen years old، يعني عنده 19 سنة. Maya سنها 21.",
+        "wrongFeedbackAr": "اسمع Leo في مقطع السن تاني. هو قال nineteen يعني 19، لكن twenty-one هي Maya.",
         "evidence": {
-          "skill": "functional-age-question",
-          "readingOfShortPhrase": true
+          "skill": "source-recording-age-comprehension",
+          "requireAudio": true,
+          "noTranscriptPreAnswer": true
         },
         "answerHiddenBeforeAttempt": true
       }
